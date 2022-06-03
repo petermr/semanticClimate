@@ -15,7 +15,23 @@ Initially we will start with AR6 WGIII but move onto other WG's and perhaps look
 
 ## Strategy
 
-Create a directory ("CProject") with all current PDFs (Chapters, etc.)
+* Create a directory ("CProject") with all current PDFs (Chapters, etc.)
 Location: https://github.com/petermr/semanticClimate/ipcc
+
+Download components, using a hierarchical naming scheme, and convert to text (`pdf2txt`)
+
+```
+semanticClimate pm286$ cd ipcc/ar6/wg3/
+$ ls
+Chapter01.pdf
+$ mkdir Chapter01
+$ cp Chapter01.pdf Chapter01/fulltext.pdf
+$ cd Chapter01
+$ pdf2txt.py -o fulltext.txt fulltext.pdf 
+$ ls
+fulltext.pdf	fulltext.txt
+```
+
+
 
 
