@@ -16,4 +16,6 @@ Initially we will start with AR6 WGIII but move onto other WG's and perhaps look
 ## Strategy
 
 Create a directory ("CProject") with all current PDFs (Chapters, etc.)
-Location:
+Location: https://github.com/petermr/semanticClimate/ipcc
+
+
