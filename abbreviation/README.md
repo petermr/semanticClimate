@@ -1,1 +1,26 @@
+**Abbreviation Extraction**
 
+This folder contains all the codes and the outcomes of the different methodology used for extracting Abbreviation from HTML and their full forms.
+The dataset used for abbreviation extraction task can be found in [here](https://github.com/petermr/pyami/tree/main/temp/html) which consists of the starting 300 pages of the Climate Report. 
+**Dataset Link**: https://github.com/petermr/pyami/tree/main/temp/html
+
+The code which I have used to extract abbreviations from the HTML files can be found in the link below:
+https://github.com/ananyas168/petermr/blob/main/climate_abbreviation_extraction.ipynb
+
+ The idea behind the code is as follows:
+
+- Convert an HTML to raw text using BeautifulSoup.
+
+- Extracting abbreviations using the NLP tool based on the [Schwartz-Hearst algorithm](https://psb.stanford.edu/psb-online/proceedings/psb03/schwartz.pdf). ( Here is the link for the tool: https://github.com/philgooch/abbreviation-extraction/blob/develop/README.md) and using scispacy abbreviation extractor
+
+- Saving the extracted raw text and the abbreviations in txt format.
+
+
+The sturcture of the folder is explained below:
+- Subfolder:**Codes** contains the ipynb file of the code which is used for extracting the abbreviation in the above mentioned methodology.
+- Subfolder: **Outcomes/Pages** contains the extracted raw text from HTML and the abbreviations in respective txt files.
+
+Inside Subfolder **Outcomes/Pages** there are subsubfolder named as **page_X**, where X stands for the page noumber. And Inside this subsubfolder you can find three .txt files, namely:
+-
+-
+-
