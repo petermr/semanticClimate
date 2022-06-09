@@ -1,4 +1,5 @@
-**Abbreviation Extraction**
+   **Abbreviation Extraction**
+##
 
 This folder contains all the codes and the outcomes of the different methodology used for extracting Abbreviation from HTML and their full forms.
 The dataset used for abbreviation extraction task can be found in [here](https://github.com/petermr/pyami/tree/main/temp/html) which consists of the starting 300 pages of the Climate Report. 
@@ -20,7 +21,8 @@ The sturcture of the folder is explained below:
 - Subfolder:**Codes** contains the ipynb file of the code which is used for extracting the abbreviation in the above mentioned methodology.
 - Subfolder: **Outcomes/Pages** contains the extracted raw text from HTML and the abbreviations in respective txt files.
 
-Inside Subfolder **Outcomes/Pages** there are subsubfolder named as **page_X**, where X stands for the page noumber. And Inside this subsubfolder you can find three .txt files, namely:
--
--
--
+
+
+Inside Subfolder **Outcomes/Pages** there are subsubfolder named as **page_X**, where X stands for the page noumber.
+And Inside this subsubfolder you can find three .txt files, namely:
+- 
