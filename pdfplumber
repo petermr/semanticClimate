@@ -1,0 +1,73 @@
+from pathlib import Path
+import pdfplumber
+from test.test_resource import Resources
+class Resources:
+
+    RESOURCES_DIR = Path(Path(__file__).parent.parent, "py4ami", "resources")
+    TEST_RESOURCES_DIR = Path(Path(__file__).parent, "resources")
+    assert TEST_RESOURCES_DIR.exists(), f"dir exists {TEST_RESOURCES_DIR}"
+    assert TEST_RESOURCES_DIR.is_dir(), f"file exists {TEST_RESOURCES_DIR}"
+    TEMP_DIR = Path(TEST_RESOURCES_DIR.parent.parent, "temp")
+    if not TEMP_DIR.exists():
+        TEMP_DIR.mkdir()
+    assert TEMP_DIR.is_dir(), f"file exists {TEMP_DIR}"
+IPCC_Chapter04_DIR = Path(Resources.TEST_RESOURCES_DIR, "ipcc_Chapter04")
+IPCC_Chapter04 = Path(IPCC_Chapter04_DIR, "IPCC_Chapter04.pdf")
+def test_read_IPCC_Chapter04(self):
+        """read multipage document and extract properties
+        """
+assert IPCC_Chapter04.exists(), f"{IPCC_Chapter04} should exist"
+with pdfplumber.open(IPCC_Chapter04) as pdf:
+            pages = list(pdf.pages)
+            assert len(pages) == 51
+            for page in pages:
+    
+              def debug_page_properties(self, page):
+                print(f"\n\n======page: {page.page_number} ===========")
+                print_words(page)
+                print_lines(page)
+                print_rects(page, debug=False)
+                print_curves(page)
+                print_images(page)
+                print_tables(page)
+                print_hyperlinks(page)
+                print_annots(page)
+                self.debug_page_properties(page)
+
+# ==============================
+
+def print_words(page):
+    print(f"words {len(page.extract_words())}", end=" | ")
+def print_lines(page):
+    if (n_line := len(page.lines)) > 0:
+        print(f"lines {n_line}", end=" | ")
+
+def print_rects(page):
+    def print_rects(page, debug=False):
+        if (n_rect := len(page.rects)) > 0:
+            print(f"rects {n_rect}", end=" | ")
+        for rect in page.rects:
+            print(f"rect (({rect['x0']},{rect['x1']}),({rect['y0']},{rect['y1']})) ")
+        if debug:
+            for rect in page.rects:
+                print(f"rect (({rect['x0']},{rect['x1']}),({rect['y0']},{rect['y1']})) ")
+
+def print_curves(page):
+    if (n_curve := len(page.curves)) > 0:
+        print(f"curves {n_curve}", end=" | ")
+        for curve in page.curves:
+            print(f"curve {curve['points']}")
+def print_images(page):
+    if (n_image := len(page.images)) > 0:
+        print(f"images {n_image}", end=" | ")
+        for image in page.images:
+            print(f"image: {image.values()}")
+def print_tables(page):
+    if (n_table := len(page.find_tables())) > 0:
+        print(f"tables {n_table}", end=" | ")
+def print_hyperlinks(page):
+    if (n_hyper := len(page.hyperlinks)) > 0:
+        print(f"hyperlinks {n_hyper}", end=" | ")
+def print_annots(page):
+    if (n_annot := len(page.annots)) > 0:
+        print(f"annots {n_annot}", end=" | ")
