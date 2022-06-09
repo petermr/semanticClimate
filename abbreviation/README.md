@@ -25,4 +25,10 @@ The sturcture of the folder is explained below:
 
 Inside Subfolder **Outcomes/Pages** there are subsubfolder named as **page_X**, where X stands for the page noumber.
 And Inside this subsubfolder you can find three .txt files, namely:
-- 
+- page_X_dictionary_SH.txt  -->  contains the abbreviation extracted using [Schwartz-Hearst algorithm](https://psb.stanford.edu/psb-online/proceedings/psb03/schwartz.pdf).
+
+- page_X_dictionary_Spacy.txt -->  contains the abbreviation extracted scispacy abbreviation extractor.
+
+- page_X_text.txt           -->   contains the raw text extracted by BeutifulSoup from HTML.
+
+where X represents the page number. 
