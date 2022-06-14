@@ -12,8 +12,8 @@ The goal is to extract useful information from the IPCC documents so that crisp 
 
 <h4> What is chapter 7 about?  </h4>
 
-<b>Title</b>Agriculture, Forestry and Other Land Uses. 
-This chapter focuses on managed ecosystems and theri ability to offer mitigation opportunities for climate change.
+<b>Title: </b>Agriculture, Forestry and Other Land Uses. 
+<p>This chapter focuses on managed ecosystems and theri ability to offer mitigation opportunities for climate change.</p>
 
 <h4> Work flow </h4> 
 
