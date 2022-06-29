@@ -23,11 +23,11 @@ https://github.com/ananyas168/petermr/blob/main/climate_abbreviation_extraction.
 
 The structure of the folder is explained below:
 - Subfolder:**Codes** contains the ipynb file of the code which is used for extracting the abbreviation in the above mentioned methodology.
-- Subfolder: **Outcomes/Pages** contains the extracted raw text from HTML and the abbreviations in respective txt files.
+- Subfolder: **Pages** contains the extracted raw text from HTML and the abbreviations in respective txt files.
 
 
 
-Inside Subfolder **Outcomes/Pages** there are subsubfolder named as **page_X**, where X stands for the page noumber.
+Inside Subfolder **Pages** there are subsubfolder named as **page_X**, where X stands for the page noumber.
 And Inside this subsubfolder you can find three .txt files, namely:
 - page_X_dictionary_SH.txt  -->  contains the abbreviation extracted using [Schwartz-Hearst algorithm](https://psb.stanford.edu/psb-online/proceedings/psb03/schwartz.pdf).
 
@@ -37,4 +37,4 @@ And Inside this subsubfolder you can find three .txt files, namely:
 
 where X represents the page number. 
 
-The final output is stored inside **Outcomes** folder with the name abbreviation_table in a csv ormat which represents the our output formation aftter running through the code(an easy to read and access format in csv).
+The final output is presentin the parent folder with the name **abbreviation_table.csv** in a csv ormat which represents the our output formation aftter running through the code(an easy to read and access format in csv).
