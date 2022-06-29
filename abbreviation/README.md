@@ -15,9 +15,13 @@ https://github.com/ananyas168/petermr/blob/main/climate_abbreviation_extraction.
 - Extracting abbreviations using the NLP tool based on the [Schwartz-Hearst algorithm](https://psb.stanford.edu/psb-online/proceedings/psb03/schwartz.pdf). ( Here is the link for the tool: https://github.com/philgooch/abbreviation-extraction/blob/develop/README.md) and using scispacy abbreviation extractor
 
 - Saving the extracted raw text and the abbreviations in txt format.
+- Creating a final table with abbreviation, longform, count and wiki_lookup links in it.(see the image below for reference)
+![image](https://user-images.githubusercontent.com/66965350/176548200-6d04fd5b-44a4-460d-bbcc-dfafcde13871.png)
 
 
-The sturcture of the folder is explained below:
+
+
+The structure of the folder is explained below:
 - Subfolder:**Codes** contains the ipynb file of the code which is used for extracting the abbreviation in the above mentioned methodology.
 - Subfolder: **Outcomes/Pages** contains the extracted raw text from HTML and the abbreviations in respective txt files.
 
