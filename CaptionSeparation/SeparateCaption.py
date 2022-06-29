@@ -1,11 +1,11 @@
-def cap_separator() -> list:
+def cap_separator(address: str) -> list:
     """
     Function to separate the caption from normal text of the image.
 
     """
     d = {'normal':[], 'caption':[]}
     flag = 0
-    with open('fivet.txt', 'r') as file:
+    with open(address, 'r') as file:
         # reading each line
         for line in file:
             # reading each word
