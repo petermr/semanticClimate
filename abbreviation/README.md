@@ -36,3 +36,5 @@ And Inside this subsubfolder you can find three .txt files, namely:
 - page_X_text.txt           -->   contains the raw text extracted by BeutifulSoup from HTML.
 
 where X represents the page number. 
+
+The final output is stored inside **Outcomes** folder with the name abbreviation_table in a csv ormat which represents the our output formation aftter running through the code(an easy to read and access format in csv).
