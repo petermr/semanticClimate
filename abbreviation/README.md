@@ -16,7 +16,7 @@ https://github.com/ananyas168/petermr/blob/main/climate_abbreviation_extraction.
 
 - Saving the extracted raw text and the abbreviations in txt format.
 - Creating a final table with abbreviation, longform, count and wiki_lookup links in it.(see the image below for reference)
-![image](https://user-images.githubusercontent.com/66965350/176548200-6d04fd5b-44a4-460d-bbcc-dfafcde13871.png)
+![image](https://user-images.githubusercontent.com/66965350/176549219-bcbd726d-2dbf-4787-90a7-be87ae4bdc6f.png)
 
 
 
