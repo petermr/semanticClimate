@@ -1,0 +1,96 @@
+abbreviation,long_form,count,wiki_search_links
+VRE,Variable Renewable Energy,21,['//www.wikidata.org/wiki/Q7915732']
+SDGs,sustainable development goals,10,"['//www.wikidata.org/wiki/Q7649586', '//www.wikidata.org/wiki/Q22547988', '//www.wikidata.org/wiki/Q61794491']"
+TPES,"total primary energy
+supply",8,[]
+TFC,total final energy consumption,12,[]
+CSP,"Concentrating
+solar
+power
+",20,[]
+LIBs,LIBs (yellow background,16,[]
+BEVs,"battery
+electric vehicles",2,[]
+FIT,"feed-in-tariffs
+",3,"['//www.wikidata.org/wiki/Q16980581', '//www.wikidata.org/wiki/Q5441167', '//www.wikidata.org/wiki/Q5441168', '//www.wikidata.org/wiki/Q57733427']"
+ETS,emission trading schemes,9,[]
+LPG,liquefied petroleum gas,18,"['//www.wikidata.org/wiki/Q351609', '//www.wikidata.org/wiki/Q57756085', '//www.wikidata.org/wiki/Q100538112', '//www.wikidata.org/wiki/Q100538109']"
+LCOE,Levelized costs of electricity,17,[]
+LCA,life-cycle analysis,7,['//www.wikidata.org/wiki/Q581950']
+CIGS,"copper indium
+gallium
+diselenide
+",1,[]
+PERC,passivated emitter and rear cell,2,[]
+OLEDs,organic light emitting diodes,1,"['//www.wikidata.org/wiki/Q35733158', '//www.wikidata.org/wiki/Q58237246']"
+LTO,•Long-term operation,1,[]
+DALYs,disability adjusted life years,1,[]
+CC,"CCS
+Natural Gas",2,[]
+CDR,carbon dioxide removal,48,"['//www.wikidata.org/wiki/Q56298528', '//www.wikidata.org/wiki/Q59296188', '//www.wikidata.org/wiki/Q59411018']"
+HTL,hydrothermal liquefaction,2,"['//www.wikidata.org/wiki/Q16878117', '//www.wikidata.org/wiki/Q57424975', '//www.wikidata.org/wiki/Q57424979']"
+LNG,liquefied natural gas,3,"['//www.wikidata.org/wiki/Q358333', '//www.wikidata.org/wiki/Q15709854', '//www.wikidata.org/wiki/Q57048007', '//www.wikidata.org/wiki/Q65090691', '//www.wikidata.org/wiki/Q59638137', '//www.wikidata.org/wiki/Q59612438', '//www.wikidata.org/wiki/Q59639438']"
+EROI,energy return of investment,13,[]
+OTEC,ocean thermal energy conversion,1,"['//www.wikidata.org/wiki/Q1125947', '//www.wikidata.org/wiki/Q58440605', '//www.wikidata.org/wiki/Q20860098']"
+CCS,"carbon capture and storage
+",127,"['//www.wikidata.org/wiki/Q41491', '//www.wikidata.org/wiki/Q5037942', '//www.wikidata.org/wiki/Q64461615', '//www.wikidata.org/wiki/Q55880906']"
+EVs,electric vehicles,4,"['//www.wikidata.org/wiki/Q57076275', '//www.wikidata.org/wiki/Q57868935', '//www.wikidata.org/wiki/Q57539419', '//www.wikidata.org/wiki/Q58514673', '//www.wikidata.org/wiki/Q58210671']"
+DACCS,"direct air carbon
+capture and storage",7,[]
+LABs,lead-acid batteries,2,[]
+PTES,"Pumped
+Thermal Energy Storage",1,[]
+RHFCs,"Reversible hydrogen fuel cells
+",1,[]
+LOHCs,liquid organic hydrogen carriers,5,"['//www.wikidata.org/wiki/Q18624145', '//www.wikidata.org/wiki/Q59666770', '//www.wikidata.org/wiki/Q57076081', '//www.wikidata.org/wiki/Q64163800']"
+LFAC,low-frequency AC transmission,3,[]
+HWACT,"half-wave
+AC
+transmission
+",2,[]
+IEA,International Energy Agency,87,"['//www.wikidata.org/wiki/Q826700', '//www.wikidata.org/wiki/Q48802009']"
+LDVs,"light-duty vehicles
+",2,[]
+BECCS,"be
+produced
+through
+biomass gasification with CCS",33,[]
+ATR,"auto-thermal
+reforming
+",1,[]
+SMR,"steam
+methane
+reforming
+",8,[]
+LAM,Latin America & Caribbean,2,['//www.wikidata.org/wiki/Q74207312']
+AF,Africa,3,"['//www.wikidata.org/wiki/Q15', '//www.wikidata.org/wiki/Q181238', '//www.wikidata.org/wiki/Q4689536', '//www.wikidata.org/wiki/Q136898', '//www.wikidata.org/wiki/Q383824', '//www.wikidata.org/wiki/Q383842', '//www.wikidata.org/wiki/Q58029171']"
+DEV,Developed Countries,2,"['//www.wikidata.org/wiki/Q132453', '//www.wikidata.org/wiki/Q60037241']"
+APC,"and Developing Pacific
+",2,[]
+HDI,human development index,1,"['//www.wikidata.org/wiki/Q38994', '//www.wikidata.org/wiki/Q111703806']"
+EVER,"Ecological Vehicles and Renewable
+Energies",1,[]
+DDPP,"Deep
+Decarbonization Pathways Project",1,[]
+MMV,"Measurement, Monitoring and Verification
+",1,[]
+EPCC,European Perceptions of Climate Change,3,[]
+PtL,Power-to-Liquids,1,[]
+IoT,Internet of Things,1,"['//www.wikidata.org/wiki/Q251212', '//www.wikidata.org/wiki/Q96708225', '//www.wikidata.org/wiki/Q96325266', '//www.wikidata.org/wiki/Q59408925', '//www.wikidata.org/wiki/Q110262629', '//www.wikidata.org/wiki/Q56534729', '//www.wikidata.org/wiki/Q57660634']"
+PRIS,Power Reactor Information System,3,['//www.wikidata.org/wiki/Q72743160']
+CDU,carbon dioxide utilisation,1,['//www.wikidata.org/wiki/Q57762663']
+PVSC,Photovoltaic Specialist Conference,1,[]
+KEBA,Kinetic Energy Budget of the Atmosphere,1,[]
+ATB,Annual Technoloy Baseline,2,[]
+SMRs,"Small
+Modular
+Reactors
+",3,[]
+MTES,Motivation Toward the Environment Scale,1,[]
+LOHC,"Liquid-Organic
+Hydrogen
+Carrier
+",2,[]
+CROI,carbon return on investment,1,[]
+ICCEP,"International Conference on Clean Electrical Power
+",1,[]
