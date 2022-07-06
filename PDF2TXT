@@ -11,6 +11,12 @@
      ls
      fulltext.pdf	fulltext.txt
      
+     
+     If you do not get fulltext.txt after running the ls command then, install pdfminer.six and execute the following commads in the Command Prompt:
+
+    cd pdfminer.six
+    python tools/pdf2txt.py "Copy path.pdf" -o "Copy path.txt"
+    
   *What are the results?
    A folder was created names Chapter04 in the path specified in Terminal. 2 files named Chapter04 were saved. One in .pdf format & another in .txt format.
    
