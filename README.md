@@ -31,7 +31,11 @@ $ pdf2txt.py -o fulltext.txt fulltext.pdf
 $ ls
 fulltext.pdf	fulltext.txt
 ```
+If you do not get `fulltext.txt` after running the `ls` command then, install `pdfminer.six` and execute the following commads in the Command Prompt:
 
-
+```
+cd pdfminer.six
+python tools/pdf2txt.py "Copy path.pdf" -o "Copy path.txt"
+```
 
 
