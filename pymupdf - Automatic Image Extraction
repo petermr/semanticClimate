@@ -1,0 +1,28 @@
+Step1: install pymupdf
+python -m pip install --upgrade pymupdf
+
+Step2: Making a directory for the images
+mkdir [file path]
+mkdir C:/Users/Pg/VS_Code/semanticClimate/ipcc/ar6/wg3/Chapter06/images
+
+Step3: Find out all the commands
+python -m fitz extract -h
+usage: fitz extract [-h] [-images] [-fonts] [-output OUTPUT] [-password PASSWORD] [-pages PAGES] input
+
+--------------------- extract images and fonts to disk --------------------
+
+positional arguments:
+  input               PDF filename
+
+optional arguments:
+  -h, --help          show this help message and exit
+  -images             extract images
+  -fonts              extract fonts
+  -output OUTPUT      folder to receive output, defaults to current
+  -password PASSWORD  password
+  -pages PAGES        consider these pages only, format: 1,5-7,50-N
+
+Step4: Image Extraction
+python -m fitz extract -images -output [output file path] [input file path]
+python -m fitz extract -images -output C:\Users\enaks\semanticClimate\ipcc\ar6\wg3\Chapter04\images C:\Users\enaks\semanticClimate\ipcc\ar6\wg3\Chapter04\fulltext.pdf
+
