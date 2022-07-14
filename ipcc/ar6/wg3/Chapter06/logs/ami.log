@@ -1,0 +1,45 @@
+08:57:45.331 INFO  org.contentmine.ami.tools.AMI - args: [-t, ., pdfbox]
+08:57:45.350 DEBUG org.contentmine.ami.tools.AMI - Specified verbosity=0, this translates to level=WARN
+08:57:45.350 DEBUG org.contentmine.ami.tools.AMI - Reconfiguring Console appender with WARN
+08:57:45.351 INFO  org.contentmine.ami.tools.AMI - (The console will show WARN level messages)
+08:57:45.351 INFO  org.contentmine.ami.tools.AMI - (Logs will also be printed to /Users/pm286/projects/semanticClimate/ipcc/ar6/wg3/Chapter06/logs/ami.log)
+08:57:45.472 DEBUG org.contentmine.ami.tools.AMI - Version: ami 2021.09.27_15.49-NEXT-SNAPSHOT
+(jar:file:/Users/pm286/workspace/cmdev/ami3/target/appassembler/repo/ami3-2021.09.27_15.49-NEXT-SNAPSHOT.jar)
+JVM: 14.0.1 (Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 14.0.1+7)
+OS: Mac OS X 10.16 x86_64
+
+08:57:45.472 WARN  org.contentmine.ami.tools.AbstractAMITool - 
+08:57:45.472 WARN  org.contentmine.ami.tools.AbstractAMITool - Generic values (AMIPDFTool)
+08:57:45.473 WARN  org.contentmine.ami.tools.AbstractAMITool - ================================
+08:57:45.564 INFO  org.contentmine.ami.tools.AbstractAMITool - input basename      null
+08:57:45.564 INFO  org.contentmine.ami.tools.AbstractAMITool - input basename list null
+08:57:45.564 INFO  org.contentmine.ami.tools.AbstractAMITool - cproject            
+08:57:45.564 INFO  org.contentmine.ami.tools.AbstractAMITool - ctree               /Users/pm286/projects/semanticClimate/ipcc/ar6/wg3/Chapter06/.
+08:57:45.565 INFO  org.contentmine.ami.tools.AbstractAMITool - cTreeList           [.]
+08:57:45.565 INFO  org.contentmine.ami.tools.AbstractAMITool - excludeBase         {}
+08:57:45.565 INFO  org.contentmine.ami.tools.AbstractAMITool - excludeTrees        {}
+08:57:45.565 INFO  org.contentmine.ami.tools.AbstractAMITool - forceMake           false
+08:57:45.565 INFO  org.contentmine.ami.tools.AbstractAMITool - includeBase         {}
+08:57:45.565 INFO  org.contentmine.ami.tools.AbstractAMITool - includeTrees        null
+08:57:45.565 INFO  org.contentmine.ami.tools.AbstractAMITool - log4j               {}
+08:57:45.565 INFO  org.contentmine.ami.tools.AbstractAMITool - verbose             0
+08:57:45.565 WARN  org.contentmine.ami.tools.AbstractAMITool - 
+08:57:45.565 WARN  org.contentmine.ami.tools.AbstractAMITool - Specific values (AMIPDFTool)
+08:57:45.566 WARN  org.contentmine.ami.tools.AbstractAMITool - ================================
+08:57:45.566 INFO  org.contentmine.ami.tools.AbstractAMITool - Command line options for 'ami pdfbox':
+08:57:45.567 INFO  org.contentmine.ami.tools.AbstractAMITool - --debug             : d AMI_BRIEF
+08:57:45.567 INFO  org.contentmine.ami.tools.AbstractAMITool - --imagedir          : d pdfimages/
+08:57:45.567 INFO  org.contentmine.ami.tools.AbstractAMITool - --maxpages          : d         5
+08:57:45.568 INFO  org.contentmine.ami.tools.AbstractAMITool - --maxprimitives     : d      5000
+08:57:45.568 INFO  org.contentmine.ami.tools.AbstractAMITool - --minimagesize      : d   (10,10)
+08:57:45.568 INFO  org.contentmine.ami.tools.AbstractAMITool - --pages             : d      null
+08:57:45.568 INFO  org.contentmine.ami.tools.AbstractAMITool - --parser            : d       two
+08:57:45.568 INFO  org.contentmine.ami.tools.AbstractAMITool - --no-pdfimages      : d      true
+08:57:45.568 INFO  org.contentmine.ami.tools.AbstractAMITool - --pdf2txt           : d     false
+08:57:45.568 INFO  org.contentmine.ami.tools.AbstractAMITool - --svgdir            : d      svg/
+08:57:45.569 INFO  org.contentmine.ami.tools.AbstractAMITool - --no-svgpages       : d      true
+08:57:45.569 INFO  org.contentmine.ami.tools.AbstractAMITool - --tidysvg           : d [concat, spaces]
+08:57:45.569 INFO  org.contentmine.ami.tools.AbstractAMITool - --help              : d     false
+08:57:45.569 INFO  org.contentmine.ami.tools.AbstractAMITool - --version           : d     false
+08:57:45.569 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: .
+08:57:45.569 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: .

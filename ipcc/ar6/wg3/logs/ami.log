@@ -1,0 +1,10 @@
+13:41:23.864 INFO  org.contentmine.ami.tools.AMI - args: [pdfbox, --help]
+13:41:23.883 DEBUG org.contentmine.ami.tools.AMI - Specified verbosity=0, this translates to level=WARN
+13:41:23.883 DEBUG org.contentmine.ami.tools.AMI - Reconfiguring Console appender with WARN
+13:41:23.884 INFO  org.contentmine.ami.tools.AMI - (The console will show WARN level messages)
+13:41:23.884 INFO  org.contentmine.ami.tools.AMI - (Logs will also be printed to /Users/pm286/projects/semanticClimate/ipcc/ar6/wg3/logs/ami.log)
+13:41:24.070 DEBUG org.contentmine.ami.tools.AMI - Version: ami 2021.09.27_15.49-NEXT-SNAPSHOT
+(jar:file:/Users/pm286/workspace/cmdev/ami3/target/appassembler/repo/ami3-2021.09.27_15.49-NEXT-SNAPSHOT.jar)
+JVM: 14.0.1 (Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 14.0.1+7)
+OS: Mac OS X 10.16 x86_64
+

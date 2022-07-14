@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="813.04" width="536.2" xmlns="http://www.w3.org/2000/svg">
+ <g id="page" xmlns:svgx="http://www.xml-cml.org/schema/svgx">
+  <g begin="text">
+   <text y="45.72" x="72.024,78.162,81.231,86.751,91.587,94.7,97.46,105.376,110.896,116.416,121.218,124.928,130.448,138.971,143.872,149.392,152.517,155.277,163.082,166.791,171.594,175.303" svgx:width="0.56,0.28,0.5,0.44,0.28,0.25,0.72,0.5,0.5,0.44,0.33,0.5,0.78,0.44,0.5,0.28,0.25,0.72,0.33,0.44,0.33,0.28" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">Final Government Draft</text>
+  </g>
+  <g begin="text">
+   <text y="45.72" x="178.37" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="45.72" x="273.41,280.729,286.249,291.151,296.671,299.796,304.598,308.307,311.067,316.587" svgx:width="0.67,0.5,0.44,0.5,0.28,0.44,0.33,0.25,0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">Chapter 16</text>
+  </g>
+  <g begin="text">
+   <text y="45.72" x="322.03" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="45.72" x="443.38" svgx:width="0.33" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">I</text>
+  </g>
+  <g begin="text">
+   <text y="45.72" x="446.98,453.118,460.416,467.735" svgx:width="0.56,0.67,0.67,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">PCC </text>
+  </g>
+  <g begin="text">
+   <text y="45.72" x="470.5,478.416,485.735,491.255" svgx:width="0.72,0.67,0.5,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">AR6 </text>
+  </g>
+  <g begin="text">
+   <text y="45.72" x="494.02,504.442,512.413,516.089,519.699" svgx:width="0.94,0.72,0.33,0.33,0.33" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">WGIII</text>
+  </g>
+  <g begin="text">
+   <text y="45.72" x="523.44" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="803.04" x="72.024,79.94,85.46,88.22,96.135,101.655,105.365,108.125,116.04,119.154,122.753,127.655,130.415,133.075,141.708,147.847,153.367,157.043,161.868,164.628,170.148,175.049,177.809,185.78,188.75,192.945,196.655,201.556,204.681,210.819,216.803,220.512" svgx:width="0.72,0.5,0.25,0.72,0.5,0.33,0.25,0.72,0.28,0.33,0.44,0.25,0.25,0.78,0.56,0.5,0.33,0.44,0.25,0.5,0.44,0.25,0.72,0.28,0.39,0.33,0.44,0.28,0.56,0.56,0.33,0.44" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-BoldMT;font-size:11.04px;stroke:none;">Do Not Cite, Quote or Distribute</text>
+  </g>
+  <g begin="text">
+   <text y="803.04" x="225.41" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-BoldMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="803.04" x="282.05,287.57" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">16</text>
+  </g>
+  <g begin="text">
+   <text y="803.04" x="293.11" svgx:width="0.33" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">-</text>
+  </g>
+  <g begin="text">
+   <text y="803.04" x="296.71,302.23,307.75" svgx:width="0.5,0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">140</text>
+  </g>
+  <g begin="text">
+   <text y="803.04" x="313.27" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="803.04" x="316.03" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="803.04" x="450.1,456.845,462.365,465.435,470.259,473.372,476.132,481.652,486.554,491.975,496.876,501.204,504.207" svgx:width="0.61,0.5,0.28,0.44,0.28,0.25,0.5,0.44,0.5,0.44,0.39,0.28,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">Total pages: </text>
+  </g>
+  <g begin="text">
+   <text y="803.04" x="506.98,512.5,518.02" svgx:width="0.5,0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">141</text>
+  </g>
+  <g begin="text">
+   <text y="803.04" x="523.44" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-BoldMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="82.22" x="72.024,82.446,85.46,88.573,93.475,96.489,101.39,109.361,113.656,119.176" svgx:width="0.94,0.28,0.28,0.44,0.28,0.44,0.72,0.39,0.5,0.28" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">Witajewski</text>
+  </g>
+  <g begin="text">
+   <text y="82.22" x="122.3" svgx:width="0.33" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">-</text>
+  </g>
+  <g begin="text">
+   <text y="82.22" x="125.9,133.219,138.022,141.135,144.248,149.647,152.76,155.763,161.283,165.578,168.338,170.998,175.293,178.053,180.813,183.474,190.219,192.835,195.474,203.39,208.291,212.023,217.543,223.063,226.066,229.179,234.578,237.691,240.451,243.09,247.991,253.511,259.031,261.692,271.507,274.267,276.927,283.529,288.431,293.951,299.471,304.892,308.005,310.765,313.282,318.802,324.322,329.842,335.362,338.475,341.114,344.713,350.233,355.753,361.273,366.075,370.977,376.497,379.158,382.271,387.073,391.975,397.495,403.015,408.436,411.549,417.069,422.467,425.581,430.482,435.296,438.409,441.048,445.95,451.47,456.393,461.913,467.312,472.214,474.874,479.776,485.296,490.816,493.477,498.279,503.799,508.701,512.322,517.842,523.241" svgx:width="0.67,0.44,0.28,0.28,0.5,0.28,0.28,0.5,0.39,0.25,0.25,0.39,0.25,0.25,0.25,0.61,0.25,0.25,0.72,0.44,0.33,0.5,0.5,0.28,0.28,0.5,0.28,0.25,0.25,0.44,0.5,0.5,0.25,0.89,0.25,0.25,0.61,0.44,0.5,0.5,0.5,0.28,0.25,0.25,0.5,0.5,0.5,0.5,0.28,0.25,0.33,0.5,0.5,0.5,0.44,0.44,0.5,0.25,0.28,0.44,0.44,0.5,0.5,0.5,0.28,0.5,0.5,0.28,0.44,0.44,0.28,0.25,0.44,0.5,0.44,0.5,0.5,0.44,0.25,0.44,0.5,0.5,0.25,0.44,0.5,0.44,0.33,0.5,0.5,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">Baltvilks, J., E. Verdolini, and M. Tavoni, 2017: Induced technological change and energy </text>
+  </g>
+  <g begin="text">
+   <text y="82.22" x="48.48" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">1</text>
+  </g>
+  <g begin="text">
+   <text y="82.22" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="94.94" x="96.024,100.926,104.657,108.256,111.37,116.172,119.285,124.187,129.707,134.521,140.041,142.801,145.803,154.437,159.835,163.545,169.065,174.585,179.387,188.02,192.922,198.343,201.456,205.751,208.511" svgx:width="0.44,0.33,0.33,0.28,0.44,0.28,0.44,0.5,0.44,0.5,0.25,0.28,0.78,0.5,0.33,0.5,0.5,0.44,0.78,0.44,0.5,0.28,0.39,0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">efficiency improvements. </text>
+  </g>
+  <g begin="text">
+   <text y="94.94" x="211.37,217.972,223.492,228.394,232.721,238.241,243.143,245.903,252.516,257.418,262.938,268.458" svgx:width="0.61,0.5,0.44,0.39,0.5,0.44,0.25,0.61,0.44,0.5,0.5,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-ItalicMT;font-size:11.04px;stroke:none;">Energy Econ.</text>
+  </g>
+  <g begin="text">
+   <text y="94.94" x="271.25,274.01" svgx:width="0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">, </text>
+  </g>
+  <g begin="text">
+   <text y="94.94" x="276.77,282.17" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-BoldMT;font-size:11.04px;stroke:none;">68</text>
+  </g>
+  <g begin="text">
+   <text y="94.94" x="287.71,290.47,293.23,298.75" svgx:width="0.25,0.25,0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">, 17</text>
+  </g>
+  <g begin="text">
+   <text y="94.94" x="304.27" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">–</text>
+  </g>
+  <g begin="text">
+   <text y="94.94" x="309.79,315.189,320.709,323.469,326.229,331.749,337.147,340.15,343.263,348.783,354.303,357.063,362.583,368.103,373.502,379.022,382.025,385.138,387.898,392.8,398.22,403.122,408.046,413.566,416.326,421.846,427.245,432.764,438.284,441.044,446.564,452.084,454.844,460.243,465.763,471.283" svgx:width="0.5,0.5,0.25,0.25,0.5,0.5,0.28,0.28,0.5,0.5,0.25,0.5,0.5,0.5,0.5,0.28,0.28,0.25,0.44,0.5,0.44,0.44,0.5,0.25,0.5,0.5,0.5,0.5,0.25,0.5,0.5,0.25,0.5,0.5,0.5,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">32, doi:10.1016/j.eneco.2017.10.032.</text>
+  </g>
+  <g begin="text">
+   <text y="94.94" x="474.1" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="94.94" x="48.48" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">2</text>
+  </g>
+  <g begin="text">
+   <text y="94.94" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="113.66" x="72.024,82.446,87.966,91.587,94.7,100.22,102.98,110.3,115.201,120.721,126.241,128.902,131.662,137.182,142.702,148.222,153.621,156.734" svgx:width="0.94,0.5,0.33,0.28,0.5,0.25,0.67,0.44,0.5,0.5,0.25,0.25,0.5,0.5,0.5,0.5,0.28,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">World Bank, 2014: </text>
+  </g>
+  <g begin="text">
+   <text y="113.66" x="159.5,168.619,174.139,178.434,181.459,186.979,189.617,197.533,202.435,207.358,212.26,215.385,220.783,226.303,234.219,239.121,244.641,247.765,250.403,254.113,259.633,265.031,268.145,273.046,278.467,281.58,287.1,291.296,295.59,298.35,303.87,309.291,314.811" svgx:width="0.83,0.5,0.39,0.28,0.5,0.25,0.72,0.44,0.44,0.44,0.28,0.5,0.5,0.72,0.44,0.5,0.28,0.25,0.33,0.5,0.5,0.28,0.44,0.5,0.28,0.5,0.39,0.39,0.25,0.5,0.5,0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-ItalicMT;font-size:11.04px;stroke:none;">World Development Indicators 2014</text>
+  </g>
+  <g begin="text">
+   <text y="113.66" x="320.47,323.23,325.99,332.735,338.255,343.157,345.785,356.206,361.726,365.348,368.461,373.981" svgx:width="0.25,0.25,0.61,0.5,0.44,0.25,0.94,0.5,0.33,0.28,0.5,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">. The World </text>
+  </g>
+  <g begin="text">
+   <text y="113.66" x="376.75,384.069,388.971,394.491,399.912,402.672,405.432,415.854,420.667,424.962,430.382,433.496,439.016,444.536,447.538,453.058,458.578,461.338,464.098,472.014,474.774,482.094,484.854" svgx:width="0.67,0.44,0.5,0.5,0.25,0.25,0.94,0.44,0.39,0.5,0.28,0.5,0.5,0.28,0.5,0.5,0.25,0.25,0.72,0.25,0.67,0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">Bank, Washington, D.C,.</text>
+  </g>
+  <g begin="text">
+   <text y="113.66" x="487.54" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="113.66" x="48.48" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">3</text>
+  </g>
+  <g begin="text">
+   <text y="113.66" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="132.14" x="72.024,82.446,87.966,91.587,94.7,100.22,103.687,107.286,112.806,115.919,120.721,123.835,126.838,131.739,136.553,139.666,145.186,149.988,153.102,156.568,162.707,166.383,171.804,177.324,182.225,185.846,188.96,194.358,197.825,205.741,209.45,214.97,219.872,225.292,228.406,233.307,238.121,241.234,244.347,249.746,255.266,258.026,261.493,267.013,272.533,278.053,283.451,286.564" svgx:width="0.94,0.5,0.33,0.28,0.5,0.25,0.33,0.5,0.28,0.44,0.28,0.28,0.44,0.44,0.28,0.5,0.44,0.28,0.25,0.56,0.33,0.5,0.5,0.44,0.33,0.28,0.5,0.25,0.72,0.33,0.5,0.44,0.5,0.28,0.44,0.44,0.28,0.28,0.5,0.5,0.25,0.25,0.5,0.5,0.5,0.5,0.28,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">World Intellectual Property Organization, 2008: </text>
+  </g>
+  <g begin="text">
+   <text y="132.14" x="290.11,299.339,303.049,309.651,317.566,321.033,324.743,330.263,333.376,338.178,341.292,344.294,349.196,354.01,357.123,362.643,368.163,371.166,374.632,381.378,385.672,391.192,396.591,401.493,405.82,408.823,413.725,417.214,425.129,430.528,436.048,441.568,447.088,452.608,458.128,462.93,466.64,470.106,476.852,482.372,485.341,488.455,493.257,498.159,500.919,504.408,510.546,516.066,523.253" svgx:width="0.83,0.33,0.61,0.72,0.25,0.33,0.5,0.28,0.44,0.28,0.28,0.44,0.44,0.28,0.5,0.5,0.28,0.25,0.61,0.39,0.5,0.5,0.44,0.39,0.28,0.44,0.25,0.72,0.5,0.5,0.5,0.5,0.5,0.5,0.44,0.33,0.25,0.61,0.5,0.28,0.28,0.44,0.44,0.25,0.25,0.56,0.5,0.67,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-ItalicMT;font-size:11.04px;stroke:none;">WIPO Intellectual Property Handbook: Policy, Law </text>
+  </g>
+  <g begin="text">
+   <text y="132.14" x="48.48" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">4</text>
+  </g>
+  <g begin="text">
+   <text y="132.14" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="144.98" x="96.024,101.544,107.064,112.584,115.344,123.26,127.554" svgx:width="0.5,0.5,0.5,0.25,0.72,0.39,0.44" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-ItalicMT;font-size:11.04px;stroke:none;">and Use</text>
+  </g>
+  <g begin="text">
+   <text y="144.98" x="132.5,135.26,138.02,143.54,148.939,154.459,157.219,162.12,167.64,170.4,173.061,183.483,187.104,193.242,201.147,203.907,209.427,214.825,220.345,223.459,226.461,231.363,236.287,239.29,242.403,247.923,253.322,257.616,260.376,263.136,268.656,274.176,279.696,282.456,287.877,293.397" svgx:width="0.25,0.25,0.5,0.5,0.5,0.25,0.44,0.5,0.25,0.25,0.94,0.33,0.56,0.72,0.25,0.5,0.5,0.5,0.28,0.28,0.44,0.44,0.28,0.28,0.5,0.5,0.39,0.25,0.25,0.5,0.5,0.5,0.25,0.5,0.5,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">. 2nd ed. WIPO publications, 488 pp.</text>
+  </g>
+  <g begin="text">
+   <text y="144.98" x="296.11" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="144.98" x="48.48" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">5</text>
+  </g>
+  <g begin="text">
+   <text y="144.98" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="163.46" x="72.024,82.446,89.191,97.107,99.867,102.62700000000001,105.011,110.531,116.051,121.571,127.091,130.205" svgx:width="0.94,0.61,0.72,0.25,0.25,0.55,0.5,0.5,0.5,0.5,0.28,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">WTO, 1994: </text>
+  </g>
+  <g begin="text">
+   <text y="163.46" x="135.38,141.375,145.669,151.189,156.709" svgx:width="0.56,0.39,0.5,0.5,0.44" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-ItalicMT;font-size:11.04px;stroke:none;">Trade</text>
+  </g>
+  <g begin="text">
+   <text y="163.46" x="161.54" svgx:width="0.33" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-ItalicMT;font-size:11.04px;stroke:none;">-</text>
+  </g>
+  <g begin="text">
+   <text y="163.46" x="165.26,172.005,176.775,179.888,185.408,188.411,193.213,198.733,201.493,203.878,210.623,214.918,220.438,225.34,230.153,233.266,237.561,240.321,242.739,248.137,251.251,254.011,256.395,260.105,265.503,268.617,273.518,276.532,279.646,284.448,289.35,292.474,297.994,303.393,306.506,309.26599999999996,311.54,318.286,322.58,328.1,333.62,338.522,342.739,345.852,350.754,353.514,355.921,362.523,365.636,371.156,376.676,379.679,383.974,386.734,389.49399999999997,391.911,398.657,404.177,409.697,414.466,419.368,422.128,424.534,429.933,437.253,440.013,442.397,447.917,451.03,453.78999999999996,456.175,459.288,464.808,469.71,472.46999999999997,474.755,483.985,489.505,493.7,497.995,503.515,508.449,513.252,517.547" svgx:width="0.61,0.44,0.28,0.5,0.28,0.44,0.5,0.25,0.55,0.61,0.39,0.5,0.44,0.44,0.28,0.39,0.25,0.55,0.5,0.28,0.25,0.55,0.33,0.5,0.28,0.44,0.28,0.28,0.44,0.44,0.28,0.5,0.5,0.28,0.25,0.55,0.61,0.39,0.5,0.5,0.44,0.39,0.28,0.44,0.25,0.55,0.61,0.28,0.5,0.5,0.28,0.39,0.25,0.25,0.55,0.61,0.5,0.5,0.44,0.44,0.25,0.55,0.5,0.67,0.25,0.55,0.5,0.28,0.25,0.55,0.28,0.5,0.44,0.25,0.55,0.83,0.5,0.39,0.39,0.5,0.44,0.44,0.39,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-ItalicMT;font-size:11.04px;stroke:none;">Related Aspects of Intellectual Property Rights, Annex 1C of the Marrakesh</text>
+  </g>
+  <g begin="text">
+   <text y="163.46" x="523.44" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-ItalicMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="163.46" x="48.48" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">6</text>
+  </g>
+  <g begin="text">
+   <text y="163.46" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="176.06" x="96.024,102.769,108.289,112.584,117.486,122.41,130.325,135.227,140.648,143.761,146.521,147.47,154.072,158.367,161.502,166.901,172.421,175.424,178.537,182.832,188.252,191.365,196.885,202.284,205.04399999999998,205.993,209.107,214.505,219.407,222.167,223.139,232.258,237.778,242.072,245.097,250.617,253.37699999999998,254.327,260.321,264.616,270.136,275.656,280.48,283.24,284.19,292.105,296.4,301.92,307.44,312.861,315.974,320.268,325.689,328.802,331.805,337.204" svgx:width="0.61,0.5,0.39,0.44,0.44,0.72,0.44,0.5,0.28,0.25,0.55,0.61,0.39,0.28,0.5,0.5,0.28,0.28,0.39,0.5,0.28,0.5,0.5,0.25,0.55,0.28,0.5,0.44,0.25,0.55,0.83,0.5,0.39,0.28,0.5,0.25,0.55,0.56,0.39,0.5,0.5,0.44,0.25,0.55,0.72,0.39,0.5,0.5,0.5,0.28,0.39,0.5,0.28,0.28,0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-ItalicMT;font-size:11.04px;stroke:none;">Agreement Establishing the World Trade Organization</text>
+  </g>
+  <g begin="text">
+   <text y="176.06" x="342.91,345.67,348.43,349.379,359.801,365.222,368.931,371.934,377.454,380.214,381.164,387.766,391.475,396.377,401.897,406.71,409.46999999999997,410.42,418.335,422.045,427.443,432.345,437.865,440.879,445.174,449.998,453.111,456.114,461.634,467.154,469.914,472.674,473.624,483.339,488.241,491.862,495.571,500.473,505.993,510.806,515.101,520.621,523.282" svgx:width="0.25,0.25,0.55,0.94,0.5,0.33,0.28,0.5,0.25,0.55,0.61,0.33,0.44,0.5,0.44,0.25,0.55,0.72,0.33,0.5,0.44,0.5,0.28,0.39,0.44,0.28,0.28,0.5,0.5,0.25,0.25,0.55,0.89,0.44,0.33,0.33,0.44,0.5,0.44,0.39,0.5,0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">. World Trade Organisation, Marrakesh, </text>
+  </g>
+  <g begin="text">
+   <text y="176.06" x="48.48" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">7</text>
+  </g>
+  <g begin="text">
+   <text y="176.06" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="188.9" x="96.024,105.839,111.359,115.09,120.489,125.39,130.314,135.834,138.594" svgx:width="0.89,0.5,0.33,0.5,0.44,0.44,0.5,0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">Morocco,.</text>
+  </g>
+  <g begin="text">
+   <text y="188.9" x="141.26" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="188.9" x="48.48" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">8</text>
+  </g>
+  <g begin="text">
+   <text y="188.9" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="207.38" x="72.024,82.446,89.191,97.107,99.867,102.62700000000001,124.939,130.459,135.979,141.377,146.897,149.9" svgx:width="0.94,0.61,0.72,0.25,0.25,0.55,0.5,0.5,0.5,0.5,0.28,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">WTO, 2020: </text>
+  </g>
+  <g begin="text">
+   <text y="207.38" x="175.01,182.329,187.728,195.644,201.164,206.684,209.797,214.092,219.612,223.84,228.742,231.50199999999998,253.714,256.827,259.83,264.732,269.656,275.176,279.371,282.484,288.004,293.403,296.163,318.475,323.995,326.998,329.758,352.07,357.59,363.11,368.508,372.803,380.773,386.293,391.195,396.097,401.507,404.62,407.623,412.425,417.945,421.058,425.254,428.014,450.326,455.845,461.365,466.764,469.524,491.836,497.974,504.675,508.385,515.13" svgx:width="0.67,0.5,0.72,0.5,0.5,0.28,0.39,0.5,0.39,0.44,0.25,0.55,0.28,0.28,0.44,0.44,0.5,0.39,0.28,0.5,0.5,0.25,0.55,0.5,0.28,0.25,0.55,0.5,0.5,0.5,0.39,0.72,0.5,0.44,0.44,0.5,0.28,0.28,0.44,0.5,0.28,0.39,0.25,0.55,0.5,0.5,0.5,0.25,0.55,0.56,0.61,0.33,0.61,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-ItalicMT;font-size:11.04px;stroke:none;">Compulsory licensing of pharmaceuticals and TRIPS</text>
+  </g>
+  <g begin="text">
+   <text y="207.38" x="520.8,523.44" svgx:width="0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">. </text>
+  </g>
+  <g begin="text">
+   <text y="207.38" x="48.48" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">9</text>
+  </g>
+  <g begin="text">
+   <text y="207.38" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="220.22" x="96.024,101.544,104.657,107.771,113.169,117.464,120.489,123.602,126.715,134.631,142.547,150.462,153.222,161.138,164.251,169.771,172.41,177.93,181.639,187.038,190.151,195.053,200.573,205.993,209.107,212.11,216.305,221.825,224.938,227.941,231.65,236.453,239.566,245.086,250.606,256.126,260.929,264.042,267.045,270.754,273.757,279.277,283.572,289.092,293.916,297.029,302.549,308.069,313.468,316.581,319.584,324.486,330.006,335.426,340.328,345.252,348.255,351.368,356.888,362.408,366.007,370.909,376.429,381.949,386.762,389.522,395.042,398.045,406.679" svgx:width="0.5,0.28,0.28,0.5,0.39,0.28,0.28,0.28,0.72,0.72,0.72,0.25,0.72,0.28,0.5,0.25,0.5,0.33,0.5,0.28,0.44,0.5,0.5,0.28,0.28,0.39,0.5,0.28,0.28,0.33,0.44,0.28,0.5,0.5,0.5,0.44,0.28,0.28,0.33,0.28,0.5,0.39,0.5,0.44,0.28,0.5,0.5,0.5,0.28,0.28,0.44,0.5,0.5,0.44,0.44,0.28,0.28,0.5,0.5,0.33,0.44,0.5,0.5,0.44,0.25,0.5,0.28,0.78,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">https://www.wto.org/english/tratop_e/trips_e/public_health_faq_e.htm.</text>
+  </g>
+  <g begin="text">
+   <text y="220.22" x="409.54" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="220.22" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">10</text>
+  </g>
+  <g begin="text">
+   <text y="220.22" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="238.73" x="72.024,79.94,84.841,90.361,93.121,96.367,103.113,105.873,108.633,111.834,119.75,122.51,125.734,133.649,139.169,141.929,145.153,151.898,154.658,157.86,165.776,170.677,176.197" svgx:width="0.72,0.44,0.5,0.25,0.25,0.61,0.25,0.25,0.25,0.72,0.25,0.25,0.72,0.5,0.25,0.25,0.61,0.25,0.25,0.72,0.44,0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">Yan, Z., K. Du, Z. Yang</text>
+  </g>
+  <g begin="text">
+   <text y="238.73" x="181.85,184.61,187.834,192.735,198.255,203.775,207.021,216.836,219.596,222.853,230.768,235.67,241.19,246.71,249.47,252.716,258.236,263.756,269.276,274.674,277.788,281.011,288.331,293.851,299.371,304.891,309.693,313.292,318.812,323.714,329.234,334.158,339.06,342.305,347.704,351.413,354.637,360.157,363.27,368.669,373.571,377.302,382.701,387.603,393.122,398.046,402.849,407.75,410.996,418.912,424.432,429.952,434.754,438.464,442.758,445.783,450.685,456.205,461.725,464.739,470.259,475.779,479.003,482.116,487.514,492.416,495.662,501.182,504.295,509.815,515.214,520.115,523.129" svgx:width="0.25,0.25,0.44,0.5,0.5,0.25,0.89,0.25,0.25,0.72,0.44,0.5,0.5,0.25,0.25,0.5,0.5,0.5,0.5,0.28,0.25,0.67,0.5,0.5,0.5,0.44,0.33,0.5,0.44,0.5,0.44,0.44,0.25,0.5,0.33,0.25,0.5,0.28,0.5,0.44,0.33,0.5,0.44,0.5,0.44,0.44,0.44,0.25,0.72,0.5,0.5,0.44,0.33,0.39,0.28,0.44,0.5,0.5,0.28,0.5,0.5,0.25,0.28,0.5,0.44,0.25,0.5,0.28,0.5,0.5,0.44,0.28,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">, and M. Deng, 2017: Convergence or divergence? Understanding the global </text>
+  </g>
+  <g begin="text">
+   <text y="238.73" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">11</text>
+  </g>
+  <g begin="text">
+   <text y="238.73" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="251.33" x="96.024,101.544,106.446,111.966,116.89,119.892,125.412,130.932,139.455,144.357,149.778,152.891,155.65099999999998,166.316,169.319,173.028,177.93,183.45,188.87,191.63,202.295,207.815,211.414,214.17399999999998,224.839,227.952,233.472" svgx:width="0.5,0.44,0.5,0.44,0.28,0.5,0.5,0.78,0.44,0.5,0.28,0.25,0.55,0.28,0.33,0.44,0.5,0.5,0.25,0.55,0.5,0.33,0.25,0.55,0.28,0.5,0.72" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">development trend of low</text>
+  </g>
+  <g begin="text">
+   <text y="251.33" x="241.49" svgx:width="0.33" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">-</text>
+  </g>
+  <g begin="text">
+   <text y="251.33" x="245.09,249.992,254.916,258.515,264.035,269.555,275.075,277.835,288.389,291.502,296.404,301.217,306.737,312.257,317.777,320.78,326.3,331.699,334.812,339.714,344.042,346.68" svgx:width="0.44,0.44,0.33,0.5,0.5,0.5,0.25,0.55,0.28,0.44,0.44,0.5,0.5,0.5,0.28,0.5,0.5,0.28,0.44,0.39,0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">carbon technologies. </text>
+  </g>
+  <g begin="text">
+   <text y="251.33" x="360.19,366.935,372.455,377.357,381.552,387.072,391.974,394.734,405.421,412.166,417.543,420.656,423.659,428.561" svgx:width="0.61,0.5,0.44,0.39,0.5,0.44,0.25,0.55,0.61,0.5,0.28,0.28,0.44,0.44" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-ItalicMT;font-size:11.04px;stroke:none;">Energy Policy</text>
+  </g>
+  <g begin="text">
+   <text y="251.33" x="433.54,436.18" svgx:width="0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">, </text>
+  </g>
+  <g begin="text">
+   <text y="251.33" x="449.5,455.02,460.54" svgx:width="0.5,0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-BoldMT;font-size:11.04px;stroke:none;">109</text>
+  </g>
+  <g begin="text">
+   <text y="251.33" x="466.06,468.82,471.58,482.245,487.765,493.285" svgx:width="0.25,0.25,0.55,0.5,0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">, 499</text>
+  </g>
+  <g begin="text">
+   <text y="251.33" x="498.7" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">–</text>
+  </g>
+  <g begin="text">
+   <text y="251.33" x="504.22,509.74,515.26,520.78,523.419" svgx:width="0.5,0.5,0.5,0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">509, </text>
+  </g>
+  <g begin="text">
+   <text y="251.33" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">12</text>
+  </g>
+  <g begin="text">
+   <text y="251.33" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="264.17" x="96.024,101.544,107.064,110.177,113.18,118.7,124.22,126.98,132.5,138.02,143.54,148.939,151.942,155.055,157.815,162.717,168.237,173.757,179.177,182.291,185.051,190.571,196.091,201.489,207.009,209.769,215.168,220.688,223.448,228.968,234.488,240.008" svgx:width="0.5,0.5,0.28,0.28,0.5,0.5,0.25,0.5,0.5,0.5,0.5,0.28,0.28,0.25,0.44,0.5,0.5,0.5,0.28,0.25,0.5,0.5,0.5,0.5,0.25,0.5,0.5,0.25,0.5,0.5,0.5,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">doi:10.1016/j.enpol.2017.07.024.</text>
+  </g>
+  <g begin="text">
+   <text y="264.17" x="242.69" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="264.17" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">13</text>
+  </g>
+  <g begin="text">
+   <text y="264.17" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="282.65" x="72.024,79.94,83.053,85.813,89.037,96.952,99.712,102.472,105.696,111.216,116.736,122.256,127.776,130.889,134.113,141.311,144.424,149.326,154.25,159.77,162.883,167.785,173.305,178.118,181.828,187.348,192.746,195.97,201.49,207.01,210.123,213.126,218.028,221.152,225.955,230.249,233.506,238.408,243.928,249.448,252.694,258.092,261.802,266.703,271.517,277.037,280.261,283.374,288.894,294.292,298.587,301.722,304.946,312.751,318.271,321.495,326.397,331.917,336.841,339.843,345.363,350.265,353.279,356.392,361.912,367.432,370.656,376.055,379.764,382.988,388.508,392.107,397.009,401.932,407.452" svgx:width="0.72,0.28,0.25,0.25,0.72,0.25,0.25,0.25,0.5,0.5,0.5,0.5,0.28,0.25,0.67,0.28,0.44,0.44,0.5,0.25,0.44,0.5,0.44,0.33,0.5,0.5,0.25,0.5,0.5,0.28,0.28,0.44,0.28,0.44,0.39,0.25,0.44,0.5,0.5,0.25,0.5,0.33,0.44,0.44,0.5,0.25,0.28,0.5,0.5,0.39,0.28,0.25,0.72,0.5,0.25,0.44,0.5,0.44,0.28,0.5,0.44,0.28,0.28,0.5,0.5,0.25,0.5,0.33,0.25,0.5,0.33,0.44,0.44,0.5,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">Yi, H., 2013: Clean energy policies and green jobs: An evaluation of green </text>
+  </g>
+  <g begin="text">
+   <text y="282.65" x="410.98,414.093,419.613,425.133,429.428,432.563,435.566,441.086,444.31,452.225,454.986,461.124,463.884,467.096,475.73,480.631,483.645,487.355,492.875,498.395,503.793,506.907,509.91,513.023,517.924,523.345" svgx:width="0.28,0.5,0.5,0.39,0.25,0.28,0.5,0.25,0.72,0.25,0.56,0.25,0.25,0.78,0.44,0.28,0.33,0.5,0.5,0.5,0.28,0.28,0.28,0.44,0.5,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">jobs in U.S. metropolitan </text>
+  </g>
+  <g begin="text">
+   <text y="282.65" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">14</text>
+  </g>
+  <g begin="text">
+   <text y="282.65" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="295.49" x="96.024,100.926,104.657,109.559,114.373,118.667,121.427" svgx:width="0.44,0.33,0.44,0.44,0.39,0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">areas. </text>
+  </g>
+  <g begin="text">
+   <text y="295.49" x="124.22,130.965,136.485,141.255,145.549,151.069,156.004,158.764,165.51,170.886,173.999,177.002,181.904" svgx:width="0.61,0.5,0.44,0.39,0.5,0.44,0.25,0.61,0.5,0.28,0.28,0.44,0.44" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-ItalicMT;font-size:11.04px;stroke:none;">Energy Policy</text>
+  </g>
+  <g begin="text">
+   <text y="295.49" x="186.89,189.65" svgx:width="0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">, </text>
+  </g>
+  <g begin="text">
+   <text y="295.49" x="192.41,197.81" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-BoldMT;font-size:11.04px;stroke:none;">56</text>
+  </g>
+  <g begin="text">
+   <text y="295.49" x="203.33,206.09,208.85,214.249,219.769" svgx:width="0.25,0.25,0.5,0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">, 644</text>
+  </g>
+  <g begin="text">
+   <text y="295.49" x="225.29" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">–</text>
+  </g>
+  <g begin="text">
+   <text y="295.49" x="230.81,236.33,241.85,247.37,250.13,252.89,258.41,263.809,266.811,269.925,275.445,280.965,283.725,289.245,294.765,300.163,305.683,308.686,311.799,314.559,319.461,324.981,330.402,335.8,338.914,341.674,347.194,352.714,358.234,363.754,366.392,371.912,377.432,380.192,385.712,391.232,396.752" svgx:width="0.5,0.5,0.5,0.25,0.25,0.5,0.5,0.28,0.28,0.5,0.5,0.25,0.5,0.5,0.5,0.5,0.28,0.28,0.25,0.44,0.5,0.5,0.5,0.28,0.25,0.5,0.5,0.5,0.5,0.25,0.5,0.5,0.25,0.5,0.5,0.5,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">652, doi:10.1016/j.enpol.2013.01.034.</text>
+  </g>
+  <g begin="text">
+   <text y="295.49" x="399.46" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="295.49" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">15</text>
+  </g>
+  <g begin="text">
+   <text y="295.49" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="313.97" x="72.024,79.94,83.053,85.813,88.57300000000001,90.119,98.034,100.794,103.554,106.31400000000001,107.86,112.762,118.282,123.802,126.56200000000001,128.129,136.045,138.805,141.565,143.111,149.856,152.925,158.346,161.106,163.86599999999999,165.411,170.931,176.451,181.971,187.37,190.483,193.243,194.667,202.583,206.293,211.194,216.118,221.638,224.398,225.944,230.746,235.648,241.168,246.688,252.108,260.742,266.262,269.022,270.567,273.57,279.09,281.84999999999997,283.396,290.715,296.235,299.349,304.747,309.649,312.773,315.533,316.957,324.277,329.179,334.699,337.823,343.343,348.863,353.665,356.779,359.539,361.084,366.604,371.407,375.116,378.119,383.021,386.035,389.148,394.668,400.188,404.483,407.243,408.7,413.602,419.122,424.642,427.402,428.969,434.368,439.888,443.001,446.004,450.906,456.426,459.186,460.753,466.273,469.872,472.986,478.506,483.308,487.018,491.312,494.072" svgx:width="0.72,0.28,0.25,0.25,0.55,0.72,0.25,0.25,0.25,0.55,0.44,0.5,0.5,0.25,0.55,0.72,0.25,0.25,0.55,0.61,0.28,0.5,0.25,0.25,0.55,0.5,0.5,0.5,0.5,0.28,0.25,0.55,0.72,0.33,0.44,0.44,0.5,0.25,0.55,0.44,0.44,0.5,0.5,0.5,0.78,0.5,0.25,0.55,0.28,0.5,0.25,0.55,0.67,0.5,0.28,0.5,0.44,0.28,0.25,0.55,0.67,0.44,0.5,0.28,0.5,0.5,0.44,0.28,0.25,0.55,0.5,0.44,0.33,0.28,0.44,0.28,0.28,0.5,0.5,0.39,0.25,0.55,0.44,0.5,0.5,0.25,0.55,0.5,0.5,0.28,0.28,0.44,0.5,0.25,0.55,0.5,0.33,0.28,0.5,0.44,0.33,0.39,0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">Yi, H., and Y. Liu, 2015: Green economy in China: Regional variations and policy drivers. </text>
+  </g>
+  <g begin="text">
+   <text y="313.97" x="498.82,506.736,509.739,515.259,520.779,523.417" svgx:width="0.72,0.28,0.5,0.5,0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-ItalicMT;font-size:11.04px;stroke:none;">Glob. </text>
+  </g>
+  <g begin="text">
+   <text y="313.97" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">16</text>
+  </g>
+  <g begin="text">
+   <text y="313.97" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="326.81" x="96.024,102.769,108.289,113.191,116.293,120.588,126.009,131.529,134.289,137.049,144.368,149.888,155.408,160.928,166.448" svgx:width="0.61,0.5,0.44,0.28,0.39,0.5,0.5,0.25,0.25,0.67,0.5,0.5,0.5,0.5,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-ItalicMT;font-size:11.04px;stroke:none;">Environ. Chang.</text>
+  </g>
+  <g begin="text">
+   <text y="326.81" x="169.25,171.89" svgx:width="0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">, </text>
+  </g>
+  <g begin="text">
+   <text y="326.81" x="174.65,180.17" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-BoldMT;font-size:11.04px;stroke:none;">31</text>
+  </g>
+  <g begin="text">
+   <text y="326.81" x="185.69,188.45,191.21,196.73" svgx:width="0.25,0.25,0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">, 11</text>
+  </g>
+  <g begin="text">
+   <text y="326.81" x="202.13" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">–</text>
+  </g>
+  <g begin="text">
+   <text y="326.81" x="207.65,213.17,218.569,221.329,224.089,229.609,235.129,238.131,241.245,246.765,252.285,255.045,260.565,266.085,271.483,277.003,280.006,283.119,285.879,291.399,294.402,299.922,304.824,310.344,315.765,320.667,326.186,331.11,333.87,339.269,344.789,350.309,355.829,358.589,364.109,369.629,372.389,377.909,383.429,388.827" svgx:width="0.5,0.5,0.25,0.25,0.5,0.5,0.28,0.28,0.5,0.5,0.25,0.5,0.5,0.5,0.5,0.28,0.28,0.25,0.5,0.28,0.5,0.44,0.5,0.5,0.44,0.5,0.44,0.25,0.5,0.5,0.5,0.5,0.25,0.5,0.5,0.25,0.5,0.5,0.5,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">19, doi:10.1016/j.gloenvcha.2014.12.001.</text>
+  </g>
+  <g begin="text">
+   <text y="326.81" x="391.51" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="326.81" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">17</text>
+  </g>
+  <g begin="text">
+   <text y="326.81" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="345.29" x="72.024" svgx:width="0.72" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">Y</text>
+  </g>
+  <g begin="text">
+   <text y="345.29" x="79.944,85.464,90.984,96.504,99.264,101.781,109.697,112.457,115.217,117.734,125.65,128.41,130.927,137.065,140.134,143.877,149.397,158.03,162.325,167.745,173.265,176.025,178.542,185.288,188.048,190.543,200.357,203.117,205.667,213.583,216.343,218.86,226.18,231.082,234.206,237.319,242.221,247.642,252.543,258.063,263.484,267.193,270.307,273.067,275.584,280.486,286.006,291.526,294.065,298.359,301.119,303.67,310.271,315.791,321.311,326.831,329.591,332.109,337.629,343.149,348.669,354.189,357.302,359.819,363.418,368.938,374.458,379.36,384.78,387.894,390.897,396.417,401.937,404.454,409.355,413.683,416.2,421.102,423.641,428.444,433.964,442.597,447.995,451.109,456.629,461.431,464.544,470.064,473.663,476.777,481.579,484.692,487.21,492.73,496.439,501.959,506.761,511.663,515.991,520.186,523.189" svgx:width="0.5,0.5,0.5,0.25,0.25,0.72,0.25,0.25,0.25,0.72,0.25,0.25,0.56,0.28,0.33,0.5,0.78,0.39,0.5,0.5,0.25,0.25,0.61,0.25,0.25,0.89,0.25,0.25,0.72,0.25,0.25,0.67,0.44,0.28,0.28,0.44,0.5,0.44,0.5,0.5,0.33,0.28,0.25,0.25,0.44,0.5,0.5,0.25,0.39,0.25,0.25,0.61,0.5,0.5,0.5,0.25,0.25,0.5,0.5,0.5,0.5,0.28,0.25,0.33,0.5,0.5,0.44,0.5,0.28,0.28,0.5,0.5,0.25,0.44,0.39,0.25,0.44,0.25,0.44,0.5,0.78,0.5,0.28,0.5,0.44,0.28,0.5,0.33,0.28,0.44,0.28,0.25,0.5,0.33,0.5,0.44,0.44,0.39,0.39,0.28,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">oun, H., D. Strumsky, L. M. A. Bettencourt, and J. Lobo, 2015: Invention as a combinatorial process: </text>
+  </g>
+  <g begin="text">
+   <text y="345.29" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">18</text>
+  </g>
+  <g begin="text">
+   <text y="345.29" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="358.01" x="96.024,100.926,106.446,109.57,115.09,119.892,125.412,130.314,135.238,137.877,141.586,145.295,150.694,159.327,162.087,170.003,176.141,178.901,184.278,189.179,192.304,197.106,202.626,205.74,209.935,212.695" svgx:width="0.44,0.5,0.28,0.5,0.44,0.5,0.44,0.44,0.25,0.33,0.33,0.5,0.78,0.25,0.72,0.56,0.25,0.5,0.44,0.28,0.44,0.5,0.28,0.39,0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">evidence from US patents. </text>
+  </g>
+  <g begin="text">
+   <text y="358.01" x="215.45,220.352,223.112,225.872,232.617,235.377,238.137,243.657,249.177,254.079,256.839,259.489,263.198,268.597,271.71,276.612,280.829,283.942,289.462,294.265" svgx:width="0.44,0.25,0.25,0.61,0.25,0.25,0.5,0.5,0.44,0.25,0.25,0.33,0.5,0.28,0.44,0.39,0.28,0.5,0.44,0.44" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-ItalicMT;font-size:11.04px;stroke:none;">J. R. Soc. Interface</text>
+  </g>
+  <g begin="text">
+   <text y="358.01" x="299.23,301.99" svgx:width="0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">, </text>
+  </g>
+  <g begin="text">
+   <text y="358.01" x="304.75,310.27" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-BoldMT;font-size:11.04px;stroke:none;">12</text>
+  </g>
+  <g begin="text">
+   <text y="358.01" x="315.67,319.379,324.899,330.419,335.818,339.527,342.287,345.047,350.567,356.087,361.607,367.127,372.526,378.046,383.566,389.086,391.846,394.606,400.126,405.525,408.638,411.641,417.161,422.681,425.441,430.961,436.481,441.879,447.399,450.402,454.112,458.307,461.42,465.129,467.889,473.409,478.808,484.328,489.848,492.608,498.128,503.648,509.168,514.567" svgx:width="0.33,0.5,0.5,0.5,0.33,0.25,0.25,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.25,0.25,0.5,0.5,0.28,0.28,0.5,0.5,0.25,0.5,0.5,0.5,0.5,0.28,0.33,0.39,0.28,0.33,0.25,0.5,0.5,0.5,0.5,0.25,0.5,0.5,0.5,0.5,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">(106), 20150272, doi:10.1098/rsif.2015.0272.</text>
+  </g>
+  <g begin="text">
+   <text y="358.01" x="517.32" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="358.01" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">19</text>
+  </g>
+  <g begin="text">
+   <text y="358.01" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="376.61" x="72.024,79.94,85.46,90.98,96.5,102.02,104.78,107.54,110.046,117.961,120.721,123.481,126.241,128.748,134.268,139.666,145.186,150.706,153.709,156.469,158.975,162.574,168.094,173.614,178.516,184.036,187.05,190.053,195.573,201.093,203.85299999999998,206.359,211.261,216.781,222.201,224.96099999999998,227.467,234.787,240.307,245.827,251.347,256.867,261.669,267.189,269.949,272.455,279.201,284.102,288.894,292.603,298.002,301.115,306.635,312.034,314.794,317.3,322.82,328.34,331.09999999999997,333.606,341.522,347.042,350.044,355.564,361.084,363.844" svgx:width="0.72,0.5,0.5,0.5,0.5,0.25,0.25,0.55,0.72,0.25,0.25,0.25,0.55,0.5,0.5,0.5,0.5,0.28,0.25,0.55,0.33,0.5,0.5,0.44,0.5,0.28,0.28,0.5,0.5,0.25,0.55,0.44,0.5,0.5,0.25,0.55,0.67,0.5,0.5,0.5,0.5,0.44,0.5,0.25,0.55,0.61,0.44,0.44,0.33,0.5,0.28,0.5,0.5,0.25,0.55,0.5,0.5,0.25,0.55,0.72,0.5,0.28,0.5,0.5,0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">Young, A., 1993: Invention and Bounded Learning by Doing. </text>
+  </g>
+  <g begin="text">
+   <text y="376.61" x="369.31,374.23" svgx:width="0.44,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-ItalicMT;font-size:11.04px;stroke:none;">J.</text>
+  </g>
+  <g begin="text">
+   <text y="376.61" x="376.87" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-ItalicMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="376.61" x="382.15,388.895,394.415,397.385,400.498,403.501,406.261,409.021,411.527,418.273,423.175,428.695,434.082" svgx:width="0.61,0.5,0.28,0.28,0.28,0.25,0.25,0.55,0.61,0.44,0.5,0.5,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-ItalicMT;font-size:11.04px;stroke:none;">Polit. Econ.</text>
+  </g>
+  <g begin="text">
+   <text y="376.61" x="436.9,439.66" svgx:width="0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">, </text>
+  </g>
+  <g begin="text">
+   <text y="376.61" x="444.94,450.46,455.98" svgx:width="0.5,0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-BoldMT;font-size:11.04px;stroke:none;">101</text>
+  </g>
+  <g begin="text">
+   <text y="376.61" x="461.5,465.099,470.619,474.328,477.088,479.848,482.233,487.753,493.273" svgx:width="0.33,0.5,0.33,0.25,0.25,0.55,0.5,0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">(3), 443</text>
+  </g>
+  <g begin="text">
+   <text y="376.61" x="498.82" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">–</text>
+  </g>
+  <g begin="text">
+   <text y="376.61" x="504.34,509.86,515.259,520.779,523.417" svgx:width="0.5,0.5,0.5,0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">472, </text>
+  </g>
+  <g begin="text">
+   <text y="376.61" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">20</text>
+  </g>
+  <g begin="text">
+   <text y="376.61" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="389.33" x="96.024,101.544,107.064,110.177,113.18,118.7,124.22,126.98,132.5,138.02,143.54,148.939,152.052,157.572,163.092,168.491,174.011,179.531,185.051" svgx:width="0.5,0.5,0.28,0.28,0.5,0.5,0.25,0.5,0.5,0.5,0.5,0.28,0.5,0.5,0.5,0.5,0.5,0.5,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">doi:10.1086/261882.</text>
+  </g>
+  <g begin="text">
+   <text y="389.33" x="187.73" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="389.33" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">21</text>
+  </g>
+  <g begin="text">
+   <text y="389.33" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="407.95" x="72.024,79.94,85.46,88.22,91.333,98.652,101.412,104.526,110.664,113.424,116.184,119.275,129.697,132.457,135.581,143.497,146.257,149.37,153.665,156.425,159.56,167.476,170.236,173.349,183.164,185.924,189.059,194.458,199.359,204.879,208.004,214.142,219.044,222.753,228.273,231.033,234.025,238.927,244.447,249.967,253.091,259.836,262.596,265.677,273.592,276.352,279.466,287.381,290.495,294.69,299.591,308.125,313.027,315.688,318.801,324.321,329.841,335.361,340.881,343.994,347.108,355.023,360.543,364.142,369.044,374.564,379.378,382.491,385.494,391.014,396.534,399.647,402.76,408.159,413.061,416.185,421.705,427.225,432.623,435.626,441.146,446.666,452.186,455.189,458.302,463.204,466.218,471.12,474.244,477.358,482.16,487.062,492.582,498.102,503.522,506.636,512.156,517.676,523.074" svgx:width="0.72,0.5,0.25,0.25,0.67,0.25,0.25,0.56,0.25,0.25,0.25,0.94,0.25,0.25,0.72,0.25,0.25,0.39,0.25,0.25,0.72,0.25,0.25,0.89,0.25,0.25,0.5,0.44,0.5,0.25,0.56,0.44,0.33,0.5,0.25,0.25,0.44,0.5,0.5,0.25,0.61,0.25,0.25,0.72,0.25,0.25,0.72,0.28,0.39,0.44,0.78,0.44,0.25,0.25,0.5,0.5,0.5,0.5,0.28,0.25,0.72,0.5,0.33,0.44,0.5,0.44,0.28,0.28,0.5,0.5,0.25,0.28,0.5,0.44,0.25,0.5,0.5,0.5,0.28,0.5,0.5,0.5,0.28,0.28,0.44,0.28,0.44,0.25,0.28,0.44,0.44,0.5,0.5,0.5,0.28,0.5,0.5,0.5,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">Yu, C. F., W. G. J. H. M. van Sark, and E. A. Alsema, 2011: Unraveling the photovoltaic technology </text>
+  </g>
+  <g begin="text">
+   <text y="407.95" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">22</text>
+  </g>
+  <g begin="text">
+   <text y="407.95" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="420.55" x="96.024,99.137,104.039,108.852,112.562,118.082,121.195,126.594,132.114,135.106,140.007,145.428,149.137,154.657,159.46,162.452,167.972,173.492,176.362,179.475,184.995,189.798,195.318,199.027,204.547,209.946,213.655,218.458,221.571,224.684,230.204,235.603,238.595,244.115,247.714,250.705,253.819,259.217,264.737,270.257,273.26,276.252,281.772,285.371,288.484,293.386,298.2,301.191,306.093,311.613,316.427,321.947,327.467,332.368,336.586,339.456,344.358,349.878,355.398,358.401,362.596,367.498,372.421,375.424,380.326,383.329,388.131,391.841,395.44,400.342,405.265,408.268,412.563,415.323" svgx:width="0.28,0.44,0.44,0.33,0.5,0.28,0.5,0.5,0.25,0.44,0.5,0.33,0.5,0.44,0.25,0.5,0.5,0.25,0.28,0.5,0.44,0.5,0.33,0.5,0.5,0.33,0.44,0.28,0.28,0.5,0.5,0.25,0.5,0.33,0.25,0.28,0.5,0.5,0.5,0.28,0.25,0.5,0.33,0.28,0.44,0.44,0.25,0.44,0.5,0.44,0.5,0.5,0.44,0.39,0.25,0.44,0.5,0.5,0.25,0.39,0.44,0.44,0.28,0.44,0.25,0.44,0.33,0.33,0.44,0.44,0.28,0.39,0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">learning curve by incorporation of input price changes and scale effects. </text>
+  </g>
+  <g begin="text">
+   <text y="420.55" x="418.66,425.262,430.164,435.684,440.608,447.927,450.687,453.679,459.077,464.597,468.892,472.027,477.426,480.539,486.059,488.819,491.811,498.556,503.933,508.835,513.162,518.561,523.363" svgx:width="0.61,0.44,0.5,0.44,0.67,0.25,0.25,0.5,0.5,0.39,0.28,0.5,0.28,0.5,0.25,0.25,0.61,0.5,0.44,0.39,0.5,0.44,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-ItalicMT;font-size:11.04px;stroke:none;">Renew. Sustain. Energy </text>
+  </g>
+  <g begin="text">
+   <text y="420.55" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">23</text>
+  </g>
+  <g begin="text">
+   <text y="420.55" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="433.27" x="96.024,102.769,107.671,112.573" svgx:width="0.61,0.44,0.44,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-ItalicMT;font-size:11.04px;stroke:none;">Rev.</text>
+  </g>
+  <g begin="text">
+   <text y="433.27" x="115.34,118.1" svgx:width="0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">, </text>
+  </g>
+  <g begin="text">
+   <text y="433.27" x="120.86,126.38" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-BoldMT;font-size:11.04px;stroke:none;">15</text>
+  </g>
+  <g begin="text">
+   <text y="433.27" x="131.78,135.489,141.009,144.719,147.479,150.117,155.637,161.157" svgx:width="0.33,0.5,0.33,0.25,0.25,0.5,0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">(1), 324</text>
+  </g>
+  <g begin="text">
+   <text y="433.27" x="166.7" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">–</text>
+  </g>
+  <g begin="text">
+   <text y="433.27" x="172.25,177.77,183.169,188.689,191.449,194.209,199.729,205.127,208.24,211.354,216.752,222.272,225.032,230.552,236.072,241.592,247.112,250.115,253.228,255.867,259.576,263.871,268.695,272.405,275.165,280.685,286.205,291.725,297.245,299.884,305.404,310.923,313.684,319.203,324.723,330.243" svgx:width="0.5,0.5,0.5,0.25,0.25,0.5,0.5,0.28,0.28,0.5,0.5,0.25,0.5,0.5,0.5,0.5,0.28,0.28,0.25,0.33,0.39,0.44,0.33,0.25,0.5,0.5,0.5,0.5,0.25,0.5,0.5,0.25,0.5,0.5,0.5,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">337, doi:10.1016/j.rser.2010.09.001.</text>
+  </g>
+  <g begin="text">
+   <text y="433.27" x="332.95" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="433.27" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">24</text>
+  </g>
+  <g begin="text">
+   <text y="433.27" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="451.87" x="72.024,78.769,83.671,89.191,94.711,100.231" svgx:width="0.61,0.44,0.5,0.5,0.5,0.44" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">Zanghe</text>
+  </g>
+  <g begin="text">
+   <text y="451.87" x="105.02,108.729,111.843,114.603,117.363,118.787,124.925,129.705,133.415,137.014,141.916,147.436,152.956,158.476,161.236,163.99599999999998,165.442,170.344,175.864,181.384,184.14399999999998,185.59,192.788,197.69,201.421,204.535,209.933,213.046,218.445,221.558,224.318,227.078,228.502,234.022,239.542,245.062,250.461,253.574,256.334,257.759,264.504,270.024,274.926,278.514,284.034,289.554,292.31399999999996,293.738,299.876,304.778,310.176,313.179,318.699,324.219,328.514,331.274,332.731,336.441,340.04,345.56,354.193,356.953,358.377,364.515,369.296,374.197,379.717,385.237,390.051,394.953,400.473,403.233,404.679,410.817,416.337,420.632,423.634,428.437,437.07,441.265,444.379,447.139,448.563,456.479,459.239,460.663,470.477,475.412,478.525" svgx:width="0.33,0.28,0.25,0.25,0.55,0.56,0.44,0.33,0.33,0.44,0.5,0.5,0.5,0.25,0.25,0.55,0.44,0.5,0.5,0.25,0.55,0.67,0.44,0.33,0.28,0.5,0.28,0.5,0.28,0.25,0.25,0.55,0.5,0.5,0.5,0.5,0.28,0.25,0.55,0.61,0.5,0.44,0.33,0.5,0.5,0.25,0.55,0.56,0.44,0.5,0.28,0.5,0.5,0.39,0.25,0.55,0.33,0.33,0.5,0.78,0.25,0.55,0.56,0.44,0.44,0.5,0.5,0.44,0.44,0.5,0.25,0.55,0.56,0.5,0.39,0.28,0.44,0.78,0.39,0.28,0.25,0.55,0.72,0.25,0.55,0.89,0.44,0.28,0.44" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">ri, Serrenho, and Bertoldi, 2019: Energy Savings from Feedback Systems: A Meta</text>
+  </g>
+  <g begin="text">
+   <text y="451.87" x="483.82" svgx:width="0.33" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">-</text>
+  </g>
+  <g begin="text">
+   <text y="451.87" x="487.42,493.415,496.528,502.048,507.568,510.571,515.473,519.8,523.399" svgx:width="0.56,0.28,0.5,0.5,0.28,0.44,0.39,0.33,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">Studies’ </text>
+  </g>
+  <g begin="text">
+   <text y="451.87" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">25</text>
+  </g>
+  <g begin="text">
+   <text y="451.87" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="464.59" x="96.024,103.343,108.245,113.765,116.89,121.791,129.762,132.522" svgx:width="0.67,0.44,0.5,0.28,0.44,0.72,0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">Review. </text>
+  </g>
+  <g begin="text">
+   <text y="464.59" x="135.26,142.005,147.382,152.284,156.611,162.01,165.123,170.025" svgx:width="0.61,0.5,0.44,0.39,0.5,0.28,0.44,0.39" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-ItalicMT;font-size:11.04px;stroke:none;">Energies</text>
+  </g>
+  <g begin="text">
+   <text y="464.59" x="174.41,177.17" svgx:width="0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">, </text>
+  </g>
+  <g begin="text">
+   <text y="464.59" x="179.81,185.33" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-BoldMT;font-size:11.04px;stroke:none;">12</text>
+  </g>
+  <g begin="text">
+   <text y="464.59" x="190.85,194.559,199.958,205.478,209.187,211.947,214.586,220.106,225.626,231.146,236.666,239.426,242.186,247.706,253.105,256.218,259.331,264.73,270.25,273.01,278.53,284.05,289.57,294.968,298.081,302.983,308.503,313.924,319.444,324.964,330.484,335.882,341.402,346.922,352.442" svgx:width="0.33,0.5,0.5,0.33,0.25,0.25,0.5,0.5,0.5,0.5,0.25,0.25,0.5,0.5,0.28,0.28,0.5,0.5,0.25,0.5,0.5,0.5,0.5,0.28,0.44,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">(19), 3788, doi:10.3390/en12193788.</text>
+  </g>
+  <g begin="text">
+   <text y="464.59" x="355.15" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="464.59" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">26</text>
+  </g>
+  <g begin="text">
+   <text y="464.59" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="483.19" x="72.024,78.769,83.671,89.191,94.711,97.471,100.573,110.995,113.755,116.515,119.761,126.506,129.123,132.347,142.062,145.175,153.091,157.993,160.753,163.877,168.779,174.299,179.719,182.943,189.688,192.305,195.529,205.343,210.764,214.473,217.586,222.985,227.887,235.858,240.759,243.519,246.732,252.131,257.651,263.171,268.69,271.693,274.917,282.833,288.353,293.751,296.865,299.978,304.78,309.682,312.696,315.809,321.329,326.849,330.073,335.471,339.181,342.294,345.408,350.928,355.73,358.954,363.248,368.669,374.189,379.709,385.229,388.828,391.941,395.165,400.563,405.465,410.279,413.392,418.912,422.511,425.735,434.257,439.159,444.083,449.603,452.716,458.115,463.017,466.141,471.043,476.563,482.083,485.328,490.727,495.629,501.149,504.77,507.883,512.078,515.192,518.195,522.997" svgx:width="0.61,0.44,0.5,0.5,0.25,0.25,0.94,0.25,0.25,0.25,0.61,0.25,0.25,0.89,0.28,0.72,0.44,0.25,0.25,0.44,0.5,0.5,0.25,0.61,0.25,0.25,0.89,0.5,0.33,0.28,0.5,0.44,0.72,0.44,0.25,0.25,0.5,0.5,0.5,0.5,0.28,0.25,0.72,0.5,0.5,0.28,0.28,0.44,0.44,0.28,0.28,0.5,0.5,0.25,0.5,0.33,0.25,0.28,0.5,0.44,0.25,0.39,0.5,0.5,0.5,0.5,0.33,0.28,0.25,0.5,0.44,0.44,0.28,0.5,0.33,0.25,0.78,0.44,0.44,0.5,0.28,0.5,0.44,0.25,0.44,0.5,0.5,0.25,0.5,0.44,0.5,0.33,0.28,0.39,0.28,0.28,0.44,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">Zeng, W., T. Miwa, and T. Morikawa, 2017: Application of the support vector machine and heuristic </text>
+  </g>
+  <g begin="text">
+   <text y="483.19" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">27</text>
+  </g>
+  <g begin="text">
+   <text y="483.19" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="495.79" x="96.024" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">k</text>
+  </g>
+  <g begin="text">
+   <text y="495.79" x="101.54" svgx:width="0.33" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">-</text>
+  </g>
+  <g begin="text">
+   <text y="495.79" x="105.14,109.435,114.955,120.475,124.206,127.209,132.111,136.438,139.552,143.14,148.538,153.44,156.564,162.084,165.551,170.453,173.577,178.976,184.496,188.095,191.208,194.321,199.72,208.353,211.941,214.944,220.464,224.052,229.572,234.474,237.598,242.4,245.999,254.633,257.746,263.145,268.046,270.806,271.656,274.77,280.29,285.191,288.68,297.313,302.833,307.029,310.142,312.902,313.73,318.632,323.445" svgx:width="0.39,0.5,0.5,0.33,0.28,0.44,0.39,0.28,0.25,0.5,0.44,0.28,0.5,0.25,0.44,0.28,0.5,0.5,0.33,0.28,0.28,0.5,0.78,0.25,0.28,0.5,0.25,0.5,0.44,0.28,0.44,0.33,0.78,0.28,0.5,0.44,0.25,0.55,0.28,0.5,0.44,0.25,0.78,0.5,0.39,0.28,0.25,0.55,0.44,0.44,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">shortest path algorithm to determine the most eco</text>
+  </g>
+  <g begin="text">
+   <text y="495.79" x="329.23" svgx:width="0.33" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">-</text>
+  </g>
+  <g begin="text">
+   <text y="495.79" x="332.83,336.429,340.138,343.252,348.154,353.574,359.094,362.207,367.727,370.48699999999997,371.315,376.714,381.616,384.74,390.26,393.02,393.848,401.653,404.767,407.88,413.4,416.15999999999997,416.988,421.89,425.378,428.492,432.091,436.992,442.512,447.326,450.439,454.027,457.03,460.143,468.666,473.568,476.328,477.178,482.08,487.6,493.12,497.337,500.45,504.049,508.951,512.075,517.474,520.587,523.226" svgx:width="0.33,0.33,0.28,0.44,0.5,0.5,0.28,0.5,0.25,0.55,0.5,0.44,0.28,0.5,0.25,0.55,0.72,0.28,0.28,0.5,0.25,0.55,0.44,0.25,0.28,0.33,0.44,0.5,0.44,0.28,0.25,0.28,0.28,0.78,0.44,0.25,0.55,0.44,0.5,0.5,0.39,0.28,0.33,0.44,0.28,0.5,0.28,0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">friendly path with a travel time constraint. </text>
+  </g>
+  <g begin="text">
+   <text y="495.79" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">28</text>
+  </g>
+  <g begin="text">
+   <text y="495.79" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="508.51" x="96.024,102.162,106.457,111.977,117.497,121.791,127.311,130.071,132.831,139.466,144.368,148.696,151.456,154.216,160.961,166.338,170.632,173.768,176.528,184.443,187.203,193.342,197.526,203.046,208.566,212.86,218.281,221.041,223.801,230.546,236.066,240.968,244.07,248.266,253.786,259.306" svgx:width="0.56,0.39,0.5,0.5,0.39,0.5,0.25,0.25,0.61,0.44,0.39,0.25,0.25,0.61,0.5,0.39,0.28,0.25,0.72,0.25,0.56,0.39,0.5,0.5,0.39,0.5,0.25,0.25,0.61,0.5,0.44,0.28,0.39,0.5,0.5,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-ItalicMT;font-size:11.04px;stroke:none;">Transp. Res. Part D Transp. Environ.</text>
+  </g>
+  <g begin="text">
+   <text y="508.51" x="262.13,264.89" svgx:width="0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">, </text>
+  </g>
+  <g begin="text">
+   <text y="508.51" x="267.65,273.17" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-BoldMT;font-size:11.04px;stroke:none;">57</text>
+  </g>
+  <g begin="text">
+   <text y="508.51" x="278.69,281.329,284.089,289.609,295.129" svgx:width="0.25,0.25,0.5,0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">, 458</text>
+  </g>
+  <g begin="text">
+   <text y="508.51" x="300.67" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">–</text>
+  </g>
+  <g begin="text">
+   <text y="508.51" x="306.19,311.589,317.109,322.629,325.389,328.149,333.669,339.067,342.18,345.294,350.814,356.334,358.972,364.492,370.012" svgx:width="0.5,0.5,0.5,0.25,0.25,0.5,0.5,0.28,0.28,0.5,0.5,0.25,0.5,0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">473, doi:10.101</text>
+  </g>
+  <g begin="text">
+   <text y="508.51" x="375.55,380.949,384.062,387.175,389.814,392.927,396.636,402.035,404.795,410.315,415.835,421.355,426.875,429.635,435.033,440.553,443.313,448.833,454.353,459.752" svgx:width="0.5,0.28,0.28,0.25,0.28,0.33,0.5,0.25,0.5,0.5,0.5,0.5,0.25,0.5,0.5,0.25,0.5,0.5,0.5,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">6/j.trd.2017.10.001.</text>
+  </g>
+  <g begin="text">
+   <text y="508.51" x="462.58" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="508.51" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">29</text>
+  </g>
+  <g begin="text">
+   <text y="508.51" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="527.11" x="72.024,78.769,84.289,89.191,94.711,97.471,100.099,106.844,109.604,112.364,114.981,124.795,127.555,130.105,134.4,139.92,142.68,145.341,150.143,155.663,161.183,163.822,168.116,170.876,173.537,180.139,183.252,188.772,191.532,194.049,199.569,205.089,210.609,216.129,219.242,221.881,225.48,234.003,239.523,243.232,248.752,254.151,259.053,267.587,272.488,278.008,281.133,283.771,289.17,292.879,295.518,302.837,308.236,311.349,316.748,321.649,324.31,331.056,336.576,341.477,345.176,350.574,356.094,358.733,365.478,370.38,375.9,380.691,383.805,386.443,392.581,398.101,402.286,405.399,410.201,418.835,421.473,424.476,429.996,432.635,438.629,442.339,447.859,456.492,461.891,465.004,469.906,472.566,478.561,484.081,488.376,491.4,496.302,499.427,504.825,509.727,515.247,518.261,523.163" svgx:width="0.61,0.5,0.44,0.5,0.25,0.25,0.61,0.25,0.25,0.25,0.89,0.25,0.25,0.39,0.5,0.25,0.25,0.44,0.5,0.5,0.25,0.39,0.25,0.25,0.61,0.28,0.5,0.25,0.25,0.5,0.5,0.5,0.5,0.28,0.25,0.33,0.78,0.5,0.33,0.5,0.5,0.44,0.78,0.44,0.5,0.28,0.25,0.5,0.33,0.25,0.67,0.5,0.28,0.5,0.44,0.25,0.61,0.5,0.44,0.33,0.5,0.5,0.25,0.61,0.44,0.5,0.44,0.28,0.25,0.56,0.5,0.39,0.28,0.44,0.78,0.25,0.28,0.5,0.25,0.56,0.33,0.5,0.78,0.5,0.28,0.44,0.25,0.56,0.5,0.39,0.28,0.44,0.28,0.5,0.44,0.5,0.28,0.44,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">Zhan, L., M. Ju, and J. Liu, 2011: Improvement of China Energy Label System to Promote Sustainable </text>
+  </g>
+  <g begin="text">
+   <text y="527.11" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">30</text>
+  </g>
+  <g begin="text">
+   <text y="527.11" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="539.83" x="96.024,102.769,108.289,113.191,116.89,122.41,127.93,130.69,138.009,143.408,148.928,153.222,158.643,167.276,172.796,175.799,178.912,184.432,189.952,192.712" svgx:width="0.61,0.5,0.44,0.33,0.5,0.5,0.25,0.67,0.5,0.5,0.39,0.5,0.78,0.5,0.28,0.28,0.5,0.5,0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">Energy Consumption. </text>
+  </g>
+  <g begin="text">
+   <text y="539.83" x="195.53,202.132,207.652,212.554,216.771,222.291,227.193,229.953,236.698,240.993,246.513,251.326,256.228,261.748,264.762" svgx:width="0.61,0.5,0.44,0.39,0.5,0.44,0.25,0.61,0.39,0.5,0.44,0.44,0.5,0.28,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-ItalicMT;font-size:11.04px;stroke:none;">Energy Procedia</text>
+  </g>
+  <g begin="text">
+   <text y="539.83" x="270.29,273.05" svgx:width="0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">, </text>
+  </g>
+  <g begin="text">
+   <text y="539.83" x="275.81" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-BoldMT;font-size:11.04px;stroke:none;">5</text>
+  </g>
+  <g begin="text">
+   <text y="539.83" x="281.33,284.09,286.85,292.37,297.769,303.289" svgx:width="0.25,0.25,0.5,0.5,0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">, 2308</text>
+  </g>
+  <g begin="text">
+   <text y="539.83" x="308.83" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">–</text>
+  </g>
+  <g begin="text">
+   <text y="539.83" x="314.35,319.87,325.39,330.91,336.309,338.947,341.707,347.227,352.747,355.86,358.863,364.383,369.903,372.663,378.183,383.703,389.102,394.622,397.625,400.738,403.498,408.4,413.92,419.44,424.86,428.57,434.09,436.85,442.248,447.768,453.288,458.808,461.447,466.967,472.487,475.247,480.767,486.287,491.807" svgx:width="0.5,0.5,0.5,0.5,0.25,0.25,0.5,0.5,0.28,0.28,0.5,0.5,0.25,0.5,0.5,0.5,0.5,0.28,0.28,0.25,0.44,0.5,0.5,0.5,0.33,0.5,0.25,0.5,0.5,0.5,0.5,0.25,0.5,0.5,0.25,0.5,0.5,0.5,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">2315, doi:10.1016/j.egypro.2011.03.397.</text>
+  </g>
+  <g begin="text">
+   <text y="539.83" x="494.5" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="539.83" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">31</text>
+  </g>
+  <g begin="text">
+   <text y="539.83" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="558.46" x="72.024,78.769,84.289,89.191,94.711,100.231,102.991,105.851,111.989,114.605,117.365,120.236,125.137,130.558,136.078,138.948,146.864,149.624,152.384,158.522,161.282,164.131,172.046,176.849,179.962,182.965,187.867,193.287,198.807,203.709,207.441,210.079,212.95,218.47,223.99,229.51,234.908,238.021,240.892,244.491,250.011,255.531,261.051,266.449,271.351,274.365,277.478,282.998,288.518,291.278,296.18" svgx:width="0.61,0.5,0.44,0.5,0.5,0.25,0.25,0.56,0.25,0.25,0.25,0.44,0.5,0.5,0.25,0.72,0.25,0.25,0.56,0.25,0.25,0.72,0.44,0.28,0.28,0.44,0.5,0.5,0.44,0.33,0.25,0.25,0.5,0.5,0.5,0.5,0.28,0.25,0.33,0.5,0.5,0.5,0.5,0.44,0.28,0.28,0.5,0.5,0.25,0.44,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">Zhang, F., and K. S. Gallagher, 2016: Innovation an</text>
+  </g>
+  <g begin="text">
+   <text y="558.46" x="301.87,307.269,310.139,313.142,318.044,322.967,328.487,334.007,339.406,342.519,348.039,353.559,358.958,361.828,364.831,368.541,373.442,378.962,383.18,386.889,391.691,395.401,398.161,401.274,406.794,410.504,415.902,421.422,426.942,432.462,435.222,440.742,443.855,449.375,454.895,459.698,462.811,465.571,471.091,475.993,479.007,484.527,489.429,492.189,497.112,502.632,507.435,510.548,516.068,520.263,523.266" svgx:width="0.5,0.25,0.28,0.44,0.44,0.5,0.5,0.5,0.28,0.5,0.5,0.5,0.25,0.28,0.33,0.44,0.5,0.39,0.33,0.44,0.33,0.25,0.28,0.5,0.33,0.5,0.5,0.5,0.5,0.25,0.5,0.28,0.5,0.5,0.44,0.28,0.25,0.5,0.44,0.28,0.5,0.44,0.25,0.44,0.5,0.44,0.28,0.5,0.39,0.28,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">d technology transfer through global value chains: </text>
+  </g>
+  <g begin="text">
+   <text y="558.46" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">32</text>
+  </g>
+  <g begin="text">
+   <text y="558.46" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="571.06" x="96.024,102.769,108.289,111.359,116.879,121.813,127.212,132.114,137.038,139.798,157.064,160.663,164.373,169.771,178.405,181.165,198.431,205.751,211.271,214.273,219.793,224.695,228.427,232.721,235.481,252.781,258.919,266.824,269.584,286.729,289.842,295.362,300.882,306.402,310.597,313.711,317.31,322.83,325.468" svgx:width="0.61,0.5,0.28,0.5,0.44,0.5,0.44,0.44,0.25,0.55,0.33,0.33,0.5,0.78,0.25,0.55,0.67,0.5,0.28,0.5,0.44,0.33,0.39,0.25,0.55,0.56,0.72,0.25,0.55,0.28,0.5,0.5,0.5,0.39,0.28,0.33,0.5,0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">Evidence from China’s PV industry. </text>
+  </g>
+  <g begin="text">
+   <text y="571.06" x="345.67,352.415,357.935,362.837,367.132,372.652,377.576,380.336,397.602,404.348,409.724,412.727,415.84,420.742" svgx:width="0.61,0.5,0.44,0.39,0.5,0.44,0.25,0.55,0.61,0.5,0.28,0.28,0.44,0.44" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-ItalicMT;font-size:11.04px;stroke:none;">Energy Policy</text>
+  </g>
+  <g begin="text">
+   <text y="571.06" x="425.74,428.5" svgx:width="0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">, </text>
+  </g>
+  <g begin="text">
+   <text y="571.06" x="448.42,453.94" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-BoldMT;font-size:11.04px;stroke:none;">94</text>
+  </g>
+  <g begin="text">
+   <text y="571.06" x="459.46,462.22,464.98,482.247,487.767,493.287" svgx:width="0.25,0.25,0.55,0.5,0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">, 191</text>
+  </g>
+  <g begin="text">
+   <text y="571.06" x="498.82" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">–</text>
+  </g>
+  <g begin="text">
+   <text y="571.06" x="504.34,509.86,515.259,520.779,523.417" svgx:width="0.5,0.5,0.5,0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">203, </text>
+  </g>
+  <g begin="text">
+   <text y="571.06" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">33</text>
+  </g>
+  <g begin="text">
+   <text y="571.06" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="583.78" x="96.024,101.544,107.064,110.177,113.18,118.7,124.22,126.98,132.5,138.02,143.54,148.939,152.052,156.347,159.107,165.852,173.768,179.906,187.811,194.556,197.316,202.836,208.213,213.611,219.131,221.891,227.411,232.931,235.691,241.211,246.731,252.251" svgx:width="0.5,0.5,0.28,0.28,0.5,0.5,0.25,0.5,0.5,0.5,0.5,0.28,0.39,0.25,0.61,0.72,0.56,0.72,0.61,0.25,0.5,0.5,0.5,0.5,0.25,0.5,0.5,0.25,0.5,0.5,0.5,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">doi:10.1016/J.ENPOL.2016.04.014.</text>
+  </g>
+  <g begin="text">
+   <text y="583.78" x="254.93" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="583.78" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">34</text>
+  </g>
+  <g begin="text">
+   <text y="583.78" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="602.38" x="72.024,78.769,84.289,89.191,94.711,100.231,102.991,105.751,106.811,113.556,116.316,119.076,121.836,122.885,130.801,133.561,136.321,137.392,144.137,147.206,152.726,155.486,158.24599999999998,159.339,164.241,169.761,175.281,178.041,179.123,183.418,186.178,188.938,189.909,200.331,205.851,208.611,211.37099999999998,212.453,217.973,223.493,229.013,234.411,237.525,240.285,241.355,248.101,253.621,258.523,261.283,262.343,267.863,271.462,274.575,279.477,284.4,287.15999999999997,288.231,293.63,297.339,302.142,310.665,313.778,319.298,327.931,330.691,331.641,335.35,340.87,344.58,347.34,348.41,353.93,357.529,362.431,367.355" svgx:width="0.61,0.5,0.44,0.5,0.5,0.25,0.25,0.55,0.61,0.25,0.25,0.25,0.55,0.72,0.25,0.25,0.55,0.61,0.28,0.5,0.25,0.25,0.55,0.44,0.5,0.5,0.25,0.55,0.39,0.25,0.25,0.55,0.94,0.5,0.25,0.25,0.55,0.5,0.5,0.5,0.5,0.28,0.25,0.55,0.61,0.5,0.44,0.25,0.55,0.5,0.33,0.28,0.44,0.44,0.25,0.55,0.5,0.33,0.44,0.78,0.28,0.5,0.78,0.25,0.55,0.33,0.5,0.33,0.25,0.55,0.5,0.33,0.44,0.44,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">Zhang, L., H. Liu, and J. Wu, 2017: The price premium for green</text>
+  </g>
+  <g begin="text">
+   <text y="602.38" x="373.15" svgx:width="0.33" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">-</text>
+  </g>
+  <g begin="text">
+   <text y="602.38" x="376.75,379.753,384.655,390.175,394.988,398.101,401.215,406.017,411.537,414.29699999999997,415.368,420.888,426.408,431.806,436.101,439.236,444.756,450.155,453.268,456.02799999999996,457.099,463.845,469.365,472.434,477.854,482.756,488.276,493.2,498.102,500.86199999999997,501.944,505.543,509.252,514.651,523.284" svgx:width="0.28,0.44,0.5,0.44,0.28,0.28,0.44,0.5,0.25,0.55,0.5,0.5,0.5,0.39,0.28,0.5,0.5,0.28,0.25,0.55,0.61,0.5,0.28,0.5,0.44,0.5,0.44,0.44,0.25,0.55,0.33,0.33,0.5,0.78,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">labelled housing: Evidence from </text>
+  </g>
+  <g begin="text">
+   <text y="602.38" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">35</text>
+  </g>
+  <g begin="text">
+   <text y="602.38" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="615.1" x="96.024,103.343,108.863,111.977,117.497,122.399,125.159" svgx:width="0.67,0.5,0.28,0.5,0.44,0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">China. </text>
+  </g>
+  <g begin="text">
+   <text y="615.1" x="127.94,135.856,140.15,145.571,151.091,156.611" svgx:width="0.72,0.39,0.5,0.5,0.5,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-ItalicMT;font-size:11.04px;stroke:none;">Urban </text>
+  </g>
+  <g begin="text">
+   <text y="615.1" x="159.38,164.779,167.892,173.412,178.932" svgx:width="0.5,0.28,0.5,0.5,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-ItalicMT;font-size:11.04px;stroke:none;">Stud.</text>
+  </g>
+  <g begin="text">
+   <text y="615.1" x="181.73,184.49" svgx:width="0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">, </text>
+  </g>
+  <g begin="text">
+   <text y="615.1" x="187.25,192.77" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-BoldMT;font-size:11.04px;stroke:none;">54</text>
+  </g>
+  <g begin="text">
+   <text y="615.1" x="198.17,201.879,207.399,212.798,216.397,219.157,221.917,227.437,232.957,238.477" svgx:width="0.33,0.5,0.5,0.33,0.25,0.25,0.5,0.5,0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">(15), 3524</text>
+  </g>
+  <g begin="text">
+   <text y="615.1" x="244.01" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">–</text>
+  </g>
+  <g begin="text">
+   <text y="615.1" x="249.53,255.05,260.57,265.969,271.489,274.249,277.009,282.529,287.927,291.04,294.154,299.552,305.072,307.832,313.352,318.872,324.392,329.791,332.904,338.303,343.823,349.343,354.863,360.383,365.903,371.423,376.943,382.462,387.861,393.381,398.901,404.421,409.941,415.461,420.86" svgx:width="0.5,0.5,0.5,0.5,0.25,0.25,0.5,0.5,0.28,0.28,0.5,0.5,0.25,0.5,0.5,0.5,0.5,0.28,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">3541, doi:10.1177/0042098016668288.</text>
+  </g>
+  <g begin="text">
+   <text y="615.1" x="423.58" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="615.1" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">36</text>
+  </g>
+  <g begin="text">
+   <text y="615.1" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="633.7" x="72.024,78.769,84.289,89.191,94.711,100.231,102.991,105.751,107.175,115.091,117.851,120.611,123.37100000000001,124.795,132.711,135.349,138.10899999999998,139.534,146.853,152.373,157.893,161.006,163.645,166.405,167.829,172.731,178.251,183.672,186.432,187.745,198.167,200.927,203.68699999999998,205.133,215.456,220.357,225.877,231.397,234.157,236.917,238.242,243.762,249.282,254.802,260.201,263.314,266.074,267.498,275.414,280.934,285.836,290.053,292.813,294.237,299.139,304.659,309.472,313.182,318.702,324.222,326.98199999999997,328.296,332.005,336.907,341.124,346.026,350.95,354.549,359.45,364.97,367.73,369.055,372.765,378.285,383.805,389.203,392.316,397.836,403.356,406.116,407.541,415.456,420.855,424.564,429.963,434.865,437.625,439.071,445.816,451.336,454.406,459.826,464.728,470.248,475.061,479.963,482.723,484.169,487.768,491.478,496.876,505.51,508.27,509.694,512.697,518.217,523.019" svgx:width="0.61,0.5,0.44,0.5,0.5,0.25,0.25,0.55,0.72,0.25,0.25,0.25,0.55,0.72,0.25,0.25,0.55,0.67,0.5,0.5,0.28,0.25,0.25,0.55,0.44,0.5,0.5,0.25,0.55,0.94,0.25,0.25,0.55,0.94,0.44,0.5,0.5,0.25,0.25,0.55,0.5,0.5,0.5,0.5,0.28,0.25,0.55,0.72,0.5,0.44,0.39,0.25,0.55,0.44,0.5,0.44,0.33,0.5,0.5,0.25,0.55,0.33,0.44,0.39,0.44,0.44,0.33,0.44,0.5,0.25,0.55,0.33,0.5,0.5,0.5,0.28,0.5,0.5,0.25,0.55,0.72,0.5,0.33,0.5,0.44,0.25,0.55,0.61,0.5,0.28,0.5,0.44,0.5,0.44,0.44,0.25,0.55,0.33,0.33,0.5,0.78,0.25,0.55,0.28,0.5,0.44,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">Zhang, N., Y. Choi, and W. Wang, 2019: Does energy research funding work? Evidence from the </text>
+  </g>
+  <g begin="text">
+   <text y="633.7" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">37</text>
+  </g>
+  <g begin="text">
+   <text y="633.7" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="646.3" x="96.024,103.94,108.841,111.966,117.486,121.085,125.987,129.111,131.507,137.645,142.425,145.538,150.44,155.96,160.774,165.675,168.093,174.231,179.751,185.271,190.791,196.311,201.092,204.095,207.208,212.728,218.126,220.522,226.042,229.752,232.147,239.467,244.987,248.1,253.62,258.522,260.94,266.46,270.655,273.768,279.288,284.808,287.204,293.949,300.639,304.238,314.406,318.039,320.434,329.067,333.87,336.873,342.393,347.913,353.433,356.193" svgx:width="0.72,0.44,0.28,0.5,0.33,0.44,0.28,0.25,0.56,0.44,0.28,0.44,0.5,0.44,0.44,0.25,0.56,0.5,0.5,0.5,0.5,0.44,0.28,0.28,0.5,0.5,0.25,0.5,0.33,0.25,0.67,0.5,0.28,0.5,0.44,0.25,0.5,0.39,0.28,0.5,0.5,0.25,0.61,0.61,0.33,0.92,0.33,0.25,0.78,0.44,0.28,0.5,0.5,0.5,0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">Natural Science Foundation of China using TEI@I method. </text>
+  </g>
+  <g begin="text">
+   <text y="646.3" x="358.75,364.888,369.79,374.692,380.212,385.732,391.152,394.266,397.026,399.421,406.167,411.687,415.86,420.762,425.686,431.206,435.401,438.514,441.274,443.67,449.19,454.71,459.512,462.272,464.668,471.987,477.507,483.027,488.547,494.067" svgx:width="0.56,0.44,0.44,0.5,0.5,0.5,0.28,0.25,0.25,0.61,0.5,0.39,0.44,0.44,0.5,0.39,0.28,0.25,0.25,0.5,0.5,0.44,0.25,0.25,0.67,0.5,0.5,0.5,0.5,0.44" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-ItalicMT;font-size:11.04px;stroke:none;">Technol. Forecast. Soc. Change</text>
+  </g>
+  <g begin="text">
+   <text y="646.3" x="499.06,501.82" svgx:width="0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">, </text>
+  </g>
+  <g begin="text">
+   <text y="646.3" x="504.22,509.74,515.26" svgx:width="0.5,0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-BoldMT;font-size:11.04px;stroke:none;">144</text>
+  </g>
+  <g begin="text">
+   <text y="646.3" x="520.8,523.44" svgx:width="0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">, </text>
+  </g>
+  <g begin="text">
+   <text y="646.3" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">38</text>
+  </g>
+  <g begin="text">
+   <text y="646.3" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="659.02" x="96.024,101.544,107.064" svgx:width="0.5,0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">369</text>
+  </g>
+  <g begin="text">
+   <text y="659.02" x="112.58" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">–</text>
+  </g>
+  <g begin="text">
+   <text y="659.02" x="118.1,123.62,129.14,134.66,137.42,140.18,145.579,151.099,154.101,157.215,162.735" svgx:width="0.5,0.5,0.5,0.25,0.25,0.5,0.5,0.28,0.28,0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">380, doi:10</text>
+  </g>
+  <g begin="text">
+   <text y="659.02" x="168.29,171.05,176.57,181.969,187.489,193.009,196.011,199.125,201.885,204.888,209.789,214.603,220.123,223.832,229.352,232.951,237.853,240.613,246.133,251.653,257.173,262.693,265.354,270.874,276.394,279.154,284.674,290.194,295.714" svgx:width="0.25,0.5,0.5,0.5,0.5,0.28,0.28,0.25,0.28,0.44,0.44,0.5,0.33,0.5,0.33,0.44,0.25,0.5,0.5,0.5,0.5,0.25,0.5,0.5,0.25,0.5,0.5,0.5,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">.1016/j.techfore.2018.02.001.</text>
+  </g>
+  <g begin="text">
+   <text y="659.02" x="298.39" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="659.02" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">39</text>
+  </g>
+  <g begin="text">
+   <text y="659.02" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="677.62" x="72.024,78.769,84.289,89.809,95.329,98.089,100.849,103.212,110.532,113.292,116.052,118.81200000000001,121.196,126.716,132.236,137.756,143.276,146.389,149.149,151.534,158.279,163.799,168.701,174.089,177.202,180.205,185.725,191.124,193.884,196.268,203.014,207.915,215.831,218.59099999999998,220.976,225.877,231.397,236.917,239.677,242.084,248.222,253.742,256.812,259.958,264.86,270.38,273.14,275.546,282.292,287.812,293.188,296.302,299.901,305.421,310.819,319.453,324.354,329.775,332.888,335.64799999999997,338.033,341.742,347.262,350.972,353.73199999999997,356.116,363.436,366.439,369.442,378.075,382.877,385.991,390.892,393.652,396.059,402.805,407.706,412.608,418.128,423.538,429.058,432.061,437.581,443.101,448.621,451.381,453.765,460.511,464.187,469.111,474.631,478.826,482.535,487.338,491.047,494.161,496.921,499.305,505.444,509.021,514.541,523.063" svgx:width="0.61,0.5,0.5,0.5,0.25,0.25,0.55,0.67,0.25,0.25,0.25,0.55,0.5,0.5,0.5,0.5,0.28,0.25,0.55,0.61,0.5,0.44,0.5,0.28,0.28,0.5,0.5,0.25,0.55,0.61,0.44,0.72,0.25,0.55,0.44,0.5,0.5,0.25,0.55,0.56,0.5,0.28,0.28,0.44,0.5,0.25,0.55,0.61,0.5,0.5,0.28,0.33,0.5,0.5,0.78,0.44,0.5,0.28,0.25,0.55,0.33,0.5,0.33,0.25,0.55,0.67,0.28,0.28,0.78,0.44,0.28,0.44,0.25,0.55,0.61,0.44,0.44,0.5,0.5,0.5,0.28,0.5,0.5,0.5,0.25,0.55,0.61,0.33,0.44,0.5,0.39,0.33,0.44,0.33,0.28,0.25,0.55,0.56,0.33,0.5,0.78,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">Zhou, C., 2019: Enabling Law and Policy Environment for Climate Technology Transfer: From </text>
+  </g>
+  <g begin="text">
+   <text y="677.62" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">40</text>
+  </g>
+  <g begin="text">
+   <text y="677.62" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="690.22" x="96.024,102.162,107.064,110.773,115.068,120.489,125.39,130.314,133.317,136.43,141.95,146.753,151.047,153.807,166.779,172.178,175.887,178.647,191.597,199.513,204.911,209.206,212.231,214.99099999999999,227.941,235.26,240.78,246.3,251.82,254.823,258.533,261.536,266.438,270.765,273.404" svgx:width="0.56,0.44,0.33,0.39,0.5,0.44,0.44,0.28,0.28,0.5,0.44,0.39,0.25,0.55,0.5,0.33,0.25,0.55,0.72,0.5,0.39,0.28,0.25,0.55,0.67,0.5,0.5,0.5,0.28,0.33,0.28,0.44,0.39,0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">Perspectives of Host Countries. </text>
+  </g>
+  <g begin="text">
+   <text y="690.22" x="289.27,294.172,296.932,299.692,312.664,319.266,324.786,329.08,332.105,334.865,347.815,354.561,358.855,361.858,367.378,370.138,383.088,386.687,392.207,395.32,397.959,400.719,413.669,419.807,425.327" svgx:width="0.44,0.25,0.25,0.55,0.61,0.5,0.39,0.28,0.25,0.55,0.61,0.39,0.28,0.5,0.25,0.55,0.33,0.5,0.28,0.25,0.25,0.55,0.56,0.5,0.67" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-ItalicMT;font-size:11.04px;stroke:none;">J. East Asia Int. Law</text>
+  </g>
+  <g begin="text">
+   <text y="690.22" x="432.7,435.46" svgx:width="0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">, </text>
+  </g>
+  <g begin="text">
+   <text y="690.22" x="451.06,456.58" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-BoldMT;font-size:11.04px;stroke:none;">12</text>
+  </g>
+  <g begin="text">
+   <text y="690.22" x="462.1,465.809,471.329,474.928,477.688,480.448,493.398,498.918" svgx:width="0.33,0.5,0.33,0.25,0.25,0.55,0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">(1), 45</text>
+  </g>
+  <g begin="text">
+   <text y="690.22" x="504.46" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">–</text>
+  </g>
+  <g begin="text">
+   <text y="690.22" x="509.86,515.38,520.779,523.417" svgx:width="0.5,0.5,0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">70, </text>
+  </g>
+  <g begin="text">
+   <text y="690.22" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">41</text>
+  </g>
+  <g begin="text">
+   <text y="690.22" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="703.06" x="96.024,101.544,107.064,110.177,113.18,118.7,124.22,126.98,132.5,138.02,143.54,148.939,154.459,157.462,160.575,165.477,170.29,173.403,176.517,179.155,184.675,190.195,195.715,201.235,203.995,209.515,214.914,217.552,223.072,225.832,231.352,236.872" svgx:width="0.5,0.5,0.28,0.28,0.5,0.5,0.25,0.5,0.5,0.5,0.5,0.5,0.28,0.28,0.44,0.44,0.28,0.28,0.25,0.5,0.5,0.5,0.5,0.25,0.5,0.5,0.25,0.5,0.25,0.5,0.5,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">doi:10.14330/jeail.2019.12.1.03.</text>
+  </g>
+  <g begin="text">
+   <text y="703.06" x="239.57" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="703.06" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">42</text>
+  </g>
+  <g begin="text">
+   <text y="703.06" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="721.56" x="72.024,78.769,84.289,89.809,95.329,98.089,101.17,109.085,111.845,114.605,117.719,127.533,130.293,133.428,141.344,144.104,147.217,153.819,158.721,164.241,167.255,172.775,177.677,180.437,183.561,188.363,193.762,199.282,202.395,209.141,211.901,214.981,221.119,224.696" svgx:width="0.61,0.5,0.5,0.5,0.25,0.25,0.72,0.25,0.25,0.25,0.89,0.25,0.25,0.72,0.25,0.25,0.61,0.44,0.5,0.28,0.5,0.44,0.25,0.25,0.44,0.5,0.5,0.25,0.61,0.25,0.25,0.56,0.33,0.28" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">Zhou, N., M. D. Levine, and L. Pri</text>
+  </g>
+  <g begin="text">
+   <text y="721.56" x="227.93,232.832,237.756,240.516,243.629,249.027,254.547,260.067,265.466,268.579,271.693,279.608,285.128,290.03,293.651,299.171,302.284,307.186,315.002,318.116,323.636,327.345,330.458,335.36,340.781,344.49,348.089,352.991,358.511,361.635,364.627,369.529,375.049,379.863,383.572,389.092" svgx:width="0.44,0.44,0.25,0.25,0.5,0.5,0.5,0.5,0.28,0.25,0.72,0.5,0.44,0.33,0.5,0.28,0.44,0.72,0.25,0.5,0.33,0.25,0.44,0.5,0.33,0.33,0.44,0.5,0.28,0.25,0.44,0.5,0.44,0.33,0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">ce, 2010: Overview of current energy</text>
+  </g>
+  <g begin="text">
+   <text y="721.56" x="394.75" svgx:width="0.33" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">-</text>
+  </g>
+  <g begin="text">
+   <text y="721.56" x="398.38,403.282,406.903,410.612,413.615,418.517,421.641,426.444,431.964,436.766,442.286,445.399,450.919,456.439,459.442,462.556,467.358,470.471,475.373,479.701,482.693,485.806,491.326,494.439,501.759,507.157,510.27,515.79,520.692,523.353" svgx:width="0.44,0.33,0.33,0.28,0.44,0.28,0.44,0.5,0.44,0.5,0.25,0.5,0.5,0.28,0.28,0.44,0.28,0.44,0.39,0.25,0.28,0.5,0.25,0.67,0.5,0.28,0.5,0.44,0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">efficiency policies in China. </text>
+  </g>
+  <g begin="text">
+   <text y="721.56" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">43</text>
+  </g>
+  <g begin="text">
+   <text y="721.56" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="734.4" x="96.024,102.769,108.289,113.191,117.486,123.006,127.93,130.69,137.292,142.812,145.814,148.928,153.829" svgx:width="0.61,0.5,0.44,0.39,0.5,0.44,0.25,0.61,0.5,0.28,0.28,0.44,0.44" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-ItalicMT;font-size:11.04px;stroke:none;">Energy Policy</text>
+  </g>
+  <g begin="text">
+   <text y="734.4" x="158.78,161.54" svgx:width="0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">, </text>
+  </g>
+  <g begin="text">
+   <text y="734.4" x="164.18,169.7" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-BoldMT;font-size:11.04px;stroke:none;">38</text>
+  </g>
+  <g begin="text">
+   <text y="734.4" x="175.25,178.959,184.479,189.878,193.587,196.347,199.107,204.627,210.026,215.425" svgx:width="0.33,0.5,0.5,0.33,0.25,0.25,0.5,0.5,0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">(11), 6439</text>
+  </g>
+  <g begin="text">
+   <text y="734.4" x="220.97" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">–</text>
+  </g>
+  <g begin="text">
+   <text y="734.4" x="226.49,232.01,237.53,243.05,248.57,251.33,254.09,259.61,265.009,268.011,271.125,276.645,282.165,284.925,290.445,295.965,301.363,306.883,309.886,312.999,315.759,320.661,326.181,331.602,337.0,340.114,342.874,348.394,353.914,359.434,364.954,367.592,373.112,378.632,381.392,386.912,392.432,397.952" svgx:width="0.5,0.5,0.5,0.5,0.25,0.25,0.5,0.5,0.28,0.28,0.5,0.5,0.25,0.5,0.5,0.5,0.5,0.28,0.28,0.25,0.44,0.5,0.5,0.5,0.28,0.25,0.5,0.5,0.5,0.5,0.25,0.5,0.5,0.25,0.5,0.5,0.5,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">6452, doi:10.1016/j.enpol.2009.08.015.</text>
+  </g>
+  <g begin="text">
+   <text y="734.4" x="400.66" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="734.4" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">44</text>
+  </g>
+  <g begin="text">
+   <text y="734.4" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="752.88" x="72.024,78.769,84.289,89.809,94.711,100.231,105.751,108.511,111.271,112.695,123.117,125.877,128.637,131.397,132.965,138.363,143.883,149.403,154.923,157.926" svgx:width="0.61,0.5,0.5,0.44,0.5,0.5,0.25,0.25,0.55,0.94,0.25,0.25,0.25,0.55,0.5,0.5,0.5,0.5,0.28,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">Zhuang, W., 2017: </text>
+  </g>
+  <g begin="text">
+   <text y="752.88" x="162.26,165.969,171.368,174.481,179.284,182.397,185.4,190.202,195.104,198.228,203.748,209.147,212.26,215.01999999999998,216.566,223.311,227.606,233.004,238.524,243.426,247.643,250.757,255.658,258.418,259.986,266.588,269.701,275.221,280.62,283.733,288.028,290.788,292.245,297.765,303.285,308.684,311.444,312.989,320.309,323.422,326.535,334.451,339.849,342.963,347.865,350.625,352.192,359.512,364.91,370.43,375.95,381.47" svgx:width="0.33,0.5,0.28,0.44,0.28,0.28,0.44,0.44,0.28,0.5,0.5,0.28,0.25,0.55,0.61,0.39,0.5,0.5,0.44,0.39,0.28,0.44,0.25,0.55,0.61,0.28,0.5,0.5,0.28,0.39,0.25,0.55,0.5,0.5,0.5,0.25,0.55,0.67,0.28,0.28,0.72,0.5,0.28,0.44,0.25,0.55,0.67,0.5,0.5,0.5,0.5,0.44" style="fill:rgb(0,0,0);font-family:TimesNewRomanPS-ItalicMT;font-size:11.04px;stroke:none;">Intellectual Property Rights and Climate Change</text>
+  </g>
+  <g begin="text">
+   <text y="752.88" x="386.59,389.229,391.989,393.534,400.854,405.755,414.289,419.809,423.408,426.411,431.931,437.451,442.353,445.113,446.681,454.596,460.116,463.119,468.639,473.541,477.162,481.457,484.482,487.595,493.115,495.875,497.421,503.415,507.125,512.026,516.244,520.538,523.298" svgx:width="0.25,0.25,0.55,0.67,0.44,0.78,0.5,0.33,0.28,0.5,0.5,0.44,0.25,0.55,0.72,0.5,0.28,0.5,0.44,0.33,0.39,0.28,0.28,0.5,0.25,0.55,0.56,0.33,0.44,0.39,0.39,0.25,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">. Cambridge University Press, </text>
+  </g>
+  <g begin="text">
+   <text y="752.88" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">45</text>
+  </g>
+  <g begin="text">
+   <text y="752.88" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="765.6" x="96.024,103.343,108.245,116.89,122.41,126.009,129.122,134.642,140.04,144.942,147.702,150.462,158.433,166.316,169.076,171.836,177.356,182.876,188.396,191.156,196.676,202.074" svgx:width="0.67,0.44,0.78,0.5,0.33,0.28,0.5,0.5,0.44,0.25,0.25,0.72,0.72,0.25,0.25,0.5,0.5,0.5,0.25,0.5,0.5,0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">Cambridge, UK, 428 pp.</text>
+  </g>
+  <g begin="text">
+   <text y="765.6" x="204.77" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="765.6" x="42.96,48.48" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;">46</text>
+  </g>
+  <g begin="text">
+   <text y="765.6" x="54.024" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:11.04px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="602.109" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-395.12956,250.29085)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,104.563255,239.8115]" x="104.563" svgx:width="0.67" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">A</text>
+   <text y="582.23" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-375.25056,258.525)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,124.442085,259.6903]" x="124.442" svgx:width="0.72" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">C</text>
+   <text y="560.712" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-353.73256,267.43805)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,145.9601,281.20834]" x="145.96" svgx:width="0.72" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">C</text>
+   <text y="539.194" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-332.21456,276.3511)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,167.47812,302.72635]" x="167.478" svgx:width="0.67" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">E</text>
+   <text y="519.315" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-312.33556,284.58525)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,187.35693,322.60516]" x="187.357" svgx:width="0.67" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">P</text>
+   <text y="499.436" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-292.45656,292.8194)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,207.23578,342.484]" x="207.236" svgx:width="0.61" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">T</text>
+   <text y="481.226" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-274.24656,300.36223)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,225.44562,360.69385]" x="225.446" svgx:width="0.67" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">E</text>
+   <text y="461.347" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-254.36786,308.59567)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,245.32443,380.57266]" x="245.324" svgx:width="0.72" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">D</text>
+   <text y="439.829" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-232.84986,317.50872)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,266.84247,402.0907]" x="266.842" svgx:width="0.28" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;"> </text>
+   <text y="431.54" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-224.56056,320.94284)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,275.13153,410.37976]" x="275.132" svgx:width="0.67" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">V</text>
+   <text y="411.661" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-204.68186,329.17629)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,295.0103,430.25858]" x="295.01" svgx:width="0.67" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">E</text>
+   <text y="391.783" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-184.80356,337.41073)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,314.88916,450.1374]" x="314.889" svgx:width="0.72" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">R</text>
+   <text y="370.265" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-163.28556,346.32378)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,336.40717,471.65543]" x="336.407" svgx:width="0.67" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">S</text>
+   <text y="350.386" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-143.40656,354.55793)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,356.286,491.53424]" x="356.286" svgx:width="0.28" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">I</text>
+   <text y="342.1" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-135.12086,357.9894)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,364.57135,499.81958]" x="364.571" svgx:width="0.78" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">O</text>
+   <text y="318.913" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-111.93386,367.59377)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,387.7583,523.0066]" x="387.758" svgx:width="0.72" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">N</text>
+   <text y="297.395" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-90.41586,376.50681)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,409.27637,544.5246]" x="409.276" svgx:width="0.28" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;"> </text>
+   <text y="637.872" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-409.94279,286.05456)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,140.32727,204.04747]" x="140.327" svgx:width="0.67" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">S</text>
+   <text y="617.994" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-390.0645,294.289)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,160.2061,223.9263]" x="160.206" svgx:width="0.72" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">U</text>
+   <text y="596.476" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-368.5465,303.20205)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,181.72412,245.4443]" x="181.724" svgx:width="0.67" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">B</text>
+   <text y="576.597" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-348.6675,311.4362)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,201.60294,265.32315]" x="201.603" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">J</text>
+   <text y="561.695" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-333.7655,317.60881)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,216.50462,280.22482]" x="216.505" svgx:width="0.67" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">E</text>
+   <text y="541.816" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-313.88679,325.84225)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,236.38344,300.10364]" x="236.383" svgx:width="0.72" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">C</text>
+   <text y="520.298" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-292.36879,334.7553)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,257.90146,321.62164]" x="257.901" svgx:width="0.61" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">T</text>
+   <text y="502.089" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-274.1595,342.29842)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,276.1113,339.83148]" x="276.111" svgx:width="0.28" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;"> </text>
+   <text y="493.803" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-265.8735,345.7306)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,284.39664,348.11682]" x="284.397" svgx:width="0.61" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">T</text>
+   <text y="475.593" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-247.66379,353.27272)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,302.60648,366.32666]" x="302.606" svgx:width="0.78" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">O</text>
+   <text y="452.406" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-224.47679,362.87709)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,325.79346,389.51367]" x="325.793" svgx:width="0.28" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;"> </text>
+   <text y="444.136" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-216.2065,366.30334)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,334.0639,397.78412]" x="334.064" svgx:width="0.61" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">F</text>
+   <text y="425.926" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-197.9965,373.84617)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,352.27374,415.99396]" x="352.274" svgx:width="0.28" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">I</text>
+   <text y="417.641" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-189.7115,377.27793)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,360.55908,424.2793]" x="360.559" svgx:width="0.72" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">N</text>
+   <text y="396.123" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-168.1935,386.19098)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,382.0771,445.7973]" x="382.077" svgx:width="0.67" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">A</text>
+   <text y="376.244" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-148.3145,394.42513)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,401.95593,465.67615]" x="401.956" svgx:width="0.56" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">L</text>
+   <text y="359.673" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-131.7435,401.28906)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,418.5266,482.24677]" x="418.527" svgx:width="0.28" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;"> </text>
+   <text y="351.394" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-123.4645,404.71834)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,426.80573,490.52588]" x="426.806" svgx:width="0.67" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">E</text>
+   <text y="331.515" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-103.5855,412.95249)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,446.68457,510.40472]" x="446.685" svgx:width="0.72" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">D</text>
+   <text y="309.997" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-82.0675,421.86554)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,468.2025,531.9227]" x="468.203" svgx:width="0.28" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">I</text>
+   <text y="301.712" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-73.7825,425.29729)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,476.48785,540.20807]" x="476.488" svgx:width="0.61" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">T</text>
+   <text y="283.502" transform="matrix(0.70711,-0.70711,0.70711,0.70711,-55.5725,432.84012)" rotateDegrees="-45" matrix="[29.803345,29.803345,-29.803345,29.803345,494.6977,558.4179]" x="494.698" svgx:width="0.67" style="fill:rgb(0,0,0);font-family:Arial;font-size:42.15px;stroke:none;">S</text>
+  </g>
+ </g>
+</svg>
