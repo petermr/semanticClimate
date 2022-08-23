@@ -1,0 +1,22 @@
+<dictionary title="urban" version="0.0.1">
+    <entry term="urbanization" wikidataID="Q161078" desc="longterm population movements (shift) from rural to urban areas;gradual increase in the proportion of people living in urban areas, and the ways in which each society adapts to the change;process by which towns and cities are formed and become larger"/>
+<entry term="GHG" name="greenhouse gases" wikidataID="Q167336" desc="gas in an atmosphere of a planet (usually Earth) that absorbs and emits radiation within the thermal infrared range and causes the greenhouse effect"/>
+    <entry term="carbon footprint" wikidataID="Q310667" desc="total set of greenhouse gas emissions caused by an individual, event, organisation, or product, expressed as carbon dioxide equivalent"/>
+<entry term="mitigation" wikidataID="Q6881760" desc="Mitigation is the reduction of something harmful or the reduction of its harmful effects"/>
+    <entry term="renewable energy" wikidataID="Q12705" desc="energy that is collected from renewable sources"/>
+<entry term="electrification" wikidataID="Q1076056" desc="process of converting a device, process, or society to the use of electric power"/>
+<entry term="carbon lock-in" wikidataID="Q5037970" desc="Carbon lock-in refers to the self-perpetuating inertia created by large fossil fuel-based energy systems that inhibits public and private efforts to introduce alternative energy technologies"/>
+<entry term="AFOLU" name="Agriculture, Forestry and Other Land Use" wikidataID="Q3348639" desc="">
+<synonym>LULUCF</synonym>
+  <synonym>FOLU</synonym>
+</entry>
+ <entry term="concomitant" wikidataID="Q16769663" desc="Concomitance is the condition of accompanying or coexisting"/>
+    <entry term="urban resilience" wikidataID="Q7900159" desc="ability of a city to function after a crisis"/>
+        <entry term="climate resilience" wikidataID="Q17072637" desc="the ability of systems to recover from climate change"/>
+    <entry term="interventions" wikidataID="Q365681" desc=""/>
+<entry term="jurisdiction" wikidataID="Q471855" desc="practical authority granted to a formally constituted legal body or to a political leader to deal with legal matters"/>
+<entry term="green infrastructure" wikidataID="Q3427027" desc='Green infrastructure or blue-green infrastructure refers to a network that provides the "ingredients" for solving urban and climatic challenges by building with nature'/>
+    <entry term="IPCC" name="Intergovernmental Panel on Climate Change " wikidataID="Q171183" desc=" (IPCC) is an intergovernmental body of the United Nations responsible for advancing knowledge on human-induced climate change"/>
+<entry term="Spatial Planning" wikidataID="Q149013" desc="technique for physical organisation of space"/>
+<entry term="UN DESA" name="United Nations Department of Economic and Social Affairs " wikidataID="Q2671637" desc="government organization in New York, United States"/>
+</dictionary>
