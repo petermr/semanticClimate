@@ -1,0 +1,28 @@
+<dictionary title="emissions" version="0.0.2">
+  <desc> manually created by Abhishek Prasad 2022-08-23 </desc>
+  <entry term="carbon budget" wikidataID="Q16722080" desc="limit on CO2 emission for a given climate impact"></entry>
+  <entry term="FFI" name="fossil fuel combustion and industrial processes" wikidataID="" desc=""/>
+  <entry term="LULUCF" name="land use, land-use change, and forestry" wikidataID="Q3348639"
+         desc="Greenhouse gas inventory sector that covers emissions and removals of greenhouse gases resulting
+               from direct human-induced land use"/>
+  <entry term="forestry and other land-use (FOLU)" wikidataID="Q3348639"
+         desc="Greenhouse gas inventory sector that covers emissions and removals of greenhouse gases resulting
+               from direct human-induced land use"/>
+  <entry term="fluorinated gas" wikidataID="Q3099705" desc="man-made gases that can stay in the atmosphere
+               for centuries and contribute to a global greenhouse effect" >
+      <synonym>f-gas</synonym>
+  </entry>
+  <entry term="carbon budget" wikidataID="Q16722080" desc="limit on CO2 emission for a given climate impact"/>
+  <entry term="carbon pricing" wikidataID="Q20681009" desc="amount that must be paid for the right to emit one
+               tonne of CO2 into the atmosphere"/>
+  <entry term="EDGAR" name="Emissions Database for Global Atmospheric Research" wikidataID="Q108749703"
+         wikipediaPage="https://en.wikipedia.org/wiki/Emission_Database_for_Global_Atmospheric_Research"
+         desc="a joint project of the European Commission Joint Research Centre and the
+               Netherlands Environmental Assessment Agency which estimates emissions of all
+               greenhouse gases, air pollutants and aerosols" />
+  <entry term="PRIMAP" name="Potsdam Real-time Integrated Model for probabilistic Assessment of emissions Paths" wikidataID="Q57197290"
+         desc=""/>
+  <entry term="CAIT" name="Climate Analysis Indicators Tool" wikidataID="" desc=""/>
+  <entry term="CEDS" name="A Community Emissions Data System for Historical Emissions" wikidataID="" desc=""/>
+  <entry term="CRF" name="common reporting format" wikidataID="" desc=""/>
+</dictionary>
