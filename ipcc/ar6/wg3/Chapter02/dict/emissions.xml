@@ -1,4 +1,4 @@
-<dictionary title="emissions" version="0.0.2">
+<dictionary title="emissions" version="0.0.3" >
   <desc> manually created by Abhishek Prasad 2022-08-23 </desc>
   <entry term="carbon budget" wikidataID="Q16722080"
          wikipediaPage="https://en.wikipedia.org/wiki/Carbon_budget" desc="limit on CO2 emission for a given climate impact"/>
@@ -67,7 +67,24 @@
                geographical region or sector, using measurements from hand-held OGC cameras,
                truck-mounted cameras, drones and planes, and satellites"
          descPage="https://processecology.com/articles/which-is-better-bottom-up-or-top-down-emissions-estimates"/>
-  <entry term="GTP" name="Global Temperature Change Potential" wikidataID="" wikipediaPage="" descPage="" desc=""
-
-
+  <entry term="GTP" name="Global Temperature Change Potential" wikidataID="" wikipediaPage=""
+         descPage="https://knowledge4policy.ec.europa.eu/glossary-item/global-temperature-change-potential_en"
+         desc="the change in global mean surface temperature at a chosen point in time in response to an emission pulse
+               relative to that of CO2"/>
+  <entry term="social discount rate" wikidataID="Q7551053" wikipediaPage="https://en.wikipedia.org/wiki/Social_discount_rate"
+         desc="rate used for discounting future benefits or costs to society"/>
+  <entry term="SLCF" name="Short Lived Climate Forcers" wikidataID="" wikipediaPage=""
+         desc="greenhouse gases and other climate pollutants that have relatively short atmospheric lifetimes
+               compared to carbon dioxide"
+         descPage="https://www.c2es.org/content/short-lived-climate-pollutants/"/>
+    <synonym> term="SLCP" name="Short-lived climate pollutants" </synonym>
+    <synonym> term="near-term climate forcers" </synonym>
+  <entry term="CGTP" name="Combined Global Temperature Change Potential" wikidataID="" wikipediaPage="" descPage="" />
+  <entry term="CO2-equivalent emission" wikidataID="" wikipediaPage=""
+         desc="Carbon dioxide equivalent or CO2e means the number of metric tons of CO2 emissions
+               with the same global warming potential as one metric ton of another greenhouse gas"
+         descPage="https://www3.epa.gov/carbon-footprint-calculator/tool/definitions/co2e.html"/>
 </dictionary>
+
+
+
