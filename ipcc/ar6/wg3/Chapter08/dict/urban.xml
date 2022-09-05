@@ -104,8 +104,61 @@
              desc="administrative division in several countries"/>
 <entry term="Climate change and cities" wikipage="https://en.wikipedia.org/wiki/Climate_change_and_cities" wikidataID="Q102133023"
              desc="field of research combining climate change impact and mitigation and cities"/>
+<entry term="sustainability" wikipage="https://en.wikipedia.org/wiki/Sustainability" wikidataID="Q219416"
+             desc="ability of human civilization to coexist with the biosphere in a steady state"/>                                                                                               
+ <entry term="synergies" wikipage="https://en.wikipedia.org/wiki/Synergy" wikidataID="Q540614"
+             desc="creation of a whole that is greater than the simple sum of its parts"/>                                                                                                
+ <entry term="(PM10)" name="particulate matter" wikipage="https://en.wikipedia.org/wiki/Particulates" 
+               wikidataID="Q498957" desc="microscopic solid or liquid matter suspended in the Earth's atmosphere"/>                                                                                                
+ <entry term="congestion" wikipage="https://en.wikipedia.org/wiki/Congestion" wikidataID="Q419301"
+             desc=""/>                                                                                                
+<entry term="Energy poverty" wikipage="https://en.wikipedia.org/wiki/Energy_poverty" wikidataID="Q1341244"
+            desc="lack of access to modern energy services"/>                                                                                               
+<entry term="black carbon" wikipage="https://en.wikipedia.org/wiki/Black_carbon" wikidataID="Q3233590"
+             desc="atmospheric soot; component of fine particulate matter"/>                                                                                               
+ <entry term="NBS" name="nature-based solutions" wikipage="https://en.wikipedia.org/wiki/Nature-based_solutions" 
+            wikidataID="Q2421934"
+            desc="sustainable management and use of nature for tackling socio-environmental challenges"/>                                                                                              
+ <entry term=" urban forestry" wikipage="https://en.wikipedia.org/wiki/Urban_Forestry" wikidataID="Q822620"
+             desc="land use management system in which trees or shrubs are cared or protected for well-being"/>                                                                                                
+<entry term="Urban agriculture" wikipage="https://en.wikipedia.org/wiki/Urban_agriculture" wikidataID="Q1194826"
+             desc="agriculture in urban environments"/>                                                                                                 
+<entry term="TOD" name="transit-oriented development" wikipage="https://en.wikipedia.org/wiki/Transit-oriented_development" 
+             wikidataID="Q374221" desc="urban development that maximizes the amount of residential, business, and leisure
+             space within walking distance of public transport"/>  
+<entry term="GDP" name="gross domestic product" wikipage="https://en.wikipedia.org/wiki/Gross_domestic_product" 
+             wikidataID="Q12638" desc="market value of goods and services produced within a country"/>  
+<entry term="Anti-sprawl policies" wikipage="" wikidataID=""
+             desc=""/>                                                                                                 
+<entry term="green roofs" wikipage="https://en.wikipedia.org/wiki/Green_roof" wikidataID="Q48741"
+             desc="A green roof or living roof is a roof of a building that is partially or completely
+             covered with vegetation and a growing medium, planted over a waterproofing membrane."/>                                                                                                 
+<entry term="WTP" name="Willingness to pay" wikipage="https://en.wikipedia.org/wiki/Willingness_to_pay" 
+             wikidataID="Q140813" desc="Economic concept of the maximum price a buyer is willing and able to give in a transaction"/>                                                                                               
+<entry term="" wikipage="" wikidataID=""
+             desc=""/>                                                                                               
+<entry term="UHI" name="urban heat island" wikipage="https://en.wikipedia.org/wiki/Urban_heat_island" wikidataID="Q215712"
+             desc="urban area that is significantly warmer than its surrounding rural areas due to human activities"/>                                                                                               
+<entry term="exacerbated" wikipage="https://en.wikipedia.org/wiki/Exacerbation" wikidataID="Q1383410"
+             desc="worsening of a disease"/>                                                                                               
+<entry term="remittance" wikipage="https://en.wikipedia.org/wiki/Remittance" wikidataID="Q1351807"
+             desc="money transfer by a foreign worker to their home country"/>                                                                                               
+ <entry term="legislation" wikipage="https://en.wikipedia.org/wiki/Legislation" wikidataID="Q49371"
+             desc="law enacted by a legislature or other governing body"/>                                                                                               
+<entry term="zoning" wikipage="https://en.wikipedia.org/wiki/Zoning" wikidataID="Q702232"
+             desc="describes the control by authority of the use of land, and of the buildings thereon"/>                                                                                                                                                                                
+<entry term="NGOs" name="non-governmental organization" wikipage="https://en.wikipedia.org/wiki/Non-governmental_organization" 
+             wikidataID="Q79913"  desc="organization independent of any government, usually created to aid those in need"/>                                                                                                  
+<entry term="trajectory" wikipage="https://en.wikipedia.org/wiki/Trajectory" wikidataID="Q193139"
+             desc="path of a moving object"/>                                                                                                 
+<entry term="off-grid utilities" wikipage="" wikidataID=""
+             descpage=""/>                                                                                                                                                                                        
 </dictionary>
-
+                                                                                               
+                                                                                               
+                                                                                               
+                                                                                               
+                                                                    
 
 
 
