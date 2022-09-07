@@ -1,4 +1,4 @@
-<dictionary title="emissions_abbreviations" version="0.0.1" >
+<dictionary title="emissions_abbreviations" version="0.0.2" >
 
   <desc> manually created by Abhishek Prasad 2022-09-05 </desc>
 
@@ -86,4 +86,26 @@
          desc="set of organic compounds that are typically photochemically reactive in the atmosphere and
          are marked by the exclusion of methane"/>
 
+  <entry term="CBE" name="Consumption Based CO2 Emission" wikidataID="" wikipediaPage=""
+         desc="greenhouse gas (GHG) emissions that are created when we consume the goods and services we buy every day"
+         descPage="https://www.pca.state.mn.us/air/consumption-related-emissions"/>
+
+  <entry term="PBE" name="Production Based Emission" wikidataID="" wikipediaPage=""
+         desc="Production-based emissions are equal to the sum of emissions of the six greenhouse gases targeted in the
+              Kyoto Protocol (CO2, CH4, N20, CFK, HFK and SF6, in CO2 equivalents). This includes greenhouse gas emissions by
+              resident companies which engage in production activities abroad (for example emissions by airlines and by
+              seagoing and inland vessels). Direct emissions by households are excluded"
+         descPage="https://www.cbs.nl/en-gb/society/nature-and-environment/green-growth/environmental-efficiency/indicatoren/production-based-greenhouse-gas-emissions"/>
+
+  <entry term="TCBA" name="Technology-adjusted Consumption-based Emission Accounting" wikidataID="" wikipediaPage="" desc="" descPage=""/>
+
+  <entry term="HCE" name="Historical Cumulative Emission" wikidataID="" wikipediaPage=""
+         desc="The term is used here to indicate annual emissions for countries from 1850 - 2019"
+         descPage="https://climateequitymonitor.in/"/>
+
+  <entry term="EBE" name="Extraction based Emission" wikidataID="" wikipediaPage=""
+         desc="CO2 emissions from burning fossil fuels are attributed to the country where the fuels are extracted. It  can be
+              calculated by multiplying primary energy extraction data for coal, oil and gas by location-specific
+              (or default) carbon contents, and adjusting for the fraction of fossil fuels that are not combusted"
+         descPage="https://mediamanager.sei.org/documents/Publications/Climate/SEI-DB-2013-New-fossil-fuel-economy-2.pdf"/>
 </dictionary>
