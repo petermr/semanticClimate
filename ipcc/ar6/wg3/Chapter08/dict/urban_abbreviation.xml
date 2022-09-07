@@ -17,18 +17,18 @@
  <entry term="IPBES" name="Intergovernmental Platform on Biodiversity and Ecosystem Services" 
               wikipage="https://en.wikipedia.org/wiki/Intergovernmental_Science-Policy...
               wikidataID="Q1666088" desc="scientific intergovernmental body which assesses the state of biodiversity"/>
- <entry term="SDGs" name="Sustainable Development Goals" wikipage="https://en.wikipedia.org/wiki/Sustainable_Development_Goals" 
+<entry term="SDGs" name="Sustainable Development Goals" wikipage="https://en.wikipedia.org/wiki/Sustainable_Development_Goals" 
               wikidataID="Q7649586" desc="set of United Nations-defined global development goals and climate change"/>
 <entry term="SSP" name="Shared Socioeconomic Pathways" wikipage="https://en.wikipedia.org/wiki/Shared_Socioeconomic_Pathways"
              wikidataID="Q84021487" desc="scenarios of projected socioeconomic global changes up to 2100"/>
- <entry term="LDCs" name="Least Developed Countries" wikipage="https://en.wikipedia.org/wiki/Least_developed_countries" 
+<entry term="LDCs" name="Least Developed Countries" wikipage="https://en.wikipedia.org/wiki/Least_developed_countries" 
              wikidataID="Q752401" desc="list of countries that exhibits the lowest indicators of socioeconomic development"/>
- <entry term="(PM10)" name="particulate matter" wikipage="https://en.wikipedia.org/wiki/Particulates" 
+<entry term="(PM10)" name="particulate matter" wikipage="https://en.wikipedia.org/wiki/Particulates" 
                wikidataID="Q498957" desc="microscopic solid or liquid matter suspended in the Earth's atmosphere"/>                                                                                                                                                                                           
- <entry term="NBS" name="nature-based solutions" wikipage="https://en.wikipedia.org/wiki/Nature-based_solutions" 
+<entry term="NBS" name="nature-based solutions" wikipage="https://en.wikipedia.org/wiki/Nature-based_solutions" 
             wikidataID="Q2421934"
             desc="sustainable management and use of nature for tackling socio-environmental challenges"/>                                                                                              
- <entry term="TOD" name="transit-oriented development" wikipage="https://en.wikipedia.org/wiki/Transit-oriented_development" 
+<entry term="TOD" name="transit-oriented development" wikipage="https://en.wikipedia.org/wiki/Transit-oriented_development" 
              wikidataID="Q374221" desc="urban development that maximizes the amount of residential, business, and leisure
              space within walking distance of public transport"/>  
 <entry term="GDP" name="gross domestic product" wikipage="https://en.wikipedia.org/wiki/Gross_domestic_product" 
@@ -39,5 +39,14 @@
              desc="urban area that is significantly warmer than its surrounding rural areas due to human activities"/>                                                                                               
  <entry term="NGOs" name="non-governmental organization" wikipage="https://en.wikipedia.org/wiki/Non-governmental_organization" 
                wikidataID="Q79913"  desc="organization independent of any government, usually created to aid those in need"/>                                                                                                  
-                                                                                                                                                                                      
+<entry term="TA" name="territorial accounting" wikipage="" wikidataID=""
+             desc=""/>    
+<entry term="CIF" name="communitywide infrastructure supply chain foot-printing" wikipage="" wikidataID=""
+             desc=""/>                                                                                                      
+<entry term="CBCF" name="consumption-based carbon footprint accounting" wikipage="" wikidataID=""
+             desc=""/>                                                                                                      
+<entry term="PCF" name="personal carbon footprint" wikipage="" wikidataID=""
+             desc=""/>                                                                                                      
+<entry term="ACF" name="areal carbon footprint" wikipage="" wikidataID=""
+             desc=""/>                                                                                                                                                                                         
 </dictionary>
