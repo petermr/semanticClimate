@@ -1,4 +1,4 @@
-<dictionary title="emissions" version="0.0.4" >
+<dictionary title="emissions" version="0.0.5" >
 
   <desc> manually created by Abhishek Prasad 2022-08-23 </desc>
 
@@ -159,6 +159,28 @@
          wikipediaPage="https://en.wikipedia.org/wiki/Non-methane_volatile_organic_compound"
          desc="set of organic compounds that are typically photochemically reactive in the atmosphere and
          are marked by the exclusion of methane"/>
+  <entry term="GtCO2eq" name="gigatonne CO2 equivalent" wikidataID="" wikipediaPage=""
+         desc="" descPage=""/>
+
+  <entry term="cumulative CO2 emissions" wikidataID="" wikipediaPage=""
+         desc="Cumulative carbon dioxide (CO₂) emissions represents the total sum of CO₂ emissions produced from fossil fuels
+          and cement since 1750, and is measured in tonnes. This measures CO₂ emissions from fossil fuels and cement
+           production only – land use change is not included."
+         descPage="https://ourworldindata.org/grapher/cumulative-co-emissions"/>
+
+  <entry term="Paris Agreement" wikidataID="Q21707860" wikipediaPage="https://en.wikipedia.org/wiki/Paris_Agreement"
+         desc="International agreement from 12 December 2015 within the United Nations Framework Convention on Climate Change (UNFCCC)
+              dealing with greenhouse gas emissions mitigation, adaptation and finance starting in the year 2020"/>
+
+  <entry term="Final Energy Demand" wikidataID="" wikipediaPage=""
+         desc="Final energy consumption covers all energy supplied to the final consumer for all energy uses. It is the sum of
+               energy consumption in each final demand sector"
+         descPage="https://www.eea.europa.eu/data-and-maps/indicators/final-energy-consumption-outlook-from-iea"/>
+         <synonym term="Final Energy Consumption"/>
+
+  <entry term="demand side solutions" wikidataID="" wikipediaPage="" desc="" descPage=""/>
+
+
 
 </dictionary>
 
