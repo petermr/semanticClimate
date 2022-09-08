@@ -25,9 +25,7 @@ class keyword_extraction():
     self.saving_path = saving_path
     self.method = method
     self.text = ''
-
-
-  self.span_list = []
+    self.span_list = []
 
   def extract_span_list(self):
     with open(self.html_path, 'r') as f:
