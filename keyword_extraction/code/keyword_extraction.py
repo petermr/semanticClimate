@@ -18,8 +18,9 @@ import pandas as pd
 import requests
 import os
 import argparse
-
 import spacy
+nlp = spacy.load("en_core_web_lg")
+
 
 class keyword_extraction():
   def __init__(self,html_path, saving_path, method):
