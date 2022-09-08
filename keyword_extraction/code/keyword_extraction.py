@@ -114,7 +114,7 @@ class keyword_extraction():
     df_gensim =pd.DataFrame(keywords_gensim)
     df_gensim.rename(columns = {0:'keyword/phrase',1:'score'}, inplace = True)
     df_gensim = self.clean(df_gensim)
-    df_gensim.to_csv('gensim_keywords.csv',index=None)  
+    df_gensim.to_csv(self.saving_path +'gensim_keywords.csv',index=None)  
 
   def extract_keywords_yake(self):
     self.extract_text_fom_html()
@@ -123,7 +123,7 @@ class keyword_extraction():
     df_yake =pd.DataFrame(keywords_yake)
     df_yake.rename(columns = {0:'keyword/phrase',1:'score'}, inplace = True)
     df_yake = self.clean(df_yake)
-    df_yake.to_csv('yake_keywords.csv',index=None) 
+    df_yake.to_csv(self.saving_path +'yake_keywords.csv',index=None) 
     # for kw, v in keywords_yake:
     #   print("Keyphrase: ",kw, ": score", v)  
 
@@ -133,7 +133,7 @@ class keyword_extraction():
     df_textrank = pd.DataFrame(keywords_textrank)
     df_textrank.rename(columns = {0:'keyword/phrase',1:'score'}, inplace = True)
     df_textrank = self.clean(df_textrank)
-    df_textrank.to_csv('textrank_keywords.csv',index=None)    
+    df_textrank.to_csv(self.saving_path +'textrank_keywords.csv',index=None)    
 
   def extract_keywords_keyBERT(self):
     kw_model = KeyBERT(model='all-mpnet-base-v2')
