@@ -19,6 +19,8 @@ import requests
 import os
 import argparse
 
+import spacy
+
 class keyword_extraction():
   def __init__(self,html_path, saving_path, method):
     self.html_path = html_path
