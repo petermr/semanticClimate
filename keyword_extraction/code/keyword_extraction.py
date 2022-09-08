@@ -27,46 +27,92 @@ class keyword_extraction():
     self.text = ''
 
 
+  self.span_list = []
+
+  def extract_span_list(self):
+    with open(self.html_path, 'r') as f:
+      html = f.read()
+      soup = BeautifulSoup(html, features="html.parser")
+      with open('/content/html_ex.html','w', encoding="utf-8")as file:
+       file.write(soup.prettify())
+      # kill all script and style elements
+     
+      soup_elem = soup.find_all("span")
+      for span_elem in soup_elem:
+        #print(span_elem)
+        span_elem.extract() 
+        span_text = span_elem.get_text().strip()
+        lines = (line.strip() for line in span_text.splitlines())
+        # break multi-headlines into a line each
+        chunks = (phrase.strip() for line in lines for phrase in line.split("  ") if len(phrase.strip())>9 )
+        # drop blank lines
+        #text_write = '\n'.join(chunk for chunk in chunks if chunk)
+        span_text = ' '.join(chunk for chunk in chunks if chunk)
+        if len(span_text)>9 and 'http' not in span_text and 'doi' not in span_text and 'Chapter' not in span_text:
+          # print(span_text)
+          # print('-'*50)
+          self.span_list.append(span_text)
+    return self.span_list      
+  #def tf_idf(self):
+  
+  def clean(self,df):
+      def tagger(x):
+         return nlp(x)[0].pos_
+
+      def lemma(x):
+        #print(nlp(x)[0].lemma_)  
+        return nlp(x)[0].lemma_ 
+      
+      df['POS']= df['keyword/phrase'].apply(lambda x: tagger(x))
+      df['Lemma']= df['keyword/phrase'].apply(lambda x: lemma(x))
+      df= df[df['keyword/phrase'] == df['Lemma'] ]
+      df= df[df.POS.isin(['NOUN', 'PROPN', 'ADJ', 'ADV'])]
+      df= df[~df['keyword/phrase'].apply(lambda x: lemma(x)).isin(['http','https', 'publication','Chapter'])]
+      df = df.drop(columns = ['Lemma'], axis = 0)
+      return df
+
+
   def extract_text_fom_html(self):
 
     with open(self.html_path, 'r') as f:
       html = f.read()
       soup = BeautifulSoup(html, features="html.parser")
-      #
-      # kill all script and style elements
+     
       for script in soup(["script", "style"]):
           script.extract()    # rip it out
       
       # get text
       text = soup.get_text()
-
+      #print(text)
       # break into lines and remove leading and trailing space on each
       lines = (line.strip() for line in text.splitlines())
       # break multi-headlines into a line each
-      chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
+      chunks = (phrase.strip() for line in lines for phrase in line.split("      ") if len(phrase.strip())>9 )
       # drop blank lines
       #text_write = '\n'.join(chunk for chunk in chunks if chunk)
-      text = ' '.join(chunk for chunk in chunks if chunk)
+      text = '\n '.join(chunk for chunk in chunks if chunk)
       self.text = text
       #print(text)
       # TEXT_ = f'Chapter06_text.txt'
       # saving_path = '/content/'     
-      # with open(saving_path + TEXT_, 'w') as file:
-      #     file.write(text)
-
+      with open('text.txt', 'w') as file:
+          file.write(text)
+      return self.text
   def extract_keywords_rake(self):
     rake = Rake()
     self.extract_text_fom_html()
     keywords_Rake = rake.apply(self.text)
     df_Rake =pd.DataFrame(keywords_Rake)
     df_Rake.rename(columns = {0:'keyword/phrase',1:'score'}, inplace = True)
+    df_Rake = self.clean(df_Rake)
     df_Rake.to_csv(self.saving_path +'Rake_keywords.csv',index=None)
 
   def extract_keywords_gensim(self):
     self.extract_text_fom_html()
-    keywords_gensim= keywords(self.text,words = 100,scores = True, lemmatize = True)
+    keywords_gensim= keywords(self.text,words = 100,scores = True, pos_filter =('NN','ADJ'),lemmatize = False, deacc =False) # run over all parameters 
     df_gensim =pd.DataFrame(keywords_gensim)
     df_gensim.rename(columns = {0:'keyword/phrase',1:'score'}, inplace = True)
+    df_gensim = self.clean(df_gensim)
     df_gensim.to_csv('gensim_keywords.csv',index=None)  
 
   def extract_keywords_yake(self):
@@ -75,6 +121,7 @@ class keyword_extraction():
     keywords_yake = kw_extractor.extract_keywords(self.text)
     df_yake =pd.DataFrame(keywords_yake)
     df_yake.rename(columns = {0:'keyword/phrase',1:'score'}, inplace = True)
+    df_yake = self.clean(df_yake)
     df_yake.to_csv('yake_keywords.csv',index=None) 
     # for kw, v in keywords_yake:
     #   print("Keyphrase: ",kw, ": score", v)  
@@ -84,6 +131,7 @@ class keyword_extraction():
     keywords_textrank = keywords.keywords(self.text, scores=True)
     df_textrank = pd.DataFrame(keywords_textrank)
     df_textrank.rename(columns = {0:'keyword/phrase',1:'score'}, inplace = True)
+    df_textrank = self.clean(df_textrank)
     df_textrank.to_csv('textrank_keywords.csv',index=None)    
 
   def extract_keywords_keyBERT(self):
