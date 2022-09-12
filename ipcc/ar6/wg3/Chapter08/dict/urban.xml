@@ -119,7 +119,7 @@
  <entry term="NBS" name="nature-based solutions" wikipage="https://en.wikipedia.org/wiki/Nature-based_solutions" 
             wikidataID="Q2421934"
             desc="sustainable management and use of nature for tackling socio-environmental challenges"/>                                                                                              
- <entry term=" urban forestry" wikipage="https://en.wikipedia.org/wiki/Urban_Forestry" wikidataID="Q822620"
+ <entry term="urban forestry" wikipage="https://en.wikipedia.org/wiki/Urban_Forestry" wikidataID="Q822620"
              desc="land use management system in which trees or shrubs are cared or protected for well-being"/>                                                                                                
 <entry term="Urban agriculture" wikipage="https://en.wikipedia.org/wiki/Urban_agriculture" wikidataID="Q1194826"
              desc="agriculture in urban environments"/>                                                                                                 
@@ -135,15 +135,15 @@
              covered with vegetation and a growing medium, planted over a waterproofing membrane."/>                                                                                                 
 <entry term="WTP" name="Willingness to pay" wikipage="https://en.wikipedia.org/wiki/Willingness_to_pay" 
              wikidataID="Q140813" desc="Economic concept of the maximum price a buyer is willing and able to give in a transaction"/>                                                                                               
-<entry term="" wikipage="" wikidataID=""
-             desc=""/>                                                                                               
+<entry term="decades" wikipage="https://en.wikipedia.org/wiki/Decade" wikidataID="Q39911"
+             desc="period of 10 years"/>                                                                                               
 <entry term="UHI" name="urban heat island" wikipage="https://en.wikipedia.org/wiki/Urban_heat_island" wikidataID="Q215712"
              desc="urban area that is significantly warmer than its surrounding rural areas due to human activities"/>                                                                                               
 <entry term="exacerbated" wikipage="https://en.wikipedia.org/wiki/Exacerbation" wikidataID="Q1383410"
              desc="worsening of a disease"/>                                                                                               
 <entry term="remittance" wikipage="https://en.wikipedia.org/wiki/Remittance" wikidataID="Q1351807"
              desc="money transfer by a foreign worker to their home country"/>                                                                                               
- <entry term="legislation" wikipage="https://en.wikipedia.org/wiki/Legislation" wikidataID="Q49371"
+<entry term="legislation" wikipage="https://en.wikipedia.org/wiki/Legislation" wikidataID="Q49371"
              desc="law enacted by a legislature or other governing body"/>                                                                                               
 <entry term="zoning" wikipage="https://en.wikipedia.org/wiki/Zoning" wikidataID="Q702232"
              desc="describes the control by authority of the use of land, and of the buildings thereon"/>                                                                                                                                                                                
@@ -152,8 +152,136 @@
 <entry term="trajectory" wikipage="https://en.wikipedia.org/wiki/Trajectory" wikidataID="Q193139"
              desc="path of a moving object"/>                                                                                                 
 <entry term="off-grid utilities" wikipage="" wikidataID=""
-             descpage=""/>                                                                                                                                                                                        
-</dictionary>
+             descpage=""/>
+<entry term="vulnerabilities" wikipage="https://en.wikipedia.org/wiki/Vulnerability" wikidataID="Q1178984"
+             descpage="the inability of an entity to withstand the adverse effects of a hostile or uncertain environment"/> 
+<entry term="inertia" wikipage="https://en.wikipedia.org/wiki/Inertia" wikidataID="Q122508"
+             descpage="the tendency of an object to remain in its existing state of motion is called its inertia"/>                                                                                                      
+<entry term="carbon sequestration" wikipage="https://en.wikipedia.org/wiki/Carbon_sequestration" wikidataID="Q15305550"
+             descpage="process of long-term carbon capture"/>                                                                                                      
+<entry term="curtailing" wikipage="https://en.wikipedia.org/wiki/Curtailment_(electricity)" wikidataID="Q18412457"
+             descpage="It is the deliberate reduction in output below what could have been produced in order to
+              balance energy supply and demand or due to transmission constraints."/>                                                                                                      
+<entry term="tipping points" wikipage="https://en.wikipedia.org/wiki/Tipping_point" wikidataID="Q7808931"
+             descpage="thresholds that, when exceeded, can lead to large changes in the state of the system"/>                                                                                                      
+<entry term="pandemic" wikipage="https://en.wikipedia.org/wiki/Pandemic" wikidataID="Q12184"
+             descpage="epidemic of infectious disease that has spread across a large region with global health impact"/>                                                                                                      
+<entry term="mortality rates" wikipage="https://en.wikipedia.org/wiki/Mortality_rate" wikidataID="Q58702"
+             descpage="measure of the number of deaths in a population from a given cause, scaled by population, in a set period of time"/>                                                                                                      
+<entry term="WHO" name="World Health Organization" wikipage="https://en.wikipedia.org/wiki/World_health_organization" wikidataID="Q7817"
+             descpage="specialized agency of the United Nations that is concerned with international public health"/>                                                                                                      
+<entry term="seize" wikipage="https://en.wikipedia.org/wiki/Seize" wikidataID="Q3477956"
+             descpage=""/>                                                                                                      
+<entry term="pedestrian" wikipage="https://en.wikipedia.org/wiki/Pedestrian" wikidataID="Q221488"
+             descpage="person who travels on foot"/>                                                                                                      
+<entry term="NBS" name="nature-based solutions" wikipage="https://en.wikipedia.org/wiki/Nature-based_solutions" wikidataID="Q2421934"
+             descpage="sustainable management and use of nature for tackling socio-environmental challenges"/>                                                                                                      
+<entry term="regimes" wikipage="https://en.wikipedia.org/wiki/Regime" wikidataID="Q5589178"
+             descpage="form of government or the set of rules, cultural or social norms, etc.
+             that regulate the operation of a government or institution and its interactions with society"/>                                                                                                      
+<entry term="TOD" name="transit-oriented development" wikipage="https://en.wikipedia.org/wiki/Transit-oriented_development"
+             wikidataID="Q374221" descpage="urban development that maximizes the amount of residential, business, and 
+             leisure space within walking distance of public transport"/>                                                                                                      
+<entry term="IRP" name="International Resource Panel" wikipage="https://en.wikipedia.org/wiki/International_Resource_Panel" wikidataID="Q6052735"
+             descpage="The International Resource Panel is a scientific panel of experts that aims to help nations use natural resources sustainably                     
+             without compromising economic growth and human needs"/>                                                                                                       
+ <entry term="sharing economy" wikipage="https://en.wikipedia.org/wiki/Sharing_economy" wikidataID="Q2277143"
+             descpage="economic and social systems that enable shared access to goods, services, data and talent"/>                                                                                                      
+<entry term="piecemeal" wikipage="https://en.wikipedia.org/wiki/Piecemeal" wikidataID="Q7191373"
+             descpage="denotes something being done piece by piece or one stage at a time"/>                                                                                                       
+<entry term="SEA" name="strategic environmental assessments" wikipage="https://en.wikipedia.org/wiki/Strategic_Environmental_Assessment" 
+             wikidataID="Q63871" descpage=" (SEA) is a systematic decision support process, aiming to ensure that environmental and possibly 
+             other sustainability aspects are considered effectively in policy, plan and program making."/>      
+<entry term="portfolio" wikipage="https://en.wikipedia.org/wiki/Portfolio" wikidataID="Q79407829"
+             descpage=" Portfolio (finance), a collection of assets held by an institution or a private
+             individual Artist's portfolio, a sample of an artist's work or a case used to display artwork, photographs etc."/>                                                                                                       
+<entry term="economic decoupling" wikipage="https://en.wikipedia.org/wiki/Eco-economic_decoupling" wikidataID="Q5333090"
+             descpage="an economy that would grow without increasing its environmental pressure"/>                                                                                                       
+<entry term="IoT" name="Internet of Things" wikipage="https://en.wikipedia.org/wiki/Internet_of_things" wikidataID="Q251212"
+             descpage="proposed Internet-like structure connecting everyday physical objects"/>                                                                                                       
+<entry term="EV" name="electric vehicle" wikipage="https://en.wikipedia.org/wiki/Electric_vehicle" wikidataID="Q13629441"
+             descpage="vehicle propelled by one or more electric motors"/>                                                                                                       
+<entry term="repurposing" wikipage="https://en.wikipedia.org/wiki/Repurposing" wikidataID="Q21021151"
+             descpage="using object intended for one purpose in alternative way"/>                                                                                                     
+<entry term="sustainable transport" wikipage="https://en.wikipedia.org/wiki/Sustainable_transport" wikidataID="Q1364310"
+             descpage="broad subject of transport that is sustainable in the senses of social, environmental and climate 
+             impacts and the ability to, in the global scope, supply the source energy indefinitely"/>                                                                                                     
+<entry term="suburbs" wikipage="https://en.wikipedia.org/wiki/Suburb" wikidataID="Q188509"
+             descpage="human settlement that is part of/or near to a larger city or town"/>                                                                                                    
+<entry term="maladaptation" wikipage="https://en.wikipedia.org/wiki/Maladaptation" wikidataID="Q4864574"
+             descpage="a trait that is characterized by being more harmful than helpful"/>                                                                                                                                                                      
+<entry term="Multi-level governance" wikipage="https://en.wikipedia.org/wiki/Multi-level_governance" wikidataID="Q1459305"
+             descpage="Multi-level (or multilevel) governance is a term used to describe the way power is spread vertically 
+             between many levels of government and horizontally across multiple quasi-government and non-governmental organizations and actors"/>                                                                                                    
+ <entry term="Instigate" wikipage="https://en.wikipedia.org/wiki/Instigate" wikidataID="Q111181123"
+             descpage="To be a 'Joey' or to oust and be rude to someone else"/>
+ <entry term="legitimacy" wikipage="https://en.wikipedia.org/wiki/Legitimacy" wikidataID="Q1174835"
+             descpage="to make lawful"/>
+ <entry term="lobbying" wikipage="https://en.wikipedia.org/wiki/Lobbying" wikidataID="Q187117"
+             descpage="attempting to influence decisions of government officials"/>
+ <entry term="ICIs" name="International Cooperative Initiatives " wikipage="" wikidataID=""
+             descpage=""/>                                                                 
+                                                                                                    
+ </dictionary>                                                                                                   
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                          
                                                                                                
                                                                                                
                                                                                                
