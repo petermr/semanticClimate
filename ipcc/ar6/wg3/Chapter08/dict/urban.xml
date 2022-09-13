@@ -6,10 +6,7 @@
 <entry term="GHG" name="greenhouse gases" wikipage="https://en.wikipedia.org/wiki/Greenhouse_gas" 
              wikidataID="Q167336" desc="gas in an atmosphere of a planet (usually Earth) that
              absorbs and emits radiation within the thermal infrared range and causes the greenhouse effect"/>
-<entry term="carbon footprint" wikipage="https://en.wikipedia.org/wiki/Carbon_footprint" wikidataID="Q310667"
-              desc="total set of greenhouse gas emissions caused by an individual, event, organisation, or 
-              product, expressed as carbon dioxide equivalent"/>
-<entry term="mitigation" wikipage="https://en.wikipedia.org/wiki/Mitigation" wikidataID="Q6881760" 
+<entry term="mitigation" wikipage="https://en.wikipedia.org/wiki/Mitigation" wikidataID="Q6881760"
              desc="Mitigation is the reduction of something harmful or the reduction of its harmful effects"/>
 <entry term="renewable energy" wikipage="https://en.wikipedia.org/wiki/Renewable_energy" wikidataID="Q12705" 
              desc="energy that is collected from renewable sources"/>
@@ -18,10 +15,11 @@
 <entry term="carbon lock-in" wikipage="https://en.wikipedia.org/wiki/Carbon_lock-in" wikidataID="Q5037970" 
              desc="Carbon lock-in refers to the self-perpetuating inertia created by large fossil fuel-based 
              energy systems that inhibits public and private efforts to introduce alternative energy technologies"/>
-<entry term="AFOLU" name="Agriculture, Forestry and Other Land Use" wikidataID="Q3348639" desc=""/>
+<entry term="AFOLU" name="Agriculture, Forestry and Other Land Use" wikidataID="Q3348639" desc="">
            <synonym>LULUCF</synonym>
            <synonym>FOLU</synonym>
-<entry term="concomitant" wikipage="https://en.wikipedia.org/wiki/Concomitant" wikidataID="Q16769663"
+</entry>
+    <entry term="concomitant" wikipage="https://en.wikipedia.org/wiki/Concomitant" wikidataID="Q16769663"
              desc="Concomitance is the condition of accompanying or coexisting"/>
 <entry term="urban resilience" wikipage="https://en.wikipedia.org/wiki/Urban_resilience" wikidataID="Q7900159" 
              desc="ability of a city to function after a crisis"/>
@@ -95,9 +93,10 @@
 <entry term="Urban metabolism" wikipage="https://en.wikipedia.org/wiki/Urban_metabolism" wikidataID="Q7900131" 
              desc="Urban metabolism is a model to facilitate the description and analysis of the flows of the
               materials and energy within cities, such as undertaken in a material flow analysis of a city"/>
-<entry term="Urban emissions accounting" wikidataID="" desc=""/>
+<entry term="Urban emissions accounting" wikidataID="" desc="">
     <synonym>"carbon accounting" wikipage="https://en.wikipedia.org/wiki/Carbon_accounting" wikidataID="Q140182" 
              desc="processes used to measure how much carbon dioxide equivalents an organization emits"</synonym>
+</entry>
 <entry term="input-output model" wikipage="https://en.wikipedia.org/wiki/Input–output_model" wikidataID="Q1140255" 
              desc="quantitative economic model that represents the interdependencies between different sectors of a national economy or different regional economies"/>
 <entry term="Province" wikipage="https://www.wikidata.org/wiki/Q34876" wikidataID="Q34876" 
@@ -129,10 +128,7 @@
 <entry term="GDP" name="gross domestic product" wikipage="https://en.wikipedia.org/wiki/Gross_domestic_product" 
              wikidataID="Q12638" desc="market value of goods and services produced within a country"/>  
 <entry term="Anti-sprawl policies" wikipage="" wikidataID=""
-             desc=""/>                                                                                                 
-<entry term="green roofs" wikipage="https://en.wikipedia.org/wiki/Green_roof" wikidataID="Q48741"
-             desc="A green roof or living roof is a roof of a building that is partially or completely
-             covered with vegetation and a growing medium, planted over a waterproofing membrane."/>                                                                                                 
+             desc=""/>
 <entry term="WTP" name="Willingness to pay" wikipage="https://en.wikipedia.org/wiki/Willingness_to_pay" 
              wikidataID="Q140813" desc="Economic concept of the maximum price a buyer is willing and able to give in a transaction"/>                                                                                               
 <entry term="decades" wikipage="https://en.wikipedia.org/wiki/Decade" wikidataID="Q39911"
@@ -173,15 +169,10 @@
 <entry term="seize" wikipage="https://en.wikipedia.org/wiki/Seize" wikidataID="Q3477956"
              descpage=""/>                                                                                                      
 <entry term="pedestrian" wikipage="https://en.wikipedia.org/wiki/Pedestrian" wikidataID="Q221488"
-             descpage="person who travels on foot"/>                                                                                                      
-<entry term="NBS" name="nature-based solutions" wikipage="https://en.wikipedia.org/wiki/Nature-based_solutions" wikidataID="Q2421934"
-             descpage="sustainable management and use of nature for tackling socio-environmental challenges"/>                                                                                                      
+             descpage="person who travels on foot"/>
 <entry term="regimes" wikipage="https://en.wikipedia.org/wiki/Regime" wikidataID="Q5589178"
              descpage="form of government or the set of rules, cultural or social norms, etc.
-             that regulate the operation of a government or institution and its interactions with society"/>                                                                                                      
-<entry term="TOD" name="transit-oriented development" wikipage="https://en.wikipedia.org/wiki/Transit-oriented_development"
-             wikidataID="Q374221" descpage="urban development that maximizes the amount of residential, business, and 
-             leisure space within walking distance of public transport"/>                                                                                                      
+             that regulate the operation of a government or institution and its interactions with society"/>
 <entry term="IRP" name="International Resource Panel" wikipage="https://en.wikipedia.org/wiki/International_Resource_Panel" wikidataID="Q6052735"
              descpage="The International Resource Panel is a scientific panel of experts that aims to help nations use natural resources sustainably                     
              without compromising economic growth and human needs"/>                                                                                                       
