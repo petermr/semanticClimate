@@ -20,7 +20,7 @@
   <entry term="fluorinated gas" wikidataID="Q3099705"
          wikipediaPage="https://en.wikipedia.org/wiki/Fluorinated_gases"
          desc="man-made gases that can stay in the atmosphere
-               for centuries and contribute to a global greenhouse effect" >
+               for centuries and contribute to a global greenhouse effect">
       <synonym>f-gas</synonym>
   </entry>
 
@@ -99,9 +99,10 @@
   <entry term="SLCF" name="Short Lived Climate Forcers" wikidataID="" wikipediaPage=""
          desc="greenhouse gases and other climate pollutants that have relatively short atmospheric lifetimes
                compared to carbon dioxide"
-         descPage="https://www.c2es.org/content/short-lived-climate-pollutants/"/>
-    <synonym> term="SLCP" name="Short-lived climate pollutants" </synonym>
-    <synonym> term="near-term climate forcers" </synonym>
+         descPage="https://www.c2es.org/content/short-lived-climate-pollutants/">
+    <synonym> term="SLCP" name="Short-lived climate pollutants"</synonym>
+    <synonym> term="near-term climate forcers"</synonym>
+  </entry>
 
   <entry term="CGTP" name="Combined Global Temperature Change Potential" wikidataID="" wikipediaPage="" descPage="" />
 
@@ -144,10 +145,11 @@
               no new environmental policies are implemented apart from those already in the
               pipeline today; or in which these policies do not have a discernable influence
                regarding the questions being analysed"
-         descPage="https://www.eea.europa.eu/help/glossary/eea-glossary/baseline-scenario"/>
-         <synonym term="benchmark scenario"/>
-         <synonym term="reference scenario"/>
-         <synonym term="non-intervention scenario"/>
+         descPage="https://www.eea.europa.eu/help/glossary/eea-glossary/baseline-scenario">
+      <synonym term="benchmark scenario"/>
+      <synonym term="reference scenario"/>
+      <synonym term="non-intervention scenario"/>
+  </entry>
 
   <entry term="atmospheric lifetime" wikidataID="" wikipediaPage=""
          desc="The atmospheric lifetime of a species measures the time required to restore equilibrium
@@ -175,8 +177,9 @@
   <entry term="Final Energy Demand" wikidataID="" wikipediaPage=""
          desc="Final energy consumption covers all energy supplied to the final consumer for all energy uses. It is the sum of
                energy consumption in each final demand sector"
-         descPage="https://www.eea.europa.eu/data-and-maps/indicators/final-energy-consumption-outlook-from-iea"/>
-         <synonym term="Final Energy Consumption"/>
+         descPage="https://www.eea.europa.eu/data-and-maps/indicators/final-energy-consumption-outlook-from-iea">
+      <synonym term="Final Energy Consumption"/>
+  </entry>
 
   <entry term="demand side solutions" wikidataID="" wikipediaPage="" desc="" descPage=""/>
 

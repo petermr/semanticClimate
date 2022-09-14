@@ -60,9 +60,10 @@
   <entry term="SLCF" name="Short Lived Climate Forcers" wikidataID="" wikipediaPage=""
          desc="greenhouse gases and other climate pollutants that have relatively short atmospheric lifetimes
                compared to carbon dioxide"
-         descPage="https://www.c2es.org/content/short-lived-climate-pollutants/"/>
-    <synonym> term="SLCP" name="Short-lived climate pollutants" </synonym>
-    <synonym> term="near-term climate forcers" </synonym>
+         descPage="https://www.c2es.org/content/short-lived-climate-pollutants/">
+   <synonym term="SLCP" name="Short-lived climate pollutants"/>
+   <synonym term="near-term climate forcers"/>
+  </entry>
 
   <entry term="CGTP" name="Combined Global Temperature Change Potential" wikidataID="" wikipediaPage="" descPage="" />
 
