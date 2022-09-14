@@ -1,10 +1,11 @@
-<dictionary title="urban" version="0.0.1">
+<dictionary title="urban" version="0.0.2">
 <entry term="GHG" name="greenhouse gases" wikipage="https://en.wikipedia.org/wiki/Greenhouse_gas" 
              wikidataID="Q167336" desc="gas in an atmosphere of a planet (usually Earth) that
              absorbs and emits radiation within the thermal infrared range and causes the greenhouse effect"/>
-<entry term="AFOLU" name="Agriculture, Forestry and Other Land Use" wikidataID="Q3348639" desc=""/>
+<entry term="AFOLU" name="Agriculture, Forestry and Other Land Use" wikidataID="Q3348639" desc="">
            <synonym>LULUCF</synonym>
            <synonym>FOLU</synonym>
+</entry>
 <entry term="IPCC" name="Intergovernmental Panel on Climate Change" wikipage="https://en.wikipedia.org/wiki/Intergovernmental_Panel_on_Climat…" 
              wikidataID="Q171183" desc="(IPCC) is an intergovernmental body of the United Nations responsible for
              advancing knowledge on human-induced climate change"/>
@@ -14,20 +15,20 @@
 <entry term="SRCCL" name="Special Report on Climate Change and Land" wikipage="https://en.wikipedia.org/wiki/Special_Report_on_Climate_Change…" 
               wikidataID="Q66310618" desc="SRCCL, desertification, land degradation, sustainable land management, food security, 
               and greenhouse gas fluxes in terrestrial ecosystems"/>
- <entry term="IPBES" name="Intergovernmental Platform on Biodiversity and Ecosystem Services" 
-              wikipage="https://en.wikipedia.org/wiki/Intergovernmental_Science-Policy...
+<entry term="IPBES" name="Intergovernmental Platform on Biodiversity and Ecosystem Services" 
+              wikipage="https://en.wikipedia.org/wiki/Intergovernmental_Science-Policy_Platform_on_Biodiversity_and_Ecosystem_Services"
               wikidataID="Q1666088" desc="scientific intergovernmental body which assesses the state of biodiversity"/>
 <entry term="SDGs" name="Sustainable Development Goals" wikipage="https://en.wikipedia.org/wiki/Sustainable_Development_Goals" 
               wikidataID="Q7649586" desc="set of United Nations-defined global development goals and climate change"/>
 <entry term="SSP" name="Shared Socioeconomic Pathways" wikipage="https://en.wikipedia.org/wiki/Shared_Socioeconomic_Pathways"
              wikidataID="Q84021487" desc="scenarios of projected socioeconomic global changes up to 2100"/>
 <entry term="LDCs" name="Least Developed Countries" wikipage="https://en.wikipedia.org/wiki/Least_developed_countries" 
-             wikidataID="Q752401" desc="list of countries that exhibits the lowest indicators of socioeconomic development"/>
+             wikidataID="Q752401" desc="list of countries that exhibits the lowest indicators of socioeconomic development"/>                                                                                           
 <entry term="(PM10)" name="particulate matter" wikipage="https://en.wikipedia.org/wiki/Particulates" 
-               wikidataID="Q498957" desc="microscopic solid or liquid matter suspended in the Earth's atmosphere"/>                                                                                                                                                                                           
+              wikidataID="Q498957" desc="microscopic solid or liquid matter suspended in the Earth's atmosphere"/>                                                                                                                                                                                     
 <entry term="NBS" name="nature-based solutions" wikipage="https://en.wikipedia.org/wiki/Nature-based_solutions" 
             wikidataID="Q2421934"
-            desc="sustainable management and use of nature for tackling socio-environmental challenges"/>                                                                                              
+            desc="sustainable management and use of nature for tackling socio-environmental challenges"/>                                                                                                                                                                                   
 <entry term="TOD" name="transit-oriented development" wikipage="https://en.wikipedia.org/wiki/Transit-oriented_development" 
              wikidataID="Q374221" desc="urban development that maximizes the amount of residential, business, and leisure
              space within walking distance of public transport"/>  
@@ -36,17 +37,35 @@
 <entry term="WTP" name="Willingness to pay" wikipage="https://en.wikipedia.org/wiki/Willingness_to_pay" 
              wikidataID="Q140813" desc="Economic concept of the maximum price a buyer is willing and able to give in a transaction"/>                                                                                                                                                                                            
 <entry term="UHI" name="urban heat island" wikipage="https://en.wikipedia.org/wiki/Urban_heat_island" wikidataID="Q215712"
-             desc="urban area that is significantly warmer than its surrounding rural areas due to human activities"/>                                                                                               
- <entry term="NGOs" name="non-governmental organization" wikipage="https://en.wikipedia.org/wiki/Non-governmental_organization" 
-               wikidataID="Q79913"  desc="organization independent of any government, usually created to aid those in need"/>                                                                                                  
-<entry term="TA" name="territorial accounting" wikipage="" wikidataID=""
-             desc=""/>    
-<entry term="CIF" name="communitywide infrastructure supply chain foot-printing" wikipage="" wikidataID=""
-             desc=""/>                                                                                                      
-<entry term="CBCF" name="consumption-based carbon footprint accounting" wikipage="" wikidataID=""
-             desc=""/>                                                                                                      
-<entry term="PCF" name="personal carbon footprint" wikipage="" wikidataID=""
-             desc=""/>                                                                                                      
-<entry term="ACF" name="areal carbon footprint" wikipage="" wikidataID=""
-             desc=""/>                                                                                                                                                                                         
-</dictionary>
+             desc="urban area that is significantly warmer than its surrounding rural areas due to human activities"/>                                                                                                                                                                                                                                                    
+<entry term="NGOs" name="non-governmental organization" wikipage="https://en.wikipedia.org/wiki/Non-governmental_organization" 
+             wikidataID="Q79913"  desc="organization independent of any government, usually created to aid those in need"/>                                                                                                                                                                                               
+<entry term="WHO" name="World Health Organization" wikipage="https://en.wikipedia.org/wiki/World_health_organization" wikidataID="Q7817"
+             descpage="specialized agency of the United Nations that is concerned with international public health"/>                                                                                                      
+<entry term="IRP" name="International Resource Panel" wikipage="https://en.wikipedia.org/wiki/International_Resource_Panel" wikidataID="Q6052735"
+             descpage="The International Resource Panel is a scientific panel of experts that aims to help nations use natural resources sustainably                     
+             without compromising economic growth and human needs"/>                                                                                                                                                                                                           
+<entry term="SEA" name="strategic environmental assessments" wikipage="https://en.wikipedia.org/wiki/Strategic_Environmental_Assessment" 
+             wikidataID="Q63871" descpage=" (SEA) is a systematic decision support process, aiming to ensure that environmental and possibly 
+             other sustainability aspects are considered effectively in policy, plan and program making."/>                                                                                                       
+<entry term="IoT" name="Internet of Things" wikipage="https://en.wikipedia.org/wiki/Internet_of_things" wikidataID="Q251212"
+             descpage="proposed Internet-like structure connecting everyday physical objects"/>                                                                                                       
+<entry term="EV" name="electric vehicle" wikipage="https://en.wikipedia.org/wiki/Electric_vehicle" wikidataID="Q13629441"
+             descpage="vehicle propelled by one or more electric motors"/>                                                                                                                                                                                                       
+<entry term="ICIs" name="International Cooperative Initiatives " wikipage="" wikidataID=""
+             descpage=""/> 
+<entry term="RMB" name="" wikipage="https://en.wikipedia.org/wiki/Renminbi" wikidataID="renminbi"
+             descpage="official currency of the People's Republic of China"/>
+<entry term="GCoM" name="Global Change Observation Mission" wikipage="https://en.wikipedia.org/wiki/Global_Change_Observation_Mission" wikidataID="Q3108984"
+             descpage="project of long-term observation of Earth environmental changes"/>
+<entry term="ICLEI" name="International Council for Local Environmental Initiatives" wikipage="https://en.wikipedia.org/wiki/ICLEI" wikidataID="Q677691"
+             descpage="international organization"/>
+<entry term="PVs" name="photovoltaics" wikipage="https://en.wikipedia.org/wiki/Photovoltaics" wikidataID="Q192127"
+             descpage="method of converting solar radiation into direct current electricity"/>
+<entry term="EVs" name="electric vehicle" wikpage="https://en.wikipedia.org/wiki/Electric_vehicle" wikidataID="Q13629441"
+             descpage="vehicle propelled by one or more electric motors"/>
+<entry term="ASI" name="Avoid-Shift-Improve" wikipage="https://en.wikipedia.org/wiki/Avoid-Shift-Improve" wikidataID="Q106417824" 
+              desc="approach to environmental sustainability by changing consumer behavior"/>
+</dictionary>                                                                                                   
+                                                                                                    
+                                                                                                    
