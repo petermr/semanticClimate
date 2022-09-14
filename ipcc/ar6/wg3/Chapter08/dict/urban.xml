@@ -243,6 +243,10 @@
              descpage="form of petroleum, primarily used in road construction"/>
  <entry term="ore" wikipage="https://en.wikipedia.org/wiki/Ore" wikidataID="Q102798"
              descpage="rock with valuable metals, minerals and elements"/>
+ <entry term="PVs" name="photovoltaics" wikipage="https://en.wikipedia.org/wiki/Photovoltaics" wikidataID="Q192127"
+             descpage="method of converting solar radiation into direct current electricity"/>
+ <entry term="EVs" name="electric vehicle" wikpage="https://en.wikipedia.org/wiki/Electric_vehicle" wikidataID="Q13629441"
+             descpage="vehicle propelled by one or more electric motors"/>
  </dictionary>                                                                                                   
                                                                                                     
                                                                                                     
