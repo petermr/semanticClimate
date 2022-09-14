@@ -1,5 +1,5 @@
 <dictionary title="urban" version="0.0.1">
- <entry term="urbanization" wikipage="https://en.wikipedia.org/wiki/Urbanization" wikidataID="Q161078" 
+<entry term="urbanization" wikipage="https://en.wikipedia.org/wiki/Urbanization" wikidataID="Q161078" 
               desc="long term population movements (shift) from rural to urban areas;gradual increase 
               in the proportion  of people living in urban areas, and the ways in which each society
               adapts to the change;process by which towns and cities are formed and become larger"/>
@@ -19,7 +19,7 @@
            <synonym>LULUCF</synonym>
            <synonym>FOLU</synonym>
 </entry>
-    <entry term="concomitant" wikipage="https://en.wikipedia.org/wiki/Concomitant" wikidataID="Q16769663"
+<entry term="concomitant" wikipage="https://en.wikipedia.org/wiki/Concomitant" wikidataID="Q16769663"
              desc="Concomitance is the condition of accompanying or coexisting"/>
 <entry term="urban resilience" wikipage="https://en.wikipedia.org/wiki/Urban_resilience" wikidataID="Q7900159" 
              desc="ability of a city to function after a crisis"/>
@@ -45,14 +45,14 @@
 <entry term="SRCCL" name="Special Report on Climate Change and Land" wikipage="https://en.wikipedia.org/wiki/Special_Report_on_Climate_Change…" 
               wikidataID="Q66310618" desc="SRCCL, desertification, land degradation, sustainable land management, food security, 
               and greenhouse gas fluxes in terrestrial ecosystems"/>
- <entry term="IPBES" name="Intergovernmental Platform on Biodiversity and Ecosystem Services" 
+<entry term="IPBES" name="Intergovernmental Platform on Biodiversity and Ecosystem Services" 
               wikipage="https://en.wikipedia.org/wiki/Intergovernmental_Science-Policy_Platform_on_Biodiversity_and_Ecosystem_Services"
               wikidataID="Q1666088" desc="scientific intergovernmental body which assesses the state of biodiversity"/>
- <entry term="SDGs" name="Sustainable Development Goals" wikipage="https://en.wikipedia.org/wiki/Sustainable_Development_Goals" 
+<entry term="SDGs" name="Sustainable Development Goals" wikipage="https://en.wikipedia.org/wiki/Sustainable_Development_Goals" 
               wikidataID="Q7649586" desc="set of United Nations-defined global development goals and climate change"/>
 <entry term="SSP" name="Shared Socioeconomic Pathways" wikipage="https://en.wikipedia.org/wiki/Shared_Socioeconomic_Pathways"
              wikidataID="Q84021487" desc="scenarios of projected socioeconomic global changes up to 2100"/>
- <entry term="continent" wikipage="https://en.wikipedia.org/wiki/Continent" wikidataID="Q5107" 
+<entry term="continent" wikipage="https://en.wikipedia.org/wiki/Continent" wikidataID="Q5107" 
               desc="very large landmass identified by convention"/>
 <entry term="globalization" wikipage="https://en.wikipedia.org/wiki/Globalization" wikidataID="Q7181"
              desc="process of international integration arising from world views, products, ideas, and other aspects of culture"/>
@@ -105,20 +105,20 @@
              desc="field of research combining climate change impact and mitigation and cities"/>
 <entry term="sustainability" wikipage="https://en.wikipedia.org/wiki/Sustainability" wikidataID="Q219416"
              desc="ability of human civilization to coexist with the biosphere in a steady state"/>                                                                                               
- <entry term="synergies" wikipage="https://en.wikipedia.org/wiki/Synergy" wikidataID="Q540614"
+<entry term="synergies" wikipage="https://en.wikipedia.org/wiki/Synergy" wikidataID="Q540614"
              desc="creation of a whole that is greater than the simple sum of its parts"/>                                                                                                
- <entry term="(PM10)" name="particulate matter" wikipage="https://en.wikipedia.org/wiki/Particulates" 
+<entry term="(PM10)" name="particulate matter" wikipage="https://en.wikipedia.org/wiki/Particulates" 
                wikidataID="Q498957" desc="microscopic solid or liquid matter suspended in the Earth's atmosphere"/>                                                                                                
- <entry term="congestion" wikipage="https://en.wikipedia.org/wiki/Congestion" wikidataID="Q419301"
+<entry term="congestion" wikipage="https://en.wikipedia.org/wiki/Congestion" wikidataID="Q419301"
              desc=""/>                                                                                                
 <entry term="Energy poverty" wikipage="https://en.wikipedia.org/wiki/Energy_poverty" wikidataID="Q1341244"
             desc="lack of access to modern energy services"/>                                                                                               
 <entry term="black carbon" wikipage="https://en.wikipedia.org/wiki/Black_carbon" wikidataID="Q3233590"
              desc="atmospheric soot; component of fine particulate matter"/>                                                                                               
- <entry term="NBS" name="nature-based solutions" wikipage="https://en.wikipedia.org/wiki/Nature-based_solutions" 
+<entry term="NBS" name="nature-based solutions" wikipage="https://en.wikipedia.org/wiki/Nature-based_solutions" 
             wikidataID="Q2421934"
             desc="sustainable management and use of nature for tackling socio-environmental challenges"/>                                                                                              
- <entry term="urban forestry" wikipage="https://en.wikipedia.org/wiki/Urban_Forestry" wikidataID="Q822620"
+<entry term="urban forestry" wikipage="https://en.wikipedia.org/wiki/Urban_Forestry" wikidataID="Q822620"
              desc="land use management system in which trees or shrubs are cared or protected for well-being"/>                                                                                                
 <entry term="Urban agriculture" wikipage="https://en.wikipedia.org/wiki/Urban_agriculture" wikidataID="Q1194826"
              desc="agriculture in urban environments"/>                                                                                                 
@@ -176,7 +176,7 @@
 <entry term="IRP" name="International Resource Panel" wikipage="https://en.wikipedia.org/wiki/International_Resource_Panel" wikidataID="Q6052735"
              descpage="The International Resource Panel is a scientific panel of experts that aims to help nations use natural resources sustainably                     
              without compromising economic growth and human needs"/>                                                                                                       
- <entry term="sharing economy" wikipage="https://en.wikipedia.org/wiki/Sharing_economy" wikidataID="Q2277143"
+<entry term="sharing economy" wikipage="https://en.wikipedia.org/wiki/Sharing_economy" wikidataID="Q2277143"
              descpage="economic and social systems that enable shared access to goods, services, data and talent"/>                                                                                                      
 <entry term="piecemeal" wikipage="https://en.wikipedia.org/wiki/Piecemeal" wikidataID="Q7191373"
              descpage="denotes something being done piece by piece or one stage at a time"/>                                                                                                       
@@ -204,50 +204,66 @@
 <entry term="Multi-level governance" wikipage="https://en.wikipedia.org/wiki/Multi-level_governance" wikidataID="Q1459305"
              descpage="Multi-level (or multilevel) governance is a term used to describe the way power is spread vertically 
              between many levels of government and horizontally across multiple quasi-government and non-governmental organizations and actors"/>                                                                                                    
- <entry term="Instigate" wikipage="https://en.wikipedia.org/wiki/Instigate" wikidataID="Q111181123"
+<entry term="Instigate" wikipage="https://en.wikipedia.org/wiki/Instigate" wikidataID="Q111181123"
              descpage="To be a 'Joey' or to oust and be rude to someone else"/>
- <entry term="legitimacy" wikipage="https://en.wikipedia.org/wiki/Legitimacy" wikidataID="Q1174835"
+<entry term="legitimacy" wikipage="https://en.wikipedia.org/wiki/Legitimacy" wikidataID="Q1174835"
              descpage="to make lawful"/>
- <entry term="lobbying" wikipage="https://en.wikipedia.org/wiki/Lobbying" wikidataID="Q187117"
+<entry term="lobbying" wikipage="https://en.wikipedia.org/wiki/Lobbying" wikidataID="Q187117"
              descpage="attempting to influence decisions of government officials"/>
- <entry term="ICIs" name="International Cooperative Initiatives " wikipage="" wikidataID=""
+<entry term="ICIs" name="International Cooperative Initiatives " wikipage="" wikidataID=""
              descpage=""/> 
- <entry term="Shanghai" wikipage="https://en.wikipedia.org/wiki/Shanghai" wikidataID="Q8686"
+<entry term="Shanghai" wikipage="https://en.wikipedia.org/wiki/Shanghai" wikidataID="Q8686"
              descpage="most populous city in China"/>                                                                                             
 <entry term="green electricity" wikipage="" wikidataID=""
              descpage=""/>
- <entry term="RMB" name="" wikipage="https://en.wikipedia.org/wiki/Renminbi" wikidataID="renminbi"
+<entry term="RMB" name="" wikipage="https://en.wikipedia.org/wiki/Renminbi" wikidataID="renminbi"
              descpage="official currency of the People's Republic of China"/>
- <entry term="subnational" wikipage="https://en.wikipedia.org/wiki/Subnational" wikidataID="Q64737978"
+<entry term="subnational" wikipage="https://en.wikipedia.org/wiki/Subnational" wikidataID="Q64737978"
              descpage="a type of state, under the national level"/>
- <entry term="Coalition" wikipage="https://en.wikipedia.org/wiki/Coalition" wikidataID="Q124964"
+<entry term="Coalition" wikipage="https://en.wikipedia.org/wiki/Coalition" wikidataID="Q124964"
              descpage="group formed of people, factions, states, political parties, militaries,
              or other parties agree to work together, often temporarily, in a partnership to achieve a common goal"/>
 <entry term="pledge" wikipage="https://en.wikipedia.org/wiki/Pledge" wikidataID="Q7204419"
              descpage="a type of legal relationship"/>
- <entry term="GCoM" name="Global Change Observation Mission" wikipage="https://en.wikipedia.org/wiki/Global_Change_Observation_Mission" wikidataID="Q3108984"
+<entry term="GCoM" name="Global Change Observation Mission" wikipage="https://en.wikipedia.org/wiki/Global_Change_Observation_Mission" wikidataID="Q3108984"
              descpage="project of long-term observation of Earth environmental changes"/>
- <entry term="ICLEI" name="International Council for Local Environmental Initiatives" wikipage="https://en.wikipedia.org/wiki/ICLEI" wikidataID="Q677691"
+<entry term="ICLEI" name="International Council for Local Environmental Initiatives" wikipage="https://en.wikipedia.org/wiki/ICLEI" wikidataID="Q677691"
              descpage="international organization"/>
- <entry term="financialisation" wikipage="https://en.wikipedia.org/wiki/Financialization" wikidataID="Q607865"
+<entry term="financialisation" wikipage="https://en.wikipedia.org/wiki/Financialization" wikidataID="Q607865"
              descpage="use and increased use of finance and financial instruments at the expense of production processes"/>
- <entry term="Barcelona’s" wikipage="https://en.wikipedia.org/wiki/Barcelona" wikidataID="Q1492"
+<entry term="Barcelona’s" wikipage="https://en.wikipedia.org/wiki/Barcelona" wikidataID="Q1492"
              descpage="city in Catalonia, Spain"/>
- <entry term="procurement" wikipage="https://en.wikipedia.org/wiki/Procurement" wikidataID="Q829492"
+<entry term="procurement" wikipage="https://en.wikipedia.org/wiki/Procurement" wikidataID="Q829492"
              descpage="acquisition of goods and services"/>
- <entry term="peer-to-peer" wikipage="https://en.wikipedia.org/wiki/Peer-to-peer" wikidataID="Q161410"
+<entry term="peer-to-peer" wikipage="https://en.wikipedia.org/wiki/Peer-to-peer" wikidataID="Q161410"
              descpage="type of decentralized and distributed network architecture"/>
- <entry term="calcination" wikipage="https://en.wikipedia.org/wiki/Calcination" wikidataID="Q849523"
+<entry term="calcination" wikipage="https://en.wikipedia.org/wiki/Calcination" wikidataID="Q849523"
              descpage="manufacturing process"/>
- <entry term="asphalt" wikipage="https://en.wikipedia.org/wiki/Asphalt" wikidataID="Q202251"
+<entry term="asphalt" wikipage="https://en.wikipedia.org/wiki/Asphalt" wikidataID="Q202251"
              descpage="form of petroleum, primarily used in road construction"/>
- <entry term="ore" wikipage="https://en.wikipedia.org/wiki/Ore" wikidataID="Q102798"
+<entry term="ore" wikipage="https://en.wikipedia.org/wiki/Ore" wikidataID="Q102798"
              descpage="rock with valuable metals, minerals and elements"/>
- <entry term="PVs" name="photovoltaics" wikipage="https://en.wikipedia.org/wiki/Photovoltaics" wikidataID="Q192127"
+<entry term="PVs" name="photovoltaics" wikipage="https://en.wikipedia.org/wiki/Photovoltaics" wikidataID="Q192127"
              descpage="method of converting solar radiation into direct current electricity"/>
- <entry term="EVs" name="electric vehicle" wikpage="https://en.wikipedia.org/wiki/Electric_vehicle" wikidataID="Q13629441"
+<entry term="EVs" name="electric vehicle" wikpage="https://en.wikipedia.org/wiki/Electric_vehicle" wikidataID="Q13629441"
              descpage="vehicle propelled by one or more electric motors"/>
- </dictionary>                                                                                                   
+<entry term="prosumer" wikipage="https://en.wikipedia.org/wiki/Prosumer" wikidataID="Q1145220" 
+              desc="person who consumes and produces a product"/>
+<entry term="incentives" wikipage="https://en.wikipedia.org/wiki/Incentive" wikidataID="Q1414816" 
+              desc="something that motivates an individual to perform an action"/>
+<entry term="demolition" wikipage="https://en.wikipedia.org/wiki/Demolition" wikidataID="Q331483" 
+              desc="tearing-down of buildings and other structures"/>
+<entry term="ASI" name="Avoid-Shift-Improve" wikipage="https://en.wikipedia.org/wiki/Avoid-Shift-Improve" wikidataID="Q106417824" 
+              desc="approach to environmental sustainability by changing consumer behavior"/>
+<entry term="Finger Plan" wikipage="https://en.wikipedia.org/wiki/Finger_Plan" wikidataID="Q1417116" 
+              desc="According to the plan, Copenhagen is to develop along five 'fingers', centred on S-train
+              commuter rail lines, which extend from the 'palm', that is the dense urban fabric of central Copenhagen"/>
+<entry term="rivalry" wikipage="https://en.wikipedia.org/wiki/Rivalry" wikidataID="Q1139327" 
+              desc="state of two people or groups engaging in a lasting competitive relationship"/>
+<entry term="albeit" wikipage="https://en.wikipedia.org/wiki/Albeit" wikidataID="Q16863827" 
+              desc="even though it may be"/>
+</entry>
+</dictionary>                                                                                                   
                                                                                                     
                                                                                                     
                                                                                                     
