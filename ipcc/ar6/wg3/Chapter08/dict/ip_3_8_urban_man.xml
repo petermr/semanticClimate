@@ -1,0 +1,338 @@
+<dictionary title="urban" version="0.0.1">
+<entry term="urbanization" wikipage="https://en.wikipedia.org/wiki/Urbanization" wikidataID="Q161078" 
+              desc="long term population movements (shift) from rural to urban areas;gradual increase 
+              in the proportion  of people living in urban areas, and the ways in which each society
+              adapts to the change;process by which towns and cities are formed and become larger"/>
+<entry term="GHG" name="greenhouse gases" wikipage="https://en.wikipedia.org/wiki/Greenhouse_gas" 
+             wikidataID="Q167336" desc="gas in an atmosphere of a planet (usually Earth) that
+             absorbs and emits radiation within the thermal infrared range and causes the greenhouse effect"/>
+<entry term="mitigation" wikipage="https://en.wikipedia.org/wiki/Mitigation" wikidataID="Q6881760"
+             desc="Mitigation is the reduction of something harmful or the reduction of its harmful effects"/>
+<entry term="renewable energy" wikipage="https://en.wikipedia.org/wiki/Renewable_energy" wikidataID="Q12705" 
+             desc="energy that is collected from renewable sources"/>
+<entry term="electrification" wikipage="https://en.wikipedia.org/wiki/Electrification" wikidataID="Q1076056" 
+             desc="process of converting a device, process, or society to the use of electric power"/>
+<entry term="carbon lock-in" wikipage="https://en.wikipedia.org/wiki/Carbon_lock-in" wikidataID="Q5037970" 
+             desc="Carbon lock-in refers to the self-perpetuating inertia created by large fossil fuel-based 
+             energy systems that inhibits public and private efforts to introduce alternative energy technologies"/>
+<entry term="AFOLU" name="Agriculture, Forestry and Other Land Use" wikidataID="Q3348639" desc="">
+           <synonym>LULUCF</synonym>
+           <synonym>FOLU</synonym>
+</entry>
+<entry term="concomitant" wikipage="https://en.wikipedia.org/wiki/Concomitant" wikidataID="Q16769663"
+             desc="Concomitance is the condition of accompanying or coexisting"/>
+<entry term="urban resilience" wikipage="https://en.wikipedia.org/wiki/Urban_resilience" wikidataID="Q7900159" 
+             desc="ability of a city to function after a crisis"/>
+<entry term="climate resilience" wikipage="https://en.wikipedia.org/wiki/Climate_resilience" wikidataID="Q17072637" 
+             desc="the ability of systems to recover from climate change"/>
+<entry term="interventions" wikipage="https://en.wikipedia.org/wiki/Intervention" wikidataID="Q365681" 
+             desc="the design and implementation of interventions in social settings where adults are 
+            confronted with the need to change their perspectives, attitudes, and actions"/>
+<entry term="jurisdiction" wikipage="https://en.wikipedia.org/wiki/Jurisdiction" wikidataID="Q471855" 
+             desc="practical authority granted to a formally constituted legal body or to a political
+             leader to deal with legal matters"/>
+<entry term="green infrastructure" wikipage="https://en.wikipedia.org/wiki/Green_infrastructure" wikidataID="Q3427027" 
+            desc="Green infrastructure or blue-green infrastructure refers to a network that provides the “ingredients” 
+            for solving urban and climatic challenges by building with nature"/>
+<entry term="IPCC" name="Intergovernmental Panel on Climate Change" wikipage="https://en.wikipedia.org/wiki/Intergovernmental_Panel_on_Climat…" 
+             wikidataID="Q171183" desc="(IPCC) is an intergovernmental body of the United Nations responsible for
+             advancing knowledge on human-induced climate change"/>
+<entry term="spatial planning" wikipage="https://en.wikipedia.org/wiki/Spatial_planning" wikidataID="Q149013" 
+              desc="technique for physical organisation of space"/>
+<entry term="UN DESA" name="United Nations Department of Economic and Social Affairs" 
+             wikipage="https://en.wikipedia.org/wiki/United_Nations_Department_of_Eco…"
+             wikidataID="Q2671637" desc="government organization in New York, United States"/>
+<entry term="SRCCL" name="Special Report on Climate Change and Land" wikipage="https://en.wikipedia.org/wiki/Special_Report_on_Climate_Change…" 
+              wikidataID="Q66310618" desc="SRCCL, desertification, land degradation, sustainable land management, food security, 
+              and greenhouse gas fluxes in terrestrial ecosystems"/>
+<entry term="IPBES" name="Intergovernmental Platform on Biodiversity and Ecosystem Services" 
+              wikipage="https://en.wikipedia.org/wiki/Intergovernmental_Science-Policy_Platform_on_Biodiversity_and_Ecosystem_Services"
+              wikidataID="Q1666088" desc="scientific intergovernmental body which assesses the state of biodiversity"/>
+<entry term="SDGs" name="Sustainable Development Goals" wikipage="https://en.wikipedia.org/wiki/Sustainable_Development_Goals" 
+              wikidataID="Q7649586" desc="set of United Nations-defined global development goals and climate change"/>
+<entry term="SSP" name="Shared Socioeconomic Pathways" wikipage="https://en.wikipedia.org/wiki/Shared_Socioeconomic_Pathways"
+             wikidataID="Q84021487" desc="scenarios of projected socioeconomic global changes up to 2100"/>
+<entry term="continent" wikipage="https://en.wikipedia.org/wiki/Continent" wikidataID="Q5107" 
+              desc="very large landmass identified by convention"/>
+<entry term="globalization" wikipage="https://en.wikipedia.org/wiki/Globalization" wikidataID="Q7181"
+             desc="process of international integration arising from world views, products, ideas, and other aspects of culture"/>
+<entry term="Unprecedented" wikipage="https://en.wikipedia.org/wiki/Unprecedented_(miniseries)" wikidataID="Q113002853"
+             desc="Unprecedented is a 2022 American-British documentary television miniseries revolving around the 2020
+             US presidential election, which premiered on July 10, 2022"/>
+<entry term="LDCs" name="Least Developed Countries" wikipage="https://en.wikipedia.org/wiki/Least_developed_countries" 
+             wikidataID="Q752401" desc="list of countries that exhibits the lowest indicators of socioeconomic development"/>
+<entry term="typologies" wikipage="https://en.wikipedia.org/wiki/Typology" wikidataID="Q640643" 
+             desc="the classification of characteristics common to buildings or urban spaces"/>
+<entry term="retrofitting" wikipage="https://en.wikipedia.org/wiki/Retrofitting" wikidataID="Q24662" 
+            desc="addition of new technology or features to older systems"/>
+<entry term="blueprint" wikipage="https://en.wikipedia.org/wiki/Blueprint" wikidataID="Q422321" 
+             desc="document reproduction created by using a contact print process on light-sensitive sheets"/>
+<entry term="carbon footprint" wikipage="https://en.wikipedia.org/wiki/Carbon_footprint" wikidataID="Q310667" 
+             desc="total set of greenhouse gas emissions caused by an individual, event, organisation, 
+              or product, expressed as carbon dioxide equivalent"/>
+<entry term="anthropogenic" wikipage="https://en.wikipedia.org/wiki/Anthropogenic" wikidataID="Q29169263"
+             desc="human-caused global warming and its effects"/>
+<entry term="carbon cycle" wikipage="https://en.wikipedia.org/wiki/Carbon_cycle" wikidataID="Q167751" 
+            desc="biogeochemical cycle by which carbon is exchanged among the biosphere"/>
+<entry term="carbon neutrality" wikipage="https://en.wikipedia.org/wiki/Carbon_neutrality" wikidataID="Q1774424" 
+             desc="having net zero carbon emissions"/>
+<entry term="green roofs" wikipage="https://en.wikipedia.org/wiki/Green_roof" wikidataID="Q48741" 
+             desc="A green roof or living roof is a roof of a building that is partially or completely
+             covered with vegetation and a growing medium, planted over a waterproofing membrane"/>
+<entry term="Leapfrogging" wikipage="https://en.wikipedia.org/wiki/Leapfrogging" wikidataID="Q493754" 
+             desc="Omitting / jumping over a stage in a development process"/>
+<entry term="local municipality" wikipage="https://en.wikipedia.org/wiki/Municipality" wikidataID="Q1500352" 
+             desc="third-level local government structure in South Africa"/>
+<entry term="urban settlements" wikipage="https://en.wikipedia.org/wiki/Urban_settlement" wikidataID="Q7900166" 
+             desc=" an official designation for a certain type of urban locality used in some of the republics of Africa such as Southern Africa"/>
+<entry term="gross national income" wikipage="https://en.wikipedia.org/wiki/Gross_national_income" wikidataID="Q6803767"
+             desc="total domestic and foreign output claimed by residents of a country, consisting of gross domestic product, 
+             plus factor incomes earned by foreign residents, minus income earned in the domestic economy by nonresidents"/>
+<entry term="informal economy" wikipage="https://en.wikipedia.org/wiki/Informal_economy" wikidataID="Q944235"
+             desc="economic activity unregulated by government"/>
+<entry term="Urban metabolism" wikipage="https://en.wikipedia.org/wiki/Urban_metabolism" wikidataID="Q7900131" 
+             desc="Urban metabolism is a model to facilitate the description and analysis of the flows of the
+              materials and energy within cities, such as undertaken in a material flow analysis of a city"/>
+<entry term="Urban emissions accounting" wikidataID="" desc="">
+    <synonym>"carbon accounting" wikipage="https://en.wikipedia.org/wiki/Carbon_accounting" wikidataID="Q140182" 
+             desc="processes used to measure how much carbon dioxide equivalents an organization emits"</synonym>
+</entry>
+<entry term="input-output model" wikipage="https://en.wikipedia.org/wiki/Input–output_model" wikidataID="Q1140255" 
+             desc="quantitative economic model that represents the interdependencies between different sectors of a national economy or different regional economies"/>
+<entry term="Province" wikipage="https://www.wikidata.org/wiki/Q34876" wikidataID="Q34876" 
+             desc="administrative division in several countries"/>
+<entry term="Climate change and cities" wikipage="https://en.wikipedia.org/wiki/Climate_change_and_cities" wikidataID="Q102133023"
+             desc="field of research combining climate change impact and mitigation and cities"/>
+<entry term="sustainability" wikipage="https://en.wikipedia.org/wiki/Sustainability" wikidataID="Q219416"
+             desc="ability of human civilization to coexist with the biosphere in a steady state"/>                                                                                               
+<entry term="synergies" wikipage="https://en.wikipedia.org/wiki/Synergy" wikidataID="Q540614"
+             desc="creation of a whole that is greater than the simple sum of its parts"/>                                                                                                
+<entry term="(PM10)" name="particulate matter" wikipage="https://en.wikipedia.org/wiki/Particulates" 
+               wikidataID="Q498957" desc="microscopic solid or liquid matter suspended in the Earth's atmosphere"/>                                                                                                
+<entry term="congestion" wikipage="https://en.wikipedia.org/wiki/Congestion" wikidataID="Q419301"
+             desc=""/>                                                                                                
+<entry term="Energy poverty" wikipage="https://en.wikipedia.org/wiki/Energy_poverty" wikidataID="Q1341244"
+            desc="lack of access to modern energy services"/>                                                                                               
+<entry term="black carbon" wikipage="https://en.wikipedia.org/wiki/Black_carbon" wikidataID="Q3233590"
+             desc="atmospheric soot; component of fine particulate matter"/>                                                                                               
+<entry term="NBS" name="nature-based solutions" wikipage="https://en.wikipedia.org/wiki/Nature-based_solutions" 
+            wikidataID="Q2421934"
+            desc="sustainable management and use of nature for tackling socio-environmental challenges"/>                                                                                              
+<entry term="urban forestry" wikipage="https://en.wikipedia.org/wiki/Urban_Forestry" wikidataID="Q822620"
+             desc="land use management system in which trees or shrubs are cared or protected for well-being"/>                                                                                                
+<entry term="Urban agriculture" wikipage="https://en.wikipedia.org/wiki/Urban_agriculture" wikidataID="Q1194826"
+             desc="agriculture in urban environments"/>                                                                                                 
+<entry term="TOD" name="transit-oriented development" wikipage="https://en.wikipedia.org/wiki/Transit-oriented_development" 
+             wikidataID="Q374221" desc="urban development that maximizes the amount of residential, business, and leisure
+             space within walking distance of public transport"/>  
+<entry term="GDP" name="gross domestic product" wikipage="https://en.wikipedia.org/wiki/Gross_domestic_product" 
+             wikidataID="Q12638" desc="market value of goods and services produced within a country"/>  
+<entry term="Anti-sprawl policies" wikipage="" wikidataID=""
+             desc=""/>
+<entry term="WTP" name="Willingness to pay" wikipage="https://en.wikipedia.org/wiki/Willingness_to_pay" 
+             wikidataID="Q140813" desc="Economic concept of the maximum price a buyer is willing and able to give in a transaction"/>                                                                                               
+<entry term="decades" wikipage="https://en.wikipedia.org/wiki/Decade" wikidataID="Q39911"
+             desc="period of 10 years"/>                                                                                               
+<entry term="UHI" name="urban heat island" wikipage="https://en.wikipedia.org/wiki/Urban_heat_island" wikidataID="Q215712"
+             desc="urban area that is significantly warmer than its surrounding rural areas due to human activities"/>                                                                                               
+<entry term="exacerbated" wikipage="https://en.wikipedia.org/wiki/Exacerbation" wikidataID="Q1383410"
+             desc="worsening of a disease"/>                                                                                               
+<entry term="remittance" wikipage="https://en.wikipedia.org/wiki/Remittance" wikidataID="Q1351807"
+             desc="money transfer by a foreign worker to their home country"/>                                                                                               
+<entry term="legislation" wikipage="https://en.wikipedia.org/wiki/Legislation" wikidataID="Q49371"
+             desc="law enacted by a legislature or other governing body"/>                                                                                               
+<entry term="zoning" wikipage="https://en.wikipedia.org/wiki/Zoning" wikidataID="Q702232"
+             desc="describes the control by authority of the use of land, and of the buildings thereon"/>                                                                                                                                                                                
+<entry term="NGOs" name="non-governmental organization" wikipage="https://en.wikipedia.org/wiki/Non-governmental_organization" 
+             wikidataID="Q79913"  desc="organization independent of any government, usually created to aid those in need"/>                                                                                                  
+<entry term="trajectory" wikipage="https://en.wikipedia.org/wiki/Trajectory" wikidataID="Q193139"
+             desc="path of a moving object"/>                                                                                                 
+<entry term="off-grid utilities" wikipage="" wikidataID=""
+             descpage=""/>
+<entry term="vulnerabilities" wikipage="https://en.wikipedia.org/wiki/Vulnerability" wikidataID="Q1178984"
+             descpage="the inability of an entity to withstand the adverse effects of a hostile or uncertain environment"/> 
+<entry term="inertia" wikipage="https://en.wikipedia.org/wiki/Inertia" wikidataID="Q122508"
+             descpage="the tendency of an object to remain in its existing state of motion is called its inertia"/>                                                                                                      
+<entry term="carbon sequestration" wikipage="https://en.wikipedia.org/wiki/Carbon_sequestration" wikidataID="Q15305550"
+             descpage="process of long-term carbon capture"/>                                                                                                      
+<entry term="curtailing" wikipage="https://en.wikipedia.org/wiki/Curtailment_(electricity)" wikidataID="Q18412457"
+             descpage="It is the deliberate reduction in output below what could have been produced in order to
+              balance energy supply and demand or due to transmission constraints."/>                                                                                                      
+<entry term="tipping points" wikipage="https://en.wikipedia.org/wiki/Tipping_point" wikidataID="Q7808931"
+             descpage="thresholds that, when exceeded, can lead to large changes in the state of the system"/>                                                                                                      
+<entry term="pandemic" wikipage="https://en.wikipedia.org/wiki/Pandemic" wikidataID="Q12184"
+             descpage="epidemic of infectious disease that has spread across a large region with global health impact"/>                                                                                                      
+<entry term="mortality rates" wikipage="https://en.wikipedia.org/wiki/Mortality_rate" wikidataID="Q58702"
+             descpage="measure of the number of deaths in a population from a given cause, scaled by population, in a set period of time"/>                                                                                                      
+<entry term="WHO" name="World Health Organization" wikipage="https://en.wikipedia.org/wiki/World_health_organization" wikidataID="Q7817"
+             descpage="specialized agency of the United Nations that is concerned with international public health"/>                                                                                                      
+<entry term="seize" wikipage="https://en.wikipedia.org/wiki/Seize" wikidataID="Q3477956"
+             descpage=""/>                                                                                                      
+<entry term="pedestrian" wikipage="https://en.wikipedia.org/wiki/Pedestrian" wikidataID="Q221488"
+             descpage="person who travels on foot"/>
+<entry term="regimes" wikipage="https://en.wikipedia.org/wiki/Regime" wikidataID="Q5589178"
+             descpage="form of government or the set of rules, cultural or social norms, etc.
+             that regulate the operation of a government or institution and its interactions with society"/>
+<entry term="IRP" name="International Resource Panel" wikipage="https://en.wikipedia.org/wiki/International_Resource_Panel" wikidataID="Q6052735"
+             descpage="The International Resource Panel is a scientific panel of experts that aims to help nations use natural resources sustainably                     
+             without compromising economic growth and human needs"/>                                                                                                       
+<entry term="sharing economy" wikipage="https://en.wikipedia.org/wiki/Sharing_economy" wikidataID="Q2277143"
+             descpage="economic and social systems that enable shared access to goods, services, data and talent"/>                                                                                                      
+<entry term="piecemeal" wikipage="https://en.wikipedia.org/wiki/Piecemeal" wikidataID="Q7191373"
+             descpage="denotes something being done piece by piece or one stage at a time"/>                                                                                                       
+<entry term="SEA" name="strategic environmental assessments" wikipage="https://en.wikipedia.org/wiki/Strategic_Environmental_Assessment" 
+             wikidataID="Q63871" descpage=" (SEA) is a systematic decision support process, aiming to ensure that environmental and possibly 
+             other sustainability aspects are considered effectively in policy, plan and program making."/>      
+<entry term="portfolio" wikipage="https://en.wikipedia.org/wiki/Portfolio" wikidataID="Q79407829"
+             descpage=" Portfolio (finance), a collection of assets held by an institution or a private
+             individual Artist's portfolio, a sample of an artist's work or a case used to display artwork, photographs etc."/>                                                                                                       
+<entry term="economic decoupling" wikipage="https://en.wikipedia.org/wiki/Eco-economic_decoupling" wikidataID="Q5333090"
+             descpage="an economy that would grow without increasing its environmental pressure"/>                                                                                                       
+<entry term="IoT" name="Internet of Things" wikipage="https://en.wikipedia.org/wiki/Internet_of_things" wikidataID="Q251212"
+             descpage="proposed Internet-like structure connecting everyday physical objects"/>                                                                                                       
+<entry term="EV" name="electric vehicle" wikipage="https://en.wikipedia.org/wiki/Electric_vehicle" wikidataID="Q13629441"
+             descpage="vehicle propelled by one or more electric motors"/>                                                                                                       
+<entry term="repurposing" wikipage="https://en.wikipedia.org/wiki/Repurposing" wikidataID="Q21021151"
+             descpage="using object intended for one purpose in alternative way"/>                                                                                                     
+<entry term="sustainable transport" wikipage="https://en.wikipedia.org/wiki/Sustainable_transport" wikidataID="Q1364310"
+             descpage="broad subject of transport that is sustainable in the senses of social, environmental and climate 
+             impacts and the ability to, in the global scope, supply the source energy indefinitely"/>                                                                                                     
+<entry term="suburbs" wikipage="https://en.wikipedia.org/wiki/Suburb" wikidataID="Q188509"
+             descpage="human settlement that is part of/or near to a larger city or town"/>                                                                                                    
+<entry term="maladaptation" wikipage="https://en.wikipedia.org/wiki/Maladaptation" wikidataID="Q4864574"
+             descpage="a trait that is characterized by being more harmful than helpful"/>                                                                                                                                                                      
+<entry term="Multi-level governance" wikipage="https://en.wikipedia.org/wiki/Multi-level_governance" wikidataID="Q1459305"
+             descpage="Multi-level (or multilevel) governance is a term used to describe the way power is spread vertically 
+             between many levels of government and horizontally across multiple quasi-government and non-governmental organizations and actors"/>                                                                                                    
+<entry term="Instigate" wikipage="https://en.wikipedia.org/wiki/Instigate" wikidataID="Q111181123"
+             descpage="To be a 'Joey' or to oust and be rude to someone else"/>
+<entry term="legitimacy" wikipage="https://en.wikipedia.org/wiki/Legitimacy" wikidataID="Q1174835"
+             descpage="to make lawful"/>
+<entry term="lobbying" wikipage="https://en.wikipedia.org/wiki/Lobbying" wikidataID="Q187117"
+             descpage="attempting to influence decisions of government officials"/>
+<entry term="ICIs" name="International Cooperative Initiatives " wikipage="" wikidataID=""
+             descpage=""/> 
+<entry term="Shanghai" wikipage="https://en.wikipedia.org/wiki/Shanghai" wikidataID="Q8686"
+             descpage="most populous city in China"/>                                                                                             
+<entry term="green electricity" wikipage="" wikidataID=""
+             descpage=""/>
+<entry term="RMB" name="" wikipage="https://en.wikipedia.org/wiki/Renminbi" wikidataID="renminbi"
+             descpage="official currency of the People's Republic of China"/>
+<entry term="subnational" wikipage="https://en.wikipedia.org/wiki/Subnational" wikidataID="Q64737978"
+             descpage="a type of state, under the national level"/>
+<entry term="Coalition" wikipage="https://en.wikipedia.org/wiki/Coalition" wikidataID="Q124964"
+             descpage="group formed of people, factions, states, political parties, militaries,
+             or other parties agree to work together, often temporarily, in a partnership to achieve a common goal"/>
+<entry term="pledge" wikipage="https://en.wikipedia.org/wiki/Pledge" wikidataID="Q7204419"
+             descpage="a type of legal relationship"/>
+<entry term="GCoM" name="Global Change Observation Mission" wikipage="https://en.wikipedia.org/wiki/Global_Change_Observation_Mission" wikidataID="Q3108984"
+             descpage="project of long-term observation of Earth environmental changes"/>
+<entry term="ICLEI" name="International Council for Local Environmental Initiatives" wikipage="https://en.wikipedia.org/wiki/ICLEI" wikidataID="Q677691"
+             descpage="international organization"/>
+<entry term="financialisation" wikipage="https://en.wikipedia.org/wiki/Financialization" wikidataID="Q607865"
+             descpage="use and increased use of finance and financial instruments at the expense of production processes"/>
+<entry term="Barcelona’s" wikipage="https://en.wikipedia.org/wiki/Barcelona" wikidataID="Q1492"
+             descpage="city in Catalonia, Spain"/>
+<entry term="procurement" wikipage="https://en.wikipedia.org/wiki/Procurement" wikidataID="Q829492"
+             descpage="acquisition of goods and services"/>
+<entry term="peer-to-peer" wikipage="https://en.wikipedia.org/wiki/Peer-to-peer" wikidataID="Q161410"
+             descpage="type of decentralized and distributed network architecture"/>
+<entry term="calcination" wikipage="https://en.wikipedia.org/wiki/Calcination" wikidataID="Q849523"
+             descpage="manufacturing process"/>
+<entry term="asphalt" wikipage="https://en.wikipedia.org/wiki/Asphalt" wikidataID="Q202251"
+             descpage="form of petroleum, primarily used in road construction"/>
+<entry term="ore" wikipage="https://en.wikipedia.org/wiki/Ore" wikidataID="Q102798"
+             descpage="rock with valuable metals, minerals and elements"/>
+<entry term="PVs" name="photovoltaics" wikipage="https://en.wikipedia.org/wiki/Photovoltaics" wikidataID="Q192127"
+             descpage="method of converting solar radiation into direct current electricity"/>
+<entry term="EVs" name="electric vehicle" wikpage="https://en.wikipedia.org/wiki/Electric_vehicle" wikidataID="Q13629441"
+             descpage="vehicle propelled by one or more electric motors"/>
+<entry term="prosumer" wikipage="https://en.wikipedia.org/wiki/Prosumer" wikidataID="Q1145220" 
+              desc="person who consumes and produces a product"/>
+<entry term="incentives" wikipage="https://en.wikipedia.org/wiki/Incentive" wikidataID="Q1414816" 
+              desc="something that motivates an individual to perform an action"/>
+<entry term="demolition" wikipage="https://en.wikipedia.org/wiki/Demolition" wikidataID="Q331483" 
+              desc="tearing-down of buildings and other structures"/>
+<entry term="ASI" name="Avoid-Shift-Improve" wikipage="https://en.wikipedia.org/wiki/Avoid-Shift-Improve" wikidataID="Q106417824" 
+              desc="approach to environmental sustainability by changing consumer behavior"/>
+<entry term="Finger Plan" wikipage="https://en.wikipedia.org/wiki/Finger_Plan" wikidataID="Q1417116" 
+              desc="According to the plan, Copenhagen is to develop along five 'fingers', centred on S-train
+              commuter rail lines, which extend from the 'palm', that is the dense urban fabric of central Copenhagen"/>
+<entry term="rivalry" wikipage="https://en.wikipedia.org/wiki/Rivalry" wikidataID="Q1139327" 
+              desc="state of two people or groups engaging in a lasting competitive relationship"/>
+<entry term="albeit" wikipage="https://en.wikipedia.org/wiki/Albeit" wikidataID="Q16863827" 
+              desc="even though it may be"/>
+</dictionary>                                                                                                   
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                          
+                                                                                               
+                                                                                               
+                                                                                               
+                                                                                               
+                                                                    
+
+
+
+
+
+
+
+
+

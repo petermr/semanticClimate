@@ -1,0 +1,191 @@
+<dictionary title="emissions" version="0.0.5" >
+
+  <desc> manually created by Abhishek Prasad 2022-08-23 </desc>
+
+  <entry term="carbon budget" wikidataID="Q16722080"
+         wikipediaPage="https://en.wikipedia.org/wiki/Carbon_budget" desc="limit on CO2 emission for a given climate impact"/>
+
+  <entry term="FFI" name="fossil fuel combustion and industrial processes" wikidataID="" desc=""/>
+
+  <entry term="LULUCF" name="land use, land-use change, and forestry" wikidataID="Q3348639"
+         wikipediaPage="https://en.wikipedia.org/wiki/Land_use,_land-use_change,_and_forestry"
+         desc="Greenhouse gas inventory sector that covers emissions and removals of greenhouse gases resulting
+               from direct human-induced land use"/>
+
+  <entry term="FOLU" name="forestry and other land-use" wikidataID="Q3348639"
+         wikipediaPage="https://en.wikipedia.org/wiki/Land_use,_land-use_change,_and_forestry"
+         desc="Greenhouse gas inventory sector that covers emissions and removals of greenhouse gases resulting
+               from direct human-induced land use"/>
+
+  <entry term="fluorinated gas" wikidataID="Q3099705"
+         wikipediaPage="https://en.wikipedia.org/wiki/Fluorinated_gases"
+         desc="man-made gases that can stay in the atmosphere
+               for centuries and contribute to a global greenhouse effect">
+      <synonym>f-gas</synonym>
+  </entry>
+
+  <entry term="carbon pricing" wikidataID="Q20681009"
+         wikipediaPage="https://en.wikipedia.org/wiki/Carbon_price"
+         desc="amount that must be paid for the right to emit one
+               tonne of CO2 into the atmosphere"/>
+
+  <entry term="EDGAR" name="Emissions Database for Global Atmospheric Research" wikidataID="Q108749703"
+         wikipediaPage="https://en.wikipedia.org/wiki/Emission_Database_for_Global_Atmospheric_Research"
+         desc="a joint project of the European Commission Joint Research Centre and the
+               Netherlands Environmental Assessment Agency which estimates emissions of all
+               greenhouse gases, air pollutants and aerosols" />
+
+  <entry term="PRIMAP" name="Potsdam Real-time Integrated Model for probabilistic Assessment of emissions Paths" wikidataID="Q57197290"
+         wikipediaPage=""
+         desc=""/>
+
+  <entry term="CAIT" name="Climate Analysis Indicators Tool" wikidataID=""
+         desc="The Climate Analysis Indicators Tool (CAIT) is an information and data analysis tool on global climate change
+               and provides a comprehensive and comparable database of greenhouse gas emissions data
+               (including all major sources and sinks) and other climate-relevant indicators"
+         descPage="https://link.springer.com/referenceworkentry/10.1007/978-94-007-0753-5_403"/>
+
+  <entry term="CEDS" name="A Community Emissions Data System for Historical Emissions" wikidataID="" desc="" descPage=""/>
+
+  <entry term="CRF" name="common reporting format" wikidataID="" desc=""/>
+
+  <entry term="emissions factor" wikidataID="" wikipediaPage=""
+         desc="An emissions factor is a representative value that attempts to relate
+               the quantity of a pollutant released to the atmosphere with an activity associated with
+               the release of that pollutant"
+         descPage="https://www.epa.gov/air-emissions-factors-and-quantification/basic-information-air-emissions-factors-and-quantification"/>
+
+  <entry term="emission inventory" wikidataID="Q1337883" wikipediaPage="https://en.wikipedia.org/wiki/Emission_inventory"
+         desc="An emission inventory (or emissions inventory) is an accounting of
+               the amount of pollutants discharged into the atmosphere"/>
+
+  <entry term="UNFCCC" name="United Nations Framework Convention on Climate Change" wikidataID="Q208645"
+         wikipediaPage="https://en.wikipedia.org/wiki/United_Nations_Framework_Convention_on_Climate_Change"
+         desc="The United Nations Framework Convention on Climate Change (UNFCCC) established
+               an international environmental treaty to combat 'dangerous human interference with the climate system',
+               in part by stabilizing greenhouse gas concentrations in the atmosphere"/>
+
+  <entry term="emission sectors" wikidataID="" wikipediaPage=""
+         desc="Transportation, Industry, Agriculture, and Land Use and Forestry are four global emission sectors
+               that roughly correspond to the U.S. sectors"
+         descPage="https://www.epa.gov/ghgemissions/global-greenhouse-gas-emissions-data"/>
+
+  <entry term="GWP" name="Global warming potential" wikidataID="Q901028"
+         wikipediaPage="https://en.wikipedia.org/wiki/Global_warming_potential"
+         desc="Estimate of how an atmospheric gas affects global climate change"/>
+
+  <entry term="GWP100" name="100 year Global warming potential" wikidataID="" wikipediaPage=""
+         desc="Global warming potential calculated over a period of 100 years"
+         descPage="https://www.sciencedirect.com/topics/earth-and-planetary-sciences/global-warming-potential"/>
+
+  <entry term="WMO" name="World Meteorological Organisation" wikidataID="Q170424"
+         wikipediaPage="https://en.wikipedia.org/wiki/World_Meteorological_Organization"
+         desc="specialised agency of the United Nations for meteorology"/>
+
+  <entry term="top down atmospheric measurement" wikidataID="" wikipediaPage=""
+         desc="emissions inventory that comes from direct measurement and are done to evaluate measured emissions for a
+               geographical region or sector, using measurements from hand-held OGC cameras,
+               truck-mounted cameras, drones and planes, and satellites"
+         descPage="https://processecology.com/articles/which-is-better-bottom-up-or-top-down-emissions-estimates"/>
+
+  <entry term="GTP" name="Global Temperature Change Potential" wikidataID="" wikipediaPage=""
+         descPage="https://knowledge4policy.ec.europa.eu/glossary-item/global-temperature-change-potential_en"
+         desc="the change in global mean surface temperature at a chosen point in time in response to an emission pulse
+               relative to that of CO2"/>
+
+  <entry term="social discount rate" wikidataID="Q7551053" wikipediaPage="https://en.wikipedia.org/wiki/Social_discount_rate"
+         desc="rate used for discounting future benefits or costs to society"/>
+
+  <entry term="SLCF" name="Short Lived Climate Forcers" wikidataID="" wikipediaPage=""
+         desc="greenhouse gases and other climate pollutants that have relatively short atmospheric lifetimes
+               compared to carbon dioxide"
+         descPage="https://www.c2es.org/content/short-lived-climate-pollutants/">
+    <synonym> term="SLCP" name="Short-lived climate pollutants"</synonym>
+    <synonym> term="near-term climate forcers"</synonym>
+  </entry>
+
+  <entry term="CGTP" name="Combined Global Temperature Change Potential" wikidataID="" wikipediaPage="" descPage="" />
+
+  <entry term="CO2-equivalent emission" wikidataID="" wikipediaPage=""
+         desc="Carbon dioxide equivalent or CO2e means the number of metric tons of CO2 emissions
+               with the same global warming potential as one metric ton of another greenhouse gas"
+         descPage="https://www3.epa.gov/carbon-footprint-calculator/tool/definitions/co2e.html"/>
+
+  <entry term="emissions trajectory" wikidataID="" wikipediaPage=""
+         desc="A projected development in time of the emission of a greenhouse gas
+               or group of greenhouse gases, aerosols and greenhouse gas precursors."
+         descPage="https://archive.unescwa.org/emission-trajectory"/>
+
+  <entry term="FAOSTAT" name="Food and Agriculture Organization Corporate Statistical Database" wikidataID="Q5465416"
+         wikipediaPage="https://en.wikipedia.org/wiki/Food_and_Agriculture_Organization_Corporate_Statistical_Database"
+         desc="FAOSTAT website disseminates statistical data collected and maintained by the
+              Food and Agriculture Organization (FAO)"/>
+
+  <entry term="SRES" name="Special Report on Emissions Scenarios" wikidataID="Q674505"
+         wikipediaPage="https://en.wikipedia.org/wiki/Special_Report_on_Emissions_Scenarios"
+         desc="2000 report by the Intergovernmental Panel on Climate Change"/>
+
+  <entry term="SSP" name="Shared Socioeconomic Pathways" wikidataID="" wikipediaPage=""
+         desc="Over the past few years, an international team of climate scientists, economists and
+              energy systems modellers have built a range of new “pathways” that examine how global society,
+              demographics and economics might change over the next century. They are collectively known as SSPs"
+         descPage="https://www.carbonbrief.org/explainer-how-shared-socioeconomic-pathways-explore-future-climate-change/"/>
+
+  <entry term="Primary Energy" wikidataID="Q1059714"
+         wikipediaPage="https://en.wikipedia.org/wiki/Primary_energy"
+         desc="energy form not subjected to any human conversion process"/>
+
+  <entry term="Primary Energy Conversion" wikidataID="" wikipediaPage=""
+         desc="direct use at the source, or supply to users without transformation, of crude energy,
+              that is, energy that has not been subjected to any conversion or transformation process"
+         descPage="https://stats.oecd.org/glossary/detail.asp?ID=2112"/>
+
+  <entry term="baseline scenario" wikidataID="" wikipediaPage=""
+         desc="Baseline scenarios depict a future state of society and/or environment in which
+              no new environmental policies are implemented apart from those already in the
+              pipeline today; or in which these policies do not have a discernable influence
+               regarding the questions being analysed"
+         descPage="https://www.eea.europa.eu/help/glossary/eea-glossary/baseline-scenario">
+      <synonym term="benchmark scenario"/>
+      <synonym term="reference scenario"/>
+      <synonym term="non-intervention scenario"/>
+  </entry>
+
+  <entry term="atmospheric lifetime" wikidataID="" wikipediaPage=""
+         desc="The atmospheric lifetime of a species measures the time required to restore equilibrium
+               in the atmosphere following a sudden increase or decrease in concentration of the
+               species in question in the atmosphere."
+         descPage="https://www.sciencedirect.com/topics/engineering/atmospheric-lifetime"/>
+
+  <entry term="NMVOC" name="Non-methane volatile organic compound" wikidataID="Q16963326"
+         wikipediaPage="https://en.wikipedia.org/wiki/Non-methane_volatile_organic_compound"
+         desc="set of organic compounds that are typically photochemically reactive in the atmosphere and
+         are marked by the exclusion of methane"/>
+  <entry term="GtCO2eq" name="gigatonne CO2 equivalent" wikidataID="" wikipediaPage=""
+         desc="" descPage=""/>
+
+  <entry term="cumulative CO2 emissions" wikidataID="" wikipediaPage=""
+         desc="Cumulative carbon dioxide (CO₂) emissions represents the total sum of CO₂ emissions produced from fossil fuels
+          and cement since 1750, and is measured in tonnes. This measures CO₂ emissions from fossil fuels and cement
+           production only – land use change is not included."
+         descPage="https://ourworldindata.org/grapher/cumulative-co-emissions"/>
+
+  <entry term="Paris Agreement" wikidataID="Q21707860" wikipediaPage="https://en.wikipedia.org/wiki/Paris_Agreement"
+         desc="International agreement from 12 December 2015 within the United Nations Framework Convention on Climate Change (UNFCCC)
+              dealing with greenhouse gas emissions mitigation, adaptation and finance starting in the year 2020"/>
+
+  <entry term="Final Energy Demand" wikidataID="" wikipediaPage=""
+         desc="Final energy consumption covers all energy supplied to the final consumer for all energy uses. It is the sum of
+               energy consumption in each final demand sector"
+         descPage="https://www.eea.europa.eu/data-and-maps/indicators/final-energy-consumption-outlook-from-iea">
+      <synonym term="Final Energy Consumption"/>
+  </entry>
+
+  <entry term="demand side solutions" wikidataID="" wikipediaPage="" desc="" descPage=""/>
+
+
+
+</dictionary>
+
+
+
