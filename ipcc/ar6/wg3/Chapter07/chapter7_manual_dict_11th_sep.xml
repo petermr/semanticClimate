@@ -63,14 +63,14 @@
   <entry term="GFED4s" name="Global Fire Emission Database" wikidataID="" wikipediaPage="http://wiki.seas.harvard.edu/geos-chem/images/1/15/GFED4.1_README.pdf"
   desc=" provides monthly burned area, fire carbon (C) and dry matter (DM) emissions, and the contribution of different fire types to these emissions in order to calculate trace gas and aerosol emissions using emission factors."/>
 
-  <entry term="PRIMAP" name=""
+  <entry term="PRIMAP" name="Potsdam Real-Time Integrated Model for the probabilistic Assessment of Emission Pathways."
          desc="The PRIMAP-hist dataset combines several published datasets to create a comprehensive set of greenhouse gas emission pathways for every country"/>
 
   <entry term="NGHGIs" name="National Greenhouse Gas Inventories" wikidataID="Q5604177"
          wikipediaPage="greenhouse gas inventory" desc="emission inventories of greenhouse gas emissions that are developed for a variety of reasons" />
 
-  <entry term="GWP" name="Global Warming Potential" wikidataID="Q901028"
-         wikipediaPage="https://www.wikidata.org/wiki/Q901028" desc="Estimate of how an atmospheric gas affects global climate change"/>
+  <entry term="GWP" name="Global Warming Potential" wikidataID="Q901028" wikipediaPage="https://www.wikidata.org/wiki/Q901028"
+         desc="Estimate of how an atmospheric gas affects global climate change"/>
 
   <entry term="DGVM" name="Dynamic global vegetation model" wikidataID="Q5318979"
          wikipediaPage="https://www.wikidata.org/wiki/Q5318979" desc="a computer program that simulates shifts in potential vegetation and its associated biogeochemical and hydrological cycles as a response to shifts in climate."/>
@@ -130,36 +130,69 @@
   desc="responsible for coordinating responses to environmental issues within the United Nations system"/>
 
   <entry term="global sustainability"/>
-  <entry term="SSP" name="Shared Socioeconomic Pathway" wikidataID=""/>
-  <entry term="RCP" name="GHG emissions trajectories " wikidataID=""/>
-  <entry term="CSA" name="Climate smart agriculture" wikidataID=""/>
-  <entry term="CSC" name="climate smart cocoa" wikidataID=""/>
-  <entry term="CREMAs" name="Community Resource Management Area Mechanisms" wikidataID=""/>
-  <entry term="SCBD"  name="Secretariat of the Convention on Biological Diversity" wikidataID=""/>
-  <entry term="BECCS" name=" bioenergy with carbon capture and storage" wikidataID=""/>
-  <entry term="Biophysical climate effects " wikidataID="" wikipediaPage=""/>
-  <entry term="remote sensing" wikidataID=""/>
-  <entry term="CO2 fertilization" wikidataID=""/>
 
-  <entry term="NbS" name="Nature-based solution" wikidataID=""/>
-  <entry term="invasive species" wikidataID=""/>
-  <entry term="biodiversity hotspots" wikidataID=""/>
-  <entry term="Endemic species" wikidataID=""/>
-  <entry term="biomes/ecozones" wikidataID=""/>
+  <entry term="SSP" name="Shared Socioeconomic Pathway" wikidataID=""
+         wikipediaPage="https://en.wikipedia.org/w/index.php?go=Go&search=Shared+Socioeconomic+Pathway&title=Special%3ASearch&ns0=1"
+         desc="scenarios of projected socioeconomic global changes up to 2100. They are used to derive greenhouse gas emissions"/>
+
+  <entry term="RCP" name="GHG emissions trajectories " wikidataID=""/>
+
+  <entry term="CSA" name="Climate smart agriculture" wikidataID="Q85752879" wikipediaPage="https://www.wikidata.org/wiki/Q85752879"
+  desc="an integrated approach to managing landscapes to help adapt agricultural methods, livestock and crops to the effects of climate change and, where possible, counteract it by reducing greenhouse gas emissions from agriculture, at the same time taking into account the growing world population to ensure food security"/>
+
+  <entry term="CSC" name="climate smart cocoa" wikidataID=""/>
+
+  <entry term="CREMAs" name="Community Resource Management Area Mechanisms" wikidataID=""/>
+
+  <entry term="SCBD"  name="Secretariat of the Convention on Biological Diversity" wikidataID=""/>
+
+  <entry term="BECCS" name=" bioenergy with carbon capture and storage" wikidataID=""/>
+
+  <entry term="Biophysical climate effects " wikidataID="" wikipediaPage=""/>
+
+  <entry term="remote sensing" wikidataID="Q199687" wikipediaPage="https://www.wikidata.org/wiki/Q199687"
+  desc="acquisition of information about an object or phenomenon without making physical contact with the object, especially the Earth"/>
+
+  <entry term="CO2 fertilization effect"  wikidataID="Q28231720"
+         wikipediaPage="https://www.wikidata.org/wiki/Q28231720" desc="Fertilization from from increased levels of atmospheric carbon dioxide"/>
+
+  <entry term="NbS" name="Nature-based solution" wikidataID="Q2421934" wikipediaPage="https://www.wikidata.org/wiki/Q2421934"
+  desc="sustainable management and use of nature for tackling socio-environmental challenges"/>
+
+  <entry term="invasive species" wikidataID="Q183368" wikipediaPage="https://www.wikidata.org/wiki/Q183368"
+  desc="introduced organism that becomes overpopulated and harms its new environment"/>
+
+  <entry term="biodiversity hotspots" wikidataID="Q54006446" wikipediaPage=""/>
+
+  <entry term="Endemic species" wikidataID="Q54006446" wikipediaPage="https://www.wikidata.org/wiki/Q54006446"
+  desc="a biogeographic region that is both a significant reservoir of biodiversity and is threatened with destruction"/>
+
+  <entry term="biomes/ecozones" wikidataID="Q101998" wikipediaPage="https://www.wikidata.org/wiki/Q101998"
+         desc="distinct biological communities that have formed in response to a shared physical climate"/>
+
   <entry term="MTE"  name="Menominee Tribal Enterprises " wikidataID=""/>
-   <entry term="CFI" name="continuous forest inventories"/>
-  <entry term="EU-REDII" name="EU Renewable Energy Directive" wikidataID=""/>
+
+  <entry term="CFI" name="continuous forest inventories"/>
+
+  <entry term="EU-REDII" name="EU Renewable Energy Directive" wikidataID="Q5280475"
+         wikipediaPage="https://www.wikidata.org/wiki/Q5280475"
+         desc="Directive 2001/77/EC of the European Parliament and of the Council of 27 September 2001 on the promotion of electricity produced from renewable energy sources in the internal electricity market"/>
+
   <entry term="US-RFS" name="US Renewable Energy Standard" wikidataID=""/>
+
   <entry term="FSC" name="Forest Sustainability Council"
+
   <entry term="PPCDAm" name="Plan for Prevention and Control of Deforestation in the Legal Amazon" wikidataID="Q66677938" wikipediaPage="https://www.wikidata.org/wiki/Q66677938"
          desc="Plan for Prevention and Control of Deforestation in the Amazon (PPCDAM), with the goal to reduce the rate of deforestation through land use regulation, environmental monitoring, and sustainable activities, promoted through partnerships at the federal and private level, and legal penalties for violations"/>
 
-  <entry term="RA" name="Regenerative Agriculture" wikidataID=""
+  <entry term="RA" name="Regenerative Agriculture" wikidataID="Q18393885"
          wikipediaPage="https://en.wikipedia.org/wiki/Regenerative_agriculture" desc="a conservation and rehabilitation approach to food and farming systems"/>
 
-  <entry term="organic farming"  wikidataID=""/>
+  <entry term="organic farming"  wikidataID="Q57258525" wikipediaPage="https://www.wikidata.org/wiki/Q57258525"
+  desc="an agricultural system that uses fertilizers of organic origin such as compost manure, green manure, and bone meal and places emphasis on techniques such as crop rotation and companion planting"/>
 
-  <entry term="CA" name="Conservation Agriculture"
+  <entry term="CA" name="Conservation Agriculture" wikidataID="Q4439388" wikipediaPage="https://www.wikidata.org/wiki/Q4439388"
+         desc="A farming system that promotes minimum soil disturbance (i.e. no-till farming), maintenance of a permanent soil cover, and diversification of plant species"
 
   <entry term="IPS" name="Integrated Production Systems" wikidataID=""/>
 
@@ -171,6 +204,12 @@
 
   <entry term="NDCs" name="Nationally Determined Contributions" wikidataID="Q20051297"
          wikipediaPage="https://www.wikidata.org/wiki/Q20051297" desc="non-binding national plans highlighting climate actions"/>
-  <entry term=""
+  <entry term="GWP" name="Global warming potential"/>
+  <entry term="CANOPIES" name="Co-existence of Agriculture and Nature: Optimisation and Planning of Integrated Ecosystem Services "/>
+  <entry term="ICLF" name=" integrated crop-livestock-forestry"/>
+  <entry term="Enteric fermentation" wikidataID="Q5380203" wikipediaPage="https://en.wikipedia.org/wiki/Enteric_fermentation"
+         desc=" a digestive process by which carbohydrates are broken down by microorganisms into simple molecules for absorption into the bloodstream of an animal. Because of human agricultural reliance in many parts of the world on animals which digest by enteric fermentation, it is one of the factors in increased methane emissions."/>
+  <entry term="Biochar" wikidataID="Q905495" wikipediaPage="https://en.wikipedia.org/wiki/Biochar"
+         desc="Biochar is the lightweight black residue, made of carbon and ashes, remaining after the pyrolysis of biomas"/>
 
 </dictionary>
