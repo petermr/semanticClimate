@@ -1,55 +1,85 @@
 <dictionary title="emissions_abb">
-  <entry name="FAQs" term="Frequently Asked Questions" wikidataID="['//www.wikidata.org/wiki/Q189293', '//www.wikidata.org/wiki/Q785373', '//www.wikidata.org/wiki/Q95101889', '//www.wikidata.org/wiki/Q47462925', '//www.wikidata.org/wiki/Q59637189', '//www.wikidata.org/wiki/Q59561401', '//www.wikidata.org/wiki/Q59597761']"/>
-  <entry name="GHG" term="greenhouse  gas" wikidataID="[]"/>
-  <entry name="CBEs" term="consumption-based  CO 2   emissions" wikidataID="[]"/>
-  <entry name="EET" term="embodied in trade" wikidataID="[]"/>
-  <entry name="GHG" term="Greenhouse Gas" wikidataID="['//www.wikidata.org/wiki/Q167336', '//www.wikidata.org/wiki/Q3588927', '//www.wikidata.org/wiki/Q925312', '//www.wikidata.org/wiki/Q57584895', '//www.wikidata.org/wiki/Q110612403', '//www.wikidata.org/wiki/Q112192791', '//www.wikidata.org/wiki/Q140182']"/>
-  <entry name="F-gases" term="fluorinated gases" wikidataID="['//www.wikidata.org/wiki/Q3099705']"/>
-  <entry name="FFI" term="fossil fuel and industry" wikidataID="[]"/>
-  <entry name="LULUCF" term="land  use,  land-use  change  and  forestry" wikidataID="[]"/>
-  <entry name="GWP100" term="Global  Warming  Potentials  with  a  100-year  time  horizon" wikidataID="[]"/>
-  <entry name="UNFCCC" term="United  Nations  Framework Convention on Climate Change" wikidataID="[]"/>
-  <entry name="GDP" term="Gross  Domestic  Product" wikidataID="[]"/>
-  <entry name="GHG" term="greenhouse  gas 4" wikidataID="[]"/>
-  <entry name="PFCs" term="perfluorocarbons" wikidataID="['//www.wikidata.org/wiki/Q56989783']"/>
-  <entry name="HFCs" term="hydrofluorocarbons" wikidataID="['//www.wikidata.org/wiki/Q59100158', '//www.wikidata.org/wiki/Q1031943']"/>
-  <entry name="HCFCs" term="hydrochlorofluorocarbons" wikidataID="[]"/>
-  <entry name="CRF" term="common reporting format" wikidataID="[]"/>
-  <entry name="NGHGI" term="national  greenhouse  gas  inventories" wikidataID="[]"/>
-  <entry name="WMO" term="World Meteorological Organisation&#8217;s" wikidataID="[]"/>
-  <entry name="NGHGI" term="National Greenhouse Gas Inventories" wikidataID="['//www.wikidata.org/wiki/Q60556832', '//www.wikidata.org/wiki/Q60556831']"/>
-  <entry name="GWP" term="Global Warming Potential" wikidataID="['//www.wikidata.org/wiki/Q901028', '//www.wikidata.org/wiki/Q57084968', '//www.wikidata.org/wiki/Q57084755', '//www.wikidata.org/wiki/Q57084921', '//www.wikidata.org/wiki/Q57084776', '//www.wikidata.org/wiki/Q57402965']"/>
-  <entry name="GTP" term="Global Temperature change Potential" wikidataID="['//www.wikidata.org/wiki/Q98974337']"/>
-  <entry name="GWP 100" term="GWP with a lifetime of 100 years" wikidataID="[]"/>
-  <entry name="FFI" term="fossil fuel combustion and industrial processes" wikidataID="[]"/>
-  <entry name="LULUCF" term="Land Use, Land Use Change and Forestry" wikidataID="['//www.wikidata.org/wiki/Q3348639']"/>
-  <entry name="GWP-100" term="global warming potentials with a 100-year time horizon" wikidataID="[]"/>
-  <entry name="HCFCs" term="hydrochlorofluorocarbons" wikidataID="[]"/>
-  <entry name="FFI" term="fossil fuel combustion and industrial processes" wikidataID="[]"/>
-  <entry name="LULUCF" term="Land Use, Land Use Change and Forestry" wikidataID="['//www.wikidata.org/wiki/Q3348639']"/>
-  <entry name="GWP-100" term="global warming potentials with a 100-year time horizon" wikidataID="[]"/>
-  <entry name="FFI" term="fossil fuel combustion and industry" wikidataID="[]"/>
-  <entry name="GWP-100" term="global warming potentials with a 100 year time horizon" wikidataID="[]"/>
-  <entry name="GWP-100" term="global warming  potentials with a 100 year time horizon" wikidataID="[]"/>
-  <entry name="GWP-100" term="global warming potentials with a 100 year time horizon" wikidataID="[]"/>
-  <entry name="CBEs" term="consumption-based  emissions" wikidataID="[]"/>
-  <entry name="PBEs" term="Production-based  emissions" wikidataID="[]"/>
-  <entry name="TCBA" term="technology-adjusted consumption-based emission accounting" wikidataID="[]"/>
-  <entry name="HCEs" term="Historical cumulative emissions" wikidataID="[]"/>
-  <entry name="EBEs" term="extraction-based emissions" wikidataID="[]"/>
-  <entry name="IBE" term="income-based emission accounting" wikidataID="[]"/>
-  <entry name="RSD" term="relative standard variation" wikidataID="[]"/>
-  <entry name="RSD" term="Relative Standard Deviation" wikidataID="['//www.wikidata.org/wiki/Q623738', '//www.wikidata.org/wiki/Q103864527']"/>
-  <entry name="HDI" term="Human  Development  Index" wikidataID="[]"/>
-  <entry name="CSP" term="concentrating solar power" wikidataID="['//www.wikidata.org/wiki/Q77081290', '//www.wikidata.org/wiki/Q62596130', '//www.wikidata.org/wiki/Q60545805']"/>
-  <entry name="BECCS" term="bioenergy with carbon capture and sequestration" wikidataID="[]"/>
-  <entry name="IAMs" term="Integrated  Assessment  Models" wikidataID="[]"/>
-  <entry name="CDR" term="carbon dioxide removal" wikidataID="['//www.wikidata.org/wiki/Q30314404', '//www.wikidata.org/wiki/Q56298528', '//www.wikidata.org/wiki/Q59296188', '//www.wikidata.org/wiki/Q59411018']"/>
-  <entry name="ECR" term="effective carbon rate" wikidataID="[]"/>
-  <entry name="ETSs" term="emissions trading schemes" wikidataID="[]"/>
-  <entry name="EU ETS" term="European Union Emissions Trading Scheme" wikidataID="['//www.wikidata.org/wiki/Q57784189']"/>
-  <entry name="RGGI" term="Regional Greenhouse Gas Initiative" wikidataID="['//www.wikidata.org/wiki/Q3423541']"/>
-  <entry name="EVs" term="Electric vehicles" wikidataID="['//www.wikidata.org/wiki/Q112913332', '//www.wikidata.org/wiki/Q30589652', '//www.wikidata.org/wiki/Q17653081', '//www.wikidata.org/wiki/Q112939351', '//www.wikidata.org/wiki/Q112887775', '//www.wikidata.org/wiki/Q112907322']"/>
-  <entry name="ODSs" term="ozone-depleting  substances" wikidataID="[]"/>
-  <entry name="HCS" term="High  Carbon  Stock" wikidataID="[]"/>
+  <entry term="FAQs" name="Frequently Asked Questions" >
+    <raw wikidataID="['Q189293', 'Q785373', 'Q95101889', 'Q47462925', 'Q59637189', 'Q59561401', 'Q59597761']"/>
+  </entry>
+  <entry term="CBEs" name="consumption-based  CO 2   emissions" wikidataID="">
+  </entry>
+  <entry term="EET" name="embodied in trade" wikidataID="">
+  </entry>
+  <entry term="GHG" name="Greenhouse Gas" >
+    <raw wikidataID="['Q167336', 'Q3588927', 'Q925312', 'Q57584895', 'Q110612403', 'Q112192791', 'Q140182']"/>
+  </entry>
+  <entry term="F-gases" name="fluorinated gases" wikidataID="Q3099705">
+  </entry>
+  <entry term="GWP100" name="Global  Warming  Potentials  with  a  100-year  time  horizon" wikidataID="">
+  </entry>
+  <entry term="UNFCCC" name="United  Nations  Framework Convention on Climate Change" wikidataID="">
+  </entry>
+  <entry term="GDP" name="Gross  Domestic  Product" wikidataID="">
+  </entry>
+  <entry term="PFCs" name="perfluorocarbons" wikidataID="Q56989783">
+  </entry>
+  <entry term="HFCs" name="hydrofluorocarbons" >
+    <raw wikidataID="['Q59100158', 'Q1031943']"/>
+  </entry>
+  <entry term="HCFCs" name="hydrochlorofluorocarbons" wikidataID="">
+  </entry>
+  <entry term="CRF" name="common reporting format" wikidataID="">
+  </entry>
+  <entry term="WMO" name="World Meteorological Organisation&#8217;s" wikidataID="">
+  </entry>
+  <entry term="NGHGI" name="National Greenhouse Gas Inventories" >
+    <raw wikidataID="['Q60556832', 'Q60556831']"/>
+  </entry>
+  <entry term="GWP" name="Global Warming Potential" >
+    <raw wikidataID="['Q901028', 'Q57084968', 'Q57084755', 'Q57084921', 'Q57084776', 'Q57402965']"/>
+  </entry>
+  <entry term="GTP" name="Global Temperature change Potential" wikidataID="Q98974337">
+  </entry>
+  <entry term="LULUCF" name="Land Use, Land Use Change and Forestry" wikidataID="Q3348639">
+  </entry>
+  <entry term="GWP-100" name="global warming potentials with a 100-year time horizon" wikidataID="">
+  </entry>
+  <entry term="FFI" name="fossil fuel combustion and industry" wikidataID="">
+  </entry>
+  <entry term="PBEs" name="Production-based  emissions" wikidataID="">
+  </entry>
+  <entry term="TCBA" name="technology-adjusted consumption-based emission accounting" wikidataID="">
+  </entry>
+  <entry term="HCEs" name="Historical cumulative emissions" wikidataID="">
+  </entry>
+  <entry term="EBEs" name="extraction-based emissions" wikidataID="">
+  </entry>
+  <entry term="IBE" name="income-based emission accounting" wikidataID="">
+  </entry>
+  <entry term="RSD" name="Relative Standard Deviation" >
+    <raw wikidataID="['Q623738', 'Q103864527']"/>
+  </entry>
+  <entry term="HDI" name="Human  Development  Index" wikidataID="">
+  </entry>
+  <entry term="CSP" name="concentrating solar power" >
+    <raw wikidataID="['Q77081290', 'Q62596130', 'Q60545805']"/>
+  </entry>
+  <entry term="BECCS" name="bioenergy with carbon capture and sequestration" wikidataID="">
+  </entry>
+  <entry term="IAMs" name="Integrated  Assessment  Models" wikidataID="">
+  </entry>
+  <entry term="CDR" name="carbon dioxide removal" >
+    <raw wikidataID="['Q30314404', 'Q56298528', 'Q59296188', 'Q59411018']"/>
+  </entry>
+  <entry term="ECR" name="effective carbon rate" wikidataID="">
+  </entry>
+  <entry term="ETSs" name="emissions trading schemes" wikidataID="">
+  </entry>
+  <entry term="EU ETS" name="European Union Emissions Trading Scheme" wikidataID="Q57784189">
+  </entry>
+  <entry term="RGGI" name="Regional Greenhouse Gas Initiative" wikidataID="Q3423541">
+  </entry>
+  <entry term="EVs" name="Electric vehicles" >
+    <raw wikidataID="['Q112913332', 'Q30589652', 'Q17653081', 'Q112939351', 'Q112887775', 'Q112907322']"/>
+  </entry>
+  <entry term="ODSs" name="ozone-depleting  substances" wikidataID="">
+  </entry>
+  <entry term="HCS" name="High  Carbon  Stock" wikidataID="">
+  </entry>
 </dictionary>
