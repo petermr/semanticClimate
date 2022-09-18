@@ -1,0 +1,72 @@
+<dictionary title="agri_abb">
+  <entry name="FAQs" term="Frequently Asked Questions" wikidataID="['//www.wikidata.org/wiki/Q189293', '//www.wikidata.org/wiki/Q785373', '//www.wikidata.org/wiki/Q95101889', '//www.wikidata.org/wiki/Q47462925', '//www.wikidata.org/wiki/Q59637189', '//www.wikidata.org/wiki/Q59561401', '//www.wikidata.org/wiki/Q59597761']"/>
+  <entry name="BECCS" term="bioenergy with carbon capture and storage" wikidataID="[]"/>
+  <entry name="AFOLU" term="Agriculture, Forestry and Other Land Uses" wikidataID="[]"/>
+  <entry name="CDR" term="carbon dioxide removal" wikidataID="['//www.wikidata.org/wiki/Q30314404', '//www.wikidata.org/wiki/Q56298528', '//www.wikidata.org/wiki/Q59296188', '//www.wikidata.org/wiki/Q59411018']"/>
+  <entry name="GHG" term="greenhouse gas" wikidataID="['//www.wikidata.org/wiki/Q167336', '//www.wikidata.org/wiki/Q3588927', '//www.wikidata.org/wiki/Q925312', '//www.wikidata.org/wiki/Q57584895', '//www.wikidata.org/wiki/Q110612403', '//www.wikidata.org/wiki/Q112192791', '//www.wikidata.org/wiki/Q140182']"/>
+  <entry name="VOCs" term="volatile  organic  compounds" wikidataID="[]"/>
+  <entry name="IAMs" term="integrated assessment models" wikidataID="['//www.wikidata.org/wiki/Q57011922', '//www.wikidata.org/wiki/Q58837476', '//www.wikidata.org/wiki/Q59759892']"/>
+  <entry name="NDCs" term="Nationally  Dertermined  Contributions" wikidataID="[]"/>
+  <entry name="NGHGI" term="National  GHG  inventories" wikidataID="[]"/>
+  <entry name="SDGs" term="Sustainable Development Goals" wikidataID="['//www.wikidata.org/wiki/Q7649586', '//www.wikidata.org/wiki/Q22547988', '//www.wikidata.org/wiki/Q30252260', '//www.wikidata.org/wiki/Q104759743', '//www.wikidata.org/wiki/Q111643133', '//www.wikidata.org/wiki/Q109354788', '//www.wikidata.org/wiki/Q104856926']"/>
+  <entry name="GHG" term="greenhouse gas" wikidataID="['//www.wikidata.org/wiki/Q167336', '//www.wikidata.org/wiki/Q3588927', '//www.wikidata.org/wiki/Q925312', '//www.wikidata.org/wiki/Q57584895', '//www.wikidata.org/wiki/Q110612403', '//www.wikidata.org/wiki/Q112192791', '//www.wikidata.org/wiki/Q140182']"/>
+  <entry name="and new" term="and production processes, with existing" wikidataID="[]"/>
+  <entry name="SDGs" term="Sustainable  Development  Goals" wikidataID="[]"/>
+  <entry name="NDCs" term="Nationally Determined Contributions" wikidataID="['//www.wikidata.org/wiki/Q20051297']"/>
+  <entry name="NGHGI" term="National Greenhouse Gas Inventory" wikidataID="[]"/>
+  <entry name="IPCC 1996" term="IPCC  1996 guidelines" wikidataID="[]"/>
+  <entry name="LULUCF" term="Land Use, Land-Use Change, and Forestry" wikidataID="[]"/>
+  <entry name="A/C" term="anthropogenic emissions by gas D =" wikidataID="[]"/>
+  <entry name="FAO 2020a" term="FRA  2020 update" wikidataID="[]"/>
+  <entry name="NGHGIs" term="National Greenhouse Gas Inventories" wikidataID="['//www.wikidata.org/wiki/Q60556832', '//www.wikidata.org/wiki/Q60556831']"/>
+  <entry name="FOLU" term="Forestry and other land use" wikidataID="[]"/>
+  <entry name="EIAs" term="Environmental Impact Assessments" wikidataID="['//www.wikidata.org/wiki/Q108580569', '//www.wikidata.org/wiki/Q112904634', '//www.wikidata.org/wiki/Q56611202']"/>
+  <entry name="UNEP" term="UN Environment Programme" wikidataID="['//www.wikidata.org/wiki/Q182016', '//www.wikidata.org/wiki/Q590861']"/>
+  <entry name="BECCS" term="Bioenergy with Carbon Capture and Storage" wikidataID="[]"/>
+  <entry name="IAMs" term="integrated assessment models" wikidataID="['//www.wikidata.org/wiki/Q57011922', '//www.wikidata.org/wiki/Q58837476', '//www.wikidata.org/wiki/Q59759892']"/>
+  <entry name="CDR" term="carbon dioxide removal" wikidataID="['//www.wikidata.org/wiki/Q30314404', '//www.wikidata.org/wiki/Q56298528', '//www.wikidata.org/wiki/Q59296188', '//www.wikidata.org/wiki/Q59411018']"/>
+  <entry name="A/R" term="and reforestation" wikidataID="[]"/>
+  <entry name="HWPs" term="harvested wood products" wikidataID="['//www.wikidata.org/wiki/Q64227121']"/>
+  <entry name="ICLF" term="integrated  crop-livestock-forestry" wikidataID="[]"/>
+  <entry name="CSA" term="climate-smart agriculture" wikidataID="['//www.wikidata.org/wiki/Q85752879', '//www.wikidata.org/wiki/Q110832922', '//www.wikidata.org/wiki/Q58400322', '//www.wikidata.org/wiki/Q58613732']"/>
+  <entry name="BAU" term="business as usual" wikidataID="['//www.wikidata.org/wiki/Q3286599', '//www.wikidata.org/wiki/Q3284139', '//www.wikidata.org/wiki/Q5001844', '//www.wikidata.org/wiki/Q3647574', '//www.wikidata.org/wiki/Q5001843', '//www.wikidata.org/wiki/Q5001842', '//www.wikidata.org/wiki/Q5001850']"/>
+  <entry name="NDG" term="National Dietary Guidelines" wikidataID="[]"/>
+  <entry name="FLW" term="Food  loss  and  waste" wikidataID="[]"/>
+  <entry name="ILMs" term="Integrative land-use models" wikidataID="[]"/>
+  <entry name="IAMs" term="Integrated Assessment Models" wikidataID="['//www.wikidata.org/wiki/Q57011922', '//www.wikidata.org/wiki/Q58837476', '//www.wikidata.org/wiki/Q59759892']"/>
+  <entry name="BECCS" term="bioenergy with CCS" wikidataID="[]"/>
+  <entry name="EntF" term="enteric fermentation" wikidataID="['//www.wikidata.org/wiki/Q5380203']"/>
+  <entry name="Rice" term="rice production" wikidataID="['//www.wikidata.org/wiki/Q734080', '//www.wikidata.org/wiki/Q6505529', '//www.wikidata.org/wiki/Q7323096', '//www.wikidata.org/wiki/Q7323104', '//www.wikidata.org/wiki/Q7323099', '//www.wikidata.org/wiki/Q7323094', '//www.wikidata.org/wiki/Q7323089']"/>
+  <entry name="AWM" term="animal waste management" wikidataID="['//www.wikidata.org/wiki/Q59670814']"/>
+  <entry name="IAM" term="Integrated Assessment Model" wikidataID="['//www.wikidata.org/wiki/Q1665424', '//www.wikidata.org/wiki/Q57011922', '//www.wikidata.org/wiki/Q58837476', '//www.wikidata.org/wiki/Q59759892', '//www.wikidata.org/wiki/Q58077003', '//www.wikidata.org/wiki/Q58076998']"/>
+  <entry name="LAM" term="Latin America and Caribbean" wikidataID="['//www.wikidata.org/wiki/Q1311100', '//www.wikidata.org/wiki/Q99864848', '//www.wikidata.org/wiki/Q98270380']"/>
+  <entry name="AFRICA" term="Africa" wikidataID="['//www.wikidata.org/wiki/Q15', '//www.wikidata.org/wiki/Q181238', '//www.wikidata.org/wiki/Q4689536', '//www.wikidata.org/wiki/Q136898', '//www.wikidata.org/wiki/Q383842', '//www.wikidata.org/wiki/Q105082407', '//www.wikidata.org/wiki/Q27721519']"/>
+  <entry name="IMPs" term="Illustrative  Mitigation  Pathways" wikidataID="[]"/>
+  <entry name="CDM" term="Clean Development Mechanism" wikidataID="['//www.wikidata.org/wiki/Q535536', '//www.wikidata.org/wiki/Q55721222']"/>
+  <entry name="REDD+" term="reduce  deforestation  and  forest degradation" wikidataID="[]"/>
+  <entry name="NAMAs" term="Nationally  Appropriate  Mitigation  Strategies" wikidataID="[]"/>
+  <entry name="ACCUs" term="Australia carbon credit units" wikidataID="[]"/>
+  <entry name="GEF" term="Global Environmental Facility" wikidataID="[]"/>
+  <entry name="PES" term="Payment for Ecosystem Services" wikidataID="['//www.wikidata.org/wiki/Q2065360', '//www.wikidata.org/wiki/Q64866508', '//www.wikidata.org/wiki/Q60559695']"/>
+  <entry name="IE" term="impact evaluation" wikidataID="['//www.wikidata.org/wiki/Q17055852', '//www.wikidata.org/wiki/Q61956601', '//www.wikidata.org/wiki/Q66344084', '//www.wikidata.org/wiki/Q65355865', '//www.wikidata.org/wiki/Q66188042', '//www.wikidata.org/wiki/Q64642094', '//www.wikidata.org/wiki/Q64336688']"/>
+  <entry name="NAPs" term="National Adaptation Plans" wikidataID="[]"/>
+  <entry name="CFM" term="Community forest management" wikidataID="['//www.wikidata.org/wiki/Q64640321', '//www.wikidata.org/wiki/Q59169409', '//www.wikidata.org/wiki/Q111706149', '//www.wikidata.org/wiki/Q58178299', '//www.wikidata.org/wiki/Q108531146']"/>
+  <entry name="MTE" term="Menominee Tribal Enterprises" wikidataID="[]"/>
+  <entry name="CFI" term="continuous forest inventories" wikidataID="[]"/>
+  <entry name="EU-REDII" term="EU Renewable Energy Directive" wikidataID="[]"/>
+  <entry name="FSC" term="Forest  Sustainability  Council" wikidataID="[]"/>
+  <entry name="PEFC" term="Programme  for  the Endorsement of Forest Certification" wikidataID="[]"/>
+  <entry name="RSPO" term="Roundtable on Sustainable Palm Oil" wikidataID="['//www.wikidata.org/wiki/Q686421']"/>
+  <entry name="PPCDAm" term="Plan  for  Prevention  and  Control  of Deforestation in the Legal Amazon" wikidataID="[]"/>
+  <entry name="PAs" term="Protected Areas" wikidataID="['//www.wikidata.org/wiki/Q1959314', '//www.wikidata.org/wiki/Q29580583', '//www.wikidata.org/wiki/Q86904537', '//www.wikidata.org/wiki/Q25429352', '//www.wikidata.org/wiki/Q29583405', '//www.wikidata.org/wiki/Q7251263', '//www.wikidata.org/wiki/Q3622115']"/>
+  <entry name="FMNR" term="Farmer Managed Natural Regeneration" wikidataID="['//www.wikidata.org/wiki/Q1396849']"/>
+  <entry name="CAR" term="Climate Action Reserve" wikidataID="[]"/>
+  <entry name="CAR" term="Climate  Action  Reserve" wikidataID="[]"/>
+  <entry name="SI" term="Sustainable intensification" wikidataID="['//www.wikidata.org/wiki/Q57132816', '//www.wikidata.org/wiki/Q58613811', '//www.wikidata.org/wiki/Q58613805', '//www.wikidata.org/wiki/Q58613755', '//www.wikidata.org/wiki/Q58303760']"/>
+  <entry name="BECCS" term="Biomass Energy with Carbon Capture and Storage" wikidataID="['//www.wikidata.org/wiki/Q58092807']"/>
+  <entry name="SSP" term="Shared Socioeconomic Pathway" wikidataID="['//www.wikidata.org/wiki/Q84021487', '//www.wikidata.org/wiki/Q109284284']"/>
+  <entry name="CSA" term="Climate  smart  agriculture" wikidataID="[]"/>
+  <entry name="CSC" term="climate  smart  cocoa" wikidataID="[]"/>
+  <entry name="CREMAs" term="Community Resource Management  Area  Mechanisms" wikidataID="[]"/>
+  <entry name="NbS" term="Nature-based  solutions" wikidataID="[]"/>
+</dictionary>

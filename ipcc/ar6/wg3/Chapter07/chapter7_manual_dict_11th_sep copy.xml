@@ -81,6 +81,8 @@
   <entry term="LUH2" name="Land-Use Harmonization" wikidataID=""
          desc="project, with the goal to smoothly connect updated historical reconstructions of land-use with new future projections in the format required for ESMs"/>
 
+  <entry term="CO2 fertilization effect"  wikidataID="Q28231720"
+         wikipediaPage="https://www.wikidata.org/wiki/Q28231720" desc="Fertilization from from increased levels of atmospheric carbon dioxide"/>
 
   <entry term="deforestation" wikidataID="Q169940" wikipediaPage="https://www.wikidata.org/wiki/Q169940"
          desc="removal of forest and conversion of the land to non-forest use"/>
@@ -130,7 +132,7 @@
   <entry term="global sustainability"/>
 
   <entry term="SSP" name="Shared Socioeconomic Pathway" wikidataID=""
-         wikipediaPage="https://en.wikipedia.org/w/index.php?go=Go search=Shared+Socioeconomic+Pathway title=Special%3ASearch ns0=1"
+         wikipediaPage="https://en.wikipedia.org/w/index.php?go=Gosearch=Shared+Socioeconomic+Pathwaytitle=Special%3ASearchns0=1"
          desc="scenarios of projected socioeconomic global changes up to 2100. They are used to derive greenhouse gas emissions"/>
 
   <entry term="RCP" name="GHG emissions trajectories " wikidataID=""/>
@@ -190,7 +192,8 @@
   desc="an agricultural system that uses fertilizers of organic origin such as compost manure, green manure, and bone meal and places emphasis on techniques such as crop rotation and companion planting"/>
 
   <entry term="CA" name="Conservation Agriculture" wikidataID="Q4439388" wikipediaPage="https://www.wikidata.org/wiki/Q4439388"
-         desc="A farming system that promotes minimum soil disturbance (i.e. no-till farming), maintenance of a permanent soil cover, and diversification of plant species"/>
+         desc="A farming system that promotes minimum soil disturbance (i.e. no-till farming), maintenance of a
+         permanent soil cover, and diversification of plant species"/>
 
   <entry term="IPS" name="Integrated Production Systems" wikidataID=""/>
 
