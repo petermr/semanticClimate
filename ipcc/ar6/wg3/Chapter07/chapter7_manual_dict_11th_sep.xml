@@ -202,12 +202,19 @@
 
   <entry term="NDCs" name="Nationally Determined Contributions" wikidataID="Q20051297"
          wikipediaPage="https://www.wikidata.org/wiki/Q20051297" desc="non-binding national plans highlighting climate actions"/>
+
   <entry term="GWP" name="Global warming potential"/>
+
   <entry term="CANOPIES" name="Co-existence of Agriculture and Nature: Optimisation and Planning of Integrated Ecosystem Services "/>
+
   <entry term="ICLF" name=" integrated crop-livestock-forestry"/>
+
   <entry term="Enteric fermentation" wikidataID="Q5380203" wikipediaPage="https://en.wikipedia.org/wiki/Enteric_fermentation"
          desc=" a digestive process by which carbohydrates are broken down by microorganisms into simple molecules for absorption into the bloodstream of an animal. Because of human agricultural reliance in many parts of the world on animals which digest by enteric fermentation, it is one of the factors in increased methane emissions."/>
+
+
   <entry term="Biochar" wikidataID="Q905495" wikipediaPage="https://en.wikipedia.org/wiki/Biochar"
          desc="Biochar is the lightweight black residue, made of carbon and ashes, remaining after the pyrolysis of biomas"/>
 
 </dictionary>
+
