@@ -1,0 +1,238 @@
+<dictionary title="ipcc_chap02_docanal_org">
+  <metadata>
+    <desc>
+      Created with docanalysis/SpaCy ORG on IPCC Chapter02 fulltext 2022-09-15
+    </desc>
+    <desc>terms removed manually PMR</desc>
+  </metadata>
+  <entry term="GHG" count="200"/>
+  <entry term="AFOLU" count="19"/>
+  <entry term="EDGAR" count="8"/>
+  <entry term="PBE" count="8"/>
+  <entry term="OECD" count="8"/>
+  <entry term="UNFCCC" count="7"/>
+  <entry term="Wang" count="7"/>
+  <entry term="EU" count="6"/>
+  <entry term="CO 2" count="6"/>
+  <entry term="Working Group" count="6"/>
+  <entry term="FAO" count="5"/>
+  <entry term="IEA" count="5"/>
+  <entry term="FAOSTAT" count="5"/>
+  <entry term="the IPCC Sixth Assessment Report" count="5"/>
+  <entry term="GtCO2eq" count="5"/>
+  <entry term="IPCC" count="4"/>
+  <entry term="CEDS" count="4"/>
+  <entry term="CBE" count="4"/>
+  <entry term="PV" count="4"/>
+  <!--
+  <entry term="FOOTNOTE" count="3"/>
+  <entry term="Annex" count="3"/>
+  -->
+  <entry term="non-CO 2" count="3"/>
+  <entry term="Montzka and Velders" count="3"/>
+  <!--
+  <entry term="WGIII" count="3"/>
+  -->
+  <entry term="BP" count="3"/>
+  <entry term="Sweerts" count="3"/>
+  <entry term="NMVOC" count="3"/>
+  <entry term="CO" count="3"/>
+  <entry term="IBE" count="3"/>
+  <entry term="the World Bank" count="3"/>
+  <entry term="SLoCaT" count="3"/>
+  <entry term="Semieniuk" count="3"/>
+  <entry term="Chancel and Piketty" count="3"/>
+  <entry term="Liddle and Lung" count="3"/>
+  <entry term="Fisch-Romito" count="3"/>
+  <entry term="Lazarus Chapungu" count="2"/>
+  <entry term="United" count="2"/>
+  <entry term="Sectoral" count="2"/>
+  <entry term="Cross-Sectoral Policies" count="2"/>
+  <entry term="Global  Warming" count="2"/>
+  <entry term="Rigby" count="2"/>
+  <entry term="NGHGI" count="2"/>
+  <entry term="WGI" count="2"/>
+  <entry term="Kolstad" count="2"/>
+  <entry term="BC" count="2"/>
+  <entry term="TCBA" count="2"/>
+  <entry term="the Global Carbon Budget" count="2"/>
+  <entry term="the Global Carbon Budget 2020" count="2"/>
+  <entry term="EEE" count="2"/>
+  <entry term="Lan" count="2"/>
+  <entry term="&#220;rge-Vorsatz" count="2"/>
+  <entry term="Millward-Hopkins" count="2"/>
+  <entry term="Hughes" count="2"/>
+  <entry term="K&#246;hler" count="2"/>
+  <entry term="World Bank" count="2"/>
+  <entry term="Ivanova" count="2"/>
+  <entry term="Kahn" count="2"/>
+  <entry term="CDR" count="2"/>
+  <entry term="FGD" count="2"/>
+  <entry term="Austria/Hungary" count="1"/>
+  <entry term="Pachauri" count="1"/>
+  <entry term="Giovanni" count="1"/>
+  <entry term="House" count="1"/>
+  <entry term="Laixiang Sun" count="1"/>
+  <entry term="Dominik" count="1"/>
+  <entry term="EET" count="1"/>
+  <entry term="Global and Regional Levels" count="1"/>
+  <entry term="GHG Emissions" count="1"/>
+  <entry term="2.5.4 Technological Change Has Reduced Emissions" count="1"/>
+  <entry term="Improvements in Technologies Enable Faster Adoption" count="1"/>
+  <entry term="Non-Climate Policies and Measures" count="1"/>
+  <entry term="Greenhouse Gas" count="1"/>
+  <entry term="Global CO2" count="1"/>
+  <entry term="Consumption" count="1"/>
+  <entry term="Working  Group" count="1"/>
+  <entry term="the Working Group" count="1"/>
+  <entry term="the Joint Research Centre" count="1"/>
+  <entry term="the European Commission" count="1"/>
+  <entry term="the Global Carbon Project" count="1"/>
+  <entry term="Agriculture, Forestry" count="1"/>
+  <entry term="Ciais" count="1"/>
+  <entry term="WGIII AR5" count="1"/>
+  <entry term="World Meteorological Organisation&#8217;s" count="1"/>
+  <entry term="Global Carbon Project" count="1"/>
+  <entry term="CEDS - Community Emissions Data System (Hoesly et al." count="1"/>
+  <entry term="Regional" count="1"/>
+  <entry term="EIA - Energy Information Administration International Energy Statistics" count="1"/>
+  <entry term="BP - BP Statistical Review of World Energy" count="1"/>
+  <entry term="IEA - International Energy Agency" count="1"/>
+  <entry term="IPPU" count="1"/>
+  <entry term="National Greenhouse Gas Inventories" count="1"/>
+  <entry term="EPA" count="1"/>
+  <entry term="Anthropogenic N 2" count="1"/>
+  <entry term="PRIMAP" count="1"/>
+  <entry term="Comparison" count="1"/>
+  <entry term="Olivier &amp; Peters" count="1"/>
+  <entry term="NOAA" count="1"/>
+  <entry term="WMO" count="1"/>
+  <entry term="FaIR" count="1"/>
+  <entry term="F-Kyoto/Paris" count="1"/>
+  <entry term="Paris Agreement" count="1"/>
+  <entry term="START CROSS" count="1"/>
+  <entry term="Norway/Australia" count="1"/>
+  <entry term="The Global Warming Potential" count="1"/>
+  <entry term="Global Temperature" count="1"/>
+  <entry term="Mallapragada" count="1"/>
+  <entry term="Mignone 2019" count="1"/>
+  <entry term="Mignone" count="1"/>
+  <entry term="Rogelj" count="1"/>
+  <entry term="GWP100" count="1"/>
+  <entry term="&#177;3.0" count="1"/>
+  <entry term="UNEP" count="1"/>
+  <entry term="49&#177;4.9 Gt CO 2" count="1"/>
+  <entry term="Gt CO 2" count="1"/>
+  <entry term="Cumulative CO 2" count="1"/>
+  <entry term="C Panel" count="1"/>
+  <entry term="Hausfather" count="1"/>
+  <entry term="SRES" count="1"/>
+  <entry term="SSP1-Sustainability" count="1"/>
+  <entry term="Vohra" count="1"/>
+  <entry term="NOx" count="1"/>
+  <entry term="McDonald et al" count="1"/>
+  <entry term="Developed Countries" count="1"/>
+  <entry term="Matthews" count="1"/>
+  <entry term="G&#252;tschow" count="1"/>
+  <entry term="Vasconcellos" count="1"/>
+  <entry term="START" count="1"/>
+  <entry term="Liu and Fan" count="1"/>
+  <entry term="END" count="1"/>
+  <entry term="OECD/ICIO  " count="1"/>
+  <entry term="Global  Carbon  Budget" count="1"/>
+  <entry term="EU28" count="1"/>
+  <entry term="Global Carbon Budget" count="1"/>
+  <entry term="Kallis" count="1"/>
+  <entry term="Koroneos" count="1"/>
+  <entry term="Structural Decomposition Analysis" count="1"/>
+  <entry term="Fern&#225;ndez-Amador" count="1"/>
+  <entry term="UNCTAD" count="1"/>
+  <entry term="Malik" count="1"/>
+  <entry term="non-OECD" count="1"/>
+  <entry term="Global and Regional Levels Economic" count="1"/>
+  <entry term="Liobikiene" count="1"/>
+  <entry term="Pan et al." count="1"/>
+  <entry term="Bruns" count="1"/>
+  <entry term="G/P" count="1"/>
+  <entry term="E/G" count="1"/>
+  <entry term="Mazzanti" count="1"/>
+  <entry term="Shearer" count="1"/>
+  <entry term="Final Government Distribution   Chapter" count="1"/>
+  <entry term="Eastern" count="1"/>
+  <entry term="EC" count="1"/>
+  <entry term="-1" count="1"/>
+  <entry term="WGI Chapters 8" count="1"/>
+  <entry term="A/P" count="1"/>
+  <entry term="L/A" count="1"/>
+  <entry term="H/L" count="1"/>
+  <entry term="EDGAR v6.0" count="1"/>
+  <entry term="Chancel" count="1"/>
+  <entry term="Malerba" count="1"/>
+  <entry term="GJ" count="1"/>
+  <entry term="HDI" count="1"/>
+  <entry term="Akizu-Gardoki" count="1"/>
+  <entry term="GHG Emissions Economic" count="1"/>
+  <entry term="Pincetl" count="1"/>
+  <entry term="Cetin" count="1"/>
+  <entry term="Barido" count="1"/>
+  <entry term="Rinscheid" count="1"/>
+  <entry term="the USA (Sovacool" count="1"/>
+  <entry term="Fridstr&#248;m" count="1"/>
+  <entry term="Trancik" count="1"/>
+  <entry term="Burke and Stephens" count="1"/>
+  <entry term="Rogge and D&#252;tschke" count="1"/>
+  <entry term="Urban" count="1"/>
+  <entry term="Hale" count="1"/>
+  <entry term="Maycock and Wakefield" count="1"/>
+  <entry term="Wiser and Bolinger" count="1"/>
+  <entry term="Nilsson" count="1"/>
+  <entry term="Service" count="1"/>
+  <entry term="CCS" count="1"/>
+  <entry term="Households" count="1"/>
+  <entry term="R&#228;ty" count="1"/>
+  <entry term="Carlsson-Kanyama" count="1"/>
+  <entry term="USD2.97" count="1"/>
+  <entry term="Merlin" count="1"/>
+  <entry term="Schor" count="1"/>
+  <entry term="J.B." count="1"/>
+  <entry term="Tybur" count="1"/>
+  <entry term="Friedman" count="1"/>
+  <entry term="Savage" count="1"/>
+  <entry term="G&#246;ssling" count="1"/>
+  <entry term="Altshuler" count="1"/>
+  <entry term="Joassart-Marcelli et al." count="1"/>
+  <entry term="Quantifications" count="1"/>
+  <entry term="Heede and Oreskes" count="1"/>
+  <entry term="Bauer" count="1"/>
+  <entry term="Bullock et al" count="1"/>
+  <entry term="Gonz&#225;lez-Mahecha" count="1"/>
+  <entry term="the Powering Past Coal Alliance" count="1"/>
+  <entry term="Tempest" count="1"/>
+  <entry term="Driscoll" count="1"/>
+  <entry term="AIM" count="1"/>
+  <entry term="CGE" count="1"/>
+  <entry term="WITCH" count="1"/>
+  <entry term="Non-electric" count="1"/>
+  <entry term="ECR" count="1"/>
+  <entry term="ICF International" count="1"/>
+  <entry term="The European Union Emissions Trading Scheme" count="1"/>
+  <entry term="Petrick" count="1"/>
+  <entry term="Wagner" count="1"/>
+  <entry term="EU ETS" count="1"/>
+  <entry term="Kyoto Protocol" count="1"/>
+  <entry term="Bayer and Aklin" count="1"/>
+  <entry term="The Regional Greenhouse Gas Initiative" count="1"/>
+  <entry term="Fell" count="1"/>
+  <entry term="the European  Union" count="1"/>
+  <entry term="Martin" count="1"/>
+  <entry term="Saikawa" count="1"/>
+  <entry term="EV" count="1"/>
+  <entry term="Canals Casals" count="1"/>
+  <entry term="Choi" count="1"/>
+  <entry term="HCS" count="1"/>
+  <entry term="Meyer" count="1"/>
+  <entry term="Miller" count="1"/>
+  <entry term="TFD" count="1"/>
+  <entry term="CO2 Replace" count="1"/>
+  <entry term="Front" count="1"/>
+</dictionary>

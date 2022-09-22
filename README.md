@@ -38,4 +38,20 @@ cd pdfminer.six
 python tools/pdf2txt.py "Copy path.pdf" -o "Copy path.txt"
 ```
 
+OVERVIEW 2022-09-16: (Abishek)
+(chapter-oriented)
+* convert PDF to HTML (2 methods) 
+* extract words and create dictionaries
+ - manual
+ - abbreviation
+ - phrases
+* create super-dictionaries
+* annotate HTML with dictionaries
+
+LITERATURE search (PMR)
+* pygetpapers EPMC
+* annotate with dictionaries (CTree iterator)
+* index
+
+ - search literature 
 
