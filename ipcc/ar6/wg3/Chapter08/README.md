@@ -8,7 +8,4 @@
 # Dictionary
 * [Abbreviation (XML)](dict/ip_3_8_urban_abb.xml)
 * [Manual (XML)](dict/ip_3_8_urban_man.xml)
-* [Words/Phrase (csv)]
-* [](raw/gensim_keywords.csv)
-* [](raw/Rake_keywords.csv)
-* [](raw/yake_keywords.csv)
+* [Words/Phrase (csv)(raw/gensim_keywords.csv)
