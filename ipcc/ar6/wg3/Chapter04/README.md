@@ -4,6 +4,6 @@
 
 * [PDF](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter04/fulltext.pdf)
 * [HTML file](https://htmlpreview.github.io/?https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter04/fulltext.html)
-* [Abbreviation Dictionary (XML)](Chapter04/dict/)
+* [Abbreviation Dictionary (XML)] (Not yet created)
 
 
