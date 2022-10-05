@@ -70,4 +70,7 @@ that will be a great uccess.
 ## extensions
 There are a huge number of things that can be done with semantic material. We welcome hackers who want to explore this.
 
+# Hackathon material
+[Details of IPCC/AR6/WG3 organized by chapters](wg3/)
+
 
