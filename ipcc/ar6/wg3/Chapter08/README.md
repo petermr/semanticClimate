@@ -7,5 +7,5 @@
 
 # Dictionary
 * [Abbreviation (XML)] (Not yet created)
-* [Manual ] (Not yet created)
+* [Manual ](dict/ip_3_8_urban_man.xml)
 * [Words/Phrase ] (Not yet created)
