@@ -6,6 +6,6 @@
 * [HTML file](https://htmlpreview.github.io/?https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter08/fulltext.html)
 
 # Dictionary
-* [Abbreviation (XML)] (Not yet created)
+* [Abbreviation (XML)](dict/ip_3_8_urban_abb.xml)
 * [Manual ](dict/ip_3_8_urban_man.xml)
 * [Words/Phrase ] (Not yet created)
