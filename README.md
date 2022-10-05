@@ -58,5 +58,6 @@ LITERATURE search (PMR)
  # events
  
  ## openAccess week
- 
+ 2022-10-24 to 2022-10-28:
+Week-long, asynchronous distributed hackathon making the IPCC [reports semantic](ipcc/ar6/) (WG3 , Mitigation). 
 
