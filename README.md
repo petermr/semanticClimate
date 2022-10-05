@@ -55,3 +55,9 @@ LITERATURE search (PMR)
 
  - search literature 
 
+# Events
+
+## OpenAccess Week 
+
+Hackathon planned for 2022-10-24 to 2022-10-28
+* see [WG3 repository](ipcc/ar6/wg3)
