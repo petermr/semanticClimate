@@ -21,3 +21,15 @@ The goal is to extract useful information from the IPCC documents so that crisp 
 <ul>Text to html to XML (Python) </ul>
 <ul> Docanalysis (Unsupervised named entity recognition) </ul>
 </div>
+
+# Chapter07 : Agriculture and AFOLU
+
+# Text
+
+* [PDF](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter07/fulltext.pdf)
+* [HTML file](https://htmlpreview.github.io/?https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter07/fulltext.html)
+
+# Dictionary
+* [Abbreviation (XML)] (Not yet created)
+* [Manual ] (Not yet created)
+* [Words/Phrase ] (Not yet created)
