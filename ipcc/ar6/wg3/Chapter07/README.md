@@ -31,5 +31,5 @@ The goal is to extract useful information from the IPCC documents so that crisp 
 
 # Dictionary
 * [Abbreviation (XML)] (Not yet created)
-* [Manual] (dict/ip_3_7_agric_man.xml)
+* [Manual](dict/ip_3_7_agric_man.xml)
 * [Words/Phrase ] (Not yet created)
