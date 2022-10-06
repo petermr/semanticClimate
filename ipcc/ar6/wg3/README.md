@@ -69,13 +69,17 @@ Place the html of your chapter inside the 0_main_body directory repository.
 * run the following command, which creates the abbreviation dictionary:
 ```docanalysis --project_name wiki_hackathon --output dict_search_5.csv --make_json dict_search_5.json --make_ami_dict entities --extract_abbemissions_abb```
 - Making automated dictionaries other than abbreviation dictionary using docanalysis:
+
 * ORGANISATION dictionary: 
 ```docanalysis --project_name wiki_hackathon --spacy_model spacy --entities ORG --output org.csv```
 ```docanalysis --project_name wiki_hackathon --spacy_model spacy --entities ORG --output org_aut_aff.csvv --make_ami_dict org```
+
 One can create other dictionaries as well, as described in the github page for docanalysis.   
 [docanalysis page](https://github.com/petermr/docanalysis/blob/main/README.md)
+
 **Validating the created dictionary:**
 ```python -m py4ami.pyamix DICT --dict /Users/pm286/projects/semanticClimate/ipcc//ar6/wg3/Chapter02/dict/emissions.xml –valid```
+
 **Annotating the created dictionaries:**
 * install the py4ami using following command:
 ```pip install py4ami```
