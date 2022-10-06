@@ -91,8 +91,8 @@ One can create other dictionaries as well, as described in the github page for d
 * install the py4ami using following command:
 
 ```pip install py4ami```
-* use the following command for annotation:
 
+* use the following command for annotation:
 ``` py4ami HTML --annotate --dict /Users/..../projects/semanticClimate/ipcc/ar6/wg3/Chapter02/dict/emissions.xml \
 --inpath/Users/..../projects/semanticClimate/ipcc/ar6/wg3/Chapter02/fulltext.html \
 --outpath /Users/..../projects/semanticClimate/ipcc/ar6/wg3/Chapter02/annotated/fulltext_emissions.html --color YELLOW```
