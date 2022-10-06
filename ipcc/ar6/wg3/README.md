@@ -7,6 +7,7 @@ Our current Wiki Hackathon is a project that aims to perform text and data minin
 * PYAMI 
 * DOCANALYSIS
 * gensim
+
 **PYAMI has been used for**:
 * Converting pdf to html
 * Validating whether the created dictionary is correct or not
