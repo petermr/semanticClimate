@@ -36,7 +36,7 @@ Our current Wiki Hackathon is a project that aims to perform text and data minin
 * Convert pdf to html:
 - Use following command for pdf to html conversion:
 
-```python -m py4ami.ami_pdf \ --inpath /users/….../ipcc/ar6/wg3/Chapter*/Chapter.pdf \ --outdir /users/….../ipcc/ar6/wg3/Chapter*/ --maxpage 100```
+```python -m py4ami.ami_pdf --inpath /users/….../ipcc/ar6/wg3/Chapter*/Chapter.pdf --outdir /users/….../ipcc/ar6/wg3/Chapter*/ --maxpage 100```
 
 where,
 - inpath: path of the pdf file inside your machine
