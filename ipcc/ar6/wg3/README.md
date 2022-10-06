@@ -6,7 +6,7 @@ Our current Wiki Hackathon is a project that aims to perform text and data minin
 ### We are currently using following tools
 * PYAMI 
 * DOCANALYSIS
-* gensim
+* gensim(keyword extraction)
 
 **PYAMI has been used for**:
 * Converting pdf to html
@@ -16,19 +16,19 @@ Our current Wiki Hackathon is a project that aims to perform text and data minin
 **DOCANALYSIS has been used for**:
 * Creating automated dictionary from a html file.
 * Creating different entity dictionaries (abbreviation dictionary, organisation dictionary etc) from the same html file.
+
 ## THE PROTOCOL:
 ### Download the IPCC/ar6/wg3 Chapter* pdf: 
 * [from IPCC website](https://www.ipcc.ch/report/ar6/wg3/)
 * [from Peter’s github repository](https://github.com/petermr/semanticClimate/tree/main/ipcc/ar6/wg3) 
 ### Download Peter’s semanticClimate github repository:
+
  ``` git clone https://github.com/petermr/semanticClimate.git```
-### Use pycharm or a similar IDE environment that can be used to
-- make dictionaries(manual dictionary)
-- identify the problems in the dictionary 
-- upload the changes made in the dictionary or other texts in Peter’s github 
+  
 ### Converting a pdf into html (we use pyami from Peter’s repository)
 * Download pyami repository:
- -  git clone the latest pyami from Peter’s repository
+-  git clone the latest pyami from Peter’s repository
+
  ``` git clone https://github.com/petermr/pyami.git ```
  - Then enter inside pyami directory:
 ``` cd /some/where/pyami```
@@ -39,12 +39,17 @@ where,
 - inpath: path of the pdf file inside your machine
 - outdir: path of the directory inside which the converted html will be saved
 - maxpage: number of pages of the pdf that should be converted into html
+**DICTIONARY**
 * Create manual dictionary from pdf:
-This is done by manually reading the pdf, and manually entering any term or abbreviaion that you do not understand, or you think is important for the chapter. The dictionary is a xml file(emissions.xml). We use “pycharm” for making our manual dictionaries.
-* Create automated dictionary from pdf
+This is done by manually reading the pdf, and manually entering any term or abbreviaion that you do not understand, or you think is important for the chapter. The dictionary is a xml file(emissions.xml).
+* Use pycharm or a similar IDE environment that can be used to
+- make dictionaries(manual dictionary)
+- identify the problems in the dictionary 
+- upload the changes made in the dictionary or other texts in Peter’s github
+* Create automated dictionary from html
 - Docanalysis installation:
 - Create a separate directory
-``` mkdir /user/.../docanalysis
+``` mkdir /user/.../docanalysis```
 - Run the following installation command:
 ```pip install docanalysis```
 - Test if installation is successful using the following command:
@@ -53,9 +58,9 @@ This is done by manually reading the pdf, and manually entering any term or abbr
 ```pwd```
 - After placing it, use ```pwd```
 - the result should be
-“/user/…./docanalysis/wiki_hackathon/Chapter02/sections/0_main_body/”
- Place the html of your chapter inside the 0_main_body directory repository.
-* run the following command, which prepares the html for dictionary creation: 
+``` /user/…./docanalysis/wiki_hackathon/Chapter02/sections/0_main_body/```
+Place the html of your chapter inside the 0_main_body directory repository.
+* run the following command: 
  ```docanalysis --project_name wiki_hackathon --output entities.csv --make_ami_dict entities.xml```
 * run the following command, which creates the abbreviation dictionary:
 ```docanalysis --project_name wiki_hackathon --output dict_search_5.csv --make_json dict_search_5.json --make_ami_dict entities --extract_abbemissions_abb```
@@ -65,10 +70,10 @@ This is done by manually reading the pdf, and manually entering any term or abbr
 ```docanalysis --project_name wiki_hackathon --spacy_model spacy --entities ORG --output org_aut_aff.csvv --make_ami_dict org```
 One can create other dictionaries as well, as described in the github page for docanalysis.   
 [docanalysis page](https://github.com/petermr/docanalysis/blob/main/README.md)
-* Validating the created dictionary:
+**Validating the created dictionary:**
 ```python -m py4ami.pyamix DICT --dict /Users/pm286/projects/semanticClimate/ipcc//ar6/wg3/Chapter02/dict/emissions.xml –valid```
-* Annotating the created dictionaries:
-install the py4ami using following command:
+**Annotating the created dictionaries:**
+* install the py4ami using following command:
 ```pip install py4ami```
 use the following command for annotation:
 ```py4ami HTML --annotate --dict /Users/pm286/projects/semanticClimate/ipcc/ar6/wg3/Chapter02/dict/emissions.xml \
