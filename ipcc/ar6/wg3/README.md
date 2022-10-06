@@ -44,13 +44,13 @@ where,
 - maxpage: number of pages of the pdf that should be converted into html
 
 **DICTIONARY**
-* Create manual dictionary from pdf:
+#### Create manual dictionary from pdf:
 This is done by manually reading the pdf, and manually entering any term or abbreviaion that you do not understand, or you think is important for the chapter. The dictionary is a xml file(emissions.xml).
 * Use pycharm or a similar IDE environment that can be used to
 - make dictionaries(manual dictionary)
 - identify the problems in the dictionary 
 - upload the changes made in the dictionary or other texts in Peter’s github
-* Create automated dictionary from html
+#### Create automated dictionary from html
 - Docanalysis installation:
 - Create a separate directory
 ``` mkdir /user/.../docanalysis```
