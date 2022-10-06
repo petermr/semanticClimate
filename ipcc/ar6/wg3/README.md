@@ -77,12 +77,14 @@ Place the html of your chapter inside the 0_main_body directory repository.
 **ORGANISATION DICTIONARY**:
 
 ```docanalysis --project_name wiki_hackathon --spacy_model spacy --entities ORG --output org.csv```
+
 ```docanalysis --project_name wiki_hackathon --spacy_model spacy --entities ORG --output org_aut_aff.csvv --make_ami_dict org```
 
 One can create other dictionaries as well, as described in the github page for docanalysis.   
 [docanalysis page](https://github.com/petermr/docanalysis/blob/main/README.md)
 
 **Validating the created dictionary:**
+
 ```python -m py4ami.pyamix DICT --dict /Users/pm286/projects/semanticClimate/ipcc//ar6/wg3/Chapter02/dict/emissions.xml –valid```
 
 **Annotating the created dictionaries:**
@@ -91,9 +93,9 @@ One can create other dictionaries as well, as described in the github page for d
 ```pip install py4ami```
 * use the following command for annotation:
 
-```py4ami HTML --annotate --dict /Users/pm286/projects/semanticClimate/ipcc/ar6/wg3/Chapter02/dict/emissions.xml \
---inpath/Users/pm286/projects/semanticClimate/ipcc/ar6/wg3/Chapter02/fulltext.html \
---outpath /Users/pm286/projects/semanticClimate/ipcc/ar6/wg3/Chapter02/annotated/fulltext_emissions.html --color YELLOW```
+```py4ami HTML --annotate --dict /Users/..../projects/semanticClimate/ipcc/ar6/wg3/Chapter02/dict/emissions.xml \
+--inpath/Users/..../projects/semanticClimate/ipcc/ar6/wg3/Chapter02/fulltext.html \
+--outpath /Users/..../projects/semanticClimate/ipcc/ar6/wg3/Chapter02/annotated/fulltext_emissions.html --color YELLOW```
 
 ## Chapters
 * Chapter01
