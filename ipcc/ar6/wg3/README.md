@@ -31,14 +31,18 @@ Our current Wiki Hackathon is a project that aims to perform text and data minin
 
  ``` git clone https://github.com/petermr/pyami.git ```
  - Then enter inside pyami directory:
+
 ``` cd /some/where/pyami```
 * Convert pdf to html:
 - Use following command for pdf to html conversion:
+
 ```python -m py4ami.ami_pdf \ --inpath /users/….../ipcc/ar6/wg3/Chapter*/Chapter.pdf \ --outdir /users/….../ipcc/ar6/wg3/Chapter*/ --maxpage 100```
+
 where,
 - inpath: path of the pdf file inside your machine
 - outdir: path of the directory inside which the converted html will be saved
 - maxpage: number of pages of the pdf that should be converted into html
+
 **DICTIONARY**
 * Create manual dictionary from pdf:
 This is done by manually reading the pdf, and manually entering any term or abbreviaion that you do not understand, or you think is important for the chapter. The dictionary is a xml file(emissions.xml).
