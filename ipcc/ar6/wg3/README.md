@@ -12,6 +12,7 @@ Our current Wiki Hackathon is a project that aims to perform text and data minin
 * Converting pdf to html
 * Validating whether the created dictionary is correct or not
 * Annotating the dictionary, which means, one can find the word from the dictionary in the generated html file, and then go to the wikidata page for the word, just by clicking on the word.
+
 **DOCANALYSIS has been used for**:
 * Creating automated dictionary from a html file.
 * Creating different entity dictionaries (abbreviation dictionary, organisation dictionary etc) from the same html file.
