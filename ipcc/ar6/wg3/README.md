@@ -1,7 +1,7 @@
 # WG3 (Mitigation)
 
 (description)
-# WIKI HACKATHON FOR IPCC
+# The Climate Knowledge Hunt Hackathon
 Our current Wiki Hackathon is a project that aims to perform text and data mining on IPCC report of 2021 (a global climate report) to extract knowledge using tools that are created by us, and helps us save time, and gain meaningful insights by performing several analysis. On a document that has 10,000 pages and several 100 digrams and tables, extracting meaning can be daunting. But not, if the machines do the reading of the document for us. And not just reading, but also sectioning it into images, tables and chapter subsections. And not just this, but analysing the text for us, and sending us the analysis in a way that can be understood by us, and meaningful knowledge extracted out of the document. And the time it takes for a machine to do it? It definitely less that reading the entire document. In fact, if the tools are installed properly, and run in the right way, we can have meaning from 10,000 pages in mere hours, or even an hour.
 ### We are currently using following tools
 * PYAMI 
