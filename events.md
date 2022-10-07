@@ -1,4 +1,6 @@
-## Half Day CobLet2022 Asia Pacific Workshop
+# Upcoming Events
+Listed are the events that we are either hosting or being a part of. Most are open to anybody to register, some may be internal. 
+## Half Day CobLet2022 Asia Pacific Workshop (closed)
 - When: 2022-10-13
 - Where: Online 
 ## Cambridge MPhil Lecture Series (semi-closed)
@@ -23,7 +25,7 @@ Week-long, asynchronous distributed hackathon making the IPCC [reports semantic]
 - When: March 2023 (date TBD)
 - Where: Delhi
 ## Climate Knowledge Hunt Europe Tour
-- When: Sept 2023
+- When: Sept 2023 (Dates TBD)
 - Where: Cambridge, Hannover(?), Geneva
 # Past #SemanticClimate Events
 ## Climate Knowledge Hunt Hackathon 
@@ -50,7 +52,12 @@ Some objective findings:
 
 ## TIGR2ESS Symposium
 ## Participated in Piaget Hackathon
+- GitHub Thread maintained during the Event: https://github.com/petermr/petermr/discussions/37
+
+The team participated in the event to hack IPCC Reports. 
+
+The team eventually won. They plan on hosting more hackathons themselves where the participants explore the IPCC Reports and our technology. These are called Climate Knowledge Hunt Hackathon. 
 
 # Past CEVOpen Events
 ## MADICES 2022
-## 
+## WikidataCon 2022
