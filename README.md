@@ -56,16 +56,7 @@ LITERATURE search (PMR)
  - search literature 
  
  # Upcoming Events
- 
- ## openAccess week
-### 2022-10-24 to 2022-10-28:
-Week-long, asynchronous distributed hackathon making the IPCC [reports semantic](ipcc/ar6/) (WG3 , Mitigation); [details](ipcc/ar6/OA_WEEK_2022.md).
 
-# Past Events
-## Hackathon Piaget
-### 
-## TIGR2ESS Symposium 
-### 
-## Climate Knowledge Hunt Hackathon
-### 2022-09-24
+Check out our [Events page](/events.md) for details about upcoming ones. 
+
 
