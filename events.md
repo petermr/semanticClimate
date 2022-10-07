@@ -10,6 +10,7 @@
 - Where: Online
 - Abstract for the presentation: https://biss.pensoft.net/article/94347/
 ## International Open Access Week Async Climate Knowledge Hunt Hackathon
+Week-long, asynchronous distributed hackathon making the IPCC [reports semantic](ipcc/ar6/) (WG3 , Mitigation); [details](ipcc/ar6/OA_WEEK_2022.md).
 - When: 2022-10-24 to 2022-10-28
 - Where: Online
 - https://www.openaccessweek.org/
