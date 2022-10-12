@@ -11,11 +11,14 @@ Listed are the events that we are either hosting or being a part of. Most are op
 - When: 2022-10-20
 - Where: Online
 - Abstract for the presentation: https://biss.pensoft.net/article/94347/
-## International Open Access Week Async Climate Knowledge Hunt Hackathon
+## International Open Access Week Async Climate Knowledge Hunt Hackathon: Formats For Future
 Week-long, asynchronous distributed hackathon making the IPCC [reports semantic](ipcc/ar6/) (WG3 , Mitigation); [details](ipcc/ar6/OA_WEEK_2022.md).
-- When: 2022-10-24 to 2022-10-28
+- When: 2022-10-24 to 2022-10-30
 - Where: Online
 - https://www.openaccessweek.org/
+  - __Part of OA Week__
+  - Hackathon information and registration [Formats For Future: Liberating and Semantify IPCC Reports](https://semanticclimate.github.io/FormatsForFuture/)
+  - Presentation - Adephi University, October 26 at 10am eastern time (USA). 1.5 hours - presentation 40 mins, remaining time QnA on Zoom. [info page](https://libguides.adelphi.edu/openaccess-scholarlycommunication/OAWeek)
 ## Event with Cambridge India Research Foundation
 - When: End of November (TBD)
 ## End online Hackathon Half Day (date TBD)
