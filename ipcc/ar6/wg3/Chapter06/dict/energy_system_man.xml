@@ -1,19 +1,18 @@
-<dictionary title="Energy_system" version="0.0.5" >
-         <desc> manually created by Mandeep 2022-11-19 </desc>
+<dictionary title="Energy_system" version="0.0.5" > <desc> manually created by Mandeep 2022-11-19 </desc>
 <entry term="interquartile range" wikidataID="Q1916617"
-         wikipediaPage="https://en.wikipedia.org/wiki/Interquartile_range" desc="measure of statistical dispersion"/>
+             wikipediaPage="https://en.wikipedia.org/wiki/Interquartile_range" desc="measure of statistical dispersion"/>
 <entry term="amenable" wikidataID="Q41679578"
-         wikipediaPage="https://en.wikipedia.org/wiki/Amenable" desc=""/>
+             wikipediaPage="https://en.wikipedia.org/wiki/Amenable" desc=""/>
 <entry term="fugitive" wikidataID="Q2917380"
-         wikipediaPage="https://en.wikipedia.org/wiki/Fugitive" desc="person who is fleeing from custody"/>
+             wikipediaPage="https://en.wikipedia.org/wiki/Fugitive" desc="person who is fleeing from custody"/>
 <entry term="mitigation" wikidataID="Q6881760"
-         wikipediaPage="https://en.wikipedia.org/wiki/Mitigation" desc="reduction of harm"/>
+             wikipediaPage="https://en.wikipedia.org/wiki/Mitigation" desc="reduction of harm"/>
 <entry term="deployment" wikidataID="Q439664"
-         wikipediaPage="https://en.wikipedia.org/wiki/Deployment" desc="Wikimedia disambiguation page"/>
+             wikipediaPage="https://en.wikipedia.org/wiki/Deployment" desc="Wikimedia disambiguation page"/>
 <entry term=" SDGs" name=" sustainable development goals" wikidataID="Q7649586"
-         wikipediaPage="https://en.wikipedia.org/wiki/Sustainable_Development_Goals" desc="set of United Nations-defined global development goals and climate change"/>
+             wikipediaPage="https://en.wikipedia.org/wiki/Sustainable_Development_Goals" desc="set of United Nations-defined global development goals and climate change"/>
 <entry term="prosperity" wikidataID="Q1760011"
-         wikipediaPage="https://en.wikipedia.org/wiki/Prosperity" desc="state of flourishing, thriving, good fortune or successful social status"/>
+             wikipediaPage="https://en.wikipedia.org/wiki/Prosperity" desc="state of flourishing, thriving, good fortune or successful social status"/>
 <entry term="biofuels" wikidataID="Q128991"
-         wikipediaPage="https://www.wikidata.org/wiki/Q128991" desc="uel that is produced through contemporary biological processes, as opposed to fossil fuel that was produced by prehistoric bio-geological processes"/>
+             wikipediaPage="https://www.wikidata.org/wiki/Q128991" desc="uel that is produced through contemporary biological processes, as opposed to fossil fuel that was produced by prehistoric bio-geological processes"/>
 </dictionary>
