@@ -1,0 +1,1 @@
+console.log('UserVoice widget not found.');
