@@ -1,21 +1,19 @@
 <dictionary title="Energy_system" version="0.0.5" > <desc> manually created by Mandeep 2022-11-19 </desc>
 <entry term="interquartile range" wikidataID="Q1916617"
              wikipediaPage="https://en.wikipedia.org/wiki/Interquartile_range" desc="measure of statistical dispersion"/>
-<entry term="amenable" wikidataID="Q41679578"
-             wikipediaPage="https://en.wikipedia.org/wiki/Amenable" desc=""/>
 <entry term="fugitive" wikidataID="Q2917380"
              wikipediaPage="https://en.wikipedia.org/wiki/Fugitive" desc="person who is fleeing from custody"/>
 <entry term="mitigation" wikidataID="Q6881760"
              wikipediaPage="https://en.wikipedia.org/wiki/Mitigation" desc="reduction of harm"/>
 <entry term="deployment" wikidataID="Q439664"
              wikipediaPage="https://en.wikipedia.org/wiki/Deployment" desc="Wikimedia disambiguation page"/>
-<entry term=" SDGs" name=" sustainable development goals" wikidataID="Q7649586"
+<entry term="SDGs" name="sustainable development goals" wikidataID="Q7649586"
              wikipediaPage="https://en.wikipedia.org/wiki/Sustainable_Development_Goals" desc="set of United Nations-defined global development goals and climate change"/>
 <entry term="prosperity" wikidataID="Q1760011"
              wikipediaPage="https://en.wikipedia.org/wiki/Prosperity" desc="state of flourishing, thriving, good fortune or successful social status"/>
 <entry term="biofuels" wikidataID="Q128991"
              wikipediaPage="https://www.wikidata.org/wiki/Q128991" desc="uel that is produced through contemporary biological processes, as opposed to fossil fuel that was produced by prehistoric bio-geological processes"/>
-<entry term="Viability " wikidataID="Q2521689"
+<entry term="Viability" wikidataID="Q2521689"
              wikipediaPage="https://en.wikipedia.org/wiki/Viability" desc="is the ability of a thing (a living organism, an artificial system, an idea, etc.) to maintain itself or recover its potentialities."/>
 <entry term="implementation" wikidataID="Q245962"
              wikipediaPage="https://en.wikipedia.org/wiki/Implementation" desc="realization of an application, or execution of a plan, idea, model, design, specification, standard, algorithm, or policy"/>
@@ -30,14 +28,12 @@
 <entry term="Low-carbon power" wikidataID="Q6692723"
              wikipediaPage="https://en.wikipedia.org/wiki/Low-carbon_power" desc="power produced with lower carbon dioxide emissions"/>
 <entry term="electricity power systems" wikidataID="Q2388981"
-             wikipediaPage="https://en.wikipedia.org/wiki/Electric_power_system" desc="
-             system to generate, transmit and distribute electricity"/>
+             wikipediaPage="https://en.wikipedia.org/wiki/Electric_power_system" desc="system to generate, transmit and distribute electricity"/>
 <entry term="energy crisis" wikidataID="Q1341376"
              wikipediaPage="https://en.wikipedia.org/wiki/Energy_crisis" desc="
              significant bottleneck in the supply of energy resources to an economy"/>
 <entry term="Energy Security" wikidataID="Q2700433"
-             wikipediaPage="https://en.wikipedia.org/wiki/Energy_security" desc="
-             national security considerations of energy availability"/>
+             wikipediaPage="https://en.wikipedia.org/wiki/Energy_security" desc="national security considerations of energy availability"/>
 <entry term="pollution" wikidataID="Q58734"
              wikipediaPage="https://en.wikipedia.org/wiki/Pollution" desc="introduction of contaminants into the natural environment that cause adverse change"/>
 <entry term="renewable technologies" wikidataID="Q12705"
@@ -45,8 +41,7 @@
 <entry term="Energy conservation" wikidataID="Q380170"
              wikipediaPage="https://en.wikipedia.org/wiki/Energy_conservation" desc="reducing energy consumption"/>
 <entry term="fuel-based electricity" wikidataID="Q12748"
-             wikipediaPage="https://en.wikipedia.org/wiki/Fossil_fuel" desc="
-             fuel formed by natural processes such as anaerobic decomposition of buried dead organisms"/>
+             wikipediaPage="https://en.wikipedia.org/wiki/Fossil_fuel" desc="fuel formed by natural processes such as anaerobic decomposition of buried dead organisms"/>
 <entry term="Global warming" wikidataID="Q54745709"
              wikipediaPage="" desc="increase in global average temperature"/>
 <entry term=" transformation" wikidataID="Q234757"
