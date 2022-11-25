@@ -1,0 +1,64 @@
+<dictionary title="energy_abb">
+  <entry name="VRE" term="Variable Renewable Energy" wikidataID="Q7915732"/>
+  <entry name="SDGs" dict="global dict" term="sustainable development goals">
+    <raw wikidataID="Q7649586, Q22547988, Q30252260, Q104759743, Q111643133, Q109354788, Q104858255"/>
+  </entry>
+  <entry name="TPES" term="total primary energy supply" wikidataID="Q114063046"/>
+  <entry name="TFC" term="total final energy consumption" wikidataID=""/>
+  <entry name="CSP" term="Concentrating  solar  power" wikidataID=""/>
+  <entry name="LIBs" term="lithium-ion batteries">
+    <raw wikidataID="Q106988181, Q56157763, Q57959688, Q56157653, Q59902591"/>
+  </entry>
+  <entry name="VRE" term="variable renewable electricity" wikidataID=""/>
+  <entry name="BEVs" term="battery electric vehicles" wikidataID=""/>
+  <entry name="FIT" term="feed-in-tariffs">
+    <raw wikidataID="Q5441167, Q16980581, Q5441168, Q57733427"/>
+  </entry>
+  <entry name="LPG" term="liquefied petroleum gas">
+    <raw wikidataID="Q351609, Q100538112, Q100538109, Q56738412, Q56819470, Q56819121, Q56819215"/>
+  </entry>
+  <entry name="LCOE" term="Levelized costs of electricity" wikidataID=""/>
+  <entry name="PERC" term="passivated emitter and rear cell" wikidataID=""/>
+  <entry name="OLEDs" term="organic light emitting diodes">
+    <raw wikidataID="Q35733158, Q58237246"/>
+  </entry>
+  <entry name="HTL" term="hydrothermal liquefaction">
+    <raw wikidataID="Q16878117, Q57424975, Q57424979"/>
+  </entry>
+  <entry name="EGS" term="Enhanced Geothermal Systems" wikidataID="Q57867003"/>
+  <entry name="PHS" term="Pumped Hydroelectric Storage" wikidataID=""/>
+  <entry name="CLIM" term="Classic Li Metal" wikidataID="">
+          <raw status="none"/>
+  </entry>
+  <entry name="Li S" term="Li Metal (CLIM)  Under Development Metal Sulfur" wikidataID="">
+   <raw status="none"/>
+  </entry>
+  <entry name="Na S" term="Near Commercialization  Metal Sulfur" wikidataID="">
+          <raw status="none"/>
+  </entry>
+  <entry name="LAES" term="Liquid Air Energy Storage" wikidataID=""/>
+  <entry name="TES" term="Thermal Energy Storage">
+    <raw wikidataID="Q2142963, Q58425385, Q114269725, Q97618064, Q58424913, Q57373350"/>
+  </entry>
+  <entry name="PTES" term="Pumped Thermal Energy Storage" wikidataID=""/>
+  <entry name="RFB" term="Redox  Flow  Batteries" wikidataID=""/>
+  <entry name="LOHCs" term="liquid organic hydrogen carriers">
+    <raw wikidataID="Q18624145, Q59666770, Q57076081, Q64163800"/>
+  </entry>
+  <entry name="UHVDC" term="ultra-high  voltage  direct  current" wikidataID=""/>
+  <entry name="CIDs" term="climate impact-drivers" wikidataID=""/>
+  <entry name="EAF" term="electric arc furnace">
+    <raw wikidataID="Q650993, Q26363520, Q26373817"/>
+  </entry>
+  <entry name="ATR" term="auto-thermal reforming" wikidataID=""/>
+  <entry name="SMR" term="steam  methane  reforming" wikidataID=""/>
+  <entry name="LAM" dict="global dict" term="Latin America &amp; Caribbean" wikidataID="Q74207312"/>
+  <entry name="AF" dict="global dict" term="Africa">
+    <raw wikidataID="Q15, Q181238, Q4689536, Q136898, Q383842, Q6172568, Q105082407"/>
+  </entry>
+  <entry name="DEV" dict="global dict" term="Developed Countries">
+    <raw wikidataID="Q132453, Q94321567"/>
+  </entry>
+  <entry name="APC" dict="global dict" term="and Developing Pacific" wikidataID=""/>
+  <entry name="HDI" dict="global dict" term="human development index" wikidataID="Q38994"/>
+</dictionary>
