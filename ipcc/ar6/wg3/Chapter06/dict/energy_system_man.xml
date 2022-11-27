@@ -1,7 +1,7 @@
 <dictionary title="Energy_system" version="0.0.5" > <desc> manually created by Mandeep 2022-11-19 </desc>
 <entry term="interquartile range" wikidataID="Q1916617"
              wikipediaPage="https://en.wikipedia.org/wiki/Interquartile_range" desc="measure of statistical dispersion"/>
-<entry term="fugitive" wikidataID="Q2917380"
+ <entry term="fugitive" wikidataID="Q2917380"
              wikipediaPage="https://en.wikipedia.org/wiki/Fugitive" desc="person who is fleeing from custody"/>
 <entry term="mitigation" wikidataID="Q6881760"
              wikipediaPage="https://en.wikipedia.org/wiki/Mitigation" desc="reduction of harm"/>
@@ -47,5 +47,24 @@
 <entry term=" transformation" wikidataID="Q234757"
              wikipediaPage="https://en.wikipedia.org/wiki/Transformation" desc="changing of one form to another"/>
 <entry term="Greenhouse gas emissions" wikidataID="Q112192791"
-             wikipediaPage="https://en.wikipedia.org/wiki/Greenhouse_gas_emissions" desc="Greenhouse gas emissions from human activities strengthen the greenhouse effect, causing climate change. Most is carbon dioxide from burning fossil fuels: coal, oil, and natural gas"/>
+             wikipediaPage="https://en.wikipedia.org/wiki/Greenhouse_gas_emissions" desc="Greenhouse gas emissions from human activities strengthen the greenhouse effect, causing climate change. Most is carbon dioxide from burning fossil fuels: coal, oil, and natural gas"/<entry term="APC" name="and Developing Pacific" wikidataID="" wikipediaPage=""/>
+ <entry term="HDI"  name="human development index" wikidataID="Q38994" wikipediaPage="https://en.wikipedia.org/wiki/Human_Development_Index" desc="
+composite statistic of life expectancy, education, and income indices"/><entry term="CCS" name="Carbon capture and storage" wikidataID="Q257413" wikipediaPage="https://en.wikipedia.org/wiki/CCS" desc="Carbon capture and storage, a technology used to reduce or eliminate CO 2 emissions from thermal power plants"/>
+
+ <entry term ="DACCS" name="Direct air carbon capture and storage" wikidataID="Q111902950" wikipediaPage="https://en.wikipedia.org/wiki/DACCS" desc=""/>
+
+ <entry term="IEA" name="International Energy Agency" wikidataID="Q826700" wikipediaPage="https://en.wikipedia.org/wiki/International_Energy_Agency" desc="intergovernmental organization"/>
+
+ <entry term="IPCC" name="Intergovernmental Panel on Climate Change" wikidataID="Q171183" wikipediaPage="https://en.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change" desc="scientific intergovernmental body"/>
+
+ <entry term="CSP" name="Concentrated solar power" wikidataID="Q285927" wikipediaPage="https://en.wikipedia.org/wiki/Concentrated_solar_power" desc="
+                   large-scale solar thermal system using concentrated sunlight"/>
+ <entry term="BECSS" name="Bioenergy with carbon capture and storage" wikidataID="Q2577671" wikipediaPage="https://en.wikipedia.org/wiki/Bioenergy_with_carbon_capture_and_storage" desc="removing carbon dioxide from the atmosphere by growing plants, and then putting it permanently underground"/>
+
+ <entry term="DAC" name="Direct air capture" wikidataID="Q60761394" wikipediaPage="https://en.wikipedia.org/wiki/Direct_air_capture" desc="method of carbon capture from carbon dioxide in air"/>
+
+ <entry term="CDR" name="Carbon dioxide removal" wikidataID="Q56298528" wikipediaPage="" desc="removal of atmospheric carbon dioxide"/>
+
+ <entry term="LDV" name="Light delivery vehicle" wikidataID="Q1209878" wikipediaPage="https://en.wikipedia.org/wiki/LDV" desc=""/>
+
 </dictionary>
