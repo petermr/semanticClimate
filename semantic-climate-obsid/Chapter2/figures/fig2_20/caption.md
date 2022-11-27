@@ -1,0 +1,1 @@
+![[Chapter2/figures/fig2_20/fig2_20.png]]Figure 2.20 Trends and drivers of global transport sector emissions (see caption of Figure 2.16 for details). Energy is here measured as total final energy consumption.

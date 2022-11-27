@@ -1,0 +1,4 @@
+![[fig2_12.png]]Figure 2.12 Total anthropogenic direct and indirect GHG emissions for the year 2019 (in GtCO2eq) by 4 sector and sub-sector.
+
+
+Direct emissions estimates assign emissions to the sector in which they arise (scope 1 reporting). Indirect emissions – as used here - refer to the reallocation of emissions from electricity and heat to the sector of final use (scope 2 reporting). Note that cement refers to process emissions only, as a lack of data prevents the full reallocation of indirect emissions to this sector. More comprehensive conceptualisations of indirect emissions including all products and services (scope 3 reporting) are discussed in Section 2.3 of this chapter. Emissions are converted into CO2-equivalents based on global warming potentials with a 100 year time horizon (GWP-100) from the IPCC Sixth Assessment Report. Percentages may not add up to 100 across categories due to rounding at the second significant digit.

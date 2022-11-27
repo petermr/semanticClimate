@@ -1,3 +1,0 @@
-Table 2.1 Total anthropogenic GHG emissions (GtCO2eq yr-1) 1990-2019
-
-CO2 from fossil fuel combustion and industrial processes (FFI); CO~2~ **from Land Use, Land Use Change** 28 and Forestry (LULUCF); methane (CH~4~); nitrous oxide (N~2~O); fluorinated gases (F-gases: HFCs, PFCs,** 29 **SF****6****, NF****3****). Aggregate GHG emission trends by groups of gases reported in Gt CO****2****eq converted based on** 30 **global warming potentials with a 100-year time horizon (GWP-100) from the IPCC** **Sixth Assessment** 31 **Report. Uncertainties are reported for a 90% confidence interval.**

@@ -1,0 +1,1 @@
+![[fig2_17.png]]Figure 2.17 Trends and drivers of global energy sector emissions (see caption of Figure 2.16 for details) Energy is here measured as primary energy supply.

@@ -1,0 +1,3 @@
+![[fig2_11.png]]Figure 2.11 Recent average annual GHG emissions changes of countries (left panel) versus rates of reduction in 1.5°C and 2°C mitigation scenarios 
+
+Scenario data is taken from Chapter of this report with the scenario categories defined and summarised in Table 3.2 in Chapter 3. Emissions are converted into CO2-equivalents based on global warming potentials with a 100 year time horizon (GWP-100) from the IPCC Sixth Assessment Report (Forster et al., 2021a). Circles indicate countries (left panel) or individual scenarios (right panel), the former scaled by 8 total emissions in 2019. Horizontal lines indicate the region average emissions change (left panel), or scenario category average emissions change (right panel).
