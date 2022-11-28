@@ -1,0 +1,10 @@
+<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" id="Par9">To track the impact of climate change and inequality on incidence of food insecurity, we use a panel data regression with coefficients that vary over time. To operationalise the concept of climate change, we focus on temperature anomaly, defined as the annual temperature difference, in <inline-formula id="IEq3"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M6"><mml:mrow><mml:msup><mml:mrow/><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq3.gif"/></alternatives></inline-formula>, from a mean temperature of a 30-year period between 1981-2010. We consider two dependent variables: first, the probability of moderate to severe food insecurity; and second, the probability of severe food insecurity. We examine the impact of temperature anomaly on food insecurity, controlling for sub-national HDI and drought. We use six-month Standardized Precipitation Index (SPI) as a measure of drought, this is a common indicator of agricultural drought and as such appropriate for our analysis. To account for unobserved heterogeneity, our specification also includes both location and time (year) fixed-effects.</p>

@@ -1,0 +1,809 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd"> 
+<article dtd-version="1.3" xml:lang="en" article-type="research-article"><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20190208//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-journalpublishing1.dtd?><?SourceDTD.Version 1.2?><?ConverterInfo.XSLTName jats2jats3.xsl?><?ConverterInfo.Version 1?><?covid-19-tdm?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Community Dev J</journal-id><journal-id journal-id-type="iso-abbrev">Community Dev J</journal-id><journal-id journal-id-type="publisher-id">cdj</journal-id><journal-title-group><journal-title>Community Development Journal</journal-title></journal-title-group><issn pub-type="ppub">0010-3802</issn><issn pub-type="epub">1468-2656</issn><publisher><publisher-name>Oxford University Press</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">8436391</article-id><article-id pub-id-type="doi">10.1093/cdj/bsab028</article-id><article-id pub-id-type="publisher-id">bsab028</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group><subj-group subj-group-type="category-taxonomy-collection"><subject>AcademicSubjects/SOC00010</subject></subj-group></article-categories><title-group><article-title>Community development and social work teaching and learning in a time of global
+interruption</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Lynch</surname><given-names>Deborah</given-names></name><!--d.lynch@uq.edu.au--><xref rid="cor1" ref-type="corresp"/></contrib><contrib contrib-type="author"><name><surname>Lathouras</surname><given-names>Athena</given-names></name></contrib><contrib contrib-type="author"><name><surname>Forde</surname><given-names>Catherine</given-names></name></contrib></contrib-group><author-notes><corresp id="cor1"><italic toggle="yes">Address for correspondence:</italic> Deborah Lynch, School of
+Nursing, Midwifery and Social Work, University of Queensland, St Lucia, Brisbane, Queensland
+4072, Australia; email: <email>d.lynch@uq.edu.au</email></corresp></author-notes><pub-date pub-type="epub" iso-8601-date="2021-08-03"><day>03</day><month>8</month><year>2021</year></pub-date><pub-date pub-type="pmc-release"><day>03</day><month>8</month><year>2021</year></pub-date><!--PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="epub"/>.--><elocation-id>bsab028</elocation-id><permissions><copyright-statement>&#x000a9; Oxford University Press and Community Development Journal. 2021
+All rights reserved. For permissions, please email:
+journals.permissions@oup.com</copyright-statement><copyright-year>2021</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/">https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model</ali:license_ref><license-p>This article is published and distributed under the terms of the Oxford University
+Press, Standard Journals Publication Model (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model">https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model</ext-link>)</license-p></license><license><license-p>This article is made available via the PMC Open Access Subset for unrestricted re-use and analyses in any form or by any means with acknowledgement of the original source. These permissions are granted for the duration of the COVID-19 pandemic or until permissions are revoked in writing. Upon expiration of these permissions, PMC is granted a perpetual license to make this article available via PMC and Europe PMC, consistent with existing copyright protections.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="bsab028.pdf"/><abstract><title>Abstract</title><p>In a rapidly changing and unpredictable global environment, there is new impetus to draw on
+community development approaches in the face of complex practice challenges that include the
+long-term impacts of the COVID-19 pandemic. As social work and community development educators
+in Ireland and Australia, the question becomes how can we respond in a time of major
+&#x02018;disruption&#x02019; where there are both opportunities and constraints? This paper
+settles on this pause and uncertainty to seek new approaches to prepare social work students
+for changing conditions. Long-standing questions re-surface in relation to social, economic,
+political and environmental structures and conditions that are located in a neoliberal
+framework. The paper explores challenges and opportunities facing educators and social work
+students through a core set of principles&#x02014;critical, relational and connected&#x02014;that
+underpin our community development pedagogy. Within these themes, we explore teaching practices
+which seek to create a &#x02018;Community of Learners&#x02019;, generate a process of
+collaborative critical inquiry, engage students in reflective praxis enriched by contemporary
+theory and research, and foster a deep, connected and adaptive perspective on global and local
+issues. This stimulates creativity and meets the need for critical and adaptable practitioners
+capable of practical action through this period of disruption and crises of governance, climate
+and technologies of the future.</p></abstract><counts><page-count count="21"/></counts><custom-meta-group><custom-meta><meta-name>article-lifecycle</meta-name><meta-value>PAP</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="sec1"><title>Introduction</title><p>In the contemporary socio-geopolitical environment, there is impetus to innovate and adapt
+pedagogical practices. Social work educators are seeking to empower a new generation of
+practitioners who are adaptable to changing conditions and circumstances and are critical
+thinkers, capable of practical action in disrupted times. This paper focuses on social work
+knowledge, practice and pedagogies to explore some new spaces, and on opportunities as well as
+constraints in preparing social work students for the contemporary practice context. The link
+between social justice and environmental and community sustainability is a central theme and
+connects to developments in social work education internationally (<xref rid="ref6" ref-type="bibr">Beltr&#x000e1;n, Hacker and Begun, 2016</xref>; <xref rid="ref53" ref-type="bibr">Papadopoulos, 2019</xref>; <xref rid="ref50" ref-type="bibr">Naranjo, 2020</xref>; <xref rid="ref55" ref-type="bibr">Ranta-Tyrkk&#x000f6; and N&#x000e4;rhi, 2021</xref>). We are in an
+era of geopolitics and currently in the midst of new challenges as we face the repercussions of
+a global pandemic and an impending climate emergency. Community development writers urge
+immediate action to respond to these challenges drawing on a community development approach
+(<xref rid="ref25" ref-type="bibr">Ife, 2016</xref>; <xref rid="ref30" ref-type="bibr">Kenny,
+2020</xref>; <xref rid="ref44" ref-type="bibr">Meade, 2020</xref>). Social work academics and
+educators have long argued that social workers play a crucial role in working with groups and
+communities using fundamental practice principles of community empowerment and social and
+environmental justice (<xref rid="ref18" ref-type="bibr">Forde and Lynch, 2014</xref>, <xref rid="ref19" ref-type="bibr">2015</xref>; <xref rid="ref4" ref-type="bibr">Bay,
+2020</xref>).</p><p>In the contemporary &#x02018;disrupted&#x02019; conditions, deep concerns such as crises of
+governance, a changing climate and the use of technologies come to the fore, and these are
+developing areas for practice, education and research in both social work and community
+development. As university educators who teach community development on social work programmes
+in Irish and Australian universities, we draw on these critical themes and our own pedagogical
+practices developed over many years to advance conversations about community development
+teaching and learning in the contemporary context. In this paper, we focus on principles and
+pedagogies that can enable us to attune social work education to this changing practice context.
+We examine a set of principles that underpins our community development pedagogy and demonstrate
+how we seek to generate a process of collaborative critical inquiry, engage students in
+reflective praxis enriched by contemporary theory and research, and facilitate &#x02018;going
+deeper&#x02019; on global and local issues in a connected and adaptive way. Grounding social work
+teaching and learning in values such as social justice and human rights, critical thinking and
+working collectively advances dynamic, innovative forms of practice that can respond to
+community and societal issues.</p><p>The broader context of our paper is a contemporary one: the global pandemic. While we
+acknowledge the complexity of the global, regional and local forces that underlie and propel
+significant practice challenges, our focus is to seek opportunities in this COVID-19
+&#x02018;interruption&#x02019; to prepare social work students for changing conditions and revisit
+some long-standing questions that re-surface in these times. Attuning social work education to
+current conditions begins with key themes that are emerging in contemporary international
+scholarship around a changing climate, governance (the dominant neoliberal discourse and
+authoritarian regimes/conflict and intrusions), technologies for the future, the critical
+circumstances of a global pandemic and the interconnections between these themes. This
+scholarship articulates urgent and substantial challenges facing both social work and community
+development (<xref rid="ref25" ref-type="bibr">Ife, 2016</xref>; <xref rid="ref37" ref-type="bibr">Fong <italic toggle="yes">et&#x000a0;al</italic>., 2018</xref>; <xref rid="ref30" ref-type="bibr">Kenny, 2020</xref>).</p></sec><sec id="sec2"><title>A &#x02018;perfect storm&#x02019;: 21st century social work</title><p>As we enter a new decade, social work faces a perfect storm of challenges. These wide-ranging
+issues&#x02014;socio-economic, political, cultural, environmental, educational and
+technological&#x02014;have been discussed at some length in the social work and wider literature.
+In this section, we seek to identify key aspects of these issues and discuss the social work
+response.</p><sec id="sec3"><title>Socio-economic, political, cultural and environmental challenges</title><p>Since the turn of the millennium the world has experienced a set of crises that have
+threatened social and economic stability. The <xref rid="ref63" ref-type="bibr">World Economic
+Forum (2021)</xref> lists the highest impact risks of the next decade as infectious diseases,
+climate action failure and other environmental risks; livelihood crises, debt crises; weapons
+of mass destruction and IT infrastructure breakdown. Additional and related challenges include
+growing gender and racial inequality (<xref rid="ref15" ref-type="bibr">Elliott,
+2021</xref>).</p><p>Social work writers have identified the significance of these entrenched problems for social
+work policy and practice. <xref rid="ref24" ref-type="bibr">Healy (2017)</xref> posits that
+&#x02018;the profession&#x02019;s engagement in global processes and policy dialogs&#x02026;is
+essential&#x02019; and suggests that social workers should engage both as individuals and via
+organizations such as the International Association of Schools of Social Work (IASSW), the
+International Council on Social Welfare (ICSW) and the International Federation of Social
+Workers (IFSW). <xref rid="ref39" ref-type="bibr">Maglajlic and Ioakimidis (2020</xref>, p.
+1941) stress that the &#x02018;need for social workers who are confident advocates for human
+rights and social change is becoming even more important&#x02019;.</p><p>In a provocative piece, <xref rid="ref42" ref-type="bibr">Maylea (2020)</xref> isolates a
+number of key problems to which social work has to face up. These include historical
+&#x02018;stains&#x02019; (p. 9) from social work&#x02019;s paternalistic past and a failure to
+meet &#x02018;contemporary challenges&#x02019; (p. 11), including climate change and justice,
+racism and gender inequality. Maylea calls social work &#x02018;paternalistic&#x02019; due to its
+historical involvement in racial oppression of First Nations people in Australia, New Zealand,
+the USA and Canada, and perpetuation of exclusionary treatment of these communities. He argues
+that &#x02018;by staying very still and moving very slowly&#x02019; (p. 11) social work has
+failed to make a significant contribution to addressing contemporary challenges like climate
+change and race and gender inequality. Maylea&#x02019;s ideas have provoked a spirited response
+in defence of social work (see <xref rid="ref22" ref-type="bibr">Garrett, 2021</xref>), and we
+seek to contest this framing as &#x02018;failures&#x02019; and recast them as future challenges
+for the profession.</p></sec><sec id="sec4"><title>Educational and technological challenges</title><p>In an educational context, social work authors note some adverse impacts of neoliberalism on
+social work university education in Australia and internationally. Neoliberal approaches to
+education promote individual success in an economy that rewards competition, self-interest and
+self-reliance, undermining the critical and emancipatory vision of higher education (<xref rid="ref16" ref-type="bibr">Evans, 2020</xref>). In Australia, these impacts are evident
+through the alignment of universities with the national government&#x02019;s performance-based
+funding model (<xref rid="ref59" ref-type="bibr">Tehan, 2019</xref>) and the pursuit of
+&#x02018;employability&#x02019;, &#x02018;job-ready graduates&#x02019; and &#x02018;career and
+future focused&#x02019; teaching.</p><p>Technology is playing a growing role in the social and caring professions (<xref rid="ref57" ref-type="bibr">Salman, 2018</xref>). There are emerging concerns about the
+commercialization of education and the rapid growth of a profitable &#x02018;Ed-tech&#x02019;
+industry in the COVID-19 situation due to the expeditious transition to online education (<xref rid="ref62" ref-type="bibr">Williamson <italic toggle="yes">et&#x000a0;al</italic>., 2020</xref>). These
+authors highlight the need for a stronger critique and research into &#x02018;pandemic
+pedagogy&#x02019; so that changes to teaching and learning systems can be located within
+&#x02018;the broader political economy of the COVID pandemic, its antecedents and long-term
+consequences&#x02019; (p. 108). Most notably, these changes have occurred in the context of
+pre-existing digital &#x02018;disparities&#x02019; in access, use and knowledge of information
+and communication technologies (<xref rid="ref56" ref-type="bibr">Rigney, 2017</xref>).</p><p>We now turn to examine social work&#x02019;s responses to changing conditions.</p></sec><sec id="sec5"><title>Social work responses</title><p><xref rid="ref42" ref-type="bibr">Maylea&#x02019;s (2020)</xref> assertion that social work has
+done little to address the long-standing and intractable problems that confront it and that
+&#x02018;the profession of social work has continued to focus on parochial issues of the last
+century and avoiding the reckoning demanded by this one&#x02019; (2020, p. 2) is problematic in
+two principal ways. Firstly, it fails to acknowledge long-standing radical, critical and
+eco-critical (<xref rid="ref51" ref-type="bibr">N&#x000e4;rhi and Matthies, 2016</xref>; <xref rid="ref39" ref-type="bibr">Maglajlic and Ioakimidis, 2020</xref>) perspectives in social work
+theory and practice that seek to effect social and environmental justice outcomes. Further,
+Maylea&#x02019;s statement is contradicted by the development within the last 10 years of a
+number of significant strategies that seek to position social work at the centre of responses
+to several of the key challenges facing the globe. Let us examine the evidence.</p><p>The wicked problems of growing socio-economic inequality and climate change led to the
+establishment of the UN Sustainable Development Goals (SDGs) in 2015, but also prompted a
+response from national and international social work organizations. Prior to the development of
+the SDGs, the International Association of Schools of Social Work (IASSW), the International
+Council on Social Welfare (ICSW) and the International Federation of Social Workers (IFSW) had
+already established the Global Agenda for Social Work and Social Development (2012). The Global
+Agenda, which was re-imagined in 2020, seeks to promote global social justice based on social
+work and social development values. In March 2021, the IFSW and the United Nations Research on
+Social Development agency (UNRISD) called for a new global social contract based on
+&#x02018;solidarity, social cohesion and the need to work together&#x02019; (<xref rid="ref28" ref-type="bibr">IFSW, 2021</xref>, online). Some national social work associations
+have identified concomitant sets of agendas for the profession. National responses include the
+12 &#x02018;grand challenges&#x02019; for social work developed by the American Academy of Social
+Work and Social Welfare (AASWSW) (<xref rid="ref37" ref-type="bibr">Fong
+<italic toggle="yes">et&#x000a0;al</italic>., 2018</xref>). The challenges span individual and family
+issues such as promotion of the healthy development of young people and eradication of domestic
+violence; social and community concerns such as the eradication of social isolation, ending
+homelessness and creating social responses to a changing environment; and societal challenges
+including reducing extreme economic inequality and achievement of equal opportunity and
+justice. National developments elsewhere include the launch in February 2021 of the Irish
+Association of Social Workers&#x02019; (IASW) inaugural Social Work Anti-Racism Strategic
+Plan.</p><p>The Global Agenda emphasizes the need for social work practice grounded in the values of
+social and economic equality, dignity and worth of peoples, environmental sustainability and
+strengthening human relationships (<xref rid="ref60" ref-type="bibr">Truell and Jones,
+2015</xref>). These values are both universal and holistic and underscore the need for social
+work ideas and practice that cross local and national boundaries and address issues in a global
+context. This positioning of social work at the nexus of the local and global is emphasized by
+<xref rid="ref24" ref-type="bibr">Healy (2017</xref>), <xref rid="ref22" ref-type="bibr">Garrett (2021)</xref> and <xref rid="ref36" ref-type="bibr">Lombard and Viviers (2020)</xref>
+who point out that social work needs to consider &#x02018;its local&#x02013;global obligation and
+commitment to people and the planet, towards policy advocacy, development and
+implementation&#x02019; (p. 2268).</p><p>Rather than privileging macro over micro, the Global Agenda points to the symbiosis between
+the two. Local actions can have global impact, the experiences of groups or communities in one
+part of the world can have resonance elsewhere, and many key issues exceed national borders.
+One of the impacts of this &#x02018;glocal&#x02019; perspective is the deprivileging of
+previously dominant Western ideas and the indigenization of knowledge and practices. Another is
+that to be effective social work needs to operate on a glocal basis, taking both local and
+global circumstances into account and seeking to influence policy in both spheres.</p><p>The idea of the &#x02018;connectedness&#x02019; of the local and global leads us to a
+consideration of the importance of human relationships, which are fundamental to building and
+maintaining sustainable connections. A theme common to the Global Agenda and much social work
+literature is the need to place human relationships at the centre of action. As Garrett
+expresses &#x02018;we live in an interconnected world that can only be economically and
+relationally sustained if we are collectively committed to socialist ethics and values rooted
+in interdependency, mutual caring and solidarity&#x02019; (2021, p. 15).</p><p>Developing human relationships refers to a number of activities. In the first place, it
+refers to the interpersonal relationships between workers and service users and between workers
+themselves. <xref rid="ref23" ref-type="bibr">Gillinson (2017)</xref> writes about
+&#x02018;incentivising a new balance between risk management and relational support&#x02019; (no
+page number) and advocates a focus on preventative, empathetic and creative approaches. Equally
+important is the reality that meaningful human relationships facilitate social work advocacy
+and intervention in the policy process. <xref rid="ref24" ref-type="bibr">Healy (2017)</xref>
+reminds us that social workers can &#x02018;be the bridge&#x02019; (p. 13) between the
+individuals and groups with whom they work and decision-makers. In order to occupy this bridge
+social workers need to engage with communities &#x02018;in the initial (re)claiming and
+(re)framing of problems, rather than during the later policy making stages&#x02019; (<xref rid="ref3" ref-type="bibr">Barretti, 2019</xref>, p. 39). Social workers&#x02019; engagement
+with policy-making processes needs to be built from the bottom up and not from the top down. It
+is through connecting with and understanding services users&#x02019; experiences that social
+workers can identify and sketch paths to policy engagement and influence, not through
+identifying policy as something objective, separate and &#x02018;other&#x02019;. This crucial
+aspect of practice has become apparent during the COVID-19 pandemic when evidence suggests that
+social and community workers across the globe have worked to develop systems, networks and
+supports for communities in crisis, prompting the suggestion that social work is
+&#x02018;returning to its community-based roots&#x02019; (<xref rid="ref61" ref-type="bibr">Truell, 2020</xref>, online).</p><p>Turning now to the educational context, the changing teaching and learning environment has
+led to a call to reinvigorate critical pedagogy (with its deep roots in critical theory)
+&#x02018;to counter the subordination of social work education and practice to market demands
+and public austerity&#x02019; (<xref rid="ref46" ref-type="bibr">Morley
+<italic toggle="yes">et&#x000a0;al</italic>., 2020</xref>, p. 1). As community development educators, we
+have rich, critical pedagogical traditions to draw on in shaping teaching and learning
+practices.</p></sec></sec><sec id="sec6"><title>Critical, relational and connected: Towards a community development pedagogy</title><p>A number of key themes emerge from social work&#x02019;s &#x02018;perfect storm&#x02019; and the
+contemporary debates about social work and community development. For us, the central question
+is: what can community development knowledge and ideas bring to these enduring and new
+challenges facing social work? The contemporary context grounds and advances our thinking as
+educators, and we now move to discuss a core set of principles and ideas that underpin our
+community development teaching and learning in social work programs. Firstly, we draw on the
+groundwork of theorists who articulate critical and eco-critical perspectives in contemporary
+social work theory and practice. Secondly, we recognize the importance of relational practices
+with individuals, groups and communities to build purposeful relationships for social change
+that are mutual and interdependent. Thirdly, we recognize the solidarity that emerges from the
+&#x02018;connectedness&#x02019; of the local and global.</p></sec><sec id="sec7"><title>A critical pedagogy</title><p>Internationally, there is renewed focus on critical pedagogies to &#x02018;reinvigorate social
+work education as an emancipatory practice&#x02019; (<xref rid="ref46" ref-type="bibr">Morley
+<italic toggle="yes">et&#x000a0;al</italic>., 2020</xref>, p. 1). At a meta-theoretical level, we lean
+towards a critical realist perspective because it is community orientated and encompasses a
+range of transformative theoretical approaches and practices (<xref rid="ref19" ref-type="bibr">Forde and Lynch, 2015</xref>). We argue that this perspective broadens the scope of practices
+for transformative social change. It challenges the polemic of ideology versus practice which
+supports conditions for a reflective praxis, i.e. the integration of theory, research and
+practice in social work education. It seeks to uncover oppressive structures and fully
+recognizes the role of critical thinking and purposeful actions to tackle oppression and
+activate meaningful change with groups and communities. We align with Brookfield&#x02019;s
+critical pedagogy which is located in the tradition of critical social theory. This approach
+demonstrates the clear connections between critical theorizing, analysis and critical reflection
+in teaching and learning which emphasizes human agency and underpins actions for social change
+(<xref rid="ref10" ref-type="bibr">Brookfield, 2005</xref>; see <xref rid="ref46" ref-type="bibr">Morley, 2020</xref>).</p><sec id="sec8"><title>Connecting theory, analysis and critical reflection</title><p>The role of critical reflection to deconstruct power in practice is crucial and influences
+our pedagogy. Drawing on the work of Hannah Arendt, <xref rid="ref4" ref-type="bibr">Bay&#x02019;s (2020)</xref> analysis elucidates the place of critical reflection as part of
+critical situated thinking that can be taught to students to raise their awareness of self and
+develop others&#x02019; reference points or frameworks. This is a means to identify dominant
+discourses in meaning-making, disrupt assumptions, rethink categories of
+&#x02018;identity&#x02019; and reflect on the ways power is operating (<xref rid="ref4" ref-type="bibr">Bay, 2020</xref>). Drawing on Arendt, Bay makes the point that &#x02018;no-one is
+tied to their identity in order to be included in politics; rather, political action asks us
+not &#x0201c;what&#x0201d; we are but &#x0201c;who&#x0201d; we are&#x02019; (p. 448) in
+participating and acting collectively. It is a pedagogy that promotes situated critical
+thinking and political action as a consequence. An example of this is the &#x02018;Black Lives
+Matter&#x02019; movement where people of all ethnic and racial identities join together to
+protest injustice in the wake of the police killing of George Floyd in Minnesota (<xref rid="ref17" ref-type="bibr">Fisher, 2020</xref>).</p><p>For us, this critical positioning informs the importance of creating a &#x02018;Community of
+Learners&#x02019; in the classroom where we work with students to co-construct safe and
+supported learning spaces. We draw on the idea of co-creating &#x02018;brave spaces&#x02019;
+which <xref rid="ref2" ref-type="bibr">Arao and Clemens (2013)</xref> describe as
+&#x02018;intentional places for activating curiosity, critical thinking and pursue
+&#x0201c;challenging dialogues&#x0201d; about power, oppression, privilege and justice&#x02019;
+(p. 149) within the learning environment. Our approach also seeks to empower students to
+challenge injustices such as racism and sexism in their future practices as social workers.
+Writing in the context of neoliberal policies and structures in India, <xref rid="ref64" ref-type="bibr">Yvas (2021)</xref> argues that pedagogies that reignite political analysis are
+urgently needed to respond to issues facing communities such as poverty, internal displacement
+and migration. Likewise, we seek to demonstrate how critical and intellectual engagement in the
+classroom can lead to practical actions for social change (<xref rid="ref19" ref-type="bibr">Forde and Lynch, 2015</xref>). Methodologies such as political story telling underpinned by a
+critical pedagogy offer tools for educators (see <xref rid="ref4" ref-type="bibr">Bay,
+2020</xref>; <xref rid="ref41" ref-type="bibr">Marlowe and Chubb, 2021</xref>).</p></sec><sec id="sec9"><title>Methodological tools in the classroom</title><p>Here we offer some examples of how we apply these methodologies in the classroom. For
+example, social work students in one community development course at The University of
+Queensland use political storytelling drawing on &#x02018;Poverty finds a Voice&#x02019;, which
+is a woman&#x02019;s participatory theatre project in Melbourne in Australia (<xref rid="ref32" ref-type="bibr">Landvogt, 2012</xref>). The story is about a group of women who
+perform a series of plays to an audience of bankers and policy makers about living on low
+incomes, and of &#x02018;not having enough money to live with dignity&#x02019; (p. 55). The story
+draws on Paulo <xref rid="ref20" ref-type="bibr">Freire&#x02019;s critical pedagogy
+(1972)</xref> and Augusto <xref rid="ref7" ref-type="bibr">Boal&#x02019;s Theatre of the
+Oppressed (1979)</xref> to identify and collectively analyse how change to transform
+relationships of power and oppression can occur. In a group presentation assignment, one social
+work student group brought this story to life. They engaged the class in an outdoor
+&#x02018;theatre&#x02019; experience drawing on some of their own experiences of financial
+struggle in their performance inviting class participation as &#x02018;spect-actors&#x02019; to
+engage in a critical and collaborative problem-solving process.</p><p>Another example of the use of political and cultural methodologies in learning about
+community development is demonstrated by a group of social work students who engaged in a
+walking conversation (&#x02018;Defying Boundaries Walk&#x02019;) which is the walk from Boundary
+Street in Spring Hill to Boundary Street in West End in Brisbane, Queensland that marks the
+former borders enforced by policies of exclusion towards Aboriginal Australians that existed
+until 1967. The students posed the question &#x02018;what can we do to contribute to
+reconciliation on an everyday level?&#x02019; They aimed to educate and break down barriers
+between Indigenous and non-Indigenous Australians. They walked, conversed with passers-by and
+captured key words and ideas on a communing board. Touraine&#x02019;s work on social activism
+reinforces this idea of human agency where civil society actors engage in social change
+practices which may be cultural rather than overtly political (see <xref rid="ref52" ref-type="bibr">Ottman and Noble, 2020</xref>). With a focus on climate change, social work
+students at University College Cork engaged in critical reflection by walking through their
+neighbourhoods and answering a series of pre-determined questions about what they saw there, in
+environmental, social and economic terms. In class the students shared their reflections in
+small groups and explored the implications of climate change for social work practice across
+the three domains.</p><p>We are aware of a geopolitical turn in social work education and the need for urgent
+responses to a changing climate and the adverse and ongoing devastating impacts of climate
+change on human well-being and livelihoods in countries throughout the world. These approaches
+recognize the interconnections between social work and the natural environment in definitions
+and agendas (see <xref rid="ref27" ref-type="bibr">IFSW, 2012</xref>; <xref rid="ref60" ref-type="bibr">Truell and Jones, 2015</xref>) and integrate critical awareness, knowledge and
+impetus to pursue social and environmental action into social work education. As educators, we
+are interested in current theoretical developments in social work that seek shifts at the
+ontological level and are beginning to re-shape fundamental practice understandings. These
+approaches include Heather <xref rid="ref8" ref-type="bibr">Boetto&#x02019;s transformative
+ecosocial work model (2017)</xref> and Indigenist ontologies (<xref rid="ref40" ref-type="bibr">Martin, 2008</xref>) that are characterized by understandings of the
+interdependence of humans and the natural world, and community sustainability. We define
+sustainability in a community development context as working with people at local, regional and
+global levels to reconnect, restore, repair and regenerate life-sustaining global ecosystems
+which are vital to support health, well-being, empowerment and the livelihoods of communities
+(<xref rid="ref38" ref-type="bibr">Lynch, 2020</xref>). Ecosocial approaches are beginning to
+influence social work interventions, driven by practitioner awareness and connection to the
+environment at personal and political levels (<xref rid="ref9" ref-type="bibr">Boetto
+<italic toggle="yes">et&#x000a0;al</italic>., 2020</xref>). While actions remain at individual level, this
+movement foreshadows collective responses to tackle environmental injustices at group,
+community, structural and policy levels. Aligned with this new emphasis on ecosocial work
+models and the role of social workers in environmental practices with communities, we
+incorporate practice scenarios in the classroom. For example, we discuss a scenario where a
+rural social worker engages with members of the community to explore their deep concerns about
+changes in the environment. The social worker provides support to a community group formed to
+research how the biodiversity of their region could be restored (<xref rid="ref54" ref-type="bibr">Ramsay and Boddy, 2017</xref>). Another contemporary example for use in the
+classroom is the Australian &#x02018;Buy from the Bush&#x02019; campaign which connects people
+living in urban and rural communities to support economic sustainability (<xref rid="ref11" ref-type="bibr">Buy from the Bush Queensland, 2018</xref>). In this way, we aim to pursue a
+critical pedagogy which draws on contemporary themes and instils collaborative thinking and
+deep critical inquiry as well as reflective praxis enriched by contemporary research, practice
+and theory into the social work curriculum.</p></sec></sec><sec id="sec10"><title>A relational pedagogy</title><p>Processes of collective, critical and reflective analysis can drive practical actions for
+change. We now move to explicitly recognize the importance of relational practices with
+individuals, groups and communities to build purposeful relationships for social change that are
+mutual and interdependent.</p><sec id="sec11"><title>Understandings of &#x02018;relational&#x02019;</title><p>Our understandings of &#x02018;relational&#x02019; are linked to Samkange&#x02019;s theory of
+<italic toggle="yes">Ubuntu</italic>, which informs a decolonized pedagogy that resists dominant Western
+models of education and promotes an African (political) philosophy that is relational:
+&#x02018;we become human through others&#x02019; (<xref rid="ref58" ref-type="bibr">Samkange and
+Samkange, 1980</xref>; <xref rid="ref49" ref-type="bibr">Mugumbate, 2020</xref>, p. 419).
+Notably, Ubuntu was the theme of the 2021 World Social Work Day. This idea is expressed more
+completely as &#x02018;I am because we are, and since we are, therefore I am&#x02019; (<xref rid="ref43" ref-type="bibr">Mbiti, 1969</xref>, p. 106). The philosophy places value on the
+principles of collectivity, mutual support and communalism which we seek to reflect in our
+teaching practice. We also link &#x02018;relational&#x02019; to the Indigenist ontology of
+&#x02018;relatedness&#x02019; (<xref rid="ref40" ref-type="bibr">Martin, 2008</xref>) where
+relatedness does not only refer to people but the relationship between People and Climate, or
+People and Land and includes accountability within these relationships. Of significance here is
+that all experiences are tied to relatedness, irrespective of contexts.</p><p>We cannot separate the relational and critical so we now move to explore what we term a
+&#x02018;critical-relational&#x02019; approach. The nexus between the two terms explores how we
+build purposeful, meaningful and helpful relationships with people, whilst coming from a
+&#x02018;critical&#x02019; standpoint. Through relational practices and a process of dialogue
+with groups and communities, trust, mutuality and respect is central to praxis, and oppressive
+structures and practices in society are critically examined to find more egalitarian,
+supportive and sustainable alternatives (<xref rid="ref20" ref-type="bibr">Freire, 1972</xref>;
+<xref rid="ref35" ref-type="bibr">Ledwith, 2011</xref>). A critical-relational paradigm
+insists social workers avoid doing things &#x02018;to&#x02019; community members/citizens, or
+&#x02018;for&#x02019; them such as when in a service role, but rather works &#x02018;with&#x02019;
+participants, enabling a journey of community-led support and change. In this regard, social
+work is a &#x02018;bottom-up&#x02019; practice that is led by the people with whom we are
+working.</p><p>This kind of relational approach is modelled and applied in a university context when drawing
+on community development approaches. Research reported by <xref rid="ref34" ref-type="bibr">Lathouras (2020)</xref> sought to investigate if the university context could be a site for
+developing a sense of &#x02018;community&#x02019; for international students whose well-being,
+learning outcomes and retention were being compromised by a commodified education system. Using
+Paulo <xref rid="ref20" ref-type="bibr">Freire&#x02019;s (1972)</xref> critical consciousness
+through dialogue approach, students were brought together and exposed to a social learning
+agenda that enabled them to perceive social, political and economic contradictions and
+collectively support each other to respond to the issues they were facing. The 2-year
+action-research project resulted in the creation of a peer support program (called Dialogue
+Circles) that enabled a community-oriented and inclusive co-learning environment for students
+in a cross-cultural classroom. The research demonstrated that a university perceived to be more
+like a &#x02018;community&#x02019; supports students&#x02019; academic, cultural, emotional and
+social connectedness needs and translates into positive educational outcomes.</p></sec></sec><sec id="sec12"><title>A connected pedagogy</title><p>We recognize the solidarity that emerges from in the &#x02018;connectedness&#x02019; of the
+local and global, and our pedagogy aims to foster student perspectives on local and global
+issues with an approach that is connected and adaptive. We support students to be more
+&#x02018;connected to the world&#x02019; and each other as learners and emerging professionals.
+Here, we link with existing scholarship that positions social work at the nexus of the local and
+global to expand opportunities for a connected form of practice. We seek to enable students to
+engage with civil society actors (individuals, groups, communities and organizations) and
+develop policy responses for social change across local, state, regional and international
+borders.</p><p>Our pedagogy embeds course content that makes significant connection to contemporary or
+emerging social issues or trends at local and global levels. <xref rid="ref26" ref-type="bibr">Ife (2019</xref>, p. 9) argues we are living at a time of significant change and multiple
+crises&#x02014;ecological, economic, social and political. Globalization and neoliberal ideology
+have together created a global economy that is inequitable, unsustainable and has created
+&#x0201c;obscene levels of inequality&#x0201d; (<xref rid="ref26" ref-type="bibr">Ife,
+2019</xref>, p. 9). The current Coronavirus pandemic is a new crisis facing communities and
+societies, one which is amplifying existing social inequalities (<xref rid="ref14" ref-type="bibr">Drane, Vernon and O&#x02019;Shea, 2020</xref>; <xref rid="ref30" ref-type="bibr">Kenny, 2020</xref>). Moreover, the current context for social work practice, which is
+ensconced in neoliberalism, is one that emphasizes individualism or individual achievement
+rather than the social sources of oppression which perpetuate poverty, exclusion and
+disadvantage (<xref rid="ref33" ref-type="bibr">Lathouras, 2016</xref>). As social work posits
+an aim to work for social justice at local and global levels (recognizing these
+interconnections), it therefore needs to commit to identifying and questioning harmful divisions
+of unequal power relations (<xref rid="ref48" ref-type="bibr">Morley
+<italic toggle="yes">et&#x000a0;al</italic>., 2014</xref>, pp. 2&#x02013;4).</p><p>In relation to the theme of connectedness, using technology for social good is a contemporary
+challenge. We have discussed the pre-existing digital &#x02018;disparities&#x02019; (<xref rid="ref56" ref-type="bibr">Rigney, 2017</xref>) that have resurfaced during the pandemic for
+individuals and communities. Working at the meta-level creates opportunities for social workers
+to forge new alliances, coalitions and networks for broader social change. Information and
+communication technology (ICT) such as digital media expand spaces for socio-political
+networking and collective forms of advocacy to respond to issues affecting communities locally,
+regionally and internationally (see <xref rid="ref38" ref-type="bibr">Lynch, 2020</xref>). In
+the classroom, we seek to incorporate examples of social workers undertaking advocacy across
+international borders on a range of global social issues such as child sex trafficking.</p><sec id="sec13"><title>Responding to challenges to connectedness</title><p>A contemporary challenge to the principle of connectedness is the widening social and
+economic disparities brought about by the COVID-19 pandemic (<xref rid="ref14" ref-type="bibr">Drane, Vernon and O&#x02019;Shea, 2020</xref>; <xref rid="ref30" ref-type="bibr">Kenny,
+2020</xref>; <xref rid="ref44" ref-type="bibr">Meade, 2020</xref>). Kenny notes heightened
+community development activity during the pandemic such as efforts &#x02018;to shore up social
+connectedness&#x02019; (p. 1) and renewed value placed on community collaboration and
+co-operation. However, she also expresses concerns about the immediate shift by community
+development organizations to a welfare model, that is &#x02018;as agents of a
+&#x0201c;benign&#x0201d; state&#x02019; (p. 2) and &#x02018;othering&#x02019; through fear and panic
+directed at people who may pose a threat such as refugees and people experiencing
+homelessness.</p><p>Critical thinking and practice skills can be translated into the university setting and
+foreground the theme of connectedness. For example, we use The Spiral Model of Community
+Education (<xref rid="ref5" ref-type="bibr">Bell, Gaventa and Peters, 1990</xref>) as a
+pedagogical tool to enhance small group work as a community of learners and to support
+students&#x02019; critical thinking skills. This model is used with social work students at the
+University of the Sunshine Coast to explore contemporary or emerging social issues or trends
+such as &#x02018;Working for Climate Justice&#x02019;; &#x02018;Working for First Nations
+Justice&#x02019;; and &#x02018;Working for Justice in Welfare and Bureaucratic Contexts&#x02019;.
+Contemporary documentaries or fictional movies are used as a &#x02018;code&#x02019; to stimulate
+dialogue. <xref rid="ref21" ref-type="bibr">Freirean &#x02018;codes&#x02019;, or what Paulo
+Freire called &#x02018;codification&#x02019; (1974/2005)</xref> are a way to trigger dialogue,
+supporting emancipatory knowledge development. Any stimulus can be a code&#x02014;a movie, a
+poem, a reading, a song, a painting or drawing. An example for the theme of &#x02018;Working for
+First Nations Justice&#x02019; is the 2019 documentary <italic toggle="yes">In My Blood Runs It
+Runs</italic>, directed by Maya Newell. It tells the story of an Arrernte/Garrawa boy, Dujun
+and his family and reveals the challenges Dujun faces both in his school and on the streets of
+Alice Springs. For the theme of &#x02018;Working for Justice in Welfare and Bureaucratic
+Contexts&#x02019;, the 2016 feature length movie, <italic toggle="yes">I, Daniel Blake</italic>, directed by
+Ken Loach tells the story of a 59-year-old carpenter who must fight the bureaucracy of the
+system in order to receive Employment and Support Allowance. Students learn to use The Spiral
+Model process to develop their own structural analyses about the issues dramatized or presented
+through the codes, and the deep engagement with the process aims to empower them to use this
+model with community members in their future work.</p></sec><sec id="sec14"><title>Authentic assessment processes</title><p>Our community development pedagogy employs authentic assessment processes, thus ensuring that
+students develop practical skills that they can utilize post-university. Authentic assessment
+processes ensure students connect theory and practice through presenting them with real-world
+challenges and standards of performance that professionals typically face in the field. This
+requires students to demonstrate higher-order thinking and complex problem solving (<xref rid="ref31" ref-type="bibr">Koh, 2017</xref>). For example, in the community development
+course at the University of the Sunshine Coast, students undertake a &#x02018;practice
+review&#x02019;. Students take a &#x02018;first person&#x02019; stance and write to the community
+development practitioner/s of a published case study; this helps students to critically reflect
+on practice with a theory-informed analysis. Another example is an assessment piece called a
+&#x02018;Community Development Process Plan&#x02019; where students write a plan for a piece of
+community development work they intend to undertake. Based on the community development theory
+which takes &#x02018;private concerns into public action&#x02019; (<xref rid="ref29" ref-type="bibr">Kelly and Westoby, 2018</xref>, p. 90), students identify a personal concern. This
+could be related to their local neighbourhood or community, or something about the state of the
+world in general. Using the participatory developmental method (<xref rid="ref29" ref-type="bibr">Kelly and Westoby, 2018</xref>), they demonstrate their structural analysis of the
+root causes of the situation and identify with whom they intend to build relationships for
+collective action. These analyses range from activist type actions such as neighbours banding
+together to lobby local government for better community infrastructure, to creating their own
+community infrastructure where none currently exists, such as community gardens or actions to
+clean up a creek. For other students who develop an analysis about their own sense of
+&#x02018;community&#x02019; and the impact of declining social capital, their process plan can
+simply be to connect with their neighbours for a street barbecue or other social event to start
+the process of building relationships. In many instances, student groups have followed through
+with these planned activities, supporting the practical action component of the pedagogy.</p></sec><sec id="sec15"><title>The power of story: Teaching and learning in a global pandemic</title><p>Now we draw on a recent example of critical pedagogy which sought to incorporate the
+principles of relational practice and connectedness during the COVID-19 pandemic. At the
+University of the Sunshine Coast, non-traditional social work placements in the form of online
+student units were set up to provide alternate field education placement opportunities for
+students. Simultaneously, an action-research project with the placement students as
+co-researchers was conducted to explore students&#x02019; learning experiences in student units
+and how they were developing a social work identity under the new conditions effected by
+COVID-19. A student unit is defined as a group of supervised students placed at one institution
+or organization to work collaboratively on a particular task or project. Student units provide
+students with a network of colleagues through which to engage in collective learning processes
+(<xref rid="ref1" ref-type="bibr">Anand, 2007</xref>).</p><p>The research employed a collective narrative practice theory called the Double-Story
+Testimony (<xref rid="ref12" ref-type="bibr">Denborough, 2012</xref>). Alongside the dominant
+story of struggle co-exists another story of which the participant may not be conscious (<xref rid="ref13" ref-type="bibr">Dulwich Centre, 2004</xref>). The narrative practice employs a
+purposeful and contextualized framing of questions which emphasizes one&#x02019;s subjective
+reality and assists the person to change their viewpoint about the problem or difficulties they
+have faced (<xref rid="ref13" ref-type="bibr">Dulwich Centre, 2004</xref>).</p><p>The narrative technique enabled the students to relate their own &#x02018;first story&#x02019;
+of struggle. This included themes about significant stressors during periods of lock-down, and
+general uncertainty about the virus spreading to communities across the world. More specific
+stressors included: working from home, responding to home-schooling of their children, loss of
+income due to loss of work (often in hospitality and tourism industries not allowed to operate
+during lock-down periods), switching to on-line learning for academic coursework, and increased
+caring responsibilities of older or extended family members.</p><p>The &#x02018;second story&#x02019; elicited significant stories of resistance or sustenance as
+they responded to their challenges expressed in the &#x02018;first story&#x02019;. Many lessons
+were learned about how people can cope through times of struggle and themes included the values
+that students drew from: Hope, Optimism/Positivity, Reciprocity, Gratefulness, Patience,
+Adaptability and Acceptance. Students were also drawing on critical thinking, especially as so
+much misinformation about COVID-19 was on social media and which tended to make them feel
+overwhelmed. They reported that they committed to their own self-care and chose to focus on
+activities to help sustain their physical, emotional and mental health. They also found a well
+of support through their cultural or faith communities and drew on faith traditions and other
+spiritual practices to help get them through this difficult time. Importantly, staying
+connected to close friends and extended family became vital, especially for international
+students who were unable to return home with national borders closed. Most significantly, these
+are stories of connection, cooperation, mutuality and reciprocity despite the COVID-19
+circumstances. Employing the biographical double-listening narrative process highlighted how
+powerful story telling can be when people feel respected and experts in their own lives. It
+proved its usefulness to elicit stories of resilience during a time of significant challenge,
+as well as its applicability as a qualitative research tool.</p></sec></sec><sec id="sec16"><title>Conclusion</title><p>In this paper, we draw on newly emerging as well as enduring challenges for contemporary
+social work and community development practice in Ireland, Australia and internationally.
+Dramatically altered practice conditions culminate in what we have described as a
+&#x02018;perfect storm&#x02019;. We analyse the constellation of factors that intersect to create
+unpredictable conditions and acknowledge the complex forces that underlie and propel significant
+practice challenges for future practitioners in this period of both interruption and
+disruption.</p><p>Our paper draws on critical themes (governance, a changing climate, technology and a global
+pandemic) and our own pedagogy to advance conversations about community development teaching and
+learning in the contemporary context. We revisit core principles&#x02014;critical, relational and
+connected&#x02014;that underpin our pedagogies and facilitate us to attune social work education
+to this challenging practice context. Our examples from the classroom discussed in the paper
+bring to light a critical pedagogy that engages students in analysis and reflection. However,
+this is not purely an intellectual exercise, it is a pedagogy that seeks to forge practice
+understandings and deeply consider what actions are possible in constrained times.</p><p>Building on the work of educators before us, and as reflected in this themed section on social
+work education, our pedagogy aims to reignite analysis, creativity and higher order thinking and
+learning for practical action in these contemporary conditions. Deepening analysis of the
+COVID-19 context and critical situated thinking through engaging students in research and praxis
+strengthens ideas about what is possible and opens up opportunities and avenues previously
+undiscovered. This provides new confidence, impetus and forward looking future practitioners who
+can innovate and adapt. Working collectively in the classroom opens up possibilities and
+supports the development of dynamic and innovative forms of practice alongside groups and
+communities to respond to the issues that they face in the present context.</p></sec></body><back><notes id="AN1"><p>
+<italic toggle="yes">Deborah Lynch PhD is a Senior Lecturer in Social Work at the University of Queensland,
+Australia. She teaches community development in both undergraduate and post-graduate social
+work programs and contributes to research scholarship in collaborative projects and journal
+publications in social work and community development.</italic>
+</p><p>
+<italic toggle="yes">Catherine Forde PhD is a Lecturer in Social Policy at University College Cork,
+Ireland, where she teaches community development on Community Development and Social Work
+qualifying programmes. Her current research interests include environmental education and
+practice and she has published widely in the areas of community development and social
+work.</italic>
+</p><p>
+<italic toggle="yes">Athena Lathouras PhD is a Senior Lecturer in the Social Work program at the University
+of the Sunshine Coast, Australia. She engages in community work practice and research working
+to weave the links between these spaces so one informs the other and to promote better
+teaching, research and practice in community issues.</italic>
+</p></notes><ref-list id="bib1"><title>References</title><ref id="ref1"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Anand</surname>, <given-names>J.
+C.</given-names></string-name></person-group> (<year>2007</year>) <article-title>Social work
+student units: a case study in group learning and supervision</article-title>,
+<source>Advances in Social Work and Welfare Education</source>, <volume>9</volume>
+(<issue>1</issue>), <fpage>6</fpage>&#x02013;<lpage>16</lpage>.</mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Arao</surname>, <given-names>B</given-names></string-name> and
+<string-name><surname>Clemens</surname>,
+<given-names>K.</given-names></string-name></person-group> (<year>2013</year>)
+<part-title>From safe spaces to brave spaces: a new way to frame dialogue around diversity
+and social justice</part-title>, in <person-group person-group-type="editor"><string-name><given-names>L.</given-names><surname>Landreman</surname></string-name></person-group>, ed., <source>The Art of Effective
+Facilitation: Reflections from Social Justice Educators</source>, <publisher-name>Stylus
+Publishing</publisher-name>, <publisher-loc>USA</publisher-loc>, pp.
+<fpage>135</fpage>&#x02013;<lpage>150</lpage>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://ssw.umich.edu/sites/default/files/documents/events/colc/from-safe-spaces-to-brave-spaces.pdf" ext-link-type="uri">https://ssw.umich.edu/sites/default/files/documents/events/colc/from-safe-spaces-to-brave-spaces.pdf</ext-link>.</mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Barretti</surname>, <given-names>M.
+A.</given-names></string-name></person-group> (<year>2019</year>) <article-title>Same problem,
+different policies: a framework for examining social problem constructions over
+time</article-title>, <source>Advances in Social Work</source>, <volume>19</volume>
+(<issue>1</issue>), <fpage>39</fpage>&#x02013;<lpage>61</lpage>.</mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Bay</surname>,
+<given-names>U.</given-names></string-name></person-group> (<year>2020</year>)
+<part-title>Teaching community development with Hannah Arendt. Enabling new emancipatory
+possibilities</part-title>, in <person-group person-group-type="editor"><string-name><given-names>C.</given-names><surname>Morley</surname></string-name>, <string-name><given-names>P.</given-names><surname>Ablett</surname></string-name>, <string-name><given-names>C.</given-names><surname>Noble</surname></string-name>, <string-name><given-names>S.</given-names><surname>Cowden</surname></string-name></person-group> eds, <source>The Routledge Handbook of
+Critical Pedagogies for Social Work</source>, <publisher-name>Routledge</publisher-name>,
+<publisher-loc>Australia</publisher-loc>, pp.
+<fpage>439</fpage>&#x02013;<lpage>449</lpage>.</mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="book"><person-group person-group-type="editor"><string-name><surname>Bell</surname>, <given-names>B.</given-names></string-name>,
+<string-name><surname>Gaventa</surname>, <given-names>J.</given-names></string-name>,
+<string-name><surname>Peters</surname>,
+<given-names>J.</given-names></string-name></person-group> eds (<year>1990</year>) <source>We
+Make the Road by Walking: Conversations on Education and Social Change</source>,
+<publisher-name>Myles Horton and Paulo Freire, Temple University Press</publisher-name>,
+<publisher-loc>Philadelphia</publisher-loc>.</mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Beltr&#x000e1;n</surname>,
+<given-names>R.</given-names></string-name>, <string-name><surname>Hacker</surname>,
+<given-names>A.</given-names></string-name>, <string-name><surname>Begun</surname>,
+<given-names>S.</given-names></string-name></person-group> (<year>2016</year>)
+<article-title>Environmental justice is a social justice issue: incorporating environmental
+justice into social work practice curricula</article-title>, <source>Journal of Social Work
+Education</source>, <volume>52</volume> (<issue>4</issue>),
+<fpage>493</fpage>&#x02013;<lpage>502</lpage>.</mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Boal</surname>,
+<given-names>A.</given-names></string-name></person-group> (<year>1979</year>) <source>Theatre
+of the Oppressed</source>, <publisher-name>Pluto Press</publisher-name>,
+<publisher-loc>London</publisher-loc>.</mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Boetto</surname>,
+<given-names>H.</given-names></string-name></person-group> (<year>2017</year>)
+<article-title>A transformative eco-social model: challenging modernist assumptions in social
+work</article-title>, <source>British Journal of Social Work</source>, <volume>47</volume>
+(<issue>1</issue>), <fpage>48</fpage>&#x02013;<lpage>67</lpage>.</mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Boetto</surname>, <given-names>H.</given-names></string-name>,
+<string-name><surname>Bowles</surname>, <given-names>W.</given-names></string-name>,
+<string-name><surname>N&#x000e4;rhi</surname>, <given-names>K.</given-names></string-name>,
+<string-name><surname>Powers</surname>,
+<given-names>M.</given-names></string-name></person-group> (<year>2020</year>)
+<article-title>Raising awareness of transformative ecosocial work: participatory action
+research with Australian practitioners</article-title>, <source>International Journal of
+Social Welfare</source>, <volume>29</volume>, <fpage>300</fpage>&#x02013;<lpage>309</lpage>.
+<pub-id pub-id-type="doi">10.1111/ijsw.12445</pub-id>.</mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Brookfield</surname>,
+<given-names>S.</given-names></string-name></person-group> (<year>2005</year>) <source>The
+Power of Critical Theory for Adult Learning and Teaching</source>, <publisher-name>Open
+University press</publisher-name>, <publisher-loc>Maidenhead</publisher-loc>.</mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="other"><person-group person-group-type="author"><collab>Buy
+from the Bush</collab></person-group> (<year>2018</year>) <source>Buy from the Bush
+Queensland</source>, Buy from the Bush Queensland, Queensland, Australia, <comment>accessed
+at:</comment>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.buyfromthebushqld.com.au/" ext-link-type="uri">https://www.buyfromthebushqld.com.au/</ext-link>
+<comment>(24 April 2021)</comment>.</mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Denborough</surname>,
+<given-names>D.</given-names></string-name></person-group> (<year>2012</year>)
+<article-title>A storyline of collective narrative practice: a history of ideas, social
+projects and partnerships</article-title>, <source>The International Journal of Narrative
+Therapy and Community Work</source>, <volume>1</volume>,
+<fpage>40</fpage>&#x02013;<lpage>65</lpage>.</mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal"><person-group person-group-type="author"><collab>Dulwich Centre Publications</collab></person-group> (<year>2004</year>)
+<article-title>Narrative therapy and research</article-title>, <source>The International
+Journal of Narrative Therapy and Community Work</source>, <volume>2</volume>,
+<comment>accessed at:</comment>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.dulwichcentre.com.au" ext-link-type="uri">http://www.dulwichcentre.com.au</ext-link>
+<comment>(20 April 2021)</comment>.</mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Drane</surname>, <given-names>C.</given-names></string-name>,
+<string-name><surname>Vernon</surname>, <given-names>L.</given-names></string-name>,
+<string-name><surname>O&#x02019;Shea</surname>,
+<given-names>S.</given-names></string-name></person-group> (<year>2020</year>) <source>The
+Impact of &#x02018;Learning at Home&#x02019; on the Educational Outcomes of Vulnerable Children
+in Australia During the COVID-19 Pandemic</source>, <publisher-name>National Centre for
+Student Equity in Higher Education, Curtin University</publisher-name>,
+<publisher-loc>Australia</publisher-loc>.</mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Elliott</surname>,
+<given-names>L.</given-names></string-name></person-group> (<year>2021</year>)
+&#x02018;<source>The Covid Crisis Is Doing What the 2008 Crisis Didn&#x02019;t: Ending the Old
+Economic Orthodoxies</source>&#x02019;, <publisher-name>The Guardian</publisher-name>
+<comment>8 April, accessed at:</comment>, The Covid crisis is doing what the 2008 crash
+didn&#x02019;t: ending the old economic orthodoxies | Economic policy | The Guardian (8 April
+2021).</mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Evans</surname>,
+<given-names>M.</given-names></string-name></person-group> (<year>2020</year>)
+<article-title>Navigating the neoliberal university: reflecting on teaching practice as a
+teacher-researcher-trade unionist</article-title>, <source>British Journal of Sociology of
+Education</source>, <volume>41</volume> (<issue>4</issue>),
+<fpage>574</fpage>&#x02013;<lpage>590</lpage>. <pub-id pub-id-type="doi">10.1080/01425692.2020.1748572</pub-id>.</mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Fisher</surname>,
+<given-names>D.</given-names></string-name></person-group> (<year>2020</year>) <source>The
+Diversity of the Recent Black Lives Matter Protests Is a Good Sign for Racial Equity</source>,
+<publisher-name>Brookings Institute</publisher-name>, <publisher-loc>Washington,
+DC</publisher-loc>, <comment>accessed at:</comment>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.brookings.edu/blog/how-we-rise/2020/07/08/the-diversity-of-the-recent-black-lives-matter-protests-is-a-good-sign-for-racial-equity/" ext-link-type="uri">https://www.brookings.edu/blog/how-we-rise/2020/07/08/the-diversity-of-the-recent-black-lives-matter-protests-is-a-good-sign-for-racial-equity/</ext-link>
+<comment>(18 April 2021)</comment>.</mixed-citation></ref><ref id="ref37"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name>Fong, R., Lubben, J. and Barth, R.P.</string-name></person-group>
+(<year>2018</year>) <source>Grand Challenges for Social Work and Society</source>,
+<publisher-name>Oxford Scholarship Online</publisher-name>, <comment>accessed at:</comment>
+<pub-id pub-id-type="doi">10.1093/oso/9780190858988.003.0001</pub-id>
+<comment>(1 July 2020)</comment>.</mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Forde</surname>, <given-names>C.</given-names></string-name> and
+<string-name><surname>Lynch</surname>,
+<given-names>D.</given-names></string-name></person-group> (<year>2014</year>)
+<article-title>Critical practice for challenging times: social workers&#x02019; engagement with
+community work</article-title>, <source>British Journal of Social Work</source>,
+<volume>44</volume> (<issue>8</issue>), <fpage>2078</fpage>&#x02013;<lpage>2094</lpage>.
+<pub-id pub-id-type="doi">10.1093/bjsw/bct091</pub-id>.</mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Forde</surname>, <given-names>C.</given-names></string-name> and
+<string-name><surname>Lynch</surname>,
+<given-names>D.</given-names></string-name></person-group> (<year>2015</year>) <source>Social
+Work and Community Development: A Critical Practice Perspective</source>,
+<publisher-name>Palgrave MacMillan</publisher-name>,
+<publisher-loc>London</publisher-loc>.</mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Freire</surname>,
+<given-names>P.</given-names></string-name></person-group> (<year>1972</year>)
+<source>Pedagogy of the Oppressed</source>, <publisher-name>Penguin</publisher-name>,
+<publisher-loc>London</publisher-loc>.</mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Freire</surname>,
+<given-names>P.</given-names></string-name></person-group> (<year>1974/2005</year>)
+<source>Education for Critical Consciousness</source>,
+<publisher-name>Continuum</publisher-name>, <publisher-loc>London and New
+York</publisher-loc>.</mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Garrett</surname>, <given-names>P.
+M.</given-names></string-name></person-group> (<year>2021</year>) <article-title>A world to
+win&#x02019; &#x02013; in defence of (dissenting) social work: a response to Chris
+Maylea</article-title>, <source>British Journal of Social Work</source>, <volume>51</volume>,
+<fpage>1131</fpage>&#x02013;<lpage>1149</lpage>. <pub-id pub-id-type="doi">10.1093/bjsw/bcab009</pub-id>.</mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Gillinson</surname>,
+<given-names>S.</given-names></string-name></person-group> (<year>2017</year>) <source>Why
+Relationships Are Key to Good Social Work</source>, <publisher-name>The
+Guardian</publisher-name>, <comment>Tuesday 21 March, accessed at:</comment>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.theguardian.com/social-care-network/2017/mar/21/why-relationships-are-key-to-good-social-work" ext-link-type="uri">https://www.theguardian.com/social-care-network/2017/mar/21/why-relationships-are-key-to-good-social-work</ext-link>
+<comment>(10 March 2021)</comment>.</mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Healy</surname>, <given-names>L.
+M.</given-names></string-name></person-group> (<year>2017</year>) <article-title>Situating
+social work within the post-2015 global agenda</article-title>, <source>European Journal of
+Social Work</source>, <volume>20</volume> (<issue>1</issue>),
+<fpage>5</fpage>&#x02013;<lpage>16</lpage>. <pub-id pub-id-type="doi">10.1080/13691457.2016.1168788</pub-id>.</mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Ife</surname>,
+<given-names>J.</given-names></string-name></person-group> (<year>2016</year>)
+<source>Community Development in an Uncertain World: Vision, Analysis and Practice</source>,
+<publisher-name>Cambridge University Press</publisher-name>,
+<publisher-loc>Cambridge</publisher-loc>.</mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Ife</surname>,
+<given-names>J.</given-names></string-name></person-group> (<year>2019</year>)
+<part-title>Foreword</part-title>, in <person-group person-group-type="editor"><string-name><given-names>R.</given-names><surname>Munford</surname></string-name>, <string-name><given-names>K.</given-names><surname>O&#x02019;Donoghue</surname></string-name></person-group> eds, <source>New Theories
+for Social Work Practice: Ethical Practice for Working with Individuals, Families and
+Communities</source>, <publisher-name>Jessica Kingsley Publishers</publisher-name>,
+<publisher-loc>UK</publisher-loc>, pp.
+<fpage>9</fpage>&#x02013;<lpage>13</lpage>.</mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="other"><person-group person-group-type="author"><collab>International Federation of Social Workers</collab></person-group>
+(<year>2012</year>) <source>Globalization and the Environment</source>, <comment>accessed
+at:</comment>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.ifsw.org/policies/globalization-and-the-environment/" ext-link-type="uri">http://www.ifsw.org/policies/globalization-and-the-environment/</ext-link>
+<comment>(3 April 2021).</comment></mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="book"><person-group person-group-type="author"><collab>International Federation of Social Workers</collab></person-group>
+(<year>2021</year>) <italic toggle="yes">&#x02018;</italic><source>New Social Contract Needed Says UN and
+Social Work Forum</source><italic toggle="yes">&#x02019;</italic>, <comment>18 March, accessed at:</comment>
+<publisher-name>New Social Contract Needed says UN and Social Work Forum &#x02013; International
+Federation of Social Workers</publisher-name>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://ifsw.org" ext-link-type="uri">http://ifsw.org</ext-link>
+<comment>(5 April 2021)</comment>.</mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Kelly</surname>, <given-names>A.</given-names></string-name> and
+<string-name><surname>Westoby</surname>,
+<given-names>P.</given-names></string-name></person-group> (<year>2018</year>)
+<source>Participatory Development Practice: Using Traditional and Contemporary
+Frameworks</source>, <publisher-name>Practical Action</publisher-name>,
+<publisher-loc>UK</publisher-loc>.</mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kenny</surname>,
+<given-names>S.</given-names></string-name></person-group> (<year>2020</year>)
+<article-title>Reflections. Covid-19 and community development</article-title>,
+<source>Community Development Journal</source>, <volume>55</volume> (<issue>4</issue>),
+<fpage>699</fpage>&#x02013;<lpage>703</lpage>. <pub-id pub-id-type="doi">10.1093/cdj/bsaa020</pub-id>.</mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Koh</surname>,
+<given-names>K.H.</given-names></string-name></person-group> (<year>2017</year>)
+<source>Authentic Assessment in Education</source>, <publisher-name>Oxford Research
+Encyclopedias</publisher-name>, <comment>accessed at:</comment>
+<pub-id pub-id-type="doi">10.1093/acrefoe/9780190264093.013.22</pub-id>
+<comment>(5 April 2021)</comment>.</mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Landvogt</surname>,
+<given-names>K.</given-names></string-name></person-group> (<year>2012</year>)
+<part-title>Poverty has a voice</part-title>, in <person-group person-group-type="editor"><string-name><given-names>P.</given-names><surname>Westoby</surname></string-name>, <string-name><given-names>L.</given-names><surname>Shevellar</surname></string-name></person-group> eds, <source>Learning and
+Mobilising for Community Development. A Radical Tradition of Community-Based Education and
+Training</source>, <publisher-name>Ashgate Publishing</publisher-name>,
+<publisher-loc>UK</publisher-loc>, pp.
+<fpage>55</fpage>&#x02013;<lpage>68</lpage>.</mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Lathouras</surname>,
+<given-names>A.</given-names></string-name></person-group> (<year>2016</year>)
+<article-title>A critical approach to citizen-led social work: putting the political back into
+community development practice</article-title>, <source>Social Alternatives</source>,
+<volume>35</volume> (<issue>4</issue>),
+<fpage>32</fpage>&#x02013;<lpage>36</lpage>.</mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Lathouras</surname>,
+<given-names>A.</given-names></string-name></person-group> (<year>2020</year>)
+<part-title>A critical-relational approach to community development that increases
+well-being, learning outcomes and retention of international students</part-title>, in
+<person-group person-group-type="editor"><string-name><given-names>G.</given-names><surname>Crimmins</surname></string-name></person-group> ed, <source>Strategies for
+Supporting Inclusion and Diversity in the Academy: Higher Education, Aspiration and
+Equality</source>, <publisher-name>Palgrave MacMillan</publisher-name>,
+<publisher-loc>Switzerland</publisher-loc>.</mixed-citation></ref><ref id="ref35"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Ledwith</surname>,
+<given-names>M.</given-names></string-name></person-group> (<year>2011</year>)
+<source>Community Development: A Critical Approach</source>, <edition>2nd</edition> edn,
+<publisher-name>Policy Press</publisher-name>, <publisher-loc>Bristol,
+UK</publisher-loc>.</mixed-citation></ref><ref id="ref36"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Lombard</surname>, <given-names>A.</given-names></string-name> and
+<string-name><surname>Viviers</surname>,
+<given-names>A.</given-names></string-name></person-group> (<year>2020</year>)
+<article-title>The micro&#x02013;macro nexus: rethinking the relationship between social work,
+social policy and wider policy in a changing world</article-title>, <source>British Journal of
+Social Work</source>, <volume>50</volume>, <fpage>2261</fpage>&#x02013;<lpage>2278</lpage>.
+<pub-id pub-id-type="doi">10.1093/bjsw/bcaa180</pub-id>.</mixed-citation></ref><ref id="ref38"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Lynch</surname>,
+<given-names>D.</given-names></string-name></person-group> (<year>2020</year>)
+<part-title>Community practice and social development in a global world: critical
+engagement and practical action</part-title>, in <person-group person-group-type="editor"><string-name><given-names>S.</given-names><surname>Todd</surname></string-name> and <string-name><given-names>J.</given-names><surname>Drolet</surname></string-name></person-group>, eds, <source>Community Practice and
+Social Development in Social Work</source>, <publisher-name>Springer</publisher-name>,
+<publisher-loc>Singapore</publisher-loc>, pp. <fpage>1</fpage>&#x02013;<lpage>21</lpage>,
+<pub-id pub-id-type="doi">10.1007/978-981-13-1542-8_19-1</pub-id></mixed-citation></ref><ref id="ref39"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Maglajlic</surname>, <given-names>R. A.</given-names></string-name>
+and <string-name><surname>Ioakimidis</surname>,
+<given-names>V.</given-names></string-name></person-group> (<year>2020</year>)
+<article-title>Editorial: new beginnings and enduring concerns&#x02014;inequalities, social
+justice and understanding of structural issues in social work practice, education and
+knowledge production</article-title>, <source>British Journal of Social Work</source>,
+<volume>50</volume> (<issue>7</issue>), <fpage>1937</fpage>&#x02013;<lpage>1941</lpage>.
+<pub-id pub-id-type="doi">10.1093/bjsw/bcaa197</pub-id>.</mixed-citation></ref><ref id="ref40"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Martin</surname>,
+<given-names>K.</given-names></string-name></person-group> (<year>2008</year>) <source>Please
+Knock Before you Enter. Aboriginal Regulation of Outsiders and the Implications for
+Researchers</source>, <publisher-name>Post Pressed</publisher-name>,
+<publisher-loc>Queensland</publisher-loc>.</mixed-citation></ref><ref id="ref41"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Marlowe</surname>, <given-names>J.</given-names></string-name> and
+<string-name><surname>Chubb</surname>,
+<given-names>L.</given-names></string-name></person-group> (<year>2021</year>)
+<article-title>Social media and (im)mobility: implications for community
+development</article-title>, <source>Community Development Journal</source>,
+<volume>56</volume>, <fpage>3</fpage>.</mixed-citation></ref><ref id="ref42"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Maylea</surname>,
+<given-names>C.</given-names></string-name></person-group> (<year>2020</year>)
+<article-title>The end of social work</article-title>, <source>British Journal of Social
+Work</source>, <volume>51</volume> (<issue>2</issue>),
+<fpage>772</fpage>&#x02013;<lpage>789</lpage>. <pub-id pub-id-type="doi">10.1093/bjsw/bcaa203</pub-id>.</mixed-citation></ref><ref id="ref43"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Mbiti</surname>,
+<given-names>J.</given-names></string-name></person-group> (<year>1969</year>) <source>African
+Religions and Philosophy</source>, <publisher-name>Heinemann</publisher-name>,
+<publisher-loc>London</publisher-loc>.</mixed-citation></ref><ref id="ref44"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Meade</surname>,
+<given-names>R.</given-names></string-name></person-group> (<year>2020</year>)
+<article-title>Editorial&#x02014;What is this Covid-19 crisis?</article-title>
+<source>Community Development Journal</source>, <volume>55</volume> (<issue>3</issue>),
+<fpage>379</fpage>&#x02013;<lpage>381</lpage>. <pub-id pub-id-type="doi">10.1093/cdj/bsaa013</pub-id>.</mixed-citation></ref><ref id="ref45"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Morley</surname>,
+<given-names>C.</given-names></string-name></person-group> (<year>2020</year>)
+<part-title>Stephen Brookfield&#x02019;s contribution to teaching and practicing critical
+reflection in social work</part-title>, in <person-group person-group-type="editor"><string-name><given-names>C.</given-names><surname>Morley</surname></string-name>, <string-name><given-names>P.</given-names><surname>Ablett</surname></string-name>, <string-name><given-names>C.</given-names><surname>Noble</surname></string-name>, <string-name><given-names>S.</given-names><surname>Cowden</surname></string-name></person-group> eds, <source>The Routledge Handbook of
+Critical Pedagogies for Social Work</source>, <publisher-name>Routledge</publisher-name>,
+<publisher-loc>Australia</publisher-loc>, pp.
+<fpage>523</fpage>&#x02013;<lpage>535</lpage>.</mixed-citation></ref><ref id="ref46"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Morley</surname>, <given-names>C.</given-names></string-name>,
+<string-name><surname>Ablett</surname>, <given-names>P.</given-names></string-name>,
+<string-name><surname>Noble</surname>,
+<given-names>C.</given-names></string-name></person-group> (<year>2020</year>)
+<part-title>Introduction. The imperative of critical pedagogies for social
+work</part-title>, in <person-group person-group-type="editor"><string-name><given-names>C.</given-names><surname>Morley</surname></string-name>, <string-name><given-names>P.</given-names><surname>Ablett</surname></string-name>, <string-name><given-names>C.</given-names><surname>Noble</surname></string-name>, <string-name><given-names>S.</given-names><surname>Cowden</surname></string-name></person-group> eds, <source>The Routledge Handbook of
+Critical Pedagogies for Social Work</source>, <publisher-name>Routledge</publisher-name>,
+<publisher-loc>Australia</publisher-loc>, pp.
+<fpage>1</fpage>&#x02013;<lpage>15</lpage>.</mixed-citation></ref><ref id="ref48"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Morley</surname>, <given-names>C.</given-names></string-name>,
+<string-name><surname>Macfarlane</surname>, <given-names>S.</given-names></string-name>,
+<string-name><surname>Ablett</surname>,
+<given-names>P.</given-names></string-name></person-group> (<year>2014</year>)
+<source>Engaging with Social Work: A Critical Introduction</source>, <publisher-name>Cambridge
+University Press</publisher-name>, <publisher-loc>Port
+Melbourne</publisher-loc>.</mixed-citation></ref><ref id="ref49"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Mugumbate</surname>,
+<given-names>J.</given-names></string-name></person-group> (<year>2020</year>)
+<part-title>Samkange&#x02019;s theory of <italic toggle="yes">Ubuntu</italic> and its contribution to a
+decolonised social work pedagogy</part-title>, in <person-group person-group-type="editor"><string-name><given-names>C.</given-names><surname>Morley</surname></string-name>, <string-name><given-names>P.</given-names><surname>Ablett</surname></string-name>, <string-name><given-names>C.</given-names><surname>Noble</surname></string-name>, <string-name><given-names>S.</given-names><surname>Cowden</surname></string-name></person-group> eds, <source>The Routledge Handbook of
+Critical Pedagogies for Social Work</source>, <publisher-name>Routledge</publisher-name>,
+<publisher-loc>Australia</publisher-loc>, pp.
+<fpage>412</fpage>&#x02013;<lpage>423</lpage>.</mixed-citation></ref><ref id="ref50"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Naranjo</surname>,
+<given-names>N.</given-names></string-name></person-group> (<year>2020</year>)
+<article-title>Environmental issues and social work education</article-title>, <source>The
+British Journal of Social Work</source>, <volume>50</volume> (<issue>2</issue>),
+<fpage>447</fpage>&#x02013;<lpage>463</lpage>. <pub-id pub-id-type="doi">10.1093/bjsw/bcz168</pub-id>.</mixed-citation></ref><ref id="ref51"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>N&#x000e4;rhi</surname>, <given-names>K.</given-names></string-name>
+and <string-name><surname>Matthies</surname>,
+<given-names>A.</given-names></string-name></person-group> (<year>2016</year>)
+<part-title>Conceptual and historical analysis of ecological social work</part-title>,
+in <person-group person-group-type="editor"><string-name><given-names>J.</given-names><surname>McKinnon</surname></string-name>, <string-name><given-names>M.</given-names><surname>Alston</surname></string-name></person-group> eds, <source>Ecological Social Work:
+Toward Sustainability</source>, <publisher-name>Palgrave Macmillan</publisher-name>,
+<publisher-loc>London</publisher-loc>, pp.
+<fpage>21</fpage>&#x02013;<lpage>38</lpage>.</mixed-citation></ref><ref id="ref52"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Ottman</surname>, <given-names>G.</given-names></string-name> and
+<string-name><surname>Noble</surname>,
+<given-names>C.</given-names></string-name></person-group> (<year>2020</year>)
+<part-title>The politics of collective action</part-title>, in <person-group person-group-type="editor"><string-name><given-names>C.</given-names><surname>Morley</surname></string-name>, <string-name><given-names>P.</given-names><surname>Ablett</surname></string-name>, <string-name><given-names>C.</given-names><surname>Noble</surname></string-name>, <string-name><given-names>S.</given-names><surname>Cowden</surname></string-name></person-group> eds, <source>The Routledge Handbook of
+Critical Pedagogies for Social Work</source>, <publisher-name>Routledge</publisher-name>,
+<publisher-loc>Australia</publisher-loc>, pp.
+<fpage>465</fpage>&#x02013;<lpage>475</lpage>.</mixed-citation></ref><ref id="ref53"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Papadopoulos</surname>,
+<given-names>A.</given-names></string-name></person-group> (<year>2019</year>)
+<article-title>Integrating the natural environment in social work education: sustainability
+and scenario-based learning</article-title>, <source>Australian Social Work</source>,
+<volume>72</volume> (<issue>2</issue>), <fpage>233</fpage>&#x02013;<lpage>241</lpage>. <pub-id pub-id-type="doi">10.1080/0312407X.2018.1542012</pub-id>.</mixed-citation></ref><ref id="ref54"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ramsay</surname>, <given-names>S.</given-names></string-name> and
+<string-name><surname>Boddy</surname>,
+<given-names>J.</given-names></string-name></person-group> (<year>2017</year>)
+<article-title>Environmental social work: a concept analysis</article-title>, <source>British
+Journal of Social Work</source>, <volume>41</volume> (<issue>1</issue>),
+<fpage>68</fpage>&#x02013;<lpage>86</lpage>. <pub-id pub-id-type="doi">10.1093/bjsw/bcw078</pub-id>.</mixed-citation></ref><ref id="ref55"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ranta-Tyrkk&#x000f6;</surname>,
+<given-names>S.</given-names></string-name> and <string-name><surname>N&#x000e4;rhi</surname>,
+<given-names>K.</given-names></string-name></person-group> (<year>2021</year>)
+<article-title>Striving to strengthen the ecosocial framework in social work in
+Finland</article-title>, <source>Community Development Journal</source>, <volume>56</volume>,
+<fpage>4</fpage>.</mixed-citation></ref><ref id="ref56"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Rigney</surname>,
+<given-names>L.</given-names></string-name></person-group> (<year>2017</year>)
+<part-title>Aboriginal community development and digital inclusion: hope, haves and
+have-nots</part-title>, in <person-group person-group-type="editor"><string-name><given-names>C.</given-names><surname>Kickett-Tucker</surname></string-name>, <string-name><given-names>D.</given-names><surname>Bessarab</surname></string-name>, <string-name><given-names>J.</given-names><surname>Coffin</surname></string-name>, <string-name><given-names>M.</given-names><surname>Wright</surname></string-name></person-group> eds, <source>Mia Mia Aboriginal
+Community Development: Fostering Cultural Security</source>, <publisher-name>Cambridge
+University Press</publisher-name>, <publisher-loc>Cambridge</publisher-loc>, pp.
+<fpage>186</fpage>&#x02013;<lpage>196</lpage>.</mixed-citation></ref><ref id="ref57"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Salman</surname>,
+<given-names>S.</given-names></string-name></person-group> (<year>2018</year>) <source>The
+Rise of Technology in Care: How Will it Affect Workers?</source>
+<publisher-name>The Guardian</publisher-name>
+<comment>4 December, accessed at:</comment>, <comment>The rise of technology in care: how will
+it affect workers? | Social care careers and training | The Guardian (25 April
+2021)</comment>.</mixed-citation></ref><ref id="ref58"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Samkange</surname>, <given-names>S.</given-names></string-name> and
+<string-name><surname>Samkange</surname>,
+<given-names>T.</given-names></string-name></person-group> (<year>1980</year>)
+<source>Hunhuism or Ubuntuism: A Zimbabwean Indigenous Political Philosophy</source>,
+<publisher-name>Graham Publishing</publisher-name>,
+<publisher-loc>Salisbury</publisher-loc>.</mixed-citation></ref><ref id="ref59"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Tehan</surname>,
+<given-names>D.</given-names></string-name></person-group> (<year>2019</year>)
+<source>&#x02018;The Future of Australian Universities Focuses on Achievement&#x02019;, Media
+Release</source>, <comment>2 October 2019</comment>, <publisher-name>The Honourable Dan Tehan
+MP, Minister for Education, Ministers&#x02019; Media Centre, Department of Education, Skills
+and Employment</publisher-name>, <comment>accessed at:</comment>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://ministers.dese.gov.au/tehan/future-australian-universities-focuses-achievement" ext-link-type="uri">https://ministers.dese.gov.au/tehan/future-australian-universities-focuses-achievement</ext-link>
+<comment>(10 April 2021).</comment></mixed-citation></ref><ref id="ref60"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Truell</surname>, <given-names>R.</given-names></string-name> and
+<string-name><surname>Jones</surname>, <given-names>D.
+N.</given-names></string-name></person-group> (<year>2015</year>) <source>Global Agenda for
+Social Work and Social Development, Encyclopedia of Social Work</source>,
+<publisher-name>Global Agenda for Social Work and Social Development | Encyclopedia of Social
+Work, accessed at: oxfordre.com</publisher-name>, <comment>(11 March
+2021)</comment>.</mixed-citation></ref><ref id="ref61"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Truell</surname>,
+<given-names>R.</given-names></string-name></person-group> (<year>2020</year>) <source>Back to
+Basics: How Social Workers Returned to their Roots During Covid</source>, <publisher-name>The
+Guardian</publisher-name>
+<comment>16 December, accessed at:</comment>, <comment>Back to basics: how social workers
+returned to their roots during Covid | Social care | The Guardian (21 March
+2021)</comment>.</mixed-citation></ref><ref id="ref62"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Williamson</surname>, <given-names>B.</given-names></string-name>,
+<string-name><surname>Eynon</surname>, <given-names>R.</given-names></string-name>,
+<string-name><surname>Potter</surname>,
+<given-names>P.</given-names></string-name></person-group> (<year>2020</year>)
+<article-title>Pandemic politics, pedagogies and practices: digital technologies and distance
+education during the coronavirus emergency</article-title>, <source>Learning, Media and
+Technology</source>, <volume>45</volume> (<issue>2</issue>),
+<fpage>107</fpage>&#x02013;<lpage>114</lpage>. <pub-id pub-id-type="doi">10.1080/17439884.2020.1761641</pub-id>.</mixed-citation></ref><ref id="ref63"><mixed-citation publication-type="book"><person-group person-group-type="author"><collab>World
+Economic Forum</collab></person-group> (<year>2021</year>) <source>The Global Risks Report
+2021</source>, <edition>16th</edition> edn, <publisher-name>World Economic
+Forum</publisher-name>, <publisher-loc>Geneva</publisher-loc>, <comment>accessed
+at:</comment>, <comment>WEF_The_Global_Risks_Report_2021.pdf (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://weforum.org" ext-link-type="uri">weforum.org</ext-link>) (8 April 2021)</comment>.</mixed-citation></ref><ref id="ref64"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Yvas</surname>,
+<given-names>M.</given-names></string-name></person-group> (<year>2021</year>)
+<article-title>An orderly curriculum for a messy field? Classroom-field tensions in community
+organisation in India</article-title>, <source>Community Development Journal</source>,
+<volume>56</volume>, <fpage>4</fpage>.</mixed-citation></ref></ref-list></back></article>

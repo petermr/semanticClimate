@@ -1,0 +1,10 @@
+<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" id="Par14">This can give the accumulations of the event and the consequences by the data calculation as the logical simulations. Using this accumulation property, the stock algorithm can be written as (Barlas, <xref ref-type="bibr" rid="CR2">2009</xref>),<disp-formula id="Equ6"><label>6</label><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$EVENT FLOW (k + 1) = EVENT FLOW (k) +\sum (INPUT - OUTPUT)$$\end{document}</tex-math><mml:math id="M12" display="block"><mml:mrow><mml:mi>E</mml:mi><mml:mi>V</mml:mi><mml:mi>E</mml:mi><mml:mi>N</mml:mi><mml:mi>T</mml:mi><mml:mi>F</mml:mi><mml:mi>L</mml:mi><mml:mi>O</mml:mi><mml:mi>W</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>k</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mi>E</mml:mi><mml:mi>V</mml:mi><mml:mi>E</mml:mi><mml:mi>N</mml:mi><mml:mi>T</mml:mi><mml:mi>F</mml:mi><mml:mi>L</mml:mi><mml:mi>O</mml:mi><mml:mi>W</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>k</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:mo>&#8721;</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:mi>I</mml:mi><mml:mi>N</mml:mi><mml:mi>P</mml:mi><mml:mi>U</mml:mi><mml:mi>T</mml:mi><mml:mo>-</mml:mo><mml:mi>O</mml:mi><mml:mi>U</mml:mi><mml:mi>T</mml:mi><mml:mi>P</mml:mi><mml:mi>U</mml:mi><mml:mi>T</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><graphic xlink:href="10668_2022_2551_Article_Equ6.gif" position="anchor"/></alternatives></disp-formula></p>

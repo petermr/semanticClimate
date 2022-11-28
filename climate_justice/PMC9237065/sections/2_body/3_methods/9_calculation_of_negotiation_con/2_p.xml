@@ -1,0 +1,37 @@
+<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" id="Par86">As shown below, the goal is to minimize the total (over all countries) squared percentage difference between an individual country maximum preference and the interpretation which results due to a common weighting of the three cornerstones.<disp-formula id="Equ16"><label>16</label><alternatives><tex-math id="M79">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\mbox{minimize}}}}\mathop{\sum}\limits_{j=1}^{J}\left({\frac{{a}_{j}^{\max}\,-\,{a}_{j}\left(h,c,q\right)}{{a}_{j}^{\max }}}\right)^{2}$$\end{document}</tex-math><mml:math id="M80"><mml:mstyle><mml:mtext>minimize</mml:mtext></mml:mstyle><mml:munderover accent="false" accentunder="false"><mml:mrow><mml:mo>&#8721;</mml:mo></mml:mrow><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:munderover><mml:msup><mml:mrow><mml:mfenced close=")" open="("><mml:mrow><mml:mfrac><mml:mrow><mml:msubsup><mml:mrow><mml:mi>a</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow><mml:mrow><mml:mi>max</mml:mi></mml:mrow></mml:msubsup><mml:mspace width="0.25em"/><mml:mo>&#8722;</mml:mo><mml:mspace width="0.25em"/><mml:msub><mml:mrow><mml:mi>a</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mfenced close=")" open="("><mml:mrow><mml:mi>h</mml:mi><mml:mo>,</mml:mo><mml:mi>c</mml:mi><mml:mo>,</mml:mo><mml:mi>q</mml:mi></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:msubsup><mml:mrow><mml:mi>a</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow><mml:mrow><mml:mi>max</mml:mi></mml:mrow></mml:msubsup></mml:mrow></mml:mfrac></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:math><graphic xlink:href="41467_2022_31204_Article_Equ16.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equc"><alternatives><tex-math id="M81">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{\rm{subject}}}}}}\,{{{{{\rm{to}}}}}}\,h+c+q=1$$\end{document}</tex-math><mml:math id="M82"><mml:mi mathvariant="normal">subject</mml:mi><mml:mspace width="0.25em"/><mml:mi mathvariant="normal">to</mml:mi><mml:mspace width="0.25em"/><mml:mi>h</mml:mi><mml:mo>+</mml:mo><mml:mi>c</mml:mi><mml:mo>+</mml:mo><mml:mi>q</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:math><graphic xlink:href="41467_2022_31204_Article_Equc.gif" position="anchor"/></alternatives></disp-formula>where <inline-formula id="IEq25"><alternatives><tex-math id="M83">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${a}_{j}^{\max}$$\end{document}</tex-math><mml:math id="M84"><mml:msubsup><mml:mrow><mml:mi>a</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow><mml:mrow><mml:mi>max</mml:mi></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="41467_2022_31204_Article_IEq25.gif"/></alternatives></inline-formula> are the maximum per capita country emissions allowances given across all possible interpretations under consideration for <italic>j</italic> = 1<italic>,&#8230;,J</italic> for all <italic>J</italic> EU countries (or the allowances according to the EU Effort Sharing Regulation of 2018, respectively), and <inline-formula id="IEq26"><alternatives><tex-math id="M85">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${a}_{j}\left(h,c,q\right)$$\end{document}</tex-math><mml:math id="M86"><mml:msub><mml:mrow><mml:mi>a</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mfenced close=")" open="("><mml:mrow><mml:mi>h</mml:mi><mml:mo>,</mml:mo><mml:mi>c</mml:mi><mml:mo>,</mml:mo><mml:mi>q</mml:mi></mml:mrow></mml:mfenced></mml:math><inline-graphic xlink:href="41467_2022_31204_Article_IEq26.gif"/></alternatives></inline-formula> indicates that country emissions are a function of the weights for <italic>h</italic> (historical) responsibility, <italic>c</italic> capability, and <italic>q</italic> equality weightings. Note that the three interpretation weights must add to one, i.e. the allocation is fully qualified.</p>

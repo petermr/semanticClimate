@@ -1,0 +1,28 @@
+<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" id="Par32">However, the annual lake levels suggest high autocorrelations up to lag&#8201;=&#8201;30&#160;years. The large lake autocorrelations should be expected as the lake has a large residence time (&#964;) of 114 years (Bootsma and Hecky <xref ref-type="bibr" rid="CR5">1993</xref>). This is an indication that the series violated the assumption of <italic>iid</italic> in the tests. To consider the influence of the autocorrelations on the multiple detected and identified change points, a first difference <italic>&#8710;L</italic><sub><italic>t</italic></sub> of the lake level series (<italic>L</italic><sub><italic>t</italic></sub>) was therefore used to identify the change points as follows:<disp-formula id="Equ6"><label>6</label><alternatives><tex-math id="M53">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Delta {L}_t={L}_t-{L}_{t-1}$$\end{document}</tex-math><mml:math id="M54" display="block"><mml:mi>&#8710;</mml:mi><mml:msub><mml:mi>L</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>L</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>&#8722;</mml:mo><mml:msub><mml:mi>L</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>&#8722;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:math><graphic xlink:href="10661_2020_8519_Article_Equ6.gif" position="anchor"/></alternatives></disp-formula>where <italic>L</italic><sub><italic>t</italic></sub> and <italic>L</italic><sub><italic>t</italic>&#8201;&#8722;&#8201;1</sub> are the lake levels at time t and <italic>t</italic>&#8201;&#8722;&#8201;1, respectively. The difference series (Fig. <xref rid="Fig6" ref-type="fig">6</xref>), which were <italic>iid</italic>, identified two significant change points in 1915 (detected in 1937) and 1937(detected in 1946). These two generally coincide with the period of extremely low lake levels, when the flows in the Shire River stopped. For the two time slices from 1899 to 1946 and 1947 to 2017, the <italic>F</italic> test under the null hypothesis of equal variances (<inline-formula id="IEq22"><alternatives><tex-math id="M55">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\sigma}_1^2={\sigma}_2^2$$\end{document}</tex-math><mml:math id="M56" display="inline"><mml:msubsup><mml:mi>&#963;</mml:mi><mml:mn>1</mml:mn><mml:mn>2</mml:mn></mml:msubsup><mml:mo>=</mml:mo><mml:msubsup><mml:mi>&#963;</mml:mi><mml:mn>2</mml:mn><mml:mn>2</mml:mn></mml:msubsup></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq22.gif"/></alternatives></inline-formula>) of the lake levels could not be accepted as <inline-formula id="IEq23"><alternatives><tex-math id="M57">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$F={\sigma}_1^2/{\sigma}_2^2&gt;{F}_c$$\end{document}</tex-math><mml:math id="M58" display="inline"><mml:mi>F</mml:mi><mml:mo>=</mml:mo><mml:msubsup><mml:mi>&#963;</mml:mi><mml:mn>1</mml:mn><mml:mn>2</mml:mn></mml:msubsup><mml:mo>/</mml:mo><mml:msubsup><mml:mi>&#963;</mml:mi><mml:mn>2</mml:mn><mml:mn>2</mml:mn></mml:msubsup><mml:mo>&gt;</mml:mo><mml:msub><mml:mi>F</mml:mi><mml:mi>c</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq23.gif"/></alternatives></inline-formula>, for the critical value <italic>F</italic><sub><italic>c</italic></sub>. From the foregoing, the lake levels were found to be non-stationary in both the first (mean) and second moments (variance). Therefore, the second change point detected (1946) was the basis of a decision for the study to use the period from 1958 to 2012 for the lake level extremes analysis.<fig id="Fig6"><label>Fig. 6</label><caption><p>Multiple change point detection and points from first difference lake levels during 1899 to 2017. The straight vertical line is the actual change point and the dashed line is when the change point was identified</p></caption><graphic xlink:href="10661_2020_8519_Fig6_HTML" id="MO6"/></fig></p>

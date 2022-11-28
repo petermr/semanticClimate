@@ -1,0 +1,28 @@
+<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" id="Par43">This section presents results on the effect of adding a covariate in modeling the scale parameter (<italic>&#963;</italic>) only while constraining the location parameter (<italic>&#956;</italic>). The stationary model (AMS<sub>0</sub>) served as the nested model for the LR tests in the evaluation of all five models (AMS<sub>10</sub> to AMS<sub>14</sub>). The results of the test results are shown in Table <xref rid="Tab10" ref-type="table">10</xref> whereas the actual model parameters are shown in Table <xref rid="Tab11" ref-type="table">11</xref>. Overall, the results suggest that varying <italic>&#963;</italic> while constraining the location did not result in significant improvements in the model performance of AMS<sub>0</sub> according to the AIC, BIC, and NLL values (Table <xref rid="Tab10" ref-type="table">10</xref>). It can be noted that all of these values are relatively higher than those in models for a varying location parameter. However, the model with evaporation (AMS<sub>12</sub>) as a covariate in <italic>&#963;</italic> still outperformed the other four models (AMS<sub>1</sub>, AMS<sub>2</sub>, AMS<sub>4</sub>, and AMS<sub>5</sub>), with lowest values of AIC (100.71), BIC (107.85), and NLL (46.36), and lowest value of <italic>p</italic>&#8201;=&#8201;0.028 for the LR test. It can also be noted that AMS<sub>8</sub> was the only model among the five that rejected the null hypothesis of no significant influence in the scale parameter as a covariate according to the LR test.<table-wrap id="Tab11"><label>Table 11</label><caption><p>Estimated fitted models of the scale parameter (<inline-formula id="IEq30"><alternatives><tex-math id="M71">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\sigma}$$\end{document}</tex-math><mml:math id="M72" display="inline"><mml:mover accent="true"><mml:mi>&#963;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq30.gif"/></alternatives></inline-formula>) with covariate (C)</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Model#</th><th><inline-formula id="IEq31"><alternatives><tex-math id="M73">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\mu}$$\end{document}</tex-math><mml:math id="M74" display="inline"><mml:mover accent="true"><mml:mi>&#956;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq31.gif"/></alternatives></inline-formula> (<italic>se</italic>)</th><th><inline-formula id="IEq32"><alternatives><tex-math id="M75">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\sigma}={\sigma}_0+{\sigma}_1\ast C$$\end{document}</tex-math><mml:math id="M76" display="inline"><mml:mover accent="true"><mml:mi>&#963;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:msub><mml:mi>&#963;</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>&#963;</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>&#8727;</mml:mo><mml:mi>C</mml:mi></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq32.gif"/></alternatives></inline-formula></th><th><italic>&#958;</italic> (<italic>se</italic>)</th></tr></thead><tbody><tr><td>AMS<sub>10</sub></td><td>475.21 (0.13)</td><td>0.35&#8201;+&#8201;0.87&#8201;&#8727;&#8201;<italic>P</italic></td><td>&#8722; 0.49 (0.14)</td></tr><tr><td>AMS<sub>11</sub></td><td>475.30 (0.13)</td><td>0.83&#8201;&#8722;&#8201;0.25&#8201;&#8727;&#8201;Disch</td><td>&#8722; 0.25 (0.14)</td></tr><tr><td><italic>AMS</italic><sub><italic>12</italic></sub></td><td><italic>475.48 (0.10)</italic></td><td>0.23&#8201;+&#8201;1.05&#8201;&#8727;&#8201;<italic>Evap</italic></td><td><italic>&#8722; 0.08 (0.13)</italic></td></tr><tr><td>AMS<sub>13</sub></td><td>475.25 (0.13)</td><td>0.85&#8201;&#8722;&#8201;0.22&#8201;&#8727;&#8201;IOD</td><td>&#8722; 0.31 (0.09)</td></tr><tr><td>AMS<sub>14</sub></td><td>475.32 (0.10)</td><td>0.30&#8201;+&#8201;0.78&#8201;&#8727;&#8201;SOI</td><td>&#8722; 0.20 (0.09)</td></tr></tbody></table></table-wrap></p>

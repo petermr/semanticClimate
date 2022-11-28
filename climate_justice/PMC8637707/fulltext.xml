@@ -1,0 +1,722 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article"><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d1 20130915//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-journalpublishing1.dtd?><?SourceDTD.Version 39.96?><?ConverterInfo.XSLTName jats2jats3.xsl?><?ConverterInfo.Version 1?><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">J Med Educ Curric Dev</journal-id><journal-id journal-id-type="iso-abbrev">J Med Educ Curric Dev</journal-id><journal-id journal-id-type="publisher-id">MDE</journal-id><journal-id journal-id-type="hwp">spmde</journal-id><journal-title-group><journal-title>Journal of Medical Education and Curricular Development</journal-title></journal-title-group><issn pub-type="epub">2382-1205</issn><publisher><publisher-name>SAGE Publications</publisher-name><publisher-loc>Sage UK: London, England</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">8637707</article-id><article-id pub-id-type="doi">10.1177/23821205211061019</article-id><article-id pub-id-type="publisher-id">10.1177_23821205211061019</article-id><article-categories><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>Climate Change and Human Health ECHO: Global Telementoring for Health
+Professionals</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Katzman</surname><given-names>Joanna G</given-names></name><xref rid="aff1-23821205211061019" ref-type="aff">1</xref><xref rid="corresp1-23821205211061019" ref-type="corresp"/></contrib><contrib contrib-type="author"><name><surname>Herring</surname><given-names>David</given-names></name><xref rid="aff2-23821205211061019" ref-type="aff">2</xref></contrib><contrib contrib-type="author"><name><surname>Schramm</surname><given-names>Paul</given-names></name><xref rid="aff3-23821205211061019" ref-type="aff">3</xref></contrib><contrib contrib-type="author"><name><surname>Tomedi</surname><given-names>Laura</given-names></name><xref rid="aff1-23821205211061019" ref-type="aff">1</xref></contrib><contrib contrib-type="author"><name><surname>Maury</surname><given-names>John-Michael</given-names></name><xref rid="aff4-23821205211061019" ref-type="aff">4</xref></contrib><contrib contrib-type="author"><name><surname>Kalishman</surname><given-names>Summers</given-names></name><xref rid="aff1-23821205211061019" ref-type="aff">1</xref></contrib><contrib contrib-type="author"><name><surname>Kazhe-Dominguez</surname><given-names>Briana</given-names></name><xref rid="aff1-23821205211061019" ref-type="aff">1</xref></contrib><contrib contrib-type="author"><name><surname>Liu</surname><given-names>Jinyang</given-names></name><xref rid="aff1-23821205211061019" ref-type="aff">1</xref></contrib><contrib contrib-type="author"><name><surname>Martin</surname><given-names>Chamron</given-names></name><xref rid="aff1-23821205211061019" ref-type="aff">1</xref></contrib><contrib contrib-type="author"><name><surname>Arora</surname><given-names>Sanjeev</given-names></name><xref rid="aff1-23821205211061019" ref-type="aff">1</xref></contrib></contrib-group><aff id="aff1-23821205211061019">
+<label>1</label>University of New Mexico Health Sciences Center, Albuquerque, New
+Mexico, USA</aff><aff id="aff2-23821205211061019">
+<label>2</label>National Oceanic and Atmospheric Administration, Silver Spring,
+Maryland, USA</aff><aff id="aff3-23821205211061019">
+<label>3</label>Centers for Disease Control and Prevention, Atlanta, Georgia,
+USA</aff><aff id="aff4-23821205211061019">
+<label>4</label>University of California School of Medicine, San Diego, California,
+USA</aff><author-notes><corresp id="corresp1-23821205211061019">Joanna G Katzman, Neurosurgery, University
+of New Mexico Health Sciences Center, Albuquerque, New Mexico, USA. Email:
+<email xlink:href="JKatzman@salud.unm.edu">JKatzman@salud.unm.edu</email>
+</corresp></author-notes><pub-date pub-type="epub"><day>26</day><month>11</month><year>2021</year></pub-date><pub-date pub-type="collection"><season>Jan-Dec</season><year>2021</year></pub-date><volume>8</volume><elocation-id>23821205211061019</elocation-id><history><date date-type="received"><day>16</day><month>7</month><year>2021</year></date><date date-type="accepted"><day>29</day><month>10</month><year>2021</year></date></history><permissions><copyright-statement>&#x000a9; The Author(s) 2021</copyright-statement><copyright-year>2021</copyright-year><copyright-holder content-type="sage">SAGE Publications Ltd unless otherwise noted.
+Manuscript content on this site is licensed under Creative Commons
+Licenses</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/4.0/</ali:license_ref><license-p>This article is distributed under the terms of the Creative Commons
+Attribution-NonCommercial 4.0 License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/">https://creativecommons.org/licenses/by-nc/4.0/</ext-link>) which
+permits non-commercial use, reproduction and distribution of the work
+without further permission provided the original work is attributed as
+specified on the SAGE and Open Access page (<ext-link ext-link-type="uri" xlink:href="https://us.sagepub.com/en-us/nam/open-access-at-sage">https://us.sagepub.com/en-us/nam/open-access-at-sage</ext-link>).</license-p></license></permissions><abstract><sec><title>OBJECTIVE</title><p>To increase the knowledge and communication skills of health professionals
+related to climate change and human health (CCHH).</p></sec><sec><title>METHODS</title><p>From February to April 2021, Project ECHO (Extension for Community Healthcare
+Outcomes) created an 8-week, synchronous and virtual, CCHH ECHO
+telementoring series for health professionals. Didactics, simulated cases,
+and climate change tools were used to educate the interprofessional group of
+participants.</p></sec><sec><title>RESULTS</title><p>During this CCHH ECHO pilot series, 625 unique participants represented 45 US
+states and 25 countries. The participants reported that they increased their
+knowledge, skills, and communication techniques regarding climate change and
+health.</p></sec><sec><title>CONCLUSIONS</title><p>The human health effects of climate change is an emerging field, and
+increasing knowledge and communication skills among health practitioners is
+of critical importance. The CCHH ECHO is one potential platform that may
+reach a diverse community of health professionals globally due to the
+diffusion and demonopolization of knowledge.</p></sec></abstract><kwd-group><kwd>Climate change curriculum</kwd><kwd>health professional</kwd><kwd>postlicensure education</kwd><kwd>medical education</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>typesetter</meta-name><meta-value>ts19</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>January-December 2021</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec sec-type="intro" id="section1-23821205211061019"><title>Introduction</title><p>Scientists are convinced that greenhouse gas emissions are causing our world to warm
+at an unusually rapid rate, resulting in climatic changes and extreme weather
+events.<sup><xref rid="bibr1-23821205211061019" ref-type="bibr">1</xref>,<xref rid="bibr2-23821205211061019" ref-type="bibr">2</xref></sup>
+In a recent United Nations poll of 50 countries, over 65% of one million respondents
+agreed that climate change is a global threat.<sup>
+<xref rid="bibr3-23821205211061019" ref-type="bibr">3</xref>
+</sup> Extreme heat, drought, extreme precipitation, air pollution, wildfires, and
+sea level rise are among the climate-related changes potentially affecting morbidity
+and mortality, especially for low-income residents with underlying health conditions.<sup>
+<xref rid="bibr4-23821205211061019" ref-type="bibr">4</xref>
+</sup></p><p>Health professionals are among the most trusted sources of scientific information and
+represent a critical voice to raise awareness regarding the health impacts of
+climate change.<sup><xref rid="bibr5-23821205211061019" ref-type="bibr">5</xref>,<xref rid="bibr7-23821205211061019" ref-type="bibr">7</xref></sup>
+Many medical, nursing, and public health organizations recognize climate change as a
+global health crisis and endorse the need for climate change and health
+education.<sup><xref rid="bibr8-23821205211061019" ref-type="bibr">8</xref>,<xref rid="bibr16-23821205211061019" ref-type="bibr">16</xref></sup> There are increased calls for nursing education related to
+climate change, climate justice, and climate action.<sup>
+<xref rid="bibr17-23821205211061019" ref-type="bibr">17</xref>
+</sup> Similarly, there is now deliberate development of a framework for climate
+change competencies for community and other public health workers, one of the
+largest groups of healthcare workers worldwide.<sup>
+<xref rid="bibr18-23821205211061019" ref-type="bibr">18</xref>
+</sup> In a recent survey of 2817 medical schools in 112 countries, less than 15%
+incorporated climate change and health into their curriculum.<sup>
+<xref rid="bibr19-23821205211061019" ref-type="bibr">19</xref>
+</sup></p><p>Although health professionals are interested in learning about the congruence of
+climate change and human health (CCHH), they often lack the time and resources to
+increase their knowledge and capacity to address these issues.<sup>
+<xref rid="bibr7-23821205211061019" ref-type="bibr">7</xref>
+</sup> Most receive little prelicensure training in communication skills.<sup><xref rid="bibr20-23821205211061019" ref-type="bibr">20</xref>,<xref rid="bibr21-23821205211061019" ref-type="bibr">21</xref></sup> To gain
+expertise in having difficult conversations, some health professionals have
+participated in &#x0201c;Breaking Bad News&#x0201d; trainings.<sup>
+<xref rid="bibr22-23821205211061019" ref-type="bibr">22</xref>
+</sup> However, few are trained to communicate sensitively about topics such as gun
+safety, suicide, intimate partner violence, and immunization safety, which impact
+both individual and community health.<sup>
+<xref rid="bibr23-23821205211061019" ref-type="bibr">23</xref>
+</sup> Now health professionals are strongly encouraged to communicate about
+weather-related disaster preparedness and health adaptations due to climate change
+as these topics affect the health of the individual, the community, and the future
+of the planet.<sup>
+<xref rid="bibr24-23821205211061019" ref-type="bibr">24</xref>
+</sup></p><p>Project ECHO (Extension for Community Healthcare Outcomes) is a peer-learning network
+for health professionals. In February 2021, University of New Mexico's Project ECHO
+launched a CCHH program for training postlicensure health professionals. The goals
+of the CCHH ECHO were 3-fold: to increase health professionals&#x02019; (1) knowledge, (2)
+self-efficacy, and (3) communication skills related to human health impacts of
+climate change. Evaluation of this program can help to inform effective strategies
+for preparing health professionals to understand and communicate the impacts of
+climate change.</p></sec><sec sec-type="methods" id="section2-23821205211061019"><title>Methods</title><sec id="section2A-23821205211061019"><title>The ECHO model</title><p>Project ECHO, launched in 2003, was designed to increase the capacity of health
+professionals working in rural and urban underserved areas to provide better
+care to their patients and communities where they live.<sup>
+<xref rid="bibr25-23821205211061019" ref-type="bibr">25</xref>
+</sup> ECHO is a virtual and synchronous learning program that freely shares
+up-to-date best practices using case-based learning with the goal to improve
+lives around the world. Today, the ECHO model is being used by more than 536
+partners in 48 US states and 44 countries to address urgent public health
+challenges, such as substance use disorder, chronic pain, diabetes, and autism.<sup>
+<xref rid="bibr26-23821205211061019" ref-type="bibr">26</xref>
+</sup> An estimated 461&#x02005;310 health professionals, public health experts,
+teachers, and other professionals have received training and mentorship through
+the ECHO model globally.<sup>
+<xref rid="bibr27-23821205211061019" ref-type="bibr">27</xref>
+</sup></p><p>The ECHO model is a cost-effective method for providing ongoing training and
+mentorship for frontline health professionals.<sup>
+<xref rid="bibr28-23821205211061019" ref-type="bibr">28</xref>
+</sup> In ECHO programs, interprofessional experts (the &#x0201c;hub&#x0201d;) connect with
+community-based or local members of a given workforce (the &#x0201c;spokes&#x0201d;) to learn
+from and with one another. All knowledge is demonopolized and shared at no-cost.<sup>
+<xref rid="bibr29-23821205211061019" ref-type="bibr">29</xref>
+</sup> A plethora of research has demonstrated that the ECHO Model is successful
+at bringing significant practice change to the participant health professional's
+worksite to improve patient care.<sup><xref rid="bibr30-23821205211061019" ref-type="bibr">30</xref>,<xref rid="bibr31-23821205211061019" ref-type="bibr">31</xref></sup></p></sec><sec id="section2B-23821205211061019"><title>CCHH ECHO series</title><p>The CCHH ECHO Series consisted of one cohort, meeting weekly for 75&#x02005;min, via a
+virtual and synchronous platform. The weekly sessions were open to all health
+professionals (physicians, nurses, public health professionals, community health
+workers, etc). Each session consisted of 2 brief (15-25&#x02005;min) evidence-based
+didactic lectures, including moderated question and answer sessions. In 5 of the
+sessions, a simulated case was also included to match the session's content and
+illustrate the relationship between climate change and health. Project ECHO's
+staff entered evidence-based journal articles and other pertinent information
+into the online platform chat box that the subject matter experts discussed
+during the session presentations. Participants were offered an &#x0201c;opt-in&#x0201d;
+community of practice directory at the end of the course, receiving the name and
+contact information for other participants. Course presentation slides, video
+recordings, and digital librarian resources were also made available each week
+to the participants on the Project ECHO CCHH webpage. No-cost continuing
+education units (CEU) were provided for each session. Course participants also
+received a certificate of completion if they attended 75% of the sessions (6 out
+of 8) in the series.</p></sec><sec id="section2C-23821205211061019"><title>Attendance and registration</title><p>Participants registered prior to the program via an online survey (REDCap secure
+web application) and provided demographic information (gender, age,
+race/ethnicity, location, and scope of practice). Attendance data were tracked
+using reports generated by the Zoom platform. Unique attendees were defined as
+people who attended at least once and for at least 10&#x02005;min. Registration and
+attendance data were linked together using name and email. Geographic
+information was mapped using QGIS Version 3.18.3 and natural breaks, using the
+Jenks method, were used.</p></sec><sec id="section2D-23821205211061019"><title>Zoom poll</title><p>Beginning week 4 of the CCHH ECHO, participants were polled during sessions to
+gauge their confidence and understanding. Questions were designed to assess
+participants&#x02019; self-reported knowledge change, and included: &#x0201c;Today's session
+increased my understanding of the role climate change plays in water- and
+vector-borne diseases,&#x0201d; &#x0201c;Today's session increased my confidence in my ability
+to talk to others about the mental health effects of our changing climate,&#x0201d; and
+&#x0201c;I feel more confident in discussing the human health effects of climate change
+with my patients and others.&#x0201d; Response options ranged from strongly agree to
+strongly disagree.</p></sec><sec id="section2E-23821205211061019"><title>Postsession evaluation</title><p>Following each session, participants were invited to complete a postsession
+evaluation survey, linked to the acquisition of CEUs. Questions included whether
+the objectives of the course were met, the content was evidence-based, and if
+participants were able to ask questions to the SMEs. Additionally, participants
+were asked if they are likely to use the knowledge they gained and if they felt
+they were better able to communicate after the training. Response options ranged
+from strongly agree to strongly disagree. Lastly, participants were asked (in a
+free text field) what changes they might consider making to their practice after
+the training. These responses were grouped into broad categories (eg, improve my
+health education techniques; increase my climate change education to my
+patients, etc). The 7 most common response categories are reported.</p></sec><sec id="section2F-23821205211061019"><title>Curriculum development: evidence-based didactics</title><p>The 8-week curriculum was developed by Joanna Katzman, MD, MSPH, Director of
+Public Health Initiatives, ECHO Institute, and David Herring, MA, Chief of the
+Communication and Education Division within the National Oceanic and Atmospheric
+Association's (NOAA) Climate Program Office. The Co-Chairs of the US Global
+Change Research Program's Interagency Working Group on Climate Change and Human
+Health (CCHHG) gave input and feedback on the curriculum.<sup>
+<xref rid="bibr32-23821205211061019" ref-type="bibr">32</xref>
+</sup> Learning objectives for each week were created by answering the
+questions: (1) What is the science of climate change?, (2) How does climate
+change impact human health: biopsychosocially and with vulnerable populations?,
+(3) What are the most common climate-related health risks and how are they best
+managed?, (4) What are the current best adaptation practices related to extreme
+weather events and disaster preparedness?, and (5) How can health professionals
+improve communication with their patients and communities regarding climate
+change and health?</p><p>This introductory course gave health professionals a better understanding of each
+of these subjects, while suggesting to them that to gain expertise, the
+complexity, skill, and knowledge associated with each topic will require more
+study and practice.</p></sec><sec id="section2G-23821205211061019"><title>Curriculum development</title><sec id="section2G1-23821205211061019"><title>Case-based learning using standardized patients</title><p>Using the successes of medical simulation and standardized patients, 5
+patient cases were developed as an integral part of the curriculum to both
+illustrate the importance of climate change communication and to share
+climate messaging strategies. Dr Katzman (the CCHH ECHO medical director)
+collaborated very closely with the medical simulation lead at the University
+of California, San Diego, John-Michael Maury (JMM). After Dr Katzman created
+the 5 simulated patient cases, JMM worked with 5 different professional
+actors to play the standardized patients. A mock session between one of the
+hub team members (portraying the clinician) and the actor (portraying the
+standardized patient) took place virtually the week prior to the live CCHH
+ECHO session. During the CCHH ECHO, the standardized patient/actor connected
+to the session as the ECHO patient in &#x0201c;full character.&#x0201d; The ECHO IT team
+spotlighted both the standardized patient and the clinician to fully engage
+the course participants.</p><p>Simulation has been defined as &#x0201c;a model of a set of problems that can be used
+to teach someone how to do something.&#x0201d;<sup>
+<xref rid="bibr33-23821205211061019" ref-type="bibr">33</xref>
+</sup> Most postlicensure health professionals learn optimally and develop
+self-efficacy from iterative presentations of content and case-based learning.<sup>
+<xref rid="bibr34-23821205211061019" ref-type="bibr">34</xref>
+</sup> The course participants in the CCHH ECHO benefitted from both
+didactics and cases, with ample time to ask questions. Cases were also
+developed to illustrate the diversity (people experiencing homelessness,
+rural and urban, range of ethnicities, gender and ages, etc) of patients
+seeking care for various climate related illnesses, and to model
+communication strategies that health professionals might consider when
+approaching a patient suffering from an illness provoked or worsened by the
+climate. Because the hallmark of the ECHO model is clinician to clinician
+telementoring with case-consultation, and patients are not part of the
+network, medical simulation with standardized patients comes very close to
+teaching best practices communication strategies with the Project ECHO
+platform.</p></sec></sec></sec><sec sec-type="results" id="section3-23821205211061019"><title>Results</title><sec id="section3A-23821205211061019"><title>Curriculum</title><p>To meet the learning objectives, the 8-week series began with introductory
+presentations on the science of climate change and the gaps in climate change
+education and communication in the health professions (see <xref rid="table1-23821205211061019" ref-type="table">Table 1</xref>). The second
+week connected climate change to human health outcomes, including global
+warming, extreme heat, and vulnerable populations. Weeks 3 through 7 addressed
+air quality, excessive precipitation, water- and vector-borne disease, mental
+health, extreme weather events, and disaster preparedness. Week 8 focused on the
+importance of climate communication and future solutions, including health
+professional advocacy and policy involvement. The rich contextual experience
+offered in this introductory course followed the educational principles and
+guidance provided by health and science, technology, engineering and math educators.<sup>
+<xref rid="bibr35-23821205211061019" ref-type="bibr">35</xref>
+</sup></p><table-wrap position="float" id="table1-23821205211061019"><label>Table 1.</label><caption><p>Climate change and human health ECHO-series 1 presentations and simulated
+cases.</p></caption><alternatives><graphic xlink:href="10.1177_23821205211061019-table1" position="float"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/></colgroup><thead><tr><th align="left" rowspan="1" colspan="1">Date</th><th align="left" colspan="3" rowspan="1">Topics</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Feb 17, 2021</td><td colspan="3" rowspan="1">Gaps in Climate Change Education; The Science of
+Climate Change</td></tr><tr><td rowspan="1" colspan="1">Feb 24, 2021</td><td colspan="3" rowspan="1">Connecting Climate Change and Human Health
+Outcomes</td></tr><tr><td rowspan="1" colspan="1">Mar 3, 2021</td><td colspan="3" rowspan="1">Global Warming, Extreme Heat, and Vulnerable
+Populations</td></tr><tr><td rowspan="1" colspan="1">Mar 10, 2021</td><td colspan="3" rowspan="1">Climate Change, Air Quality, and Respiratory
+Illness</td></tr><tr><td rowspan="1" colspan="1">Mar 17, 2021</td><td colspan="3" rowspan="1">Climate-driven Ecological Change and Water- and
+Vector-borne Diseases</td></tr><tr><td rowspan="1" colspan="1">Mar 24, 2021</td><td colspan="3" rowspan="1">Climate Change and Mental Health; Animal
+Agriculture, Greenhouse Gas Emissions, and the Co-benefits
+of a Plant-based Diet</td></tr><tr><td rowspan="1" colspan="1">Mar 31, 2021</td><td colspan="3" rowspan="1">Extreme Events, Impacts to Healthcare
+Facilities, and Disaster Preparedness</td></tr><tr><td rowspan="1" colspan="1">Apr 7, 2021</td><td colspan="3" rowspan="1">Climate Change Communication and Future
+Solutions</td></tr><tr><td rowspan="1" colspan="1">
+</td><td rowspan="1" colspan="1">
+<bold>Presentation</bold>
+</td><td rowspan="1" colspan="1">
+<bold>Opening questions from &#x0201c;Patients&#x0201d;</bold>
+</td><td rowspan="1" colspan="1">
+<bold>Climate communication strategies</bold>
+</td></tr><tr><td rowspan="1" colspan="1">
+<bold>Case 1- Extreme Heat</bold>
+</td><td rowspan="1" colspan="1">45&#x02005;yr old white male, mail carrier by profession brought to
+urgent care for possible heat stroke</td><td rowspan="1" colspan="1">
+<list list-type="bullet"><list-item><p>&#x0201c;What's happening to me? Am I going to be
+okay?&#x0201d;</p></list-item><list-item><p>&#x0201c;It's so hot outside. What can I do to prevent
+this from happening to me again?&#x0201d;</p></list-item></list>
+</td><td rowspan="1" colspan="1">
+<list list-type="bullet"><list-item><p>Discuss extreme heat due to climate change.</p></list-item><list-item><p>Discuss how to prearrange for hydration, frequent
+breaks, cooling stations, wide-brim hat.</p></list-item><list-item><p>Return to clinic if symptoms recur.</p></list-item></list>
+</td></tr><tr><td rowspan="1" colspan="1">
+<bold>Case 2- Urban Heat</bold>
+</td><td rowspan="1" colspan="1">34&#x02005;yr old Hispanic mother of 4 with asthma, seasonal
+allergies and fibromyalgia who lives in a large city near
+freeway intersection</td><td rowspan="1" colspan="1">
+<list list-type="bullet"><list-item><p>&#x0201c;What is happening with my breathing? It is so
+much worse lately.&#x0201d;</p><p>&#x0201c;I cannot seem to keep me or my family cool
+enough, especially in the summer months.&#x0201d;</p></list-item></list>
+</td><td rowspan="1" colspan="1">
+<list list-type="bullet"><list-item><p>Communicate the connection between climate and
+air quality and heat.</p></list-item><list-item><p>Encourage clinic visits to improve asthma and
+allergy control.</p></list-item><list-item><p>Discuss cooling strategies.</p></list-item></list>
+</td></tr><tr><td rowspan="1" colspan="1">
+<bold>Case 3- Air Pollution</bold>
+</td><td rowspan="1" colspan="1">41&#x02005;yr old African American woman, history of asthma,
+depression, anxiety, insomnia living near CA forest fire
+region</td><td rowspan="1" colspan="1">
+<list list-type="bullet"><list-item><p>&#x0201c;My breathing is worse and my stress level is
+through the roof. Can you help me?&#x0201d;</p></list-item><list-item><p>&#x0201c;How do I know if the air outside is going to be
+clear or not?&#x0201d;</p></list-item><list-item><p>&#x0201c;Why do you think my nerves and sleep are so much
+worse lately?&#x0201d;</p></list-item></list>
+</td><td rowspan="1" colspan="1">
+<list list-type="bullet"><list-item><p>Communicate the connection between climate and
+air quality</p></list-item><list-item><p>Encourage clinic visits to improve asthma</p><p>Discuss behavioral health options</p></list-item></list>
+</td></tr><tr><td rowspan="1" colspan="1">
+<bold>Case 4- Mental Health</bold>
+</td><td rowspan="1" colspan="1">45&#x02005;yr old white male firefighter with low back pain, PTSD,
+insomnia, and increased stress aggravated by teenage
+daughter's anxiety related to climate change</td><td rowspan="1" colspan="1">
+<list list-type="bullet"><list-item><p>&#x0201c;Why am I so irritable all of the time?&#x0201d;</p></list-item><list-item><p>&#x0201c;My daughter's obsessed with the fires and
+climate change. She uses the computer all-day. How
+can I help her?&#x0201d;</p></list-item></list>
+</td><td rowspan="1" colspan="1">
+<list list-type="bullet"><list-item><p>Educate patient regarding PTSD symptoms and
+encourage him to engage in self-care.</p></list-item><list-item><p>Encourage patient to engage daughter and learn
+about climate change and possible solutions.</p></list-item></list>
+</td></tr><tr><td rowspan="1" colspan="1">
+<bold>Case 5- Hurricanes</bold>
+</td><td rowspan="1" colspan="1">51 year Native American male and member of the Choctaw
+Nation, in Mississippi, with heart disease,
+insulin-dependent diabetes and low back pain recently
+experienced a local flood</td><td rowspan="1" colspan="1">
+<list list-type="bullet"><list-item><p>&#x0201c;What's going on with my stomach?&#x0201d;</p></list-item><list-item><p>&#x0201c;What can I do to better protect my family?&#x0201d;</p></list-item></list>
+</td><td rowspan="1" colspan="1">
+<list list-type="bullet"><list-item><p>Discuss extreme weather events and associated
+risks (water- and vector-borne diseases), offer
+resources to consult.</p></list-item><list-item><p>Encourage patient to create an evacuation plan in
+case of flood.</p></list-item></list>
+</td></tr></tbody></table></alternatives></table-wrap></sec><sec id="section3B-23821205211061019"><title>Demographics and attendance</title><p>During the 8-week CCHH ECHO series, there was a total of 1838 attendances with
+625 unique participants (see <xref rid="table2-23821205211061019" ref-type="table">Table 2</xref>). There was an average of 230
+nonunique and 78 unique attendees joining each session. Nearly 7% of
+participants attended all 8 sessions and a total of 41.5% of participants
+attended regularly (3-8 sessions). Four hundred fifty-two (72.3%) of these
+attendees had submitted registration information and the majority of
+participants were women. Over half the participants were white, while almost 14%
+of participants were Hispanic. Nearly half of the participants had terminal
+degrees (MD, DO, or PhD) and participants were from around the globe, with 25
+countries represented (see <xref rid="fig1-23821205211061019" ref-type="fig">Figure 1</xref>). The majority of participants hailed from 45 of the US
+states, most commonly New Mexico (95), where the program is located, along with
+Western and Northwestern states including California (21), Oregon (29),
+Washington (10) and Colorado (10); Southern states of Texas (15) and Louisiana
+(12); and Northeastern states such as Connecticut (14), Maryland (17) and
+Virginia (12). Roughly 13% (58) of participants resided in countries outside the
+United States, most commonly from Canada (13), Austria (4), Argentina (4), Peru
+(4), and Saint Kitts (4).</p><fig position="float" id="fig1-23821205211061019"><label>Figure 1.</label><caption><p>Climate change and human health ECHO attendance by United State (a) and
+country (b) among attendees with registration information, February 17,
+2021 through April 7, 2021, N&#x02009;=&#x02009;452.</p></caption><graphic xlink:href="10.1177_23821205211061019-fig1" position="float"/></fig><table-wrap position="float" id="table2-23821205211061019"><label>Table 2.</label><caption><p>Climate change and human health ECHO attendance and characteristics,
+February 17, 2021 through April 7, 2021.</p></caption><alternatives><graphic xlink:href="10.1177_23821205211061019-table2" position="float"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/></colgroup><thead><tr><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1">N (%)</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">
+<bold>
+<italic toggle="yes">Number of sessions attended among all
+participants, N&#x02009;=&#x02009;625</italic>
+</bold>
+</td><td rowspan="1" colspan="1">
+</td></tr><tr><td rowspan="1" colspan="1">3</td><td rowspan="1" colspan="1">52 (8.3)</td></tr><tr><td rowspan="1" colspan="1">4</td><td rowspan="1" colspan="1">50 (8.0)</td></tr><tr><td rowspan="1" colspan="1">5</td><td rowspan="1" colspan="1">37 (5.9)</td></tr><tr><td rowspan="1" colspan="1">6</td><td rowspan="1" colspan="1">40 (6.4)</td></tr><tr><td rowspan="1" colspan="1">7</td><td rowspan="1" colspan="1">39 (6.2)</td></tr><tr><td rowspan="1" colspan="1">8</td><td rowspan="1" colspan="1">42 (6.7)</td></tr><tr><td rowspan="1" colspan="1">
+<bold>
+<italic toggle="yes">Characteristics among participants with
+registration informations, N&#x02009;=&#x02009;452</italic>
+</bold>
+</td><td rowspan="1" colspan="1">
+</td></tr><tr><td rowspan="1" colspan="1">
+<bold>
+<italic toggle="yes">Gender</italic>
+</bold>
+</td><td rowspan="1" colspan="1">
+</td></tr><tr><td rowspan="1" colspan="1">Women</td><td rowspan="1" colspan="1">278 (61.5)</td></tr><tr><td rowspan="1" colspan="1">Men</td><td rowspan="1" colspan="1">101 (22.3)</td></tr><tr><td rowspan="1" colspan="1">Nonconforming</td><td rowspan="1" colspan="1">4 (0.9)</td></tr><tr><td rowspan="1" colspan="1">Missing</td><td rowspan="1" colspan="1">69 (15.3)</td></tr><tr><td rowspan="1" colspan="1">
+<bold>
+<italic toggle="yes">Race/Ethnicity</italic>
+</bold>
+</td><td rowspan="1" colspan="1">
+</td></tr><tr><td rowspan="1" colspan="1">American Indian/Alaskan Native</td><td rowspan="1" colspan="1">22 (4.9)</td></tr><tr><td rowspan="1" colspan="1">African American/Black</td><td rowspan="1" colspan="1">22 (4.9)</td></tr><tr><td rowspan="1" colspan="1">Asian/Pacific Islander</td><td rowspan="1" colspan="1">30 (6.6)</td></tr><tr><td rowspan="1" colspan="1">Hispanic</td><td rowspan="1" colspan="1">63 (13.9)</td></tr><tr><td rowspan="1" colspan="1">White</td><td rowspan="1" colspan="1">240 (53.1)</td></tr><tr><td rowspan="1" colspan="1">Other</td><td rowspan="1" colspan="1">18 (4.0)</td></tr><tr><td rowspan="1" colspan="1">Missing</td><td rowspan="1" colspan="1">57 (12.6)</td></tr><tr><td rowspan="1" colspan="1">
+<bold>
+<italic toggle="yes">Scope of practice</italic>
+</bold>
+</td><td rowspan="1" colspan="1">
+</td></tr><tr><td rowspan="1" colspan="1">Medical Doctor or Doctor of Osteopathic Medicine</td><td rowspan="1" colspan="1">92 (20.4)</td></tr><tr><td rowspan="1" colspan="1">Nurse practitioner or physician assistant</td><td rowspan="1" colspan="1">17 (3.8)</td></tr><tr><td rowspan="1" colspan="1">Nurse</td><td rowspan="1" colspan="1">35 (7.7)</td></tr><tr><td rowspan="1" colspan="1">PhD (all disciplines)</td><td rowspan="1" colspan="1">130 (28.8)</td></tr><tr><td rowspan="1" colspan="1">Masters Public Health</td><td rowspan="1" colspan="1">50 (11.1)</td></tr><tr><td rowspan="1" colspan="1">Community Health Worker</td><td rowspan="1" colspan="1">15 (3.3)</td></tr><tr><td rowspan="1" colspan="1">Other</td><td rowspan="1" colspan="1">45 (10.0)</td></tr><tr><td rowspan="1" colspan="1">
+<bold>
+<italic toggle="yes">Country of origin</italic>
+</bold>
+</td><td rowspan="1" colspan="1">
+</td></tr><tr><td rowspan="1" colspan="1">United States</td><td rowspan="1" colspan="1">394 (87.2)</td></tr><tr><td rowspan="1" colspan="1">Outside of the United States</td><td rowspan="1" colspan="1">58 (12.8)</td></tr></tbody></table></alternatives></table-wrap></sec><sec id="section3C-23821205211061019"><title>Certificate of completion</title><p>The CCHH ECHO course offered a certificate for participants who completed at
+least 75% (6 out of 8 sessions) of the course. Almost 17% (106 of the 625 unique
+attendees) completed at least 6 of the CCHH ECHO sessions and within 1 week of
+the course completion, each of these participants was sent a Certificate of
+Completion.</p></sec><sec id="section3D-23821205211061019"><title>Postsession evaluation</title><p>The number of responses to the postsession evaluation each week ranged from 50
+(78%) to 66 (85%) respondents out of an average of 78 unique attendees per
+session (see <xref rid="table3-23821205211061019" ref-type="table">Table
+3</xref>). The large majority of survey respondents reported that the
+objectives of the training were met and that the sessions delivered balanced,
+objective, and evidence-based content, and rated opportunities to ask questions
+as very good or excellent. Additionally, participants reported that they
+intended to apply the knowledge they acquired and that they were better able to
+communicate with other interprofessional team members. The most common practice
+change reported was that participants used skills they learned to improve their
+climate-related health discussions with patients.</p><table-wrap position="float" id="table3-23821205211061019"><label>Table 3.</label><caption><p>Climate change and human health ECHO postsession evaluation responses,
+February 17, 2021 to April 7, 2021, mean N&#x02009;=&#x02009;58.6.</p></caption><alternatives><graphic xlink:href="10.1177_23821205211061019-table3" position="float"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><th align="left" rowspan="1" colspan="1"/><th align="left" colspan="5" rowspan="1">Mean percent (range)</th></tr><tr><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1">Poor</th><th align="left" rowspan="1" colspan="1">Fair</th><th align="left" rowspan="1" colspan="1">Good</th><th align="left" rowspan="1" colspan="1">Very good</th><th align="left" rowspan="1" colspan="1">Excellent</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">How well were the stated objectives met?</td><td rowspan="1" colspan="1">0.0 (0-0)</td><td rowspan="1" colspan="1">1.0 (0-2)</td><td rowspan="1" colspan="1">5.9 (2-10)</td><td rowspan="1" colspan="1">35.1 (28-46)</td><td rowspan="1" colspan="1">58.3 (52-65)</td></tr><tr><td rowspan="1" colspan="1">How well did the session deliver balanced and objective,
+evidence-based content?</td><td rowspan="1" colspan="1">0.0 (0-0)</td><td rowspan="1" colspan="1">0.8 (0-2)</td><td rowspan="1" colspan="1">4.9 (2-9)</td><td rowspan="1" colspan="1">30.8 (23-34)</td><td rowspan="1" colspan="1">63.8 (55-70)</td></tr><tr><td rowspan="1" colspan="1">How were opportunities to ask questions?</td><td rowspan="1" colspan="1">0.5 (0-2)</td><td rowspan="1" colspan="1">1.8 (0-4)</td><td rowspan="1" colspan="1">16.1 (8-23)</td><td rowspan="1" colspan="1">33.1 (24-41)</td><td rowspan="1" colspan="1">48.8 (45-53)</td></tr><tr><td rowspan="1" colspan="1">
+</td><td rowspan="1" colspan="1">Strongly Disagree</td><td rowspan="1" colspan="1">Disagree</td><td rowspan="1" colspan="1">Neutral</td><td rowspan="1" colspan="1">Agree</td><td rowspan="1" colspan="1">Strongly Agree</td></tr><tr><td rowspan="1" colspan="1">I intend to apply the knowledge and/or skills I have
+acquired from this activity to my work when in a team
+environment.</td><td rowspan="1" colspan="1">0.0 (0-0)</td><td rowspan="1" colspan="1">0.5 (0-2)</td><td rowspan="1" colspan="1">6.9 (3-14)</td><td rowspan="1" colspan="1">49.1 (42-60)</td><td rowspan="1" colspan="1">43.5 (34-55)</td></tr><tr><td rowspan="1" colspan="1">I am better able to communicate with other members of a
+multidisciplinary team as a result of what I learned in this
+activity.</td><td rowspan="1" colspan="1">0.0 (0-0)</td><td rowspan="1" colspan="1">0.5 (0-2)</td><td rowspan="1" colspan="1">8.4 (2-17)</td><td rowspan="1" colspan="1">50.9 (42-58)</td><td rowspan="1" colspan="1">40.3 (33-53)</td></tr><tr><td colspan="6" rowspan="1">Changes that I am going to make in my
+practice</td></tr><tr><td colspan="4" rowspan="1">Response category</td><td colspan="2" rowspan="1">Number (%) of responses</td></tr><tr><td colspan="4" rowspan="1">Improve my health education techniques</td><td colspan="2" rowspan="1">104 (38.2)</td></tr><tr><td colspan="4" rowspan="1">Increase my climate change education to my
+patients</td><td colspan="2" rowspan="1">43 (15.8)</td></tr><tr><td colspan="4" rowspan="1">Share climate change information with colleagues
+and community</td><td colspan="2" rowspan="1">28 (10.2)</td></tr><tr><td colspan="4" rowspan="1">Ask patients about climate change-related health
+effects</td><td colspan="2" rowspan="1">20 (7.3)</td></tr><tr><td colspan="4" rowspan="1">No changes</td><td colspan="2" rowspan="1">19 (6.9)</td></tr><tr><td colspan="4" rowspan="1">Not in clinical practice</td><td colspan="2" rowspan="1">19 (6.9)</td></tr><tr><td colspan="4" rowspan="1">Improved my climate change knowledge</td><td colspan="2" rowspan="1">9 (3.3)</td></tr></tbody></table></alternatives></table-wrap></sec><sec id="section3E-23821205211061019"><title>Zoom polls</title><p>An average of 123.3 (range: 114-137) participants responded to the polls during
+weeks 4 through 8. Over 90% of participants reported that they strongly agreed
+or agreed that the sessions increased their understanding of or confidence in
+each session's topic (see <xref rid="fig2-23821205211061019" ref-type="fig">Figure 2</xref>). The session on water- and vector-borne diseases and
+climate change had the highest number of participants reporting that they
+strongly agreed that the session increased their understanding. Participants
+were more likely to report that they agreed (rather than strongly agreed) that
+their confidence increased in all of the Zoom poll sessions. Only in the first 2
+weeks of the polls did some of the participants (less than 10) respond that they
+strongly disagreed. Beginning in week 6, the course facilitator explained the
+answer key format before the zoom poll began and there were no longer any
+&#x0201c;Strongly Disagree&#x0201d; responses.</p><fig position="float" id="fig2-23821205211061019"><label>Figure 2.</label><caption><p>Climate change and human health ECHO zoom polls, weeks 4 to 8.</p></caption><graphic xlink:href="10.1177_23821205211061019-fig2" position="float"/></fig></sec><sec id="section3F-23821205211061019"><title>Community of practice opt-in directory</title><p>A Community of Practice Opt-In Directory was offered to all participants in week
+3 of the CCHH ECHO. Participants were given the opportunity to stay connected
+with fellow participants after the CCHH ECHO session by filling out a
+confidential survey listing their name, email address, and optional cellular
+telephone number. During the last week of the CCHH ECHO, 55 participants (8% of
+625 unique participants) who signed up for this directory were sent information
+to their ECHO classmates as a method to connect with one another after the
+course.</p></sec></sec><sec sec-type="discussion" id="section4-23821205211061019"><title>Discussion</title><sec id="section4A-23821205211061019"><title>Success of the CCHH ECHO</title><p>This CCHH ECHO series proved to be highly satisfying for the vast majority of
+health professionals who participated in the 8-week series. Strengths of the
+CCHH ECHO include: (1) the large number of unique participants returning each
+week from throughout the United States and abroad, (2) the bi-directional,
+moderated question/answer sessions, (3) the simulated clinical climate change
+cases, (4) the course certificate and community of practice options, and (5) the
+benefits of a digital librarian. Some health professionals also identified areas
+of improvement for this CCHH ECHO series. Suggestions included: allowing more
+time for questions/answers, adding didactic presentations on climate and mental
+health, sustainability and climate justice.</p></sec><sec id="section4B-23821205211061019"><title>The ECHO model: diffusion of knowledge, capacity building, and community of
+practice</title><p>The postsession evaluations and zoom polls suggest that the goals of this 8-week
+CCHH ECHO series (increasing health participant knowledge, confidence, and
+communication) were successfully achieved. In light of the current climate
+emergency, the ECHO Model is an invaluable platform for demonopolization and
+effective diffusion of evidence-based knowledge to build capacity among
+professionals, patients, and communities. The ECHO Model also has a strong
+history of developing communities of practice and reducing feelings of isolation
+among many health professionals.<sup>
+<xref rid="bibr27-23821205211061019" ref-type="bibr">27</xref>
+</sup> This may benefit health professionals seeking to expand their engagement
+with communities and organizations addressing the health impacts of climate
+change.</p></sec><sec id="section4C-23821205211061019"><title>Demographics and geographic distribution</title><p>The majority of participants were women, which is not surprising considering that
+women are slightly more likely to be concerned about the environment compared to men.<sup>
+<xref rid="bibr36-23821205211061019" ref-type="bibr">36</xref>
+</sup> In terms of race and ethnicity, Hispanics/Latinos and African Americans
+are more likely to be alarmed about climate change than Whites, however the
+majority of participants in this CCHH ECHO were white.<sup>
+<xref rid="bibr37-23821205211061019" ref-type="bibr">37</xref>
+</sup> This may be reflective of the racial/ethnic distribution of the
+healthcare field.</p><p>It is also possible that course participants, who reside in jurisdictions
+(West/Northwest and Southeast) which have acutely been affected by extreme
+weather events (wildfires and extreme precipitation), are participating in this
+course in larger numbers.</p></sec><sec id="section4D-23821205211061019"><title>Curriculum: evidence-based didactics and case-based learning</title><p>The CCHH ECHO curriculum deliberately included both broad and more narrowly
+focused elements critical for health professionals to best understand the
+relationship between CCHH. The postsession survey and Zoom poll results suggest
+that the majority of participants increased their knowledge and confidence in
+the topics presented. They also reported that they plan to change their practice
+based on the information learned in the CCHH ECHO sessions. Specifically, they
+plan to communicate more with their patients, applying the knowledge they have
+learned and the tools they have gained.</p><p>Live simulated cases between a health professional and a standardized patient
+were part of 5 of the sessions. There are many benefits to simulation including
+&#x0201c;practice of complex clinical situations; rehearsal of serious and&#x02044;or rare
+events; rehearsal of planned, novel or infrequent interventions; and induction
+into new clinical environments.&#x0201d;<sup>
+<xref rid="bibr37-23821205211061019" ref-type="bibr">37</xref>
+</sup> Use of simulation with standardized patients or public health scenarios
+reduces risks to patients, communities, and learners. Educationally, simulation
+supports principles of active learning, safe application of knowledge and
+skills, and opportunity for iterative practice with feedback, incorporating
+evidence-based knowledge within each case or scenario.<sup><xref rid="bibr38-23821205211061019" ref-type="bibr">38</xref>,<xref rid="bibr39-23821205211061019" ref-type="bibr">39</xref></sup></p><p>The advantages of using simulated cases for the CCHH ECHO are numerous. The
+cases: (1) can be adjusted for different types and levels of health
+professionals, (2) can be modified to educate health professionals regarding how
+to approach patients with varying levels of climate change knowledge and belief,
+(3) can be shifted to benefit the specific geographic region and culture of the
+population affected, and (4) the cases can be recorded and used for future
+training sessions.<sup>
+<xref rid="bibr29-23821205211061019" ref-type="bibr">29</xref>
+</sup></p><p>Most ECHO programs include course participants sharing real, de-identified
+patient cases. Therefore, creating simulated cases for the CCHH ECHO is a novel
+adaptation of ECHO's successful case-based learning approach. Because patients
+do not join ECHO sessions, the use of simulated cases allows for climate change
+cases to be developed for a variety of health professionals as well as diverse,
+rural, underserved, and disproportionately impacted populations globally.
+Project ECHO has used simulated learning for many years in their MOCK ECHO
+trainings, whereby health professionals can practice their skills repeatedly in
+a safe environment before they launch a live ECHO session.<sup>
+<xref rid="bibr40-23821205211061019" ref-type="bibr">40</xref>
+</sup></p><p>There are many other complementary climate change educational offerings for
+health professionals. These include a growing number of evidence-based,
+peer-reviewed climate change, and environmental journal articles, webinars from
+NOAA, CDC, the Medical Consortium on Climate and Health, Physicians for Social
+Responsibility and other highly regarded organizations, as well as other
+academic medical centers providing postlicensure trainings.<sup><xref rid="bibr41-23821205211061019" ref-type="bibr">41</xref>,<xref rid="bibr46-23821205211061019" ref-type="bibr">46</xref></sup></p></sec><sec id="section4E-23821205211061019"><title>Scaling up and moving forward</title><p>Due to the success of the 8-week CCHH ECHO series, the authors decided to launch
+a weekly 60&#x02005;min CCHH ECHO &#x0201c;Continuous Conversation Office Hours,&#x0201d; beginning in
+August 18, 2021. Changes to the original format include shortening each session
+to 60&#x02005;min, allowing more time for questions and answers, and planning for
+presentations on mental health, climate justice and environmental stewardship.
+The authors are also planning to begin a similar program in India, in addition
+to an 8 to 10 week &#x0201c;train the trainer&#x0201d; program, so that highly motivated health
+professionals may deliver a climate change course at their own institution.</p></sec></sec><sec sec-type="conclusions" id="section5-23821205211061019"><title>Conclusions</title><p>Because the ECHO model is capacity-building, low-cost, and easy to deploy, the CCHH
+ECHO has the potential to reach many thousands of people globally due to the
+diffusion of knowledge between patients, colleagues, and communities. The human
+health effects of climate change is a necessarily emerging field, and increasing
+knowledge and communication skills among health practitioners is of critical
+importance. Given the climate crisis, a robust climate and health curriculum is
+needed in both pre and postlicensure settings for all health professionals. Future
+CCHH ECHO telementoring programs may explore avenues to equip health professionals
+with the competencies needed to teach climate-related health effects at their own
+public health programs and healthcare institutions.</p><p>The findings and conclusions in this report are those of the authors and do not
+necessarily represent the official position of the Centers for Disease Control and
+Prevention.</p></sec></body><back><ack><title>Acknowledgments</title><p>The authors would like to thank the Centers for Disease Control and Prevention for
+review of the manuscript. The authors are grateful to Kent Norsworthy, our Project
+ECHO digital librarian, to Shalin Prabhat Luitel, BA, BS at Project ECHO, for
+creating the maps for the manuscript, and to Hunter Jones, PhD from the National
+Oceanic Atmospheric Association for his thoughtful consultation.</p></ack><fn-group><fn fn-type="COI-statement"><p><bold>DECLARATION OF CONFLICTING INTERESTS:</bold> The authors declared no potential conflicts of interest with respect to the
+research, authorship, and/or publication of this article.</p></fn><fn fn-type="financial-disclosure"><p><bold>FUNDING:</bold> The authors received no financial support for the research, authorship, and/or
+publication of this article.</p></fn><fn fn-type="con"><p><bold>Author Contributions:</bold> JGK created the idea for the program and the evaluation; JGK, DH, PH, LT, JMM
+developed the curriculum and evaluation; LT, JL, BKD, JGK collected and analyzed
+the data; JGK, DH, PS, LT, SK, CM, SA wrote and edited the article; JMM, BKD, JL
+edited the article.</p></fn></fn-group><ref-list><title>REFERENCES</title><ref id="bibr1-23821205211061019"><label>1</label><mixed-citation publication-type="other"><collab>IPCC, 2021</collab>. <comment>Sixth
+Assessment Report, Climate Change 2021: the Physical Science
+Basis</comment>. <ext-link xlink:href="https://www.ipcc.ch/assessment-report/ar6/" ext-link-type="uri">https://www.ipcc.ch/assessment-report/ar6/</ext-link></mixed-citation></ref><ref id="bibr2-23821205211061019"><label>2</label><mixed-citation publication-type="book"><collab>USGCRP</collab>, 2018:
+<article-title>Impacts, risks, and adaptation in the United States: fourth
+national climate assessment, volume II</article-title>: Report in Brief.
+<person-group person-group-type="editor">
+<name><surname>Reidmiller</surname><given-names>DR</given-names></name>
+</person-group>, <etal>Avery, CW, Easterling DR, Kunkel KE, Lewis KLM, Maycock
+TK, et al</etal>. (eds.) <source>U.S. Global Change Research
+Program</source>
+<year>2018</year>, pp. <fpage>1515</fpage>. doi:<pub-id pub-id-type="doi">10.7930/NCA4.2018.RiB</pub-id>. Published by U.S. Government Publishing
+Office Internet: bookstore.gpo.gov</mixed-citation></ref><ref id="bibr3-23821205211061019"><label>3</label><mixed-citation publication-type="other"><collab>United Nations Development
+Programme</collab>. <year>2021</year>. <comment>The Peoples&#x02019; Climate
+Vote</comment>. <ext-link xlink:href="https://www.undp.org/content/undp/en/home/librarypage/climate-and-disaster-resilience-/The-Peoples-Climate-Vote-Results.html" ext-link-type="uri">https://www.undp.org/content/undp/en/home/librarypage/climate-and-disaster-resilience-/The-Peoples-Climate-Vote-Results.html</ext-link></mixed-citation></ref><ref id="bibr4-23821205211061019"><label>4</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Mora</surname><given-names>C</given-names></name>
+<name><surname>Spirandelli</surname><given-names>D</given-names></name>
+<name><surname>Franklin</surname><given-names>EC</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>Broad threat to humanity from cumulative climate hazards
+intensified by greenhouse gas emissions</article-title>. <source>Nature Clim
+Change</source>.
+<year>2018</year>;<volume>8(12)</volume>:<fpage>1062</fpage>-<lpage>1071</lpage>.
+doi:<pub-id pub-id-type="doi">10.1038/s41558-018-0315-6</pub-id></mixed-citation></ref><ref id="bibr5-23821205211061019"><label>5</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Maibach</surname><given-names>E</given-names></name>
+<name><surname>Franklin</surname><given-names>H</given-names></name>
+<name><surname>Ahdoot</surname><given-names>S</given-names></name>
+</person-group>. <article-title>Health professionals and the climate crisis:
+trusted voices, essential roles</article-title>. <source>World Med Health
+Policy</source>.
+<year>2021</year>;<volume>13</volume>(<issue>1</issue>):<fpage>137</fpage>-<lpage>145</lpage>.
+doi:<pub-id pub-id-type="doi">10.1002/wmh3.421</pub-id></mixed-citation></ref><ref id="bibr6-23821205211061019"><label>6</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Rabin</surname><given-names>BM</given-names></name>
+<name><surname>Laney</surname><given-names>EB</given-names></name>
+<name><surname>Philipsborn</surname><given-names>RP</given-names></name>
+</person-group>. <article-title>The unique role of medical students in
+catalyzing climate change education</article-title>. <source>J Med Ed Curric
+Dev</source>. <comment>2020</comment>;7: pp1-7. doi:<pub-id pub-id-type="doi">10.1177/2382120520957653</pub-id></mixed-citation></ref><ref id="bibr7-23821205211061019"><label>7</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Kotcher</surname><given-names>J</given-names></name>
+<name><surname>Maibach</surname><given-names>E</given-names></name>
+<name><surname>Miller</surname><given-names>J</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>Views of health professionals on climate change and health: a
+multinational survey study</article-title>. <source>Lancet Planet
+Health</source>. <comment>2021
+May</comment>;<volume>5</volume>(<issue>5</issue>):<fpage>e316</fpage>-<lpage>e323</lpage>.
+doi: <pub-id pub-id-type="doi">10.1016/S2542-5196(21)00053-X</pub-id><pub-id pub-id-type="pmid">33838130</pub-id></mixed-citation></ref><ref id="bibr8-23821205211061019"><label>8</label><mixed-citation publication-type="other"><collab>American Medical
+Association</collab>. <year>2020</year>. <comment>Doctors demand
+presidential action on climate change</comment>. <ext-link xlink:href="https://www.ama-assn.org/delivering-care/public-health/doctors-demand-presidential-action-climate-change" ext-link-type="uri">https://www.ama-assn.org/delivering-care/public-health/doctors-demand-presidential-action-climate-change</ext-link></mixed-citation></ref><ref id="bibr9-23821205211061019"><label>9</label><mixed-citation publication-type="other"><collab>American Public Health Association,
+Climate Change</collab>. <ext-link xlink:href="https://www.apha.org/Topics-and-Issues/Climate-Change" ext-link-type="uri">https://www.apha.org/Topics-and-Issues/Climate-Change</ext-link>
+(<year>2021</year>)</mixed-citation></ref><ref id="bibr10-23821205211061019"><label>10</label><mixed-citation publication-type="other"><collab>American Academy of
+Pediatrics</collab>. <year>2021</year>. <comment>Climate Change and
+Children's Health</comment>. <ext-link xlink:href="https://www.aap.org/en-us/advocacy-and-policy/aap-health-initiatives/climate-change/Pages/Climate-Change-and-Childrens-Health.aspx" ext-link-type="uri">https://www.aap.org/en-us/advocacy-and-policy/aap-health-initiatives/climate-change/Pages/Climate-Change-and-Childrens-Health.aspx</ext-link></mixed-citation></ref><ref id="bibr11-23821205211061019"><label>11</label><mixed-citation publication-type="other"><collab>American Psychiatric
+Association</collab>. <year>2019</year>. <comment>Climate change and mental
+health connections</comment>. <ext-link xlink:href="https://www.psychiatry.org/patients-families/climate-change-and-mental-health-connections" ext-link-type="uri">https://www.psychiatry.org/patients-families/climate-change-and-mental-health-connections</ext-link></mixed-citation></ref><ref id="bibr12-23821205211061019"><label>12</label><mixed-citation publication-type="other"><collab>Canadian Public Health
+Association</collab>. <year>2019</year>. <comment>Climate Change and Human
+Health</comment>. <ext-link xlink:href="https://www.cpha.ca/climate-change-and-human-health" ext-link-type="uri">https://www.cpha.ca/climate-change-and-human-health</ext-link></mixed-citation></ref><ref id="bibr13-23821205211061019"><label>13</label><mixed-citation publication-type="other"><collab>Canadian Medical
+Association</collab>. <year>2021</year>. <comment>Climate change and
+health</comment>. <ext-link xlink:href="https://www.cma.ca/climate-change-and-health" ext-link-type="uri">https://www.cma.ca/climate-change-and-health</ext-link></mixed-citation></ref><ref id="bibr14-23821205211061019"><label>14</label><mixed-citation publication-type="other"><collab>World Medical Association</collab>.
+<year>2019</year>. <comment>Physicians demand accelerated action on climate
+change</comment>. <ext-link xlink:href="https://www.wma.net/news-post/physicians-demand-accelerated-action-on-climate-change/" ext-link-type="uri">https://www.wma.net/news-post/physicians-demand-accelerated-action-on-climate-change/</ext-link></mixed-citation></ref><ref id="bibr15-23821205211061019"><label>15</label><mixed-citation publication-type="other"><collab>European Public Health
+Alliance</collab>. <year>2021</year>. <comment>A green European Health Union
+will ensure a healthy recovery from the pandemic</comment>. <ext-link xlink:href="https://epha.org/a-green-european-health-union-will-ensure-a-healthy-recovery-from-the-pandemic/" ext-link-type="uri">https://epha.org/a-green-european-health-union-will-ensure-a-healthy-recovery-from-the-pandemic/</ext-link></mixed-citation></ref><ref id="bibr16-23821205211061019"><label>16</label><mixed-citation publication-type="other"><collab>Australian Medical
+Association</collab>. <year>2019</year>. <comment>Climate change is a health
+emergency</comment>. <ext-link xlink:href="https://ama.com.au/media/climate-change-health-emergency" ext-link-type="uri">https://ama.com.au/media/climate-change-health-emergency</ext-link></mixed-citation></ref><ref id="bibr17-23821205211061019"><label>17</label><mixed-citation publication-type="other"><person-group person-group-type="author">
+<name><surname>Travers</surname><given-names>J</given-names></name>
+<name><surname>Schenk</surname><given-names>E</given-names></name>
+<name><surname>Rosa</surname><given-names>W</given-names></name>
+<name><surname>Nicholas</surname><given-names>P</given-names></name>
+</person-group>. <year>2019</year>. <comment>&#x0201c;Climate Change, Climate Justice,
+and a Call for Action&#x0201d;. Articles, Abstracts, and Reports. 1279</comment>.
+<ext-link xlink:href="https://digitalcommons.psjhealth.org/publications/1279" ext-link-type="uri">https://digitalcommons.psjhealth.org/publications/1279</ext-link></mixed-citation></ref><ref id="bibr18-23821205211061019"><label>18</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Jagals</surname><given-names>P</given-names></name>
+<name><surname>Ebi</surname><given-names>K</given-names></name>
+</person-group>. <article-title>Core competencies for health workers to deal
+with climate and environmental change</article-title>. <source>Int J Environ
+Res Public Health</source>. <comment>2021 Apr
+7</comment>;<volume>18</volume>(<issue>8</issue>):<fpage>3849</fpage>. doi:
+<pub-id pub-id-type="doi">10.3390/ijerph18083849</pub-id><pub-id pub-id-type="pmid">33916887</pub-id></mixed-citation></ref><ref id="bibr19-23821205211061019"><label>19</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Omrani O</surname><given-names>E</given-names></name>
+<name><surname>Dafallah</surname><given-names>A</given-names></name>
+<name><surname>Paniello Castillo</surname><given-names>B</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>Envisioning planetary health in every medical curriculum: an
+international medical student organization's Perspective</article-title>.
+<source>Med Teach</source>.
+<year>2020</year>;<volume>42</volume>(<issue>10</issue>):<fpage>1107</fpage>-<lpage>1111</lpage>.
+doi:<pub-id pub-id-type="doi">10.1080/0142159X.2020.1796949</pub-id><pub-id pub-id-type="pmid">32757869</pub-id></mixed-citation></ref><ref id="bibr20-23821205211061019"><label>20</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Lavey</surname><given-names>WG</given-names></name>
+</person-group>. <article-title>Teaching the health impacts of climate change in
+many American higher education programs</article-title>. <source>Int J
+Sustain Higher Educ</source>.
+<year>2019</year>;<volume>20</volume>(<issue>1</issue>):<fpage>39</fpage>-<lpage>56</lpage>.
+<pub-id pub-id-type="doi">10.1108/IJSHE-04-2018-0062</pub-id></mixed-citation></ref><ref id="bibr21-23821205211061019"><label>21</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Maxwell</surname><given-names>J</given-names></name>
+<name><surname>Blashki</surname><given-names>G</given-names></name>
+</person-group>. <article-title>Teaching about climate change in medical
+education: an opportunity</article-title>. <source>J Public Health
+Res</source>.
+<year>2016</year>;<volume>5</volume>(<issue>1</issue>):<fpage>673</fpage>.
+doi:<pub-id pub-id-type="doi">10.4081/jphr.2016.673</pub-id><pub-id pub-id-type="pmid">27190980</pub-id></mixed-citation></ref><ref id="bibr22-23821205211061019"><label>22</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>VandeKieft</surname><given-names>GK</given-names></name>
+</person-group>. <article-title>Breaking bad news</article-title>. <source>Am
+Fam Physician</source>.
+<comment>2001</comment>;<volume>64</volume>(<issue>12</issue>):<fpage>1975</fpage>-<lpage>1978</lpage>.
+<comment>PMID: 11775763.
+https://pubmed.ncbi.nlm.nih.gov/11775763/</comment><pub-id pub-id-type="pmid">11775763</pub-id></mixed-citation></ref><ref id="bibr23-23821205211061019"><label>23</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Lorenzetti</surname><given-names>RC</given-names></name>
+<name><surname>Jacques</surname><given-names>CH</given-names></name>
+<name><surname>Donovan</surname><given-names>C</given-names></name>
+<name><surname>Cottrell</surname><given-names>S</given-names></name>
+<name><surname>Buck</surname><given-names>J</given-names></name>
+</person-group>. <article-title>Managing difficult encounters: understanding
+physician, patient, and situational factors</article-title>. <source>Am Fam
+Physician</source>.
+<comment>2013</comment>;<volume>87</volume>(<issue>6</issue>):<fpage>419</fpage>-<lpage>425</lpage>.
+<comment>PMID: 23547575.
+https://www.aafp.org/afp/2013/0315/p419.html</comment><pub-id pub-id-type="pmid">23547575</pub-id></mixed-citation></ref><ref id="bibr24-23821205211061019"><label>24</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Philipsborn</surname><given-names>RP</given-names></name>
+<name><surname>Sheffield</surname><given-names>P</given-names></name>
+<name><surname>White</surname><given-names>A</given-names></name>
+<name><surname>Osta</surname><given-names>A</given-names></name>
+<name><surname>Anderson</surname><given-names>MS</given-names></name>
+<name><surname>Bernstein</surname><given-names>A</given-names></name>
+</person-group>. <article-title>Climate change and the practice of medicine:
+essentials for resident education</article-title>. <source>Acad
+Med.</source>
+<year>2021</year>;<volume>96</volume>(<issue>3</issue>):<fpage>355</fpage>-<lpage>367</lpage>.
+doi:<pub-id pub-id-type="doi">10.1097/ACM.0000000000003719</pub-id><pub-id pub-id-type="pmid">32910006</pub-id></mixed-citation></ref><ref id="bibr25-23821205211061019"><label>25</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Arora</surname><given-names>S</given-names></name>
+<name><surname>Thornton</surname><given-names>K</given-names></name>
+<name><surname>Murata</surname><given-names>G</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>Outcomes of treatment for hepatitis C virus infection by primary
+care providers</article-title>. <source>NEJM</source>.
+<year>2011</year>;<volume>364</volume>(<issue>23</issue>):<fpage>2199</fpage>-<lpage>2207</lpage>.
+doi:<pub-id pub-id-type="doi">10.1056/NEJMoa1009370</pub-id><pub-id pub-id-type="pmid">21631316</pub-id></mixed-citation></ref><ref id="bibr26-23821205211061019"><label>26</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Arora</surname><given-names>S</given-names></name>
+<name><surname>Kalishman</surname><given-names>S</given-names></name>
+<name><surname>Dion</surname><given-names>D</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>Partnering urban academic medical centers and rural primary care
+clinicians to provide complex chronic disease care</article-title>.
+<source>Health Aff</source>.
+<year>2011</year>;<volume>30</volume>(<issue>6</issue>):<fpage>1176</fpage>-<lpage>1184</lpage>.
+doi:<pub-id pub-id-type="doi">10.1377/hlthaff.2011.0278</pub-id></mixed-citation></ref><ref id="bibr27-23821205211061019"><label>27</label><mixed-citation publication-type="other"><collab>Project ECHO</collab>.
+<year>2021</year>. <comment>ECHO Movement Overview Dashboard</comment>.
+<ext-link xlink:href="https://hsc.unm.edu/echo/data-marketplace/interactive-dashboards/movement-overview.html" ext-link-type="uri">https://hsc.unm.edu/echo/data-marketplace/interactive-dashboards/movement-overview.html</ext-link></mixed-citation></ref><ref id="bibr28-23821205211061019"><label>28</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Hager</surname><given-names>B</given-names></name>
+<name><surname>Hasselberg</surname><given-names>M</given-names></name>
+<name><surname>Arzubi</surname><given-names>E</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>Leveraging behavioral health expertise: practices and potential
+of the project ECHO approach to virtually integrating care in underserved
+areas</article-title>. <source>Psychiatr Serv</source>.
+<year>2018</year>;<volume>69</volume>(<issue>4</issue>):<fpage>366</fpage>-<lpage>369</lpage>.
+doi:<pub-id pub-id-type="doi">10.1176/appi.ps.201700211</pub-id><pub-id pub-id-type="pmid">29446334</pub-id></mixed-citation></ref><ref id="bibr29-23821205211061019"><label>29</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Arora</surname><given-names>S</given-names></name>
+<name><surname>Thornton</surname><given-names>K</given-names></name>
+<name><surname>Komaromy</surname><given-names>M</given-names></name>
+<name><surname>Kalishman</surname><given-names>S</given-names></name>
+<name><surname>Katzman</surname><given-names>J</given-names></name>
+<name><surname>Duhigg</surname><given-names>D</given-names></name>
+</person-group>. <article-title>Demonopolizing medical
+knowledge</article-title>. <source>Acad Med</source>.
+<year>2014</year>;<volume>89</volume>(<issue>1</issue>):<fpage>30</fpage>-<lpage>32</lpage>.
+doi:<pub-id pub-id-type="doi">10.1097/ACM.0000000000000051</pub-id><pub-id pub-id-type="pmid">24280860</pub-id></mixed-citation></ref><ref id="bibr30-23821205211061019"><label>30</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Williams</surname><given-names>M</given-names></name>
+<name><surname>Azuara Blanco</surname><given-names>A</given-names></name>
+<name><surname>Hogg</surname><given-names>R</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>Creating a virtual community of practice: an evaluation of
+ophthalmology-optometry project ECHO</article-title>. <source>Eye</source>.
+<year>2018</year>;<volume>32(12)</volume>:<fpage>1910</fpage>-<lpage>1911</lpage>.
+doi:<pub-id pub-id-type="doi">10.1038/s41433-018-0184-2</pub-id><pub-id pub-id-type="pmid">30068927</pub-id></mixed-citation></ref><ref id="bibr31-23821205211061019"><label>31</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Katzman</surname><given-names>JG</given-names></name>
+<name><surname>Fore</surname><given-names>C</given-names></name>
+<name><surname>Bhatt</surname><given-names>S</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>Evaluation of American Indian health service training in pain
+management and opioid substance use disorder</article-title>. <source>Am J
+Pub Health</source>.
+<year>2016</year>;<volume>106</volume>(<issue>8</issue>):<fpage>1427</fpage>-<lpage>1429</lpage>.
+doi:<pub-id pub-id-type="doi">10.2105/AJPH.2016.303193</pub-id><pub-id pub-id-type="pmid">27196642</pub-id></mixed-citation></ref><ref id="bibr32-23821205211061019"><label>32</label><mixed-citation publication-type="other"><collab>U.S. Global Research
+Program</collab>. <year>2017</year>. <comment>Interagency Crosscutting Group
+on Climate Change and Human Health (CCHHG)</comment>. <ext-link xlink:href="https://www.globalchange.gov/about/iwgs/cchhg" ext-link-type="uri">https://www.globalchange.gov/about/iwgs/cchhg</ext-link></mixed-citation></ref><ref id="bibr33-23821205211061019"><label>33</label><mixed-citation publication-type="other"><collab>Cambridge University
+Press</collab>. <year>2021</year>. <comment>Cambridge Dictionary</comment>.
+<ext-link xlink:href="https://dictionary.cambridge.org/us/dictionary/english/simulation" ext-link-type="uri">https://dictionary.cambridge.org/us/dictionary/english/simulation</ext-link></mixed-citation></ref><ref id="bibr34-23821205211061019"><label>34</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Bandura</surname><given-names>A</given-names></name>
+</person-group>. <article-title>Perceived self-efficacy in cognitive development
+and functioning</article-title>. <source>Educ Psychol</source>.
+<year>1993</year>;<volume>28</volume>(<issue>2</issue>):<fpage>117</fpage>-<lpage>148</lpage>.
+doi:<pub-id pub-id-type="doi">10.1207/s15326985ep2802_3</pub-id></mixed-citation></ref><ref id="bibr35-23821205211061019"><label>35</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Eisen</surname><given-names>A</given-names></name>
+</person-group>. <article-title>Points of view: a survey of survey courses: are
+they effective?</article-title>
+<source>Cell Biol Educ</source>.
+<year>2005</year>;<volume>4</volume>(<issue>2</issue>):<fpage>123</fpage>-<lpage>137</lpage>.
+doi:<pub-id pub-id-type="doi">10.1187/cbe.05-01-0055</pub-id><pub-id pub-id-type="pmid">15917871</pub-id></mixed-citation></ref><ref id="bibr36-23821205211061019"><label>36</label><mixed-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Leiserowitz</surname><given-names>A</given-names></name>
+<name><surname>Maibach</surname><given-names>E</given-names></name>
+<name><surname>Roser-Renouf</surname><given-names>C</given-names></name>
+<name><surname>Rosenthal</surname><given-names>S</given-names></name>
+<name><surname>Cutler</surname><given-names>M</given-names></name>
+<name><surname>Kotcher</surname><given-names>J</given-names></name>
+</person-group>. <source>Climate change in the American mind: March 2018. Yale
+University and George Mason University</source>. <publisher-name>Yale
+Program on Climate Change Communication</publisher-name>; <year>2018</year>.
+https://climatecommunication.yale.edu/wp-content/uploads/2018/04/Climate-Change-American-Mind-March-2018-1.pdf</mixed-citation></ref><ref id="bibr37-23821205211061019"><label>37</label><mixed-citation publication-type="book"><person-group person-group-type="author">
+<name><surname>Ballew</surname><given-names>M</given-names></name>
+<name><surname>Maibach</surname><given-names>E</given-names></name>
+<name><surname>Kotcher</surname><given-names>J</given-names></name>
+</person-group>, <etal>et al.</etal>
+<source>Which racial/ethnic groups care most about climate change? Yale
+University and George Mason University</source>. <publisher-name>Yale
+Program on Climate Change Communication</publisher-name>; <year>2020</year>.
+https://climatecommunication.yale.edu/publications/race-and-climate-change/</mixed-citation></ref><ref id="bibr38-23821205211061019"><label>38</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Issenberg</surname><given-names>SB</given-names></name>
+<name><surname>McGaghie</surname><given-names>WC</given-names></name>
+<name><surname>Petrusa</surname><given-names>ER</given-names></name>
+<name><surname>Lee Gordon</surname><given-names>D</given-names></name>
+<name><surname>Scalese</surname><given-names>RJ</given-names></name>
+</person-group>. <article-title>Features and uses of high-fidelity medical
+simulations that lead to effective learning: a BEME systematic
+review</article-title>. <source>Med Teach</source>.
+<year>2005</year>;<volume>27</volume>(<issue>1</issue>):<fpage>10</fpage>-<lpage>28</lpage>.
+doi:<pub-id pub-id-type="doi">10.1080/01421590500046924</pub-id><pub-id pub-id-type="pmid">16147767</pub-id></mixed-citation></ref><ref id="bibr39-23821205211061019"><label>39</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>McLean</surname><given-names>SF</given-names></name>
+</person-group>. <article-title>Case-based learning and its application in
+medical and health-care fields: a review of worldwide
+literature</article-title>. <source>J Med Educ Curric Dev</source>.
+<comment>2016 Apr 27; Vol. 3</comment>, pp39-49. doi:<pub-id pub-id-type="doi">10.4137/JMECD.S20377</pub-id></mixed-citation></ref><ref id="bibr40-23821205211061019"><label>40</label><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Fowler</surname><given-names>RC</given-names></name>
+<name><surname>Katzman</surname><given-names>JG</given-names></name>
+<name><surname>Comerci</surname><given-names>GD</given-names></name>
+</person-group>, <etal>et al.</etal>
+<article-title>Mock ECHO: a simulation-based medical education
+method</article-title>. <source>Teach Learn Med</source>.
+<year>2018</year>;<volume>30</volume>(<issue>4</issue>):<fpage>423</fpage>-<lpage>432</lpage>.
+doi:<pub-id pub-id-type="doi">10.1080/10401334.2018.1442719</pub-id><pub-id pub-id-type="pmid">29658798</pub-id></mixed-citation></ref><ref id="bibr41-23821205211061019"><label>41</label><mixed-citation publication-type="other"><collab>National Oceanic and Atmospheric
+Administration</collab>. <year>2021</year>. <comment>Upcoming and archived
+webinars</comment>. <ext-link xlink:href="https://www.noaa.gov/education/resource-collections/education-at-home/upcoming-and-archived-webinars" ext-link-type="uri">https://www.noaa.gov/education/resource-collections/education-at-home/upcoming-and-archived-webinars</ext-link></mixed-citation></ref><ref id="bibr42-23821205211061019"><label>42</label><mixed-citation publication-type="other"><collab>Centers for Disease Control and
+Prevention</collab>. <year>2021</year>. <comment>Climate and Health Science
+Webinar Series</comment>. <ext-link xlink:href="https://www.cdc.gov/climateandhealth/science-webinar-series.html" ext-link-type="uri">https://www.cdc.gov/climateandhealth/science-webinar-series.html</ext-link></mixed-citation></ref><ref id="bibr43-23821205211061019"><label>43</label><mixed-citation publication-type="other"><collab>The Medical Society Consortium on
+Climate &#x00026; Health, CME &#x00026; Webinars</collab>. <year>2021</year>.
+<ext-link xlink:href="https://medsocietiesforclimatehealth.org/category/continuing-medical-education/" ext-link-type="uri">https://medsocietiesforclimatehealth.org/category/continuing-medical-education/</ext-link></mixed-citation></ref><ref id="bibr44-23821205211061019"><label>44</label><mixed-citation publication-type="other"><collab>Physicians for Social
+Responsibility, Environment and Health</collab>. <year>2021</year>.
+<ext-link xlink:href="https://www.psr.org/issues/environment-health/" ext-link-type="uri">https://www.psr.org/issues/environment-health/</ext-link></mixed-citation></ref><ref id="bibr45-23821205211061019"><label>45</label><mixed-citation publication-type="other"><collab>Yale School of Public
+Health</collab>. <year>2021</year>. <comment>Climate Change and Health
+Certificate</comment>. <ext-link xlink:href="https://ysph.yale.edu/cchcert/program/" ext-link-type="uri">https://ysph.yale.edu/cchcert/program/</ext-link></mixed-citation></ref><ref id="bibr46-23821205211061019"><label>46</label><mixed-citation publication-type="other"><collab>Harvard University</collab>.
+<year>2021</year>. <comment>The Health Effects of Climate Change</comment>.
+<ext-link xlink:href="https://online-learning.harvard.edu/course/health-effects-climate-change?delta=1" ext-link-type="uri">https://online-learning.harvard.edu/course/health-effects-climate-change?delta=1</ext-link></mixed-citation></ref></ref-list></back></article>

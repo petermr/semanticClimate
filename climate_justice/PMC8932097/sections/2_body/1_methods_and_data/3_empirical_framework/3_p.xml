@@ -1,0 +1,156 @@
+<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" id="Par11">We posit that in the case of temperature anomaly and food insecurity, <inline-formula id="IEq6"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\beta$$\end{document}</tex-math><mml:math id="M14"><mml:mi>&#946;</mml:mi></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq6.gif"/></alternatives></inline-formula> is likely to vary over time. That is, the temperature anomaly will have a differential impact on food insecurity in different years. We therefore estimate a plausible causal relationship between temperature anomaly and food insecurity using panel data models with coefficients that vary over time. More generally, time-varying specifications are useful to characterise non-constant relationships between predictors and responses in regression models<sup><xref ref-type="bibr" rid="CR33">33</xref></sup>. These specifications allow estimation of coefficients that are common to all cross-sectional units and time; parameters that vary over cross-sectional units; and coefficients that change over time. Following<sup><xref ref-type="bibr" rid="CR34">34</xref></sup>, the general form of a regression with a time-varying parameter can be written as follows:<disp-formula id="Equ2"><label>2</label><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} y_{t} = \beta ^{\prime }_{t} x_{t} + \mu _{t} \end{aligned}$$\end{document}</tex-math><mml:math id="M16" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:msub><mml:mi>y</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msubsup><mml:mi>&#946;</mml:mi><mml:mi>t</mml:mi><mml:mo>&#8242;</mml:mo></mml:msubsup><mml:msub><mml:mi>x</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>&#956;</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="41598_2022_8696_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula>Here we are relaxing the assumption of a constant relationship across time between a set of control variables and a dependent variable. In effect, this allows us to estimate the extent to which, if at all, the relationship between food insecurity and temperature variability has evolved over time, by incorporating the dynamic pattern of this relationship. These specifications are computationally intensive and non-convergence issues are rather common. An econometric specification with time-varying coefficients and fixed-effects can be written as:<disp-formula id="Equ3"><label>3</label><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} y_{it} = \sum _{k = 1}^{K}(\bar{\beta _{k}} + \alpha _{ki} + \lambda _{kt})x_{kit} + \mu _{it} \end{aligned}$$\end{document}</tex-math><mml:math id="M18" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi mathvariant="italic">it</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:munderover><mml:mo>&#8721;</mml:mo><mml:mrow><mml:mi>k</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>K</mml:mi></mml:munderover><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mover accent="true"><mml:mrow><mml:msub><mml:mi>&#946;</mml:mi><mml:mi>k</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:mo stretchy="false">&#175;</mml:mo></mml:mrow></mml:mover><mml:mo>+</mml:mo><mml:msub><mml:mi>&#945;</mml:mi><mml:mrow><mml:mi mathvariant="italic">ki</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>&#955;</mml:mi><mml:mrow><mml:mi mathvariant="italic">kt</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:msub><mml:mi>x</mml:mi><mml:mrow><mml:mi mathvariant="italic">kit</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>&#956;</mml:mi><mml:mrow><mml:mi mathvariant="italic">it</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="41598_2022_8696_Article_Equ3.gif" position="anchor"/></alternatives></disp-formula>where <inline-formula id="IEq7"><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$y_{it}$$\end{document}</tex-math><mml:math id="M20"><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi mathvariant="italic">it</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq7.gif"/></alternatives></inline-formula> (the response variable) is the incidence of moderate to severe and severe food insecurity as measured by FIES; <inline-formula id="IEq8"><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\beta _{k}$$\end{document}</tex-math><mml:math id="M22"><mml:msub><mml:mi>&#946;</mml:mi><mml:mi>k</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq8.gif"/></alternatives></inline-formula> are coefficients that are constant over time and space; <inline-formula id="IEq9"><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\alpha _{ki}$$\end{document}</tex-math><mml:math id="M24"><mml:msub><mml:mi>&#945;</mml:mi><mml:mrow><mml:mi mathvariant="italic">ki</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq9.gif"/></alternatives></inline-formula> are coefficients that vary over cross-sectional units; <inline-formula id="IEq10"><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\lambda _{kt}$$\end{document}</tex-math><mml:math id="M26"><mml:msub><mml:mi>&#955;</mml:mi><mml:mrow><mml:mi mathvariant="italic">kt</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq10.gif"/></alternatives></inline-formula> are coefficients that vary over time; <inline-formula id="IEq11"><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$x_{kit}$$\end{document}</tex-math><mml:math id="M28"><mml:msub><mml:mi>x</mml:mi><mml:mrow><mml:mi mathvariant="italic">kit</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq11.gif"/></alternatives></inline-formula> are explanatory variable(s) (in our case temperature anomaly); while <inline-formula id="IEq12"><alternatives><tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{it}$$\end{document}</tex-math><mml:math id="M30"><mml:msub><mml:mi>&#956;</mml:mi><mml:mrow><mml:mi mathvariant="italic">it</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq12.gif"/></alternatives></inline-formula> is the error term. Since the coefficient <inline-formula id="IEq13"><alternatives><tex-math id="M31">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\beta$$\end{document}</tex-math><mml:math id="M32"><mml:mi>&#946;</mml:mi></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq13.gif"/></alternatives></inline-formula> depends on time <italic>t</italic>, the modeling bias and the <italic>curse of dimensionality</italic> can be reduced to some extent<sup><xref ref-type="bibr" rid="CR35">35</xref>,<xref ref-type="bibr" rid="CR36">36</xref></sup>. In our case, this is interesting as we are able to study the extent to which the temperature anomaly affects food insecurity over time. Our regression specification can be written as follows:<disp-formula id="Equ4"><label>4</label><alternatives><tex-math id="M33">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} FIES_{it} = \beta _{1}(\tau _{t})\varvec{V}_{it} + \gamma ^{\prime }(\tau _{t})\varvec{X_{it}} + \alpha _{i} + \mu _{it} \end{aligned}$$\end{document}</tex-math><mml:math id="M34" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mi>F</mml:mi><mml:mi>I</mml:mi><mml:mi>E</mml:mi><mml:msub><mml:mi>S</mml:mi><mml:mrow><mml:mi mathvariant="italic">it</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>&#946;</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>&#964;</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">V</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="italic">it</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msup><mml:mi>&#947;</mml:mi><mml:mo>&#8242;</mml:mo></mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>&#964;</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:msub><mml:mi mathvariant="bold-italic">X</mml:mi><mml:mrow><mml:mi mathvariant="bold-italic">it</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>+</mml:mo><mml:msub><mml:mi>&#945;</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>&#956;</mml:mi><mml:mrow><mml:mi mathvariant="italic">it</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="41598_2022_8696_Article_Equ4.gif" position="anchor"/></alternatives></disp-formula>Equation (<xref rid="Equ4" ref-type="">4</xref>) is a panel data regression model with time-varying coefficients and both location and time fixed-effects, where <inline-formula id="IEq14"><alternatives><tex-math id="M35">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$FIES_{it}$$\end{document}</tex-math><mml:math id="M36"><mml:mrow><mml:mi>F</mml:mi><mml:mi>I</mml:mi><mml:mi>E</mml:mi><mml:msub><mml:mi>S</mml:mi><mml:mrow><mml:mi mathvariant="italic">it</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq14.gif"/></alternatives></inline-formula> is the probability of moderate to severe food insecurity, or probability of severe food insecurity; <inline-formula id="IEq15"><alternatives><tex-math id="M37">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\varvec{V}_{it}$$\end{document}</tex-math><mml:math id="M38"><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">V</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="italic">it</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq15.gif"/></alternatives></inline-formula> is the temperature anomaly; and <inline-formula id="IEq16"><alternatives><tex-math id="M39">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\varvec{X_{it}}$$\end{document}</tex-math><mml:math id="M40"><mml:mrow><mml:msub><mml:mi mathvariant="bold-italic">X</mml:mi><mml:mrow><mml:mi mathvariant="bold-italic">it</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq16.gif"/></alternatives></inline-formula> is a vector of relevant variables affecting food insecurity including sub-national HDI and extreme events (droughts); while <inline-formula id="IEq17"><alternatives><tex-math id="M41">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{it}$$\end{document}</tex-math><mml:math id="M42"><mml:msub><mml:mi>&#956;</mml:mi><mml:mrow><mml:mi mathvariant="italic">it</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq17.gif"/></alternatives></inline-formula> is a random error term. All variables are recorded for different locations with index <italic>i</italic>
+<inline-formula id="IEq18"><alternatives><tex-math id="M43">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$=$$\end{document}</tex-math><mml:math id="M44"><mml:mo>=</mml:mo></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq18.gif"/></alternatives></inline-formula> 1, ... , N and over a number of years <italic>t</italic>
+<inline-formula id="IEq19"><alternatives><tex-math id="M45">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$=$$\end{document}</tex-math><mml:math id="M46"><mml:mo>=</mml:mo></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq19.gif"/></alternatives></inline-formula> 1, ... , T. The time-varying coefficients allow us to examine whether the relationship between temperature anomaly and food insecurity has evolved over time.</p>

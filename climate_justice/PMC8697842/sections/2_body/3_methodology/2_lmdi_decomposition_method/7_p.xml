@@ -1,0 +1,46 @@
+<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" id="Par56">where,<disp-formula id="Equ10"><label>10</label><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Delta {\mathrm{IE}}_{0}^{T}=L\left(C\left(T\right),C\left(0\right)\right)\mathrm{ln}\left(\frac{\mathrm{IE}\left(T\right)}{\mathrm{IE}\left(0\right)}\right)$$\end{document}</tex-math><mml:math id="M20" display="block"><mml:mrow><mml:mi mathvariant="normal">&#916;</mml:mi><mml:msubsup><mml:mi mathvariant="normal">IE</mml:mi><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mi>T</mml:mi></mml:msubsup><mml:mo>=</mml:mo><mml:mi>L</mml:mi><mml:mfenced close=")" open="("><mml:mi>C</mml:mi><mml:mfenced close=")" open="("><mml:mi>T</mml:mi></mml:mfenced><mml:mo>,</mml:mo><mml:mi>C</mml:mi><mml:mfenced close=")" open="("><mml:mn>0</mml:mn></mml:mfenced></mml:mfenced><mml:mi mathvariant="normal">ln</mml:mi><mml:mfenced close=")" open="("><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">IE</mml:mi><mml:mfenced close=")" open="("><mml:mi>T</mml:mi></mml:mfenced></mml:mrow><mml:mrow><mml:mi mathvariant="normal">IE</mml:mi><mml:mfenced close=")" open="("><mml:mn>0</mml:mn></mml:mfenced></mml:mrow></mml:mfrac></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="12053_2021_10014_Article_Equ10.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ11"><label>11</label><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Delta {\mathrm{POP}}_{0}^{T}=L\left(C\left(T\right),C\left(0\right)\right)\mathrm{ln}\left(\frac{\mathrm{POP}\left(T\right)}{\mathrm{POP}\left(0\right)}\right)$$\end{document}</tex-math><mml:math id="M22" display="block"><mml:mrow><mml:mi mathvariant="normal">&#916;</mml:mi><mml:msubsup><mml:mi mathvariant="normal">POP</mml:mi><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mi>T</mml:mi></mml:msubsup><mml:mo>=</mml:mo><mml:mi>L</mml:mi><mml:mfenced close=")" open="("><mml:mi>C</mml:mi><mml:mfenced close=")" open="("><mml:mi>T</mml:mi></mml:mfenced><mml:mo>,</mml:mo><mml:mi>C</mml:mi><mml:mfenced close=")" open="("><mml:mn>0</mml:mn></mml:mfenced></mml:mfenced><mml:mi mathvariant="normal">ln</mml:mi><mml:mfenced close=")" open="("><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">POP</mml:mi><mml:mfenced close=")" open="("><mml:mi>T</mml:mi></mml:mfenced></mml:mrow><mml:mrow><mml:mi mathvariant="normal">POP</mml:mi><mml:mfenced close=")" open="("><mml:mn>0</mml:mn></mml:mfenced></mml:mrow></mml:mfrac></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="12053_2021_10014_Article_Equ11.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ12"><label>12</label><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Delta {\mathrm{ES}}_{0}^{T}=L\left(C\left(T\right),C\left(0\right)\right)\mathrm{ln}\left(\frac{\mathrm{ES}\left(T\right)}{\mathrm{ES}\left(0\right)}\right)$$\end{document}</tex-math><mml:math id="M24" display="block"><mml:mrow><mml:mi mathvariant="normal">&#916;</mml:mi><mml:msubsup><mml:mi mathvariant="normal">ES</mml:mi><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mi>T</mml:mi></mml:msubsup><mml:mo>=</mml:mo><mml:mi>L</mml:mi><mml:mfenced close=")" open="("><mml:mi>C</mml:mi><mml:mfenced close=")" open="("><mml:mi>T</mml:mi></mml:mfenced><mml:mo>,</mml:mo><mml:mi>C</mml:mi><mml:mfenced close=")" open="("><mml:mn>0</mml:mn></mml:mfenced></mml:mfenced><mml:mi mathvariant="normal">ln</mml:mi><mml:mfenced close=")" open="("><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">ES</mml:mi><mml:mfenced close=")" open="("><mml:mi>T</mml:mi></mml:mfenced></mml:mrow><mml:mrow><mml:mi mathvariant="normal">ES</mml:mi><mml:mfenced close=")" open="("><mml:mn>0</mml:mn></mml:mfenced></mml:mrow></mml:mfrac></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="12053_2021_10014_Article_Equ12.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ13"><label>13</label><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Delta {\mathrm{EI}}_{0}^{T}=L\left(C\left(T\right),C\left(0\right)\right)\mathrm{ln}\left(\frac{\mathrm{EI}\left(T\right)}{\mathrm{EI}\left(0\right)}\right)$$\end{document}</tex-math><mml:math id="M26" display="block"><mml:mrow><mml:mi mathvariant="normal">&#916;</mml:mi><mml:msubsup><mml:mi mathvariant="normal">EI</mml:mi><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mi>T</mml:mi></mml:msubsup><mml:mo>=</mml:mo><mml:mi>L</mml:mi><mml:mfenced close=")" open="("><mml:mi>C</mml:mi><mml:mfenced close=")" open="("><mml:mi>T</mml:mi></mml:mfenced><mml:mo>,</mml:mo><mml:mi>C</mml:mi><mml:mfenced close=")" open="("><mml:mn>0</mml:mn></mml:mfenced></mml:mfenced><mml:mi mathvariant="normal">ln</mml:mi><mml:mfenced close=")" open="("><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">EI</mml:mi><mml:mfenced close=")" open="("><mml:mi>T</mml:mi></mml:mfenced></mml:mrow><mml:mrow><mml:mi mathvariant="normal">EI</mml:mi><mml:mfenced close=")" open="("><mml:mn>0</mml:mn></mml:mfenced></mml:mrow></mml:mfrac></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="12053_2021_10014_Article_Equ13.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ14"><label>14</label><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Delta {\mathrm{CI}}_{0}^{T}=L\left(C\left(T\right),C\left(0\right)\right)\mathrm{ln}\left(\frac{\mathrm{CI}\left(T\right)}{\mathrm{CI}\left(0\right)}\right)$$\end{document}</tex-math><mml:math id="M28" display="block"><mml:mrow><mml:mi mathvariant="normal">&#916;</mml:mi><mml:msubsup><mml:mi mathvariant="normal">CI</mml:mi><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mi>T</mml:mi></mml:msubsup><mml:mo>=</mml:mo><mml:mi>L</mml:mi><mml:mfenced close=")" open="("><mml:mi>C</mml:mi><mml:mfenced close=")" open="("><mml:mi>T</mml:mi></mml:mfenced><mml:mo>,</mml:mo><mml:mi>C</mml:mi><mml:mfenced close=")" open="("><mml:mn>0</mml:mn></mml:mfenced></mml:mfenced><mml:mi mathvariant="normal">ln</mml:mi><mml:mfenced close=")" open="("><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">CI</mml:mi><mml:mfenced close=")" open="("><mml:mi>T</mml:mi></mml:mfenced></mml:mrow><mml:mrow><mml:mi mathvariant="normal">CI</mml:mi><mml:mfenced close=")" open="("><mml:mn>0</mml:mn></mml:mfenced></mml:mrow></mml:mfrac></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="12053_2021_10014_Article_Equ14.gif" position="anchor"/></alternatives></disp-formula></p>

@@ -1,0 +1,1092 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xml:lang="en" article-type="discussion"><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-journalpublishing1.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jats2jats3.xsl?><?ConverterInfo.Version 1?><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">Integr Comp Biol</journal-id><journal-id journal-id-type="iso-abbrev">Integr Comp Biol</journal-id><journal-id journal-id-type="publisher-id">icb</journal-id><journal-title-group><journal-title>Integrative and Comparative Biology</journal-title></journal-title-group><issn pub-type="ppub">1540-7063</issn><issn pub-type="epub">1557-7023</issn><publisher><publisher-name>Oxford University Press</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">8300940</article-id><article-id pub-id-type="pmid">33871032</article-id><article-id pub-id-type="doi">10.1093/icb/icab025</article-id><article-id pub-id-type="publisher-id">icab025</article-id><article-categories><subj-group subj-group-type="heading"><subject>S11 Biology&#x02019;s Best Friend: Bridging Disciplinary Gaps to Advance Canine Science</subject></subj-group><subj-group subj-group-type="category-taxonomy-collection"><subject>AcademicSubjects/SCI00960</subject></subj-group></article-categories><title-group><article-title>Climate Change and Companion Animals: Identifying Links and Opportunities for Mitigation and Adaptation Strategies</article-title></title-group><contrib-group><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-9992-3101</contrib-id><name><surname>Protopopova</surname><given-names>Alexandra</given-names></name><xref rid="icab025-cor1" ref-type="corresp"/><xref rid="icab025-aff1" ref-type="aff">1</xref><!--a.protopopova@ubc.ca--></contrib><contrib contrib-type="author"><name><surname>Ly</surname><given-names>Lexis H</given-names></name><xref rid="icab025-aff1" ref-type="aff">1</xref></contrib><contrib contrib-type="author"><name><surname>Eagan</surname><given-names>Bailey H</given-names></name><xref rid="icab025-aff1" ref-type="aff">1</xref></contrib><contrib contrib-type="author"><name><surname>Brown</surname><given-names>Kelsea M</given-names></name><xref rid="icab025-aff2" ref-type="aff">2</xref></contrib></contrib-group><aff id="icab025-aff1"><label>1</label><institution>Faculty of Land and Food Systems, Animal Welfare Program, University of British Columbia</institution>, Vancouver, British Columbia, <country country="CA">Canada</country></aff><aff id="icab025-aff2"><label>2</label><institution>Independent Research Scientist</institution>, Chicago, IL, <country country="US">USA</country></aff><author-notes><corresp id="icab025-cor1">E-mail: <email>a.protopopova@ubc.ca</email></corresp></author-notes><pub-date pub-type="collection"><month>7</month><year>2021</year></pub-date><pub-date pub-type="epub" iso-8601-date="2021-04-19"><day>19</day><month>4</month><year>2021</year></pub-date><pub-date pub-type="pmc-release"><day>19</day><month>4</month><year>2021</year></pub-date><volume>61</volume><issue>1</issue><fpage>166</fpage><lpage>181</lpage><permissions><copyright-statement>&#x000a9; The Author(s) 2021. Published by Oxford University Press on behalf of the Society for Integrative and Comparative Biology.</copyright-statement><copyright-year>2021</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="icab025.pdf"/><abstract><title>Synopsis</title><p>Recent natural disasters and weather extremes are a stark reminder that we live in a climate crisis. Climate scientists and policymakers have asked each discipline to anticipate and create mitigation and adaptation plans in preparation for a worsening future. Companion animals both impact and are impacted by the changing climate through their intrinsically linked relationships to human society. In this theoretical paper, we argue that companion animal scientists are well-suited to address climate change issues. We identify several anticipated climate change outcomes, such as an increase in extreme weather events, human migration, disasters, and an increase in human inequity, and connect these outcomes to identified or hypothesized impacts on companion animals and the human&#x02013;animal bond. We suggest opportunities to reduce climate change impacts on companion animals that include alterations to owner caretaking behaviors and breeding practices, and education of owners and governments on zoonosis and disaster preparedness. Furthermore, building climate resilience through decreasing inequity in companion animal fields is paramount; and we propose that a starting place can be in animal sheltering and other support services. We also summarize how companion animals and owners&#x02019; caretaking behaviors are impacting climate change through the use of finite natural resources as well as pollution and carbon emissions. We propose that replacement, reduction, and refinement, that guide laboratory animal research, can also be useful to mitigate the effects of companion animals on the environment. We suggest criteria for successful mitigation and adaptation plans to include equitability, sustainability, respect for animals, and measurability. Finally, we end on a call to all companion animal professionals to actively consider their role in mitigating the impact of companion animals on the climate and preparing for the fallout of climate change in their communities.</p></abstract><counts><page-count count="16"/></counts></article-meta></front><body><sec><title>Introduction</title><p>On April 22, 2016&#x02014;Earth Day&#x02014;nearly 200 nations worldwide signed the Paris Agreement within the United Nations Framework Convention on Climate Change (<xref rid="icab025-B75" ref-type="bibr">IPCC 2014</xref>). Since then, countries have implemented strategies to reduce greenhouse gas (GHG) emissions and allocated funds and resources to combating climate change (<xref rid="icab025-B43" ref-type="bibr">Eskander and Fankhauser 2020</xref>). However, the burden to act does not fall solely on federal, state, and provincial governments. As scientists, we can advance the Paris Agreement&#x02019;s goals in our own scientific and applied fields by examining how we may lessen the current impact of our study population on the climate (&#x0201c;mitigation strategies&#x0201d;) and how we may lessen the harmful effects of impending climate outcomes on our study population (&#x0201c;adaptation strategies&#x0201d;; <xref rid="icab025-B53" ref-type="bibr">Grafakos et al. 2019</xref>). The intersection of global climate change and companion animal&#x02013;human interaction, and its application, has yet to be seriously addressed (<xref rid="icab025-B139" ref-type="bibr">Stephen et al. 2019</xref>).</p><sec><title>Projected impacts of climate change</title><p>The World Health Organization (WHO) has declared climate change to be the most significant threat to public health (<xref rid="icab025-B158" ref-type="bibr">World Health Organization 2019</xref>). A devastating collection of global consequences have been forecast; scientists anticipate necessary costly adaptations due to rising sea levels, forced displacement, and migration (<xref rid="icab025-B98" ref-type="bibr">Marchiori and Schumacher 2011</xref>; <xref rid="icab025-B71" ref-type="bibr">Hoffmann et al. 2020</xref>), shrinking productivity of harvests, widespread poverty (<xref rid="icab025-B88" ref-type="bibr">Leichenko and Silva 2014</xref>), new and increasing diseases (<xref rid="icab025-B78" ref-type="bibr">Kalkstein and Smoyer 1993</xref>; c.f., <xref rid="icab025-B121" ref-type="bibr">Rohr et al. 2011</xref>; <xref rid="icab025-B37" ref-type="bibr">Davidson et al. 2012</xref>; <xref rid="icab025-B110" ref-type="bibr">Otranto et al. 2017</xref>), freshwater shortages, increased warfare (<xref rid="icab025-B161" ref-type="bibr">Zhang et al. 2007a</xref>, <xref rid="icab025-B162" ref-type="bibr">2007b</xref>), social injustices, and depletion of natural resources (<xref rid="icab025-B99" ref-type="bibr">Martens et al. 2019</xref>).</p><p>Scientists predict that climate change will further escalate the frequency and intensity of extreme weather events, leading to more disasters disrupting communities globally (<xref rid="icab025-B10" ref-type="bibr">Banholzer et al. 2014</xref>). For example, as a result of melting land ice and the expansion of warmer seawater, global sea level is expected to rise by 0.3&#x02013;2.4&#x02009;m by 2100, leading to increased flooding due to storm surges and high tides (<xref rid="icab025-B29" ref-type="bibr">Church and White 2011</xref>). Hurricanes in the North Atlantic are projected to become more intense and higher in frequency and duration (<xref rid="icab025-B15" ref-type="bibr">Bhatia et al. 2019</xref>). Higher temperatures are increasing the size and occurrence of wildfires, as well as lengthening the wildfire season in many areas (<xref rid="icab025-B24" ref-type="bibr">Cassell et al. 2019</xref>). By the end of the century, extreme heat events are expected to occur every few years (NASA, 2021).</p><p>A particularly cruel aspect of climate change is that the negative impacts will disproportionately affect those who are already marginalized: people of color and lower-income communities (<xref rid="icab025-B9" ref-type="bibr">B Corp Climate Collective 2021</xref>). At the same time, social injustices are expected to <italic toggle="yes">increase</italic> in the wake of climate change (<xref rid="icab025-B76" ref-type="bibr">Islam and Winkel 2017</xref>; <xref rid="icab025-B40" ref-type="bibr">Diffenbaugh and Burke 2019</xref>). Existing racial and economic inequities will be exacerbated by mass migration of populations (<xref rid="icab025-B98" ref-type="bibr">Marchiori and Schumacher 2011</xref>; <xref rid="icab025-B71" ref-type="bibr">Hoffmann et al. 2020</xref>), competition for increasingly limited resources (<xref rid="icab025-B155" ref-type="bibr">Wheeler and Von Braun 2013</xref>; <xref rid="icab025-B77" ref-type="bibr">Janssens et al. 2020)</xref>, and growing political unrest (<xref rid="icab025-B161" ref-type="bibr">Zhang et al. 2007a</xref>; <xref rid="icab025-B104" ref-type="bibr">Nardulli et al. 2015</xref>). Thus, responding to and preventing further social injustices is a crucial component of comprehensive climate change mitigation and adaptation strategies.</p></sec><sec><title>Companion animals are relevant to climate change discussions</title><p>Companion animals play a significant role in society and the world economy. While global estimates of companion animals are unknown, in 2018 over 373 million cats and 471 million dogs were estimated to be kept as companion animals worldwide (<xref rid="icab025-B165" ref-type="bibr">Euromonitor 2019</xref>, as cited in <xref rid="icab025-B135" ref-type="bibr">Sivewright and Kreuger 2019</xref>). This is likely a considerable underestimation due to the number of unregistered animals, other companion animal species not being accounted for (e.g., birds, reptiles, and small mammals), and the continual rise of companion animal ownership (<xref rid="icab025-B99" ref-type="bibr">Martens et al. 2019</xref>). The number of free-roaming domestic dogs worldwide is an estimated 700 million to 1 billion (<xref rid="icab025-B72" ref-type="bibr">Hughes and Macdonald 2013</xref>; <xref rid="icab025-B51" ref-type="bibr">Gompper 2014</xref> as cited in <xref rid="icab025-B142" ref-type="bibr">Sykes et al. 2020</xref>), and worldwide free-roaming cat population estimates are over 480 million (<xref rid="icab025-B23" ref-type="bibr">CAROcat 2021</xref>).</p><p>People spend monetary and natural resources on their companion animals. The global pet care and supplies market is &#x0223c;225 billion USD and is expected to increase to 359 billion by 2027 (<xref rid="icab025-B50" ref-type="bibr">GlobeNewswire 2020</xref>). In addition, people incorporate their pets&#x02019; needs into daily decisions. A study of elderly, low-income residents of the United States reported that 8% would stay at home with their pets during an emergency evacuation, with another 16% stating they would not leave without their pets (<xref rid="icab025-B123" ref-type="bibr">Rosenkoetter et al. 2007</xref>). More recently, <xref rid="icab025-B169" ref-type="bibr">Applebaum et al. (2020)</xref> found that &#x0003e;10% of survey participants said they might delay or avoid treatment of COVID-19 due to concerns for their pet&#x02019;s welfare. Because of this intense connection with humans, companion animals as well as the human&#x02013;animal bond are directly and indirectly affected by global issues (<xref rid="icab025-B142" ref-type="bibr">Sykes et al. 2020</xref>), such as the consequences of climate change.</p><p>Furthermore, companion animals and their care requirements likely contribute to climate change. As many households consider pets as family members, with some even reporting feeling closer to their pets than human family members (<xref rid="icab025-B12" ref-type="bibr">Barker and Barker 1988</xref>; <xref rid="icab025-B152" ref-type="bibr">Walsh 2009a</xref>), owners spend substantial time and resources ensuring care for their companion animals. As such, owner behaviors have direct impacts on climate change. Production of companion animal food is considered a &#x0201c;neglected predictor of environmental damage&#x0201d; (<xref rid="icab025-B140" ref-type="bibr">Su et al. 2018</xref>). <xref rid="icab025-B108" ref-type="bibr">Okin (2017)</xref> estimated that, in the United States, cat and dog diets account for &#x0223c;30% of the environmental impacts of food production; however, on a global scale, these impacts are perhaps lower. While companion animal food was previously restricted to nonhuman-grade and waste products, a trend of &#x0201c;humanization&#x0201d; of pet food is occurring (<xref rid="icab025-B30" ref-type="bibr">Clemens 2014</xref>). Many guardians now prefer human-grade ingredients with high-animal protein content and may feed an excess of nutrients, further increasing the environmental impact (<xref rid="icab025-B141" ref-type="bibr">Swanson et al. 2013</xref>). In fact, shifting preferences currently make companion animal feed a direct competitor to human food consumption (<xref rid="icab025-B99" ref-type="bibr">Martens et al. 2019</xref>); a notable concern considering that climate change is increasing global food insecurity (<xref rid="icab025-B46" ref-type="bibr">FAO, IFAD, UNICEF, WFP, and WHO 2020</xref>).</p><p>Despite these connections, companion animal scientists and practitioners have been relatively silent on issues of climate change. An anecdotal review of various veterinary associations revealed that none identified climate change as a priority area (<xref rid="icab025-B139" ref-type="bibr">Stephen et al. 2019</xref>). At the same time, veterinary professionals reported enthusiasm for taking leadership roles in climate change topics, but this enthusiasm was curtailed by a lack of educational resources (<xref rid="icab025-B83" ref-type="bibr">Kramer et al. 2020</xref>; <xref rid="icab025-B117" ref-type="bibr">Pollard et al. 2020</xref>). A recent call to action aimed at veterinarians provided a framework for situating the veterinary community to combat climate change. The identified connections included promoting animal health as part of climate change plans, communicating the implications of climate change on various animal populations, educating lawmakers on animal health, including climate change curriculum in veterinary education, among several others (<xref rid="icab025-B139" ref-type="bibr">Stephen et al. 2019</xref>). However, veterinarians are not the only ones who can make an impact.</p></sec><sec><title>Companion animal scientists are ideally suited to contribute to climate issues</title><p>Scientists who study companion animal&#x02013;human interactions are also well-suited to contribute to conversations regarding climate change. Working toward sustainable climate mitigation and adaptation strategies requires us to engage in whole-systems thinking rather than focus on individual components (<xref rid="icab025-B138" ref-type="bibr">Stephen 2021</xref>). Strengthening the ability for researchers to be &#x0201c;specialized generalists&#x0201d; that are capable of bringing both specialized knowledge of their field as well as a significant capacity to collaborate with other fields is necessary for climate resiliency research (<xref rid="icab025-B112" ref-type="bibr">Parkes 2021</xref>). Companion animal scientists are already &#x0201c;specialized generalists,&#x0201d; with most studying both biological sciences as well as the social aspects of the human&#x02013;animal relationship. Researchers who study companion animals have backgrounds in many different kinds of disciplines, ranging from animal and veterinary science (e.g., <xref rid="icab025-B151" ref-type="bibr">Van Haaften et al. 2017</xref>), psychology (e.g., <xref rid="icab025-B160" ref-type="bibr">Wynne 2016</xref>), biology (e.g., <xref rid="icab025-B91" ref-type="bibr">Lindblad-Toh et al. 2005</xref>), anthropology (e.g., <xref rid="icab025-B96" ref-type="bibr">MacLean et al. 2017</xref>), public health (e.g., <xref rid="icab025-B13" ref-type="bibr">Bauman et al. 2001</xref>), nursing (e.g., <xref rid="icab025-B11" ref-type="bibr">Banks et al. 2008</xref>), and even archeology and biogeography (e.g., <xref rid="icab025-B86" ref-type="bibr">Larson et al. 2012</xref>), among many others. And many companion animal focused conferences bring together differing disciplines. In fact, companion animal scientists are embracing the One Health and/or One Welfare framework, which recognizes the connection between humans, animals, and the environment (<xref rid="icab025-B142" ref-type="bibr">Sykes et al. 2020</xref>). This interdisciplinary and holistic framework identifies that multiple systems are intrinsically linked and interventions must be understood as part of a whole&#x02014;wherein improving the health/well-being of one of the three facets ultimately improves the others (<xref rid="icab025-B116" ref-type="bibr">Pinillos et al. 2016</xref>). As such, companion animal scientists may already be experienced in systems thinking and collaborations across disciplines in their work, positioning them well for incorporating climate change complexities into their research.</p><p>Furthermore, many researchers within the field of human&#x02013;animal interaction work in close collaboration with their population communities conducting applied research and extension work, such as directly advising pet owners and members of the pet industry (dog trainers, animal shelter staff, pet food companies, etc.). Industry conferences invite scientific as well as industry perspectives. Therefore, companion animal scientists are in an ideal position to implement direct changes in current practices. Given that the translation and broad implementation of newly discovered scientific knowledge takes a substantial amount of time (<xref rid="icab025-B103" ref-type="bibr">Morris et al. 2011</xref>), already established working relationships between companion animal scientists and companion animal stakeholders are likely to reduce research-to-implementation time lags. Given the urgency of climate change, these already established relationships are a significant benefit.</p></sec></sec><sec><title>Authors&#x02019; objectives</title><p>In this article, we follow the recommendations set forth in the Paris Agreement by first identifying how the impact of climate change directly and indirectly affects companion animals and the human&#x02013;animal bond, and identifying how companion animals contribute to climate change. Second, we identify opportunities for mitigation and adaptation strategies to both prepare for the fallout of climate change as well as lessen the negative impacts of companion animals on climate change. Finally, we highlight features of successful and just adaptation plans as outlined by social scientists and end on a call to all companion animal professionals to actively consider their role in mitigating the impact of companion animals on the climate and preparing to adapt to the fallout of climate change.</p></sec><sec><title>Impact of climate change on companion animals</title><sec><title>Extreme weather events and weather changes</title><p>Increasing warm weather&#x02014;an outcome predicted to occur with high likelihood&#x02014;has a direct impact on companion animal health. Several animal welfare organizations have already reported that incidences of dogs dying in hot cars are increasing (<xref rid="icab025-B18" ref-type="bibr">British Veterinary Association 2019</xref>; <xref rid="icab025-B134" ref-type="bibr">Shih et al. 2019</xref>). Increase in warm temperature also has an alarming correlation with an increase in dog bites (<xref rid="icab025-B2" ref-type="bibr">Ahmed et al. 2019</xref>) and rabies infections in dogs (<xref rid="icab025-B84" ref-type="bibr">Lachica et al. 2020</xref>). An increase in droughts may also worsen the rabies epidemic as rabies infection has been negatively correlated with precipitation (<xref rid="icab025-B32" ref-type="bibr">Courtin et al. 2000</xref>; <xref rid="icab025-B84" ref-type="bibr">Lachica et al. 2020</xref>).</p><p>One global impact of climate change is the increased spread of infectious diseases, including vector borne and zoonotic diseases (<xref rid="icab025-B53878789" ref-type="bibr">Mills et al. 2010</xref>). Climate change has allowed for the geographic range of vector species to expand or shift, thus exposing greater animal and human populations to diseases, as well as unknown emerging zoonoses (<xref rid="icab025-B53878789" ref-type="bibr">Mills et al. 2010</xref>). Similarly, climate change impacts the carrying capacity of ecosystems, which can alter the population density of host or vector species (<xref rid="icab025-B53878789" ref-type="bibr">Mills et al. 2010</xref>). Increasing warm weather has already been found to increase the prevalence of ticks and tick-borne illnesses such as Lyme disease (<xref rid="icab025-B92" ref-type="bibr">Lindgren and Gustafson 2001</xref>; <xref rid="icab025-B55" ref-type="bibr">Gray et al. 2009</xref>; <xref rid="icab025-B44" ref-type="bibr">Estrada-Pe&#x000f1;a et al. 2012</xref>). While Canada&#x02019;s southern border was previously the northern extreme of the tick&#x02019;s geographic range, surveillance of Lyme disease in humans and animals shows that climate warming contributes to the emergence of Lyme disease beyond previously known ranges (<xref rid="icab025-B107" ref-type="bibr">Ogden et al. 2019</xref>). Heartworm infections have also been found to vary according to climate and weather patterns (<xref rid="icab025-B102" ref-type="bibr">McGill et al. 2019</xref>; <xref rid="icab025-B143" ref-type="bibr">Sz&#x000e9;ll et al. 2020</xref>).</p><p>A further harm may come from people reacting to a changing climate by changing their animal caretaking behaviors. An increase in hot weather and extreme weather events may lead to a reduction of exercise opportunities for companion dogs (<xref rid="icab025-B129" ref-type="bibr">Schneider et al. 2015</xref>), which may further exacerbate pet obesity (<xref rid="icab025-B74" ref-type="bibr">Hurley et al. 2011</xref>). As dog walking and other mutual activities improve the human&#x02013;dog bond and may protect against behavioral problems, such as barking, hyperactivity, and aggression (<xref rid="icab025-B82" ref-type="bibr">Kobelt et al. 2003</xref>; <xref rid="icab025-B14" ref-type="bibr">Bennett and Rohlf 2007</xref>; <xref rid="icab025-B35" ref-type="bibr">Curb et al. 2013</xref>), a decrease in walking opportunities may endanger the bond and lead to increased relinquishment of dogs to shelters.</p><p>The frost-free season&#x02019;s length is projected to increase by at least 1&#x02009;month by the year 2100 across the United States (NASA, 2021). Anecdotally, animal shelters are concerned that longer summers mean a longer kitten season by increasing kitten survival rates, decreasing latency to sexual maturity, or increasing prey abundance (<xref rid="icab025-B7" ref-type="bibr">Arlington 2016</xref>). This may further worsen the urgent issue of cat overpopulation. Moreover, researchers have predicted that free-roaming cat populations will increase as human emissions increase&#x02014;a likely outcome as human populations continue to rise (<xref rid="icab025-B1" ref-type="bibr">Aguilar et al. 2015</xref>).</p></sec><sec><title>Human migration and companion animals</title><p>The Intergovernmental Panel on Climate Change (IPCC) warns that the most significant single impact of climate change will be in human migration events as humans will outnumber their local environments&#x02019; carrying capacities. Typical estimates report that 200 million people are expected to become &#x0201c;climate refugees&#x0201d; by 2050 (nearly 3% of the world population, c.f. <xref rid="icab025-B163" ref-type="bibr">Brown 2008</xref>). As companion animals go where people go, we can also assume a higher proportion of companion animals will also be migrating with their owners. Long-distance transport is a direct stressor for companion animals. Dogs show behavioral and physiological markers of stress during ground and air transport (<xref rid="icab025-B164" ref-type="bibr">Bergeron et al. 2002</xref>). Cats are likely at an even higher risk of substantial distress as they show an acute stress response even to short-distance travel between the home and a veterinary clinic (<xref rid="icab025-B166" ref-type="bibr">Nibblett et al. 2015</xref>). Imported and transported animals may also bring &#x0201c;exotic&#x0201d; zoonotic diseases that are not endemic at destination communities (<xref rid="icab025-B180" ref-type="bibr">Anderson et al. 2019</xref>; <xref rid="icab025-B181" ref-type="bibr">Polak 2019</xref>). For example, an increased movement of dogs, albeit shelter not pet dogs, from southern to northern Europe resulted in the introduction of new parasites (<xref rid="icab025-B110" ref-type="bibr">Otranto et al. 2017</xref>). Further, rabies is domestically controlled across many countries, but imported dogs may pose serious risk of introducing foreign variants, which can directly affect human health and cause the establishment of novel canine rabies strains (<xref rid="icab025-B172" ref-type="bibr">McQuiston et al. 2008</xref>).</p><p>On the other hand, people may elect to leave their companion animals behind as they are forced to move. Pet abandonment during evacuation is a commonly reported issue in disasters (<xref rid="icab025-B170" ref-type="bibr">Edmonds and Cutter 2008</xref>). Pet evacuation failure is related to the human&#x02013;animal bond&#x02014;pet owners with lower attachment and commitment scores are more likely to evacuate without their pets (<xref rid="icab025-B68" ref-type="bibr">Heath et al. 2001</xref>). Pet owners report many reasons for leaving their animals behind, including believing they will return to the animal shortly, being away from home at the time of disaster, or being unable to take animals to emergency accommodations (<xref rid="icab025-B152" ref-type="bibr">Walsh 2009a</xref>; <xref rid="icab025-B174" ref-type="bibr">Chur&#x02010;Hansen 2010</xref>). A leading cause of surrender of companion animals into shelters is moving (<xref rid="icab025-B31" ref-type="bibr">Coe et al. 2014</xref>; <xref rid="icab025-B168" ref-type="bibr">Lambert et al. 2015</xref>; <xref rid="icab025-B175" ref-type="bibr">Jensen et al. 2020</xref>). Owned and unowned animals left behind during emergencies may pose additional health risks to humans and animals, including increased transmission of zoonotic disease, contamination of water and food, and increased aggression toward other animals and humans due to fear (<xref rid="icab025-B89" ref-type="bibr">Leonard and Scammon 2007</xref>; <xref rid="icab025-B149" ref-type="bibr">Travis 2014</xref>).</p></sec><sec><title>Opportunities to reduce climate change impact on companion animals</title><p>Preserving the health of companion animals in a warming climate involves alterations in both owner behaviors as well as breeding practices. Aside from educating owners on the increased risks of leaving their pets in hot cars, more indirect opportunities may exist to safeguard animals. For example, obesity plays a key role in heat tolerance (<xref rid="icab025-B60" ref-type="bibr">Hall et al. 2020</xref>). Unfortunately, an estimate of 60% of companion animals in the United States are overweight or obese (<xref rid="icab025-B5" ref-type="bibr">APOP 2019</xref>) and are thus at a higher risk for heat-related medical concerns. Furthermore, whereas brachycephalic breeds, such as French bulldogs and Chow Chows, are highly popular, they are also at a higher risk for heatstroke (<xref rid="icab025-B38" ref-type="bibr">Davis et al. 2017</xref>; <xref rid="icab025-B60" ref-type="bibr">Hall et al. 2020</xref>). These risk factors are another reason to control the pet obesity epidemic and improve breeding practices to avoid phenotypes such as brachycephaly, which directly cause health and welfare concerns for individual animals (<xref rid="icab025-B85" ref-type="bibr">Ladlow et al. 2018</xref>; <xref rid="icab025-B65" ref-type="bibr">Harvey et al. 2019</xref>; <xref rid="icab025-B111" ref-type="bibr">Packer et al. 2019</xref>; <xref rid="icab025-B60" ref-type="bibr">Hall et al. 2020</xref>).</p><p>Increasing ranges of parasites and infectious diseases threaten both animal and human health, and researchers have identified the role of both veterinary and medical practitioners in educating the public about related risks (<xref rid="icab025-B36" ref-type="bibr">Damborg et al. 2016</xref>). However, companion animal research is lacking in the area of emerging zoonoses in comparison to other facets of animal use. For example, there are global surveillance programs in place to track the emergence and prevalence of zoonoses in wildlife and livestock; the same surveillance measures in companion animals will likely be needed (<xref rid="icab025-B39" ref-type="bibr">Day et al. 2012</xref>; <xref rid="icab025-B52" ref-type="bibr">Goni et al. 2018</xref>). The One Health paradigm emphasizes that the majority of emerging infectious diseases in humans will derive from animal reservoirs, although the focus of this pathway is mainly on livestock and wildlife (<xref rid="icab025-B177" ref-type="bibr">Overgaauw et al. 2020</xref>). However, companion animals can also serve as possible sources of zoonotic infections (<xref rid="icab025-B173" ref-type="bibr">Halliday et al. 2007</xref>). Pet ownership is a unique risk for zoonotic disease transfer due to the consistently close proximity of pets to humans. Over time, more dogs and cats are spending increased time indoors with their owners (<xref rid="icab025-B39" ref-type="bibr">Day et al. 2012</xref>), which may both increase risk to humans due to increased proximity, but also decrease risk due to increased vaccinations and sanitation. Because zoonosis falls at a distinctive intersection of human and animal health, it is crucial to understand the role of companion animals in this domain.</p><p>Whereas an increase in heatstroke and increased risk of disease in companion animals has already been identified as a current outcome of the changing climate, other impacts are hypothesized. Therefore, opportunities may include further research into owner caretaking behaviors during increasingly warm weather and the relationship between pet relinquishment, human migration events, and the changing climate. Identifying interventions to reduce transport-associated stress in companion animals, such as the use of anxiolytic medications (e.g., <xref rid="icab025-B151" ref-type="bibr">Van Haaften et al. 2017</xref>), will likely be essential.</p><p>We have identified a few confirmed and hypothesized impacts on companion animal health; however, there are certainly many more opportunities that exist to prepare and reduce the harm of the changing climate on companion animals. The next section will draw several more links between the climate outcomes and harms to the human&#x02013;companion animal bond.</p></sec></sec><sec><title>Impact of climate change on the human&#x02013;animal bond</title><sec><title>Disasters and companion animals</title><p>Disasters such as wildfires, hurricanes, and flooding are likely to increase in frequency (<xref rid="icab025-B10" ref-type="bibr">Banholzer et al. 2014</xref>). The strength of the human&#x02013;animal bond is particularly evident during times of disaster, where pet owners often choose to risk their own lives to save animals from fires, floods, and hurricanes (<xref rid="icab025-B144" ref-type="bibr">Thompson 2013</xref>). Even though previous events outline the importance of pet-related planning during disasters, very few governments&#x02019; disaster plans incorporate companion animals. For pet owners, dealing with disasters is contingent on decision making about not only themselves, but also the animals in their households (<xref rid="icab025-B148" ref-type="bibr">Travers et al. 2017</xref>). Research shows that pet ownership increases risk of evacuation noncompliance and unauthorized early re-entry attempts. Evacuation noncompliance not only creates risks to both the pet owner and the animal, but also to emergency response teams in the community (<xref rid="icab025-B27" ref-type="bibr">Chadwin 2017</xref>). Difficult decisions during emergencies and natural disasters elevate risk for pet owners, their animals, and the community, indicating that the human&#x02013;animal bond should not be trivialized when planning for these events.</p><p>Forced separation from pets can negatively impact the mental health of pet owners. Losing a pet in the case of natural disaster leads to significant grief and mourning (<xref rid="icab025-B73" ref-type="bibr">Hunt et al. 2008</xref>). Pet loss increases risk of post-traumatic stress and intensifies the severity of depressive symptoms following a disaster (<xref rid="icab025-B61" ref-type="bibr">Hall et al. 2004</xref>; <xref rid="icab025-B93" ref-type="bibr">Lowe et al. 2009</xref>). Finally, families that are separated from companion animals during disasters face further challenges when attempting to find their pets&#x02014;and reunion rates remain low (<xref rid="icab025-B70" ref-type="bibr">Heath and Linnabary 2015</xref>).</p></sec><sec><title>Opportunities for preserving the human&#x02013;animal bond during disasters</title><p>In response to previous major disasters, new measures have been introduced to protect companion animals and owners in the future: because of the fallout from Hurricane Katrina, the Pet Evacuation and Transportation Standards Act in the United States now requires provisioning of pet-friendly shelters after a disaster (<xref rid="icab025-B176" ref-type="bibr">Reed et al. 2020</xref>). However, research on pet-related disaster planning is mainly limited to the Anglosphere, and research and policy implementation are still needed globally. For example, approximately 10,000 owned dogs were reported dead after the 2011 earthquakes in Japan (<xref rid="icab025-B171" ref-type="bibr">Yamazaki 2015</xref>). Furthermore, there must be greater considerations for companion animals during disasters in at risk areas, such as those with greater vulnerable human and animal populations. For instance, the Philippines, a highly disaster-prone country due to its location, also has a high population of free ranging dogs, which could place further risks to both humans and animals during times of disaster (<xref rid="icab025-B178" ref-type="bibr">Davlin et al. 2013</xref>; <xref rid="icab025-B179" ref-type="bibr">De Leon and Pittock 2017</xref>). And finally, countries around the world will have to consider their distinctive natural and social environments, as communities will ultimately be impacted differently by the increasing threat of disasters due to climate change.</p><p>Although pet ownership creates an increased risk during disasters, companion animals simultaneously increase resilience for humans (<xref rid="icab025-B145" ref-type="bibr">Thompson et al. 2014</xref>). Companion animals reduce distress associated with traumatic events, and the human&#x02013;animal bond can act as a strong support following disasters (<xref rid="icab025-B144" ref-type="bibr">Thompson 2013</xref>). The strength of the human&#x02013;companion animal bond therefore warrants proper consideration during disaster preparation and management. Continued research on the human&#x02013;companion animal relationship during crises will certainly serve to better prepare for impacts of future pandemics and other disasters.</p></sec><sec><title>Human vulnerabilities and inequities</title><p>Emergency decisions during disasters are shaped by external forces, meaning that the effects of disasters on pet owners are even greater when coupled with other vulnerabilities. Structural factors such as community disaster preparedness, proximity to human and animal emergency services, availability of transportation, and knowledge about disasters can impact responses (<xref rid="icab025-B45" ref-type="bibr">Every et al. 2016</xref>). On top of that, social factors such as age, race/ethnicity, and socioeconomic status can contribute to further vulnerability during and following disasters (<xref rid="icab025-B145" ref-type="bibr">Thompson et al. 2014</xref>). For example, older adults are less likely to have the ability to drive, which decreases the likelihood of being able to access nearby animal shelters (<xref rid="icab025-B41" ref-type="bibr">Douglas et al. 2019</xref>). Minority and immigrant populations are more vulnerable to disasters due to lack of access to disaster-related information in a native language, including those pertaining to pet evacuation (<xref rid="icab025-B100" ref-type="bibr">Mathew and Kelly 2008</xref>). Individuals experiencing poverty may face additional financial barriers, as some pet-friendly evacuation shelters require pets to be recently vaccinated prior to entry (<xref rid="icab025-B41" ref-type="bibr">Douglas et al. 2019</xref>). Some may not own sufficient carriers for their pets to evacuate safely, which has been identified as a significant hindrance to the evacuation process (<xref rid="icab025-B68" ref-type="bibr">Heath et al. 2001</xref>). Following disasters, pet owners who live in rental dwellings face serious difficulties finding pet-friendly rentals, and may end up needing to relinquish their animals or live in unsafe dwellings to keep their pets (<xref rid="icab025-B31" ref-type="bibr">Coe et al. 2014</xref>; <xref rid="icab025-B54" ref-type="bibr">Graham and Rock 2019</xref>).</p><p>With increased competition for natural resources, migration of human populations across the globe, and growing political unrest (<xref rid="icab025-B161" ref-type="bibr">Zhang et al. 2007a</xref>; <xref rid="icab025-B98" ref-type="bibr">Marchiori and Schumacher 2011</xref>; <xref rid="icab025-B155" ref-type="bibr">Wheeler and Von Braun 2013</xref>; <xref rid="icab025-B104" ref-type="bibr">Nardulli et al. 2015</xref>; <xref rid="icab025-B71" ref-type="bibr">Hoffmann et al. 2020</xref>; <xref rid="icab025-B77" ref-type="bibr">Janssens et al. 2020)</xref>, the resulting expected increase in human inequities and injustices will doubtless affect companion animal ownership. Veterinarians report that access to veterinary care is one of the main challenges for pet health in North America (<xref rid="icab025-B87" ref-type="bibr">LaVallee et al. 2017</xref>; <xref rid="icab025-B64" ref-type="bibr">Harding 2018</xref>). Individuals of lower socioeconomic status are less likely to have regular visits to their veterinarians and experience pet care deserts (<xref rid="icab025-B47" ref-type="bibr">Fung et al. 2014</xref>; <xref rid="icab025-B136" ref-type="bibr">Spencer et al. 2017</xref>; <xref rid="icab025-B147" ref-type="bibr">Tran et al. 2019</xref>). Likewise, human vulnerabilities predicted increased risk of surrendering animals for owner-related reasons and surrendering animals that were not considered healthy upon intake (<xref rid="icab025-B94" ref-type="bibr">Ly et al. 2021</xref>). Furthermore, whereas most diseases affecting companion animals are not commonly transmitted to healthy humans, immunocompromised individuals face a higher risk of developing any zoonosis (<xref rid="icab025-B28" ref-type="bibr">Chuang et al. 2008</xref>); due to the link between poverty and health, the most at-risk individuals may be the least informed about risks of zoonotic disease transmission (<xref rid="icab025-B137" ref-type="bibr">Steele and Mor 2015</xref>).</p></sec><sec><title>Building climate resilience through decreasing inequity in companion animal fields</title><p>Racism, poverty, and other structural inequities are insipid and undermine the human&#x02013;animal bond. Studies of racial disparities and companion animal welfare are sparse and primarily confined to the United States. Racial discrimination in housing and pet restrictions were also recently reported (<xref rid="icab025-B122" ref-type="bibr">Rose et al. 2020</xref>) and another study found that police shootings of dogs cluster in low-income communities of color (<xref rid="icab025-B16" ref-type="bibr">Bloch and Mart&#x000ed;nez 2020</xref>). A lack of racial diversity in US animal welfare volunteers has been reported (<xref rid="icab025-B106" ref-type="bibr">Neumann 2010</xref>) and the reasoning for underrepresentation of Black Americans in animal welfare has been explored via semi-structured interviews (<xref rid="icab025-B19" ref-type="bibr">Brown 2005</xref>). Social injustices are inextricably linked to climate change, and without immediate action will only worsen. Thus, we must get better at incorporating systemic social issues into our work. When we consider the intersection of social justice issues and companion animal science, an obvious starting place is animal sheltering. Animal sheltering and associated services touch the lives of most members in a community. Within its purview, animal services may provide necessary veterinary care for animals, reunite families with lost pets, enforce local, state, and federal laws concerning welfare and containment, and are side-by-side with first responders in a myriad of situations including during mental health crises (e.g., hoarding), paramedic emergencies (e.g., a car accident with a pet present), and in response to criminal activity (e.g., when a person&#x02019;s pet is present during an apprehension in the community). Because of this breadth of work, there are ample opportunities to examine and improve procedures to ensure that these government agencies will serve all community members with equity and justice.</p><p>Though academics have been relatively quiet concerning social justice issues, it appears that awareness of inequity in companion animal sheltering has been increasing (e.g., <xref rid="icab025-B97" ref-type="bibr">Marceau 2019</xref>; <xref rid="icab025-B57" ref-type="bibr">Guenther 2020</xref>). The discussion has come mainly from activists in other fields (e.g., sociology, civil rights law) and from animal welfare nonprofit organizations (e.g., <xref rid="icab025-B66" ref-type="bibr">HASS 2021</xref>; <xref rid="icab025-B114" ref-type="bibr">PFL 2021</xref>), rather than researchers working in companion animal science. However, there is ample opportunity for scientists to incorporate climate justice studies into their existing work. For example, researchers who focus on shelter operations and adoption programs can include data on whether new or existing programs differentially affect vulnerable populations. Restrictive application processes involved in pet adoption&#x02014;which often require potential adopters to live in a single-family house, have a backyard, allow a home visit to determine if the family is a &#x0201c;good fit,&#x0201d; or bring the entire family for a meet-and-greet&#x02014;likely disproportionately affect Black, Indigenous, and People of Color. The subjective nature of home visits opens the door to racial and economic discrimination. Additional criteria such as excluding persons with a criminal history, persons who have previously relinquished a pet, or persons who do not have an established relationship with a veterinarian are even more opportunities for racial and socio-economic discrimination. Basic operating procedures, such as business hours and location, may also cater to particular racial, socio-economic, able-bodied, and age-specific demographics (<xref rid="icab025-B20" ref-type="bibr">Buley 2017</xref>). These are all understudied topics that could be incorporated into companion animal science research. Doing so would not only generate knowledge, but the data could be used to scientifically back policy change and create adaptation strategies for a more equitable future.</p><p>Even though working for social justice is certainly important for its own right, it also presents a crucial path to building resilient communities that can withstand climate change impacts. As climate change differentially impacts vulnerable communities, reducing inequity is a direct climate adaptation goal (<xref rid="icab025-B75" ref-type="bibr">IPCC 2014</xref>). As such, we encourage not just our fellow scientists, but all companion animal professionals&#x02014;nonprofit advocacy organizations, government animal service agencies, private rescues, veterinarians, grant makers, dog trainers, pet store owners, educators, groomers, boarders, pet product companies, and anyone else who considers themselves a companion animal advocate&#x02014;to seize this moment to be better. Incorporate anti-racist policies into every aspect of your work. Ensure that your staff are diverse and representative of your community. Commit to effective education of diversity, inclusion, and equity for all organization members. Examine your policies&#x02014;written and unwritten&#x02014;and find areas where you can be more equitable. Doing so is not only morally imperative, but it will undoubtedly serve to increase climate resiliency within our field.</p></sec></sec><sec><title>Companion animals contributing to climate change and exacerbating climate outcomes</title><p>Whereas previous sections draw links between the outcomes of climate change and its impacts on animals and the human&#x02013;animal bond, it is also essential to highlight how companion animals, themselves, are contributing to the changing climate. The large estimates of companion animal populations worldwide suggest considerable environmental costs from natural resource use and pollution, most substantially so, from animal food production. Studies of GHG emissions and the ecological pawprint (EPP; a measure of the amount of productive land required) of companion animal food production consistently demonstrate pronounced environmental impacts and use of natural resources (<xref rid="icab025-B150" ref-type="bibr">Vale and Vale 2009</xref>; <xref rid="icab025-B125" ref-type="bibr">Rushforth and Moreau 2013</xref>; <xref rid="icab025-B108" ref-type="bibr">Okin 2017</xref>; <xref rid="icab025-B99" ref-type="bibr">Martens et al. 2019</xref>; <xref rid="icab025-B3" ref-type="bibr">Alexander et al. 2020</xref>). Globally, <xref rid="icab025-B3" ref-type="bibr">Alexander et al. (2020)</xref> estimate that pet food contributes 1.1&#x02013;2.9% of global agriculture GHG emissions and &#x0223c;1% of global agricultural land use. The EPP and GHG emissions depend on a number of factors including the size and species being fed (larger species typically have a worse environmental impact), the meat sources used, and the energy systems used in food production. Premium cat food was estimated to have 3.3 times higher GHG emissions than market-premium food (<xref rid="icab025-B3" ref-type="bibr">Alexander et al. 2020</xref>). This means that a family who has multiple large dogs who are fed human-grade commercially-bought beef may present the most unsustainable pet ownership practices. In comparison, a family with pet rats, who may eat human leftovers, may present a more sustainable option based on such modeling.</p><p>Aside from feeding companion animals, other owner caretaking behaviors are also likely to have an environmental impact. For example, dog owners may use their personal car to bring their dog for exercise opportunities (e.g., walks in a natural area, dog parks, etc.; <xref rid="icab025-B101" ref-type="bibr">Mattioli et al. 2016</xref>). However, the transport sector accounts for more than a quarter of all energy use and produces substantial carbon dioxide emissions (<xref rid="icab025-B75" ref-type="bibr">IPCC 2014</xref>). Furthermore, waste&#x02014;especially plastic waste&#x02014;is a rapidly increasing threat to global health due to its resistance to decomposition (<xref rid="icab025-B4" ref-type="bibr">Andrady 2011</xref>). Most animal care products, including food, toys, waste disposal bags, and veterinary medical supplies are composed of single-use plastics. Since 1950, over 7,800 million metric tonnes of plastics have been produced&#x02014;over half of which occurred since 2004 (<xref rid="icab025-B49" ref-type="bibr">Geyer et al. 2017</xref>). Plastic pollution environments can have damaging physical impacts, such as animal entanglement (<xref rid="icab025-B48" ref-type="bibr">Gall and Thompson 2015</xref>) and habitat destruction (<xref rid="icab025-B131" ref-type="bibr">Sheavly and Register 2007</xref>). Plastic pollution also has chemical effects, with toxicity effects bioaccumulating up the food chain (<xref rid="icab025-B159" ref-type="bibr">Worm et al. 2017</xref>). However, the impacts of companion animal care on contributing to plastic pollution is not well studied&#x02014;albeit with the estimated 99 billion USD pet industry (APPA 2021) in the United States alone, it is likely that pet toys and supplies are probable contributors to waste pollution.</p><sec><title>Opportunities to mitigate impact of companion animals on climate change</title><p>Mitigation interventions to reduce the sources of GHG is an important objective as outlined in the Fifth Assessment Report of the IPCC (<xref rid="icab025-B75" ref-type="bibr">IPCC 2014</xref>). Human activities are the primary contributors to climate change, and a global focus on mitigating these impacts remains of utmost importance. However, considering the large, growing population of companion animals and their demonstrated environmental impacts, the need to implement mitigation strategies is also clear. &#x0201c;The Three R&#x02019;s&#x0201d; that guide laboratory animal use in research to reduce animal suffering&#x02014;replacement, reduction, and refinement (first conceived by <xref rid="icab025-B126" ref-type="bibr">Russell and Burch 1959</xref>; <xref rid="icab025-B26" ref-type="bibr">CCAC 2021</xref>) may also prove useful in environmental contexts. While some presented solutions may have varying feasibility depending on the individual and context, we present proposed solutions considering this replacement, refinement, and reduction framework for developing mitigation strategies. That being said, these suggestions are based on authors&#x02019; opinion and would greatly benefit from modeling strategies to identify the maximum reduction in emissions while safeguarding animal health and welfare and retaining benefits to companion animal owners.</p><p>Replacement refers to avoiding or replacing animal use when possible. Proposed replacement strategies to decrease the environmental impact of companion animal needs have been suggested by <xref rid="icab025-B150" ref-type="bibr">Vale and Vale (2009)</xref> including selecting smaller over larger dogs, selecting cats over dogs, and selecting companion animal species that are more sustainable. Alternative companion animals may be such that can utilize human food waste without significant health impacts (e.g., rats, pigs, etc.) or produce human food themselves (e.g., egg-laying hens).</p><p>Reduction refers to a strategy of fewer animals being used when possible. In the United States, &#x0223c;38% of households own dogs and 25% own cats, with an average of 1.6 dogs and 1.8 cats per household (AVMA 2021). Reduction of the number of animals kept as companions could reduce the EPP of companion animal care (<xref rid="icab025-B99" ref-type="bibr">Martens et al. 2019</xref>). Reduction strategies may include sharing ownership of animals across multiple families, adopting existing animals rather than breeding new animals, and having temporary ownership such as fostering or pet sitting arrangements. Programs that target reducing free ranging populations, where harmful to people or the environment, may also be considered within this strategy. For example, humane Trap-Neuter-Vaccinate-Return programs for feral cats have been successful in certain contexts to reduce overall numbers of community cats that may be harmful to biodiversity (c.f. <xref rid="icab025-B33" ref-type="bibr">Crawford et al. 2019</xref>; <xref rid="icab025-B128" ref-type="bibr">Schaffner et al. 2019</xref>).</p><p>Finally, refinement includes any modifications to animal care or procedures that can minimize negative impacts. Refinements in feeding animals may include a consideration of pet food ingredients as well as the quantity of food fed. Owners overfeeding their pets also have a negative impact on both the environment (<xref rid="icab025-B125" ref-type="bibr">Rushforth and Moreau 2013</xref>; <xref rid="icab025-B141" ref-type="bibr">Swanson et al. 2013</xref>; <xref rid="icab025-B130" ref-type="bibr">Schwartz 2014</xref>; <xref rid="icab025-B99" ref-type="bibr">Martens et al. 2019</xref>) and pet health. Replacement of high GHG emitting and high EPP meat sources (such as beef) in companion animal food with other sources such as poultry and fish (<xref rid="icab025-B150" ref-type="bibr">Vale and Vale 2009</xref>; <xref rid="icab025-B130" ref-type="bibr">Schwartz 2014</xref>), lab-grown meat equivalents (<xref rid="icab025-B140" ref-type="bibr">Su et al. 2018</xref>), insect-based protein (<xref rid="icab025-B63" ref-type="bibr">Han et al. 2017</xref>), or plant-based sources in diets have been considered (<xref rid="icab025-B115" ref-type="bibr">Pimentel and Pimentel 2003</xref>; <xref rid="icab025-B119" ref-type="bibr">Reijnders and Soret 2003</xref>; <xref rid="icab025-B157" ref-type="bibr">Wirsenius et al. 2010</xref>; <xref rid="icab025-B108" ref-type="bibr">Okin 2017</xref>). Alternative diets such as a vegetarian or insect-based diets may be a more environmentally conscious food source for companion animal diets (<xref rid="icab025-B81" ref-type="bibr">Knight and Leitsberger 2016</xref> ; <xref rid="icab025-B62" ref-type="bibr">Halloran et al. 2017</xref>). Furthermore, utilizing by-products that are not suitable for human consumption may significantly reduce the EPP (<xref rid="icab025-B3" ref-type="bibr">Alexander et al. 2020</xref>). Refinement in this context may include increasing bioavailability and digestibility of food (<xref rid="icab025-B141" ref-type="bibr">Swanson et al. 2013</xref>) or processing human food waste into companion animal food (<xref rid="icab025-B118" ref-type="bibr">Rastogi 2010</xref>; <xref rid="icab025-B25" ref-type="bibr">Castrica et al. 2018</xref>). In fact, free ranging dogs utilize both human food waste as well as human excrement effectively (<xref rid="icab025-B21" ref-type="bibr">Butler et al. 2018</xref>), so reversal of the modern approach of using commercial dog food may be additionally considered. However, understanding the complete environmental impacts of food production and the determination of associated species-specific nutritional adequacy is needed. Further refinements, which may include reducing and replacing plastic toys and waste disposal bags, could be other simple changes to decrease environmental damage. Strategies to reduce predation by owned cats include restricting or managing outdoor access, wearable predation prevention devices such as specialized collars and bells, and nutrition and activity interventions (<xref rid="icab025-B167" ref-type="bibr">Cecchetti et al. 2020</xref>). However, developing humane cat predation prevention procedures while simultaneously meeting cat welfare needs remains an urgent need in both feline and climate research. Finally, appropriate selection of a companion animal to match the owner&#x02019;s current climate may reduce impacts. For example, purchasing a long-coated dog with cold climate origins in a hot climate will likely result in the owner providing additional air conditioning in the home, trips to a groomer, and using a personal vehicle for safe exercise opportunities&#x02014;all of which will likely have negative environmental impacts.</p><p>Overall, considering the growing population of companion animals worldwide and the resulting widespread use of natural resources, developing strategies for both individuals and industries to mitigate the effect of companion animals is vital. Furthermore, gaining a better understanding of feasibility and impact of mitigation strategies is needed. It is possible, for example, that switching from one pet food to another may reduce EPP, but is this reduction negligible or meaningful on a global scale (see discussion in <xref rid="icab025-B3" ref-type="bibr">Alexander et al. 2020</xref>)? Likewise, companion animal ownership and caretaking behaviors must be considered in the full array of human activity. When considering overall harms and benefits of companion animal ownership, it is important to consider whether pet ownership itself improves pro-environmental behaviors in society. Attachment to pets positively influences children&#x02019;s later attitudes toward animals (<xref rid="icab025-B113" ref-type="bibr">Paul and Serpell 1993</xref>; <xref rid="icab025-B67" ref-type="bibr">Hawkins and Williams 2017</xref>), but the relationship between pet ownership in childhood and later concerns for environmental issues is less clear (<xref rid="icab025-B113" ref-type="bibr">Paul and Serpell 1993</xref>). However, pet-owning children that practiced more pet-caring behaviors were also more environmentally concerned (<xref rid="icab025-B146" ref-type="bibr">Torkar et al. 2020</xref>). Likewise, having a high attachment to the pet, rather than being an owner, was a determinant of subsequent vegetarian or vegan diets in adulthood (<xref rid="icab025-B124" ref-type="bibr">Rothgerber and Mican 2014</xref>). Pet owners, generally, are more supportive of wildlife management strategies that prevent species extinction, but are also opposed to wildlife conservation strategies that restrict pet ownership or associated behaviors (<xref rid="icab025-B22" ref-type="bibr">Shuttlewood et al. 2016</xref>)&#x02014;such as controlling free roaming cat populations (<xref rid="icab025-B56" ref-type="bibr">Grayson et al. 2002</xref>; <xref rid="icab025-B95" ref-type="bibr">McDonald et al. 2015</xref>) and leashing dogs (<xref rid="icab025-B156" ref-type="bibr">Williams et al. 2009</xref>). Similarly, while dog owners tend to walk more (<xref rid="icab025-B34" ref-type="bibr">Christian et al. 2018</xref>), they also tend to rely on private cars for getting to the exercise location (<xref rid="icab025-B80" ref-type="bibr">Kent and Mulley 2017</xref>). Finally, whereas popular media frequently suggests that pets are child substitutes and may lead to a decreased human population, research has not found a difference in the number of children by pet ownership (<xref rid="icab025-B127" ref-type="bibr">Saunders et al. 2017</xref>); in fact, having a child positively predicted dog ownership (<xref rid="icab025-B154" ref-type="bibr">Westgarth et al. 2007</xref>). Ultimately, more research is needed to better understand whether there is a causal link between pet ownership and environmentally-conscious behaviors. These questions further highlight the importance of systems thinking in the creation of mitigation and adaptation plans in our field.</p></sec></sec><sec><title>Considerations for constructing mitigation and adaptations strategies</title><p>As we work to identify mitigation or adaptation strategies for our field, we must keep several things in mind - our plans must be (1) equitable to protect human wellbeing (<xref rid="icab025-B132" ref-type="bibr">Shi et al. 2016</xref>), (2) sustainable and not contribute to the worsening of the climate (<xref rid="icab025-B42" ref-type="bibr">Eriksen et al. 2011</xref>), (3) respect animal health, welfare, and agency (<xref rid="icab025-B133" ref-type="bibr">Shields and Orme-Evans 2015</xref>), and (4) measurable (<xref rid="icab025-B59" ref-type="bibr">Haasnoot et al. 2018</xref>; <xref rid="icab025-B109" ref-type="bibr">Olazabal et al. 2019</xref>). These requirements may present unique challenges and further highlight the need for systems thinking.</p><p>Because the human&#x02013;animal bond is profound (<xref rid="icab025-B152" ref-type="bibr">Walsh 2009a</xref>, <xref rid="icab025-B153" ref-type="bibr">2009b</xref>), mitigation and adaptation plans must aim to keep owners and their animals together. When considering plans involving companion animals, their considerable value in our lives must be recognized. An example of a plan that would not pass the mark may be programs to eradicate free ranging populations of urban animals, such as dogs. Whereas reducing populations of urban animals may ameliorate concerns of zoonotic diseases, these programs must be implemented only with the backing of the target communities. A devastating example of a harmful approach is capturing and rehoming free ranging dogs in Indigenous communities in Canada. This has been done repeatedly and without permission, with &#x0201c;rescuers&#x0201d; unaware or indifferent to the reality that these dogs were community-owned, cared for, and culturally important. This blatant stealing caused direct harm to owners and sabotaged working relationships between Indigenous communities and other animal welfare advocates (<xref rid="icab025-B17" ref-type="bibr">Bressette 2020</xref>).</p><p>The integration of indigenous or traditional knowledge has been identified as a necessary inclusion into successful, feasible, and ethical adaptation plans (<xref rid="icab025-B120" ref-type="bibr">Riedlinger and Berkes 2001</xref>; <xref rid="icab025-B58" ref-type="bibr">Gyampoh et al. 2009</xref>; <xref rid="icab025-B90" ref-type="bibr">Leonard et al. 2013</xref>). Committing to climate justice in companion animal science and welfare may take on many forms. It necessitates not only that we adapt our research goals, but also that we modify all aspects of our professional duties such as inclusive hiring, partnering with indigenous leaders, and re-examining our philosophies and procedures to ensure alignment with anti-racist and anti-colonial teaching.</p><p>Adaptation strategies must strive to not negatively impact the environment and thus, not contribute to the changing climate. Fear of emerging zoonotic disease may increase the use of antibiotics and thus protect the health of human and nonhuman animals in the short-term but is also likely to significantly harm long-term public health through increasing prevalence of antimicrobial resistance&#x000a0;(AMR)&#x02014;an example of an unsustainable plan of action. Plans must also respect animal health and welfare. For example, the promotion of alternative diets, such as vegetarian diets, by companion animals may be beneficial in GHG emissions, but may also present animal health risks (e.g., <xref rid="icab025-B79" ref-type="bibr">Kanakubo et al. 2015</xref>). This presents an opportunity for collaboration between researchers in animal health, veterinarians, and climate scientists, given the veterinary field&#x02019;s expressed interest, but perceived lack of opportunity, to address climate change in their work (<xref rid="icab025-B83" ref-type="bibr">Kramer et al. 2020</xref>; <xref rid="icab025-B117" ref-type="bibr">Pollard et al. 2020</xref>).</p><p>A final, crucial aspect of an adaptation plan is that the impact is measurable (<xref rid="icab025-B59" ref-type="bibr">Haasnoot et al. 2018</xref>; <xref rid="icab025-B109" ref-type="bibr">Olazabal et al. 2019</xref>). The hypothesized increase in community resilience following the implementation of the plan must be measured and reported, and if insufficient progress is demonstrated, amended. Social and climate scientists designed several high-level approaches that may be utilized to create adaptation plans, but all plans tell us to focus on immediate identified needs and amend when new needs or deficiencies are discovered (<xref rid="icab025-B59" ref-type="bibr">Haasnoot et al. 2018</xref>). Thus, we do not need to succumb to inaction caused by future uncertainties of climate change and the overwhelming amount of work that needs to be done, but instead focus on what is just in front of us and needs doing.</p></sec><sec><title>Conclusion</title><p>Climate change has been recognized as the most urgent matter impacting human society. Companion animals impact and are impacted by the changing climate through their intrinsically linked relationships with people. And, companion animal scientists, who are often generalists and systems thinkers, are in an ideal position to address these impacts. As examples, we identified several climate change outcomes, such as warming temperature, migration of people, increases in disasters, crises, and human inequities, and attempted to connect these outcomes to already identified and hypothesized impacts on companion animals and the human&#x02013;animal relationship. We also summarized how companion animals and owners&#x02019; caretaking behaviors are impacting climate change through the use of finite natural resources as well as pollution and carbon emissions. We end on some considerations on creating mitigation and adaptation plans with a focus on equity, sustainability, respect for animal health and welfare, and measurability as key features.</p><p>The stark reality is that our climate is changing and it is affecting every aspect of our lives, including our science, our study populations, and our communities. As scientists and global citizens, we must incorporate climate change mitigation and adaptation strategies into our work, even if we are not in the climate science field. We hope that in a near future, much more research on the relevance of companion animals to climate change will be conducted allowing us to clarify links&#x02014;reducing hypothetical assertions and providing clear directions to our communities. We hope that this is the beginning of a new, necessary conversation, and that as a field we can learn and grow together for a more just and resilient future.</p></sec><sec><title>Authors&#x02019; contribution </title><p>The idea for this work was conceived by A.P. All authors contributed equally to the writing and editing of this manuscript.</p></sec></body><back><ack id="ack1"><title>Acknowledgments</title><p>The authors would like to thank Craig Stephen and Nicholas Grant for their time in reading an earlier version of this manuscript and providing their expertise and feedback.</p><sec><title>Conflict of interest</title><p>The authors declare no conflicts of interest, financial or otherwise.</p></sec></ack><ref-list id="ref1"><title>References</title><ref id="icab025-B1"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Aguilar</surname><given-names>G</given-names>
+</string-name>, <string-name><surname>Farnworth</surname><given-names>M</given-names>
+</string-name>, <string-name><surname>Winder</surname><given-names>L.</given-names>
+</string-name></person-group>
+<year>2015</year>. 
+<article-title>Mapping the stray domestic cat (Felis catus) population in New Zealand: species distribution modelling with a climate change scenario and implications for protected areas</article-title>. <source>Appl Geograph</source>
+<volume>63</volume>:<fpage>146</fpage>&#x02013;<lpage>54</lpage>.</mixed-citation></ref><ref id="icab025-B2"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ahmed</surname><given-names>T</given-names>
+</string-name>, <string-name><surname>Asghar</surname><given-names>MW</given-names>
+</string-name>, <string-name><surname>Mushtaq</surname><given-names>MH.</given-names>
+</string-name></person-group>
+<year>2019</year>. 
+<article-title>A short report on epidemiological investigation of dog bite cases in association with temperature rise as a part of climate change</article-title>. <source>Adv Life Sci</source>
+<volume>6</volume>:<fpage>106</fpage>&#x02013;<lpage>9</lpage>.</mixed-citation></ref><ref id="icab025-B180"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Anderson</surname><given-names>MEC</given-names>
+</string-name>, <string-name><surname>Stull</surname><given-names>JW</given-names>
+</string-name>, <string-name><surname>Weese</surname><given-names>JS.</given-names>
+</string-name></person-group>
+<year>2019</year>. 
+<article-title>Impact of Dog Transport on High-Risk Infectious Diseases</article-title>. <source>Vet Clin North Am - Small Anim Pract</source>. <volume>49</volume>(<issue>4</issue>):<fpage>615</fpage>-<lpage>627</lpage>.<pub-id pub-id-type="pmid">30956001</pub-id></mixed-citation></ref><ref id="icab025-B3"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Alexander</surname><given-names>P</given-names>
+</string-name>, <string-name><surname>Berri</surname><given-names>A</given-names>
+</string-name>, <string-name><surname>Moran</surname><given-names>D</given-names>
+</string-name>, <string-name><surname>Reay</surname><given-names>D</given-names>
+</string-name>, <string-name><surname>Rounsevell</surname><given-names>MD.</given-names>
+</string-name></person-group>
+<year>2020</year>. 
+<article-title>The global environmental paw print of pet food</article-title>. <source>Global Environ Change</source>
+<volume>65</volume>:<fpage>102153</fpage>.</mixed-citation></ref><ref id="icab025-B4"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Andrady</surname><given-names>AL.</given-names>
+</string-name></person-group>
+<year>2011</year>. 
+<article-title>Microplastics in the marine environment</article-title>. <source>Mar Pollut Bull</source>
+<volume>62</volume>:<fpage>1596</fpage>&#x02013;<lpage>605</lpage>.<pub-id pub-id-type="pmid">21742351</pub-id></mixed-citation></ref><ref id="icab025-B169"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Applebaum</surname><given-names>JW</given-names>
+</string-name>, <string-name><surname>Tomlinson</surname><given-names>CA</given-names>
+</string-name>, <string-name><surname>Matijczak</surname><given-names>A</given-names>
+</string-name>, <string-name><surname>McDonald</surname><given-names>SE</given-names>
+</string-name>, <string-name><surname>Zsembik</surname><given-names>BA.</given-names>
+</string-name></person-group>
+<year>2020</year>. 
+<article-title>The concerns, difficulties, and stressors of caring for pets during covid-19: Results from a large survey of U</article-title>.<source>S. pet owners. Animals</source>
+<volume>10</volume>:<fpage>1</fpage>&#x02013;<lpage>14</lpage>.</mixed-citation></ref><ref id="icab025-B5"><mixed-citation publication-type="other">APOP. <year>2019</year>. U.S. Pet obesity rates plateau and nutritional confusion grows. (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://petobesityprevention.org/2018" ext-link-type="uri">https://petobesityprevention.org/2018</ext-link>). &#x000a0;Accessed on February 13, 2021.</mixed-citation></ref><ref id="icab025-B6"><mixed-citation publication-type="other">APPA. (<year>2021</year>). Pet industry market size &#x00026; ownership statistics [Press release]. (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.americanpetproducts.org/press_industrytrends.asp" ext-link-type="uri">https://www.americanpetproducts.org/press_industrytrends.asp</ext-link>).</mixed-citation></ref><ref id="icab025-B7"><mixed-citation publication-type="other"><person-group person-group-type="author"><string-name><surname>Arlington</surname><given-names>K.</given-names>
+</string-name></person-group>
+<year>2016</year>. Longer breeding seasons, more kittens: are cats reacting to climate change? <italic toggle="yes">The Sydney Morning Herald</italic>. (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.smh.com.au/national/nsw/longer-breeding-seasons-more-kittens-are-cats-reacting-to-climate-change-20160208-gmo5bl.html" ext-link-type="uri">https://www.smh.com.au/national/nsw/longer-breeding-seasons-more-kittens-are-cats-reacting-to-climate-change-20160208-gmo5bl.html</ext-link>).</mixed-citation></ref><ref id="icab025-B8"><mixed-citation publication-type="other">AVMA. (<year>2021</year>). U.S. pet ownership statistics. (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.avma.org/resources-tools/reports-statistics/us-pet-ownership-statistics" ext-link-type="uri">https://www.avma.org/resources-tools/reports-statistics/us-pet-ownership-statistics</ext-link>)</mixed-citation></ref><ref id="icab025-B9"><mixed-citation publication-type="other">B Corp Climate Collective. (<year>2021</year>). Climate justice. (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.bcorpclimatecollective.org/climate-justice" ext-link-type="uri">https://www.bcorpclimatecollective.org/climate-justice</ext-link>).</mixed-citation></ref><ref id="icab025-B10"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Banholzer</surname><given-names>S</given-names>
+</string-name>, <string-name><surname>Kossin</surname><given-names>J</given-names>
+</string-name>, <string-name><surname>Donner</surname><given-names>S.</given-names>
+</string-name></person-group>
+<year>2014</year>. <chapter-title>The impact of climate change on natural disasters</chapter-title>. <source>Reducing disaster: early warning systems for climate change</source>. 
+<publisher-loc>Berlin, Germany</publisher-loc>: 
+<publisher-name>Springer</publisher-name>. p. <fpage>21</fpage>&#x02013;<lpage>49</lpage>.</mixed-citation></ref><ref id="icab025-B11"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Banks</surname><given-names>MR</given-names>
+</string-name>, <string-name><surname>Willoughby</surname><given-names>LM</given-names>
+</string-name>, <string-name><surname>Banks</surname><given-names>WA.</given-names>
+</string-name></person-group>
+<year>2008</year>. 
+<article-title>Animal-assisted therapy and loneliness in nursing homes: use of robotic versus living dogs</article-title>. <source>J Am Med Direct Assoc</source>
+<volume>9</volume>:<fpage>173</fpage>&#x02013;<lpage>7</lpage>.</mixed-citation></ref><ref id="icab025-B12"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Barker</surname><given-names>SB</given-names>
+</string-name>, <string-name><surname>Barker</surname><given-names>RT.</given-names>
+</string-name></person-group>
+<year>1988</year>. 
+<article-title>The human-canine bond: closer than family ties?</article-title>
+<source>J Ment Health Couns</source>
+<volume>10</volume>:<fpage>46</fpage>&#x02013;<lpage>56</lpage>.</mixed-citation></ref><ref id="icab025-B13"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Bauman</surname><given-names>AE</given-names>
+</string-name>, <string-name><surname>Russell</surname><given-names>SJ</given-names>
+</string-name>, <string-name><surname>Furber</surname><given-names>SE</given-names>
+</string-name>, <string-name><surname>Dobson</surname><given-names>AJ.</given-names>
+</string-name></person-group>
+<year>2001</year>. 
+<article-title>The epidemiology of dog walking: an unmet need for human and canine health</article-title>. <source>Med J Australia</source>
+<volume>175</volume>:<fpage>632</fpage>&#x02013;<lpage>4</lpage>.<pub-id pub-id-type="pmid">11837871</pub-id></mixed-citation></ref><ref id="icab025-B14"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Bennett</surname><given-names>PC</given-names>
+</string-name>, <string-name><surname>Rohlf</surname><given-names>VI.</given-names>
+</string-name></person-group>
+<year>2007</year>. 
+<article-title>Owner-companion dog interactions: relationships between demographic variables, potentially problematic behaviours, training engagement and shared activities</article-title>. <source>Appl Anim Behav Sci</source>
+<volume>102</volume>:<fpage>65</fpage>&#x02013;<lpage>84</lpage>.</mixed-citation></ref><ref id="icab025-B164"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Bergeron</surname><given-names>R.</given-names>
+</string-name>, <string-name><surname>Scott</surname><given-names>S. L.</given-names>
+</string-name>, <string-name><surname>&#x000c9;mond</surname><given-names>J. P.</given-names>
+</string-name>, <string-name><surname>Mercier</surname><given-names>F.</given-names>
+</string-name>, <string-name><surname>Cook</surname><given-names>N. J.</given-names>
+</string-name>, <string-name><surname>Schaefer</surname><given-names>A. L.</given-names>
+</string-name></person-group> (<year>2002</year>). 
+<article-title>Physiology and behavior of dogs during air transport</article-title>. <source>Canadian Journal of Veterinary Research</source>, <volume>66</volume>(<issue>3</issue>), <fpage>211</fpage>.<pub-id pub-id-type="pmid">12146895</pub-id></mixed-citation></ref><ref id="icab025-B15"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Bhatia</surname><given-names>KT</given-names>
+</string-name>, <string-name><surname>Vecchi</surname><given-names>GA</given-names>
+</string-name>, <string-name><surname>Knutson</surname><given-names>TR</given-names>
+</string-name>, <string-name><surname>Murakami</surname><given-names>H</given-names>
+</string-name>, <string-name><surname>Kossin</surname><given-names>J</given-names>
+</string-name>, <string-name><surname>Dixon</surname><given-names>KW</given-names>
+</string-name>, <string-name><surname>Whitlock</surname><given-names>CE.</given-names>
+</string-name></person-group>
+<year>2019</year>. 
+<article-title>Recent increases in tropical cyclone intensification rates</article-title>. <source>Nat Commun</source>
+<volume>10</volume>:<fpage>1</fpage>&#x02013;<lpage>9</lpage>.<pub-id pub-id-type="pmid">30602773</pub-id></mixed-citation></ref><ref id="icab025-B16"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Bloch</surname><given-names>S</given-names>
+</string-name>, <string-name><surname>Mart&#x000ed;nez</surname><given-names>DE.</given-names>
+</string-name></person-group>
+<year>2020</year>. 
+<article-title>Canicide by cop: a geographical analysis of canine killings by police in Los Angeles</article-title>. <source>Geoforum</source>
+<volume>111</volume>:<fpage>142</fpage>&#x02013;<lpage>54</lpage>.</mixed-citation></ref><ref id="icab025-B17"><mixed-citation publication-type="other"><person-group person-group-type="author"><string-name><surname>Bressette</surname><given-names>A.</given-names>
+</string-name></person-group> (<year>2020</year>, December 11). The realities of animal welfare in indigenous communities. <italic toggle="yes">Thinking Out of The Shelter: Taking Animal Care Into the Community</italic>. (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ontariosheltermedicine.org/events/ce-archives/" ext-link-type="uri">https://www.ontariosheltermedicine.org/events/ce-archives/</ext-link>)&#x000a0;Accessed live on December 11, 2020.</mixed-citation></ref><ref id="icab025-B18"><mixed-citation publication-type="other">British Veterinary Association. (<year>2019</year>). Heatwave sparks dogs in hot cars calls as reports hit three year high. (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.bva.co.uk/news-campaigns-and-policy/newsroom/news-releases/heatwave-sparks-dogs-in-hot-cars-calls-as-reports-hit-three-year-high/" ext-link-type="uri">https://www.bva.co.uk/news-campaigns-and-policy/newsroom/news-releases/heatwave-sparks-dogs-in-hot-cars-calls-as-reports-hit-three-year-high/</ext-link>). Accessed on February 11, 2021.</mixed-citation></ref><ref id="icab025-B19"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Brown</surname><given-names>SE.</given-names>
+</string-name></person-group>
+<year>2005</year>. 
+<article-title>The under-representation of African Americans in animal welfare fields in the United States</article-title>. <source>Anthrozoos</source>
+<volume>18</volume>:<fpage>98</fpage>&#x02013;<lpage>121</lpage>.</mixed-citation></ref><ref id="icab025-B163"><mixed-citation publication-type="other"><person-group person-group-type="author"><string-name><surname>Brown</surname><given-names>O.</given-names>
+</string-name></person-group>, <year>2008</year>. Migration and climate change. United Nations. (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.un-ilibrary.org/content/books/9789213630235" ext-link-type="uri">https://www.un-ilibrary.org/content/books/9789213630235</ext-link>). Accessed February 21, 2021.</mixed-citation></ref><ref id="icab025-B20"><mixed-citation publication-type="other"><person-group person-group-type="author"><string-name><surname>Buley</surname><given-names>J.</given-names>
+</string-name></person-group> (<year>2017</year>). Assessing and addressing pet owner obstacles to companion animal care: Parvovirus prevention in Milwaukee. Paper presented at the International Forum for Applied Animal Behavior, Austin, TX.</mixed-citation></ref><ref id="icab025-B21"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Butler</surname><given-names>JR</given-names>
+</string-name>, <string-name><surname>Brown</surname><given-names>WY</given-names>
+</string-name>, <string-name><surname>Du Toit</surname><given-names>JT.</given-names>
+</string-name></person-group>
+<year>2018</year>. 
+<article-title>Anthropogenic food subsidy to a commensal carnivore: the value and supply of human faeces in the diet of free-ranging dogs</article-title>. <source>Animals</source>
+<volume>8</volume>:<fpage>67</fpage>.</mixed-citation></ref><ref id="icab025-B23"><mixed-citation publication-type="other">CAROcat. (<year>2021</year>). 
+<article-title>Statistics on cats</article-title>. (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://carocat.eu/statistics-on-cats-and-dogs/" ext-link-type="uri">http://carocat.eu/statistics-on-cats-and-dogs/</ext-link>).&#x000a0;Accessed on February 11, 2021.</mixed-citation></ref><ref id="icab025-B24"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Cassell</surname><given-names>BA</given-names>
+</string-name>, <string-name><surname>Scheller</surname><given-names>RM</given-names>
+</string-name>, <string-name><surname>Lucash</surname><given-names>MS</given-names>
+</string-name>, <string-name><surname>Hurteau</surname><given-names>MD</given-names>
+</string-name>, <string-name><surname>Loudermilk</surname><given-names>EL.</given-names>
+</string-name></person-group>
+<year>2019</year>. 
+<article-title>Widespread severe wildfires under climate change lead to increased forest homogeneity in dry mixed&#x02010;conifer forests</article-title>. <source>Ecosphere</source>
+<volume>10</volume>:<fpage>e02934</fpage>.</mixed-citation></ref><ref id="icab025-B25"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Castrica</surname><given-names>M</given-names>
+</string-name>, <string-name><surname>Tedesco</surname><given-names>DE</given-names>
+</string-name>, <string-name><surname>Panseri</surname><given-names>S</given-names>
+</string-name>, <string-name><surname>Ferrazzi</surname><given-names>G</given-names>
+</string-name>, <string-name><surname>Ventura</surname><given-names>V</given-names>
+</string-name>, <string-name><surname>Frisio</surname><given-names>DG</given-names>
+</string-name>, <string-name><surname>Balzaretti</surname><given-names>CM.</given-names>
+</string-name></person-group>
+<year>2018</year>. 
+<article-title>Pet food as the most concrete strategy for using food waste as feedstuff within the European context: a feasibility study</article-title>. <source>Sustainability</source>
+<volume>10</volume>:<fpage>2035</fpage>.</mixed-citation></ref><ref id="icab025-B26"><mixed-citation publication-type="other">CCAC. (<year>2021</year>). Three Rs and ethics. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://ccac.ca/en/three-rs-and-ethics/" ext-link-type="uri">https://ccac.ca/en/three-rs-and-ethics/</ext-link>.&#x000a0;Accessed on February 13, 2021.</mixed-citation></ref><ref id="icab025-B167"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Cecchetti</surname><given-names>M</given-names>
+</string-name>, <string-name><surname>Crowley</surname><given-names>SL</given-names>
+</string-name>, <string-name><surname>McDonald</surname><given-names>RA.</given-names>
+</string-name></person-group>
+<year>2020</year>. 
+<article-title>Drivers and facilitators of hunting behaviour in domestic cats and options for management</article-title>. <source>Mamm Rev</source>
+<volume>31</volume>:<fpage>1107</fpage>-<lpage>1111</lpage>.</mixed-citation></ref><ref id="icab025-B27"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Chadwin</surname><given-names>R.</given-names>
+</string-name></person-group>
+<year>2017</year>. 
+<article-title>Evacuation of pets during disasters: a public health intervention to increase resilience</article-title>. <source>Am J Public Health</source>
+<volume>107</volume>:<fpage>1413</fpage>&#x02013;<lpage>7</lpage>.<pub-id pub-id-type="pmid">28727532</pub-id></mixed-citation></ref><ref id="icab025-B28"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Chuang</surname><given-names>YM</given-names>
+</string-name>, <string-name><surname>Ho</surname><given-names>YC</given-names>
+</string-name>, <string-name><surname>Chang</surname><given-names>HT</given-names>
+</string-name>, <string-name><surname>Yu</surname><given-names>CJ</given-names>
+</string-name>, <string-name><surname>Yang</surname><given-names>PC</given-names>
+</string-name>, <string-name><surname>Hsueh</surname><given-names>PR.</given-names>
+</string-name></person-group>
+<year>2008</year>. 
+<article-title>Disseminated cryptococcosis in HIV-uninfected patients</article-title>. <source>Eur J Clin Microbiol Infect Dis</source>
+<volume>27</volume>:<fpage>307</fpage>&#x02013;<lpage>10</lpage>.<pub-id pub-id-type="pmid">18157678</pub-id></mixed-citation></ref><ref id="icab025-B174"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Chur-Hansen</surname><given-names>A.</given-names>
+</string-name></person-group>
+<year>2010</year>. 
+<article-title>Grief and bereavement issues and the loss of a companion animal: People living with a companion animal, owners of livestock, and animal support workers</article-title>. <source>Clin Psychol</source>
+<volume>14</volume>:<fpage>14</fpage>&#x02013;<lpage>21</lpage>.</mixed-citation></ref><ref id="icab025-B29"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Church</surname><given-names>JA</given-names>
+</string-name>, <string-name><surname>White</surname><given-names>NJ.</given-names>
+</string-name></person-group>
+<year>2011</year>. 
+<article-title>Sea-level rise from the late 19th to the early 21st century</article-title>. <source>Surv Geophys</source>
+<volume>32</volume>:<fpage>585</fpage>&#x02013;<lpage>602</lpage>.</mixed-citation></ref><ref id="icab025-B30"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Clemens</surname><given-names>R.</given-names>
+</string-name></person-group>
+<year>2014</year>. 
+<article-title>The &#x02018;Humanization&#x02019; of pet food</article-title>. <source>Food Technol</source>
+<volume>68</volume>:<fpage>20</fpage>.</mixed-citation></ref><ref id="icab025-B31"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Coe</surname><given-names>JB</given-names>
+</string-name>, <string-name><surname>Young</surname><given-names>I</given-names>
+</string-name>, <string-name><surname>Lambert</surname><given-names>K</given-names>
+</string-name>, <string-name><surname>Dysart</surname><given-names>L</given-names>
+</string-name>, <string-name><surname>Nogueira Borden</surname><given-names>L</given-names>
+</string-name>, <string-name><surname>Rajic</surname><given-names>A.</given-names>
+</string-name></person-group>
+<year>2014</year>. 
+<article-title>A scoping review of published research on the relinquishment of companion animals</article-title>. <source>J Appl Anim Welf Sci</source>
+<volume>17</volume>:<fpage>253</fpage>&#x02013;<lpage>73</lpage>.<pub-id pub-id-type="pmid">24738944</pub-id></mixed-citation></ref><ref id="icab025-B32"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Courtin</surname><given-names>F</given-names>
+</string-name>, <string-name><surname>Carpenter</surname><given-names>T</given-names>
+</string-name>, <string-name><surname>Paskin</surname><given-names>R</given-names>
+</string-name>, <string-name><surname>Chomel</surname><given-names>BB.</given-names>
+</string-name></person-group>
+<year>2000</year>. 
+<article-title>Temporal patterns of domestic and wildlife rabies in central Namibia stock-ranching area, 1986&#x02013;1996</article-title>. <source>Prevent Vet Med</source>
+<volume>43</volume>:<fpage>13</fpage>&#x02013;<lpage>28</lpage>.</mixed-citation></ref><ref id="icab025-B33"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Crawford</surname><given-names>HM</given-names>
+</string-name>, <string-name><surname>Calver</surname><given-names>MC</given-names>
+</string-name>, <string-name><surname>Fleming</surname><given-names>PA.</given-names>
+</string-name></person-group>
+<year>2019</year>. 
+<article-title>A case of letting the cat out of the bag&#x02014;Why Trap-Neuter-Return is not an ethical solution for stray cat (<italic toggle="yes">Felis catus</italic>) management</article-title>. <source>Animals</source>
+<volume>9</volume>:<fpage>171</fpage>.</mixed-citation></ref><ref id="icab025-B34"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Christian</surname><given-names>H</given-names>
+</string-name>, <string-name><surname>Bauman</surname><given-names>A</given-names>
+</string-name>, <string-name><surname>Epping</surname><given-names>JN</given-names>
+</string-name>, <string-name><surname>Levine</surname><given-names>GN</given-names>
+</string-name>, <string-name><surname>McCormack</surname><given-names>G</given-names>
+</string-name>, <string-name><surname>Rhodes</surname><given-names>RE</given-names>
+</string-name>, <string-name><surname>Richards</surname><given-names>E</given-names>
+</string-name>, <string-name><surname>Rock</surname><given-names>M</given-names>
+</string-name>, <string-name><surname>Westgarth</surname><given-names>C.</given-names>
+</string-name></person-group>
+<year>2018</year>. 
+<article-title>Encouraging dog walking for health promotion and disease prevention</article-title>. <source>Am J Lifestyle Med</source>
+<volume>12</volume>:<fpage>233</fpage>&#x02013;<lpage>43</lpage>.<pub-id pub-id-type="pmid">30202393</pub-id></mixed-citation></ref><ref id="icab025-B35"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Curb</surname><given-names>LA</given-names>
+</string-name>, <string-name><surname>Abramson</surname><given-names>CI</given-names>
+</string-name>, <string-name><surname>Grice</surname><given-names>JW</given-names>
+</string-name>, <string-name><surname>Kennison</surname><given-names>SM.</given-names>
+</string-name></person-group>
+<year>2013</year>. 
+<article-title>The relationship between personality match and pet satisfaction among dog owners</article-title>. <source>Anthrozoos</source>
+<volume>26</volume>:<fpage>395</fpage>&#x02013;<lpage>404</lpage>.</mixed-citation></ref><ref id="icab025-B36"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Damborg</surname><given-names>P</given-names>
+</string-name>, <string-name><surname>Broens</surname><given-names>EM</given-names>
+</string-name>, <string-name><surname>Chomel</surname><given-names>BB</given-names>
+</string-name>, <string-name><surname>Guenther</surname><given-names>S</given-names>
+</string-name>, <string-name><surname>Pasmans</surname><given-names>F</given-names>
+</string-name>, <string-name><surname>Wagenaar</surname><given-names>JA</given-names>
+</string-name>, <string-name><surname>Weese</surname><given-names>JS</given-names>
+</string-name>, <string-name><surname>Wieler</surname><given-names>LH</given-names>
+</string-name>, <string-name><surname>Windahl</surname><given-names>U</given-names>
+</string-name>, <string-name><surname>Vanrompay</surname><given-names>D</given-names>
+</string-name></person-group>, <etal>et al</etal>
+<year>2016</year>. 
+<article-title>Bacterial zoonoses transmitted by household pets: state-of-the-art and future perspectives for targeted research and policy actions</article-title>. <source>J Compar Pathol</source>
+<volume>155</volume>:<fpage>S27</fpage>&#x02013;<lpage>S40</lpage>.</mixed-citation></ref><ref id="icab025-B37"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Davidson</surname><given-names>RK</given-names>
+</string-name>, <string-name><surname>Romig</surname><given-names>T</given-names>
+</string-name>, <string-name><surname>Jenkins</surname><given-names>E</given-names>
+</string-name>, <string-name><surname>Tryland</surname><given-names>M</given-names>
+</string-name>, <string-name><surname>Robertson</surname><given-names>LJ.</given-names>
+</string-name></person-group>
+<year>2012</year>. 
+<article-title>The impact of globalisation on the distribution of Echinococcus multilocularis</article-title>. <source>Trends Parasitol</source>
+<volume>28</volume>:<fpage>239</fpage>&#x02013;<lpage>47</lpage>.<pub-id pub-id-type="pmid">22542923</pub-id></mixed-citation></ref><ref id="icab025-B38"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Davis</surname><given-names>MS</given-names>
+</string-name>, <string-name><surname>Cummings</surname><given-names>SL</given-names>
+</string-name>, <string-name><surname>Payton</surname><given-names>ME.</given-names>
+</string-name></person-group>
+<year>2017</year>. 
+<article-title>Effect of brachycephaly and body condition score on respiratory thermoregulation of healthy dogs</article-title>. <source>J Am Vet Med Assoc</source>
+<volume>251</volume>:<fpage>1160</fpage>&#x02013;<lpage>5</lpage>.<pub-id pub-id-type="pmid">29099251</pub-id></mixed-citation></ref><ref id="icab025-B178"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Davlin</surname><given-names>S</given-names>
+</string-name>, <string-name><surname>Lapiz</surname><given-names>SM</given-names>
+</string-name>, <string-name><surname>Miranda</surname><given-names>ME</given-names>
+</string-name>, <string-name><surname>Murray</surname><given-names>K.</given-names>
+</string-name></person-group>
+<year>2013</year>. 
+<article-title>Factors Associated with Dog Rabies Vaccination in Bhol, Philippines: Results of a Cross-Sectional Cluster Survey Conducted Following the Island-Wide Rabies Elimination Campaign</article-title>. <source>Zoonoses Public Health</source>
+<volume>60</volume>:<fpage>494</fpage>&#x02013;<lpage>503</lpage>.<pub-id pub-id-type="pmid">23280122</pub-id></mixed-citation></ref><ref id="icab025-B39"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Day</surname><given-names>MJ</given-names>
+</string-name>, <string-name><surname>Breitschwerdt</surname><given-names>E</given-names>
+</string-name>, <string-name><surname>Cleaveland</surname><given-names>S</given-names>
+</string-name>, <string-name><surname>Karkare</surname><given-names>U</given-names>
+</string-name>, <string-name><surname>Khanna</surname><given-names>C</given-names>
+</string-name>, <string-name><surname>Kirpensteijn</surname><given-names>J</given-names>
+</string-name>, <string-name><surname>Kuiken</surname><given-names>T</given-names>
+</string-name>, <string-name><surname>Lappin</surname><given-names>MR</given-names>
+</string-name>, <string-name><surname>McQuiston</surname><given-names>J</given-names>
+</string-name>, <string-name><surname>Mumford</surname><given-names>E</given-names>
+</string-name></person-group>, <etal>et al</etal>
+<year>2012</year>. 
+<article-title>Surveillance of zoonotic infectious disease transmitted by small companion animals</article-title>. <source>Emerg Infect Dis</source>
+<volume>18</volume>:<fpage>e1</fpage>.</mixed-citation></ref><ref id="icab025-B179"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>de Leon</surname><given-names>EG</given-names>
+</string-name>, <string-name><surname>Pittock</surname><given-names>J.</given-names>
+</string-name></person-group>
+<year>2017</year>. 
+<article-title>Integrating climate change adaptation and climate-related disaster risk-reduction policy in developing countries: A case study in the Philippines</article-title>. <source>Clim Dev</source>
+<volume>9</volume>:<fpage>471</fpage>&#x02013;<lpage>78</lpage>.</mixed-citation></ref><ref id="icab025-B40"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Diffenbaugh</surname><given-names>NS</given-names>
+</string-name>, <string-name><surname>Burke</surname><given-names>M.</given-names>
+</string-name></person-group>
+<year>2019</year>. 
+<article-title>Global warming has increased global economic inequality</article-title>. <source>Proc Natl Acad Sci USA</source>
+<volume>116</volume>:<fpage>9808</fpage>&#x02013;<lpage>13</lpage>.<pub-id pub-id-type="pmid">31010922</pub-id></mixed-citation></ref><ref id="icab025-B41"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Douglas</surname><given-names>R</given-names>
+</string-name>, <string-name><surname>Kocatepe</surname><given-names>A</given-names>
+</string-name>, <string-name><surname>Barrett</surname><given-names>AE</given-names>
+</string-name>, <string-name><surname>Ozguven</surname><given-names>EE</given-names>
+</string-name>, <string-name><surname>Gumber</surname><given-names>C.</given-names>
+</string-name></person-group>
+<year>2019</year>. 
+<article-title>Evacuating people and their pets: older Floridians&#x02019; need for and proximity to pet-friendly shelters</article-title>. <source>J Gerontol Ser B</source>
+<volume>74</volume>:<fpage>1032</fpage>&#x02013;<lpage>40</lpage>.</mixed-citation></ref><ref id="icab025-B170"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Edmonds</surname><given-names>AS</given-names>
+</string-name>, <string-name><surname>Cutter</surname><given-names>SL.</given-names>
+</string-name></person-group>
+<year>2008</year>. 
+<article-title>Planning for Pet Evacuations during Disasters</article-title>. <source>J Homel Secur Emerg Manag</source>
+<volume>5</volume>:<fpage>33</fpage>-<lpage>48</lpage>.</mixed-citation></ref><ref id="icab025-B42"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Eriksen</surname><given-names>SIRI</given-names>
+</string-name>, <string-name><surname>Aldunce</surname><given-names>P</given-names>
+</string-name>, <string-name><surname>Bahinipati</surname><given-names>CS</given-names>
+</string-name>, <string-name><surname>Martins</surname><given-names>RD</given-names>
+</string-name>, <string-name><surname>Molefe</surname><given-names>JI</given-names>
+</string-name>, <string-name><surname>Nhemachena</surname><given-names>C</given-names>
+</string-name>, <string-name><surname>O&#x02019;Brien</surname><given-names>K</given-names>
+</string-name>, <string-name><surname>Olorunfemi</surname><given-names>F</given-names>
+</string-name>, <string-name><surname>Park</surname><given-names>J</given-names>
+</string-name>, <string-name><surname>Sygna</surname><given-names>L</given-names>
+</string-name></person-group>, <etal>et al</etal>
+<year>2011</year>. 
+<article-title>When not every response to climate change is a good one: identifying principles for sustainable adaptation</article-title>. <source>Clim Dev</source>
+<volume>3</volume>:<fpage>7</fpage>&#x02013;<lpage>20</lpage>.</mixed-citation></ref><ref id="icab025-B43"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Eskander</surname><given-names>SM</given-names>
+</string-name>, <string-name><surname>Fankhauser</surname><given-names>S.</given-names>
+</string-name></person-group>
+<year>2020</year>. 
+<article-title>Reduction in greenhouse gas emissions from national climate legislation</article-title>. <source>Nat Clim Change</source>
+<volume>10</volume>:<fpage>750</fpage>&#x02013;<lpage>6</lpage>.</mixed-citation></ref><ref id="icab025-B44"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Estrada-Pe&#x000f1;a</surname><given-names>A</given-names>
+</string-name>, <string-name><surname>Ayll&#x000f3;n</surname><given-names>N</given-names>
+</string-name>, <string-name><surname>De La Fuente</surname><given-names>J.</given-names>
+</string-name></person-group>
+<year>2012</year>. 
+<article-title>Impact of climate trends on tick-borne pathogen transmission</article-title>. <source>Front Physiol</source>
+<volume>3</volume>:<fpage>64</fpage>.<pub-id pub-id-type="pmid">22470348</pub-id></mixed-citation></ref><ref id="icab025-B165"><mixed-citation publication-type="other">Euromonitor. <year>2019</year>. Strategy Briefing: Consumers in 2019. Euromonitor International. (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.euromonitor.com/consumers-in-2019/report" ext-link-type="uri">https://www.euromonitor.com/consumers-in-2019/report</ext-link>). Accessed on February 21, 2021.</mixed-citation></ref><ref id="icab025-B45"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Every</surname><given-names>D</given-names>
+</string-name>, <string-name><surname>Due</surname><given-names>C</given-names>
+</string-name>, <string-name><surname>Thompson</surname><given-names>K</given-names>
+</string-name>, <string-name><surname>Ryan</surname><given-names>J.</given-names>
+</string-name></person-group>
+<year>2016</year>. 
+<article-title>Conflicting perspectives on nonhuman animal rescues in natural disasters</article-title>. <source>Soc Anim</source>
+<volume>24</volume>:<fpage>358</fpage>&#x02013;<lpage>82</lpage>.</mixed-citation></ref><ref id="icab025-B46"><mixed-citation publication-type="other">FAO, IFAD, UNICEF, WFP, &#x00026; WHO. (<year>2020</year>). The State of Food Security and Nutrition in the World 2020. Transforming food systems for affordable healthy diets. Rome, Italy.</mixed-citation></ref><ref id="icab025-B47"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Fung</surname><given-names>HL</given-names>
+</string-name>, <string-name><surname>Calzada</surname><given-names>J</given-names>
+</string-name>, <string-name><surname>Salda&#x000f1;a</surname><given-names>A</given-names>
+</string-name>, <string-name><surname>Santamaria</surname><given-names>AM</given-names>
+</string-name>, <string-name><surname>Pineda</surname><given-names>V</given-names>
+</string-name>, <string-name><surname>Gonzalez</surname><given-names>K</given-names>
+</string-name>, <string-name><surname>Chaves</surname><given-names>LF</given-names>
+</string-name>, <string-name><surname>Garner</surname><given-names>B</given-names>
+</string-name>, <string-name><surname>Gottdenker</surname><given-names>N.</given-names>
+</string-name></person-group>
+<year>2014</year>. 
+<article-title>Domestic dog health worsens with socio-economic deprivation of their home communities</article-title>. <source>Acta Trop</source>
+<volume>135</volume>:<fpage>67</fpage>&#x02013;<lpage>74</lpage>.<pub-id pub-id-type="pmid">24681221</pub-id></mixed-citation></ref><ref id="icab025-B48"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Gall</surname><given-names>SC</given-names>
+</string-name>, <string-name><surname>Thompson</surname><given-names>RC.</given-names>
+</string-name></person-group>
+<year>2015</year>. 
+<article-title>The impact of debris on marine life</article-title>. <source>Mar Pollut Bull</source>
+<volume>92</volume>:<fpage>170</fpage>&#x02013;<lpage>9</lpage>.<pub-id pub-id-type="pmid">25680883</pub-id></mixed-citation></ref><ref id="icab025-B49"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Geyer</surname><given-names>R</given-names>
+</string-name>, <string-name><surname>Jambeck</surname><given-names>JR</given-names>
+</string-name>, <string-name><surname>Law</surname><given-names>KL.</given-names>
+</string-name></person-group>
+<year>2017</year>. 
+<article-title>Production, use, and fate of all plastics ever made</article-title>. <source>Sci Adv</source>
+<volume>3</volume>:<fpage>e1700782</fpage>.<pub-id pub-id-type="pmid">28776036</pub-id></mixed-citation></ref><ref id="icab025-B50"><mixed-citation publication-type="other">GlobeNewswire. (<year>2020</year>). Global pet care market is expected to reach USD 358.62 billion by 2027: fior markets. GlobeNewswire. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.globenewswire.com/news-release/2020/09/28/2099985/0/en/Global-Pet-Care-Market-Is-Expected-to-Reach-USD-358-62-billion-by-2027-Fior-Markets.html" ext-link-type="uri">https://www.globenewswire.com/news-release/2020/09/28/2099985/0/en/Global-Pet-Care-Market-Is-Expected-to-Reach-USD-358-62-billion-by-2027-Fior-Markets.html</ext-link>. &#x000a0;Accessed on February 13, 2021.</mixed-citation></ref><ref id="icab025-B51"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Gompper</surname><given-names>ME.</given-names>
+</string-name></person-group>
+<year>2014</year>. 
+<article-title>The dog-human-wildlife interface: assessing the scope of the problem</article-title>. <source>Free-ranging dogs and wildlife conservation.</source>
+<fpage>9</fpage>&#x02013;<lpage>54</lpage>. Oxford University Press.</mixed-citation></ref><ref id="icab025-B52"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Goni</surname><given-names>MD</given-names>
+</string-name>, <string-name><surname>Muhammad</surname><given-names>IJ</given-names>
+</string-name>, <string-name><surname>Bitrus</surname><given-names>AA</given-names>
+</string-name>, <string-name><surname>Jajere</surname><given-names>SM</given-names>
+</string-name>, <string-name><surname>Shah</surname><given-names>MK</given-names>
+</string-name>, <string-name><surname>Aliyu</surname><given-names>A</given-names>
+</string-name>, <string-name><surname>Goje</surname><given-names>M.</given-names>
+</string-name></person-group>
+<year>2018</year>. 
+<article-title>Public health significance of companion animals in emergence and re-emergence of bacterial zoonoses</article-title>. <source>J Adv Vet Anim Res</source>
+<volume>5</volume>:<fpage>101</fpage>&#x02013;<lpage>9</lpage>.</mixed-citation></ref><ref id="icab025-B53"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Grafakos</surname><given-names>S</given-names>
+</string-name>, <string-name><surname>Trigg</surname><given-names>K</given-names>
+</string-name>, <string-name><surname>Landauer</surname><given-names>M</given-names>
+</string-name>, <string-name><surname>Chelleri</surname><given-names>L</given-names>
+</string-name>, <string-name><surname>Dhakal</surname><given-names>S.</given-names>
+</string-name></person-group>
+<year>2019</year>. 
+<article-title>Analytical framework to evaluate the level of integration of climate adaptation and mitigation in cities</article-title>. <source>Climat Change</source>
+<volume>154</volume>:<fpage>87</fpage>&#x02013;<lpage>106</lpage>.</mixed-citation></ref><ref id="icab025-B54"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Graham</surname><given-names>TM</given-names>
+</string-name>, <string-name><surname>Rock</surname><given-names>MJ.</given-names>
+</string-name></person-group>
+<year>2019</year>. 
+<article-title>The spillover effect of a flood on pets and their people: implications for rental housing</article-title>. <source>J Appl Anim Welfare Sci</source>
+<volume>22</volume>:<fpage>229</fpage>&#x02013;<lpage>39</lpage>.</mixed-citation></ref><ref id="icab025-B55"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Gray</surname><given-names>J</given-names>
+</string-name>, <string-name><surname>Dautel</surname><given-names>H</given-names>
+</string-name>, <string-name><surname>Estrada-Pe&#x000f1;a</surname><given-names>A</given-names>
+</string-name>, <string-name><surname>Kahl</surname><given-names>O</given-names>
+</string-name>, <string-name><surname>Lindgren</surname><given-names>E.</given-names>
+</string-name></person-group>
+<year>2009</year>. 
+<article-title>Effects of climate change on ticks and tick-borne diseases in Europe</article-title>. <source>Interdiscip Perspect Infect Dis</source>
+<volume>2009</volume>:<fpage>1</fpage>.</mixed-citation></ref><ref id="icab025-B56"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Grayson</surname><given-names>J</given-names>
+</string-name>, <string-name><surname>Calver</surname><given-names>M</given-names>
+</string-name>, <string-name><surname>Styles</surname><given-names>I.</given-names>
+</string-name></person-group>
+<year>2002</year>. 
+<article-title>Attitudes of suburban Western Australians to proposed cat control legislation</article-title>. <source>Aust Vet J</source>
+<volume>80</volume>:<fpage>536</fpage>&#x02013;<lpage>43</lpage>.<pub-id pub-id-type="pmid">12398314</pub-id></mixed-citation></ref><ref id="icab025-B57"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Guenther</surname><given-names>KM.</given-names>
+</string-name></person-group>
+<year>2020</year>. <source>The lives and deaths of shelter animals: the lives and deaths of shelter animals</source>. 
+<publisher-loc>Palo Alto (CA</publisher-loc>): 
+<publisher-name>Stanford University Press</publisher-name>.</mixed-citation></ref><ref id="icab025-B58"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Gyampoh</surname><given-names>B</given-names>
+</string-name>, <string-name><surname>Amisah</surname><given-names>S</given-names>
+</string-name>, <string-name><surname>Idinoba</surname><given-names>M</given-names>
+</string-name>, <string-name><surname>Nkem</surname><given-names>J.</given-names>
+</string-name></person-group>
+<year>2009</year>. 
+<article-title>Using traditional knowledge to cope with climate change in rural Ghana</article-title>. <source>Unasylva</source>
+<volume>60</volume>:<fpage>70</fpage>&#x02013;<lpage>4</lpage>.</mixed-citation></ref><ref id="icab025-B59"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Haasnoot</surname><given-names>M</given-names>
+</string-name>, <string-name><surname>van &#x02019;t Klooster</surname><given-names>S</given-names>
+</string-name>, <string-name><surname>van Alphen</surname><given-names>J.</given-names>
+</string-name></person-group>
+<year>2018</year>. 
+<article-title>Designing a monitoring system to detect signals to adapt to uncertain climate change</article-title>. <source>Glob Environ Change</source>
+<volume>52</volume>:<fpage>273</fpage>&#x02013;<lpage>85</lpage>.</mixed-citation></ref><ref id="icab025-B60"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hall</surname><given-names>EJ</given-names>
+</string-name>, <string-name><surname>Carter</surname><given-names>AJ</given-names>
+</string-name>, <string-name><surname>O&#x02019;Neill</surname><given-names>DG.</given-names>
+</string-name></person-group>
+<year>2020</year>. 
+<article-title>Incidence and risk factors for heat-related illness (heatstroke) in UK dogs under primary veterinary care in 2016</article-title>. <source>Sci Rep</source>
+<volume>10</volume>:<fpage>1</fpage>&#x02013;<lpage>12</lpage>.<pub-id pub-id-type="pmid">31913322</pub-id></mixed-citation></ref><ref id="icab025-B61"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hall</surname><given-names>MJ</given-names>
+</string-name>, <string-name><surname>Ng</surname><given-names>A</given-names>
+</string-name>, <string-name><surname>Ursano</surname><given-names>RJ</given-names>
+</string-name>, <string-name><surname>Holloway</surname><given-names>H</given-names>
+</string-name>, <string-name><surname>Fullerton</surname><given-names>C</given-names>
+</string-name>, <string-name><surname>Casper</surname><given-names>J.</given-names>
+</string-name></person-group>
+<year>2004</year>. 
+<article-title>Psychological impact of the animal-human bond in disaster preparedness and response</article-title>. <source>J Psychiatr Pract</source>
+<volume>10</volume>:<fpage>368</fpage>&#x02013;<lpage>74</lpage>.<pub-id pub-id-type="pmid">15583518</pub-id></mixed-citation></ref><ref id="icab025-B173"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Halliday</surname><given-names>JEB</given-names>
+</string-name>, <string-name><surname>Meredith</surname><given-names>AL</given-names>
+</string-name>, <string-name><surname>Knobel</surname><given-names>DL</given-names>
+</string-name>, <string-name><surname>Shaw</surname><given-names>DJ</given-names>
+</string-name>, <string-name><surname>Bronsvoort</surname><given-names>BMDC</given-names>
+</string-name>, <string-name><surname>Cleaveland</surname><given-names>S.</given-names>
+</string-name></person-group>
+<year>2007</year>. 
+<article-title>A framework for evaluating animals as sentinels for infectious disease surveillance</article-title>. <source>J R Soc Interface</source>
+<volume>4</volume>:<fpage>973</fpage>&#x02013;<lpage>84</lpage>.<pub-id pub-id-type="pmid">17504735</pub-id></mixed-citation></ref><ref id="icab025-B62"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Halloran</surname><given-names>A</given-names>
+</string-name>, <string-name><surname>Hanboonsong</surname><given-names>Y</given-names>
+</string-name>, <string-name><surname>Roos</surname><given-names>N</given-names>
+</string-name>, <string-name><surname>Bruun</surname><given-names>S.</given-names>
+</string-name></person-group>
+<year>2017</year>. 
+<article-title>Life cycle assessment of cricket farming in north-eastern Thailand</article-title>. <source>J Clean Product</source>
+<volume>156</volume>:<fpage>83</fpage>&#x02013;<lpage>94</lpage>.</mixed-citation></ref><ref id="icab025-B63"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Han</surname><given-names>R</given-names>
+</string-name>, <string-name><surname>Shin</surname><given-names>JT</given-names>
+</string-name>, <string-name><surname>Kim</surname><given-names>J</given-names>
+</string-name>, <string-name><surname>Choi</surname><given-names>YS</given-names>
+</string-name>, <string-name><surname>Kim</surname><given-names>YW.</given-names>
+</string-name></person-group>
+<year>2017</year>. 
+<article-title>An overview of the South Korean edible insect food industry: challenges and future pricing/promotion strategies</article-title>. <source>Entomol Res</source>
+<volume>47</volume>:<fpage>141</fpage>&#x02013;<lpage>51</lpage>.</mixed-citation></ref><ref id="icab025-B64"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Harding</surname><given-names>MJ.</given-names>
+</string-name></person-group>
+<year>2018</year>. 
+<article-title>Access to veterinary care for low-income Canadians</article-title>. <source>Can Vet J</source>
+<volume>59</volume>:<fpage>1121</fpage>.<pub-id pub-id-type="pmid">30510322</pub-id></mixed-citation></ref><ref id="icab025-B65"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Harvey</surname><given-names>ND</given-names>
+</string-name>, <string-name><surname>Oxley</surname><given-names>JA</given-names>
+</string-name>, <string-name><surname>Miguel-Pacheco</surname><given-names>G</given-names>
+</string-name>, <string-name><surname>Gosling</surname><given-names>EM</given-names>
+</string-name>, <string-name><surname>Farnworth</surname><given-names>M.</given-names>
+</string-name></person-group>
+<year>2019</year>. 
+<article-title>What makes a rabbit cute? Preference for rabbit faces differs according to skull morphology and demographic factors</article-title>. <source>Animals</source>
+<volume>9</volume>:<fpage>728</fpage>.</mixed-citation></ref><ref id="icab025-B66"><mixed-citation publication-type="other">HASS. (<year>2021</year>). Human animal support services glossary for animal welfare organizations and diversity, equity, and inclusion. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.humananimalsupportservices.org/blog/diversity-equity-and-inclusion-glossary-for-animal-welfare-organizations/" ext-link-type="uri">https://www.humananimalsupportservices.org/blog/diversity-equity-and-inclusion-glossary-for-animal-welfare-organizations/</ext-link>.</mixed-citation></ref><ref id="icab025-B67"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hawkins</surname><given-names>RD</given-names>
+</string-name>, <string-name><surname>Williams</surname><given-names>JM;</given-names>
+</string-name></person-group> Scottish Society for the Prevention of Cruelty to Animals (Scottish SPCA). <year>2017</year>. 
+<article-title>Childhood attachment to pets: associations between pet attachment, attitudes to animals, compassion, and humane behaviour</article-title>. <source>Int J Environ Res Public Health</source>
+<volume>14</volume>:<fpage>490</fpage>.</mixed-citation></ref><ref id="icab025-B68"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Heath</surname><given-names>SE</given-names>
+</string-name>, <string-name><surname>Kass</surname><given-names>PH</given-names>
+</string-name>, <string-name><surname>Beck</surname><given-names>AM</given-names>
+</string-name>, <string-name><surname>Glickman</surname><given-names>LT.</given-names>
+</string-name></person-group>
+<year>2001</year>. 
+<article-title>Human and pet-related risk factors for household evacuation failure during a natural disaster</article-title>. <source>Am J Epidemiol</source>
+<volume>153</volume>:<fpage>659</fpage>&#x02013;<lpage>65</lpage>.<pub-id pub-id-type="pmid">11282793</pub-id></mixed-citation></ref><ref id="icab025-B70"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Heath</surname><given-names>SE</given-names>
+</string-name>, <string-name><surname>Linnabary</surname><given-names>RD.</given-names>
+</string-name></person-group>
+<year>2015</year>. 
+<article-title>Challenges of managing animals in disasters in the US</article-title>. <source>Animals</source>
+<volume>5</volume>:<fpage>173</fpage>&#x02013;<lpage>92</lpage>.<pub-id pub-id-type="pmid">26479228</pub-id></mixed-citation></ref><ref id="icab025-B71"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hoffmann</surname><given-names>R</given-names>
+</string-name>, <string-name><surname>Dimitrova</surname><given-names>A</given-names>
+</string-name>, <string-name><surname>Muttarak</surname><given-names>R</given-names>
+</string-name>, <string-name><surname>Cuaresma</surname><given-names>JC</given-names>
+</string-name>, <string-name><surname>Peisker</surname><given-names>J.</given-names>
+</string-name></person-group>
+<year>2020</year>. 
+<article-title>A meta-analysis of country-level studies on environmental change and migration</article-title>. <source>Nat Clim Change</source>
+<volume>10</volume>:<fpage>904</fpage>&#x02013;<lpage>12</lpage>.</mixed-citation></ref><ref id="icab025-B72"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hughes</surname><given-names>J</given-names>
+</string-name>, <string-name><surname>Macdonald</surname><given-names>DW.</given-names>
+</string-name></person-group>
+<year>2013</year>. 
+<article-title>A review of the interactions between free-roaming domestic dogs and wildlife</article-title>. <source>Biol Conservat</source>
+<volume>157</volume>:<fpage>341</fpage>&#x02013;<lpage>51</lpage>.</mixed-citation></ref><ref id="icab025-B73"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hunt</surname><given-names>M</given-names>
+</string-name>, <string-name><surname>Al-Awadi</surname><given-names>H</given-names>
+</string-name>, <string-name><surname>Johnson</surname><given-names>M.</given-names>
+</string-name></person-group>
+<year>2008</year>. 
+<article-title>Psychological sequelae of pet loss following Hurricane Katrina</article-title>. <source>Anthrozoos</source>
+<volume>21</volume>:<fpage>109</fpage>&#x02013;<lpage>21</lpage>.</mixed-citation></ref><ref id="icab025-B74"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Hurley</surname><given-names>KJ</given-names>
+</string-name>, <string-name><surname>Elliott</surname><given-names>DA</given-names>
+</string-name>, <string-name><surname>Lund</surname><given-names>E.</given-names>
+</string-name></person-group>
+<year>2011</year>. <chapter-title>Dog obesity, dog walking, and dog health</chapter-title>. <source>The health benefits of dog walking for pets and people: evidence and case studies. Vol. 125</source>. 
+<publisher-loc>West Lafayette (IN</publisher-loc>): 
+<publisher-name>Purdue University Press</publisher-name>.</mixed-citation></ref><ref id="icab025-B75"><mixed-citation publication-type="other">IPCC. (<year>2014</year>). Climate change 2014: mitigation of climate change. Contribution of Working Group III to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change. Cambridge and New York, NY.</mixed-citation></ref><ref id="icab025-B76"><mixed-citation publication-type="other">Islam &#x00026; Winkel: Islam, N.&#x000a0;and&#x000a0;J. Winkel (2017), "Climate Change and Social Inequality",&#x000a0;<italic toggle="yes">UN Department of Economic and Social Affairs (DESA) Working Papers</italic>, No. 152, UN, New York.</mixed-citation></ref><ref id="icab025-B77"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Janssens</surname><given-names>C</given-names>
+</string-name>, <string-name><surname>Havl&#x000ed;k</surname><given-names>P</given-names>
+</string-name>, <string-name><surname>Krisztin</surname><given-names>T</given-names>
+</string-name>, <string-name><surname>Baker</surname><given-names>J</given-names>
+</string-name>, <string-name><surname>Frank</surname><given-names>S</given-names>
+</string-name>, <string-name><surname>Hasegawa</surname><given-names>T</given-names>
+</string-name>, <string-name><surname>Lecl&#x000e8;re</surname><given-names>D</given-names>
+</string-name>, <string-name><surname>Ohrel</surname><given-names>S</given-names>
+</string-name>, <string-name><surname>Ragnauth</surname><given-names>S</given-names>
+</string-name>, <string-name><surname>Schmid</surname><given-names>E</given-names>
+</string-name></person-group>, <etal>et al</etal>
+<year>2020</year>. 
+<article-title>Global hunger and climate change adaptation through international trade</article-title>. <source>Nat Clim Change</source>
+<volume>10</volume>:<fpage>829</fpage>&#x02013;<lpage>35</lpage>.</mixed-citation></ref><ref id="icab025-B175"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Jensen</surname><given-names>JBH</given-names>
+</string-name>, <string-name><surname>Sand&#x000f8;e</surname><given-names>P</given-names>
+</string-name>, <string-name><surname>Nielsen</surname><given-names>SS.</given-names>
+</string-name></person-group>
+<year>2020</year>. 
+<article-title>Owner-related reasons matter more than behavioural problems&#x02014;a study of why owners relinquished dogs and cats to a danish animal shelter from 1996 to 2017</article-title>. <source>Animals</source>
+<volume>10</volume>:<fpage>1</fpage>&#x02013;<lpage>14</lpage>.</mixed-citation></ref><ref id="icab025-B78"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kalkstein</surname><given-names>L</given-names>
+</string-name>, <string-name><surname>Smoyer</surname><given-names>K.</given-names>
+</string-name></person-group>
+<year>1993</year>. 
+<article-title>The impact of climate change on human health: some international implications</article-title>. <source>Experientia</source>
+<volume>49</volume>:<fpage>969</fpage>&#x02013;<lpage>79</lpage>.<pub-id pub-id-type="pmid">8253171</pub-id></mixed-citation></ref><ref id="icab025-B79"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kanakubo</surname><given-names>K</given-names>
+</string-name>, <string-name><surname>Fascetti</surname><given-names>AJ</given-names>
+</string-name>, <string-name><surname>Larsen</surname><given-names>JA.</given-names>
+</string-name></person-group>
+<year>2015</year>. 
+<article-title>Assessment of protein and amino acid concentrations and labeling adequacy of commercial vegetarian diets formulated for dogs and cats</article-title>. <source>J Am Vet Med Assoc</source>
+<volume>247</volume>:<fpage>385</fpage>&#x02013;<lpage>92</lpage>.<pub-id pub-id-type="pmid">26225610</pub-id></mixed-citation></ref><ref id="icab025-B80"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kent</surname><given-names>JL</given-names>
+</string-name>, <string-name><surname>Mulley</surname><given-names>C.</given-names>
+</string-name></person-group>
+<year>2017</year>. 
+<article-title>Riding with dogs in cars: what can it teach us about transport practices and policy?</article-title>
+<source>Transport Res A Policy Pract</source>
+<volume>106</volume>:<fpage>278</fpage>&#x02013;<lpage>87</lpage>.</mixed-citation></ref><ref id="icab025-B81"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Knight</surname><given-names>A</given-names>
+</string-name>, <string-name><surname>Leitsberger</surname><given-names>M.</given-names>
+</string-name></person-group>
+<year>2016</year>. 
+<article-title>Vegetarian versus meat-based diets for companion animals</article-title>. <source>Animals</source>
+<volume>6</volume>:<fpage>57</fpage>.</mixed-citation></ref><ref id="icab025-B82"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kobelt</surname><given-names>AJ</given-names>
+</string-name>, <string-name><surname>Hemsworth</surname><given-names>PH</given-names>
+</string-name>, <string-name><surname>Barnett</surname><given-names>JL</given-names>
+</string-name>, <string-name><surname>Coleman</surname><given-names>GJ.</given-names>
+</string-name></person-group>
+<year>2003</year>. 
+<article-title>A survey of dog ownership in suburban Australia&#x02014;conditions and behaviour problems</article-title>. <source>Appl Anim Behav Sci</source>
+<volume>82</volume>:<fpage>137</fpage>&#x02013;<lpage>48</lpage>.</mixed-citation></ref><ref id="icab025-B83"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kramer</surname><given-names>CG</given-names>
+</string-name>, <string-name><surname>McCaw</surname><given-names>KA</given-names>
+</string-name>, <string-name><surname>Zarestky</surname><given-names>J</given-names>
+</string-name>, <string-name><surname>Duncan</surname><given-names>CG.</given-names>
+</string-name></person-group>
+<year>2020</year>. 
+<article-title>Veterinarians in a changing global climate: educational disconnect and a path forward</article-title>. <source>Front Vet Sci</source>
+<volume>7</volume>:<fpage>1029</fpage>.</mixed-citation></ref><ref id="icab025-B84"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Lachica</surname><given-names>ZPT</given-names>
+</string-name>, <string-name><surname>Peralta</surname><given-names>JM</given-names>
+</string-name>, <string-name><surname>Diamante</surname><given-names>EO</given-names>
+</string-name>, <string-name><surname>Murao</surname><given-names>LAE</given-names>
+</string-name>, <string-name><surname>Mata</surname><given-names>MAE</given-names>
+</string-name>, <string-name><surname>Alviola IV</surname><given-names>PA.</given-names>
+</string-name></person-group>
+<year>2020</year>. 
+<article-title>A cointegration analysis of rabies cases and weather components in Davao City, Philippines from 2006 to 2017</article-title>. <source>PLoS One</source>
+<volume>15</volume>:<fpage>e0236278</fpage>.<pub-id pub-id-type="pmid">32841247</pub-id></mixed-citation></ref><ref id="icab025-B85"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ladlow</surname><given-names>J</given-names>
+</string-name>, <string-name><surname>Liu</surname><given-names>NC</given-names>
+</string-name>, <string-name><surname>Kalmar</surname><given-names>L</given-names>
+</string-name>, <string-name><surname>Sargan</surname><given-names>D.</given-names>
+</string-name></person-group>
+<year>2018</year>. 
+<article-title>Brachycephalic obstructive airway syndrome</article-title>. <source>Vet Rec</source>
+<volume>182</volume>:<fpage>375</fpage>&#x02013;<lpage>8</lpage>.<pub-id pub-id-type="pmid">29599258</pub-id></mixed-citation></ref><ref id="icab025-B168"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Lambert</surname><given-names>K</given-names>
+</string-name>, <string-name><surname>Coe</surname><given-names>JB</given-names>
+</string-name>, <string-name><surname>Young</surname><given-names>I</given-names>
+</string-name>, <string-name><surname>Dysart</surname><given-names>L</given-names>
+</string-name>, <string-name><surname>Nogueira Borden</surname><given-names>L</given-names>
+</string-name>, <string-name><surname>Raji&#x00107;</surname><given-names>A.</given-names>
+</string-name></person-group>
+<year>2014</year>. 
+<article-title>A scoping review of published research on the relinquishment of companion animals</article-title>. <source>J Appl Anim Welf Sci</source>
+<volume>17</volume>:<fpage>253</fpage>&#x02013;<lpage>73</lpage>.<pub-id pub-id-type="pmid">24738944</pub-id></mixed-citation></ref><ref id="icab025-B86"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Larson</surname><given-names>G</given-names>
+</string-name>, <string-name><surname>Karlsson</surname><given-names>EK</given-names>
+</string-name>, <string-name><surname>Perri</surname><given-names>A</given-names>
+</string-name>, <string-name><surname>Webster</surname><given-names>MT</given-names>
+</string-name>, <string-name><surname>Ho</surname><given-names>SYW</given-names>
+</string-name>, <string-name><surname>Peters</surname><given-names>J</given-names>
+</string-name>, <string-name><surname>Stahl</surname><given-names>PW</given-names>
+</string-name>, <string-name><surname>Piper</surname><given-names>PJ</given-names>
+</string-name>, <string-name><surname>Lingaas</surname><given-names>F</given-names>
+</string-name>, <string-name><surname>Fredholm</surname><given-names>M</given-names>
+</string-name></person-group>, <etal>et al</etal>
+<year>2012</year>. 
+<article-title>Rethinking dog domestication by integrating genetics, archeology, and biogeography</article-title>. <source>Proc Natl Acad Sci</source>
+<volume>109</volume>:<fpage>8878</fpage>&#x02013;<lpage>83</lpage>.<pub-id pub-id-type="pmid">22615366</pub-id></mixed-citation></ref><ref id="icab025-B87"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>LaVallee</surname><given-names>E</given-names>
+</string-name>, <string-name><surname>Mueller</surname><given-names>MK</given-names>
+</string-name>, <string-name><surname>McCobb</surname><given-names>E.</given-names>
+</string-name></person-group>
+<year>2017</year>. 
+<article-title>A systematic review of the literature addressing veterinary care for underserved communities</article-title>. <source>J Appl Anim Welfare Sci</source>
+<volume>20</volume>:<fpage>381</fpage>&#x02013;<lpage>94</lpage>.</mixed-citation></ref><ref id="icab025-B88"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Leichenko</surname><given-names>R</given-names>
+</string-name>, <string-name><surname>Silva</surname><given-names>JA.</given-names>
+</string-name></person-group>
+<year>2014</year>. 
+<article-title>Climate change and poverty: vulnerability, impacts, and alleviation strategies</article-title>. <source>Wiley Interdiscip Rev Clim Change</source>
+<volume>5</volume>:<fpage>539</fpage>&#x02013;<lpage>56</lpage>.</mixed-citation></ref><ref id="icab025-B89"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Leonard</surname><given-names>HA</given-names>
+</string-name>, <string-name><surname>Scammon</surname><given-names>DL.</given-names>
+</string-name></person-group>
+<year>2007</year>. 
+<article-title>No pet left behind: accommodating pets in emergency planning</article-title>. <source>J Public Policy Market</source>
+<volume>26</volume>:<fpage>49</fpage>&#x02013;<lpage>53</lpage>.</mixed-citation></ref><ref id="icab025-B90"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Leonard</surname><given-names>S</given-names>
+</string-name>, <string-name><surname>Parsons</surname><given-names>M</given-names>
+</string-name>, <string-name><surname>Olawsky</surname><given-names>K</given-names>
+</string-name>, <string-name><surname>Kofod</surname><given-names>F.</given-names>
+</string-name></person-group>
+<year>2013</year>. 
+<article-title>The role of culture and traditional knowledge in climate change adaptation: insights from East Kimberley, Australia</article-title>. <source>Glob Environ Change</source>
+<volume>23</volume>:<fpage>623</fpage>&#x02013;<lpage>32</lpage>.</mixed-citation></ref><ref id="icab025-B91"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Lindblad-Toh</surname><given-names>K</given-names>
+</string-name>, <string-name><surname>Wade</surname><given-names>CM</given-names>
+</string-name>, <string-name><surname>Mikkelsen</surname><given-names>TS</given-names>
+</string-name>, <string-name><surname>Karlsson</surname><given-names>EK</given-names>
+</string-name>, <string-name><surname>Jaffe</surname><given-names>DB</given-names>
+</string-name>, <string-name><surname>Kamal</surname><given-names>M</given-names>
+</string-name>, <string-name><surname>Clamp</surname><given-names>M</given-names>
+</string-name>, <string-name><surname>Chang</surname><given-names>JL</given-names>
+</string-name>, <string-name><surname>Kulbokas</surname><given-names>EJ</given-names>
+</string-name>, <string-name><surname>Zody</surname><given-names>MC</given-names>
+</string-name></person-group>, <etal>et al</etal>
+<year>2005</year>. 
+<article-title>Genome sequence, comparative analysis and haplotype structure of the domestic dog</article-title>. <source>Nature</source>
+<volume>438</volume>:<fpage>803</fpage>&#x02013;<lpage>19</lpage>.<pub-id pub-id-type="pmid">16341006</pub-id></mixed-citation></ref><ref id="icab025-B92"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Lindgren</surname><given-names>E</given-names>
+</string-name>, <string-name><surname>Gustafson</surname><given-names>R.</given-names>
+</string-name></person-group>
+<year>2001</year>. 
+<article-title>Tick-borne encephalitis in Sweden and climate change</article-title>. <source>Lancet</source>
+<volume>358</volume>:<fpage>16</fpage>&#x02013;<lpage>8</lpage>.<pub-id pub-id-type="pmid">11454371</pub-id></mixed-citation></ref><ref id="icab025-B93"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Lowe</surname><given-names>SR</given-names>
+</string-name>, <string-name><surname>Rhodes</surname><given-names>JE</given-names>
+</string-name>, <string-name><surname>Zwiebach</surname><given-names>L</given-names>
+</string-name>, <string-name><surname>Chan</surname><given-names>CS.</given-names>
+</string-name></person-group>
+<year>2009</year>. 
+<article-title>The impact of pet loss on the perceived social support and psychological distress of hurricane survivors</article-title>. <source>J Traumat Stress</source>
+<volume>22</volume>:<fpage>244</fpage>&#x02013;<lpage>7</lpage>.</mixed-citation></ref><ref id="icab025-B94"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ly</surname><given-names>LH</given-names>
+</string-name>, <string-name><surname>Gordon</surname><given-names>E</given-names>
+</string-name>, <string-name><surname>Protopopova</surname><given-names>A.</given-names>
+</string-name></person-group>
+<year>2021</year>. 
+<article-title>Exploring the relationship between human social deprivation and animal surrender to shelters in British Columbia, Canada</article-title>. <source>Front Vet Sci</source>
+<volume>8</volume>:<fpage>656597</fpage>.<pub-id pub-id-type="pmid">33791357</pub-id></mixed-citation></ref><ref id="icab025-B95"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>McDonald</surname><given-names>JL</given-names>
+</string-name>, <string-name><surname>Maclean</surname><given-names>M</given-names>
+</string-name>, <string-name><surname>Evans</surname><given-names>MR</given-names>
+</string-name>, <string-name><surname>Hodgson</surname><given-names>DJ.</given-names>
+</string-name></person-group>
+<year>2015</year>. 
+<article-title>Reconciling actual and perceived rates of predation by domestic cats</article-title>. <source>Ecol Evol</source>
+<volume>5</volume>:<fpage>2745</fpage>&#x02013;<lpage>53</lpage>.<pub-id pub-id-type="pmid">26306163</pub-id></mixed-citation></ref><ref id="icab025-B96"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>MacLean</surname><given-names>EL</given-names>
+</string-name>, <string-name><surname>Herrmann</surname><given-names>E</given-names>
+</string-name>, <string-name><surname>Suchindran</surname><given-names>S</given-names>
+</string-name>, <string-name><surname>Hare</surname><given-names>B.</given-names>
+</string-name></person-group>
+<year>2017</year>. 
+<article-title>Individual differences in cooperative communicative skills are more similar between dogs and humans than chimpanzees</article-title>. <source>Anim Behav</source>
+<volume>126</volume>:<fpage>41</fpage>&#x02013;<lpage>51</lpage>.</mixed-citation></ref><ref id="icab025-B97"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Marceau</surname><given-names>J.</given-names>
+</string-name></person-group>
+<year>2019</year>. <source>Beyond cages: animal law and criminal punishment</source>. 
+<publisher-loc>Cambridge</publisher-loc>: 
+<publisher-name>Cambridge University Press</publisher-name>.</mixed-citation></ref><ref id="icab025-B98"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Marchiori</surname><given-names>L</given-names>
+</string-name>, <string-name><surname>Schumacher</surname><given-names>I.</given-names>
+</string-name></person-group>
+<year>2011</year>. 
+<article-title>When nature rebels: international migration, climate change, and inequality</article-title>. <source>J Popul Econ</source>
+<volume>24</volume>:<fpage>569</fpage>&#x02013;<lpage>600</lpage>.</mixed-citation></ref><ref id="icab025-B99"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Martens</surname><given-names>P</given-names>
+</string-name>, <string-name><surname>Su</surname><given-names>B</given-names>
+</string-name>, <string-name><surname>Deblomme</surname><given-names>S.</given-names>
+</string-name></person-group>
+<year>2019</year>. 
+<article-title>The ecological paw print of companion dogs and cats</article-title>. <source>BioScience</source>
+<volume>69</volume>:<fpage>467</fpage>&#x02013;<lpage>74</lpage>.<pub-id pub-id-type="pmid">31190686</pub-id></mixed-citation></ref><ref id="icab025-B100"><mixed-citation publication-type="other"><person-group person-group-type="author"><string-name><surname>Mathew</surname><given-names>A</given-names>
+</string-name>, <string-name><surname>Kelly</surname><given-names>K.</given-names>
+</string-name></person-group> (<year>2008</year>). Disaster preparedness in urban immigrant communities: communities in Southern California. Los Angeles, CA. Accessed on January 29, 2021.</mixed-citation></ref><ref id="icab025-B101"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Mattioli</surname><given-names>G</given-names>
+</string-name>, <string-name><surname>Anable</surname><given-names>J</given-names>
+</string-name>, <string-name><surname>Vrotsou</surname><given-names>K.</given-names>
+</string-name></person-group>
+<year>2016</year>. 
+<article-title>Car dependent practices: findings from a sequence pattern mining study of UK time use data</article-title>. <source>Transport Res A Policy Pract</source>
+<volume>89</volume>:<fpage>56</fpage>&#x02013;<lpage>72</lpage>.</mixed-citation></ref><ref id="icab025-B102"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>McGill</surname><given-names>E</given-names>
+</string-name>, <string-name><surname>Berke</surname><given-names>O</given-names>
+</string-name>, <string-name><surname>Peregrine</surname><given-names>AS</given-names>
+</string-name>, <string-name><surname>Weese</surname><given-names>JS.</given-names>
+</string-name></person-group>
+<year>2019</year>. 
+<article-title>Epidemiology of canine heartworm (Dirofilaria immitis) infection in domestic dogs in Ontario, Canada: geographic distribution, risk factors and effects of climate</article-title>. <source>Geospat Health</source>
+<volume>14</volume>.</mixed-citation></ref><ref id="icab025-B172"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>McQuiston</surname><given-names>JH</given-names>
+</string-name>, <string-name><surname>Wilson</surname><given-names>T</given-names>
+</string-name>, <string-name><surname>Harris</surname><given-names>S</given-names>
+</string-name>, <string-name><surname>Bacon</surname><given-names>RM</given-names>
+</string-name>, <string-name><surname>Shapiro</surname><given-names>S</given-names>
+</string-name>, <string-name><surname>Trevino</surname><given-names>I</given-names>
+</string-name>, <string-name><surname>Sinclair</surname><given-names>J</given-names>
+</string-name>, <string-name><surname>Galland</surname><given-names>G</given-names>
+</string-name>, <string-name><surname>Marano</surname><given-names>N.</given-names>
+</string-name></person-group>
+<year>2008</year>. 
+<article-title>Importation of dogs into the United States: risks from rabies and other zoonotic diseases</article-title>. <source>Zoonoses Public Health</source>
+<volume>55</volume>: <fpage>8</fpage>-<lpage>11</lpage>.</mixed-citation></ref><ref id="icab025-B53878789"><mixed-citation publication-type="journal"><person-group person-group-type="author">
+<string-name><surname>Mills</surname><given-names>JN</given-names>, 
+</string-name>
+<string-name><surname>Gage</surname><given-names>KL</given-names>, 
+</string-name>
+<string-name><surname>Khan</surname><given-names>AS.</given-names>
+</string-name></person-group>
+<year>2010</year>. 
+<article-title>Potential influence of climate change on vector-borne and zoonotic diseases: a review and proposed research plan</article-title>. <source>Environ Health Perspect</source>
+<volume>118</volume>:<fpage>1507</fpage>&#x02013;<lpage>14</lpage>.<pub-id pub-id-type="pmid">20576580</pub-id></mixed-citation></ref><ref id="icab025-B103"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Morris</surname><given-names>ZS</given-names>
+</string-name>, <string-name><surname>Wooding</surname><given-names>S</given-names>
+</string-name>, <string-name><surname>Grant</surname><given-names>J.</given-names>
+</string-name></person-group>
+<year>2011</year>. 
+<article-title>The answer is 17 years, what is the question: understanding time lags in translational research</article-title>. <source>J Royal Soc Med</source>
+<volume>104</volume>:<fpage>510</fpage>&#x02013;<lpage>20</lpage>.</mixed-citation></ref><ref id="icab025-B104"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Nardulli</surname><given-names>PF</given-names>
+</string-name>, <string-name><surname>Peyton</surname><given-names>B</given-names>
+</string-name>, <string-name><surname>Bajjalieh</surname><given-names>J.</given-names>
+</string-name></person-group>
+<year>2015</year>. 
+<article-title>Climate change and civil unrest: the impact of rapid-onset disasters</article-title>. <source>J Conflict Resolut</source>
+<volume>59</volume>:<fpage>310</fpage>&#x02013;<lpage>35</lpage>.</mixed-citation></ref><ref id="icab025-B105"><mixed-citation publication-type="other">NASA. (<year>2021</year>). The effects of climate change. (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://climate.nasa.gov/effects/" ext-link-type="uri">https://climate.nasa.gov/effects/</ext-link>).</mixed-citation></ref><ref id="icab025-B106"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Neumann</surname><given-names>SL.</given-names>
+</string-name></person-group>
+<year>2010</year>. 
+<article-title>Animal welfare volunteers: who are they and why do they do what they do?</article-title>
+<source>Anthrozoos</source>
+<volume>23</volume>:<fpage>351</fpage>&#x02013;<lpage>64</lpage>.</mixed-citation></ref><ref id="icab025-B166"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Nibblett</surname><given-names>BM</given-names>
+</string-name>, <string-name><surname>Ketzis</surname><given-names>JK</given-names>
+</string-name>, <string-name><surname>Grigg</surname><given-names>EK.</given-names>
+</string-name></person-group>
+<year>2015</year>. 
+<article-title>Comparison of stress exhibited by cats examined in a clinic versus a home setting</article-title>. <source>Appl Anim Behav Sci</source>
+<volume>173</volume>:<fpage>68</fpage>-<lpage>75</lpage>.</mixed-citation></ref><ref id="icab025-B107"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ogden</surname><given-names>NH</given-names>
+</string-name>, <string-name><surname>Bouchard</surname><given-names>C</given-names>
+</string-name>, <string-name><surname>Badcock</surname><given-names>J</given-names>
+</string-name>, <string-name><surname>Drebot</surname><given-names>MA</given-names>
+</string-name>, <string-name><surname>Elias</surname><given-names>SP</given-names>
+</string-name>, <string-name><surname>Hatchette</surname><given-names>TF</given-names>
+</string-name>, <string-name><surname>Koffi</surname><given-names>JK</given-names>
+</string-name>, <string-name><surname>Leighton</surname><given-names>PA</given-names>
+</string-name>, <string-name><surname>Lindsay</surname><given-names>LR</given-names>
+</string-name>, <string-name><surname>Lubelczyk</surname><given-names>CB</given-names>
+</string-name></person-group>, <etal>et al</etal>
+<year>2019</year>. 
+<article-title>What is the real number of Lyme disease cases in Canada?</article-title>
+<source>BMC Public Health</source>
+<volume>19</volume>:<fpage>1</fpage>&#x02013;<lpage>12</lpage>.<pub-id pub-id-type="pmid">30606151</pub-id></mixed-citation></ref><ref id="icab025-B108"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Okin</surname><given-names>GS.</given-names>
+</string-name></person-group>
+<year>2017</year>. 
+<article-title>Environmental impacts of food consumption by dogs and cats</article-title>. <source>PLoS One</source>
+<volume>12</volume>:<fpage>e0181301</fpage>.<pub-id pub-id-type="pmid">28767700</pub-id></mixed-citation></ref><ref id="icab025-B109"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Olazabal</surname><given-names>M</given-names>
+</string-name>, <string-name><surname>Galarraga</surname><given-names>I</given-names>
+</string-name>, <string-name><surname>Ford</surname><given-names>J</given-names>
+</string-name>, <string-name><surname>Sainz De Murieta</surname><given-names>E</given-names>
+</string-name>, <string-name><surname>Lesnikowski</surname><given-names>A.</given-names>
+</string-name></person-group>
+<year>2019</year>. 
+<article-title>Are local climate adaptation policies credible? A conceptual and operational assessment framework</article-title>. <source>Int J Urban Sustain Dev</source>
+<volume>11</volume>:<fpage>277</fpage>&#x02013;<lpage>96</lpage>.</mixed-citation></ref><ref id="icab025-B110"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Otranto</surname><given-names>D</given-names>
+</string-name>, <string-name><surname>Dantas-Torres</surname><given-names>F</given-names>
+</string-name>, <string-name><surname>Mihalca</surname><given-names>AD</given-names>
+</string-name>, <string-name><surname>Traub</surname><given-names>RJ</given-names>
+</string-name>, <string-name><surname>Lappin</surname><given-names>M</given-names>
+</string-name>, <string-name><surname>Baneth</surname><given-names>G.</given-names>
+</string-name></person-group>
+<year>2017</year>. 
+<article-title>Zoonotic parasites of sheltered and stray dogs in the era of the global economic and political crisis</article-title>. <source>Trend Parasitol</source>
+<volume>33</volume>:<fpage>813</fpage>&#x02013;<lpage>25</lpage>.</mixed-citation></ref><ref id="icab025-B177"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Overgaauw</surname><given-names>PAM</given-names>
+</string-name>, <string-name><surname>Vinke</surname><given-names>CM</given-names>
+</string-name>, <string-name><surname>van Hagen</surname><given-names>MAE</given-names>
+</string-name>, <string-name><surname>Lipman</surname><given-names>LJA.</given-names>
+</string-name></person-group>
+<year>2020</year>. 
+<article-title>A one health perspective on the human-companion animal relationship with emphasis on zoonotic aspects</article-title>. <source>Int J Environ Res Public Health</source>
+<volume>17</volume>: <fpage>2789</fpage>&#x02013;<lpage>2818</lpage>.</mixed-citation></ref><ref id="icab025-B111"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Packer</surname><given-names>RM</given-names>
+</string-name>, <string-name><surname>O&#x02019;Neill</surname><given-names>DG</given-names>
+</string-name>, <string-name><surname>Fletcher</surname><given-names>F</given-names>
+</string-name>, <string-name><surname>Farnworth</surname><given-names>MJ.</given-names>
+</string-name></person-group>
+<year>2019</year>. 
+<article-title>Great expectations, inconvenient truths, and the paradoxes of the dog-owner relationship for owners of brachycephalic dogs</article-title>. <source>PLoS One</source>
+<volume>14</volume>:<fpage>e0219918</fpage>.<pub-id pub-id-type="pmid">31323057</pub-id></mixed-citation></ref><ref id="icab025-B112"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Parkes</surname><given-names>M.</given-names>
+</string-name></person-group>
+<year>2021</year>. <chapter-title>Working together for WHOLE systems: approaching well-being and health while oriented to living systems and equity</chapter-title>. In: <person-group person-group-type="editor"><string-name><surname>Stephen</surname><given-names>C</given-names>
+</string-name></person-group>, editor. <source>Animals, health, and society.</source>
+<publisher-loc>Boca Raton (FL</publisher-loc>): 
+<publisher-name>CRC</publisher-name>. p. <fpage>71</fpage>&#x02013;<lpage>94</lpage>.</mixed-citation></ref><ref id="icab025-B113"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Paul</surname><given-names>ES</given-names>
+</string-name>, <string-name><surname>Serpell</surname><given-names>JA.</given-names>
+</string-name></person-group>
+<year>1993</year>. 
+<article-title>Childhood pet keeping and humane attitudes in young adulthood</article-title>. <source>Anim Welfare</source>
+<volume>2</volume>:<fpage>321</fpage>&#x02013;<lpage>37</lpage>.</mixed-citation></ref><ref id="icab025-B114"><mixed-citation publication-type="other">PFL. (<year>2021</year>). <italic toggle="yes">Pets for Life Tools and Guides</italic>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://humanepro.org/pets-for-life/tools-and-guides" ext-link-type="uri">https://humanepro.org/pets-for-life/tools-and-guides</ext-link>. Accessed Feb 21, 2021.</mixed-citation></ref><ref id="icab025-B115"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Pimentel</surname><given-names>D</given-names>
+</string-name>, <string-name><surname>Pimentel</surname><given-names>M.</given-names>
+</string-name></person-group>
+<year>2003</year>. 
+<article-title>Sustainability of meat-based and plant-based diets and the environment</article-title>. <source>Am J Clin Nutr</source>
+<volume>78</volume>:<fpage>660S</fpage>&#x02013;<lpage>3S</lpage>.<pub-id pub-id-type="pmid">12936963</pub-id></mixed-citation></ref><ref id="icab025-B116"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Pinillos</surname><given-names>RG</given-names>
+</string-name>, <string-name><surname>Appleby</surname><given-names>MC</given-names>
+</string-name>, <string-name><surname>Manteca</surname><given-names>X</given-names>
+</string-name>, <string-name><surname>Scott&#x02010;Park</surname><given-names>F</given-names>
+</string-name>, <string-name><surname>Smith</surname><given-names>C</given-names>
+</string-name>, <string-name><surname>Velarde</surname><given-names>A.</given-names>
+</string-name></person-group>
+<year>2016</year>. 
+<article-title>One Welfare&#x02013;a platform for improving human and animal welfare</article-title>. <source>Vet Rec</source>
+<volume>179</volume>:<fpage>412</fpage>&#x02013;<lpage>3</lpage>.<pub-id pub-id-type="pmid">27770094</pub-id></mixed-citation></ref><ref id="icab025-B181"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Polak</surname><given-names>K.</given-names>
+</string-name></person-group>
+<year>2019</year>. 
+<article-title>Dog Transport and Infectious Disease Risk: An International Perspective</article-title>. <source>Vet Clin North Am - Small Anim Pract</source>. <volume>49</volume>(<issue>4</issue>):<fpage>599</fpage>-<lpage>613</lpage>.<pub-id pub-id-type="pmid">30967255</pub-id></mixed-citation></ref><ref id="icab025-B117"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Pollard</surname><given-names>AE</given-names>
+</string-name>, <string-name><surname>Rowlison</surname><given-names>DL</given-names>
+</string-name>, <string-name><surname>Kohnen</surname><given-names>A</given-names>
+</string-name>, <string-name><surname>McGuffin</surname><given-names>K</given-names>
+</string-name>, <string-name><surname>Geldert</surname><given-names>C</given-names>
+</string-name>, <string-name><surname>Kramer</surname><given-names>C</given-names>
+</string-name>, <string-name><surname>Carpenter</surname><given-names>MJ.</given-names>
+</string-name></person-group>
+<year>2020</year>. 
+<article-title>Preparing veterinarians to address the health impacts of climate change: student perceptions, knowledge gaps, and opportunities</article-title>. <source>J Vet Med Educ</source>
+<fpage>e20190080:17-24</fpage>.</mixed-citation></ref><ref id="icab025-B118"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Rastogi</surname><given-names>N.</given-names>
+</string-name></person-group> (<year>2010</year>). <source>The trouble with kibbles: The environmental impact of pet food</source>. 
+<publisher-loc>New York (NY</publisher-loc>): 
+<publisher-name>Slate</publisher-name>.</mixed-citation></ref><ref id="icab025-B176"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Reed</surname><given-names>AE</given-names>
+</string-name>, <string-name><surname>DeYoung</surname><given-names>SE</given-names>
+</string-name>, <string-name><surname>Farmer</surname><given-names>AK.</given-names>
+</string-name></person-group>
+<year>2020</year>. 
+<article-title>Companion Animals and Online Discourse: Victim-Blaming and Animal Evacuation</article-title>. <source>Anthrozoos</source>
+<volume>33</volume>:<fpage>727</fpage>&#x02013;<lpage>42</lpage>.</mixed-citation></ref><ref id="icab025-B119"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Reijnders</surname><given-names>L</given-names>
+</string-name>, <string-name><surname>Soret</surname><given-names>S.</given-names>
+</string-name></person-group>
+<year>2003</year>. 
+<article-title>Quantification of the environmental impact of different dietary protein choices</article-title>. <source>Am J Clin Nutr</source>
+<volume>78</volume>:<fpage>664S</fpage>&#x02013;<lpage>8S</lpage>.<pub-id pub-id-type="pmid">12936964</pub-id></mixed-citation></ref><ref id="icab025-B120"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Riedlinger</surname><given-names>D</given-names>
+</string-name>, <string-name><surname>Berkes</surname><given-names>F.</given-names>
+</string-name></person-group>
+<year>2001</year>. 
+<article-title>Contributions of traditional knowledge to understanding climate change in the Canadian Arctic</article-title>. <source>Polar Rec</source>
+<volume>37</volume>:<fpage>315</fpage>&#x02013;<lpage>28</lpage>.</mixed-citation></ref><ref id="icab025-B121"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Rohr</surname><given-names>JR</given-names>
+</string-name>, <string-name><surname>Dobson</surname><given-names>AP</given-names>
+</string-name>, <string-name><surname>Johnson</surname><given-names>PTJ</given-names>
+</string-name>, <string-name><surname>Kilpatrick</surname><given-names>AM</given-names>
+</string-name>, <string-name><surname>Paull</surname><given-names>SH</given-names>
+</string-name>, <string-name><surname>Raffel</surname><given-names>TR</given-names>
+</string-name>, <string-name><surname>Ruiz-Moreno</surname><given-names>D</given-names>
+</string-name>, <string-name><surname>Thomas</surname><given-names>MB.</given-names>
+</string-name></person-group>
+<year>2011</year>. 
+<article-title>Frontiers in climate change&#x02013;disease research</article-title>. <source>Trend Ecol Evol</source>
+<volume>26</volume>:<fpage>270</fpage>&#x02013;<lpage>7</lpage>.</mixed-citation></ref><ref id="icab025-B122"><mixed-citation publication-type="other"><person-group person-group-type="author"><string-name><surname>Rose</surname><given-names>D</given-names>
+</string-name>, <string-name><surname>McMillian</surname><given-names>C</given-names>
+</string-name>, <string-name><surname>Carter</surname><given-names>O.</given-names>
+</string-name></person-group> (<year>2020</year>). Pet-friendly rental housing: racial and spatial inequalities. Space and culture 23:<fpage>1</fpage>&#x02013;<lpage>18</lpage>.</mixed-citation></ref><ref id="icab025-B123"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Rosenkoetter</surname><given-names>MM</given-names>
+</string-name>, <string-name><surname>Covan</surname><given-names>EK</given-names>
+</string-name>, <string-name><surname>Cobb</surname><given-names>BK</given-names>
+</string-name>, <string-name><surname>Bunting</surname><given-names>S</given-names>
+</string-name>, <string-name><surname>Weinrich</surname><given-names>M.</given-names>
+</string-name></person-group>
+<year>2007</year>. 
+<article-title>Perceptions of older adults regarding evacuation in the event of a natural disaster</article-title>. <source>Public Health Nurs</source>
+<volume>24</volume>:<fpage>160</fpage>&#x02013;<lpage>8</lpage>.<pub-id pub-id-type="pmid">17319888</pub-id></mixed-citation></ref><ref id="icab025-B124"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Rothgerber</surname><given-names>H</given-names>
+</string-name>, <string-name><surname>Mican</surname><given-names>F.</given-names>
+</string-name></person-group>
+<year>2014</year>. 
+<article-title>Childhood pet ownership, attachment to pets, and subsequent meat avoidance. The mediating role of empathy toward animals</article-title>. <source>Appetite</source>
+<volume>79</volume>:<fpage>11</fpage>&#x02013;<lpage>7</lpage>.<pub-id pub-id-type="pmid">24704704</pub-id></mixed-citation></ref><ref id="icab025-B125"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Rushforth</surname><given-names>R</given-names>
+</string-name>, <string-name><surname>Moreau</surname><given-names>M.</given-names>
+</string-name></person-group>
+<year>2013</year>. 
+<article-title>Finding your dog&#x02019;s ecological &#x02018;pawprint&#x02019;: a hybrid EIO&#x02013;LCA of dog food manufacturing</article-title>. <source>Course project report series SSEBE-CESEM-2013-CPR. Vol.</source>
+<volume>5</volume>:<fpage>1</fpage>&#x02013;<lpage>16</lpage>.</mixed-citation></ref><ref id="icab025-B126"><mixed-citation publication-type="other"><person-group person-group-type="author">Russell WMS, Burch RL. 1959. (as reprinted 1992). The principles of humane experimental technique. Wheathampstead (UK): Universities Federation for Animal Welfare.</person-group></mixed-citation></ref><ref id="icab025-B127"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Saunders</surname><given-names>J</given-names>
+</string-name>, <string-name><surname>Parast</surname><given-names>L</given-names>
+</string-name>, <string-name><surname>Babey</surname><given-names>SH</given-names>
+</string-name>, <string-name><surname>Miles</surname><given-names>JV.</given-names>
+</string-name></person-group>
+<year>2017</year>. 
+<article-title>Exploring the differences between pet and non-pet owners: implications for human-animal interaction research and policy</article-title>. <source>PLoS One</source>
+<volume>12</volume>:<fpage>e0179494</fpage>.<pub-id pub-id-type="pmid">28644848</pub-id></mixed-citation></ref><ref id="icab025-B128"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Schaffner</surname><given-names>JE</given-names>
+</string-name>, <string-name><surname>Wandesforde-Smith</surname><given-names>G</given-names>
+</string-name>, <string-name><surname>Wolf</surname><given-names>PJ</given-names>
+</string-name>, <string-name><surname>Levy</surname><given-names>J</given-names>
+</string-name>, <string-name><surname>Riley</surname><given-names>S</given-names>
+</string-name>, <string-name><surname>Farnworth</surname><given-names>MJ.</given-names>
+</string-name></person-group>
+<year>2019</year>. 
+<article-title>Sustaining innovation in compassionate free-roaming cat management across the globe: a decadal reappraisal of the practice and promise of trap-neuter-vaccinate-return (TNVR)</article-title>. <source>Front Vet Sci</source>
+<volume>6</volume>:<fpage>365</fpage>.<pub-id pub-id-type="pmid">31750319</pub-id></mixed-citation></ref><ref id="icab025-B129"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Schneider</surname><given-names>K</given-names>
+</string-name>, <string-name><surname>Guggina</surname><given-names>P</given-names>
+</string-name>, <string-name><surname>Murphy</surname><given-names>D</given-names>
+</string-name>, <string-name><surname>Ferrara</surname><given-names>CM</given-names>
+</string-name>, <string-name><surname>Panza</surname><given-names>E</given-names>
+</string-name>, <string-name><surname>Oleski</surname><given-names>J</given-names>
+</string-name>, <string-name><surname>Bozzella</surname><given-names>B</given-names>
+</string-name>, <string-name><surname>Gada</surname><given-names>K</given-names>
+</string-name>, <string-name><surname>Savage</surname><given-names>C</given-names>
+</string-name>, <string-name><surname>Lemon</surname><given-names>SC.</given-names>
+</string-name></person-group>
+<year>2015</year>. 
+<article-title>Barriers and facilitators to dog walking in New England</article-title>. <source>Compar Exerc Physiol</source>
+<volume>11</volume>:<fpage>55</fpage>&#x02013;<lpage>63</lpage>.</mixed-citation></ref><ref id="icab025-B130"><mixed-citation publication-type="other">Schartz L. 2014. The surprisingly large carbon paw print of your beloved pet. Salon (20 November 2014). <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.salon.com/2014/11/20/the_surprisingly_large_carbon_paw_print_of_your_beloved_pet_partner/" ext-link-type="uri">https://www.salon.com/2014/11/20/the_surprisingly_large_carbon_paw_print_of_your_beloved_pet_partner/</ext-link>). Accessed on February 11, 2021.</mixed-citation></ref><ref id="icab025-B131"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Sheavly</surname><given-names>S</given-names>
+</string-name>, <string-name><surname>Register</surname><given-names>K.</given-names>
+</string-name></person-group>
+<year>2007</year>. 
+<article-title>Marine debris &#x00026; plastics: environmental concerns, sources, impacts and solutions</article-title>. <source>J Polym Environ</source>
+<volume>15</volume>:<fpage>301</fpage>&#x02013;<lpage>5</lpage>.</mixed-citation></ref><ref id="icab025-B132"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Shi</surname><given-names>L</given-names>
+</string-name>, <string-name><surname>Chu</surname><given-names>E</given-names>
+</string-name>, <string-name><surname>Anguelovski</surname><given-names>I</given-names>
+</string-name>, <string-name><surname>Aylett</surname><given-names>A</given-names>
+</string-name>, <string-name><surname>Debats</surname><given-names>J</given-names>
+</string-name>, <string-name><surname>Goh</surname><given-names>K</given-names>
+</string-name>, <string-name><surname>Schenk</surname><given-names>T</given-names>
+</string-name>, <string-name><surname>Seto</surname><given-names>KC</given-names>
+</string-name>, <string-name><surname>Dodman</surname><given-names>D</given-names>
+</string-name>, <string-name><surname>Roberts</surname><given-names>D</given-names>
+</string-name></person-group>, <etal>et al</etal>
+<year>2016</year>. 
+<article-title>Roadmap towards justice in urban climate adaptation research</article-title>. <source>Nat Clim Change</source>
+<volume>6</volume>:<fpage>131</fpage>&#x02013;<lpage>7</lpage>.</mixed-citation></ref><ref id="icab025-B133"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Shields</surname><given-names>S</given-names>
+</string-name>, <string-name><surname>Orme-Evans</surname><given-names>G.</given-names>
+</string-name></person-group>
+<year>2015</year>. 
+<article-title>The impacts of climate change mitigation strategies on animal welfare</article-title>. <source>Animals</source>
+<volume>5</volume>:<fpage>361</fpage>&#x02013;<lpage>94</lpage>.<pub-id pub-id-type="pmid">26479240</pub-id></mixed-citation></ref><ref id="icab025-B134"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Shih</surname><given-names>HY</given-names>
+</string-name>, <string-name><surname>Paterson</surname><given-names>M</given-names>
+</string-name>, <string-name><surname>Phillips</surname><given-names>CJ.</given-names>
+</string-name></person-group>
+<year>2019</year>. 
+<article-title>A retrospective analysis of complaints to RSPCA Queensland, Australia, about dog welfare</article-title>. <source>Animals</source>
+<volume>9</volume>:<fpage>282</fpage>.</mixed-citation></ref><ref id="icab025-B22"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Shuttlewood</surname><given-names>CZ</given-names>
+</string-name>, <string-name><surname>Greenwell</surname><given-names>PJ</given-names>
+</string-name>, <string-name><surname>Montrose</surname><given-names>VT.</given-names>
+</string-name></person-group>
+<year>2016</year>. 
+<article-title>Pet ownership, attitude toward pets, and support for wildlife management strategies</article-title>. <source>Hum Dimens Wildl</source>
+<volume>21</volume>:<fpage>180</fpage>&#x02013;<lpage>8</lpage>.</mixed-citation></ref><ref id="icab025-B135"><mixed-citation publication-type="other"><person-group person-group-type="author"><string-name><surname>Sivewright</surname><given-names>J</given-names>
+</string-name>, <string-name><surname>Kreuger</surname><given-names>NL.</given-names>
+</string-name></person-group> (<year>2019</year>). Winning in pet care [power point presentation].</mixed-citation></ref><ref id="icab025-B136"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Spencer</surname><given-names>T</given-names>
+</string-name>, <string-name><surname>Behar-Horenstein</surname><given-names>L</given-names>
+</string-name>, <string-name><surname>Aufmuth</surname><given-names>J</given-names>
+</string-name>, <string-name><surname>Hardt</surname><given-names>N</given-names>
+</string-name>, <string-name><surname>Applebaum</surname><given-names>JW</given-names>
+</string-name>, <string-name><surname>Emanuel</surname><given-names>A</given-names>
+</string-name>, <string-name><surname>Isaza</surname><given-names>N.</given-names>
+</string-name></person-group>
+<year>2017</year>. 
+<article-title>Factors that influence intake to one municipal animal control facility in Florida: a qualitative study</article-title>. <source>Animals</source>
+<volume>7</volume>:<fpage>48</fpage>.</mixed-citation></ref><ref id="icab025-B137"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Steele</surname><given-names>S</given-names>
+</string-name>, <string-name><surname>Mor</surname><given-names>S.</given-names>
+</string-name></person-group>
+<year>2015</year>. 
+<article-title>Client knowledge, attitudes and practices regarding zoonoses: a metropolitan experience</article-title>. <source>Australian Vet J</source>
+<volume>93</volume>:<fpage>439</fpage>&#x02013;<lpage>44</lpage>.<pub-id pub-id-type="pmid">26769069</pub-id></mixed-citation></ref><ref id="icab025-B138"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Stephen</surname><given-names>C.</given-names>
+</string-name></person-group>
+<year>2021</year>. <chapter-title>The call to action</chapter-title>. In: <person-group person-group-type="editor"><string-name><surname>Stephen</surname><given-names>C</given-names>
+</string-name></person-group>, editor <source>Animals, health, and society.</source>
+<publisher-loc>Boca Raton (FL</publisher-loc>): 
+<publisher-name>CRC</publisher-name>. p. <fpage>3</fpage>&#x02013;<lpage>16</lpage>.</mixed-citation></ref><ref id="icab025-B139"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Stephen</surname><given-names>C</given-names>
+</string-name>, <string-name><surname>Carron</surname><given-names>M</given-names>
+</string-name>, <string-name><surname>Stemshorn</surname><given-names>B.</given-names>
+</string-name></person-group>
+<year>2019</year>. 
+<article-title>Climate change and veterinary medicine: action is needed to retain social relevance</article-title>. <source>Can Vet J</source>
+<volume>60</volume>:<fpage>1356</fpage>.<pub-id pub-id-type="pmid">31814645</pub-id></mixed-citation></ref><ref id="icab025-B140"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Su</surname><given-names>B</given-names>
+</string-name>, <string-name><surname>Martens</surname><given-names>P</given-names>
+</string-name>, <string-name><surname>Enders-Slegers</surname><given-names>MJ.</given-names>
+</string-name></person-group>
+<year>2018</year>. 
+<article-title>A neglected predictor of environmental damage: the ecological paw print and carbon emissions of food consumption by companion dogs and cats in China</article-title>. <source>J Cleaner Product</source>
+<volume>194</volume>:<fpage>1</fpage>&#x02013;<lpage>11</lpage>.</mixed-citation></ref><ref id="icab025-B141"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Swanson</surname><given-names>KS</given-names>
+</string-name>, <string-name><surname>Carter</surname><given-names>RA</given-names>
+</string-name>, <string-name><surname>Yount</surname><given-names>TP</given-names>
+</string-name>, <string-name><surname>Aretz</surname><given-names>J</given-names>
+</string-name>, <string-name><surname>Buff</surname><given-names>PR.</given-names>
+</string-name></person-group>
+<year>2013</year>. 
+<article-title>Nutritional sustainability of pet foods</article-title>. <source>Adv Nutr</source>
+<volume>4</volume>:<fpage>141</fpage>&#x02013;<lpage>50</lpage>.<pub-id pub-id-type="pmid">23493530</pub-id></mixed-citation></ref><ref id="icab025-B142"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Sykes</surname><given-names>N</given-names>
+</string-name>, <string-name><surname>Beirne</surname><given-names>P</given-names>
+</string-name>, <string-name><surname>Horowitz</surname><given-names>A</given-names>
+</string-name>, <string-name><surname>Jones</surname><given-names>I</given-names>
+</string-name>, <string-name><surname>Kalof</surname><given-names>L</given-names>
+</string-name>, <string-name><surname>Karlsson</surname><given-names>E</given-names>
+</string-name>, <string-name><surname>King</surname><given-names>T</given-names>
+</string-name>, <string-name><surname>Litwak</surname><given-names>H</given-names>
+</string-name>, <string-name><surname>McDonald</surname><given-names>RA</given-names>
+</string-name>, <string-name><surname>Murphy</surname><given-names>LJ</given-names>
+</string-name></person-group>, <etal>et al</etal>
+<year>2020</year>. 
+<article-title>Humanity&#x02019;s best friend: a dog-centric approach to addressing global challenges</article-title>. <source>Animals</source>
+<volume>10</volume>:<fpage>502</fpage>.</mixed-citation></ref><ref id="icab025-B143"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Sz&#x000e9;ll</surname><given-names>Z</given-names>
+</string-name>, <string-name><surname>Bacsadi</surname><given-names>&#x000c1;</given-names>
+</string-name>, <string-name><surname>Szeredi</surname><given-names>L</given-names>
+</string-name>, <string-name><surname>Nemes</surname><given-names>C</given-names>
+</string-name>, <string-name><surname>F&#x000e9;zer</surname><given-names>B</given-names>
+</string-name>, <string-name><surname>Bakcsa</surname><given-names>E</given-names>
+</string-name>, <string-name><surname>Kalla</surname><given-names>H</given-names>
+</string-name>, <string-name><surname>Tolnai</surname><given-names>Z</given-names>
+</string-name>, <string-name><surname>Sr&#x000e9;ter</surname><given-names>T.</given-names>
+</string-name></person-group>
+<year>2020</year>. 
+<article-title>Rapid spread and emergence of heartworm resulting from climate and climate-driven ecological changes in Hungary</article-title>. <source>Vet Parasitol</source>
+<volume>280</volume>:<fpage>109067</fpage>.<pub-id pub-id-type="pmid">32145530</pub-id></mixed-citation></ref><ref id="icab025-B144"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Thompson</surname><given-names>K.</given-names>
+</string-name></person-group>
+<year>2013</year>. 
+<article-title>Save me, save my dog: increasing natural disaster preparedness and survival by addressing human-animal relationships</article-title>. <source>Australian J Commun</source>
+<volume>40</volume>:<fpage>123</fpage>&#x02013;<lpage>36</lpage>.</mixed-citation></ref><ref id="icab025-B145"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Thompson</surname><given-names>K</given-names>
+</string-name>, <string-name><surname>Every</surname><given-names>D</given-names>
+</string-name>, <string-name><surname>Rainbird</surname><given-names>S</given-names>
+</string-name>, <string-name><surname>Cornell</surname><given-names>V</given-names>
+</string-name>, <string-name><surname>Smith</surname><given-names>B</given-names>
+</string-name>, <string-name><surname>Trigg</surname><given-names>J.</given-names>
+</string-name></person-group>
+<year>2014</year>. 
+<article-title>No pet or their person left behind: increasing the disaster resilience of vulnerable groups through animal attachment, activities and networks</article-title>. <source>Animals</source>
+<volume>4</volume>:<fpage>214</fpage>&#x02013;<lpage>40</lpage>.<pub-id pub-id-type="pmid">26480038</pub-id></mixed-citation></ref><ref id="icab025-B146"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Torkar</surname><given-names>G</given-names>
+</string-name>, <string-name><surname>Fabijan</surname><given-names>T</given-names>
+</string-name>, <string-name><surname>Bogner</surname><given-names>FX.</given-names>
+</string-name></person-group>
+<year>2020</year>. 
+<article-title>Students&#x02019; care for dogs, environmental attitudes, and behaviour</article-title>. <source>Sustainability</source>
+<volume>12</volume>:<fpage>1317</fpage>.</mixed-citation></ref><ref id="icab025-B147"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Tran</surname><given-names>V</given-names>
+</string-name>, <string-name><surname>Kelman</surname><given-names>M</given-names>
+</string-name>, <string-name><surname>Ward</surname><given-names>M</given-names>
+</string-name>, <string-name><surname>Westman</surname><given-names>M.</given-names>
+</string-name></person-group>
+<year>2019</year>. 
+<article-title>Risk of Feline Immunodeficiency Virus (FIV) infection in pet cats in Australia is higher in areas of lower socioeconomic status</article-title>. <source>Animals</source>
+<volume>9</volume>:<fpage>592</fpage>.</mixed-citation></ref><ref id="icab025-B148"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Travers</surname><given-names>C</given-names>
+</string-name>, <string-name><surname>Degeling</surname><given-names>C</given-names>
+</string-name>, <string-name><surname>Rock</surname><given-names>M.</given-names>
+</string-name></person-group>
+<year>2017</year>. 
+<article-title>Companion animals in natural disasters: a scoping review of scholarly sources</article-title>. <source>J Appl Anim Welfare Sci</source>
+<volume>20</volume>:<fpage>324</fpage>&#x02013;<lpage>43</lpage>.</mixed-citation></ref><ref id="icab025-B149"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Travis</surname><given-names>HJ.</given-names>
+</string-name></person-group>
+<year>2014</year>. <chapter-title>Children and the human-animal bond: minimizing pet loss during disasters</chapter-title>. In <source>Teaching compassion: humane education in early childhood</source>. 
+<publisher-loc>Berlin, Germany</publisher-loc>: 
+<publisher-name>Springer</publisher-name>. p. <fpage>133</fpage>&#x02013;<lpage>1</lpage><lpage>45</lpage>.</mixed-citation></ref><ref id="icab025-B150"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Vale</surname><given-names>B</given-names>
+</string-name>, <string-name><surname>Vale</surname><given-names>RJD.</given-names>
+</string-name></person-group>
+<year>2009</year>. <source>Time to eat the dog: the real guide to sustainable living</source>. 
+<publisher-loc>London</publisher-loc>: 
+<publisher-name>Thames &#x00026; Hudson</publisher-name>.</mixed-citation></ref><ref id="icab025-B151"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Van Haaften</surname><given-names>KA</given-names>
+</string-name>, <string-name><surname>Forsythe</surname><given-names>LRE</given-names>
+</string-name>, <string-name><surname>Stelow</surname><given-names>EA</given-names>
+</string-name>, <string-name><surname>Bain</surname><given-names>MJ.</given-names>
+</string-name></person-group>
+<year>2017</year>. 
+<article-title>Effects of a single preappointment dose of gabapentin on signs of stress in cats during transportation and veterinary examination</article-title>. <source>J Am Vet Med Assoc</source>
+<volume>251</volume>:<fpage>1175</fpage>&#x02013;<lpage>81</lpage>.<pub-id pub-id-type="pmid">29099247</pub-id></mixed-citation></ref><ref id="icab025-B152"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Walsh</surname><given-names>F.</given-names>
+</string-name></person-group>
+<year>2009a</year>. 
+<article-title>Human&#x02010;animal bonds I: the relational significance of companion animals</article-title>. <source>Fam Proc</source>
+<volume>48</volume>:<fpage>462</fpage>&#x02013;<lpage>80</lpage>.</mixed-citation></ref><ref id="icab025-B153"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Walsh</surname><given-names>F.</given-names>
+</string-name></person-group>
+<year>2009b</year>. 
+<article-title>Human&#x02010;animal bonds II: the role of pets in family systems and family therapy</article-title>. <source>Fam Proc</source>
+<volume>48</volume>:<fpage>481</fpage>&#x02013;<lpage>99</lpage>.</mixed-citation></ref><ref id="icab025-B154"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Westgarth</surname><given-names>C</given-names>
+</string-name>, <string-name><surname>Pinchbeck</surname><given-names>GL</given-names>
+</string-name>, <string-name><surname>Bradshaw</surname><given-names>JW</given-names>
+</string-name>, <string-name><surname>Dawson</surname><given-names>S</given-names>
+</string-name>, <string-name><surname>Gaskell</surname><given-names>RM</given-names>
+</string-name>, <string-name><surname>Christley</surname><given-names>RM.</given-names>
+</string-name></person-group>
+<year>2007</year>. 
+<article-title>Factors associated with dog ownership and contact with dogs in a UK community</article-title>. <source>BMC Vet Res</source>
+<volume>3</volume>:<fpage>5</fpage>&#x02013;<lpage>9</lpage>.<pub-id pub-id-type="pmid">17407583</pub-id></mixed-citation></ref><ref id="icab025-B155"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Wheeler</surname><given-names>T</given-names>
+</string-name>, <string-name><surname>Von Braun</surname><given-names>J.</given-names>
+</string-name></person-group>
+<year>2013</year>. 
+<article-title>Climate change impacts on global food security</article-title>. <source>Science</source>
+<volume>341</volume>:<fpage>508</fpage>&#x02013;<lpage>13</lpage>.<pub-id pub-id-type="pmid">23908229</pub-id></mixed-citation></ref><ref id="icab025-B156"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Williams</surname><given-names>KJ</given-names>
+</string-name>, <string-name><surname>Weston</surname><given-names>MA</given-names>
+</string-name>, <string-name><surname>Henry</surname><given-names>S</given-names>
+</string-name>, <string-name><surname>Maguire</surname><given-names>GS.</given-names>
+</string-name></person-group>
+<year>2009</year>. 
+<article-title>Birds and beaches, dogs and leashes: dog owners&#x02019; sense of obligation to leash dogs on beaches in Victoria, Australia</article-title>. <source>Hum Dimens Wildlife</source>
+<volume>14</volume>:<fpage>89</fpage>&#x02013;<lpage>101</lpage>.</mixed-citation></ref><ref id="icab025-B157"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Wirsenius</surname><given-names>S</given-names>
+</string-name>, <string-name><surname>Azar</surname><given-names>C</given-names>
+</string-name>, <string-name><surname>Berndes</surname><given-names>G.</given-names>
+</string-name></person-group>
+<year>2010</year>. 
+<article-title>How much land is needed for global food production under scenarios of dietary changes and livestock productivity increases in 2030?</article-title>
+<source>Agric Syst</source>
+<volume>103</volume>:<fpage>621</fpage>&#x02013;<lpage>38</lpage>.</mixed-citation></ref><ref id="icab025-B158"><mixed-citation publication-type="other">World Health Organisation. (<year>2019</year>). Ten threats to global health in 2019. (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.who.int/news-room/spotlight/ten-threats-to-global-health-in-2019" ext-link-type="uri">https://www.who.int/news-room/spotlight/ten-threats-to-global-health-in-2019</ext-link>). &#x000a0;Accessed on February 21, 2021.</mixed-citation></ref><ref id="icab025-B159"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Worm</surname><given-names>B</given-names>
+</string-name>, <string-name><surname>Lotze</surname><given-names>HK</given-names>
+</string-name>, <string-name><surname>Jubinville</surname><given-names>I</given-names>
+</string-name>, <string-name><surname>Wilcox</surname><given-names>C</given-names>
+</string-name>, <string-name><surname>Jambeck</surname><given-names>J.</given-names>
+</string-name></person-group>
+<year>2017</year>. 
+<article-title>Plastic as a persistent marine pollutant</article-title>. <source>Ann Rev Environ Resource</source>
+<volume>42</volume>:<fpage>1</fpage>&#x02013;<lpage>26</lpage>.</mixed-citation></ref><ref id="icab025-B160"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Wynne</surname><given-names>CDL.</given-names>
+</string-name></person-group>
+<year>2016</year>. 
+<article-title>What is special about dog cognition?</article-title>
+<source>Curr Direct Psychol Sci</source>
+<volume>25</volume>:<fpage>345</fpage>&#x02013;<lpage>50</lpage>.</mixed-citation></ref><ref id="icab025-B171"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Yamazaki</surname><given-names>S.</given-names>
+</string-name></person-group>
+<year>2015</year>. 
+<article-title>A Survey of Companion-Animal Owners Affected by the East Japan Great Earthquake in Iwate and Fukushima Prefectures,</article-title>
+<source>Japan. Anthrozoo</source>
+<volume>28</volume>:<fpage>291</fpage>-<lpage>304</lpage>.</mixed-citation></ref><ref id="icab025-B161"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Zhang</surname><given-names>DD</given-names>
+</string-name>, <string-name><surname>Brecke</surname><given-names>P</given-names>
+</string-name>, <string-name><surname>Lee</surname><given-names>HF</given-names>
+</string-name>, <string-name><surname>He</surname><given-names>YQ</given-names>
+</string-name>, <string-name><surname>Zhang</surname><given-names>J.</given-names>
+</string-name></person-group>
+<year>2007a</year>. 
+<article-title>Global climate change, war, and population decline in recent human history</article-title>. <source>Proc Natl Acad Sci</source>
+<volume>104</volume>:<fpage>19214</fpage>&#x02013;<lpage>9</lpage>.<pub-id pub-id-type="pmid">18048343</pub-id></mixed-citation></ref><ref id="icab025-B162"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Zhang</surname><given-names>DD</given-names>
+</string-name>, <string-name><surname>Zhang</surname><given-names>J</given-names>
+</string-name>, <string-name><surname>Lee</surname><given-names>HF</given-names>
+</string-name>, <string-name><surname>He</surname><given-names>YQ.</given-names>
+</string-name></person-group>
+<year>2007b</year>. 
+<article-title>Climate change and war frequency in Eastern China over the last millennium</article-title>. <source>Hum Ecol</source>
+<volume>35</volume>:<fpage>403</fpage>&#x02013;<lpage>14</lpage>.</mixed-citation></ref></ref-list></back></article>

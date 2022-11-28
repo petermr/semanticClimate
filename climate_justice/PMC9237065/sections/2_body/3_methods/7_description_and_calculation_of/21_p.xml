@@ -1,0 +1,37 @@
+<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" id="Par70">(1) Establishing the total budget from 1995 to 2030:<disp-formula id="Equ9"><label>9</label><alternatives><tex-math id="M39">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{array}{c}B=\left(\left({e}_{{{{{{\rm{EU}}}}}}}^{2019}-{e}_{{{{{{\rm{EU}}}}}}}^{2030}\right)* \frac{t}{2}\right)+t* {e}_{{{{{{\rm{EU}}}}}}}^{2030}+{e}_{{{{{{\rm{EU}}}}}}}^{1995-2019}\end{array}$$\end{document}</tex-math><mml:math id="M40"><mml:mtable><mml:mtr><mml:mtd columnalign="center"><mml:mi>B</mml:mi><mml:mo>=</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:mfenced close=")" open="("><mml:mrow><mml:msubsup><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">EU</mml:mi></mml:mrow><mml:mrow><mml:mn>2019</mml:mn></mml:mrow></mml:msubsup><mml:mo>&#8722;</mml:mo><mml:msubsup><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">EU</mml:mi></mml:mrow><mml:mrow><mml:mn>2030</mml:mn></mml:mrow></mml:msubsup></mml:mrow></mml:mfenced><mml:mo>*</mml:mo><mml:mfrac><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:mfrac></mml:mrow></mml:mfenced><mml:mo>+</mml:mo><mml:mi>t</mml:mi><mml:mo>*</mml:mo><mml:msubsup><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">EU</mml:mi></mml:mrow><mml:mrow><mml:mn>2030</mml:mn></mml:mrow></mml:msubsup><mml:mo>+</mml:mo><mml:msubsup><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">EU</mml:mi></mml:mrow><mml:mrow><mml:mn>1995</mml:mn><mml:mo>&#8722;</mml:mo><mml:mn>2019</mml:mn></mml:mrow></mml:msubsup></mml:mtd></mml:mtr></mml:mtable></mml:math><graphic xlink:href="41467_2022_31204_Article_Equ9.gif" position="anchor"/></alternatives></disp-formula>where <italic>B</italic> is the total budget, <inline-formula id="IEq12"><alternatives><tex-math id="M41">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${e}_{{{{{{\rm{EU}}}}}}}^{y}$$\end{document}</tex-math><mml:math id="M42"><mml:msubsup><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">EU</mml:mi></mml:mrow><mml:mrow><mml:mi>y</mml:mi></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="41467_2022_31204_Article_IEq12.gif"/></alternatives></inline-formula> the effort-sharing emissions of the EU in either year (<italic>y</italic>) 2019 or 2030 (the target emissions in this case), with <inline-formula id="IEq13"><alternatives><tex-math id="M43">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${e}_{{{{{{\rm{EU}}}}}}}^{1995-2019}$$\end{document}</tex-math><mml:math id="M44"><mml:msubsup><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">EU</mml:mi></mml:mrow><mml:mrow><mml:mn>1995</mml:mn><mml:mo>&#8722;</mml:mo><mml:mn>2019</mml:mn></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="41467_2022_31204_Article_IEq13.gif"/></alternatives></inline-formula> the total EU emissions from the year 1995 to 2019 and <italic>t</italic> equal to <inline-formula id="IEq14"><alternatives><tex-math id="M45">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\left(\left({t}_{{{{{{\rm{end}}}}}}}-{t}_{{{{{{\rm{start}}}}}}}\right)+1\right)$$\end{document}</tex-math><mml:math id="M46"><mml:mfenced close=")" open="("><mml:mrow><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">end</mml:mi></mml:mrow></mml:msub><mml:mo>&#8722;</mml:mo><mml:msub><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">start</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mfenced></mml:math><inline-graphic xlink:href="41467_2022_31204_Article_IEq14.gif"/></alternatives></inline-formula>, the number of years between the start and end points in the budget calculation, in this case, 12.</p>

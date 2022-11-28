@@ -1,0 +1,1076 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article"><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d1 20130915//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-journalpublishing1.dtd?><?SourceDTD.Version 39.96?><?ConverterInfo.XSLTName jats2jats3.xsl?><?ConverterInfo.Version 1?><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Environ Urban</journal-id><journal-id journal-id-type="iso-abbrev">Environ Urban</journal-id><journal-id journal-id-type="publisher-id">EAU</journal-id><journal-id journal-id-type="hwp">speau</journal-id><journal-title-group><journal-title>Environment and Urbanization</journal-title></journal-title-group><issn pub-type="ppub">0956-2478</issn><issn pub-type="epub">1746-0301</issn><publisher><publisher-name>SAGE Publications</publisher-name><publisher-loc>Sage UK: London, England</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">9557810</article-id><article-id pub-id-type="doi">10.1177/09562478221115334</article-id><article-id pub-id-type="publisher-id">10.1177_09562478221115334</article-id><article-categories><subj-group subj-group-type="heading"><subject>Addressing Urban Inequalities I: Co-creating Pathways Through Research and Practice &#x02013; Reframing Trajectories, Politicizing Knowledge and Transforming Pedagogies</subject></subj-group></article-categories><title-group><article-title>Crafting urban equality through grassroots critical pedagogies:
+weave, <italic toggle="yes">sentipensar</italic>, mobilize, reverberate,
+emancipate</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Allen</surname><given-names>Adriana</given-names></name></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-1691-9620</contrib-id><name><surname>Wesely</surname><given-names>Julia</given-names></name></contrib><contrib contrib-type="author"><name><surname>Blanes</surname><given-names>Paola</given-names></name></contrib><contrib contrib-type="author"><name><surname>Brandolini</surname><given-names>Florencia</given-names></name></contrib><contrib contrib-type="author"><name><surname>Enet</surname><given-names>Mariana</given-names></name></contrib><contrib contrib-type="author"><name><surname>Iacovini</surname><given-names>Rodrigo Faria G</given-names></name></contrib><contrib contrib-type="author"><name><surname>Fassina</surname><given-names>Rosario</given-names></name></contrib><contrib contrib-type="author"><name><surname>Flores Pacheco</surname><given-names>Bahi&#x000e1;</given-names></name></contrib><contrib contrib-type="author"><name><surname>Medina</surname><given-names>Graciela</given-names></name></contrib><contrib contrib-type="author"><name><surname>Muniz</surname><given-names>Alejandro</given-names></name></contrib><contrib contrib-type="author"><name><surname>P&#x000e9;rez</surname><given-names>Soledad</given-names></name></contrib><contrib contrib-type="author"><name><surname>Pineda</surname><given-names>Silsa</given-names></name></contrib><contrib contrib-type="author"><name><surname>Reina</surname><given-names>Marilyn</given-names></name></contrib><contrib contrib-type="author"><name><surname>Amparo S&#x000e1;nchez Medina</surname><given-names>Luz</given-names></name></contrib><contrib contrib-type="author"><name><surname>Xavier</surname><given-names>Juan</given-names></name></contrib></contrib-group><author-notes><fn fn-type="other" id="bio1-09562478221115334"><p>
+<bold>Adriana Allen (corresponding author) is a Latin American activist and
+academic based at The Bartlett Development Unit, University College
+London and the current President of Habitat International
+Coalition.</bold>
+</p><p>
+<bold>Address: The Bartlett Development Planning Unit, University College
+London, 34 Tavistock Square, London WC1H 9EZ, UK; email:
+<email>a.allen@ucl.ac.uk</email></bold>
+</p></fn><fn fn-type="other" id="bio2-09562478221115334"><p>
+<bold>Julia Wesely is a Postdoctoral Research Fellow at The Bartlett
+Development Planning Unit, University College London.</bold>
+</p><p>
+<bold>Email: <email>julia.wesely@ucl.ac.uk</email></bold>
+</p></fn><fn fn-type="other" id="bio3-09562478221115334"><p>
+<bold>Paola Blanes is a member of CISCSA Ciudades Feministas, Centro de
+Intercambio y Servicios para el Cono Sur, Argentina, where she leads
+CISCSA Feminist Schools.</bold>
+</p><p>
+<bold>Email: <email>paola@ciscsa.org.ar</email></bold>
+</p></fn><fn fn-type="other" id="bio4-09562478221115334"><p><bold>Florencia Brandolini is a member of the Communication team of CISCSA
+Ciudades Feministas, Centro de Intercambio y Servicios para el Cono Sur,
+Argentina</bold>.</p><p>
+<bold>Email: <email>florjbrando@gmail.com</email></bold>
+</p></fn><fn fn-type="other" id="bio5-09562478221115334"><p>
+<bold>Mariana Enet is a pedagogue and independent advisor, based at the
+National University of C&#x000f3;rdoba, Argentina.</bold>
+</p><p>
+<bold>Email: <email>marianaenet@yahoo.com.ar</email></bold>
+</p></fn><fn fn-type="other" id="bio6-09562478221115334"><p>
+<bold>Rodrigo Faria G Iacovini is Coordinator of the Citizenship School at
+Instituto P&#x000f3;lis, Brazil.</bold>
+</p><p>
+<bold>Email: <email>rodrigo@polis.org.br</email></bold>
+</p></fn><fn fn-type="other" id="bio7-09562478221115334"><p>
+<bold>Rosario Fassina is Coordinator of the Right to the City Programme at
+Asociaci&#x000f3;n Civil por la Igualdad y la Justicia (ACIJ), Argentina.</bold>
+</p><p>
+<bold>Email: <email>rfassina@acij.org.ar</email></bold>
+</p></fn><fn fn-type="other" id="bio8-09562478221115334"><p><bold>Bah&#x000ed;a Flores Pacheco coordinates the Communication team at CISCSA
+Ciudades Feministas, Centro de Intercambio y Servicios para el Cono Sur,
+Argentina</bold>.</p><p>
+<bold>Email: <email>bahiasinflores@gmail.com</email></bold>
+</p></fn><fn fn-type="other" id="bio9-09562478221115334"><p>
+<bold>Graciela Medina is a member of the Citizenship School team at
+Instituto P&#x000f3;lis, Brazil.</bold>
+</p><p>
+<bold>Email: <email>graciela@polis.org.br</email></bold>
+</p></fn><fn fn-type="other" id="bio10-09562478221115334"><p>
+<bold>Alejandro Muniz is a member of the Communication team of the
+Federaci&#x000f3;n Uruguaya de Cooperativas de Vivienda por Ayuda Mutua
+(FUCVAM), Uruguay.</bold>
+</p><p>
+<bold>Email: <email>alejandromuniz@fucvam.org.uy</email></bold>
+</p></fn><fn fn-type="other" id="bio11-09562478221115334"><p>
+<bold>Soledad P&#x000e9;rez is a member of CISCSA Ciudades Feministas, Centro de
+Intercambio y Servicios para el Cono Sur, Argentina.</bold>
+</p><p>
+<bold>Email: <email>soledad@ciscsa.org.ar</email></bold>
+</p></fn><fn fn-type="other" id="bio12-09562478221115334"><p>
+<bold>Silsa Pineda is a member of the Communication team of FUNDASAL, El
+Salvador.</bold>
+</p><p>
+<bold>Email: <email>spineda@fundasal.org.sv</email></bold>
+</p></fn><fn fn-type="other" id="bio13-09562478221115334"><p>
+<bold>Marilyn Reina is a member of the Communication team of the Federaci&#x000f3;n
+Uruguaya de Cooperativas de Vivienda por Ayuda Mutua (FUCVAM),
+Uruguay.</bold>
+</p><p>
+<bold>Email: <email>mar.reina@fucvam.org.uy</email></bold>
+</p></fn><fn fn-type="other" id="bio14-09562478221115334"><p>
+<bold>Luz Amparo S&#x000e1;nchez Medina is Project Coordinator at Corporaci&#x000f3;n
+Region, Colombia.</bold>
+</p><p>
+<bold>Email: <email>amparo.sanchez@region.org.co</email></bold>
+</p></fn><fn fn-type="other" id="bio15-09562478221115334"><p>
+<bold>Juan Xavier is a member of the Communication team of the Federaci&#x000f3;n
+Uruguaya de Cooperativas de Vivienda por Ayuda Mutua (FUCVAM),
+Uruguay.</bold>
+</p><p>
+<bold>Email: <email>juan.xavier@fucvam.org.uy</email></bold>
+</p></fn></author-notes><pub-date pub-type="epub"><day>5</day><month>9</month><year>2022</year></pub-date><pub-date pub-type="ppub"><month>10</month><year>2022</year></pub-date><volume>34</volume><issue>2</issue><fpage>446</fpage><lpage>464</lpage><permissions><copyright-statement>&#x000a9; 2022 International Institute for Environment and Development
+(IIED)</copyright-statement><copyright-year>2022</copyright-year><copyright-holder content-type="society">International Institute for Environment and
+Development</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This article is distributed under the terms of the Creative Commons
+Attribution 4.0 License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>) which permits
+any use, reproduction and distribution of the work without further
+permission provided the original work is attributed as specified on the SAGE
+and Open Access pages (<ext-link ext-link-type="uri" xlink:href="https://us.sagepub.com/en-us/nam/open-access-at-sage">https://us.sagepub.com/en-us/nam/open-access-at-sage</ext-link>).</license-p></license></permissions><abstract><p>How do ordinary citizens, activists and urban practitioners learn to become
+agents of change for a socially just habitat? The paper explores this question
+through the experiences of eight grassroots schools of popular urbanism working
+under the umbrella of the Habitat International Coalition (HIC) in Latin
+America. Building on a process of self-documentation and collective pedagogic
+reflection driven by the protagonists of these schools, the analysis explores
+the core pedagogic practices identified across the schools to enact popular
+urbanism as a collective and intentional praxis: to weave,
+<italic toggle="yes">sentipensar</italic>, mobilize, reverberate and emancipate. We argue
+that, put in motion, these pedagogic practices transgress the rules and
+boundaries of the formal classroom, taking participants to and through other
+sites and modes of learning that host significant potential to stimulate
+collectivizing and alternative ways of seeking change towards urban
+equality.</p></abstract><kwd-group><kwd>critical pedagogy</kwd><kwd>Latin America</kwd><kwd>pedagogic practices</kwd><kwd>popular urbanism</kwd><kwd>urban equality</kwd></kwd-group><funding-group specific-use="FundRef"><award-group id="award1-09562478221115334"><funding-source id="funding1-09562478221115334">
+<institution-wrap><institution>UK Research and Innovation</institution><institution-id institution-id-type="FundRef">https://doi.org/10.13039/100014013</institution-id></institution-wrap>
+</funding-source><award-id rid="funding1-09562478221115334">ES/ P011225/1</award-id></award-group></funding-group><custom-meta-group><custom-meta><meta-name>typesetter</meta-name><meta-value>ts1</meta-value></custom-meta></custom-meta-group></article-meta></front><body><fig position="float" id="fig6-09562478221115334"><graphic xlink:href="10.1177_09562478221115334-img1" position="float"/></fig><sec sec-type="intro" id="section1-09562478221115334"><title>I. Introduction</title><p>
+<disp-quote><p><italic toggle="yes">The academy is not paradise. But learning is a place where paradise
+can be created. &#x02026; This is education as the practice of
+freedom</italic>.<sup>(<xref rid="fn1-09562478221115334" ref-type="fn">1</xref>)</sup></p></disp-quote>
+</p><p>In this quote, bell hooks invites us to discover the practice of freedom through
+learning; not as a practice of individual freedom but as a collective way to
+transform the world we live in. In this paper, we look at sites of learning other
+than the academy, where paradise can be created. We reflect collectively on the
+pedagogic practices of eight schools of popular urbanism working under the umbrella
+of the Habitat International Coalition (HIC) across Latin America, and on their
+capacity to activate critical agency to confront urban inequalities and advance
+habitat-related human rights.</p><p>HIC is a global alliance currently constituted by over 350 member organizations (of
+which about a third are based in Latin America), which struggle collectively for
+greater social justice, gender equality and environmental sustainability. For over
+45 years, the Coalition has brought together social movements, non-governmental
+organizations, community-based organizations and activist and research institutions
+with a common political purpose: mobilizing their collective muscle from local to
+global scales to make visible, defend and produce habitat rights.<sup>(<xref rid="fn2-09562478221115334" ref-type="fn">2</xref>)</sup> In keeping with
+its collective orientation, the Coalition&#x02019;s structures (its Board, General
+Secretariat and Regional Coordination Offices) follow the mandate of HIC&#x02019;s Members,
+who are their governing body.</p><p>The schools analysed here are not one institution, but rather an assemblage of
+diverse pedagogic experiences. They are run by HIC members, friends and allies in
+Latin America, and each school has a high degree of autonomy. Their pedagogic
+practices are encapsulated in formative processes: in the building of cooperative
+housing movements in Uruguay, and the capacity-building of Colombian taxi driver
+associations to become inclusive in their work with people with disabilities; in the
+learning encounters between Indigenous populations and low-income communities in San
+Mart&#x000ed;n de los Andes in Argentina, and the reclaiming of bodies and public spaces
+from a feminist perspective in C&#x000f3;rdoba, Argentina, to name a few. Despite their
+diversity, the schools have in common the political parity of learners and
+pedagogues (who include community leaders, cooperative members, youth, women&#x02019;s
+groups and local government officials, among others), as well as a commitment to
+horizontal, counter-hegemonic learning to act in advancing struggles through popular
+urbanism.<sup>(<xref rid="fn3-09562478221115334" ref-type="fn">3</xref>)</sup></p><p>Most of the schools analysed here are part of the HIC Latin America (HIC-AL) working
+group on the social production of habitat. This group encompasses a great diversity
+of theoretical approaches, from those rooted in a Marxist perspective that
+ultimately seek to restore the social function of land and housing, to feminist and
+decolonial perspectives rooted in the assumption that theory, knowledge and practice
+are constantly re-made through activism and resistance. In this sense, the Coalition
+has acted over the years as a resonance chamber, enabling member organizations to
+exchange and mature their practices in critical dialogue with others.<sup>(<xref rid="fn4-09562478221115334" ref-type="fn">4</xref>)</sup> In a similar vein,
+HIC-AL&#x02019;s involvement with the schools is expressed in several ways, from providing
+inputs into their pedagogies, concepts and content, to nurturing and expanding their
+regional networking capacity. Since 2003, HIC-AL has also hosted a working group on
+capacity-strengthening which has spearheaded the consolidation of various pedagogic
+experiences from its members and articulated some of them into formal education
+programmes (including the Diploma Course in Participatory Design, one of the
+experiences analysed in this paper).</p><p>How do these diverse pedagogic practices contribute to achieving their transformative
+and transgressive vocation? Or, in other words: How do participants learn to become
+agents of change for a socially just habitat? To respond to these questions, in June
+2019, the two first-named authors of this paper (one of whom became president of HIC
+in 2020), embarked on an in-depth pedagogic exploration of the schools under the
+HIC-AL umbrella as part of the capacity-building and action research programme,
+Knowledge in Action for Urban Equality (KNOW). The research initially involved 21
+extensive conversations with 14 HIC-AL members and affiliates, online and in person
+in Argentina, Colombia, Chile, Cuba and Mexico.<sup>(<xref rid="fn5-09562478221115334" ref-type="fn">5</xref>)</sup> As the COVID-19 pandemic brought
+the possibility of further face-to-face encounters to a halt, we shifted to a
+multimodal way of working, which included a process of self-documentation and
+analysis by schools interested in this reflexive<sup>(<xref rid="fn6-09562478221115334" ref-type="fn">6</xref>)</sup> exercise and collective online
+workshops devoted to identifying the core &#x0201c;pedagogic narrative&#x0201d; underpinning each
+school, as well as their common practices (see <xref rid="fig1-09562478221115334" ref-type="fig">Figure 1</xref>).</p><fig position="float" id="fig1-09562478221115334"><label>Figure 1</label><caption><p>Location of HIC-AL members (orange dots) and the eight schools (violet dots)
+analysed in this paper</p><p>SOURCE: Authors.</p></caption><graphic xlink:href="10.1177_09562478221115334-fig1" position="float"/></fig><p>The remote phase of engagement evolved around the production of short films by each
+school and a collective documentary, as entry points to distil the core and common
+pedagogic practices that have coalesced under the umbrella of HIC-AL. In this
+context, the short films and documentary acted as catalysts for horizontal
+conversations on the role of popular urbanism pedagogies in nurturing struggles for
+habitat rights; that is, articulating critical and political learning processes as
+pathways towards strategic change to address inequalities. Supported by La Sand&#x000ed;a
+Digital &#x02013; a feminist collective of filmmakers based in Mexico &#x02013; this horizontal
+process involved four online workshops with around 15 participants each, between
+August and November 2021, in which pedagogues and communication teams from each
+school developed their story from a pedagogic viewpoint. These exchanges evolved
+from oral accounts to audiovisual narratives and culminated in a fifth comparative
+analysis workshop through which all participants identified the practices that make
+their pedagogic approaches critical and counter-hegemonic. Between the workshops,
+the pedagogic reflexion involved a larger number of participants, as each school
+engaged in searches through their own archives, focus group discussions, one-to-one
+interviews, storyboarding and filming.</p><p>The following section outlines key contributions and principles of critical pedagogy
+within the field of popular urbanism in Latin America. We then analyse the five core
+pedagogic practices collectively identified by the eight schools: to weave,
+<italic toggle="yes">sentipensar</italic> (feel-think), mobilize, reverberate and
+emancipate.</p></sec><sec id="section2-09562478221115334"><title>II. The Role of Critical Pedagogy in Popular Struggles for Habitat Rights</title><p>Building on historical experiences, such as the <italic toggle="yes">Hacedores de Ciudad</italic>
+in Venezuela and large-scale movements of <italic toggle="yes">autogesti&#x000f3;n</italic> in Peru in
+the 1960s, numerous authors have highlighted the impactful scale and scope of
+popular urbanization in the context of Latin America. The strategy is recognized as
+a set of practices and processes through which the hegemonic logics of the market,
+political regulation and fiscalization in issues of land, housing and territory are
+contested through bottom-up, citizen-led actions.<sup>(<xref rid="fn7-09562478221115334" ref-type="fn">7</xref>)</sup></p><p>While this body of research often refers to &#x0201c;popular urbanization&#x0201d; and &#x0201c;popular
+urbanism&#x0201d; as interchangeable notions, we argue for recognizing their difference.
+Popular urbanization pertains to the processes by which low-income and marginalized
+women and men typically produce and appropriate the urban territory. In contrast,
+popular urbanism &#x02013; the arena in which the schools thrive and the focus of the
+present paper &#x02013; refers to a domain of practice that contests the institutional power
+of urbanism as a discipline, and the legitimacy it enjoys in producing knowledge and
+practices. Thus, popular urbanism encapsulates a collective intentionality to
+reclaim the authority and legitimacy of other ways of producing and using the city
+as a commons; the ability to craft a different relationship with state institutions
+across periods of dictatorship and (re)democratization<sup>(<xref rid="fn8-09562478221115334" ref-type="fn">8</xref>)</sup> and conscious and explicit
+efforts to valorize the experiences, pedagogies and principles that have redressed
+social and environmental inequalities and injustices over time, and that continue to
+do so.</p><p>Within Latin America, historiographic work has highlighted the political and
+socio-spatial complexity of popular urbanism throughout the 20th and 21st
+centuries.<sup>(<xref rid="fn9-09562478221115334" ref-type="fn">9</xref>)</sup> Tracing the genealogy of popular urbanism across Latin America
+has been a central project for many regional activists and academics over the years,
+with a notable example being the work of the architect Enrique Ort&#x000ed;z Flores, a
+member of the non-governmental organization COPEVI since 1965, and one of the
+co-founders of HIC in 1976.<sup>(<xref rid="fn10-09562478221115334" ref-type="fn">10</xref>)</sup></p><p>To talk about popular urbanism is thus to recognize other ways of making the city,
+parallel to the rules established by the institutions of government and academia,
+and to the logics of capital.<sup>(<xref rid="fn11-09562478221115334" ref-type="fn">11</xref>)</sup> In this conception, popular urbanism hosts substantial
+potential to redress prevalent urban inequalities in four key dimensions: first, by
+working towards the fair redistribution and commoning of the goods, services and
+opportunities that are integral to the realization of habitat-related rights;
+second, by amplifying the voices and claiming recognition for differentiated
+identities and knowledges, particularly of those engaged in pushing the boundaries
+for urban equality on an everyday basis; third, by advocating for their parity in
+political participation, not just in invited spaces, but through claimed spaces of
+city-making; and last, but not least, by fostering urban practices built on mutual
+care and solidarity, as well as on state responsibility.<sup>(<xref rid="fn12-09562478221115334" ref-type="fn">12</xref>)</sup></p><p>Thus, popular urbanism is a conscious political practice; a practice identified with
+by social movements, NGOs, research institutions and other supporting organizations
+from the eight schools participating in this collective reflexion, as well as many
+others across the region. Although not all these pedagogic experiences call
+themselves &#x0201c;schools&#x0201d;, many self-identify as such in recognition of their alignment
+with the foundational work of Paulo Freire.<sup>(<xref rid="fn13-09562478221115334" ref-type="fn">13</xref>)</sup> It is the practice of critical
+pedagogy, with its ethical and political intentions, that is key to re-signifying
+where popular urbanism learning happens and how it works. As critiqued by
+Giroux,<sup>(<xref rid="fn14-09562478221115334" ref-type="fn">14</xref>)</sup> the school, as the main social instrument and space devoted to
+education, has become over time an instrument of students&#x02019; social assimilation
+rather than a space to engage critically with society and strengthen capacities to
+change it. Adhering to this critique, the work of the schools discussed in this
+paper encapsulate a conscious effort towards reclaiming the emancipatory power of
+popular education.</p><p>Although Freirean critical pedagogy has its roots in rural peasant movements in
+Brazil, it has long been embraced by, and expanded into, urban realities as well as
+more intersectional and feminist perspectives on popular struggles. Black,
+Indigenous and feminist scholars, in this context, have brought forward notions of
+the oppressed in relation to structural racism and patriarchal
+domination.<sup>(<xref rid="fn15-09562478221115334" ref-type="fn">15</xref>)</sup> Freire&#x02019;s foundational work<sup>(<xref rid="fn16-09562478221115334" ref-type="fn">16</xref>)</sup> in critical pedagogy
+emphasized the dialogical relation between theory and praxis, as well as the
+importance of giving this praxis a direction towards change for social justice,
+nurtured by iterative and deep processes of reflexion. His conceptualization of
+critical pedagogy as freedom through learning benefited over the years from
+contributions from postmodern, feminist, postcolonial and queer theories and,
+perhaps most importantly, has continued to be a central practice of social movements
+and organized civil society.</p><p>According to Sara Motta, the critical pedagogies underpinning popular urbanism do not
+aim to create an <italic toggle="yes">&#x0201c;alternative monological practice of life&#x0201d;</italic>, but
+rather aim for the <italic toggle="yes">&#x0201c;pedagogical [to] become an essential part of creating
+the openings, possibilities and relationships to enable communities that are
+often silenced and violently invisibilised to appear as embodied political
+subjects&#x0201d;</italic>.<sup>(<xref rid="fn17-09562478221115334" ref-type="fn">17</xref>)</sup> To achieve this end, learning through, with and in
+struggle, requires a pedagogy that transgresses the rules and boundaries of the
+classroom as a site of learning and <italic toggle="yes">&#x0201c;instead embed[s] educational practice
+in multiple spaces: the community, the workplace, the co-operative, the home,
+the self&#x0201d;</italic>.<sup>(<xref rid="fn18-09562478221115334" ref-type="fn">18</xref>)</sup> Moreover, the content of learning is co-constructed rather
+than being based on predefined curricula, which is responsive to context-specific
+urban knowledges of learner-pedagogues as well as to the inequalities and injustices
+the learning process seeks to confront. As argued by Motta, for learning to become
+emancipatory, pedagogical practice needs to be the <italic toggle="yes">&#x0201c;product of praxis at the
+collective level of lived experience&#x0201d;</italic>,<sup>(<xref rid="fn19-09562478221115334" ref-type="fn">19</xref>)</sup> in which counter-hegemonic
+knowledges and (hi)stories of resistance and hope are cultivated.</p><p>While these counter-hegemonic knowledges and ways of knowing
+(<italic toggle="yes">saberes</italic>) have received attention in discussions on critical
+pedagogy and popular urbanism,<sup>(<xref rid="fn20-09562478221115334" ref-type="fn">20</xref>)</sup> relatively little attention has been given to the
+pedagogic practices (<italic toggle="yes">haceres</italic>) that nurture and sustain them. Thus,
+this paper centres on <italic toggle="yes">how</italic> learning activates collective agency for
+a socially just habitat, aiming to elicit pedagogic practices that stimulate
+alternative ways of seeing, listening, being and seeking change.</p></sec><sec id="section3-09562478221115334"><title>III. The Schools at Work: <italic toggle="yes">Haceres</italic> and <italic toggle="yes">Saberes</italic>
+as Pedagogic Practices</title><p><xref rid="table1-09562478221115334" ref-type="table">Table 1</xref> provides an
+overview of the eight schools participating in this pedagogic reflexion, and their
+convenors, learners, purpose and pedagogic approach.<sup>(<xref rid="fn21-09562478221115334" ref-type="fn">21</xref>)</sup></p><table-wrap position="float" id="table1-09562478221115334"><label>Table 1</label><caption><p>Description of the eight pedagogic experiences documented and analysed in
+this paper</p></caption><alternatives><graphic xlink:href="10.1177_09562478221115334-table1" position="float"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/></colgroup><thead><tr><th align="left" rowspan="1" colspan="1">Name and location</th><th align="left" rowspan="1" colspan="1">Convenors</th><th align="left" rowspan="1" colspan="1">Learners</th><th align="left" rowspan="1" colspan="1">Aims</th><th align="left" rowspan="1" colspan="1">Pedagogic approach</th></tr></thead><tbody><tr><td rowspan="1" colspan="1"><italic toggle="yes">Diplomado Territorio y H&#x000e1;bitat &#x02013;</italic> Diploma on
+Territory and Habitat; Mexico City</td><td rowspan="1" colspan="1">Universidad Aut&#x000f3;noma de la Ciudad de M&#x000e9;xico, Movimiento Urbano
+Popular, Centro Operacional de Vivienda y Poblamiento, AC
+(COPEVI)</td><td rowspan="1" colspan="1">Members of collective and neighbourhood organizations,
+Indigenous inhabitants of the city and university students</td><td rowspan="1" colspan="1">To develop critical, reflexive and propositional thinking; based
+on popular urban movements&#x02019; perspective on <italic toggle="yes">buen
+vivir</italic>, participatory democracy and territory and
+habitat rights.</td><td rowspan="1" colspan="1">Focusing on dialogic methods, inter-learning and the
+co-production of knowledge among participants, the Diploma is
+structured across 4 online modules over a period of almost 8
+months. Before the pandemic, the course also included field
+visits.</td></tr><tr><td rowspan="1" colspan="1">Cooperativism and women-led housing construction and habitat
+processes; Potrerillos and La Palma, San Salvador</td><td rowspan="1" colspan="1">Fundaci&#x000f3;n Salvadore&#x000f1;a de Desarrollo y Vivienda M&#x000ed;nima
+(FUNDASAL)</td><td rowspan="1" colspan="1">(Female) community and cooperative members.</td><td rowspan="1" colspan="1">To strengthen women&#x02019;s knowledge and capacities to claim and
+enact their habitat rights.</td><td rowspan="1" colspan="1">From self-recognizing one&#x02019;s rights to constructing them
+collectively through women-led housing, FUNDASAL&#x02019;s pedagogy
+works through a mix of workshops aimed at developing a new
+consciousness and hands-on sessions on self-construction
+techniques.</td></tr><tr><td rowspan="1" colspan="1"><italic toggle="yes">Medell&#x000ed;n Ciudad Accesible</italic> &#x02013; Medell&#x000ed;n Accessible
+City; Medell&#x000ed;n, Colombia</td><td rowspan="1" colspan="1">Corporaci&#x000f3;n Regi&#x000f3;n + Fuerza Incluyente</td><td rowspan="1" colspan="1">Neighbourhood organizations, collectives of disabled people, and
+advocacy target audiences (such as taxi drivers, local
+government officials and the general public).</td><td rowspan="1" colspan="1">To strengthen participants&#x02019; consciousness and capacities to
+advocate an intersectional perspective in building mobility as
+part of the Right to the City.</td><td rowspan="1" colspan="1">Largely experiential pedagogies, which engage with and through
+the realities of differently-abled people, for example, through
+discussions, events in public squares, shared walks and transits
+through the city.</td></tr><tr><td rowspan="1" colspan="1">Cooperativism schools, with a particular focus on
+intergenerational and gendered learning and relationships with
+the state; across Uruguay</td><td rowspan="1" colspan="1">Federaci&#x000f3;n Uruguaya de Cooperativas de Vivienda por Ayuda
+Mutua<break/>(FUCVAM)</td><td rowspan="1" colspan="1">Current and future members of cooperatives, with some learning
+processes particularly focused on youth and women.</td><td rowspan="1" colspan="1">To nurture, sustain and mobilize the housing cooperative
+movement as a key strategy to reclaim the social function of
+housing and land.</td><td rowspan="1" colspan="1">Capacity-building is integral to the working of cooperatives and
+operates through different modes of learning, including
+learning-by-living/doing, decentralized workshops, and peer
+learning across cooperatives.</td></tr><tr><td rowspan="1" colspan="1">Feminism schools &#x02013; <italic toggle="yes">Voces de Mujeres Diversas por
+Ciudades Seguras, Inclusivas y Sostenibles</italic> &#x02013; Voices
+of Diverse Women for Safe, Inclusive and Sustainable Cities;
+C&#x000f3;rdoba, Argentina</td><td rowspan="1" colspan="1">CISCSA Ciudades Feministas</td><td rowspan="1" colspan="1">Community leaders and members of women and feminist
+organizations, as well as women working in urbanism and urban
+planning.</td><td rowspan="1" colspan="1">To strengthen debates on the rights of women and diversities to
+the city; to build social force around the experiences and
+demands of those identifying as women, trans and lesbians; to
+develop concrete proposals that advocate for a feminist
+city.</td><td rowspan="1" colspan="1">Capacity-building and participatory workshops developed through
+feminist methodologies, such as
+<italic toggle="yes">&#x0201c;cuerpo-territorio&#x0201d;</italic>, visioning exercises,
+manifestos, public manifestations and celebrations.</td></tr><tr><td rowspan="1" colspan="1"><italic toggle="yes">Diplomado Iberoamericano Dise&#x000f1;o Participativo
+Sustentable del Habitat &#x02013;</italic> Ibero-American Diploma in
+Participatory Sustainable Habitat Design; LA Regional</td><td rowspan="1" colspan="1">Universidad Nacional Aut&#x000f3;noma de M&#x000e9;xico in collaboration with
+HIC-AL and Taller 36 of the National University of Cordoba</td><td rowspan="1" colspan="1">Anyone interested in the social production of habitat, including
+leaders of grassroots organizations, university students and
+professionals of different disciplines.</td><td rowspan="1" colspan="1">To learn and apply concepts, methodologies and tools for the
+social production and management of habitat, which are not
+taught in regular design courses.</td><td rowspan="1" colspan="1">Inter-learning spaces as well as group and individual work
+across 210 hours, 2 x 2 hours of live sessions per week
+(workshops) and 8 hours of independent learning.</td></tr><tr><td rowspan="1" colspan="1"><italic toggle="yes">Escola da Cidadania</italic> &#x02013; Citizenship School, with
+a cycle of 16 different thematic courses (such as culture and
+cities, climate justice and urban infrastructures, etc); S&#x000e3;o
+Paulo, with online participants across Brazil</td><td rowspan="1" colspan="1">Instituto P&#x000f3;lis</td><td rowspan="1" colspan="1">400&#x02013;500 online learners with diverse identities and backgrounds
+(in terms of professional experience, gender, age, geography and
+others). Core target groups are social movements and public
+officials.</td><td rowspan="1" colspan="1">To be a space for reflection and formation of critical thinking
+in the different dimensions of constructing citizenship: human
+rights, right to the city, activism and public policies.</td><td rowspan="1" colspan="1">Polis Institute applies creative pedagogic practices, such as
+the collective development of thematic playlists, and the use of
+social media as a means to extend the learning beyond the
+boundaries of the school.<break/>Practically, each thematic
+course consists of six online 2-hour weekly sessions, with
+voluntary discussion groups in between sessions.</td></tr><tr><td rowspan="1" colspan="1"><italic toggle="yes">Programa de Formaci&#x000f3;n en Derechos para Referentes
+Barriales</italic> &#x02013; Formative Programme in Rights for
+Community Leaders; Buenos Aires 2019, now online and with reach
+across Argentina</td><td rowspan="1" colspan="1">Asociaci&#x000f3;n Civil por la Igualdad y la Justicia (ACIJ)</td><td rowspan="1" colspan="1">In 2019 ACIJ&#x02019;s school brought together 60 community leaders,
+including representatives of social and political organisations
+in informal settlements, and independent leaders, who seek to
+incorporate or reinforce within their repertoire of public
+actions, the use of legal tools and the language of rights as a
+way to strengthen their interaction with public
+authorities.</td><td rowspan="1" colspan="1">To promote communities&#x02019; understanding of their rights as
+guaranteed by the legal system.<break/>To strengthen grassroots
+organizations&#x02019; capacities to claim their right to the city and
+to claim parity of political participation in their
+neighbourhood improvement and redevelopment processes.</td><td rowspan="1" colspan="1">ACIJ&#x02019;s approach is learner-centred and works through horizontal
+exchanges that valorize the knowledges and practices of
+community leaders as pedagogues. The curriculum is therefore
+open and flexible to respond to specific needs, contexts and
+challenges and typically works through 13 sessions/4 modules/40
+hours of classes over three months.<break/>Sessions are
+facilitated as interactive workshops &#x02013; with space for debates
+and role plays.</td></tr></tbody></table></alternatives><table-wrap-foot><fn id="table-fn1-09562478221115334"><p>SOURCE: Authors.</p></fn></table-wrap-foot></table-wrap><p>We now turn to the five verbs that encapsulate the core pedagogic practices
+identified by the participating schools as crucial means to foster the articulation
+of <italic toggle="yes">saberes</italic> and <italic toggle="yes">haceres</italic> underpinning popular
+urbanism. While not all these verbs are present equally across all schools, they
+resonated strongly with every participant, as critical practices with profound
+potential for activating and sustaining change. We explore each verb starting with a
+vignette from a sequence of the films produced by the schools, followed by a
+discussion of what each critical pedagogic practice involves in developing key
+capacities to tackle urban inequality.</p><sec id="section4-09562478221115334"><title>a. Weave</title><p>
+<disp-quote><p>On a sunny day, an architect and an Indigenous inhabitant of
+<italic toggle="yes">Barrio Intercultural</italic> stand on an empty lot, holding
+in their hands a model of one of the planned buildings in the
+neighbourhood. As their hands move around the model, the light creates
+shadows that get them to imagine together how the building might be used
+at different times of the day and what that would mean for different
+collective uses and members of the community.</p></disp-quote>
+</p><p>In the <italic toggle="yes">Barrio Intercultural</italic> (Intercultural Neighbourhood) in the
+south of Argentina, inter-learning spaces bring together diverse professions,
+social identities, knowledges and practices in dialogue with each other.
+Inter-learning, in this context, refers to a process whereby the intentional
+juxtaposition of different, contrasting and complementary knowledges and
+practices generates new forms of living and working together. This school
+emerged from an alliance between <italic toggle="yes">Vecinos Sin Techo</italic> (Neighbours
+without a Roof) and the Curruhuinca <italic toggle="yes">lof</italic> (community) of the
+original Mapuche people in San Mart&#x000ed;n de los Andes.<sup>(<xref rid="fn22-09562478221115334" ref-type="fn">22</xref>)</sup> Initially unified by their
+common need for housing, over time the development of their Intercultural
+Neighbourhood became a means to coexist in a common place rooted in the
+cosmovision (or worldview) of <italic toggle="yes">&#x0201c;buen vivir&#x0201d;</italic>. As argued by
+Eduardo Gudynas, this cosmovision embodies community-centric, ecologically
+balanced and culturally sensitive conviviality.<sup>(<xref rid="fn23-09562478221115334" ref-type="fn">23</xref>)</sup> It encapsulates
+perspectives that are a far cry from market-led approaches to housing, land and
+services and seeks to build new forms of public coexistence, in diversity and in
+harmony with nature. In this experience and across those of other schools,
+weaving is the key pedagogic practice that crafts a new material and social
+fabric by interlacing threads of collective dreams, rights and aspirations.</p><p>Weaving is not just about connecting different knowledges and actors, but a
+process of rooting contemporary struggles in a rich historic trajectory of
+learning from, for and in political struggle. In the case of the school of
+<italic toggle="yes">Barrio Intercultural</italic>, contemporary collective dwelling
+practices were reimagined with the Mapuche people &#x02013; and thus re-embedded in
+their ancestral forms of being part of the territory. Here, the school has been
+the open space that connected historical and contemporary demands and ways of
+being in dialogue with Western critiques of capitalism, particularly from the
+field of feminist thought and environmentalism. This dialogue not only wove
+together narratives and experiences of oppression but also alternative ways to
+dwell in the territory as an intercultural community, which over time opened new
+institutional possibilities for the recognition of social production of habitat
+processes.</p><p>The practice of weaving together historically rooted and contemporary habitat
+struggles is also present in the pedagogic practices of the Ibero-American
+Diploma in Participatory Sustainable Habitat Design, a regional experience with
+22 organizations that actively engages with the <italic toggle="yes">Barrio
+Intercultural</italic> in its content and pedagogy. The diploma also draws
+from the pedagogical practices of the so-called <italic toggle="yes">Taller Total</italic> in
+the early 1970s, a model in which architecture was understood as a social
+practice, and in which &#x0201c;users&#x0201d; or dwellers play the same role as trained
+professionals.<sup>(<xref rid="fn24-09562478221115334" ref-type="fn">24</xref>)</sup></p><p><italic toggle="yes">Taller Total</italic> set a radical precedent across the region, aiming
+to open up the university and transform the education of urban practitioners
+through a collective transdisciplinary pedagogical experience. Originally
+implemented at the National University of C&#x000f3;rdoba (Argentina), over time the
+pedagogic principles and practices of <italic toggle="yes">Taller Total</italic> were adopted
+in other locations and disciplines. While this wave of radical pedagogies was
+brought to a halt in 1975 by the repressive dictatorship of 1976&#x02013;1983, its
+legacy continues to be re-lived by contemporary experiences such as the
+<italic toggle="yes">Barrio Intercultural</italic> and the diploma course. In these
+experiences, the key tenets of <italic toggle="yes">Taller Total</italic> are reactivated
+under contemporary circumstances, prompting a dissolution of disciplinary
+boundaries converging in the &#x0201c;habitat&#x0201d; problematic by building a critical
+history of the habitat and its social production, while weaving in new
+capacities and possibilities for social transformation.</p><p>Hence, weaving as a historical and relational pedagogy generates an
+inter-learning space that enables the interaction between different
+<italic toggle="yes">saberes</italic> and <italic toggle="yes">haceres</italic>, rooting them,
+problematizing them, questioning their assumptions and generating new ways to
+frame a given problematic. Unlike conventional pedagogies, the capacity to act
+does not rest on having full knowledge and control of the problem and the
+solution, but rather on the capacity to engage with uncertainty, singularity and
+conflict, and to recognize and deploy the social production of habitat as long
+and open-ended processes of dwelling that will continue to change over time.</p></sec><sec id="section5-09562478221115334"><title>b. <italic toggle="yes">Sentipensar</italic></title><p>
+<disp-quote><p>In a community centre in C&#x000f3;rdoba, Fada lies on the floor, the outline of
+her body being drawn on a big sheet of paper. <italic toggle="yes">&#x0201c;Now, let&#x02019;s think
+where we locate our emotions, which form they have, and where we
+want to put them on our drawing of the body&#x0201d;</italic>.<sup>(<xref rid="fn25-09562478221115334" ref-type="fn">25</xref>)</sup>
+Paola guides the group through an exercise of
+<italic toggle="yes">cuerpo-territorio</italic>, a feminist methodology often
+used in the context of violence and inequalities to reflect on the body
+as <italic toggle="yes">&#x0201c;means to diagnose territorial conflicts and to initiate
+healing of bodies and territory&#x0201d;</italic>.<sup>(<xref rid="fn26-09562478221115334" ref-type="fn">26</xref>)</sup></p></disp-quote>
+</p><p><italic toggle="yes">Sentipensar</italic> can be roughly translated in English as the capacity
+to &#x0201c;feel-think&#x0201d;. <italic toggle="yes">Sentipensar</italic> refers to pedagogies that
+cultivate sensibilities and affections that see the human and non-human world as
+interdependent and in constant flow. It invites us to engage with the energy
+that flows and interacts between situated minds-bodies and action in their full
+diversity and highlights the role of the medium and the media in the
+construction of <italic toggle="yes">haceres</italic> and
+<italic toggle="yes">saberes</italic>.<sup>(<xref rid="fn27-09562478221115334" ref-type="fn">27</xref>)</sup></p><p><italic toggle="yes">Sentipensar</italic> offers a transformative pedagogic practice that
+emphasizes the complementary relationship <italic toggle="yes">&#x0201c;between the</italic>
+<bold><italic toggle="yes">sentir</italic></bold>
+<italic toggle="yes">of intuition and the inner life and the</italic>
+<bold><italic toggle="yes">pensar</italic></bold>
+<italic toggle="yes">of intellectualism, between tacit knowledge and wisdom; between Western
+and non-Western ways of knowing and doing.&#x0201d;</italic><sup>(<xref rid="fn28-09562478221115334" ref-type="fn">28</xref>)</sup> Practised
+across several of the schools as a way to learn and as a learnt capacity, it
+departs from our language and affections as sites that actively build the world
+in which we are immersed in its full complexity. It challenges the Cartesian
+separation between us humans and nature, as well as the separation between us
+and others. From this perspective, to co-learn is to develop simultaneous
+capacities to be, to know, to do and to care.</p><p>The potential of <italic toggle="yes">sentipensar</italic> to confront urban inequalities is
+multiple and most deeply realized through the way it advances epistemic justice
+&#x02013; not just by including typically marginalized <italic toggle="yes">saberes</italic> but,
+more deeply, by awakening new ways of making sense of the world from our senses,
+affections and positionalities. This critical pedagogy practice adopts feminist
+and decolonial thought, insisting on the plurality of knowledges, to acknowledge
+the diverse points of departure and inequalities that, as argued by De Jong and
+colleagues: <italic toggle="yes">&#x0201c;emerge from the intersections of race/ethnicity, class,
+gender, sexual orientation, age, body ableness and so
+on&#x0201d;</italic>.<sup>(<xref rid="fn29-09562478221115334" ref-type="fn">29</xref>)</sup> This pedagogic practice further emphasizes the
+importance of situating the present in historical perspective in order to unveil
+the roots of different forms of oppression.</p><p>In the above vignette, CISCSA&#x02019;s feminist school works from the scale of the body
+to understand the household, the neighbourhood, the city and the wider territory
+(see <xref rid="fig2-09562478221115334" ref-type="fig">Figure 2</xref>). This
+engagement with felt and sensed areas of pain and joy, of repression and
+freedom, allows learners to connect with their own maps of
+<italic toggle="yes">sentipensar</italic> and those of others, and to trace patriarchal
+and racist genealogies, active in the present way in which women&#x02019;s bodies can
+and cannot inhabit the city; aiming, in short, to counteract their disembodiment
+from the city.</p><fig position="float" id="fig2-09562478221115334"><label>Figure 2</label><caption><p>&#x0201c;Our body, our territory&#x0201d;</p><p>SOURCE: <xref rid="bibr7-09562478221115334" ref-type="bibr">CISCSA et al.
+(2021)</xref>.</p></caption><graphic xlink:href="10.1177_09562478221115334-fig2" position="float"/></fig><p>Like weaving, this approach resonates with Ivan Illich&#x02019;s work on learning
+webs,<sup>(<xref rid="fn30-09562478221115334" ref-type="fn">30</xref>)</sup> through which he argues that learning requires unlearning
+the ways in which our bodies and minds have been schooled and tamed. The
+un-taming of the schools under the HIC umbrella in Latin America through
+<italic toggle="yes">sentipensar</italic> practices should not be confused with the
+development of empathy, but rather with radical ways to see the world, to break
+with deeply learnt forms of oppression and control that inadvertently travel
+from our bodies into our homes, neighbourhoods, public spaces and cities. Here,
+<italic toggle="yes">sentipensar</italic> practices activate new forms of caring and
+conviviality. This approach is also clearly expressed in the <italic toggle="yes">Barrio
+Intercultural</italic>, where the neighbourhood is conceived, built and
+lived as a place for mutuality and conviviality.</p></sec><sec id="section6-09562478221115334"><title>c. Mobilize</title><p>
+<disp-quote><p>In the hillsides of Medell&#x000ed;n, members of <italic toggle="yes">Fuerza
+Incluyente</italic>, a collective of people with disabilities, wait
+for a taxi to get to the city centre. As a taxi driver stops, the group
+engages in a conversation with him, first showing him how to dismantle
+and store a wheelchair in the taxi boot. Then, Nancy &#x02013; who has short
+upper limbs &#x02013; takes a seat and instructs the taxi driver to put her
+seatbelt on. On their way, the conversation covers a range of topics &#x02013;
+from Nancy sharing her experience with verbal abuse, to the ways in
+which people with disabilities can be addressed in a dignified manner.
+At the end of their ride, she hands the taxi driver a sticker to put
+behind his windshield (see <xref rid="fig3-09562478221115334" ref-type="fig">Figure 3</xref>). It declares him an
+&#x0201c;inclusive taxi driver&#x0201d;, that is, one of many transport providers across
+the city who have taken part in a pedagogic experience of learning from
+people with disabilities and who commit to practising inclusive
+transport services.<sup>(<xref rid="fn31-09562478221115334" ref-type="fn">31</xref>)</sup></p></disp-quote>
+</p><fig position="float" id="fig3-09562478221115334"><label>Figure 3</label><caption><p>&#x0201c;I am an inclusive taxi driver&#x0201d;</p><p>SOURCE: <xref rid="bibr8-09562478221115334" ref-type="bibr">Corporaci&#x000f3;n
+Regi&#x000f3;n et al. (2021)</xref>.</p></caption><graphic xlink:href="10.1177_09562478221115334-fig3" position="float"/></fig><p>In this vignette, the taxi becomes the classroom, the co-learning space where
+women and men with different disabilities share their experience of the city
+with taxi drivers and, in the process, build new ways of understanding how their
+bodies interact in a common territory. The pedagogic practice of &#x0201c;mobilizing&#x0201d;,
+in a literal sense, fosters the inclusion of marginalized groups in the city,
+not merely by adapting the city to their particular needs through retrofitted
+urban design, but by advocating for more pluralistic and intersectional
+perspectives on urban mobilities. In this school, <italic toggle="yes">Corporaci&#x000f3;n
+Regi&#x000f3;n</italic>, working together with <italic toggle="yes">Fuerza Incluyente</italic>,
+co-developed an experiential pedagogy which opens spaces to encounter
+diversities, enhancing possibilities for people with disabilities to move around
+the city, while simultaneously generating a new consciousness among key actors
+and institutions responsible for enhancing mobility for all.</p><p>Another way in which these mobilizing pedagogies address inequalities is through
+the strategic role that education assumes in social movements for facilitating
+the transfer and expansion of knowledges over generations, as well as across
+territories. In the Uruguayan Federation of Mutual Aid Housing Cooperatives
+(FUCVAM), intergenerational learning has been a strong pillar of its work as a
+movement. This, on the one hand, concerns the everyday learning through which
+young people living in cooperatives acquire values of mutual care and
+solidarity, as well as consciousness of the wider political project within which
+they are growing up. As Ignacio Lostorto, a young adult in FUCVAM&#x02019;s cooperative
+school states: <italic toggle="yes">&#x0201c;[mutual care] is the most natural, beautiful, and
+productive way to advance, and it is the way that promotes values such as
+conviviality and which gives you tranquillity with yourself and with
+others&#x0201d;</italic>.<sup>(<xref rid="fn32-09562478221115334" ref-type="fn">32</xref>)</sup></p><p>On the other hand, FUCVAM has evolved and systematized the promotion of
+intergenerational learning through modular pedagogic systems that can be adapted
+to specific needs and challenges among cooperative members. For instance,
+confronted with the challenge that young adults often left the cooperatives
+after moving out of their parents&#x02019; house, the Federation started the so-called
+<italic toggle="yes">&#x0201c;nucleo de promoci&#x000f3;n juvenil&#x0201d;</italic> (youth educators programme).
+Javier Vidal, the former coordinator of formative activities at FUCVAM,
+highlights that this initiative: <italic toggle="yes">&#x0201c;did not intend to fill the physical
+premises of the Federation with hundreds of young people, but rather aimed
+to work in a decentralized manner across the territory, so that young people
+can build their own spaces in the cooperatives and, in turn, create new
+cooperatives when they move out, when they socialize, when they start their
+families. That worked pretty well, we had many cooperatives originating from
+this&#x0201d;</italic>.<sup>(<xref rid="fn33-09562478221115334" ref-type="fn">33</xref>)</sup></p><p>Thus, mobilizing pedagogies operate both as a means to enhance everyday mobility
+from an intersectional perspective and to promote intergenerational learning and
+mobilization within social movements. To mobilize involves seeking change
+through moving literally across the city as well as by mobilizing collective
+agency. Through these practices, mobilizing becomes a means to common the city,
+and to restore its social function and production, opening the space for
+sustained and expanded action.</p></sec><sec id="section7-09562478221115334"><title>d. Reverberate</title><p>
+<disp-quote><p>Flavia has not missed a single session of Polis&#x02019;s Citizenship School.
+Since the start of the pandemic, she felt isolated in her struggles for
+the right to the city, and overwhelmed by the political neglect with
+which they are ignored. Fighting isolation, she has become active on
+social media platforms, where she engages in discussions initiated by
+the school that resonate with her. In the process and inadvertently, she
+is expanding the learning process beyond the school, allowing her &#x0201c;aha&#x0201d;
+moments and reflections to reverberate with a far wider community.</p></disp-quote>
+</p><p>Following its relaunch at the beginning of the pandemic, Polis Institute&#x02019;s
+Citizenship School in Brazil provoked unanticipated pathways and practices of
+learning, as its pedagogies started to reverberate from curated online sessions
+to social media channels like Instagram (see <xref rid="fig4-09562478221115334" ref-type="fig">Figure 4</xref>). There, stories and
+observations from the virtual classroom were shared and further debated, while
+new conversations led to thousands of new followers. Engagement with the
+activating effects of social media and their political power, for example,
+through proactive engagement with &#x0201c;influencers&#x0201d;, has since become a strategic
+leveraging practice for the pedagogues running the school.</p><fig position="float" id="fig4-09562478221115334"><label>Figure 4</label><caption><p>Snapshots of reverberations of the School of Citizenship on Instagram</p><p>SOURCE: Authors&#x02019; personal communication with Polis Institute based on raw
+footage shared by them.</p></caption><graphic xlink:href="10.1177_09562478221115334-fig4" position="float"/></fig><p>The notion of &#x0201c;reverberation&#x0201d; is widely applied in sound studies,<sup>(<xref rid="fn34-09562478221115334" ref-type="fn">34</xref>)</sup> not only
+with a physical but also a political meaning. In this context, to reverberate
+means the putting-in-motion of resonance, to amplify diversity perspectives, to
+grant them a dignity of attention and recognize their value and importance. As a
+pedagogic practice, reverberating is led by learners as they synthesize their
+own sense-making of how, for example, a transgender person experiences their
+right to the city, while provoking further reflections that together build new
+collective understandings, creating social proximity even in a context of
+physical distance. As such, to reverberate sets off new possibilities to act
+across spaces, temporalities and struggles that go beyond those curated by the
+schools.</p><p>Moreover, reverberation provokes, in Gershon&#x02019;s words, <italic toggle="yes">&#x0201c;a collapsing of
+distance across spacetimes so that the reverberations of resonances come
+crashing down on individuals, groups&#x0201d;</italic>.<sup>(<xref rid="fn35-09562478221115334" ref-type="fn">35</xref>)</sup> Hence, reverberating
+pedagogies also give rise to the travelling of ideas and practices across the
+region through relational and translocal learning. For instance, in the online
+Citizenship School of Polis, one participant from northern Brazil managed to
+successfully fight an imminent eviction with the tools and capacities acquired
+from a participant from another region, which resonated with him. In a similar
+way, the participatory design process undertaken in the <italic toggle="yes">Barrio
+Intercultural</italic> in Argentina generated reverberations through a
+shared framing of the right to housing as a collective practice embedded in
+conviviality with one another and with the territory. Moreover, the process of
+&#x0201c;weaving&#x0201d; pedagogies described before, here reverberates to a large number of
+learners and organizations, leading to the formation of new collectives working
+on participatory design in the social production and management of habitat.</p></sec><sec id="section8-09562478221115334"><title>e. Emancipate</title><p>
+<disp-quote><p>Amidst laughter and the creation of an unfolding collective manifesto
+towards a feminist city, Paola reflects on CISCSA&#x02019;s feminist school:
+<italic toggle="yes">&#x0201c;Something that we seek all the time in this work process is
+to encourage ourselves to imagine other possible realities that we
+always had on the horizon. We conduct several exercises to be able
+to make room to imagine a feminist city in which we would like to
+live [<xref rid="fig5-09562478221115334" ref-type="fig">Figure
+5</xref>]. This means to give rise to the power of the feminist
+imagination, to the possibility of imagining and dwelling cities
+from other more beautiful, fairer, more habitable, more loving
+places.&#x0201d;</italic><sup>(<xref rid="fn36-09562478221115334" ref-type="fn">36</xref>)</sup></p></disp-quote>
+</p><fig position="float" id="fig5-09562478221115334"><label>Figure 5</label><caption><p>&#x0201c;We want access to dignified housing: The land is for those who inhabit
+it!&#x0201d;</p><p>SOURCE: <xref rid="bibr7-09562478221115334" ref-type="bibr">CISCSA et al.
+(2021)</xref>.</p></caption><graphic xlink:href="10.1177_09562478221115334-fig5" position="float"/></fig><p>Across all the schools, pedagogy is critical to the project of emancipation, and
+emancipation critical to urban equality. As a pedagogy, to emancipate does not
+just evoke a destination but a journey; a journey through which the capacities
+to dare and to imagine a different city are activated. This intention
+counteracts the pursuit of liberal and andragogical theories of learning and
+brings to the fore the development of a critical consciousness that exposes and
+confronts the oppressive structures which confine and limit our experience of
+the urban and of the right to the city.</p><p>Drawing on Thompson&#x02019;s work,<sup>(<xref rid="fn37-09562478221115334" ref-type="fn">37</xref>)</sup> while raising the case for critical pedagogy in
+nursing education, Jane Harden argues that <italic toggle="yes">&#x0201c;everyday living as
+experienced by the majority is characterised by a naive, pre-reflective
+adherence to &#x02018;established&#x02019; versions of the life world. The consequence of
+this is that &#x02018;factual&#x02019; or doxic patterns of living are never challenged, and
+the question of legitimacy is never raised, because the social world is
+presented and accepted as a natural phenomenon&#x0201d;</italic>.<sup>(<xref rid="fn38-09562478221115334" ref-type="fn">38</xref>)</sup> In this
+sense, a critical parallel can be established between nursing and urban planning
+education. For a long time, professional education, in this and other fields,
+has hampered critical awareness and responses from learners, inadvertently
+turning professions of care into professions of oppression. In the case of
+nursing education, the dismissal of emancipatory capacities has indeed turned it
+into a site of oppression for those practising the profession, typically women,
+who are subordinated to a subservient role.</p><p>Critical pedagogy is fundamentally about hope, liberation and
+equality;<sup>(<xref rid="fn39-09562478221115334" ref-type="fn">39</xref>)</sup> it is about <italic toggle="yes">conscientisation</italic> &#x02013; that
+is, the process of developing a critical awareness of one&#x02019;s social reality
+through reflexion and action &#x02013; and about counter-hegemonic practices, which are
+the backbone of emancipatory pedagogies in the full sense of Freire&#x02019;s
+educational practice theory. To emancipate thus implies to transform the
+internal conflict experienced by subordinated or colonized groups in an
+oppressive society, a conflict defined as <italic toggle="yes">&#x0201c;double
+consciousness&#x0201d;</italic> by W E B Du Bois.<sup>(<xref rid="fn40-09562478221115334" ref-type="fn">40</xref>)</sup> This calls for activating
+a shift from seeing ourselves simultaneously through our own eyes and from the
+perspective of oppressive systems such as racism, patriarchy, colonialism or
+neoliberalism to rediscovering and asserting our social identities as crucial
+sites to imagine more socially just visions for the future of the city.</p><p>Activating a new consciousness &#x02013; one that leads to the very possibility of
+enacting counter-hegemonic and transgressive visions and practices of inhabiting
+a more equal city &#x02013; is at the core of the schools working under the umbrella of
+HIC-AL. In the school driven by <italic toggle="yes">Corporaci&#x000f3;n Regi&#x000f3;n</italic> and
+<italic toggle="yes">Fuerza Incluyente</italic> in Medell&#x000ed;n, this translates into the
+ways in which an inclusive city is approached: not as one that accommodates the
+needs and experiences of people with disabilities through marginal artefacts and
+ad hoc interventions such as ramps, but rather by turning accessibility and
+mobility for all as a default position from which the city is planned and
+managed. In a similar vein, FUCVAM&#x02019;s schools of cooperativism do not build
+houses to be traded as assets in the real estate market, but as homes to be
+inhabited, as concrete political practices that reclaim the social function of
+housing and land in cities &#x02013; where, as expressed in the title of their short
+film, <italic toggle="yes">&#x0201c;the dwelling is not the end, it is the beginning&#x0201d;</italic>.</p><p>CISCSA&#x02019;s feminist school explicitly employs emancipatory pedagogies that valorize
+situated experiences as opportunities to reclaim the city, and align with Sara
+Motta&#x02019;s call to <italic toggle="yes">&#x0201c;deconstruct subordinated and naturalised social and
+spatial relations, while looking at gender, race, age, class, sexual
+orientation and mental and physical ability as one&#x0201d;</italic>.<sup>(<xref rid="fn41-09562478221115334" ref-type="fn">41</xref>)</sup> These
+emancipatory pedagogic practices work through power and consciousness-raising,
+acknowledging the existence of oppression, as well as the possibility of ending
+it, and foregrounding the desire and capacity for social transformation. These
+practices manifest through the use of open &#x02013; non-predetermined &#x02013; learning
+strategies that encourage participants to share in a safe space their own
+intersectional positionalities and experiences with those of others through
+written, spoken and visual reflections.</p></sec></sec><sec id="section9-09562478221115334"><title>V. Creating Paradise Beyond the Classroom</title><p>To weave, to <italic toggle="yes">sentipensar</italic>, to mobilize, to reverberate and to
+emancipate &#x02013; these verbs together articulate the grammar of the schools coalescing
+under HIC in Latin America. The power of these actions should not be underestimated,
+as together they convey the ways by which critical grassroots pedagogies can
+activate collective agency and capacities to carve pathways towards urban
+equality.</p><p>Teresa Caldeira<sup>(<xref rid="fn42-09562478221115334" ref-type="fn">42</xref>)</sup> contends that as ordinary citizens engage in making the urban,
+they often become fluent in claiming their right to the city. Working through the
+critical pedagogies examined in this paper, we see that such fluency is not acquired
+spontaneously or individually, but as the outcome of collective learning processes
+that turn habitat struggles into sites of transformative change by linking learning
+with mobilization, advocacy and action.</p><p>As argued by Paulo Freire,<sup>(<xref rid="fn43-09562478221115334" ref-type="fn">43</xref>)</sup> the main method of critical pedagogy is dialogue, a
+dialogue adapted to each context, in which everyone can actively participate through
+the following process: (a) by encouraging women and men to develop their own
+critical consciousness in order to effect change in their world through social
+critique and political action; (b) by critically understanding one&#x02019;s own practice;
+and (c) by changing our practices in order to tackle common struggles and act upon
+reality. By collectivizing consciousness, resistance and contestation, as well as
+possibilities, sensibilities and hope, we are witnessing a contemporary reinvention
+of popular urbanism, driven by social movements, as a simultaneous practice of what
+Motta and Esteves call <italic toggle="yes">&#x0201c;pedagogising the political and politicising the
+pedagogical&#x0201d;</italic>.<sup>(<xref rid="fn44-09562478221115334" ref-type="fn">44</xref>)</sup> This double practice challenges the logics of neoliberal
+capitalism, of patriarchy and of racism and their hegemonic translation into
+systemic urban inequalities. It does so by subverting the marginalization of
+ordinary citizens, by embodying learning in their practices and in the everyday life
+experiences of the urban, by generating spaces to unlearn the oppressor&#x02019;s logic, by
+re-signifying the social and the public, and by pluralizing the
+<italic toggle="yes">saberes</italic> and <italic toggle="yes">haceres</italic> that make a just city a
+concrete field of imagination and action.</p><p>The five pedagogic practices shape the four dimensions of urban inequality as well as
+the links between them. Emancipatory pedagogies, for example, have been fundamental
+in making visible, revalorizing and seeking a social redistribution of the roles of
+women as carers, particularly pertinent in pandemic times. The experiential
+pedagogies in Medell&#x000ed;n were critical for people with physical disabilities to break
+away from their isolation in the hillsides of the city, towards actualizing their
+rights and opportunities in the city. In terms of reciprocal recognition, the
+practices of <italic toggle="yes">sentipensar</italic> in particular provoke profound reflections
+not only on the question of what and whose knowledge counts in habitat struggles,
+but how relations between different knowledges, feelings and practices &#x02013;
+professional, embodied, experiential and others &#x02013; are constructed and enacted.
+Importantly, the pedagogic practices of mobilization and reverberation remind us of
+the strategic trajectory and political weight of HIC schools in Latin America to
+advance towards a socially just habitat. For example, FUCVAM&#x02019;s intergenerational
+pedagogies are not static practices, but have responded to the Federation&#x02019;s changing
+relations to the state over time &#x02013; building capacities to act in the absence of,
+against, or with government institutions depending on their (legal) support for
+cooperative housing models. Finally, the schools have been fertile grounds for
+learning and acting in solidarity, as witnessed through their provoking of
+alternative economic, cultural and environmental models and imaginaries of
+<italic toggle="yes">buen vivir</italic>, as in the case of the <italic toggle="yes">Barrio
+Intercultural.</italic></p><p>This paper is ultimately a call for humility to those of us engaged in academia and
+professional practice, and for acknowledgement and recognition of and deep
+engagement with the actual grounded pedagogies that activate transformative change
+towards urban equality across time and geographies. In simple terms, it is about
+activating the practice of collective freedom and, in doing so, creating paradise
+not just in the classrooms of higher education institutions, but through the
+multiple sites in which urban inequalities are experienced and effectively contested
+and counteracted.</p></sec></body><back><ack><p>We would like to thank the pedagogues, learners and communication teams from all
+eight schools who contributed to the videos and reflections, as well as Maria Silvia
+Emanuelli &#x02013; HIC-AL Regional Coordinator &#x02013; and Lorena Z&#x000e1;rate &#x02013; HIC President until
+the end of 2019 &#x02013; for their insights and willingness to embark on this reflexive
+journey. Finally, our thanks to the team from La Sand&#x000ed;a Digital &#x02013; especially Suleica
+Pineda, Ana Salgado and Yetlanezi Garc&#x000ed;a &#x02013; for their support throughout the process
+to help us find a better way to narrate the stories of the schools beyond words.</p></ack><fn-group><fn fn-type="financial-disclosure"><p><bold>Funding:</bold> This article draws from the work conducted by the authors as part of the research
+programme Knowledge in Action for Urban Equality (KNOW), supported by UKRI
+through the Global Challenges Research Fund GROW Call. Grant Ref: ES/
+P011225/1.</p></fn><fn fn-type="other"><p><bold>ORCID iD:</bold> Julia Wesely <inline-graphic xlink:href="10.1177_09562478221115334-img2.jpg"/>
+<ext-link xlink:href="https://orcid.org/0000-0003-1691-9620" ext-link-type="uri">https://orcid.org/0000-0003-1691-9620</ext-link></p></fn></fn-group><fn-group><fn fn-type="other" id="fn1-09562478221115334"><label>1.</label><p><xref rid="bibr24-09562478221115334" ref-type="bibr">hooks (1994)</xref>, page
+207.</p></fn><fn fn-type="other" id="fn2-09562478221115334"><label>2.</label><p><xref rid="bibr3-09562478221115334" ref-type="bibr">Allen et al.
+(2020)</xref>.</p></fn><fn fn-type="other" id="fn3-09562478221115334"><label>3.</label><p><xref rid="bibr40-09562478221115334" ref-type="bibr">Wesely et al.
+(2021)</xref>.</p></fn><fn fn-type="other" id="fn4-09562478221115334"><label>4.</label><p><xref rid="bibr22-09562478221115334" ref-type="bibr">Habitat International
+Coalition (2016)</xref>.</p></fn><fn fn-type="other" id="fn5-09562478221115334"><label>5.</label><p>See reference 3.</p></fn><fn fn-type="other" id="fn6-09562478221115334"><label>6.</label><p>By &#x0201c;reflexive&#x0201d;, we mean a process of reflection that is intrinsically linked to
+action, that is opened to question its values, assumptions and practices, as
+well as participants&#x02019; roles in relation to others.</p></fn><fn fn-type="other" id="fn7-09562478221115334"><label>7.</label><p>See <xref rid="bibr34-09562478221115334" ref-type="bibr">P&#x000ed;rez (2016)</xref>;
+<xref rid="bibr36-09562478221115334" ref-type="bibr">Schmid et al.
+(2018)</xref>; <xref rid="bibr37-09562478221115334" ref-type="bibr">Streule
+et al. (2020)</xref>.</p></fn><fn fn-type="other" id="fn8-09562478221115334"><label>8.</label><p>See <xref rid="bibr2-09562478221115334" ref-type="bibr">Allen (2021)</xref>;
+<xref rid="bibr5-09562478221115334" ref-type="bibr">Castells (2016)</xref>;
+<xref rid="bibr33-09562478221115334" ref-type="bibr">Ortiz Flores
+(2017)</xref>; <xref rid="bibr39-09562478221115334" ref-type="bibr">Turner
+(1976)</xref>.</p></fn><fn fn-type="other" id="fn9-09562478221115334"><label>9.</label><p><xref rid="bibr6-09562478221115334" ref-type="bibr">Castillo-&#x000c1;lvarez
+(2021)</xref>; <xref rid="bibr17-09562478221115334" ref-type="bibr">Garc&#x000ed;a
+Alc&#x000e1;ntar and Quiroz Rothe (2017)</xref>.</p></fn><fn fn-type="other" id="fn10-09562478221115334"><label>10.</label><p>Enrique Ort&#x000ed;z Flores was HIC&#x02019;s Secretary General and President during 1988&#x02013;1999
+and 2003&#x02013;2007 respectively. He was also advisor and civil servant to the Mexican
+government in 1982&#x02013;1988, specifically in the National Fund for Popular Housing
+(Fonhapo in its Spanish acronym), and co-author of the first national housing
+programme in Mexico. He is an internationally recognized activist for the right
+to housing and the defence of the social production of habitat.</p></fn><fn fn-type="other" id="fn11-09562478221115334"><label>11.</label><p><xref rid="bibr1-09562478221115334" ref-type="bibr">Abramo (2011)</xref>.</p></fn><fn fn-type="other" id="fn12-09562478221115334"><label>12.</label><p>See <xref rid="bibr41-09562478221115334" ref-type="bibr">Yap et al.
+(2021)</xref>. The four dimensions explained in this paper are equal
+distribution, reciprocal recognition, parity political participation and
+solidarity and mutual care.</p></fn><fn fn-type="other" id="fn13-09562478221115334"><label>13.</label><p><xref rid="bibr15-09562478221115334" ref-type="bibr">Freire (2001)</xref>.</p></fn><fn fn-type="other" id="fn14-09562478221115334"><label>14.</label><p><xref rid="bibr19-09562478221115334" ref-type="bibr">Giroux (2019)</xref>.</p></fn><fn fn-type="other" id="fn15-09562478221115334"><label>15.</label><p><xref rid="bibr20-09562478221115334" ref-type="bibr">Gore (1993)</xref>; <xref rid="bibr25-09562478221115334" ref-type="bibr">hooks (2003)</xref>.</p></fn><fn fn-type="other" id="fn16-09562478221115334"><label>16.</label><p>See reference 13.</p></fn><fn fn-type="other" id="fn17-09562478221115334"><label>17.</label><p><xref rid="bibr31-09562478221115334" ref-type="bibr">Motta (2017)</xref>, page
+5.</p></fn><fn fn-type="other" id="fn18-09562478221115334"><label>18.</label><p>See reference 17, page 14.</p></fn><fn fn-type="other" id="fn19-09562478221115334"><label>19.</label><p>See reference 17, page 2.</p></fn><fn fn-type="other" id="fn20-09562478221115334"><label>20.</label><p><xref rid="bibr10-09562478221115334" ref-type="bibr">de Sousa Santos
+(2018)</xref>.</p></fn><fn fn-type="other" id="fn21-09562478221115334"><label>21.</label><p>The pedagogic reflexion with the eight schools in Latin America is part of a
+wider process open to other member organizations within HIC that seeks to
+elucidate how learning, mobilization, advocacy and action are simultaneously
+practised within the Coalition. Since 2021, this process has informed the
+development of cross-regional co-learning spaces driven by HIC&#x02019;s members. For
+more information on this initiative and HIC&#x02019;s first co-learning space on
+feminist approaches to habitat rights see: <ext-link xlink:href="https://www.hic-net.org/how-do-hic-members-and-allies-learn-cross-regionally-to-strengthen-our-collective-advocacy-muscles-on-feminist-approaches-to-habitat/" ext-link-type="uri">https://www.hic-net.org/how-do-hic-members-and-allies-learn-cross-regionally-to-strengthen-our-collective-advocacy-muscles-on-feminist-approaches-to-habitat/</ext-link>.</p></fn><fn fn-type="other" id="fn22-09562478221115334"><label>22.</label><p><xref rid="bibr13-09562478221115334" ref-type="bibr">Enet et al. (2021)</xref>;
+<xref rid="bibr12-09562478221115334" ref-type="bibr">Enet and Romero
+(2019)</xref>.</p></fn><fn fn-type="other" id="fn23-09562478221115334"><label>23.</label><p><xref rid="bibr21-09562478221115334" ref-type="bibr">Gudynas (2011)</xref>.</p></fn><fn fn-type="other" id="fn24-09562478221115334"><label>24.</label><p><xref rid="bibr30-09562478221115334" ref-type="bibr">Malecki (2016)</xref>.</p></fn><fn fn-type="other" id="fn25-09562478221115334"><label>25.</label><p><xref rid="bibr7-09562478221115334" ref-type="bibr">CISCSA et al.
+(2021)</xref>.</p></fn><fn fn-type="other" id="fn26-09562478221115334"><label>26.</label><p><xref rid="bibr42-09562478221115334" ref-type="bibr">Zaragocin and Caretta
+(2021)</xref>, page 1508.</p></fn><fn fn-type="other" id="fn27-09562478221115334"><label>27.</label><p><xref rid="bibr14-09562478221115334" ref-type="bibr">Escobar (2020)</xref>.</p></fn><fn fn-type="other" id="fn28-09562478221115334"><label>28.</label><p><xref rid="bibr35-09562478221115334" ref-type="bibr">Rend&#x000f3;n (2009)</xref>,
+n.p.</p></fn><fn fn-type="other" id="fn29-09562478221115334"><label>29.</label><p><xref rid="bibr9-09562478221115334" ref-type="bibr">De Jong et al. (2019)</xref>,
+page xv.</p></fn><fn fn-type="other" id="fn30-09562478221115334"><label>30.</label><p><xref rid="bibr26-09562478221115334" ref-type="bibr">Illich (1973</xref>, <xref rid="bibr27-09562478221115334" ref-type="bibr">1977</xref>, <xref rid="bibr28-09562478221115334" ref-type="bibr">2010</xref>).</p></fn><fn fn-type="other" id="fn31-09562478221115334"><label>31.</label><p><xref rid="bibr8-09562478221115334" ref-type="bibr">Corporaci&#x000f3;n Regi&#x000f3;n, Fuerza
+Incluyente, HIC and KNOW (2021)</xref>.</p></fn><fn fn-type="other" id="fn32-09562478221115334"><label>32.</label><p><xref rid="bibr16-09562478221115334" ref-type="bibr">FUCVAM et al.
+(2021)</xref>.</p></fn><fn fn-type="other" id="fn33-09562478221115334"><label>33.</label><p>See reference 32.</p></fn><fn fn-type="other" id="fn34-09562478221115334"><label>34.</label><p>As a diverse field, sound and sonic studies are amongst many things interested in
+the ways sound and acts of listening make differences in society and culture.
+See for example <xref rid="bibr18-09562478221115334" ref-type="bibr">Gershon
+(2020)</xref>.</p></fn><fn fn-type="other" id="fn35-09562478221115334"><label>35.</label><p>See reference 34, page 1164.</p></fn><fn fn-type="other" id="fn36-09562478221115334"><label>36.</label><p>Paola Blanes speaking in reference 25.</p></fn><fn fn-type="other" id="fn37-09562478221115334"><label>37.</label><p><xref rid="bibr38-09562478221115334" ref-type="bibr">Thompson (1987)</xref>.</p></fn><fn fn-type="other" id="fn38-09562478221115334"><label>38.</label><p><xref rid="bibr23-09562478221115334" ref-type="bibr">Harden (1996)</xref>, page
+32.</p></fn><fn fn-type="other" id="fn39-09562478221115334"><label>39.</label><p><xref rid="bibr29-09562478221115334" ref-type="bibr">Luke and Gore
+(1992)</xref>.</p></fn><fn fn-type="other" id="fn40-09562478221115334"><label>40.</label><p><xref rid="bibr11-09562478221115334" ref-type="bibr">Du Bois (1994)</xref>.</p></fn><fn fn-type="other" id="fn41-09562478221115334"><label>41.</label><p>See reference 17, pages 5&#x02013;6.</p></fn><fn fn-type="other" id="fn42-09562478221115334"><label>42.</label><p><xref rid="bibr4-09562478221115334" ref-type="bibr">Caldeira (2017)</xref>.</p></fn><fn fn-type="other" id="fn43-09562478221115334"><label>43.</label><p>See reference 13.</p></fn><fn fn-type="other" id="fn44-09562478221115334"><label>44.</label><p><xref rid="bibr32-09562478221115334" ref-type="bibr">Motta and Esteves
+(2014)</xref>, page 21.</p></fn></fn-group><ref-list><title>References</title><ref id="bibr1-09562478221115334"><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name><surname>Abramo</surname><given-names>P</given-names></name>
+</person-group> (<year>2011</year>), <source>La producci&#x000f3;n de las ciudades
+latinoamericanas: mercado inmobiliario y estructura urbana</source>,
+<publisher-name>Organizaci&#x000f3;n Latinoamericana y del Caribe de Centros
+Hist&#x000f3;ricos</publisher-name>,
+<publisher-loc>Quito</publisher-loc>.</mixed-citation></ref><ref id="bibr2-09562478221115334"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Allen</surname><given-names>A</given-names></name>
+</person-group> (<year>2021</year>), &#x0201c;<article-title>Navigating stigma through
+everyday city-making: gendered trajectories, politics and outcomes in the
+periphery of Lima</article-title>&#x0201d;, <source>Urban Studies</source>
+<volume>Vol 59</volume>, <issue>No 3</issue>, pages
+<fpage>490</fpage>&#x02013;<lpage>508</lpage>.</mixed-citation></ref><ref id="bibr3-09562478221115334"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Allen</surname><given-names>A</given-names></name>
+<name><surname>Coci&#x000f1;a</surname><given-names>C</given-names></name>
+<name><surname>Wesely</surname><given-names>J</given-names></name>
+</person-group> (<year>2020</year>), &#x0201c;<article-title>Habitat International
+Coalition: networked practices, knowledges and pedagogies for translocal
+housing activism</article-title>&#x0201d;, <source>Radical Housing</source>
+<volume>Vol 2</volume>, <issue>No 2</issue>, pages
+<fpage>181</fpage>&#x02013;<lpage>192</lpage>.</mixed-citation></ref><ref id="bibr4-09562478221115334"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Caldeira</surname><given-names>T</given-names></name>
+</person-group> (<year>2017</year>), &#x0201c;<article-title>Peripheral urbanization:
+autoconstruction, transversal logics, and politics in cities of the global
+south</article-title>&#x0201d;, <source>Environment and Planning D: Society and
+Space</source>
+<volume>Vol 35</volume>, <issue>No 1</issue>, pages
+<fpage>3</fpage>&#x02013;<lpage>20</lpage>.</mixed-citation></ref><ref id="bibr5-09562478221115334"><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name><surname>Castells</surname><given-names>M</given-names></name>
+</person-group> (<year>2016</year>), <source>De la crisis econ&#x000f3;mica a la crisis
+pol&#x000ed;tica. Una mirada cr&#x000ed;tica</source>, <publisher-name>Libros de
+Vanguardia</publisher-name>,
+<publisher-loc>Madrid</publisher-loc>.</mixed-citation></ref><ref id="bibr6-09562478221115334"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Castillo-&#x000c1;lvarez</surname><given-names>R
+M</given-names></name>
+</person-group> (<year>2021</year>), &#x0201c;<article-title>Procesos de urbanizaci&#x000f3;n
+popular y derecho a la ciudad en el oriente de la zona metropolitana del
+Valle de M&#x000e9;xico</article-title>&#x0201d;, <source>Procesos Urbanos</source>
+<volume>Vol 8</volume>, <issue>No 2</issue>.</mixed-citation></ref><ref id="bibr7-09562478221115334"><mixed-citation publication-type="book">
+<collab>CISCSA, HIC and KNOW</collab> (<year>2021</year>),
+&#x0201c;<article-title>&#x000a1;Queremos cambiarlo todo! Formaci&#x000f3;n feminista por los
+derechos a la ciudad</article-title>&#x0201d;, video, <publisher-name>Escuelas de
+HIC-AL</publisher-name>.</mixed-citation></ref><ref id="bibr8-09562478221115334"><mixed-citation publication-type="book">
+<collab>Corporaci&#x000f3;n Regi&#x000f3;n, Fuerza Incluyente, HIC and KNOW</collab>
+(<year>2021</year>), &#x0201c;<article-title>Por una ciudad
+accesible</article-title>&#x0201d;, video, <publisher-name>Escuelas de
+HIC-AL</publisher-name>.</mixed-citation></ref><ref id="bibr9-09562478221115334"><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name><surname>De Jong</surname><given-names>S</given-names></name>
+<name><surname>Icaza</surname><given-names>R</given-names></name>
+<name><surname>Rutazibwa</surname><given-names>O</given-names></name>
+</person-group> (<year>2019</year>), <source>Decolonization and Feminisms in
+Global Teaching and Learning</source>,
+<publisher-name>Routledge</publisher-name>, <publisher-loc>New
+York</publisher-loc>.</mixed-citation></ref><ref id="bibr10-09562478221115334"><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name><surname>de Sousa Santos</surname><given-names>B</given-names></name>
+</person-group> (<year>2018</year>), <source>The End of the Cognitive Empire:
+The Coming of Age of Epistemologies of the South</source>,
+<publisher-name>Duke University Press</publisher-name>,
+<publisher-loc>Durham, NC</publisher-loc>.</mixed-citation></ref><ref id="bibr11-09562478221115334"><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name><surname>Du Bois</surname><given-names>W E B</given-names></name>
+</person-group> (<year>1994</year>), <source>The Souls of Black Folk</source>,
+<publisher-name>Gramercy Books</publisher-name>, <publisher-loc>New
+York</publisher-loc>.</mixed-citation></ref><ref id="bibr12-09562478221115334"><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name><surname>Enet</surname><given-names>M</given-names></name>
+<name><surname>Romero</surname><given-names>G</given-names></name>
+</person-group> (<year>2019</year>), <source>Dise&#x000f1;o participativo sustentable
+del h&#x000e1;bitat como herramienta de la producci&#x000f3;n y gesti&#x000f3;n social del h&#x000e1;bitat y
+para el ejercicio de derechos</source>, <publisher-name>UNAM,
+HIC-AL</publisher-name>, <publisher-loc>Mexico
+City</publisher-loc>.</mixed-citation></ref><ref id="bibr13-09562478221115334"><mixed-citation publication-type="book">
+<collab>Enet, M, HIC and KNOW</collab> (<year>2021</year>),
+&#x0201c;<article-title>Fortalecimiento de capacidades para la producci&#x000f3;n social del
+h&#x000e1;bitat</article-title>&#x0201d;, video, <publisher-name>Escuelas de
+HIC-AL</publisher-name>.</mixed-citation></ref><ref id="bibr14-09562478221115334"><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name><surname>Escobar</surname><given-names>A</given-names></name>
+</person-group> (<year>2020</year>), <source>Pluriversal Politics</source>,
+<publisher-name>Duke University Press</publisher-name>, <publisher-loc>New
+York</publisher-loc>.</mixed-citation></ref><ref id="bibr15-09562478221115334"><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name><surname>Freire</surname><given-names>P</given-names></name>
+</person-group> (<year>2001</year>), <source>Pedagogy of the Oppressed</source>,
+<publisher-name>Continuum</publisher-name>, <publisher-loc>New
+York</publisher-loc>.</mixed-citation></ref><ref id="bibr16-09562478221115334"><mixed-citation publication-type="book">
+<collab>FUCVAM, HIC and KNOW</collab> (<year>2021</year>), &#x0201c;<article-title>La
+vivienda es el principio y no el final</article-title>&#x0201d;, video,
+<publisher-name>Escuelas de HIC-AL</publisher-name>.</mixed-citation></ref><ref id="bibr17-09562478221115334"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Garc&#x000ed;a Alc&#x000e1;ntar</surname><given-names>E
+A</given-names></name>
+<name><surname>Quiroz Rothe</surname><given-names>H</given-names></name>
+</person-group> (<year>2017</year>), &#x0201c;<article-title>El urbanismo popular en
+M&#x000e9;xico. elementos para una hist&#x000f3;ria pendiente</article-title>&#x0201d;,
+<source>URBANA: Revista Eletr&#x000f4;nica do Centro Interdisciplinar de Estudos
+Sobre a Cidade</source>
+<volume>Vol 9</volume>, <issue>No 1</issue>, pages
+<fpage>47</fpage>&#x02013;<lpage>69</lpage>.</mixed-citation></ref><ref id="bibr18-09562478221115334"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Gershon</surname><given-names>W</given-names></name>
+</person-group> (<year>2020</year>), &#x0201c;<article-title>Reverberations and reverb:
+sound possibilities for narrative, creativity, and
+critique</article-title>&#x0201d;, <source>Qualitative Inquiry</source>
+<volume>Vol 26</volume>, <issue>No 10</issue>, pages
+<fpage>1163</fpage>&#x02013;<lpage>1173</lpage>.</mixed-citation></ref><ref id="bibr19-09562478221115334"><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name><surname>Giroux</surname><given-names>H</given-names></name>
+</person-group> (<year>2019</year>), &#x0201c;<part-title>Utopian thinking in
+dangerous times: critical pedagogy and the project of educated
+hope</part-title>&#x0201d;, in <person-group person-group-type="editor">
+<name><surname>Cot&#x000e9;</surname><given-names>M</given-names></name>
+<name><surname>Day</surname><given-names>R J F</given-names></name>
+<name><surname>de Peuter</surname><given-names>G</given-names></name>
+</person-group> (editors), <source>Utopian Pedagogy: Radical Experiments Against
+Neoliberal Globalization</source>, <publisher-name>University of Toronto
+Press</publisher-name>, <publisher-loc>Toronto</publisher-loc>, pages
+<fpage>25</fpage>&#x02013;<lpage>42</lpage>.</mixed-citation></ref><ref id="bibr20-09562478221115334"><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name><surname>Gore</surname><given-names>J</given-names></name>
+</person-group> (<year>1993</year>), <source>The Struggle for Pedagogies:
+Critical and Feminist Discourses as Regimes of Truth</source>,
+<publisher-name>Routledge</publisher-name>, <publisher-loc>New
+York</publisher-loc>.</mixed-citation></ref><ref id="bibr21-09562478221115334"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Gudynas</surname><given-names>E</given-names></name>
+</person-group> (<year>2011</year>), &#x0201c;<article-title>Buen vivir: germinando
+alternativas al desarrollo</article-title>&#x0201d;, <source>Am&#x000e9;rica Latina en
+movimiento</source>
+<volume>Vol 462</volume>, pages
+<fpage>1</fpage>&#x02013;<lpage>20</lpage>.</mixed-citation></ref><ref id="bibr22-09562478221115334"><mixed-citation publication-type="book">
+<collab>Habitat International Coalition</collab> (<year>2016</year>),
+<source>Habitat International Coalition and the Habitat Conferences
+1976&#x02013;2016</source>, <publisher-name>HIC</publisher-name>,
+<publisher-loc>Barcelona</publisher-loc>.</mixed-citation></ref><ref id="bibr23-09562478221115334"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Harden</surname><given-names>J</given-names></name>
+</person-group> (<year>1996</year>), &#x0201c;<article-title>Enlightenment, empowerment
+and emancipation: the case for critical pedagogy in nurse
+education</article-title>&#x0201d;, <source>Nurse Education Today</source>
+<volume>Vol 16</volume>, <issue>No 1</issue>, pages
+<fpage>32</fpage>&#x02013;<lpage>37</lpage>.</mixed-citation></ref><ref id="bibr24-09562478221115334"><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name><surname>hooks</surname><given-names>b</given-names></name>
+</person-group> (<year>1994</year>), <source>Teaching to Transgress: Education
+as the Practice of Freedom</source>,
+<publisher-name>Routledge</publisher-name>, <publisher-loc>New
+York</publisher-loc>.</mixed-citation></ref><ref id="bibr25-09562478221115334"><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name><surname>hooks</surname><given-names>b</given-names></name>
+</person-group> (<year>2003</year>), <source>Teaching Community: A Pedagogy of
+Hope</source>, <publisher-name>Routledge</publisher-name>,
+<publisher-loc>New York and London</publisher-loc>.</mixed-citation></ref><ref id="bibr26-09562478221115334"><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name><surname>Illich</surname><given-names>I</given-names></name>
+</person-group> (<year>1973</year>), <source>Deschooling Society</source>,
+<publisher-name>Penguin</publisher-name>,
+<publisher-loc>Harmondsworth</publisher-loc>.</mixed-citation></ref><ref id="bibr27-09562478221115334"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Illich</surname><given-names>I</given-names></name>
+</person-group> (<year>1977</year>), &#x0201c;<article-title>Disabling professions:
+notes for a lecture</article-title>&#x0201d;, <source>Crime, Law and Social
+Change</source>
+<volume>Vol 1</volume>, <issue>No 4</issue>, pages
+<fpage>359</fpage>&#x02013;<lpage>370</lpage>.</mixed-citation></ref><ref id="bibr28-09562478221115334"><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name><surname>Illich</surname><given-names>I</given-names></name>
+</person-group> (<year>2010</year>), &#x0201c;<part-title>Eco-paedagogics and the
+commons</part-title>&#x0201d;, in <person-group person-group-type="editor">
+<name><surname>Garrett</surname><given-names>R</given-names></name>
+</person-group> (editor), <source>Education and Development</source>,
+<publisher-name>Routledge</publisher-name>,
+<publisher-loc>Abingdon</publisher-loc>, pages
+<fpage>4</fpage>&#x02013;<lpage>13</lpage>.</mixed-citation></ref><ref id="bibr29-09562478221115334"><mixed-citation publication-type="book">
+<person-group person-group-type="editor">
+<name><surname>Luke</surname><given-names>C</given-names></name>
+<name><surname>Gore</surname><given-names>J</given-names></name>
+</person-group> (editors) (<year>1992</year>), <source>Feminisms and Critical
+Pedagogy</source>, <publisher-name>Routledge, Chapman &#x00026;
+Hall</publisher-name>,
+<publisher-loc>London</publisher-loc>.</mixed-citation></ref><ref id="bibr30-09562478221115334"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Malecki</surname><given-names>J S</given-names></name>
+</person-group> (<year>2016</year>), &#x0201c;<article-title>Crisis, radicalizaci&#x000f3;n y
+pol&#x000ed;tica en el Taller Total de C&#x000f3;rdoba, 1970&#x02013;1975</article-title>&#x0201d;,
+<source>Prohistoria</source>
+<volume>Vol 25</volume>, pages
+<fpage>79</fpage>&#x02013;<lpage>103</lpage>.</mixed-citation></ref><ref id="bibr31-09562478221115334"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Motta</surname><given-names>S</given-names></name>
+</person-group> (<year>2017</year>), &#x0201c;<article-title>Emancipation in Latin
+America: on the pedagogical turn</article-title>&#x0201d;, <source>Bulletin of Latin
+American Research</source>
+<volume>Vol 36</volume>, <issue>No 1</issue>, pages
+<fpage>5</fpage>&#x02013;<lpage>20</lpage>.</mixed-citation></ref><ref id="bibr32-09562478221115334"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Motta</surname><given-names>S</given-names></name>
+<name><surname>Esteves</surname><given-names>A M</given-names></name>
+</person-group>, (<year>2014</year>), &#x0201c;<article-title>Reinventing emancipation
+in the 21st century: the pedagogical practices of social
+movements</article-title>&#x0201d;, <source>Interface: A Journal for and about
+Social Movements</source>
+<volume>Vol 6</volume>, <issue>No 1</issue>, pages
+<fpage>1</fpage>&#x02013;<lpage>24</lpage>.</mixed-citation></ref><ref id="bibr33-09562478221115334"><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name><surname>Ort&#x000ed;z Flores</surname><given-names>E</given-names></name>
+</person-group> (<year>2017</year>), <source>Hacia un h&#x000e1;bitat para el Buen
+Vivir. Andanzas compartidas de un caracol peregrino</source>,
+<publisher-name>Rosa Luxemburg Stiftung</publisher-name>,
+<publisher-loc>Mexico City</publisher-loc>.</mixed-citation></ref><ref id="bibr34-09562478221115334"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>P&#x000ed;rez</surname><given-names>P</given-names></name>
+</person-group> (<year>2016</year>), &#x0201c;<article-title>Las heterogeneidades en la
+producci&#x000f3;n de la urbanizaci&#x000f3;n y los servicios urbanos en Am&#x000e9;rica
+Latina</article-title>&#x0201d;, <source>territorios</source>
+<volume>Vol 34</volume>, pages
+<fpage>87</fpage>&#x02013;<lpage>112</lpage>.</mixed-citation></ref><ref id="bibr35-09562478221115334"><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name><surname>Rend&#x000f3;n</surname><given-names>L I</given-names></name>
+</person-group> (<year>2009</year>), <source>Sentipensante (Sensing/thinking)
+Pedagogy: Educating for Wholeness, Social Justice and Liberation</source>.
+<publisher-name>Stylus Publications</publisher-name>,
+<publisher-loc>Sterling VA</publisher-loc></mixed-citation></ref><ref id="bibr36-09562478221115334"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Schmid</surname><given-names>C</given-names></name>
+<name><surname>Karaman</surname><given-names>O</given-names></name>
+<name><surname>Hanakata</surname><given-names>N C</given-names></name>
+<name><surname>Kallenberger</surname><given-names>P</given-names></name>
+<name><surname>Kockelkorn</surname><given-names>A</given-names></name>
+<name><surname>Sawyer</surname><given-names>L</given-names></name>
+<name><surname>Streule</surname><given-names>M</given-names></name>
+<name><surname>Wong</surname><given-names>K P</given-names></name>
+</person-group> (<year>2018</year>), &#x0201c;<article-title>Towards a new vocabulary of
+urbanisation processes: a comparative approach</article-title>&#x0201d;,
+<source>Urban Studies</source>
+<volume>Vol 55</volume>, <issue>No 1</issue>, pages
+<fpage>19</fpage>&#x02013;<lpage>52</lpage>.</mixed-citation></ref><ref id="bibr37-09562478221115334"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Streule</surname><given-names>M</given-names></name>
+<name><surname>Karaman</surname><given-names>O</given-names></name>
+<name><surname>Sawyer</surname><given-names>L</given-names></name>
+<name><surname>Schmid</surname><given-names>C</given-names></name>
+</person-group> (<year>2020</year>), &#x0201c;<article-title>Popular urbanization:
+conceptualizing urbanization processes beyond informality</article-title>&#x0201d;,
+<source>International Journal of Urban and Regional Research</source>
+<volume>Vol 44</volume>, <issue>No 4</issue>, pages
+<fpage>652</fpage>&#x02013;<lpage>672</lpage>.</mixed-citation></ref><ref id="bibr38-09562478221115334"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Thompson</surname><given-names>J</given-names></name>
+</person-group> (<year>1987</year>), &#x0201c;<article-title>Critical scholarship: tile
+critique of domination in nursing</article-title>&#x0201d;, <source>Advances in
+Nursing Science</source>
+<volume>Vol 5</volume>, <issue>No 2</issue>, pages
+<fpage>17</fpage>&#x02013;<lpage>25</lpage>.</mixed-citation></ref><ref id="bibr39-09562478221115334"><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name><surname>Turner</surname><given-names>J</given-names></name>
+</person-group> (<year>1976</year>), <source>Housing by People: Towards Autonomy
+in Building Environments</source>, <publisher-name>Pantheon
+Books</publisher-name>, <publisher-loc>New
+York</publisher-loc>.</mixed-citation></ref><ref id="bibr40-09562478221115334"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Wesely</surname><given-names>J</given-names></name>
+<name><surname>Allen</surname><given-names>A</given-names></name>
+<name><surname>Z&#x000e1;rate</surname><given-names>L</given-names></name>
+<name><surname>Emanuelli</surname><given-names>M S</given-names></name>
+</person-group> (<year>2021</year>), &#x0201c;<article-title>Generative pedagogies from
+and for the social production of habitat: learning from HIC-AL School of
+grassroots urbanism</article-title>&#x0201d;, <source>plaNext&#x02013;Next Generation
+Planning</source>
+<volume>Vol 11</volume>, pages
+<fpage>26</fpage>&#x02013;<lpage>43</lpage>.</mixed-citation></ref><ref id="bibr41-09562478221115334"><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name><surname>Yap</surname><given-names>C</given-names></name>
+<name><surname>Coci&#x000f1;a</surname><given-names>C</given-names></name>
+<name><surname>Levy</surname><given-names>C</given-names></name>
+</person-group> (<year>2021</year>), &#x0201c;<article-title>The Urban Dimensions of
+Inequality and Equality</article-title>&#x0201d;, GOLD VI Working Paper Series,
+Working Paper 1 (<month>November</month>
+<year>2021</year>), <publisher-name>United Cities and Local
+Governments</publisher-name>, <publisher-loc>Barcelona</publisher-loc>,
+<fpage>40</fpage> pages.</mixed-citation></ref><ref id="bibr42-09562478221115334"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Zaragocin</surname><given-names>S</given-names></name>
+<name><surname>Caretta</surname><given-names>M A</given-names></name>
+</person-group> (<year>2021</year>), &#x0201c;<article-title>Cuerpo-territorio: a
+decolonial feminist geographical method for the study of
+embodiment</article-title>&#x0201d;, <source>Annals of the American Association of
+Geographers</source>
+<volume>Vol 111</volume>, <issue>No 5</issue>, pages
+<fpage>1503</fpage>&#x02013;<lpage>1518</lpage>.</mixed-citation></ref></ref-list></back></article>
