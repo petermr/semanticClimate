@@ -1,0 +1,63 @@
+09:19:10.709 INFO  org.contentmine.ami.tools.AMI - args: [-p, ., search]
+09:19:10.738 DEBUG org.contentmine.ami.tools.AMI - Specified verbosity=0, this translates to level=WARN
+09:19:10.738 DEBUG org.contentmine.ami.tools.AMI - Reconfiguring Console appender with WARN
+09:19:10.738 INFO  org.contentmine.ami.tools.AMI - (The console will show WARN level messages)
+09:19:10.739 INFO  org.contentmine.ami.tools.AMI - (Logs will also be printed to /Users/pm286/projects/semanticClimate/climate_justice/logs/ami.log)
+09:19:10.884 DEBUG org.contentmine.ami.tools.AMI - Version: ami 2021.09.27_15.49-NEXT-SNAPSHOT
+(jar:file:/Users/pm286/workspace/cmdev/ami3/target/appassembler/repo/ami3-2021.09.27_15.49-NEXT-SNAPSHOT.jar)
+JVM: 14.0.1 (Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 14.0.1+7)
+OS: Mac OS X 10.16 x86_64
+
+09:19:10.884 WARN  org.contentmine.ami.tools.AbstractAMITool - 
+09:19:10.885 WARN  org.contentmine.ami.tools.AbstractAMITool - Generic values (AMISearchTool)
+09:19:10.885 WARN  org.contentmine.ami.tools.AbstractAMITool - ================================
+09:19:10.980 INFO  org.contentmine.ami.tools.AbstractAMITool - input basename      null
+09:19:10.980 INFO  org.contentmine.ami.tools.AbstractAMITool - input basename list null
+09:19:10.980 INFO  org.contentmine.ami.tools.AbstractAMITool - cproject            /Users/pm286/projects/semanticClimate/climate_justice/.
+09:19:10.981 INFO  org.contentmine.ami.tools.AbstractAMITool - ctree               
+09:19:10.981 INFO  org.contentmine.ami.tools.AbstractAMITool - cTreeList           200 trees [./PMC4835033, ./PMC5041066, ./PMC6086283, ./PMC66
+09:19:10.982 INFO  org.contentmine.ami.tools.AbstractAMITool - excludeBase         {}
+09:19:10.982 INFO  org.contentmine.ami.tools.AbstractAMITool - excludeTrees        {}
+09:19:10.982 INFO  org.contentmine.ami.tools.AbstractAMITool - forceMake           false
+09:19:10.982 INFO  org.contentmine.ami.tools.AbstractAMITool - includeBase         {}
+09:19:10.982 INFO  org.contentmine.ami.tools.AbstractAMITool - includeTrees        null
+09:19:10.982 INFO  org.contentmine.ami.tools.AbstractAMITool - log4j               {}
+09:19:10.982 INFO  org.contentmine.ami.tools.AbstractAMITool - verbose             0
+09:19:10.982 WARN  org.contentmine.ami.tools.AbstractAMITool - 
+09:19:10.982 WARN  org.contentmine.ami.tools.AbstractAMITool - Specific values (AMISearchTool)
+09:19:10.982 WARN  org.contentmine.ami.tools.AbstractAMITool - ================================
+09:19:10.983 INFO  org.contentmine.ami.tools.AbstractAMITool - Command line options for 'ami search':
+09:19:10.984 INFO  org.contentmine.ami.tools.AbstractAMITool - --stripNumbers      : d     false
+09:19:10.984 INFO  org.contentmine.ami.tools.AbstractAMITool - --wordCount         : d (20,1000000)
+09:19:10.984 INFO  org.contentmine.ami.tools.AbstractAMITool - --wordLength        : d    (1,20)
+09:19:10.985 INFO  org.contentmine.ami.tools.AbstractAMITool - --wikidataBiblio    : d     false
+09:19:10.985 INFO  org.contentmine.ami.tools.AbstractAMITool - --no-oldstyle       : d      true
+09:19:10.985 INFO  org.contentmine.ami.tools.AbstractAMITool - --dictionary        : d      null
+09:19:10.985 INFO  org.contentmine.ami.tools.AbstractAMITool - --dictionarySuffix  : d     [xml]
+09:19:10.986 INFO  org.contentmine.ami.tools.AbstractAMITool - --dictionaryTop     : d [/Users/pm286/ami/dictionary]
+09:19:10.986 INFO  org.contentmine.ami.tools.AbstractAMITool - --ignorePlugins     : d        []
+09:19:10.986 INFO  org.contentmine.ami.tools.AbstractAMITool - --help              : d     false
+09:19:10.986 INFO  org.contentmine.ami.tools.AbstractAMITool - --version           : d     false
+09:19:11.097 WARN  org.contentmine.ami.tools.AMISearchTool - created COMMAND: word(frequencies)xpath:@count>20~w.stopwords:pmcstop.txt_stopwords.txt
+09:19:11.098 DEBUG org.contentmine.ami.tools.AbstractAMISearchTool - old style search command); to be changed
+09:19:11.099 WARN  org.contentmine.ami.tools.AMISearchTool - cProject: .
+09:19:11.099 WARN  org.contentmine.ami.tools.AMISearchTool - created COMMAND: word(frequencies)xpath:@count>20~w.stopwords:pmcstop.txt_stopwords.txt
+09:19:11.100 INFO  org.contentmine.ami.tools.AMISearchTool - ASTrunning search: word(frequencies)xpath:@count>20~w.stopwords:pmcstop.txt_stopwords.txt
+09:19:11.100 INFO  org.contentmine.ami.tools.AbstractAMISearchTool - SEARCH running legacy processors
+09:19:11.101 DEBUG org.contentmine.ami.plugins.CommandProcessor - ComProc> Reading old AMI abbreviations: obsolete these
+09:19:11.103 WARN  org.contentmine.ami.tools.AbstractAMISearchTool - legacy cmd> word(frequencies)xpath:@count>20~w.stopwords:pmcstop.txt_stopwords.txt
+09:19:11.122 DEBUG org.contentmine.ami.plugins.CommandProcessor - running NORMA -i fulltext.xml -o scholarly.html --transform nlm2html --project .
+09:19:11.982 ERROR org.contentmine.norma.NormaTransformer - BAD TRANSFORM (cannot transform ./PMC4835033/fulltext.xml) ./PMC4835033/fulltext.xml
+09:19:12.146 ERROR org.contentmine.norma.NormaTransformer - BAD TRANSFORM (cannot transform ./PMC6656389/fulltext.xml) ./PMC6656389/fulltext.xml
+09:19:12.267 ERROR org.contentmine.norma.NormaTransformer - BAD TRANSFORM (cannot transform ./PMC6936694/fulltext.xml) ./PMC6936694/fulltext.xml
+09:19:12.360 ERROR org.contentmine.norma.NormaTransformer - BAD TRANSFORM (cannot transform ./PMC6964548/fulltext.xml) ./PMC6964548/fulltext.xml
+09:19:12.500 ERROR org.contentmine.norma.NormaTransformer - BAD TRANSFORM (cannot transform ./PMC7348418/fulltext.xml) ./PMC7348418/fulltext.xml
+09:19:12.582 ERROR org.contentmine.norma.NormaTransformer - BAD TRANSFORM (cannot transform ./PMC7348444/fulltext.xml) ./PMC7348444/fulltext.xml
+09:19:12.783 ERROR org.contentmine.norma.NormaTransformer - BAD TRANSFORM (cannot transform ./PMC7728833/fulltext.xml) ./PMC7728833/fulltext.xml
+09:19:12.868 ERROR org.contentmine.norma.NormaTransformer - BAD TRANSFORM (cannot transform ./PMC7728948/fulltext.xml) ./PMC7728948/fulltext.xml
+09:19:13.071 ERROR org.contentmine.norma.NormaTransformer - BAD TRANSFORM (cannot transform ./PMC8233013/fulltext.xml) ./PMC8233013/fulltext.xml
+09:19:13.188 ERROR org.contentmine.norma.NormaTransformer - BAD TRANSFORM (cannot transform ./PMC8443210/fulltext.xml) ./PMC8443210/fulltext.xml
+09:19:13.412 ERROR org.contentmine.norma.NormaTransformer - BAD TRANSFORM (cannot transform ./PMC8842823/fulltext.xml) ./PMC8842823/fulltext.xml
+09:19:13.496 ERROR org.contentmine.norma.NormaTransformer - BAD TRANSFORM (cannot transform ./PMC8936179/fulltext.xml) ./PMC8936179/fulltext.xml
+09:19:13.611 ERROR org.contentmine.norma.NormaTransformer - BAD TRANSFORM (cannot transform ./PMC9302881/fulltext.xml) ./PMC9302881/fulltext.xml
+09:19:13.693 ERROR org.contentmine.norma.NormaTransformer - BAD TRANSFORM (cannot transform ./PMC9391311/fulltext.xml) ./PMC9391311/fulltext.xml
