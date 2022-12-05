@@ -1,0 +1,60 @@
+<dictionary title="abb_chapter17">
+  <entry name="IAMs" term="integrated assessment models">
+    <raw wikidataID="Q115154814, Q57011922, Q59759892, Q58837476, Q115197874"/>
+  </entry>
+  <entry name="NGOs" term="non-governmental organizations">
+    <raw wikidataID="Q58296295, Q7048923, Q29518039, Q66185556, Q64407586"/>
+  </entry>
+  <entry name="IPCC" term="Intergovernmental  Process  on  Climate  Change" wikidataID=""/>
+  <entry name="FAR" term="First Assessment Report" wikidataID=""/>
+  <entry name="SAR" term="Second Assessment Report" wikidataID=""/>
+  <entry name="NDCs" term="nationally  determined contributions" wikidataID=""/>
+  <entry name="VNRs" term="Voluntary National Reviews" wikidataID=""/>
+  <entry name="HLPF" term="High-Level Political Forum" wikidataID="Q17078095"/>
+  <entry name="ESG" term="environmental, social and governance" wikidataID="Q3817465"/>
+  <entry name="TCFD" term="Task Force on Climate-Related Financial Disclosures" wikidataID="Q107694317"/>
+  <entry name="VNRs" term="voluntary national reviews" wikidataID=""/>
+  <entry name="GFCA" term="Global Framework for Climate Action" wikidataID=""/>
+  <entry name="SDGs" term="sustainable development goals">
+    <raw wikidataID="Q7649586, Q22547988, Q30252260, Q104759743, Q111643133, Q109354788, Q104858255"/>
+  </entry>
+  <entry name="NDCs" term="national determined contributions" wikidataID=""/>
+  <entry name="IAMs" term="integrated assessment models">
+    <raw wikidataID="Q115154814, Q57011922, Q59759892, Q58837476, Q115197874"/>
+  </entry>
+  <entry name="LED" term="low-energy demand" wikidataID=""/>
+  <entry name="IoT" term="internet of things">
+    <raw wikidataID="Q251212, Q96708225, Q96325266, Q110262629, Q59408925, Q106035699, Q96708229"/>
+  </entry>
+  <entry name="SDS" term="Sustainable Development Scenario" wikidataID=""/>
+  <entry name="STEPS" term="Stated Policies Scenario" wikidataID=""/>
+  <entry name="CDR" term="carbon dioxide removal">
+    <raw wikidataID="Q30314404, Q56298528, Q59296188, Q58824392"/>
+  </entry>
+  <entry name="TWI" term="The World in 2050 Initiative" wikidataID=""/>
+  <entry name="CCUS" term="carbon capture, utilisation and storage" wikidataID=""/>
+  <entry name="CF" term="carbon footprint">
+    <raw wikidataID="Q310667, Q106979291, Q112883733, Q106979290, Q106979288, Q106979292, Q106979289"/>
+  </entry>
+  <entry name="CCS" term="carbon capture and storage">
+    <raw wikidataID="Q41491, Q5037942, Q5037941, Q30687799"/>
+  </entry>
+  <entry name="CDR" term="carbon dioxide removal">
+    <raw wikidataID="Q30314404, Q56298528, Q59296188, Q58824392"/>
+  </entry>
+  <entry name="WRAP" term="Waste and Resources Action Programme" wikidataID=""/>
+  <entry name="APEC" term="Asia Pacific Economic Cooperation">
+    <raw wikidataID="Q170481, Q59640124, Q59638517, Q6327716"/>
+  </entry>
+  <entry name="GHG" term="greenhouse gas">
+    <raw wikidataID="Q167336, Q3588927, Q112192791, Q925312, Q57584895, Q110612403, Q111461869"/>
+  </entry>
+  <entry name="CCUS" term="carbon capture, use and storage" wikidataID=""/>
+  <entry name="CSR" term="cooperate  social  responsibility" wikidataID=""/>
+  <entry name="NUA" term="New Urban Agenda" wikidataID=""/>
+  <entry name="NUPs" term="national  urban  policies" wikidataID=""/>
+  <entry name="SLRs" term="sea level rises" wikidataID=""/>
+  <entry name="ESD" term="education for  sustainable  development" wikidataID=""/>
+  <entry name="BRT" term="bus  rapid  transit" wikidataID=""/>
+  <entry name="WSUD" term="Water  Sensitive  Urban  Design" wikidataID=""/>
+</dictionary>
