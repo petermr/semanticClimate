@@ -29,7 +29,7 @@ if __name__ == "__main__":
                       help='path of the folder where you want to save the files : /...'
                       )
     parser.add_argument('--Chapter_name',
-                      required=True,  choices=['Chapter02', 'Chapter08', 'Chapter04', 'Chapter07', 'Chapter15', 'Chapter16', 'Chapter01'],
+                      required=True,  choices=['Chapter02', 'Chapter08', 'Chapter04', 'Chapter07', 'Chapter15', 'Chapter16', 'Chapter01', 'Chapter17'],
                       help='which chapter you are interested in /...')
     
 
