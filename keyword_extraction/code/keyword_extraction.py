@@ -67,6 +67,7 @@ class keyword_extraction():
       df['POS']= df['keyword/phrase'].apply(lambda x: tagger(x))
       df['Lemma']= df['keyword/phrase'].apply(lambda x: lemma(x))
       df= df[df['keyword/phrase'] == df['Lemma'] ]
+      df = df.drop_duplicates(subset=['score'], keep='last')
       df= df[df.POS.isin(['NOUN', 'PROPN', 'ADJ', 'ADV'])]
       df= df[~df['keyword/phrase'].apply(lambda x: lemma(x)).isin(['http','https', 'publication','Chapter'])]
       df = df.drop(columns = ['Lemma'], axis = 0)
