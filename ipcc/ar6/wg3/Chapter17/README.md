@@ -26,7 +26,7 @@ The goal is to extract useful information from the IPCC documents so that crisp 
 
 * [PDF](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter17/fulltext.pdf)
 * [HTML file](https://htmlpreview.github.io/?https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter17/fulltext.html)
-* [Annotated_fulltext.html](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter17/annotated_fulltext_Chapter17.html)
+* [Annotated fulltext](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter17/annotated_fulltext_Chapter17.html)
 # Dictionary
 * [Abbreviation (XML)](dict/ip_3_17_SD_abb.xml)
 * [Manual (XML)](dict/ip_3_17_SD_man.xml)
