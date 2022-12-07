@@ -1,4 +1,4 @@
-<h4 style= "color: red"> Collaborator: PC </h4>
+<h4 style= "color: red"> Collaborator: Priti Chahal </h4>
 
 <h4> What is semanticClimate? </h4>
 In semanticClimate, we are attempting the conversion of IPCC documents into semantic form. 
