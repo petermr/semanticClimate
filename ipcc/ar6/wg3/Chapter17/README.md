@@ -17,9 +17,9 @@ The goal is to extract useful information from the IPCC documents so that crisp 
 
 <h4> Work flow </h4> 
 
-<ul>Pdf to text (Pdf plumber in Python using tool developed by PMR) </ul> 
-<ul>Text to html to XML (Python) </ul>
-<ul> Docanalysis (Unsupervised named entity recognition) </ul>
+<ul>Pdf to html (Pdf plumber in Python using tool developed by PMR) </ul> 
+<ul>Docanalysis (Unsupervised named entity recognition) </ul>
+<ul>annotated_html (py4ami) </ul>
 </div>
 
 # Text
