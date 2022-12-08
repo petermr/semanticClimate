@@ -94,3 +94,61 @@ Hypermedia
 content of system hypergraph
 
 * WIKIDATA 
+
+
+## MONDAY 2022-12-05 0900 UTC 1430 IST
+* dictionaries
+* py4ami pdf2html is beig refactored 
+* @Karthikeyan V and @Parasu Nagesh Sunag
+* review of proposal
+* flow HTML for Chapters. 
+@Peter Murray-Rust
+early thoughts about January hackathon 
+@Shweata Hegde
+### Meeting 
+* Doing central program 
+* Dict. most important to show to the world 
+#### putting proposal to UNDP
+* Grants putting can be sensitive
+* wikimedia grants can be sensitive
+
+#### We are looking forward for contact here for large organisation
+
+* AXEL: 
+1) how to get funding from wikimedia 
+* we got funded by wikimedia thrice
+
+#### our Dict. are ontology 
+- structured terminology, links
+
+#### summerisation
+summerise chapter
+* GPT3: open access is available
+
+* Automated Dict. observation
+* False negative
+* true positive 
+
+## Tuesday 2022-12-06 0900UTC 1430IST 
+* No dictionary" is NOT acceptable. We need 3 dictionaries for each chapter. There must be no obvious false positives (e.g. not "total pages") - that may need manual * * filtering
+* abbreviations
+* words/phrases (docanalysis)
+* manual
+* For each dictionary, In order of value. Do as much as you can
+* a list of words/phrases
+* a valid XML file wth <entry>
+* wikidata IDs with ambiguities
+* wikidata IDs resolved, with description
+
+ ### Word-cloud 
+ prototype software
+ 
+* software issue dicussion
+ 
+#### DICT Classification 
+* chapter specification
+* climate specific
+* More general
+ 
+ - link to wikidataID
+ 
