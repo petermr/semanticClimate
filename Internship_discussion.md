@@ -30,8 +30,7 @@ Presentation to UN, GITA Talk
 * yesterday was political meeting 
 * Giving messege is important.
 
-* SHOULD HAVE-
- CHECK LIST:
+ 
 need to be present
 
 * Grants:
@@ -48,7 +47,7 @@ need to be present
 * @GY would like to join us on Fridays. We have provisionally found that 0900 UTC is a good time for new intake. My suggestion was that we make this regular but ALSO have a less frequent meeting at 1230 UTC that @Manny and @GY
 
  
-### Meeting:
+### Meeting Discussions:
 * Gita mailed others
 
 * Peter collegues applied for fellowship. Hypothetical apply for fellowship
@@ -81,7 +80,7 @@ because lack of contacts
 Political meeting
 Focus on grants 
 Work on grants
-go back to nic
+go back to Nick Shockey 
  
 #### software respond 
 2 days to install py4ami
@@ -98,13 +97,12 @@ content of system hypergraph
 
 ## MONDAY 2022-12-05 0900 UTC 1430 IST
 * dictionaries
-* py4ami pdf2html is beig refactored 
+* py4ami pdf2html is being refactored 
 * @Karthikeyan V and @Parasu Nagesh Sunag
 * review of proposal
 * flow HTML for Chapters. 
 @Peter Murray-Rust
-early thoughts about January hackathon 
-@Shweata Hegde
+early thoughts about January hackathon @Shweata Hegde
 ### Meeting 
 * Doing central program 
 * Dict. most important to show to the world 
