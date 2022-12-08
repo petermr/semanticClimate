@@ -41,3 +41,56 @@ need to be present
 * Intraction with public
 
 * next Hackathon for wikimedian
+ 
+ 
+ 
+## FRIDAY 2022-12-02 0900UTC 1430 IST and/or 1230 UTC 1800 IST
+* @GY would like to join us on Fridays. We have provisionally found that 0900 UTC is a good time for new intake. My suggestion was that we make this regular but ALSO have a less frequent meeting at 1230 UTC that @Manny and @GY
+
+ 
+### Meeting:
+* Gita mailed others
+
+* Peter collegues applied for fellowship. Hypothetical apply for fellowship
+
+* FELLOWSHIPS
+
+#### upscaling #semanticClimate
+
+* clear vision
+* few minutes-
+* Where we end, 
+* we need to something,
+
+### Central dictionary 
+
+WE need IPCC onboarding 
+
+#### Independent website Karthik. Karthik- what`s happening on website
+
+* Next Technical Hackathon: In Janurary  
+
+##### Grants for dict.
+
+* UNDP head of india. very successful meeting will SPARC
+
+Issue: UNlibrary did`t target us 
+because lack of contacts 
+
+#### What can we add to this 
+Political meeting
+Focus on grants 
+Work on grants
+go back to nic
+ 
+#### software respond 
+2 days to install py4ami
+*  virtual env.
+Hosting vml file
+ 
+Angram: Yake, Rake
+
+Hypermedia 
+content of system hypergraph
+
+* WIKIDATA 
