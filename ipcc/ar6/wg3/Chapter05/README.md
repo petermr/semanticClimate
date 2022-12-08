@@ -1,7 +1,5 @@
 # Chapter05 : Demand, services and social aspects of mitigation
 
-# Chapter Summary
-*
 
 # Executive Summary
 * Assessment of the social science literature and regional case studies reveals how social norms, culture, and individual choices, interact with infrastructure and other structural changes over time. This provides new insight into climate change mitigation strategies, and how economic and social activity might be organised across sectors to support emission reductions. To enhance well-being, people demand services and not primary energy and physical resources per se. Focusing on demand for services and the different social and political roles people play broadens the participation in climate action.
