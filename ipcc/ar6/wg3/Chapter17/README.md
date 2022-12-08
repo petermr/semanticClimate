@@ -26,8 +26,6 @@ The goal is to extract useful information from the IPCC documents so that crisp 
 ## Introduction
 * [Introduction](https://htmlpreview.github.io/?https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter17/Introduction.html)
 
-## Knowledge Gaps
-*
 
 ## Work flow  
 
