@@ -27,7 +27,7 @@ Presentation to UN, GITA Talk
 * Brand semanticClimate works
 * We have produced new slides Peter, Gita, Manny
 * yesterday was political meeting 
-* Giving messege is important.
+* Giving message is important.
 
 * Grants: 
 
