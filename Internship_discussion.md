@@ -1,13 +1,13 @@
 ## Meeting: 2022-12-01
 - Agenda
 ### THURSDAY 1800 IST 1230 UTC 2022-12-01
-* debrief on UN presentation.
+* debrief on UN presentation
 * what worked
 * what didn't work
 * what impact we had
 * cleaning up (making sure we have all the material documented and archived
 * protocol for next time
-* daily/weekly timetable 
+* daily/weekly timetable
 * chapters web pages (need to be able to display each chapter instantly to the world)
 * contents 
 - title,
@@ -17,7 +17,7 @@
 - faqs,
 - knowledge gaps
 - editor comments
-- MD files for hyperbook
+- .md files for hyperbook
 - use of github/discussions to keep notes
 - our working practices are part of our output! They must be a showcase
 
@@ -31,13 +31,11 @@ Presentation to UN, GITA Talk
 
 * Grants: 
 
-* How we can manage we will get fund from that
+* How we can manage, so that we can get fund from that
 
 * Intraction with public
 
-* next Hackathon for wikimedian
- 
- 
+* Next Hackathon for wikimedian
  
 ## FRIDAY 2022-12-02 0900UTC 1430 IST and/or 1230 UTC 1800 IST
 
@@ -62,8 +60,7 @@ because lack of contacts
 Political meeting
 Focus on grants 
 Work on grants
-go back to Nick Shockey 
- 
+
 #### software respond 
 2 days to install py4ami
 *  virtual env.
@@ -71,7 +68,8 @@ Hosting vml file
  
 Angram: Yake, Rake
 
-Hypermedia 
+Hypermedia
+
 content of system hypergraph
 
 * WIKIDATA 
@@ -85,24 +83,24 @@ content of system hypergraph
 
 * review of proposal
 
-* flow HTML for Chapters. 
+* Flow HTML for Chapters 
 
-### Meeting 
+### Meeting Discussion
 * Doing central program 
 * Dict. most important to show to the world 
 
 #### putting proposal to UNDP
 * Grants putting can be sensitive
-* wikimedia grants can be sensitive
+* Wikimedia grants can be sensitive
 
 #### We are looking forward for contact here for large organisation
 
 * AXEL: 
-* how to get funding from wikimedia 
+* How to get funding from wikimedia 
 * we got funded by wikimedia thrice
 
 #### our Dict. are ontology 
-- structured terminology, links
+- Structured terminology, links
 
 #### summerisation
 summerise chapter
@@ -113,42 +111,42 @@ summerise chapter
 * true positive 
 
 ## Tuesday 2022-12-06 0900UTC 1430IST 
-* No dictionary" is NOT acceptable. We need 3 dictionaries for each chapter. There must be no obvious false positives (e.g. not "total pages") - that may need manual * * filtering
-* abbreviations
-* words/phrases (docanalysis)
-* manual
+* We need 3 dictionaries for each chapter. There must be no obvious false positives (e.g. not "total pages") - that may need manual filtering
+* Abbreviations
+* Keywords/phrases (docanalysis)
+* Manual
 * For each dictionary, In order of value. Do as much as you can
-* a list of words/phrases
-* a valid XML file wth <entry>
-* wikidata IDs with ambiguities
-* wikidata IDs resolved, with description
+* A list of words/phrases
+* A valid XML file wth <entry>
+* Wikidata IDs with ambiguities
+* Wikidata IDs resolved, with description
 
- ### Word-cloud creation
+### Word-cloud creation
  
- ### prototype software
+### prototype software
  
 * software issue dicussion
  
 #### DICT Classification 
-* chapter specification
-* climate specific
+* Chapter specification
+* Climate specific
 * More general
  
- - link to wikidataID
+- link to wikidataID
  
 ## WEDNESDAY 2022-12-07 0900 UTC 1430 IST.
-* review of DID/WILL/BLOCK 
+* Review of DID/WILL/BLOCK 
 
-* review of dictionaries 
-- @Karthikeyan V
-- @Parasu Nagesh Sunag
-- @Mandeep
-- @Priti
+* Review of dictionaries 
+- @Karthikeyan V: chapter05
+- @Parasu Nagesh Sunag: chapter03
+- @Mandeep: chapter06
+- @Priti: chapter17
 * Use table with numbers and traffic lights. light green means can-be-displayed. Should contain:
 - abbreviations
 - manual
 - word/phrases
-* explanation o chapters
+* explanation of chapters
 * dictionaries
 * ExecSummary
 * FAQs
@@ -159,3 +157,30 @@ summerise chapter
 * presentations for Southern Univ Denmark 
 * review of materials (mainly those above)
  
+## WEDNESDAY 2022-12-07 0900 UTC 1430 IST.
+ 
+* explanation of chapters()
+* dictionaries
+* ExecSummary
+* FAQs
+* Intro
+* knowledge gaps
+* list of images if possible
+* Jupyter notebook
+* presentations for Southern Univ Denmark 
+* review of materials (mainly those above)
+ 
+## WEDNESDAY 2022-12-07 0900 UTC 1430 IST.
+ 
+* explanation of chapters(manual summary that can be understandable by high school student)
+* dictionaries
+  - Manual Dict(created by Chapter owner)
+  - Abbrevation Dict(created by Docanalysis using specific library spacy)
+  - Keyword and phrases(created by gensim)
+* ExecSummary(Just copy paste from chapter)
+* FAQs(Just copy paste from chapter)
+* Intro(Just copy paste from chapter)
+* knowledge gaps(Just copy paste from chapter)
+* Jupyter notebook
+* presentations for Southern Univ Denmark 
+* review of materials (mainly those above)
