@@ -5,7 +5,6 @@
 * what worked
 * what didn't work
 * what impact we had
-* follow ups
 * cleaning up (making sure we have all the material documented and archived
 * protocol for next time
 * daily/weekly timetable 
@@ -30,10 +29,7 @@ Presentation to UN, GITA Talk
 * yesterday was political meeting 
 * Giving messege is important.
 
- 
-need to be present
-
-* Grants:
+* Grants: 
 
 * How we can manage we will get fund from that
 
@@ -44,28 +40,14 @@ need to be present
  
  
 ## FRIDAY 2022-12-02 0900UTC 1430 IST and/or 1230 UTC 1800 IST
-* @GY would like to join us on Fridays. We have provisionally found that 0900 UTC is a good time for new intake. My suggestion was that we make this regular but ALSO have a less frequent meeting at 1230 UTC that @Manny and @GY
 
- 
-### Meeting Discussions:
-* Gita mailed others
-
-* Peter collegues applied for fellowship. Hypothetical apply for fellowship
-
-* FELLOWSHIPS
-
-#### upscaling #semanticClimate
-
-* clear vision
-* few minutes-
-* Where we end, 
-* we need to something,
+* @GY would like to join us on Fridays. We have provisionally found that 0900 UTC is a good time for new intake.
 
 ### Central dictionary 
 
 WE need IPCC onboarding 
 
-#### Independent website Karthik. Karthik- what`s happening on website
+#### Independent website @Karthik. Karthik- what`s happening on website
 
 * Next Technical Hackathon: In Janurary  
 
@@ -96,16 +78,19 @@ content of system hypergraph
 
 
 ## MONDAY 2022-12-05 0900 UTC 1430 IST
+
 * dictionaries
+
 * py4ami pdf2html is being refactored 
-* @Karthikeyan V and @Parasu Nagesh Sunag
+
 * review of proposal
+
 * flow HTML for Chapters. 
-@Peter Murray-Rust
-early thoughts about January hackathon @Shweata Hegde
+
 ### Meeting 
 * Doing central program 
 * Dict. most important to show to the world 
+
 #### putting proposal to UNDP
 * Grants putting can be sensitive
 * wikimedia grants can be sensitive
@@ -113,7 +98,7 @@ early thoughts about January hackathon @Shweata Hegde
 #### We are looking forward for contact here for large organisation
 
 * AXEL: 
-1) how to get funding from wikimedia 
+* how to get funding from wikimedia 
 * we got funded by wikimedia thrice
 
 #### our Dict. are ontology 
@@ -138,8 +123,9 @@ summerise chapter
 * wikidata IDs with ambiguities
 * wikidata IDs resolved, with description
 
- ### Word-cloud 
- prototype software
+ ### Word-cloud creation
+ 
+ ### prototype software
  
 * software issue dicussion
  
@@ -149,4 +135,27 @@ summerise chapter
 * More general
  
  - link to wikidataID
+ 
+## WEDNESDAY 2022-12-07 0900 UTC 1430 IST.
+* review of DID/WILL/BLOCK 
+
+* review of dictionaries 
+- @Karthikeyan V
+- @Parasu Nagesh Sunag
+- @Mandeep
+- @Priti
+* Use table with numbers and traffic lights. light green means can-be-displayed. Should contain:
+- abbreviations
+- manual
+- word/phrases
+* explanation o chapters
+* dictionaries
+* ExecSummary
+* FAQs
+* Intro
+* knowledge gaps
+* list of images if possible
+* Jupyter notebook
+* presentations for Southern Univ Denmark 
+* review of materials (mainly those above)
  
