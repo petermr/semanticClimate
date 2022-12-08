@@ -12,13 +12,13 @@ The goal is to extract useful information from the IPCC documents so that crisp 
 
 ## What is chapter 17 about?  
 
-* Title: </b>Accelerating the transition in the context of sustainable development. 
+* Title: **Accelerating the transition in the context of sustainable development**. 
 
 ## Table of contents
 * [table of content](https://htmlpreview.github.io/?https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter17/table_of_contents.html)
 
 ## Executive Summary
-*
+* [Executive Summary](https://htmlpreview.github.io/?https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter17/Executive_summary.html)
 
 ## Chapter FAQs
 * [Frequently asked questions](https://htmlpreview.github.io/?https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter17/frequently_asked_questions_(faqs).html)
@@ -26,8 +26,6 @@ The goal is to extract useful information from the IPCC documents so that crisp 
 ## Introduction
 * [Introduction](https://htmlpreview.github.io/?https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter17/Introduction.html)
 
-## Knowledge Gaps
-*
 
 ## Work flow  
 
