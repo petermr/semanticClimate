@@ -1,4 +1,4 @@
-## Meeting: 2022-12-01
+## Meeting: Daily meeting
 - Agenda
 ### THURSDAY 1800 IST 1230 UTC 2022-12-01
 * debrief on UN presentation
