@@ -128,7 +128,7 @@ summerise chapter
 * software issue dicussion
  
 #### DICT Classification 
-* Chapter specification
+* Chapter specific
 * Climate specific
 * More general
  
