@@ -184,3 +184,31 @@ summerise chapter
 * Jupyter notebook
 * presentations for Southern Univ Denmark 
 * review of materials (mainly those above)
+
+ ## FRIDAY 2022-12-09 0900 UTC 1430 IST.
+ **DENMARK VISIT:**
+@GY, @Axel Dürkop, @Simon Worthington, @Shweata Hegde
+Discussed this visit in depth.  The 4 current team below will create a series of presentations. 
+@Peter Murray-Rust will coordinate these . Details may change
+*Introduction to IPCC chapters 
+@Priti ca 3 minutes
+review by Chapter Owners 
+@Mandeep (Chapter06)
+ 
+@Parasu Nagesh Sunag(Chapter03)
+ 
+@Karthikeyan V(Chapter05)
+ca 2 mins: personal summary of chapter 30 secs
+demo of IPCC component (ONE of FAQ, ExecSummary, Knowledge gaps, etc>)
+review of ONE dictionary (from Abbreviation, Manual, NLP/ML)
+We will rehearse these tomorrow at 0900 UTC. 
+@Priti
+ please coordinate who does which component and who does which dictionary
+Date 12th Dec time 14:15 - 15:00 Central European Time
+@Peter will add more details in #dictionaries and #outreach
+
+ 
+ 
+ 
+ 
+ 
