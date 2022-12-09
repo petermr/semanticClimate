@@ -5,9 +5,6 @@ Types of Dictionary
 
 1) Manual dictionary: Manually created by the chapter champions from chapter reading having most of the terms that is important for chapter and difficult to understand.
 It's in .XML format
-## Contents: 
-<dictionary title="" version="">
-<desc> </desc>
-<entry term=""  wikipage="" wikidataID="" desc=""/>
+## Contents: <dictionary title="" version=""> <desc> </desc> <entry term=""  wikipage="" wikidataID="" desc=""/>
   
 2)Automated dictionary: Automated created by docanalysis using spacy.  
