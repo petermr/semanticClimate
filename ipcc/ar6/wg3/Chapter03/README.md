@@ -33,4 +33,4 @@ The goal is to extract useful information from the IPCC documents so that  relev
 ## Dictionaries
 * [Abbreviations (XML)](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter03/abb_chapter03.xml)
 * [Manual (XML)](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter03/manual_dict_chapter03.xml)
-* [Keywords/Phrases (CSV)](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter03/
+* [Keywords/Phrases (CSV)](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter03/gensim_keywords.csv)
