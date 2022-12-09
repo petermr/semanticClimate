@@ -15,16 +15,13 @@ The goal is to extract useful information from the IPCC documents so that  relev
 * Title: </b>Mitigation Pathways Compatible with Long-Term Goals. 
 
 ## Table of contents
-* [table of content](https://htmlpreview.github.io/?https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter17/table_of_contents.html)
+* [table of content](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter03/table_of_contents.md)
 
 ## Executive Summary
 *
 
 ## Chapter FAQs
-* [Frequently asked questions](https://htmlpreview.github.io/?https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter17/frequently_asked_questions_(faqs).html)
+* [Frequently asked questions]
 
 ## Introduction
-* [Introduction](https://htmlpreview.github.io/?https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter17/Introduction.html)
-
-## Knowledge Gaps
-*
+* [Introduction]
