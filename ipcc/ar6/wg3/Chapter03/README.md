@@ -24,7 +24,8 @@ The goal is to extract useful information from the IPCC documents so that  relev
 * [Executive Summary](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter03/CompExecSumm.md)
 
 ## Chapter FAQs
-* [Frequently asked questions]
+* [Frequently asked questions](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter03/FAQs.md)
+
 
 ## Summary for a student in high school
 * [Summary for a student in high school](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter03/SummForHSstudent.md)
