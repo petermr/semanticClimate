@@ -35,7 +35,7 @@ The goal is to extract useful information from the IPCC documents so that  relev
 
 * [Full Text PDF](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter08/fulltext.pdf)
 * [Full Text HTML ](https://htmlpreview.github.io/?https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter08/fulltext.html)
-* [Annotated Full Text HTML]()  
+* [Annotated Full Text HTML](https://htmlpreview.github.io/?https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter08/annotated_fulltext_Chapter08%20(3).html)  
 
 # Dictionary
 * [Abbreviation (XML)](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter08/dict/ip_3_8_urban_abb.xml)
