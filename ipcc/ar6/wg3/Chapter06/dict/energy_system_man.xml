@@ -1,4 +1,6 @@
-<dictionary title="Energy_system" version="0.0.5" > <desc> manually created by Mandeep 2022-11-19 </desc>
+<dictionary title="Energy_system" version="0.0.5" >
+    <desc>derived from chapter 6 wg3</desc>
+    <desc> manually created by Mandeep 2022-11-19 </desc>
 <entry term="interquartile range" wikidataID="Q1916617"
              wikipediaPage="https://en.wikipedia.org/wiki/Interquartile_range" desc="measure of statistical dispersion"/>
 
@@ -9,7 +11,7 @@
              wikipediaPage="https://en.wikipedia.org/wiki/Sustainable_Development_Goals" desc="set of United Nations-defined global development goals and climate change"/>
     
 <entry term="biofuels" wikidataID="Q128991"
-             wikipediaPage="https://www.wikidata.org/wiki/Q128991" desc="uel that is produced through contemporary biological processes, as opposed to fossil fuel that was produced by prehistoric bio-geological processes"/>
+             wikipediaPage="https://www.wikidata.org/wiki/Q128991" desc="fuel that is produced through contemporary biological processes, as opposed to fossil fuel that was produced by prehistoric bio-geological processes"/>
   
 <entry term="Viability" wikidataID="Q2521689"
              wikipediaPage="https://en.wikipedia.org/wiki/Viability" desc="is the ability of a thing (a living organism, an artificial system, an idea, etc.) to maintain itself or recover its potentialities."/>
@@ -48,7 +50,8 @@
              wikipediaPage="https://en.wikipedia.org/wiki/Transformation" desc="changing of one form to another"/>
   
 <entry term="Greenhouse gas emissions" wikidataID="Q112192791"
-             wikipediaPage="https://en.wikipedia.org/wiki/Greenhouse_gas_emissions" desc="Greenhouse gas emissions from human activities strengthen the greenhouse effect, causing climate change. Most is carbon dioxide from burning fossil fuels: coal, oil, and natural gas"/<entry term="APC" name="and Developing Pacific" wikidataID="" wikipediaPage=""/>
+             wikipediaPage="https://en.wikipedia.org/wiki/Greenhouse_gas_emissions" desc="Greenhouse gas emissions from human activities strengthen the greenhouse effect, causing climate change. Most is carbon dioxide from burning fossil fuels: coal, oil, and natural gas"/>
+<entry term="APC" name="and Developing Pacific" wikidataID="" wikipediaPage=""/>
   
 <entry term="HDI"  name="human development index" wikidataID="Q38994" wikipediaPage="https://en.wikipedia.org/wiki/Human_Development_Index" desc="
                    composite statistic of life expectancy, education, and income indices"/> 
@@ -70,4 +73,59 @@
 
 <entry term="LDV" name="Light delivery vehicle" wikidataID="Q1209878" wikipediaPage="https://en.wikipedia.org/wiki/LDV" desc=""/>
 
+<entry term="Biorefineries" wikidataID="Q864683"
+             wikipediaPage="https://en.wikipedia.org/wiki/Biorefinery" desc="
+refinery that converts biomass to energy and useful byproducts"/>
+<entry term="Seasonal thermal energy storage" wikidataID="Q7441920"
+             wikipediaPage="https://en.wikipedia.org/wiki/Seasonal_thermal_energy_storage" desc="storage of heat or cold for periods of up to several months"/>
+<entry term="solar energy" wikidataID="40015"
+             wikipediaPage="https://en.wikipedia.org/wiki/Solar_energy" desc="
+radiant light and heat from the Sun that is harnessed using a range of technologies"/>
+<entry term="decarbonization" wikidataID="Q838577"
+             wikipediaPage="https://en.wikipedia.org/wiki/Decarburization" desc="the process of decreasing carbon content"/>
+<entry term="bioenergy or biofuel" wikidataID="Q128991"
+             wikipediaPage="https://en.wikipedia.org/wiki/Biofuel" desc="fuel that is produced through contemporary biological processes, as opposed to fossil fuel that was produced by prehistoric bio-geological processes"/>
+<entry term="Urbanization" wikidataID="Q161078"
+             wikipediaPage="https://en.wikipedia.org/wiki/Urbanization" desc="longterm population movements (shift) from rural to urban areas;gradual increase in the proportion of people living in urban areas, and the ways in which each society adapts to the change;process by which towns and cities are formed and become larger"/>
+<entry term="Carbon neutrality" wikidataID="Q1774424"
+             wikipediaPage="https://en.wikipedia.org/wiki/Carbon_neutrality" desc="
+having net zero carbon emissions"/>
+<entry term="biosphere" wikidataID="Q42762"
+             wikipediaPage="https://en.wikipedia.org/wiki/Biosphere" desc="global sum of all ecosystems"/>
+
+<entry term="Carbon capture" wikidataID="Q106983683"
+             wikipediaPage="https://en.wikipedia.org/wiki/Carbon_capture" desc="where the captured carbon dioxide is used"/>
+<entry term="climate change or global warming" wikidataID="Q7942"
+             wikipediaPage="https://en.wikipedia.org/wiki/Climate_change" desc="
+current rise in Earth's average temperature and related large-scale shifts in weather patterns"/>
+<entry term="coal " wikidataID="Q24489"
+             wikipediaPage="https://en.wikipedia.org/wiki/Coal" desc="
+combustible sedimentary rock composed primarily of carbon"/>
+<entry term="coal mining" wikidataID="Q12880211"
+             wikipediaPage="https://en.wikipedia.org/wiki/Coal_mining" desc="process of getting coal out of the ground"/>
+<entry term="deforestation" wikidataID="Q169940"
+             wikipediaPage="https://en.wikipedia.org/wiki/Deforestation" desc="removal of forest and conversion of the land to non-forest use"/>
+<entry term="solid fuel" wikidataID="Q1408429"
+             wikipediaPage="https://en.wikipedia.org/wiki/Solid_fuel" desc="solid material that can be burnt to release energy"/>
+<entry term="electrolysis" wikidataID="Q64403"
+             wikipediaPage="https://en.wikipedia.org/wiki/Electrolysis" desc="technique that uses a direct electric current to drive an otherwise non-spontaneous chemical reaction"/>
+<entry term="diesel" wikidataID="Q1221452"
+             wikipediaPage="https://en.wikipedia.org/wiki/Diesel" desc="any liquid fuel specifically designed for use in a diesel engine"/>
+<entry term="hydroelectricity" wikidataID="Q80638"
+             wikipediaPage="https://en.wikipedia.org/wiki/Hydroelectricity" desc="electricity generated by hydropower"/>
+<entry term="biomass" wikidataID="Q18537"
+             wikipediaPage="https://en.wikipedia.org/wiki/Biomass" desc="
+biological material used as a renewable energy source"/>
+<entry term="nuclear power" wikidataID="Q12739"
+             wikipediaPage="https://en.wikipedia.org/wiki/Nuclear_power" desc="
+power generated from nuclear reactions"/>
+<entry term="Radioactive" wikidataID="Q736057"
+             wikipediaPage="https://en.wikipedia.org/wiki/Radioactive_(disambiguation)" desc=""/>
+<entry term="fuel" wikidataID="Q42501"
+             wikipediaPage="https://en.wikipedia.org/wiki/Fuel" desc="
+any material that stores energy that can later be extracted, in presence of a oxidizer or a catalyser, or under the effect of a tool, but which is not conserved after the reaction"/>
+<entry term="energy development" wikidataID="Q25584060"
+             wikipediaPage="https://en.wikipedia.org/wiki/Energy_development" desc="methods of energy production from various sources"/>
+<entry term="gasoline " wikidataID="Q39558"
+             wikipediaPage="https://en.wikipedia.org/wiki/Gasoline" desc="petroleum-derived liquid used primarily as a fuel"/>
 </dictionary>
