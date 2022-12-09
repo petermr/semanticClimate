@@ -109,7 +109,7 @@
 <entry term="synergies" wikipage="https://en.wikipedia.org/wiki/Synergy" wikidataID="Q540614"
              desc="creation of a whole that is greater than the simple sum of its parts"/>                                                                                                
 <entry term="(PM10)" name="particulate matter" wikipage="https://en.wikipedia.org/wiki/Particulates" 
-               wikidataID="Q498957" desc="microscopic solid or liquid matter suspended in the Earth's atmosphere"/>                                                                                                
+              wikidataID="Q498957" desc="microscopic solid or liquid matter suspended in the Earth's atmosphere"/>                                                                                                
 <entry term="congestion" wikipage="https://en.wikipedia.org/wiki/Congestion" wikidataID="Q419301"
              desc=""/>                                                                                                
 <entry term="Energy poverty" wikipage="https://en.wikipedia.org/wiki/Energy_poverty" wikidataID="Q1341244"
@@ -117,8 +117,8 @@
 <entry term="black carbon" wikipage="https://en.wikipedia.org/wiki/Black_carbon" wikidataID="Q3233590"
              desc="atmospheric soot; component of fine particulate matter"/>                                                                                               
 <entry term="NBS" name="nature-based solutions" wikipage="https://en.wikipedia.org/wiki/Nature-based_solutions" 
-            wikidataID="Q2421934"
-            desc="sustainable management and use of nature for tackling socio-environmental challenges"/>                                                                                              
+             wikidataID="Q2421934"
+             desc="sustainable management and use of nature for tackling socio-environmental challenges"/>                                                                                              
 <entry term="urban forestry" wikipage="https://en.wikipedia.org/wiki/Urban_Forestry" wikidataID="Q822620"
              desc="land use management system in which trees or shrubs are cared or protected for well-being"/>                                                                                                
 <entry term="Urban agriculture" wikipage="https://en.wikipedia.org/wiki/Urban_agriculture" wikidataID="Q1194826"
@@ -145,109 +145,110 @@
 <entry term="zoning" wikipage="https://en.wikipedia.org/wiki/Zoning" wikidataID="Q702232"
              desc="describes the control by authority of the use of land, and of the buildings thereon"/>                                                                                                                                                                                
 <entry term="NGOs" name="non-governmental organization" wikipage="https://en.wikipedia.org/wiki/Non-governmental_organization" 
-             wikidataID="Q79913"  desc="organization independent of any government, usually created to aid those in need"/>                                                                                                  
+             wikidataID="Q79913" 
+             desc="organization independent of any government, usually created to aid those in need"/>                                                                                                  
 <entry term="trajectory" wikipage="https://en.wikipedia.org/wiki/Trajectory" wikidataID="Q193139"
              desc="path of a moving object"/>                                                                                                 
 <entry term="off-grid utilities" wikipage="" wikidataID=""
-             descpage=""/>
+             desc=""/>
 <entry term="vulnerabilities" wikipage="https://en.wikipedia.org/wiki/Vulnerability" wikidataID="Q1178984"
-             descpage="the inability of an entity to withstand the adverse effects of a hostile or uncertain environment"/> 
+             desc="the inability of an entity to withstand the adverse effects of a hostile or uncertain environment"/> 
 <entry term="inertia" wikipage="https://en.wikipedia.org/wiki/Inertia" wikidataID="Q122508"
-             descpage="the tendency of an object to remain in its existing state of motion is called its inertia"/>                                                                                                      
+             desc="the tendency of an object to remain in its existing state of motion is called its inertia"/>                                                                                                      
 <entry term="carbon sequestration" wikipage="https://en.wikipedia.org/wiki/Carbon_sequestration" wikidataID="Q15305550"
-             descpage="process of long-term carbon capture"/>                                                                                                      
+             desc="process of long-term carbon capture"/>                                                                                                      
 <entry term="curtailing" wikipage="https://en.wikipedia.org/wiki/Curtailment_(electricity)" wikidataID="Q18412457"
-             descpage="It is the deliberate reduction in output below what could have been produced in order to
+             desc="It is the deliberate reduction in output below what could have been produced in order to
               balance energy supply and demand or due to transmission constraints."/>                                                                                                      
 <entry term="tipping points" wikipage="https://en.wikipedia.org/wiki/Tipping_point" wikidataID="Q7808931"
-             descpage="thresholds that, when exceeded, can lead to large changes in the state of the system"/>                                                                                                      
+             desc="thresholds that, when exceeded, can lead to large changes in the state of the system"/>                                                                                                      
 <entry term="pandemic" wikipage="https://en.wikipedia.org/wiki/Pandemic" wikidataID="Q12184"
-             descpage="epidemic of infectious disease that has spread across a large region with global health impact"/>                                                                                                      
+             desc="epidemic of infectious disease that has spread across a large region with global health impact"/>                                                                                                      
 <entry term="mortality rates" wikipage="https://en.wikipedia.org/wiki/Mortality_rate" wikidataID="Q58702"
-             descpage="measure of the number of deaths in a population from a given cause, scaled by population, in a set period of time"/>                                                                                                      
+             desc="measure of the number of deaths in a population from a given cause, scaled by population, in a set period of time"/>                                                                                                      
 <entry term="WHO" name="World Health Organization" wikipage="https://en.wikipedia.org/wiki/World_health_organization" wikidataID="Q7817"
-             descpage="specialized agency of the United Nations that is concerned with international public health"/>                                                                                                      
+             desc="specialized agency of the United Nations that is concerned with international public health"/>                                                                                                      
 <entry term="seize" wikipage="https://en.wikipedia.org/wiki/Seize" wikidataID="Q3477956"
-             descpage=""/>                                                                                                      
+             desc=""/>                                                                                                      
 <entry term="pedestrian" wikipage="https://en.wikipedia.org/wiki/Pedestrian" wikidataID="Q221488"
-             descpage="person who travels on foot"/>
+             desc="person who travels on foot"/>
 <entry term="regimes" wikipage="https://en.wikipedia.org/wiki/Regime" wikidataID="Q5589178"
-             descpage="form of government or the set of rules, cultural or social norms, etc.
+             desc="form of government or the set of rules, cultural or social norms, etc.
              that regulate the operation of a government or institution and its interactions with society"/>
 <entry term="IRP" name="International Resource Panel" wikipage="https://en.wikipedia.org/wiki/International_Resource_Panel" wikidataID="Q6052735"
-             descpage="The International Resource Panel is a scientific panel of experts that aims to help nations use natural resources sustainably                     
+             desc="The International Resource Panel is a scientific panel of experts that aims to help nations use natural resources sustainably                     
              without compromising economic growth and human needs"/>                                                                                                       
 <entry term="sharing economy" wikipage="https://en.wikipedia.org/wiki/Sharing_economy" wikidataID="Q2277143"
-             descpage="economic and social systems that enable shared access to goods, services, data and talent"/>                                                                                                      
+             desc="economic and social systems that enable shared access to goods, services, data and talent"/>                                                                                                      
 <entry term="piecemeal" wikipage="https://en.wikipedia.org/wiki/Piecemeal" wikidataID="Q7191373"
-             descpage="denotes something being done piece by piece or one stage at a time"/>                                                                                                       
+             desc="denotes something being done piece by piece or one stage at a time"/>                                                                                                       
 <entry term="SEA" name="strategic environmental assessments" wikipage="https://en.wikipedia.org/wiki/Strategic_Environmental_Assessment" 
-             wikidataID="Q63871" descpage=" (SEA) is a systematic decision support process, aiming to ensure that environmental and possibly 
+             wikidataID="Q63871" desc=" (SEA) is a systematic decision support process, aiming to ensure that environmental and possibly 
              other sustainability aspects are considered effectively in policy, plan and program making."/>      
 <entry term="portfolio" wikipage="https://en.wikipedia.org/wiki/Portfolio" wikidataID="Q79407829"
-             descpage=" Portfolio (finance), a collection of assets held by an institution or a private
+             desc=" Portfolio (finance), a collection of assets held by an institution or a private
              individual Artist's portfolio, a sample of an artist's work or a case used to display artwork, photographs etc."/>                                                                                                       
 <entry term="economic decoupling" wikipage="https://en.wikipedia.org/wiki/Eco-economic_decoupling" wikidataID="Q5333090"
-             descpage="an economy that would grow without increasing its environmental pressure"/>                                                                                                       
+             desc="an economy that would grow without increasing its environmental pressure"/>                                                                                                       
 <entry term="IoT" name="Internet of Things" wikipage="https://en.wikipedia.org/wiki/Internet_of_things" wikidataID="Q251212"
-             descpage="proposed Internet-like structure connecting everyday physical objects"/>                                                                                                       
+             desc="proposed Internet-like structure connecting everyday physical objects"/>                                                                                                       
 <entry term="EV" name="electric vehicle" wikipage="https://en.wikipedia.org/wiki/Electric_vehicle" wikidataID="Q13629441"
-             descpage="vehicle propelled by one or more electric motors"/>                                                                                                       
+             desc="vehicle propelled by one or more electric motors"/>                                                                                                       
 <entry term="repurposing" wikipage="https://en.wikipedia.org/wiki/Repurposing" wikidataID="Q21021151"
-             descpage="using object intended for one purpose in alternative way"/>                                                                                                     
+             desc="using object intended for one purpose in alternative way"/>                                                                                                     
 <entry term="sustainable transport" wikipage="https://en.wikipedia.org/wiki/Sustainable_transport" wikidataID="Q1364310"
-             descpage="broad subject of transport that is sustainable in the senses of social, environmental and climate 
+             desc="broad subject of transport that is sustainable in the senses of social, environmental and climate 
              impacts and the ability to, in the global scope, supply the source energy indefinitely"/>                                                                                                     
 <entry term="suburbs" wikipage="https://en.wikipedia.org/wiki/Suburb" wikidataID="Q188509"
-             descpage="human settlement that is part of/or near to a larger city or town"/>                                                                                                    
+             desc="human settlement that is part of/or near to a larger city or town"/>                                                                                                    
 <entry term="maladaptation" wikipage="https://en.wikipedia.org/wiki/Maladaptation" wikidataID="Q4864574"
-             descpage="a trait that is characterized by being more harmful than helpful"/>                                                                                                                                                                      
+             desc="a trait that is characterized by being more harmful than helpful"/>                                                                                                                                                                      
 <entry term="Multi-level governance" wikipage="https://en.wikipedia.org/wiki/Multi-level_governance" wikidataID="Q1459305"
-             descpage="Multi-level (or multilevel) governance is a term used to describe the way power is spread vertically 
+             desc="Multi-level (or multilevel) governance is a term used to describe the way power is spread vertically 
              between many levels of government and horizontally across multiple quasi-government and non-governmental organizations and actors"/>                                                                                                    
 <entry term="Instigate" wikipage="https://en.wikipedia.org/wiki/Instigate" wikidataID="Q111181123"
-             descpage="To be a 'Joey' or to oust and be rude to someone else"/>
+             desc="To be a 'Joey' or to oust and be rude to someone else"/>
 <entry term="legitimacy" wikipage="https://en.wikipedia.org/wiki/Legitimacy" wikidataID="Q1174835"
-             descpage="to make lawful"/>
+             desc="to make lawful"/>
 <entry term="lobbying" wikipage="https://en.wikipedia.org/wiki/Lobbying" wikidataID="Q187117"
-             descpage="attempting to influence decisions of government officials"/>
+             desc="attempting to influence decisions of government officials"/>
 <entry term="ICIs" name="International Cooperative Initiatives " wikipage="" wikidataID=""
-             descpage=""/> 
+             desc=""/> 
 <entry term="Shanghai" wikipage="https://en.wikipedia.org/wiki/Shanghai" wikidataID="Q8686"
-             descpage="most populous city in China"/>                                                                                             
+             desc="most populous city in China"/>                                                                                             
 <entry term="green electricity" wikipage="" wikidataID=""
-             descpage=""/>
+             desc=""/>
 <entry term="RMB" name="" wikipage="https://en.wikipedia.org/wiki/Renminbi" wikidataID="renminbi"
-             descpage="official currency of the People's Republic of China"/>
+             desc="official currency of the People's Republic of China"/>
 <entry term="subnational" wikipage="https://en.wikipedia.org/wiki/Subnational" wikidataID="Q64737978"
-             descpage="a type of state, under the national level"/>
+             desc="a type of state, under the national level"/>
 <entry term="Coalition" wikipage="https://en.wikipedia.org/wiki/Coalition" wikidataID="Q124964"
-             descpage="group formed of people, factions, states, political parties, militaries,
+             desc="group formed of people, factions, states, political parties, militaries,
              or other parties agree to work together, often temporarily, in a partnership to achieve a common goal"/>
 <entry term="pledge" wikipage="https://en.wikipedia.org/wiki/Pledge" wikidataID="Q7204419"
-             descpage="a type of legal relationship"/>
+             desc="a type of legal relationship"/>
 <entry term="GCoM" name="Global Change Observation Mission" wikipage="https://en.wikipedia.org/wiki/Global_Change_Observation_Mission" wikidataID="Q3108984"
-             descpage="project of long-term observation of Earth environmental changes"/>
+             desc="project of long-term observation of Earth environmental changes"/>
 <entry term="ICLEI" name="International Council for Local Environmental Initiatives" wikipage="https://en.wikipedia.org/wiki/ICLEI" wikidataID="Q677691"
-             descpage="international organization"/>
+             desc="international organization"/>
 <entry term="financialisation" wikipage="https://en.wikipedia.org/wiki/Financialization" wikidataID="Q607865"
-             descpage="use and increased use of finance and financial instruments at the expense of production processes"/>
+             desc="use and increased use of finance and financial instruments at the expense of production processes"/>
 <entry term="Barcelona’s" wikipage="https://en.wikipedia.org/wiki/Barcelona" wikidataID="Q1492"
-             descpage="city in Catalonia, Spain"/>
+             desc="city in Catalonia, Spain"/>
 <entry term="procurement" wikipage="https://en.wikipedia.org/wiki/Procurement" wikidataID="Q829492"
-             descpage="acquisition of goods and services"/>
+             desc="acquisition of goods and services"/>
 <entry term="peer-to-peer" wikipage="https://en.wikipedia.org/wiki/Peer-to-peer" wikidataID="Q161410"
-             descpage="type of decentralized and distributed network architecture"/>
+             desc="type of decentralized and distributed network architecture"/>
 <entry term="calcination" wikipage="https://en.wikipedia.org/wiki/Calcination" wikidataID="Q849523"
-             descpage="manufacturing process"/>
+             desc="manufacturing process"/>
 <entry term="asphalt" wikipage="https://en.wikipedia.org/wiki/Asphalt" wikidataID="Q202251"
-             descpage="form of petroleum, primarily used in road construction"/>
+             desc="form of petroleum, primarily used in road construction"/>
 <entry term="ore" wikipage="https://en.wikipedia.org/wiki/Ore" wikidataID="Q102798"
-             descpage="rock with valuable metals, minerals and elements"/>
+             desc="rock with valuable metals, minerals and elements"/>
 <entry term="PVs" name="photovoltaics" wikipage="https://en.wikipedia.org/wiki/Photovoltaics" wikidataID="Q192127"
-             descpage="method of converting solar radiation into direct current electricity"/>
+             desc="method of converting solar radiation into direct current electricity"/>
 <entry term="EVs" name="electric vehicle" wikpage="https://en.wikipedia.org/wiki/Electric_vehicle" wikidataID="Q13629441"
-             descpage="vehicle propelled by one or more electric motors"/>
+             desc="vehicle propelled by one or more electric motors"/>
 <entry term="prosumer" wikipage="https://en.wikipedia.org/wiki/Prosumer" wikidataID="Q1145220" 
               desc="person who consumes and produces a product"/>
 <entry term="incentives" wikipage="https://en.wikipedia.org/wiki/Incentive" wikidataID="Q1414816" 
