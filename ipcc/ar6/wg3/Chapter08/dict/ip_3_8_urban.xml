@@ -1,0 +1,40 @@
+<dictionary title="abb_chapter08">
+  <entry name="GHG" term="Greenhouse  Gas" wikidataID=""/>
+  <entry name="UHI" term="urban heat island">
+    <raw wikidataID="Q215712, Q58077471, Q64026033, Q57409870, Q59242271, Q59242261"/>
+  </entry>
+  <entry name="IPCC" term="Intergovernmental Panel on Climate Change">
+    <raw wikidataID="Q171183, Q56670540, Q59664588"/>
+  </entry>
+  <entry name="GHG" term="greenhouse  gas" wikidataID=""/>
+  <entry name="SRCCL" term="Special Report on Climate Change and Land" wikidataID="Q66310618"/>
+  <entry name="IPBES" term="Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services" wikidataID="Q1666088"/>
+  <entry name="NUA" term="New  Urban  Agenda" wikidataID=""/>
+  <entry name="GCoM" term="Global  Covenant  of  Mayors" wikidataID=""/>
+  <entry name="SSP" term="Shared  Socioeconomic Pathway" wikidataID=""/>
+  <entry name="RCP" term="Representative Concentration Pathway">
+    <raw wikidataID="Q7314241, Q58239006"/>
+  </entry>
+  <entry name="LDCs" term="Least-Developed Countries">
+    <raw wikidataID="Q752401, Q177323"/>
+  </entry>
+  <entry name="GDP" term="gross domestic product">
+    <raw wikidataID="Q12638, Q9280950, Q796024, Q5610525, Q19978244"/>
+  </entry>
+  <entry name="UHI" term="urban heat island">
+    <raw wikidataID="Q215712, Q58077471, Q64026033, Q57409870, Q59242271, Q59242261"/>
+  </entry>
+  <entry name="IMPs" term="Illustrative Mitigation Pathways" wikidataID=""/>
+  <entry name="IMP-Ren" term="in the transformation pathways for renewable energy" wikidataID=""/>
+  <entry name="IMPs" term="Illustrative Mitigation Pathways" wikidataID=""/>
+  <entry name="glulam" term="glue-laminated" wikidataID=""/>
+  <entry name="CLT" term="cross-laminated timber" wikidataID="Q911043"/>
+  <entry name="NYC" term="New York City">
+    <raw wikidataID="Q60, Q18710663, Q99673783, Q7013127, Q111668100, Q114518687, Q16998793"/>
+  </entry>
+  <entry name="US" term="United States">
+    <raw wikidataID="Q30, Q4917, Q29468, Q29552, Q8676, Q11220, Q11201"/>
+  </entry>
+  <entry name="ICIs" term="International Cooperative Initiatives" wikidataID=""/>
+  <entry name="UNEP" term="UN Environment Programme&#8217;s" wikidataID=""/>
+</dictionary>
