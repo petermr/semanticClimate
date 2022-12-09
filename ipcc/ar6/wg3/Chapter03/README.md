@@ -35,6 +35,8 @@ The goal is to extract useful information from the IPCC documents so that  relev
 * [Manual (XML)](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter03/manual_dict_chapter03.xml)
 * [Keywords/Phrases (CSV)](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter03/gensim_keywords.csv)
 
-##Images
+## Images
 
 ![Alt text](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter03/pic.png "carbon dioxide emission projection")
+
+![Alt text](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter03/pic2.png "temperature projection")
