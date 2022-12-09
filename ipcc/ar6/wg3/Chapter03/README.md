@@ -18,7 +18,7 @@ The goal is to extract useful information from the IPCC documents so that  relev
 * [Introduction](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter03/Introduction.md)
 
 ## Table of contents
-* [Table of Content](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter03/table_of_contents.md)
+* [Table of Contents](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter03/table_of_contents.md)
 
 ## Executive Summary
 * [Executive Summary](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter03/CompExecSumm.md)
