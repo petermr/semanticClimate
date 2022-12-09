@@ -12,7 +12,7 @@ The goal is to extract useful information from the IPCC documents so that  relev
 
 ## What is chapter 03 about?  
 
-* Title: </b>Urban systems and other settlements. 
+* Title: **Urban systems and other settlements.** 
 
 ## Introduction
 * [Introduction](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter08/Introduction.md)
