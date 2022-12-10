@@ -41,3 +41,6 @@ The goal is to extract useful information from the IPCC documents so that  relev
 * [Abbreviation (XML)](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter08/dict/ip_3_8_urban_abb.xml)
 * [Manual (XML)](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter08/dict/ip_3_8_urban_man.xml)
 * [Words/Phrase (csv)](raw/gensim_keywords.csv)
+
+# Image
+![Alt text](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter08/Urban_Green_and_Blue_Infrastructure.png "Urban Green and Blue Infrastructure")
