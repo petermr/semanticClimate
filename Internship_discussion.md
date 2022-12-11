@@ -5,7 +5,7 @@
 * what worked
 * what didn't work
 * what impact we had
-* cleaning up (making sure we have all the material documented and archived
+* cleaning up (making sure we have all the material documented and archived)
 * protocol for next time
 * daily/weekly timetable
 * chapters web pages (need to be able to display each chapter instantly to the world)
@@ -39,13 +39,11 @@ Presentation to UN, GITA Talk
  
 ## FRIDAY 2022-12-02 0900UTC 1430 IST and/or 1230 UTC 1800 IST
 
-* @GY would like to join us on Fridays. We have provisionally found that 0900 UTC is a good time for new intake.
-
 ### Central dictionary 
 
 WE need IPCC onboarding 
 
-#### Independent website @Karthik. Karthik- what`s happening on website
+#### Independent website @Karthik. @Karthik- what`s happening on website
 
 * Next Technical Hackathon: In Janurary  
 
@@ -57,6 +55,7 @@ Issue: UNlibrary did`t target us
 because lack of contacts 
 
 #### What can we add to this 
+
 Political meeting
 Focus on grants 
 Work on grants
