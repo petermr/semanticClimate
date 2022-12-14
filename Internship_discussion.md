@@ -206,15 +206,15 @@ We will rehearse these tomorrow at 0900 UTC.
 Date 12th Dec time 14:15 - 15:00 Central European Time
 @Peter will add more details in #dictionaries and #outreach
 
- # Monday 2022-12-12
+ # Monday 2022-12-12 at 1845IST 
  
 Meeting with Southern university
  
- # Tuesday 2022-12-13
+ # Tuesday 2022-12-13 at 1700IST 1330UTC
  
  Meeting wwith Joe Miller
  
- # Wednesday 2022-12-14
+ ## Wednesday 2022-12-14 at 1800IST
  
 Actions: Work on extraction of images
  Work on chapter readme files
