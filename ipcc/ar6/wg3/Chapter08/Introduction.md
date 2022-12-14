@@ -80,7 +80,5 @@ Burning fossil fuels to generate energy for buildings, transportation, industry,
 ## 8.1.6.2Urban emissions accounting
 Urban GHG emissions accounting can determine critical conceptual and quantitative aspects of urban GHG emissions. The accounting framework chosen can therefore predetermine the emissions responsibility, the mitigation options available, and the level of effort required to correctly account for emissions (Afionis et al. 2017).
 Two main urban carbon accounting advances have occurred since AR5. The first includes efforts to better understand and clarify how the different urban GHG accounting frameworks that have emerged over the past 15 years are inter-related, require different methodological tools, and reflect differing perspectives on emissions responsibility and quantification effort. The second main advance lies in a series of methodological innovations facilitating practical implementation, emissions verification, and scaling-up of the different GHG accounting approaches. This section provides an overview of the most used GHG urban accounting frameworks followed by a review of the advances since AR5.
-Do Not Cite, Quote or Distribute
-8-16
-Total pages: 157
-Page 18
+
+ 
