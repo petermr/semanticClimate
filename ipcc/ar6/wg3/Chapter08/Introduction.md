@@ -26,62 +26,31 @@ The conference identified key research priorities including the need for an over
 This chapter takes an urban systems approach and covers the full range of urban settlements, including towns, cities, and metropolitan areas. By ‘urban system’ (see Figure 8.15), this chapter refers to two related concepts. First, an urban systems approach recognizes that cities do not function in isolation. Rather, cities exhibit strong interdependencies across scales, whether it is within a region, a country, a continent, or worldwide. Cities are embedded in broader ecological, economic, technical, institutional, legal, and governance structures that often constrain their systemic function, which cannot be separated from wider power relations (Bai et al. 2016).
 The notion of a system of cities has been around for nearly 100 years and recognizes that cities are interdependent, in that significant changes in one city, such as economic activities, income, or population, will affect other cities in the system (Christaller 1933; Berry 1964; Marshall 1989). This perspective of an urban system emphasizes the connections between a city and other cities, as well as between a city and its hinterlands (Hall and Hay 1980; Ramaswami et al. 2017b; Xu et al. 2018c). An important point is that growth in one city affects growth in other cities in the global, national or regional system of cities (Gabaix 1999; Scholvin et al. 2019; Knoll 2021).
 Moreover, there is a hierarchy of cities (Taylor 1997; Liu et al. 2014), with very large cities at the top of the hierarchy concentrating political power and financial resources, but of which there are very few. Rather, the urban system is dominated by small- and medium-sized cities and towns. With globalization and increased interconnectedness of financial flows, labour, and supply chains, cities across the world today have long-distance relationships on multiple dimensions but are also connected to their hinterlands for resources.
-The second key component of the urban systems lens identifies the activities and sectors within a city as being inter-connected—that cities are ecosystems (Rees 1997; Grimm et al. 2000; Newman and Jennings 2008; Acuto et al. 2019; Abdullah and Garcia-Chueca 2020; Acuto and Leffel 2021). This urban systems perspective emphasizes linkages and interrelations within cities. The most evident example of this is urban form and infrastructure, which refer to the patterns and spatial arrangements of land use, transportation systems, and urban design. Changes in urban form and infrastructure can simultaneously affect multiple sectors, such as buildings, energy, and transport.
-Do Not Cite, Quote or Distribute
-8-10
-Total pages: 157
-Page 12
-Final Government Distribution
-Chapter 8
-IPCC AR6 WGIII
-consequences in other sectors, other settlements, cities, or other parts of the world, and requires more careful and comprehensive considerations on the broader impacts, including equity and social justice (see Glossary for a comprehensive definition of ‘equity’ in the context of mitigation and adaption). This chapter focuses on cities, city regions, metropolitan regions, megalopitans, mega-urban regions, towns, and other types of urban configurations because they are the primary sources of urban GHG emissions and tend to be where mitigation action can be most impactful.
+The second key component of the urban systems lens identifies the activities and sectors within a city as being inter-connected—that cities are ecosystems (Rees 1997; Grimm et al. 2000; Newman and Jennings 2008; Acuto et al. 2019; Abdullah and Garcia-Chueca 2020; Acuto and Leffel 2021). This urban systems perspective emphasizes linkages and interrelations within cities. The most evident example of this is urban form and infrastructure, which refer to the patterns and spatial arrangements of land use, transportation systems, and urban design. Changes in urban form and infrastructure can simultaneously affect multiple sectors, such as buildings, energy, and transport. consequences in other sectors, other settlements, cities, or other parts of the world, and requires more careful and comprehensive considerations on the broader impacts, including equity and social justice (see Glossary for a comprehensive definition of ‘equity’ in the context of mitigation and adaption). This chapter focuses on cities, city regions, metropolitan regions, megalopitans, mega-urban regions, towns, and other types of urban configurations because they are the primary sources of urban GHG emissions and tend to be where mitigation action can be most impactful.
 There is no internationally agreed upon definition of urban, urban population, or urban area. Countries develop their own definitions of urban, often based on a combination of population size or density, and other criteria including the percentage of population not employed in agriculture, the availability of electricity, piped water, or other infrastructures, and characteristics of the built environment, such as dwellings and built structures. This chapter assesses urban systems, which includes cities and towns. It uses a similar framework as Chapter 6 of AR6 IPCC WGII, referring to cities and urban settlements as ‘concentrated human habitation centres that exist along a continuum’ (Dodman et al. 2022) (for further definitions of ‘urban,’ ‘cities,’ ‘settlements,’ and related terms, see Glossary, and WGII Chapter 6).
+
 ## 8.1.4The urban century
+
 The 21st century will be the urban century, defined by a massive increase in global urban populations and a significant building up of new urban infrastructure stock to accommodate the growing urban population. Six trends in urbanization are especially important in the context of climate change mitigation.
+
 First, the size and relative proportion of the urban population is unprecedented and continues to increase. As of 2018, approximately 55% of the global population lives in urban areas (about 4.3 billion people) (UN DESA 2019). It is predicted that 68% of the world population will live in urban areas by 2050. This will mean adding 2.5 billion people to urban areas between 2018 and 2050, with 90% of this increase taking place in Africa and Asia. There is a strong correlation between the level of urbanization and the level of national income, with considerable variation and complexity in the relationship between the two (UN DESA 2019). In general, countries with levels of urbanization of 75% or greater all have high national incomes, whereas countries with low levels of urbanization under 35% have low national incomes (UN DESA 2019). In general, there is a clear positive correlation between the level of urbanization and income levels (see Figure 8.1, also Box 8.1).
-Do Not Cite, Quote or Distribute
-8-11
-Total pages: 157
-Page 13
-Final Government Distribution
-Chapter 8
-IPCC AR6 WGIII
+
 Figure 8.11 Relationship between urbanization level and Gross National Income
 There is a positive and strong correlation between the urbanization level and gross national income. High income countries have high levels of urbanization, on average 80%. Low-income countries have low levels of urbanization, on average 30%.
 Source: UN DESA 2019, p. 42
 Second, the geographic concentration of the world’s current urban population is in emerging economies, and the majority of future urban population growth will take place in developing countries and Least-Developed Countries (LDCs). About half of the world’s urban population in 2018 lived in just seven countries, and about half of the increase in urban population through 2050 is projected to be concentrated in eight countries (UN DESA 2019) (see Figure 8.2). Of these eight, seven are emerging economies where there will be a need for significant financing to construct housing, roads, and other urban infrastructure to accommodate the growth of the urban population. How these new cities of tomorrow will be designed and constructed will lock-in patterns of urban energy behaviour for decades if not generations (see Section 8.3.4 and 8.4). Thus, it is essential that urban climate change mitigation strategies include solutions appropriate for cities of varying sizes and typologies (see Section 8.6 and Figure 8.21).
-Do Not Cite, Quote or Distribute
-8-12
-Total pages: 157
-Page 14
-Final Government Distribution
-Chapter 8
-IPCC AR6 WGIII
 Figure 8.2 Urban population size in 2018 and increase in the projected urban population.
 In 2018, about half of the world’s urban population lived in seven countries, and about half of the increase in urban population through 2050 is forecasted to concentrate in eight countries.
 Source: UN DESA 2019, p. 44
-Do Not Cite, Quote or Distribute
-8-13
-Total pages: 157
-Page 15
-Final Government Distribution
-Chapter 8
-IPCC AR6 WGIII
+
 Figure 8.3 Population of the world, by area of residence and size class of urban settlement for 2018
 As of 2018, 4.2 billion people or 55% of the world population reside in urban settlements while 45% reside in rural areas. The coloured stacked bars for the urban population represent the total number of inhabitants for a given size class of urban settlements. Megacities of 10 million or more inhabitants have a total of only 529 million inhabitants that corresponded to 12.5% of the urban population. In contrast, about 1.8 billion inhabitants reside in urban settlements with fewer than 300,000 inhabitants that corresponded to 41.5% of the urban population. The pie chart represents the respective shares for 2018, with 42% of the urban population residing in settlements with more than 1 million inhabitants, and 58% of the urban population residing in settlements with fewer than 1 million inhabitants. Almost half of the world’s urban population (48%) live in settlements with fewer than 500,000 inhabitants.
 Source: adapted from UN DESA 2019, p. 56.
 Fourth, another trend is the rise of megacities and extended metropolitan regions. The largest cities around the world are becoming even larger, and there is a growing divergence in economic power between megacities and other large cities (Kourtit et al. 2015; Hoornweg and Pope 2017; Zhao et al. 2017b). Moreover, there is evidence that the largest city in each country has an increasing share of the national population and economy.
-Fifth, population declines have been observed for cities and towns across the world, including in Poland, Republic of Korea, Japan, United States, Germany, and Ukraine. The majority of cities that have experienced population declines are concentrated in Europe. Multiple factors contribute to the decline in cities, including declining industries and the economy, declining fertility, and outmigration to larger cities. Shrinking urban populations could offer retrofitting opportunities (UNEP 2019) and increasing greenspaces (Jarzebski et al. 2021), but the challenges for these cities differ in scope and magnitude from rapidly expanding cities.
-Do Not Cite, Quote or Distribute
-8-14
-Total pages: 157
-Page 16
-Final Government Distribution
-Chapter 8
-IPCC AR6 WGIII
-governance and institutions (Roy 2009; EU 2016; Lamson-Hall et al. 2019). Given its prevalence, it is important for urban climate change mitigation strategies to account for informality, especially in emerging and developing countries (see Section 8.3.2).
+Fifth, population declines have been observed for cities and towns across the world, including in Poland, Republic of Korea, Japan, United States, Germany, and Ukraine. The majority of cities that have experienced population declines are concentrated in Europe. Multiple factors contribute to the decline in cities, including declining industries and the economy, declining fertility, and outmigration to larger cities. Shrinking urban populations could offer retrofitting opportunities (UNEP 2019) and increasing greenspaces (Jarzebski et al. 2021), but the challenges for these cities differ in scope and magnitude from rapidly expanding cities. governance and institutions (Roy 2009; EU 2016; Lamson-Hall et al. 2019). Given its prevalence, it is important for urban climate change mitigation strategies to account for informality, especially in emerging and developing countries (see Section 8.3.2).
 
 ## 8.1.5Urbanization in developing countries
+
 Urbanization in the 21st century will be dominated by population and infrastructure growth in developing countries, and as such it is important to highlight three aspects that are unique and especially relevant for climate change mitigation. First, urbanization will increase in speed and magnitude. Given their significant impact on emissions, mitigation action in Asian cities, especially the large and rapidly growing cities, will have significant implications on global ambitions (see Section 8.3.4).
 Second, a number of cities in developing countries lack institutional, financial and technical capacities to enable local climate change action (Sharifi et al. 2017; Fuhr et al. 2018). While these capacities differ across contexts (Hickmann et al. 2017), several governance challenges are similar across cities (Gouldson et al. 2015). These factors also influence the ability of cities to innovate and effectively implement mitigation action (Nagendra et al. 2018) (see Chapter 17).
 Third, there are sizable economic benefits in developing country cities that can provide an opportunity to enhance political momentum and institutions (Colenbrander et al. 2016). The co-benefits approach (see Section 8.2), which frames climate objectives alongside other development benefits, is increasingly seen as an important concept justifying and driving climate change action in developing countries (Sethi and Puppim de Oliveira 2018).
