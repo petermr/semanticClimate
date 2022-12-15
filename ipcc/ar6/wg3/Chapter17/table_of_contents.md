@@ -11,13 +11,12 @@
        - 17.2.3 Psychology, Individual Beliefs and Social Change .......................................... 14
        - 17.2.5 Conclusions ........................................................................................................... 16
     - 17.3. Assessment of the results of studies where decarbonisation transitions are framed within the context of sustainable development ........ 16
-   
-         - 17.3.1 Introduction ........................................................................................................... 16
-         - 17.3.2 Short-term and long-term transitions ..................................................................... 17
-         - 17.3.3 Cross-sectoral transitions ....................................................................................... 32
+       - 17.3.1 Introduction ........................................................................................................... 16
+        - 17.3.2 Short-term and long-term transitions ..................................................................... 17
+        - 17.3.3 Cross-sectoral transitions ....................................................................................... 32
      - 17.4 Key barriers and enablers of the transition: synthesizing results .............................. 54
          - 17.4.1 Behavioural and lifestyle changes ..................................................................... 55
-        - 17.4.2 Technological and social innovation ................................................................. 57
+         - 17.4.2 Technological and social innovation ................................................................. 57
          - 17.4.3 Financial systems and economic instruments .................................................... 58
          - 17.4.4 Institutional capacities and multi-level governance ........................................... 59
          - 17.4.5 Equity in a just transition ................................................................................... 61
