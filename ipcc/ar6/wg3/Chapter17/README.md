@@ -15,7 +15,7 @@ The goal is to extract useful information from the IPCC documents so that crisp 
 * Title: **Accelerating the transition in the context of sustainable development**. 
 
 ## Table of contents
-* [table of content](https://htmlpreview.github.io/?https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter17/table_of_contents.html)
+* [table of content](https://github.com/petermr/semanticClimate/edit/main/ipcc/ar6/wg3/Chapter17/table_of_contents.md)
 
 ## Executive Summary
 * [Executive Summary](https://htmlpreview.github.io/?https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter17/Executive_summary.html)
