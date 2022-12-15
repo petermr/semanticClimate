@@ -5,16 +5,16 @@
        - 8.1.1 What is new since AR5.................................................................................... 8-8
        - 8.1.2 Preparing for the Special Report on Cities and Climate Change in AR7 ...... 8-10
        - 8.1.3 The scope of the chapter: a focus on urban systems...................................... 8-10
-  * 8.1.4 The urban century .......................................................................................... 8-11
-  * 8.1.5 Urbanization in developing countries............................................................ 8-15
-  * 8.1.6 Urban carbon footprint................................................................................... 8-15
- * 8.2 Co-Benefits and trade-offs of urban mitigation strategies.................................... 8-18
-  * 8.2.1 Sustainable development ............................................................................... 8-18
-  * 8.2.2 Economic development, competitiveness, and equity ................................... 8-23
- * 8.2.3 Coupling mitigation and adaptation............................................................... 8-24
- * Cross-Working Group Box 2: Cities and Climate Change........................................... 8-25
- * 8.3 Urban systems and GHG emissions...................................................................... 8-30
- * 8.3.1 Trends in urban land use and the built environment...................................... 8-30
+       - 8.1.4 The urban century .......................................................................................... 8-11
+       - 8.1.5 Urbanization in developing countries............................................................ 8-15
+       - 8.1.6 Urban carbon footprint................................................................................... 8-15
+  - 8.2 Co-Benefits and trade-offs of urban mitigation strategies.................................... 8-18
+       - 8.2.1 Sustainable development ............................................................................... 8-18
+       - 8.2.2 Economic development, competitiveness, and equity ................................... 8-23
+       - 8.2.3 Coupling mitigation and adaptation............................................................... 8-24
+* Cross-Working Group Box 2: Cities and Climate Change........................................... 8-25
+- 8.3 Urban systems and GHG emissions...................................................................... 8-30
+      - 8.3.1 Trends in urban land use and the built environment...................................... 8-30
  * 8.3.2 Informal urban settlements ............................................................................ 8-35
  * 8.3.3 Trends in urban GHG emissions.................................................................... 8-36
  * 8.3.4 Scenarios of future urbanization and GHG emissions................................... 8-40
