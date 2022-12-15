@@ -1,5 +1,5 @@
 This folder contains the work related to abbreviation extraction, which will then be used for indexing.
-Insdide this folder you will find the keywords extracted by 5 different techniques on Chapter 6 of IPCC.
+Inside this folder you will find the keywords extracted by 5 different techniques on Chapter 6 of IPCC.
 
 PMR HAS CHANGED THE FILENAMES
 
