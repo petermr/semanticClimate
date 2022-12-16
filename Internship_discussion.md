@@ -210,16 +210,16 @@ Date 12th Dec time 14:15 - 15:00 Central European Time
  
 Meeting with Southern university
  
- # TUESDAY 2022-12-13 at 1700IST 1330UTC
+ ## TUESDAY 2022-12-13 at 1700IST 1330UTC
  
  Meeting wwith Joe Miller
  
- # WEDNESDAY 2022-12-14 at 1800IST
+ ## WEDNESDAY 2022-12-14 at 1800IST
  
 Actions: Work on extraction of images
  Work on chapter readme files
  
- # FRIDAY 2022-12-16 at 1430IST 0900 UTC
+ ## FRIDAY 2022-12-16 at 1430IST 0900 UTC
  
  
  
