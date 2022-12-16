@@ -1,14 +1,9 @@
 ## Table of Contents
-
-Chapter 3: Mitigation Pathways Compatible with Long-Term  Goals .............................................................................. 3-1
-
-Executive summary ............................................................................................................................ 3-4
-
-3.1 Introduction ............................................................................................................................ 3-10
-	
-3.1.1 Assessment of mitigation pathways and their compatibility with long-term goals ................................................ 3-10
-	
-3.1.2 Linkages to other Chapters in the Report ...................................................................................... 3-10
+* Chapter 3: Mitigation Pathways Compatible with Long-Term  Goals .............................................................................. 3-1
+* Executive summary ............................................................................................................................ 3-4
+  - 3.1 Introduction ............................................................................................................................ 3-10
+       - 3.1.1 Assessment of mitigation pathways and their compatibility with long-term goals ................................................ 3-10
+       - 3.1.2 Linkages to other Chapters in the Report ...................................................................................... 3-10
 	
 3.1.3 Complementary use of large scenario ensembles and a limited set of Illustrative Mitigation Pathways (IMPs) .................... 3-11
 
