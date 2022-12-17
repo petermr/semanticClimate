@@ -2,16 +2,16 @@
 
 
 
-* [Executive Summary](sections/execsummary.md)
+* [Executive Summary](execsummary.md)
 
 
-* [Chapter FAQs](sections/FAQ.md)
+* [Chapter FAQs](FAQ.md)
 
 
-* [Introduction](sections/intro.md)
+* [Introduction](intro.md)
 
 
-* [Knowlegde Gaps](sections/knowledge_gaps.md)
+* [Knowlegde Gaps](knowledge_gaps.md)
 
 # Dictionary
 * [Abbreviation (XML)](dict/ip_3_5_abb.xml)
