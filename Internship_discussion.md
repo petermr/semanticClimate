@@ -220,8 +220,28 @@ Actions: Work on extraction of images
  Work on chapter readme files
  
  ## FRIDAY 2022-12-16 at 1430IST 0900 UTC
- 
- 
+* Intern ROADMAP
+*  high-level tasks (documents and software)
+ - 3 per-chapter dictionaries (manual, abb,  keyphrase NLPconsistent nomenclature
+    validation
+    reference material (non-Wikidata)
+    entry-status (e.g. NYI)
+    review of NLP methods
+- merge common terms between chapters
+- chapter snippets
+- exec summary
+- introduction
+- other sections
+- FAQ
+- knowledge gaps
+- ToC
+- captions
+- images (numbered by IPCC)
+- tables
+- explore hypermedia systems
+- obsidian
+- markup HTML chapters with dictionaries
+
  
  
  
