@@ -31,7 +31,7 @@ Intergovernmental Panel on Climate Change (IPCC) which is an intergovernmental b
 # Text
 
 * [Full Text PDF](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter06/fulltext.pdf)
-* [Full Text HTML](https://htmlpreview.github.io/?)
+* [Full Text HTML](https://htmlpreview.github.io/?https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter06/executive_summary.html)
 * [Annotated Full Text HTML]()  
 
 # Dictionary
