@@ -20,15 +20,15 @@ Executive Summary...............................................................
 6.5.4 Impacts on Electricity System Vulnerability .................................................................6-77 
 6.6 Key Characteristics of Net Zero Energy Systems..............................................................6-78 
 6.6.1 What is a Net Zero Energy System? ..............................................................................6-78 
-6.6.2 Configurations of Net-zero Energy Systems..................................................................6-80 22
-6.6.3 The Institutional and Societal Characteristics of Net-zero Energy Systems..................6-94 23
-6.6.4 Regional Circumstances and Net-zero Energy Systems................................................6-95 24
-6.7 Low-Carbon Energy System Transitions in the Near- and Medium-Term........................6-98 25
-6.7.1 Low-Carbon Energy System Transition Pathways........................................................6-98 26
-6.7.2. Investments in Technology and Infrastructure.........................................................6-110 27
-6.7.3 Energy System Lock-In and Path Dependence............................................................6-112 28
-6.7.4 Fossil fuels in a low-carbon transition .........................................................................6-117 29
-6.7.5 Policy and Governance ................................................................................................6-118 30
-6.7.6 Behaviour and Societal Integration..............................................................................6-120 31
-6.7.7 The Costs and Benefits of Low-Carbon Energy System Transitions in the Context of 32
+6.6.2 Configurations of Net-zero Energy Systems..................................................................6-80 
+6.6.3 The Institutional and Societal Characteristics of Net-zero Energy Systems..................6-94 
+6.6.4 Regional Circumstances and Net-zero Energy Systems................................................6-95 
+6.7 Low-Carbon Energy System Transitions in the Near- and Medium-Term........................6-98 
+6.7.1 Low-Carbon Energy System Transition Pathways........................................................6-98 
+6.7.2. Investments in Technology and Infrastructure.........................................................6-110 
+6.7.3 Energy System Lock-In and Path Dependence............................................................6-112 
+6.7.4 Fossil fuels in a low-carbon transition .........................................................................6-117 
+6.7.5 Policy and Governance ................................................................................................6-118 
+6.7.6 Behaviour and Societal Integration..............................................................................6-120 
+6.7.7 The Costs and Benefits of Low-Carbon Energy System Transitions in the Context of 
 Sustainable Development.........................................................................................................6-123
