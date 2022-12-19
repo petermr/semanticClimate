@@ -1,45 +1,45 @@
-07:40:21.202 INFO  org.contentmine.ami.tools.AMI - args: [-t, Chapter05, pdfbox]
-07:40:21.222 DEBUG org.contentmine.ami.tools.AMI - Specified verbosity=0, this translates to level=WARN
-07:40:21.223 DEBUG org.contentmine.ami.tools.AMI - Reconfiguring Console appender with WARN
-07:40:21.223 INFO  org.contentmine.ami.tools.AMI - (The console will show WARN level messages)
-07:40:21.223 INFO  org.contentmine.ami.tools.AMI - (Logs will also be printed to /Users/pm286/projects/semanticClimate/ipcc/ar6/wg3/logs/ami.log)
-07:40:21.345 DEBUG org.contentmine.ami.tools.AMI - Version: ami 2021.09.27_15.49-NEXT-SNAPSHOT
+22:25:51.937 INFO  org.contentmine.ami.tools.AMI - args: [-t, Chapter17, pdfbox]
+22:25:51.956 DEBUG org.contentmine.ami.tools.AMI - Specified verbosity=0, this translates to level=WARN
+22:25:51.956 DEBUG org.contentmine.ami.tools.AMI - Reconfiguring Console appender with WARN
+22:25:51.957 INFO  org.contentmine.ami.tools.AMI - (The console will show WARN level messages)
+22:25:51.957 INFO  org.contentmine.ami.tools.AMI - (Logs will also be printed to /Users/pm286/projects/semanticClimate/ipcc/ar6/wg3/logs/ami.log)
+22:25:52.082 DEBUG org.contentmine.ami.tools.AMI - Version: ami 2021.09.27_15.49-NEXT-SNAPSHOT
 (jar:file:/Users/pm286/workspace/cmdev/ami3/target/appassembler/repo/ami3-2021.09.27_15.49-NEXT-SNAPSHOT.jar)
 JVM: 14.0.1 (Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 14.0.1+7)
 OS: Mac OS X 10.16 x86_64
 
-07:40:21.346 WARN  org.contentmine.ami.tools.AbstractAMITool - 
-07:40:21.346 WARN  org.contentmine.ami.tools.AbstractAMITool - Generic values (AMIPDFTool)
-07:40:21.346 WARN  org.contentmine.ami.tools.AbstractAMITool - ================================
-07:40:21.445 INFO  org.contentmine.ami.tools.AbstractAMITool - input basename      null
-07:40:21.445 INFO  org.contentmine.ami.tools.AbstractAMITool - input basename list null
-07:40:21.445 INFO  org.contentmine.ami.tools.AbstractAMITool - cproject            
-07:40:21.446 INFO  org.contentmine.ami.tools.AbstractAMITool - ctree               /Users/pm286/projects/semanticClimate/ipcc/ar6/wg3/Chapter05
-07:40:21.446 INFO  org.contentmine.ami.tools.AbstractAMITool - cTreeList           [Chapter05]
-07:40:21.446 INFO  org.contentmine.ami.tools.AbstractAMITool - excludeBase         {}
-07:40:21.446 INFO  org.contentmine.ami.tools.AbstractAMITool - excludeTrees        {}
-07:40:21.446 INFO  org.contentmine.ami.tools.AbstractAMITool - forceMake           false
-07:40:21.446 INFO  org.contentmine.ami.tools.AbstractAMITool - includeBase         {}
-07:40:21.446 INFO  org.contentmine.ami.tools.AbstractAMITool - includeTrees        null
-07:40:21.446 INFO  org.contentmine.ami.tools.AbstractAMITool - log4j               {}
-07:40:21.446 INFO  org.contentmine.ami.tools.AbstractAMITool - verbose             0
-07:40:21.446 WARN  org.contentmine.ami.tools.AbstractAMITool - 
-07:40:21.447 WARN  org.contentmine.ami.tools.AbstractAMITool - Specific values (AMIPDFTool)
-07:40:21.447 WARN  org.contentmine.ami.tools.AbstractAMITool - ================================
-07:40:21.447 INFO  org.contentmine.ami.tools.AbstractAMITool - Command line options for 'ami pdfbox':
-07:40:21.448 INFO  org.contentmine.ami.tools.AbstractAMITool - --debug             : d AMI_BRIEF
-07:40:21.449 INFO  org.contentmine.ami.tools.AbstractAMITool - --imagedir          : d pdfimages/
-07:40:21.449 INFO  org.contentmine.ami.tools.AbstractAMITool - --maxpages          : d         5
-07:40:21.449 INFO  org.contentmine.ami.tools.AbstractAMITool - --maxprimitives     : d      5000
-07:40:21.449 INFO  org.contentmine.ami.tools.AbstractAMITool - --minimagesize      : d   (10,10)
-07:40:21.449 INFO  org.contentmine.ami.tools.AbstractAMITool - --pages             : d      null
-07:40:21.449 INFO  org.contentmine.ami.tools.AbstractAMITool - --parser            : d       two
-07:40:21.450 INFO  org.contentmine.ami.tools.AbstractAMITool - --no-pdfimages      : d      true
-07:40:21.450 INFO  org.contentmine.ami.tools.AbstractAMITool - --pdf2txt           : d     false
-07:40:21.450 INFO  org.contentmine.ami.tools.AbstractAMITool - --svgdir            : d      svg/
-07:40:21.450 INFO  org.contentmine.ami.tools.AbstractAMITool - --no-svgpages       : d      true
-07:40:21.450 INFO  org.contentmine.ami.tools.AbstractAMITool - --tidysvg           : d [concat, spaces]
-07:40:21.450 INFO  org.contentmine.ami.tools.AbstractAMITool - --help              : d     false
-07:40:21.450 INFO  org.contentmine.ami.tools.AbstractAMITool - --version           : d     false
-07:40:21.451 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: Chapter05
-07:40:21.451 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: Chapter05
+22:25:52.083 WARN  org.contentmine.ami.tools.AbstractAMITool - 
+22:25:52.083 WARN  org.contentmine.ami.tools.AbstractAMITool - Generic values (AMIPDFTool)
+22:25:52.083 WARN  org.contentmine.ami.tools.AbstractAMITool - ================================
+22:25:52.167 INFO  org.contentmine.ami.tools.AbstractAMITool - input basename      null
+22:25:52.167 INFO  org.contentmine.ami.tools.AbstractAMITool - input basename list null
+22:25:52.168 INFO  org.contentmine.ami.tools.AbstractAMITool - cproject            
+22:25:52.168 INFO  org.contentmine.ami.tools.AbstractAMITool - ctree               /Users/pm286/projects/semanticClimate/ipcc/ar6/wg3/Chapter17
+22:25:52.168 INFO  org.contentmine.ami.tools.AbstractAMITool - cTreeList           [Chapter17]
+22:25:52.168 INFO  org.contentmine.ami.tools.AbstractAMITool - excludeBase         {}
+22:25:52.168 INFO  org.contentmine.ami.tools.AbstractAMITool - excludeTrees        {}
+22:25:52.168 INFO  org.contentmine.ami.tools.AbstractAMITool - forceMake           false
+22:25:52.168 INFO  org.contentmine.ami.tools.AbstractAMITool - includeBase         {}
+22:25:52.168 INFO  org.contentmine.ami.tools.AbstractAMITool - includeTrees        null
+22:25:52.168 INFO  org.contentmine.ami.tools.AbstractAMITool - log4j               {}
+22:25:52.168 INFO  org.contentmine.ami.tools.AbstractAMITool - verbose             0
+22:25:52.168 WARN  org.contentmine.ami.tools.AbstractAMITool - 
+22:25:52.168 WARN  org.contentmine.ami.tools.AbstractAMITool - Specific values (AMIPDFTool)
+22:25:52.169 WARN  org.contentmine.ami.tools.AbstractAMITool - ================================
+22:25:52.169 INFO  org.contentmine.ami.tools.AbstractAMITool - Command line options for 'ami pdfbox':
+22:25:52.170 INFO  org.contentmine.ami.tools.AbstractAMITool - --debug             : d AMI_BRIEF
+22:25:52.171 INFO  org.contentmine.ami.tools.AbstractAMITool - --imagedir          : d pdfimages/
+22:25:52.171 INFO  org.contentmine.ami.tools.AbstractAMITool - --maxpages          : d         5
+22:25:52.171 INFO  org.contentmine.ami.tools.AbstractAMITool - --maxprimitives     : d      5000
+22:25:52.171 INFO  org.contentmine.ami.tools.AbstractAMITool - --minimagesize      : d   (10,10)
+22:25:52.171 INFO  org.contentmine.ami.tools.AbstractAMITool - --pages             : d      null
+22:25:52.171 INFO  org.contentmine.ami.tools.AbstractAMITool - --parser            : d       two
+22:25:52.171 INFO  org.contentmine.ami.tools.AbstractAMITool - --no-pdfimages      : d      true
+22:25:52.172 INFO  org.contentmine.ami.tools.AbstractAMITool - --pdf2txt           : d     false
+22:25:52.172 INFO  org.contentmine.ami.tools.AbstractAMITool - --svgdir            : d      svg/
+22:25:52.172 INFO  org.contentmine.ami.tools.AbstractAMITool - --no-svgpages       : d      true
+22:25:52.172 INFO  org.contentmine.ami.tools.AbstractAMITool - --tidysvg           : d [concat, spaces]
+22:25:52.172 INFO  org.contentmine.ami.tools.AbstractAMITool - --help              : d     false
+22:25:52.172 INFO  org.contentmine.ami.tools.AbstractAMITool - --version           : d     false
+22:25:52.172 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: Chapter17
+22:25:52.173 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: Chapter17
