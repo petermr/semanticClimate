@@ -1,10 +1,10 @@
-This folder contains the work related to abbreviation extraction, which will then be used for indexing.
-Inside this folder you will find the keywords extracted by 5 different techniques on Chapter 6 of IPCC.
+# Dictionary: Collection of words and their meanings
+Types of Dictionary 
+1) ip_3_6_energy_man.xml(Manual dictionary)
+2) ip_3_6_energy_abb.xml(Automated dictionary)
 
-PMR HAS CHANGED THE FILENAMES
+1)**Manual dictionary:** Manually created by the chapter champions from chapter reading having most of the terms that are important for chapter and difficult to understand.
+It's in .XML format
 
-* Chapter06_text.txt is the raw text file containing the text extracted from html.
-* yake_keyword.csv is the keywords extracted using yake library (top 100 output is saved mainly containg the important phrases)
-* rake_keyword.csv is the keywords extracted using rake library 
-* keybert_keyword.csv(not yet uploaded work ongoing) contains keyword extracted using keybert model.
-* textrank_keyword.csv, not able to extract due to shortage of RAM.
+  
+2)**Automated dictionary**: Automated created by docanalysis using spacy.  
