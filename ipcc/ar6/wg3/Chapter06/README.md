@@ -13,7 +13,7 @@ Intergovernmental Panel on Climate Change (IPCC) which is an intergovernmental b
 
 ## What is chapter 06 about?  
 
-* Title: **Urban systems and other settlements.** 
+* Title: **Energy system** 
 
 ## Introduction
 * [Introduction]()
@@ -28,20 +28,12 @@ Intergovernmental Panel on Climate Change (IPCC) which is an intergovernmental b
 * [Frequently asked questions](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter06/FAQs.md)
 
 
-## Summary for a student in high school
-* [Summary for a student in high school](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter08/SummForHSstudent.md)
-
-
 # Text
 
-* [Full Text PDF](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter08/fulltext.pdf)
-* [Full Text HTML ](https://htmlpreview.github.io/?https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter08/fulltext.html)
-* [Annotated Full Text HTML](https://htmlpreview.github.io/?https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter08/annotated_fulltext_Chapter08%20(3).html)  
+* [Full Text PDF](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter06/fulltext.pdf)
+* [Full Text HTML]()
+* [Annotated Full Text HTML]()  
 
 # Dictionary
-* [Abbreviation (XML)](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter08/dict/ip_3_8_urban_abb.xml)
-* [Manual (XML)](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter08/dict/ip_3_8_urban_man.xml)
-* [Words/Phrase (csv)](raw/gensim_keywords.csv)
-
-# Image
-![Alt text](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter08/Urban_Green_and_Blue_Infrastructure.png "Urban Green and Blue Infrastructure")
+* [Abbreviation (XML)](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter06/dict/ip_3_6_energy_abb.xml)
+* [Manual (XML)](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter08/dict/ip_3_6_energy_man.xml)
