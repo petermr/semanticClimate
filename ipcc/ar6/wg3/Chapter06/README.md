@@ -36,4 +36,4 @@ Intergovernmental Panel on Climate Change (IPCC) which is an intergovernmental b
 
 # Dictionary
 * [Abbreviation (XML)](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter06/dict/ip_3_6_energy_abb.xml)
-* [Manual (XML)](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter08/dict/ip_3_6_energy_man.xml)
+* [Manual (XML)](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter06/dict/ip_3_6_energy_man.xml)
