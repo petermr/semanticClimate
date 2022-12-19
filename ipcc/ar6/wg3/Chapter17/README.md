@@ -18,7 +18,7 @@ The goal is to extract useful information from the IPCC documents so that crisp 
 * [table of content](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter17/table_of_contents.md)
 
 ## Executive Summary
-* [Executive Summary](https://htmlpreview.github.io/?https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter17/Executive_summary.html)
+* [Executive Summary](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter17/CompExecSumm.md)
 
 ## Chapter FAQs
 * [Frequently asked questions](https://htmlpreview.github.io/?https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter17/frequently_asked_questions_(faqs).html)
