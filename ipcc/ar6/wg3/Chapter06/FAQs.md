@@ -1,6 +1,6 @@
-**Frequently Asked Questions**
+# Frequently Asked Questions
 
-**FAQ 6.1. Will energy systems that emit little or no CO2 be different than those of today? **
+**FAQ 6.1. Will energy systems that emit little or no CO2 be different than those of today?**
 
 Low-carbon energy systems will be similar to those of today in that they will provide many of the same 
 services as today – for example, heating and cooling homes, travelling to work or on vacation, 
