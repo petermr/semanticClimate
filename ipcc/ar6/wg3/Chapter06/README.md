@@ -22,7 +22,7 @@ Intergovernmental Panel on Climate Change (IPCC) which is an intergovernmental b
 * [Table of Contents](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter06/table_of_contents.md)
 
 ## Executive Summary
-* [Executive Summary]()
+* [Executive Summary](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter06/CompExecSumm.md)
 
 ## Chapter FAQs
 * [Frequently asked questions](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter06/FAQs.md)
