@@ -2,463 +2,431 @@
              <desc> manually created by Karthikeyan V 2022-12-06 </desc>
 <entry term="mitigation" 
        wikidataID="Q6881760" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/Mitigation"
        desc="reduction of harm"/>
 
 <entry term="Sixth Assessment Report" 
        wikidataID="Q103843442" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/IPCC_Sixth_Assessment_Report"
        desc="intergovernmental report on climate change"/>
 
 <entry term="Global Energy Assessment" 
        wikidataID="" 
-       wikipage=""
+       wikipediaPage=""
        desc=" "/>
 
-<entry term="BECCS" 
+<entry term="BECCS"
+       label="Bio-Energy with Carbon Capture and Storage"
        wikidataID="Q2577671" 
-       wikipage=""
-       desc="Bio-Energywith Carbon Capture and Storage"/>
+       wikipediaPage="https://en.wikipedia.org/wiki/Bioenergy_with_carbon_capture_and_storage"
+       desc="removing carbon dioxide from the atmosphere by growing plants, and then putting it permanently underground"/>
 
 <entry term="LED" 
        wikidataID="" 
-       wikipage=""
-       desc="Low Energy Demand"/>
+       wikipediaPage=""
+       label="Low Energy Demand"/>
 
-<entry term="SDG" 
+<entry term="SDG"
+       label="Sustainable Development Goals "
        wikidataID="Q7649586" 
-       wikipage=""
-       desc="Sustainable Development Goals"/>
+       wikipediaPage=""
+       desc="set of United Nations-defined global development goals and climate change"/>
 
 <entry term="ASI" 
        wikidataID="Q106417824" 
-       wikipage=""
-       desc="Avoid-Shift-Improve"/>
+       wikipediaPage="https://en.wikipedia.org/wiki/Avoid-Shift-Improve"
+       label="Avoid-Shift-Improve"
+       desc="approach to environmental sustainability by changing consumer behavior"/>
 
 <entry term="DLS" 
        wikidataID="" 
-       wikipage="https://en.wikipedia.org/wiki/Standard_of_living#:~:text=The%20decent%20living%20standard%20revolves%20around%20the%20idea,be%20maintained%20for%20a%20long%20period%20of%20time."
+       wikipediaPage="https://en.wikipedia.org/wiki/Standard_of_living#:~:text=The%20decent%20living%20standard%20revolves%20around%20the%20idea,be%20maintained%20for%20a%20long%20period%20of%20time."
        desc="Decent Living Standard"/>
 
 <entry term="GHG" 
        wikidataID="Q167336" 
-       wikipage=""
-       desc="greenhouse gases"/>
+       wikipediaPage=""
+       label="greenhouse gases"
+       desc="gas in an atmosphere of a planet (usually Earth) that absorbs and emits radiation within the thermal infrared range and causes the greenhouse effect"/>
 
 <entry term="IPCC" 
        wikidataID="Q171183" 
-       wikipage=""
-       desc="Intergovernmental Panel on Climate Change"/>
+       wikipediaPage="https://en.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change"
+       label="Intergovernmental Panel on Climate Change"
+       desc="scientific intergovernmental body"/>
 
 <entry term="carbon budget" 
        wikidataID="Q16722080" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/Carbon_budget"
        desc="limit on CO2 emission for a given climate impact"/>
 
 <entry term="bibliometric" 
        wikidataID="Q603441" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/Bibliometrics"
        desc="statistical analysis of written publications, such as books or articles bibliometry"/>
 
 <entry term="decoupling" 
        wikidataID="Q5249642" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/Decoupling_(electronics)"
        desc="prevention of undesired coupling between subsystems"/>
 
 <entry term="holistic" 
        wikidataID="Q192891" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/Holism"
        desc="philosophical position that systems should be analyzed as wholes, not just as collections of parts"/>
 
 <entry term="gentrification " 
        wikidataID="Q119380" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/Gentrification"
        desc="urban socioeconomic process"/>
 
 <entry term="green policies" 
        wikidataID="" 
-       wikipage=""
+       wikipediaPage=""
        desc=""/>
 
 <entry term="Nexus" 
        wikidataID="" 
-       wikipage="https://en.wikipedia.org/wiki/Nexus"
+       wikipediaPage="https://en.wikipedia.org/wiki/Nexus"
        desc="Nexus is a Latin word for connection, usually where multiple elements meet."/>
 
 <entry term="merit order" 
        wikidataID="Q1317949" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/Merit_order"
        desc="way of ranking available sources of energy"/>
 
 <entry term="decarbonization" 
        wikidataID="Q11693783" 
-       wikipage=""
+       wikipediaPage=""
        desc="change of economy, especially of energy industries, towards lower carbon dioxide emissions"/>
 
 <entry term="Pertinent" 
        wikidataID="" 
-       wikipage="https://en.wikipedia.org/w/index.php?title=Pertinent&redirect=no"
+       wikipediaPage="https://en.wikipedia.org/w/index.php?title=Pertinent&redirect=no"
        desc=" "/>
 
 <entry term="low-carbon economy" 
        wikidataID="Q3267905" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/Low-carbon_economy"
        desc="economy based on low carbon power sources"/>
 
 <entry term="hedonic" 
        wikidataID="Q7064" 
-       wikipage=""
+       wikipediaPage="https://en.wikiquote.org/wiki/Hedonism"
        desc="philosophy of pleasure as the highest value"/>
 
 <entry term="eudaimonic" 
        wikidataID="Q318401" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/Eudaemonism"
        desc="belief in living 'the good life'"/>
 
 <entry term="Individual Deprivation Measure" 
        wikidataID="Q22909187" 
-       wikipage=""
-       desc=" "/>
+       wikipediaPage="https://en.wikipedia.org/wiki/Individual_Deprivation_Measure"
+       desc="Gender-sensitive and multidimensional measure of poverty developed to assess deprivation at the individual level and overcome the limitations of current approaches which measure poverty at the household level."/>
 
 <entry term="affluence" 
        wikidataID="Q3187057" 
-       wikipage=""
-       desc=" "/>
+       wikipediaPage=""
+       desc="Abundance of valuable financial assets or physical possessions which can be converted into a form that can be used for transactions."/>
 
 <entry term="extractivism " 
        wikidataID="Q1385203" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/Extractivism"
        desc="process of extracting resources from the earth"/>
 
 <entry term="Ameliorate" 
        wikidataID="Q8197270" 
-       wikipage=""
+       wikipediaPage=""
        desc="the act of making something better; improvement"/>
 
 <entry term="racialized" 
        wikidataID="Q7279602" 
-       wikipage=""
-       desc=" "/>
+       wikipediaPage="https://en.wikipedia.org/wiki/Racialized_society"
+       desc="society where race is important"/>
 
 <entry term="militarisation" 
        wikidataID="" 
-       wikipage="https://en.wikipedia.org/wiki/Militarization"
+       wikipediaPage="https://en.wikipedia.org/wiki/Militarization"
        desc=" "/>
 
 <entry term="exergy" 
        wikidataID="Q663290" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/Exergy"
        desc="maximum energy available for use"/>
 
 <entry term="megatrend" 
        wikidataID="Q99538550" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/Megatrend"
        desc="trends that have an effect on a global scale. Some of the current megatrends are identicalwith global threats."/>
 
 <entry term="SIT" 
        wikidataID="" 
-       wikipage=""
-       desc="Socio-cultural factors, Infrastructure use and Technology adoption"/>
+       wikipediaPage=""
+       label="Socio-cultural factors, Infrastructure use and Technology adoption"/>
 
 <entry term="anthropogenic" 
        wikidataID="Q574376" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/Human_impact_on_the_environment"
        desc="human impact on the environment "/>
 
 <entry term="Slow steaming" 
        wikidataID="Q12015603" 
-       wikipage="https://en.wikipedia.org/wiki/Slow_steaming"
+       wikipediaPage="https://en.wikipedia.org/wiki/Slow_steaming"
        desc="practice of operating transoceanic cargo ships, especially container ships, at significantly less than their maximum speed."/>
 
 <entry term="weather routing" 
        wikidataID="" 
-       wikipage="https://en.wikipedia.org/wiki/Weather_routing"
+       wikipediaPage="https://en.wikipedia.org/wiki/Weather_routing"
        desc="commercial service provided by commercial companies for cargo ships, to optimize their voyage performance."/>
 
 <entry term="contra-rotating propellers" 
        wikidataID="Q1777836" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/Contra-rotating_propellers"
        desc="two-propeller design for improving low-airspeed maneuverability"/>
 
 <entry term="passive houses" 
        wikidataID="Q464221" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/Passive_house"
        desc="house that does not require fossil energy supply"/>
 
 <entry term="Circularity" 
        wikidataID="" 
-       wikipage="https://en.wikipedia.org/wiki/Circularity"
+       wikipediaPage="https://en.wikipedia.org/wiki/Circularity"
        desc=""/>
 
 <entry term="superfluous" 
        wikidataID="Q21262209" 
-       wikipage=""
+       wikipediaPage=""
        desc="excess"/>
 
 <entry term="Dematerialization " 
        wikidataID="" 
-       wikipage="https://en.wikipedia.org/wiki/Dematerialization_(products)"
+       wikipediaPage="https://en.wikipedia.org/wiki/Dematerialization_(products)"
        desc="less or no material is used to deliver the same level of functionality"/>
 
 <entry term="drivetrain" 
        wikidataID="Q1786258" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/Drivetrain"
        desc="group of components that deliver power to the driving wheels, excluding the part(s) which powers the machine"/>
 
 <entry term="IAM" 
        wikidataID="" 
-       wikipage=""
-       desc="integrated assessment model"/>
+       wikipediaPage=""
+       label="integrated assessment model"/>
 
 <entry term="ESM" 
        wikidataID="" 
-       wikipage=""
-       desc="energy systems model"/>
+       wikipediaPage=""
+       label="energy systems model"/>
 
 <entry term="IEA" 
        wikidataID="Q826700" 
-       wikipage=""
-       desc="International Energy Agency"/>
+       wikipediaPage="https://en.wikipedia.org/wiki/International_Energy_Agency"
+       label="International Energy Agency"/>
 
 <entry term="GCAM" 
        wikidataID="Q113016236" 
-       wikipage=""
-       desc="Global Change Analysis Model"/>
+       wikipediaPage=""
+       label="Global Change Analysis Model"/>
 
 <entry term="EU-27" 
        wikidataID="" 
-       wikipage="https://en.wikipedia.org/wiki/EU_27"
+       wikipediaPage="https://en.wikipedia.org/wiki/EU_27"
        desc=""/>
 
 <entry term="NZE" 
        wikidataID="Q1774424" 
-       wikipage="https://en.wikipedia.org/wiki/Carbon_neutrality"
+       wikipediaPage="https://en.wikipedia.org/wiki/Carbon_neutrality"
        desc="Net Zero Emission"/>
 
 <entry term="B2DS" 
        wikidataID="" 
-       wikipage="Beyond 2 Degrees Scenario"
+       wikipediaPage=""
        desc=""/>
 
 <entry term="TIAM-Grantham" 
        wikidataID="" 
-       wikipage="https://www.imperial.ac.uk/events/105281/taking-on-tiam-an-introduction-to-energy-systems-modelling-and-initial-results/"
+       wikipediaPage="https://www.imperial.ac.uk/events/105281/taking-on-tiam-an-introduction-to-energy-systems-modelling-and-initial-results/"
        desc=""/>
 
 <entry term="AIMS" 
-       wikidataID="" 
-       wikipage=""
-       desc=""/>
+       wikidataID="Q50811630" 
+       wikipediaPage=""
+       desc="academic journal published by AIMS Press, covering production of electric energy or power, powerplants, central stations"/>
 
 <entry term="GDP" 
        wikidataID="Q12638" 
-       wikipage=""
-       desc="Gross Domestic Product"/>
+       wikipediaPage="https://en.wikipedia.org/wiki/Gross_domestic_product"
+       label="Gross Domestic Product"
+       desc="market value of goods and services produced within a country"/>
 
 <entry term="circular economy" 
        wikidataID="Q497743" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/Circular_economy"
        desc="regenerative system in which resource input and waste, emission, and energy leakage, are minimised"/>
 
 <entry term="sharing economy" 
        wikidataID="Q2277143" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/Sharing_economy"
        desc="economic and social systems that enable shared access to goods, services, data and talent"/>
 
-<entry term="peer-to-peer" 
+<entry term="P2P"
+       label="peer-to-peer"
        wikidataID="Q161410" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/Peer-to-peer"
        desc="type of decentralized and distributed network architecture"/>
 
 <entry term="shared-ridehailing" 
        wikidataID="" 
-       wikipage="https://en.wikipedia.org/wiki/Shared_transport"
+       wikipediaPage="https://en.wikipedia.org/wiki/Shared_transport"
        desc="Shared transport"/>
 
 <entry term="ICT" 
        wikidataID="Q5268834" 
-       wikipage=""
-       desc="information and communications technology"/>
+       wikipediaPage="https://en.wikipedia.org/wiki/Information_and_communications_technology"
+       label="information and communications technology"
+       desc="use of integration of telecommunications and computers to access, store, transmit, and manipulate information"/>
 
 <entry term="IT" 
        wikidataID="Q11661" 
-       wikipage=""
-       desc="information technology"/>
+       wikipediaPage="https://en.wikipedia.org/wiki/Information_and_communications_technology"
+       label="information technology"
+       desc="use of integration of telecommunications and computers to access, store, transmit, and manipulate information"/>
 
 <entry term="cryptocurrencies" 
        wikidataID="Q13479982" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/Cryptocurrency"
        desc="digital medium of exchange using cryptography on a ledger to secure transactions and to verify transfer of ownership"/>
 
 <entry term="blockchain" 
        wikidataID="Q20514253" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/Blockchain"
        desc="distributed data store for digital transactions"/>
 
 <entry term="Bitcoin mining" 
        wikidataID="Q85874951" 
-       wikipage="https://en.wikipedia.org/wiki/Bitcoin_network#Mining"
+       wikipediaPage="https://en.wikipedia.org/wiki/Bitcoin_network#Mining"
        desc=""/>
-
-<entry term="caveat" 
-       wikidataID="" 
-       wikipage=""
-       desc="a warning or proviso of specific stipulations, conditions, or limitations."/>
 
 <entry term="product service" 
        wikidataID="Q179106" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/Product-service_system"
        desc="offers the use of a good or service rather than the good itself"/>
 
 <entry term="flexibilisation" 
        wikidataID="Q1392543" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/Flextime"
        desc="flexible hours schedule that allows workers to alter workday start and finish times"/>
 
 <entry term="conflate" 
        wikidataID="Q14946528" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/Conflation"
        desc="merging of distinct identities or concepts, usually erroneously"/>
 
 <entry term="deadheading" 
        wikidataID="Q177982" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/Deadheading_(employee)"
        desc="carrying, free of charge, a transport company's own staff on a normal passenger trip"/>
 
 <entry term="Lyft" 
        wikidataID="Q17077936" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/Lyft"
        desc="American transportation network company"/>
 
 <entry term="Uber" 
        wikidataID="Q780442" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/Uber"
        desc="peer-to-peer ridesharing, food delivery, and transportation network company headquartered in San Francisco, California"/>
 
 <entry term="dock-less bikes" 
        wikidataID="Q42556547" 
-       wikipage=""
+       wikipediaPage=""
        desc="dockless bicycle sharing system"/>
 
 <entry term="LCA" 
        wikidataID="Q581950" 
-       wikipage=""
-       desc="life-cycle assessment"/>
+       wikipediaPage="https://en.wikipedia.org/wiki/Life-cycle_assessment"
+       label="life-cycle assessment"
+       desc="environmental assessment method"/>
 
 <entry term="big data" 
        wikidataID="Q858810" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/Big_data"
        desc="information assets characterized by such a high volume, velocity, and variety to require specific technology and analytical methods for its transformation into value"/>
 
 <entry term="densification" 
        wikidataID="Q3023260" 
-       wikipage="https://en.wikipedia.org/wiki/Urban_density"
+       wikipediaPage="https://en.wikipedia.org/wiki/Urban_density"
        desc="policy of constraining further development and population growth towithin the boundaries of preexisting urban areas rather than expanding outward into suburban areas"/>
-
-<entry term="P2P" 
-       wikidataID="Q161410" 
-       wikipage=""
-       desc="peer-to-peer"/>
 
 <entry term="stringent" 
        wikidataID="" 
-       wikipage=""
+       wikipediaPage=""
        desc="strict"/>
 
 <entry term="OECD" 
-       wikidataID="" 
-       wikipage=""
-       desc="Organization for Economic Cooperation and Development"/>
+       wikidataID="Q41550" 
+       wikipediaPage="https://en.wikinews.org/wiki/Category:Organisation_for_Economic_Co-operation_and_Development"
+       label="Organization for Economic Cooperation and Development"
+       desc="international economic organization"/>
 
-<entry term="CE" 
+<entry term="CE"
+       label="circular economy"
        wikidataID="Q497743" 
-       wikipage=""
-       desc="circular economy"/>
+       wikipediaPage="https://en.wikipedia.org/wiki/Circular_economy"
+       desc="regenerative system in which resource input and waste, emission, and energy leakage, are minimised"/>
 
 <entry term="cradle-to-cradle" 
        wikidataID="Q2306286" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/Cradle-to-cradle_design"
        desc="biomimetic approach to the design of products"/>
 
 <entry term="biomimicry" 
        wikidataID="Q1145644" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/Biomimetics"
        desc="imitation of biological systems for the solving of human problems"/>
 
 <entry term="Netherlands Environmental Assessment Agency" 
        wikidataID="Q2367258" 
-       wikipage=""
+       wikipediaPage="https://en.wikipedia.org/wiki/Netherlands_Environmental_Assessment_Agency"
        desc="Netherlands Environmental Assessment Agency"/>
 
 <entry term="Gt" 
        wikidataID="" 
-       wikipage=""
-       desc="Giga Ton"/>
+       wikipediaPage=""
+       label="Giga Ton"/>
 
 <entry term="entrant" 
        wikidataID="Q16868671" 
-       wikipage=""
-       desc=""/>
+       wikipediaPage="https://en.wikipedia.org/wiki/Entrant"
+       desc="A participant who enters something, such as a contest."/>
 
 <entry term="LPG" 
        wikidataID="Q351609" 
-       wikipage=""
-       desc="liquefied petroleum gas"/>
+       wikipediaPage="https://en.wikipedia.org/wiki/Liquefied_petroleum_gas"
+       label="liquefied petroleum gas"
+       desc="Flammable Gas"/>
 
 <entry term="ICS" 
        wikidataID="Q6049784" 
-       wikipage=""
-       desc="International Continence Society"/>
+       wikipediaPage="https://en.wikipedia.org/wiki/International_Continence_Society"
+       label="International Continence Society"/>
 
 <entry term="cognizant" 
        wikidataID="" 
-       wikipage=""
+       wikipediaPage=""
        desc="having knowledge or awareness"/>
 
 <entry term="altruistic" 
        wikidataID="Q167323" 
-       wikipage=""
+       wikipediaPage="https://en.wikiquote.org/wiki/Altruism"
        desc="principle or practice of concern for the welfare of others"/>
 
 <entry term="egalitarian" 
        wikidataID="Q188958" 
-       wikipage=""
+       wikipediaPage="https://en.wikiquote.org/wiki/Egalitarianism"
        desc="trend of thought that favors equality for all people"/>
-
-<entry term="greenpolicies" 
-       wikidataID="" 
-       wikipage=""
-       desc=""/>
-
-<entry term="greenpolicies" 
-       wikidataID="" 
-       wikipage=""
-       desc=""/>
-
-<entry term="greenpolicies" 
-       wikidataID="" 
-       wikipage=""
-       desc=""/>
-
-<entry term="greenpolicies" 
-       wikidataID="" 
-       wikipage=""
-       desc=""/>
-
-<entry term="greenpolicies" 
-       wikidataID="" 
-       wikipage=""
-       desc=""/>
-
-<entry term="greenpolicies" 
-       wikidataID="" 
-       wikipage=""
-       desc=""/>
-
-<entry term="greenpolicies" 
-       wikidataID="" 
-       wikipage=""
-       desc=""/>
 
 
 </dictionary>
