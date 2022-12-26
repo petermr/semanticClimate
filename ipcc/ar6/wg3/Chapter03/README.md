@@ -31,9 +31,9 @@ The goal is to extract useful information from the IPCC documents so that  relev
 * [Summary for a student in high school](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter03/SummForHSstudent.md)
 
 ## Dictionaries
-* [Abbreviations (XML)](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter03/abb_chapter03.xml)
-* [Manual (XML)](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter03/manual_dict_chapter03.xml)
-* [Keywords/Phrases (CSV)](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter03/gensim_keywords.csv)
+* [Abbreviations (XML)](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter03/dict/abb_chapter03.xml)
+* [Manual (XML)](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter03/dict/manual_dict_chapter03.xml)
+* [Keywords/Phrases (CSV)](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter03/dict/gensim_keywords.csv)
 
 ## Images
 
