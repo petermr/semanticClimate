@@ -5,7 +5,7 @@
 * what worked
 * what didn't work
 * what impact we had
-* cleaning up (making sure we have all the material documented and archived
+* cleaning up (making sure we have all the material documented and archived)
 * protocol for next time
 * daily/weekly timetable
 * chapters web pages (need to be able to display each chapter instantly to the world)
@@ -39,13 +39,11 @@ Presentation to UN, GITA Talk
  
 ## FRIDAY 2022-12-02 0900UTC 1430 IST and/or 1230 UTC 1800 IST
 
-* @GY would like to join us on Fridays. We have provisionally found that 0900 UTC is a good time for new intake.
-
 ### Central dictionary 
 
 WE need IPCC onboarding 
 
-#### Independent website @Karthik. Karthik- what`s happening on website
+#### Independent website @Karthik. @Karthik- what`s happening on website
 
 * Next Technical Hackathon: In Janurary  
 
@@ -57,6 +55,7 @@ Issue: UNlibrary did`t target us
 because lack of contacts 
 
 #### What can we add to this 
+
 Political meeting
 Focus on grants 
 Work on grants
@@ -207,8 +206,42 @@ We will rehearse these tomorrow at 0900 UTC.
 Date 12th Dec time 14:15 - 15:00 Central European Time
 @Peter will add more details in #dictionaries and #outreach
 
+ # MONDAY 2022-12-12 at 1845IST 
  
+Meeting with Southern university
  
+ ## TUESDAY 2022-12-13 at 1700IST 1330UTC
+ 
+ Meeting wwith Joe Miller
+ 
+ ## WEDNESDAY 2022-12-14 at 1800IST
+ 
+Actions: Work on extraction of images
+ Work on chapter readme files
+ 
+ ## FRIDAY 2022-12-16 at 1430IST 0900 UTC
+* Intern ROADMAP
+*  high-level tasks (documents and software)
+ - 3 per-chapter dictionaries (manual, abb,  keyphrase NLPconsistent nomenclature
+    validation
+    reference material (non-Wikidata)
+    entry-status (e.g. NYI)
+    review of NLP methods
+- merge common terms between chapters
+- chapter snippets
+- exec summary
+- introduction
+- other sections
+- FAQ
+- knowledge gaps
+- ToC
+- captions
+- images (numbered by IPCC)
+- tables
+- explore hypermedia systems
+- obsidian
+- markup HTML chapters with dictionaries
+
  
  
  

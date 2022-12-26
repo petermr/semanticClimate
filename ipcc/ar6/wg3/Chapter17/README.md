@@ -15,16 +15,16 @@ The goal is to extract useful information from the IPCC documents so that crisp 
 * Title: **Accelerating the transition in the context of sustainable development**. 
 
 ## Table of contents
-* [table of content](https://htmlpreview.github.io/?https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter17/table_of_contents.html)
+* [table of content](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter17/table_of_contents.md)
 
 ## Executive Summary
-* [Executive Summary](https://htmlpreview.github.io/?https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter17/Executive_summary.html)
+* [Executive Summary](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter17/CompExecSumm.md)
 
 ## Chapter FAQs
-* [Frequently asked questions](https://htmlpreview.github.io/?https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter17/frequently_asked_questions_(faqs).html)
+* [Frequently asked questions](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter17/FAQs.md)
 
 ## Introduction
-* [Introduction](https://htmlpreview.github.io/?https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter17/Introduction.html)
+* [Introduction](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/wg3/Chapter17/Introduction.md)
 
 
 ## Work flow  
