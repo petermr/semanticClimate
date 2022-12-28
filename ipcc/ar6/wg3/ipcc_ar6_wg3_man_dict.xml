@@ -1060,18 +1060,14 @@
 <entry term="WTP" name="Willingness to pay" 
              wikidataID="Q140813" wikipediapage="https://en.wikipedia.org/wiki/Willingness_to_pay" 
              desc="Economic concept of the maximum price a buyer is willing and able to give in a transaction"/>                                                                                               
-<entry term="des" wikidataID="Q39911"
-             wikipediapage="https://en.wikipedia.org/wiki/Decade" 
-             desc="period of 10 years"/>                                                                                               
+
 <entry term="UHI" name="urban heat island" wikidataID="Q215712"
              wikipediapage="https://en.wikipedia.org/wiki/Urban_heat_island" 
              desc="urban area that is significantly warmer than its surrounding rural areas due to human activities"/>                                                                                               
 <entry term="exacerbated" wikidataID="Q1383410"
              wikipediapage="https://en.wikipedia.org/wiki/Exacerbation" 
              desc="worsening of a disease"/>                                                                                               
-<entry term="remittance" wikidataID="Q1351807"
-             wikipediapage="https://en.wikipedia.org/wiki/Remittance"
-             desc="money transfer by a foreign worker to their home country"/>                                                                                               
+
 <entry term="legislation" wikidataID="Q49371"
              wikipediapage="https://en.wikipedia.org/wiki/Legislation"
              desc="law enacted by a legislature or other governing body"/>                                                                                               
@@ -1079,9 +1075,6 @@
              wikipediapage="https://en.wikipedia.org/wiki/Zoning" 
              desc="describes the control by authority of the use of land, and of the buildings thereon"/>                                                                                                                                                                                
 
-<entry term="trajectory" wikidataID="Q193139"
-              wikipediapage="https://en.wikipedia.org/wiki/Trajectory"
-             desc="path of a moving object"/>                                                                                                 
 <entry term="off-grid utilities" wikidataID=""
              wikipediapage=""
              desc=""/>
@@ -1109,12 +1102,7 @@
 <entry term="WHO" name="World Health Organization" wikidataID="Q7817"
              wikipediapage="https://en.wikipedia.org/wiki/World_health_organization" 
              desc="specialized agency of the United Nations that is concerned with international public health"/>                                                                                                      
-<entry term="seize" wikidataID="Q3477956"
-              wikipediapage="https://en.wikipedia.org/wiki/Seize"
-             desc=""/>                                                                                                      
-<entry term="pedestrian" wikidataID="Q221488"
-              wikipediapage="https://en.wikipedia.org/wiki/Pedestrian"
-             desc="person who travels on foot"/>
+
 <entry term="regimes" wikidataID="Q5589178"
              wikipediapage="https://en.wikipedia.org/wiki/Regime" 
              desc="form of government or the set of rules, cultural or social norms, etc.
@@ -1206,9 +1194,7 @@
 <entry term="Barcelona’s" wikidataID="Q1492"
               wikipediapage="https://en.wikipedia.org/wiki/Barcelona"
              desc="city in Catalonia, Spain"/>
-<entry term="procurement" wikidataID="Q829492"
-             wikipediapage="https://en.wikipedia.org/wiki/Procurement" 
-             desc="acquisition of goods and services"/>
+
 <entry term="peer-to-peer" wikidataID="Q161410"
              wikipediapage="https://en.wikipedia.org/wiki/Peer-to-peer" 
              desc="type of decentralized and distributed network architecture"/>
@@ -1230,9 +1216,6 @@
 <entry term="prosumer" wikidataID="Q1145220" 
              wikipediapage="https://en.wikipedia.org/wiki/Prosumer" 
               desc="person who consumes and produces a product"/>
-<entry term="incentives" wikidataID="Q1414816"
-              wikipediapage="https://en.wikipedia.org/wiki/Incentive" 
-              desc="something that motivates an individual to perform an action"/>
 <entry term="demolition" wikidataID="Q331483"
               wikipediapage="https://en.wikipedia.org/wiki/Demolition" 
               desc="tearing-down of buildings and other structures"/>
@@ -1296,9 +1279,6 @@
 <entry term="SDG 14" name="Sustainable Development Goal 14" wikipediapage="https://en.wikipedia.org/wiki/Sustainable_Development_Goal_14" wikidataID="Q53581239"
              desc="Life Below Water"/>
 
-<entry term="watch dogs" wikipediapage="https://en.wikipedia.org/wiki/Watch_Dogs" wikidataID="Q29919397"
-             desc=""/>
-
 <entry term="SDG 12" name="Sustainable Development Goal 12" wikipediapage="https://en.wikipedia.org/wiki/Sustainable_Development_Goal_12" wikidataID="Q53581232"
              desc="Responsible Consumption and Production"/>
 
@@ -1321,9 +1301,6 @@
 
 <entry term="Renewable Energy Systems" wikipediapage="https://en.wikipedia.org/wiki/Renewable_Energy_Systems" wikidataID="Q7313077"
              desc="global renewable energy company"/>
-
-<entry term="Theory U" wikipediapage="https://en.wikipedia.org/wiki/Theory_U" wikidataID="Q24885053"
-             desc="Theory U is a change management method and the title of a book by Otto Scharmer."/>
 
 <entry term="ESD" name="electrostatic discharge" wikipediapage="https://en.wikipedia.org/wiki/Electrostatic_discharge" wikidataID="Q3574961"
              desc="sudden flow of electricity between two electrically charged objects caused by contact, an electrical short, or dielectric breakdown"/>
