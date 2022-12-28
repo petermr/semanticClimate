@@ -93,14 +93,14 @@
     
   </entry>
 
-  <entry term="CO2-equivalent emission" wikidataID="NOT_FOUND" wikipediaPage="NOT_FOUND"
+  <entry term="CO2-equivalent emission" wikidataID="NOT_FOUND" wikipediaPage="NOT_FOUND">
          <links>
             <link href="https://www3.epa.gov/carbon-footprint-calculator/tool/definitions/co2e.html"
                desc="Carbon dioxide equivalent or CO2e means the number of metric tons of CO2 emissions
                with the same global warming potential as one metric ton of another greenhouse gas">
             </link>
          </links>
-
+</entry>
   <entry term="emissions trajectory" wikidataID="" wikipediaPage=""
          desc="A projected development in time of the emission of a greenhouse gas
                or group of greenhouse gases, aerosols and greenhouse gas precursors."
@@ -130,8 +130,7 @@
               that is, energy that has not been subjected to any conversion or transformation process"
          descPage="https://stats.oecd.org/glossary/detail.asp?ID=2112"/>
 
-  <entry term="baseline scenario" wikidataID="NOT_FOUND"
-         <links>
+  <entry term="baseline scenario" wikidataID="NOT_FOUND">
            <link href="https://www.eea.europa.eu/help/glossary/eea-glossary/baseline-scenario"
          desc="Baseline scenarios depict a future state of society and/or environment in which
               no new environmental policies are implemented apart from those already in the
