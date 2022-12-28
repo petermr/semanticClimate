@@ -10,7 +10,8 @@
              wikipediaPage="https://en.wikipedia.org/wiki/Mitigation" desc="reduction of harm"/>
   
 <entry term="SDGs" name="sustainable development goals" wikidataID="Q7649586"
-             wikipediaPage="https://en.wikipedia.org/wiki/Sustainable_Development_Goals" desc="set of United Nations-defined global development goals and climate change"/>
+             wikipediaPage="https://en.wikipedia.org/wiki/Sustainable_Development_Goals" 
+             desc="set of United Nations-defined global development goals and climate change"/>
     
 <entry term="biofuels" wikidataID="Q128991"
              wikipediaPage="https://www.wikidata.org/wiki/Q128991" desc="fuel that is produced through contemporary biological processes, as opposed to fossil fuel that was produced by prehistoric bio-geological processes"/>
@@ -52,7 +53,8 @@
              wikipediaPage="https://en.wikipedia.org/wiki/Transformation" desc="changing of one form to another"/>
   
 <entry term="Greenhouse gas emissions" wikidataID="Q112192791"
-             wikipediaPage="https://en.wikipedia.org/wiki/Greenhouse_gas_emissions" desc="Greenhouse gas emissions from human activities strengthen the greenhouse effect, causing climate change. Most is carbon dioxide from burning fossil fuels: coal, oil, and natural gas"/>
+             wikipediaPage="https://en.wikipedia.org/wiki/Greenhouse_gas_emissions" desc="Greenhouse gas emissions from human activities strengthen the greenhouse effect, causing climate change. 
+                                                                                          Most is carbon dioxide from burning fossil fuels: coal, oil, and natural gas"/>
     
 <entry term="APC" name="and Developing Pacific" wikidataID="" wikipediaPage=""/>
   
@@ -96,7 +98,8 @@
     
 <entry term="Urbanization" wikidataID="Q161078"
              wikipediaPage="https://en.wikipedia.org/wiki/Urbanization" 
-             desc="longterm population movements (shift) from rural to urban areas;gradual increase in the proportion of people living in urban areas, and the ways in which each society adapts to the change;process by which towns and cities are formed and become larger"/>
+             desc="longterm population movements (shift) from rural to urban areas;gradual increase in the proportion of people living in urban areas,
+             and the ways in which each society adapts to the change;process by which towns and cities are formed and become larger"/>
     
 <entry term="Carbon neutrality" wikidataID="Q1774424"
              wikipediaPage="https://en.wikipedia.org/wiki/Carbon_neutrality" desc="

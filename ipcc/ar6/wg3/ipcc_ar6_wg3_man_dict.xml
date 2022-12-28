@@ -85,12 +85,21 @@
     <synonym> term="near-term climate forcers"</synonym>
   </entry>
 
-  <entry term="CGTP" name="Combined Global Temperature Change Potential" wikidataID="" wikipediaPage="" descPage="" />
+  <entry term="CGTP" name="Combined Global Temperature Change Potential" wikidataID="" wikipediaPage="" descPage="" >
+    <metadata>
+      <!-- fictitious link -->
+      <source href="#ipcc/ar6/wg3/Chapter02/section.2.*.*"/>
+    </metadata>
+    
+  </entry>
 
-  <entry term="CO2-equivalent emission" wikidataID="" wikipediaPage=""
-         desc="Carbon dioxide equivalent or CO2e means the number of metric tons of CO2 emissions
-               with the same global warming potential as one metric ton of another greenhouse gas"
-         descPage="https://www3.epa.gov/carbon-footprint-calculator/tool/definitions/co2e.html"/>
+  <entry term="CO2-equivalent emission" wikidataID="NOT_FOUND" wikipediaPage="NOT_FOUND"
+         <links>
+            <link href="https://www3.epa.gov/carbon-footprint-calculator/tool/definitions/co2e.html"
+               desc="Carbon dioxide equivalent or CO2e means the number of metric tons of CO2 emissions
+               with the same global warming potential as one metric ton of another greenhouse gas">
+            </link>
+         </links>
 
   <entry term="emissions trajectory" wikidataID="" wikipediaPage=""
          desc="A projected development in time of the emission of a greenhouse gas
@@ -121,15 +130,17 @@
               that is, energy that has not been subjected to any conversion or transformation process"
          descPage="https://stats.oecd.org/glossary/detail.asp?ID=2112"/>
 
-  <entry term="baseline scenario" wikidataID="" wikipediaPage=""
+  <entry term="baseline scenario" wikidataID="NOT_FOUND"
+         <links>
+           <link href="https://www.eea.europa.eu/help/glossary/eea-glossary/baseline-scenario"
          desc="Baseline scenarios depict a future state of society and/or environment in which
               no new environmental policies are implemented apart from those already in the
               pipeline today; or in which these policies do not have a discernable influence
-               regarding the questions being analysed"
-         descPage="https://www.eea.europa.eu/help/glossary/eea-glossary/baseline-scenario">
-      <synonym term="benchmark scenario"/>
-      <synonym term="reference scenario"/>
-      <synonym term="non-intervention scenario"/>
+               regarding the questions being analysed">
+              <synonym term="benchmark scenario"/>
+              <synonym term="reference scenario"/>
+              <synonym term="non-intervention scenario"/>
+            </link>
   </entry>
 
   <entry term="atmospheric lifetime" wikidataID="" wikipediaPage=""
@@ -158,11 +169,12 @@
       <synonym term="Final Energy Consumption"/>
   </entry>
 
+<!-- chapter 3-->
   <entry term="demand side solutions" wikidataID="" wikipediaPage="" desc="" descPage=""/>
-<entry term="Sinks" wikidataID="" desc="anything that holds greenhouse gases from the atmosphere"/>
-<entry term="sectoral dynamics" wikidataID="" desc=""/>
-<entry term="sectoral models" wikidataID="" desc=""/>
-<entry term="Path dependency" wikidataID="Q1093521" wikipediaPage="https://en.wikipedia.org/wiki/Path_dependence" desc="A concept where past events or decisions constrain later events or decisions"/>
+<entry term="sinks" wikidataID="" desc="anything that holds greenhouse gases from the atmosphere"/>
+<entry term="sectoral dynamics" wikidataID="NOT_FOUND" desc=""/>
+<entry term="sectoral models" wikidataID="NOT_FOUND" desc=""/>
+<entry term="path dependency" wikidataID="Q1093521" wikipediaPage="https://en.wikipedia.org/wiki/Path_dependence" desc="A concept where past events or decisions constrain later events or decisions"/>
 <entry term="up-scaling" wikidataID="Q7429728" wikipediaPage="https://en.wikipedia.org/wiki/Scale_up" desc="To improve the quality of something"/>
 
 <entry term="anthropogenic emissions" wikidataID="" descPage="https://www.ipcc.ch/sr15/chapter/glossary/#:~:text=and%20Anthropogenic%20removals.-,Anthropogenic%20emissions,waste%20management%20and%20industrial%20processes." desc="Emissions of greenhouse gases (GHGs), precursors of GHGs and aerosols caused by human activities."/>
@@ -198,7 +210,7 @@
 <entry term="climate sensitivity" wikidataID="Q521783" wikipediaPage="https://en.wikipedia.org/wiki/Climate_sensitivity" desc="Climate sensitivity is a measure of how much Earth's surface will cool or warm after a specified factor causes a change in its climate system"/>
 <entry term="business-as-usual projections" wikidataID="" descPage="https://granthaminstitute.com/2017/09/12/what-does-business-as-usual-mean-today/" desc="a baseline to compare alternative scenarios, or a starting point for analysis of a system"/>
 <entry term="abatement potential" wikidataID="" descPage="https://ourworldindata.org/how-much-will-it-cost-to-mitigate-climate-change#:~:text='Abatement%20potential'%20is%20the%20term,and%20economically%20feasible%20to%20achieve." desc="abatement potential is the term we use to describe the magnitude of potential GHG reductions which could be technologically and economically feasible to achieve"/>
-<entry term="trophospheric ozone" wikidataID="" descPage="https://www.ccacoalition.org/en/slcps/tropospheric-ozone" desc="ozone gas found in the troposphere"/>
+<entry term="tropospheric ozone" wikidataID="" descPage="https://www.ccacoalition.org/en/slcps/tropospheric-ozone" desc="ozone gas found in the troposphere"/>
 <entry term="aerosol emissions" wikidataID="" descPage="" desc="emissions of tiny atmospheric particles of sea spray, smoke, dust, and other substances"/>
 
 <entry term="global warming potential" wikidataID="Q901028" wikipediaPage="https://en.wikipedia.org/wiki/Global_warming_potential" desc="Global warming potential is the heat absorbed by any greenhouse gas in the atmosphere, as a multiple of the heat that would be absorbed by the same mass of carbon dioxide"/>
@@ -259,7 +271,7 @@
        wikipediaPage="https://en.wikipedia.org/wiki/Holism"
        desc="philosophical position that systems should be analyzed as wholes, not just as collections of parts"/>
 
-<entry term="gentrification " 
+<entry term="gentrification" 
        wikidataID="Q119380" 
        wikipediaPage="https://en.wikipedia.org/wiki/Gentrification"
        desc="urban socioeconomic process"/>
@@ -319,7 +331,7 @@
        wikipediaPage="https://en.wikipedia.org/wiki/Extractivism"
        desc="process of extracting resources from the earth"/>
 
-<entry term="Ameliorate" 
+<entry term="ameliorate" 
        wikidataID="Q8197270" 
        wikipediaPage=""
        desc="the act of making something better; improvement"/>
