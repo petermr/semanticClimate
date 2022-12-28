@@ -10,7 +10,8 @@
              wikipediaPage="https://en.wikipedia.org/wiki/Mitigation" desc="reduction of harm"/>
   
 <entry term="SDGs" name="sustainable development goals" wikidataID="Q7649586"
-             wikipediaPage="https://en.wikipedia.org/wiki/Sustainable_Development_Goals" desc="set of United Nations-defined global development goals and climate change"/>
+             wikipediaPage="https://en.wikipedia.org/wiki/Sustainable_Development_Goals" 
+             desc="set of United Nations-defined global development goals and climate change"/>
     
 <entry term="biofuels" wikidataID="Q128991"
              wikipediaPage="https://www.wikidata.org/wiki/Q128991" desc="fuel that is produced through contemporary biological processes, as opposed to fossil fuel that was produced by prehistoric bio-geological processes"/>
