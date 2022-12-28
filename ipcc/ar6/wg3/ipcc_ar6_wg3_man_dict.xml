@@ -227,12 +227,6 @@
        wikipediaPage=""
        label="Low Energy Demand"/>
 
-<entry term="SDG"
-       label="Sustainable Development Goals "
-       wikidataID="Q7649586" 
-       wikipediaPage=""
-       desc="set of United Nations-defined global development goals and climate change"/>
-
 <entry term="ASI" 
        wikidataID="Q106417824" 
        wikipediaPage="https://en.wikipedia.org/wiki/Avoid-Shift-Improve"
