@@ -1,7 +1,8 @@
 <dictionary title="ipcc_ar6_wg3_man_dict" version="0.0.5" >
 
-  <desc> manually created by Abhishek Prasad(Date2022-08-23) , Priti, kavita joshi, Sunag Parasu, Karthikeyan V, Mandeep </desc>
-<entry term info= entry term 1 to 
+  <desc> manually created by Chapter02: Abhishek Prasad(Date: 2022-08-23) , Chapter03: Sunag Parasu(Date: 2022-12-06),Chapter05: Karthikeyan V(Date: 2022-12-06),
+       Chapter06: Mandeep(Date: 2022-11-19) Chapter07:kavita joshi(Date2022-08-23), Chapter08,17: Priti(Date: 2022-12-06)</desc>
+ <!-- chapter 2-->
   <entry term="carbon budget" wikidataID="Q16722080"
          wikipediaPage="https://en.wikipedia.org/wiki/Carbon_budget" desc="limit on CO2 emission for a given climate impact"/>
 
