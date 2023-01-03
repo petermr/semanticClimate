@@ -37,10 +37,12 @@
   <entry term="GTP" name="Global Temperature change Potential" wikidataID="Q98974337">
   </entry>
   <entry term="FFI" name="fossil fuel combustion and industrial processes">
+    <metadata>
+      <edit date="2023-01-13" editor="Peter Murray-Rust">merged two variants using synonym</edit>
+    </metadata>
+    <synonym>fossil fuel combustion and industry</synonym>
   </entry>
   <entry term="LULUCF" name="Land Use, Land Use Change and Forestry" wikidataID="Q3348639">
-  </entry>
-  <entry term="FFI" name="fossil fuel combustion and industry">
   </entry>
   <entry term="PBEs" name="Production-based emissions">
   </entry>
@@ -51,8 +53,6 @@
   <entry term="EBEs" name="extraction-based emissions">
   </entry>
   <entry term="IBE" name="income-based emission accounting">
-  </entry>
-  <entry term="RSD" name="relative standard variation">
   </entry>
   <entry term="RSD" name="Relative Standard Deviation">
     <raw wikidataID="['Q623738', 'Q103864527']"/>

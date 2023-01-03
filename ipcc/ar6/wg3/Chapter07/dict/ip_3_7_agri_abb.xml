@@ -1,5 +1,10 @@
 <dictionary title="Agriculture" version="0.0.1">
+  <metadata>
+
   <desc> manually created by Kavita Joshi 2022-08-23 </desc>
+    <edit date="2023-01-03" editor="Peter Murray-Rust">removed entries with duplicate terms</edit>
+  </metadata>
+
 
   <entry term="AFOLU" name="The Agriculture, Forestry and Other Land Uses" wikipediaPage="https://en.wiktionary.org/wiki/AFOLU"
          desc="Agriculture, forestry and other land use (AFOLU) represents 20-24% of the global Greenhouse Gas (GHG) emissions"/>
@@ -22,10 +27,11 @@
   <entry term="BECCS" name="Bioenergy with carbon capture and storage" wikidataID="Q2577671"
          wikipediaPage="https://www.wikidata.org/wiki/Q2577671" desc="removing carbon dioxide from the atmosphere by growing plants, and then putting it permanently underground"/>
 
-
   <entry term="NDCs" name="Nationally Determined Contributions"  wikidataID="Q20051297"
-         wikipediaPage="https://www.wikidata.org/wiki/Q20051297" desc="non-binding national plans highlighting climate actions"/>
-
+         wikipediaPage="https://www.wikidata.org/wiki/Q20051297"
+         desc="non-binding national plans highlighting climate actions">
+    <raw desc="a non-binding national plan highlighting climate change mitigation, including climate-related targets for greenhouse gas emission reductions."/>
+  </entry>
 
   <entry term="IAMs" name="Integrated Assessment Models" wikipediaPage="https://www.iamcdocumentation.eu/index.php/IAMC_wiki"
          desc="aim to provide policy-relevant insights into global environmental change and sustainable development issues by providing a quantitative description of key processes in the human and earth systems and their interactions"/>
@@ -39,9 +45,6 @@
   <entry term="SRCCL" name="Special Report on Climate Change and Land " wikidataID="Q66310618" wikipediaPage="https://en.wikipedia.org/wiki/Special_Report_on_Climate_Change_and_Land"
          desc="The SRCCL provides a comprehensive overview of the entire land-climate system for the first time and decided to enlist land as a critical resource"/>
 
-
-  <entry term="NDC" name="Nationally Determined Contributions" wikidataID="Q20051297"
-         wikipediaPage="https://www.wikidata.org/wiki/Q20051297" desc="non-binding national plans highlighting climate actions"/>
 
   <entry term="LULUCF" name="Land Use, Land-Use Change, and Forestry" wikidataID="Q3348639"
          wikipediaPage="greenhouse gas inventory sector that covers emissions and removals of greenhouse gases resulting from direct human-induced
@@ -57,7 +60,10 @@
          desc="The PRIMAP-hist dataset combines several published datasets to create a comprehensive set of greenhouse gas emission pathways for every country"/>
 
   <entry term="NGHGIs" name="National Greenhouse Gas Inventories" wikidataID="Q5604177"
-         wikipediaPage="greenhouse gas inventory" desc="emission inventories of greenhouse gas emissions that are developed for a variety of reasons" />
+         wikipediaPage="greenhouse gas inventory"
+         desc="emission inventories of greenhouse gas emissions that are developed for a variety of reasons" >
+          <raw desc="Greenhouse gas inventories are emission inventories of greenhouse gas emissions that are developed for a variety of reasons. Scientists use inventories of natural and anthropogenic (human-caused) emissions as tools when developing atmospheric models."/>
+  </entry>
 
   <entry term="GWP" name="Global Warming Potential" wikidataID="Q901028" wikipediaPage="https://www.wikidata.org/wiki/Q901028"
          desc="Estimate of how an atmospheric gas affects global climate change"/>
@@ -80,10 +86,7 @@
   <entry term="FRA" name="Global Forest Resources Assessment" wikidataID="Q30601066"
          wikipediaPage="https://www.wikidata.org/wiki/Q30601066" desc="The Global Forest Resources Assessment (FRA) reports on the status and trends of the world's forest resources"/>
 
-  <entry term="NGHGIs" name="National Greenhouse Gas Inventories" wikidataID="Q5604177" wikipediaPage="https://www.wikidata.org/wiki/Q5604177" desc="Greenhouse gas inventories are emission inventories of greenhouse gas emissions that are developed for a variety of reasons. Scientists use inventories of natural and anthropogenic (human-caused) emissions as tools when developing atmospheric models."/>
 
-  <entry term="NDC" name="Nationally Dertermined Contributions "
-         desc="a non-binding national plan highlighting climate change mitigation, including climate-related targets for greenhouse gas emission reductions."/>
 
   <entry term="USEPA" name="United States Environmental Protection Agency" wikidataID="Q460173" wikipediaPage="https://en.wikipedia.org/wiki/United_States_Environmental_Protection_Agency"
          desc="an independent executive agency of the United States federal government tasked with environmental protection matters" />
@@ -113,8 +116,6 @@
 
   <entry term="SCBD"  name="Secretariat of the Convention on Biological Diversity" wikidataID=""/>
 
-  <entry term="BECCS" name=" bioenergy with carbon capture and storage" wikidataID=""/>
-
    <entry term="MTE"  name="Menominee Tribal Enterprises " wikidataID=""/>
 
   <entry term="CFI" name="continuous forest inventories"/>
@@ -140,11 +141,6 @@
 
   <entry term="BAU" name="Business as Usual scenario" wikidataID="Q5001850" wikipediaPage="https://en.wikipedia.org/wiki/Business_as_usual_(business)"
          desc="the normal execution of standard functional operations within an organisation, forms a possible contrast to projects or programmes which might introduce change"/>
-
-  <entry term="NDCs" name="Nationally Determined Contributions" wikidataID="Q20051297"
-         wikipediaPage="https://www.wikidata.org/wiki/Q20051297" desc="non-binding national plans highlighting climate actions"/>
-
-  <entry term="GWP" name="Global warming potential"/>
 
   <entry term="CANOPIES" name="Co-existence of Agriculture and Nature: Optimisation and Planning of Integrated Ecosystem Services "/>
 
