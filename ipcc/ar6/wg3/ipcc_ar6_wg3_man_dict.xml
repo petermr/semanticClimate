@@ -1,7 +1,9 @@
 <dictionary title="ipcc_ar6_wg3_man_dict" version="0.0.5" >
 
-  <desc> manually created by Abhishek Prasad, Priti, kavita joshi, Sunag Parasu, Karthikeyan V, Mandeep </desc>
-
+  <desc> manually created by Chapter02: Abhishek Prasad(Date: 2022-08-23) , Chapter03: Sunag Parasu(Date: 2022-12-06),Chapter05: Karthikeyan V(Date: 2022-12-06),
+       Chapter06: Mandeep(Date: 2022-11-19) Chapter07:kavita joshi(Date2022-08-23), Chapter08,17: Priti(Date: 2022-12-06)</desc>
+ 
+  [chapter 2](https://www.ipcc.ch/report/ar6/wg3) 
   <entry term="carbon budget" wikidataID="Q16722080"
          wikipediaPage="https://en.wikipedia.org/wiki/Carbon_budget" desc="limit on CO2 emission for a given climate impact"/>
 
@@ -85,13 +87,22 @@
     <synonym> term="near-term climate forcers"</synonym>
   </entry>
 
-  <entry term="CGTP" name="Combined Global Temperature Change Potential" wikidataID="" wikipediaPage="" descPage="" />
+  <entry term="CGTP" name="Combined Global Temperature Change Potential" wikidataID="" wikipediaPage="" descPage="" >
+    <metadata>
+      <!-- fictitious link -->
+      <source href="#ipcc/ar6/wg3/Chapter02/section.2.*.*"/>
+    </metadata>
+    
+  </entry>
 
-  <entry term="CO2-equivalent emission" wikidataID="" wikipediaPage=""
-         desc="Carbon dioxide equivalent or CO2e means the number of metric tons of CO2 emissions
-               with the same global warming potential as one metric ton of another greenhouse gas"
-         descPage="https://www3.epa.gov/carbon-footprint-calculator/tool/definitions/co2e.html"/>
-
+  <entry term="CO2-equivalent emission" wikidataID="NOT_FOUND" wikipediaPage="NOT_FOUND">
+         <links>
+            <link href="https://www3.epa.gov/carbon-footprint-calculator/tool/definitions/co2e.html"
+               desc="Carbon dioxide equivalent or CO2e means the number of metric tons of CO2 emissions
+               with the same global warming potential as one metric ton of another greenhouse gas">
+            </link>
+         </links>
+</entry>
   <entry term="emissions trajectory" wikidataID="" wikipediaPage=""
          desc="A projected development in time of the emission of a greenhouse gas
                or group of greenhouse gases, aerosols and greenhouse gas precursors."
@@ -121,15 +132,16 @@
               that is, energy that has not been subjected to any conversion or transformation process"
          descPage="https://stats.oecd.org/glossary/detail.asp?ID=2112"/>
 
-  <entry term="baseline scenario" wikidataID="" wikipediaPage=""
+  <entry term="baseline scenario" wikidataID="NOT_FOUND">
+           <link href="https://www.eea.europa.eu/help/glossary/eea-glossary/baseline-scenario"
          desc="Baseline scenarios depict a future state of society and/or environment in which
               no new environmental policies are implemented apart from those already in the
               pipeline today; or in which these policies do not have a discernable influence
-               regarding the questions being analysed"
-         descPage="https://www.eea.europa.eu/help/glossary/eea-glossary/baseline-scenario">
-      <synonym term="benchmark scenario"/>
-      <synonym term="reference scenario"/>
-      <synonym term="non-intervention scenario"/>
+               regarding the questions being analysed">
+              <synonym term="benchmark scenario"/>
+              <synonym term="reference scenario"/>
+              <synonym term="non-intervention scenario"/>
+            </link>
   </entry>
 
   <entry term="atmospheric lifetime" wikidataID="" wikipediaPage=""
@@ -158,11 +170,13 @@
       <synonym term="Final Energy Consumption"/>
   </entry>
 
-  <entry term="demand side solutions" wikidataID="" wikipediaPage="" desc="" descPage=""/>
-<entry term="Sinks" wikidataID="" desc="anything that holds greenhouse gases from the atmosphere"/>
-<entry term="sectoral dynamics" wikidataID="" desc=""/>
-<entry term="sectoral models" wikidataID="" desc=""/>
-<entry term="Path dependency" wikidataID="Q1093521" wikipediaPage="https://en.wikipedia.org/wiki/Path_dependence" desc="A concept where past events or decisions constrain later events or decisions"/>
+<entry term="demand side solutions" wikidataID="" wikipediaPage="" desc="" descPage=""/>
+
+  <!-- chapter 3-->
+  <entry term="sinks" wikidataID="" desc="anything that holds greenhouse gases from the atmosphere"/>
+<entry term="sectoral dynamics" wikidataID="NOT_FOUND" desc=""/>
+<entry term="sectoral models" wikidataID="NOT_FOUND" desc=""/>
+<entry term="path dependency" wikidataID="Q1093521" wikipediaPage="https://en.wikipedia.org/wiki/Path_dependence" desc="A concept where past events or decisions constrain later events or decisions"/>
 <entry term="up-scaling" wikidataID="Q7429728" wikipediaPage="https://en.wikipedia.org/wiki/Scale_up" desc="To improve the quality of something"/>
 
 <entry term="anthropogenic emissions" wikidataID="" descPage="https://www.ipcc.ch/sr15/chapter/glossary/#:~:text=and%20Anthropogenic%20removals.-,Anthropogenic%20emissions,waste%20management%20and%20industrial%20processes." desc="Emissions of greenhouse gases (GHGs), precursors of GHGs and aerosols caused by human activities."/>
@@ -198,7 +212,7 @@
 <entry term="climate sensitivity" wikidataID="Q521783" wikipediaPage="https://en.wikipedia.org/wiki/Climate_sensitivity" desc="Climate sensitivity is a measure of how much Earth's surface will cool or warm after a specified factor causes a change in its climate system"/>
 <entry term="business-as-usual projections" wikidataID="" descPage="https://granthaminstitute.com/2017/09/12/what-does-business-as-usual-mean-today/" desc="a baseline to compare alternative scenarios, or a starting point for analysis of a system"/>
 <entry term="abatement potential" wikidataID="" descPage="https://ourworldindata.org/how-much-will-it-cost-to-mitigate-climate-change#:~:text='Abatement%20potential'%20is%20the%20term,and%20economically%20feasible%20to%20achieve." desc="abatement potential is the term we use to describe the magnitude of potential GHG reductions which could be technologically and economically feasible to achieve"/>
-<entry term="trophospheric ozone" wikidataID="" descPage="https://www.ccacoalition.org/en/slcps/tropospheric-ozone" desc="ozone gas found in the troposphere"/>
+<entry term="tropospheric ozone" wikidataID="" descPage="https://www.ccacoalition.org/en/slcps/tropospheric-ozone" desc="ozone gas found in the troposphere"/>
 <entry term="aerosol emissions" wikidataID="" descPage="" desc="emissions of tiny atmospheric particles of sea spray, smoke, dust, and other substances"/>
 
 <entry term="global warming potential" wikidataID="Q901028" wikipediaPage="https://en.wikipedia.org/wiki/Global_warming_potential" desc="Global warming potential is the heat absorbed by any greenhouse gas in the atmosphere, as a multiple of the heat that would be absorbed by the same mass of carbon dioxide"/>
@@ -211,7 +225,7 @@
 <entry term="equivalence metrics" wikidataID="" wikipediaPage="" desc=""/>
 
 <entry term="equity principles" wikidataID="" wikipediaPage="" desc="principles such as equality, capability and responsibility"/>
-
+<!-- chapter 5-->
 <entry term="Sixth Assessment Report" 
        wikidataID="Q103843442" 
        wikipediaPage="https://en.wikipedia.org/wiki/IPCC_Sixth_Assessment_Report"
@@ -226,12 +240,6 @@
        wikidataID="" 
        wikipediaPage=""
        label="Low Energy Demand"/>
-
-<entry term="SDG"
-       label="Sustainable Development Goals "
-       wikidataID="Q7649586" 
-       wikipediaPage=""
-       desc="set of United Nations-defined global development goals and climate change"/>
 
 <entry term="ASI" 
        wikidataID="Q106417824" 
@@ -265,7 +273,7 @@
        wikipediaPage="https://en.wikipedia.org/wiki/Holism"
        desc="philosophical position that systems should be analyzed as wholes, not just as collections of parts"/>
 
-<entry term="gentrification " 
+<entry term="gentrification" 
        wikidataID="Q119380" 
        wikipediaPage="https://en.wikipedia.org/wiki/Gentrification"
        desc="urban socioeconomic process"/>
@@ -325,7 +333,7 @@
        wikipediaPage="https://en.wikipedia.org/wiki/Extractivism"
        desc="process of extracting resources from the earth"/>
 
-<entry term="Ameliorate" 
+<entry term="ameliorate" 
        wikidataID="Q8197270" 
        wikipediaPage=""
        desc="the act of making something better; improvement"/>
@@ -587,6 +595,8 @@
        wikidataID="Q188958" 
        wikipediaPage="https://en.wikiquote.org/wiki/Egalitarianism"
        desc="trend of thought that favors equality for all people"/>
+  
+<!-- chapter 6-->  
 <entry term="interquartile range" wikidataID="Q1916617"
              wikipediaPage="https://en.wikipedia.org/wiki/Interquartile_range" desc="measure of statistical dispersion"/>
 
@@ -723,7 +733,7 @@
     
 <entry term="gasoline " wikidataID="Q39558"
              wikipediaPage="https://en.wikipedia.org/wiki/Gasoline" desc="petroleum-derived liquid used primarily as a fuel"/>
-
+<!-- chapter 7-->
 
   <entry term="anthropogenic" wikidataID="Q29169263"
          wikipediaPage="" desc="anthropogenic may also refer to things that have been generated by humans">
@@ -886,6 +896,7 @@
          desc="Biochar is the lightweight black residue, made of carbon and ashes, remaining after the pyrolysis of biomas">
   </entry>
 
+ <!-- chapter 8--> 
 <entry term="urbanization" wikidataID="Q161078" wikipediapage="https://en.wikipedia.org/wiki/Urbanization"
               desc="long term population movements (shift) from rural to urban areas;gradual increase 
               in the proportion  of people living in urban areas, and the ways in which each society
@@ -1055,18 +1066,14 @@
 <entry term="WTP" name="Willingness to pay" 
              wikidataID="Q140813" wikipediapage="https://en.wikipedia.org/wiki/Willingness_to_pay" 
              desc="Economic concept of the maximum price a buyer is willing and able to give in a transaction"/>                                                                                               
-<entry term="des" wikidataID="Q39911"
-             wikipediapage="https://en.wikipedia.org/wiki/Decade" 
-             desc="period of 10 years"/>                                                                                               
+
 <entry term="UHI" name="urban heat island" wikidataID="Q215712"
              wikipediapage="https://en.wikipedia.org/wiki/Urban_heat_island" 
              desc="urban area that is significantly warmer than its surrounding rural areas due to human activities"/>                                                                                               
 <entry term="exacerbated" wikidataID="Q1383410"
              wikipediapage="https://en.wikipedia.org/wiki/Exacerbation" 
              desc="worsening of a disease"/>                                                                                               
-<entry term="remittance" wikidataID="Q1351807"
-             wikipediapage="https://en.wikipedia.org/wiki/Remittance"
-             desc="money transfer by a foreign worker to their home country"/>                                                                                               
+
 <entry term="legislation" wikidataID="Q49371"
              wikipediapage="https://en.wikipedia.org/wiki/Legislation"
              desc="law enacted by a legislature or other governing body"/>                                                                                               
@@ -1074,9 +1081,6 @@
              wikipediapage="https://en.wikipedia.org/wiki/Zoning" 
              desc="describes the control by authority of the use of land, and of the buildings thereon"/>                                                                                                                                                                                
 
-<entry term="trajectory" wikidataID="Q193139"
-              wikipediapage="https://en.wikipedia.org/wiki/Trajectory"
-             desc="path of a moving object"/>                                                                                                 
 <entry term="off-grid utilities" wikidataID=""
              wikipediapage=""
              desc=""/>
@@ -1104,12 +1108,7 @@
 <entry term="WHO" name="World Health Organization" wikidataID="Q7817"
              wikipediapage="https://en.wikipedia.org/wiki/World_health_organization" 
              desc="specialized agency of the United Nations that is concerned with international public health"/>                                                                                                      
-<entry term="seize" wikidataID="Q3477956"
-              wikipediapage="https://en.wikipedia.org/wiki/Seize"
-             desc=""/>                                                                                                      
-<entry term="pedestrian" wikidataID="Q221488"
-              wikipediapage="https://en.wikipedia.org/wiki/Pedestrian"
-             desc="person who travels on foot"/>
+
 <entry term="regimes" wikidataID="Q5589178"
              wikipediapage="https://en.wikipedia.org/wiki/Regime" 
              desc="form of government or the set of rules, cultural or social norms, etc.
@@ -1144,6 +1143,7 @@
 <entry term="repurposing" wikidataID="Q21021151"
              wikipediapage="https://en.wikipedia.org/wiki/Repurposing" 
              desc="using object intended for one purpose in alternative way"/>                                                                                                     
+<!-- chapter 17-->
 <entry term="sustainable transport" wikidataID="Q1364310"
              wikipediapage="https://en.wikipedia.org/wiki/Sustainable_transport" 
              desc="broad subject of transport that is sustainable in the senses of social, environmental and climate 
@@ -1201,9 +1201,7 @@
 <entry term="Barcelona’s" wikidataID="Q1492"
               wikipediapage="https://en.wikipedia.org/wiki/Barcelona"
              desc="city in Catalonia, Spain"/>
-<entry term="procurement" wikidataID="Q829492"
-             wikipediapage="https://en.wikipedia.org/wiki/Procurement" 
-             desc="acquisition of goods and services"/>
+
 <entry term="peer-to-peer" wikidataID="Q161410"
              wikipediapage="https://en.wikipedia.org/wiki/Peer-to-peer" 
              desc="type of decentralized and distributed network architecture"/>
@@ -1225,9 +1223,6 @@
 <entry term="prosumer" wikidataID="Q1145220" 
              wikipediapage="https://en.wikipedia.org/wiki/Prosumer" 
               desc="person who consumes and produces a product"/>
-<entry term="incentives" wikidataID="Q1414816"
-              wikipediapage="https://en.wikipedia.org/wiki/Incentive" 
-              desc="something that motivates an individual to perform an action"/>
 <entry term="demolition" wikidataID="Q331483"
               wikipediapage="https://en.wikipedia.org/wiki/Demolition" 
               desc="tearing-down of buildings and other structures"/>
@@ -1291,9 +1286,6 @@
 <entry term="SDG 14" name="Sustainable Development Goal 14" wikipediapage="https://en.wikipedia.org/wiki/Sustainable_Development_Goal_14" wikidataID="Q53581239"
              desc="Life Below Water"/>
 
-<entry term="watch dogs" wikipediapage="https://en.wikipedia.org/wiki/Watch_Dogs" wikidataID="Q29919397"
-             desc=""/>
-
 <entry term="SDG 12" name="Sustainable Development Goal 12" wikipediapage="https://en.wikipedia.org/wiki/Sustainable_Development_Goal_12" wikidataID="Q53581232"
              desc="Responsible Consumption and Production"/>
 
@@ -1316,9 +1308,6 @@
 
 <entry term="Renewable Energy Systems" wikipediapage="https://en.wikipedia.org/wiki/Renewable_Energy_Systems" wikidataID="Q7313077"
              desc="global renewable energy company"/>
-
-<entry term="Theory U" wikipediapage="https://en.wikipedia.org/wiki/Theory_U" wikidataID="Q24885053"
-             desc="Theory U is a change management method and the title of a book by Otto Scharmer."/>
 
 <entry term="ESD" name="electrostatic discharge" wikipediapage="https://en.wikipedia.org/wiki/Electrostatic_discharge" wikidataID="Q3574961"
              desc="sudden flow of electricity between two electrically charged objects caused by contact, an electrical short, or dielectric breakdown"/>
