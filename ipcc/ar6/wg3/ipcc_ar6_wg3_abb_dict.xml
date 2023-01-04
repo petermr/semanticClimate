@@ -175,7 +175,6 @@
   <entry name="NGOs" term="non-governmental organizations">
     <raw wikidataID="Q58296295, Q7048923, Q29518039, Q66185556, Q64407586"/>
   </entry>
-  <entry name="IPCC" term="Intergovernmental  Process  on  Climate  Change" wikidataID=""/>
   <entry name="FAR" term="First Assessment Report" wikidataID=""/>
   <entry name="SAR" term="Second Assessment Report" wikidataID=""/>
   <entry name="NDCs" term="nationally  determined contributions" wikidataID=""/>
@@ -251,6 +250,7 @@
   </entry>
   <entry name="IPCC" term="Intergovernmental Panel on Climate Change">
     <raw wikidataID="Q171183, Q56670540, Q59664588"/>
+    <synonyms>"Intergovernmental  Process  on  Climate  Change"</synonyms>
   </entry>
   <entry name="SRCCL" term="Special Report on Climate Change and Land" wikidataID="Q66310618"/>
   <entry name="IPBES" term="Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services" wikidataID="Q1666088"/>
@@ -275,9 +275,6 @@
   <entry name="CLT" term="cross-laminated timber" wikidataID="Q911043"/>
   <entry name="NYC" term="New York City">
     <raw wikidataID="Q60, Q18710663, Q99673783, Q7013127, Q111668100, Q114518687, Q16998793"/>
-  </entry>
-  <entry name="US" term="United States">
-    <raw wikidataID="Q30, Q4917, Q29468, Q29552, Q8676, Q11220, Q11201"/>
   </entry>
   <entry name="ICIs" term="International Cooperative Initiatives" wikidataID=""/>
   <entry name="UNEP" term="UN Environment Programme&#8217;s" wikidataID=""/>
