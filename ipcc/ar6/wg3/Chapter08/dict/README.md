@@ -21,7 +21,7 @@ It's in .XML format
 
 * cd sections
 
-* mkdir 0_main_body```
+* mkdir 0_main_body
 
 - Place the html of your chapter inside the 0_main_body directory.
 
