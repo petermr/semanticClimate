@@ -44,6 +44,6 @@ where,
 
 --make_json - just enter this. Not of current use, but required.
 
---make_ami_dict – uses the entities created in the above command
+--make_ami_dict – uses the entities created in the above command.
 
 --extract_abb - the abbreviation dictionary that is the output.
