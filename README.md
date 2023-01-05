@@ -20,3 +20,7 @@ We are looking for volunteers/funders to:
 - develop the content (start a Discussion thread at https://github.com/petermr/petermr/discussions/)
    - dictionaries
    - semantified chapters
+
+# Discussions
+We are using the Github Discussions tool to keep a narrative of our work. Currently we focus on individual chapters of the IPCC/AR^/WG3 report.
+* WG3/Chapter08: https://github.com/petermr/semanticClimate/discussions/21
