@@ -23,4 +23,5 @@ We are looking for volunteers/funders to:
 
 # Discussions
 We are using the Github Discussions tool to keep a narrative of our work. Currently we focus on individual chapters of the IPCC/AR^/WG3 report.
+* WG3/Chapter06: https://github.com/petermr/semanticClimate/discussions/22
 * WG3/Chapter08: https://github.com/petermr/semanticClimate/discussions/21
