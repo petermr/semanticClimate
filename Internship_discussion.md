@@ -245,22 +245,39 @@ Actions: Work on extraction of images
  
 ### MONDAY 2023-01-01 at 1430IST 
  *SemanticClimate Vision*
+ 
  -toolkit for a typical chapter.
+ 
  -protocol
+ 
  -code
+ 
  -docs,
+ 
  -examples
+ 
  -dictionaries
+ 
  -knowledge graph
+ 
  -for each chapter
+ 
  -dictionaries
+ 
  -annotated chapters
+ 
  -knowledge graph
+ 
  -unify / automate for "all" IPCC
+ 
  -chapters
+ 
  -dictionaries
+ 
  -presentations
+ 
  -videos
+ 
  -workshops?
  
 *Roadmap:*
