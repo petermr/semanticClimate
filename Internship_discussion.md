@@ -244,8 +244,7 @@ Actions: Work on extraction of images
 
  
 ### MONDAY 2023-01-01 at 1430IST 
- 
-*SemanticClimate Vision*
+ *SemanticClimate Vision*
  -toolkit for a typical chapter.
  -protocol
  -code
