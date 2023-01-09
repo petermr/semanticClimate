@@ -243,5 +243,33 @@ Actions: Work on extraction of images
 - markup HTML chapters with dictionaries
 
  
+### MONDAY 2023-01-01 at 1430IST 
  
+*SemanticClimate Vision*
+ -toolkit for a typical chapter.
+ -protocol
+ -code
+ -docs,
+ -examples
+ -dictionaries
+ -knowledge graph
+ -for each chapter
+ -dictionaries
+ -annotated chapters
+ -knowledge graph
+ -unify / automate for "all" IPCC
+ -chapters
+ -dictionaries
+ -presentations
+ -videos
+ -workshops?
+ 
+*Roadmap:*
+semanticClimate will create starter toolkits for any new project, including workshops.
+Other projects:
+* phytochemistry 2 interns (also @Manny)
+* chemistry dictionary (exists in CEVOpen)
+* plants dictionary (also CEVOpen)
+* imageanalysis semanticClimate (barcharts) (0.5-2 people) joined by @Anuv
+(info only) website for @GY(0.5 person)
  
