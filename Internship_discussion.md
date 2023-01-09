@@ -37,7 +37,7 @@ Presentation to UN, GITA Talk
 
 * Next Hackathon for wikimedian
  
-## FRIDAY 2022-12-02 0900UTC 1430 IST and/or 1230 UTC 1800 IST
+### FRIDAY 2022-12-02 0900UTC 1430 IST and/or 1230 UTC 1800 IST
 
 ### Central dictionary 
 
@@ -74,7 +74,7 @@ content of system hypergraph
 * WIKIDATA 
 
 
-## MONDAY 2022-12-05 0900 UTC 1430 IST
+### MONDAY 2022-12-05 0900 UTC 1430 IST
 
 * dictionaries
 
@@ -109,7 +109,7 @@ summerise chapter
 * False negative
 * true positive 
 
-## Tuesday 2022-12-06 0900UTC 1430IST 
+### Tuesday 2022-12-06 0900UTC 1430IST 
 * We need 3 dictionaries for each chapter. There must be no obvious false positives (e.g. not "total pages") - that may need manual filtering
 * Abbreviations
 * Keywords/phrases (docanalysis)
@@ -133,7 +133,7 @@ summerise chapter
  
 - link to wikidataID
  
-## WEDNESDAY 2022-12-07 0900 UTC 1430 IST.
+### WEDNESDAY 2022-12-07 0900 UTC 1430 IST.
 * Review of DID/WILL/BLOCK 
 
 * Review of dictionaries 
@@ -156,7 +156,7 @@ summerise chapter
 * presentations for Southern Univ Denmark 
 * review of materials (mainly those above)
  
-## WEDNESDAY 2022-12-07 0900 UTC 1430 IST.
+### WEDNESDAY 2022-12-07 0900 UTC 1430 IST.
  
 * explanation of chapters()
 * dictionaries
@@ -169,7 +169,7 @@ summerise chapter
 * presentations for Southern Univ Denmark 
 * review of materials (mainly those above)
  
-## WEDNESDAY 2022-12-07 0900 UTC 1430 IST.
+### WEDNESDAY 2022-12-07 0900 UTC 1430 IST.
  
 * explanation of chapters(manual summary that can be understandable by high school student)
 * dictionaries
@@ -184,7 +184,7 @@ summerise chapter
 * presentations for Southern Univ Denmark 
 * review of materials (mainly those above)
 
- ## FRIDAY 2022-12-09 0900 UTC 1430 IST.
+### FRIDAY 2022-12-09 0900 UTC 1430 IST.
  **DENMARK VISIT:**
 @GY, @Axel Dürkop, @Simon Worthington, @Shweata Hegde
 Discussed this visit in depth.  The 4 current team below will create a series of presentations. 
@@ -206,20 +206,20 @@ We will rehearse these tomorrow at 0900 UTC.
 Date 12th Dec time 14:15 - 15:00 Central European Time
 @Peter will add more details in #dictionaries and #outreach
 
- # MONDAY 2022-12-12 at 1845IST 
+### MONDAY 2022-12-12 at 1845IST 
  
 Meeting with Southern university
  
- ## TUESDAY 2022-12-13 at 1700IST 1330UTC
+### TUESDAY 2022-12-13 at 1700IST 1330UTC
  
  Meeting wwith Joe Miller
  
- ## WEDNESDAY 2022-12-14 at 1800IST
+### WEDNESDAY 2022-12-14 at 1800IST
  
 Actions: Work on extraction of images
  Work on chapter readme files
  
- ## FRIDAY 2022-12-16 at 1430IST 0900 UTC
+### FRIDAY 2022-12-16 at 1430IST 0900 UTC
 * Intern ROADMAP
 *  high-level tasks (documents and software)
  - 3 per-chapter dictionaries (manual, abb,  keyphrase NLPconsistent nomenclature
