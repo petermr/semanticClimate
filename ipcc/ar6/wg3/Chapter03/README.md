@@ -10,7 +10,7 @@ The goal is to extract useful information from the IPCC documents so that  relev
 
 <p> IPCC or Intergovernmental Panel on Climate Change (IPCC) which is an intergovernmental body of the United Nations which is responsible for advancing knowledge on human-induced climate change. The IPCC provides a scientific, comprehensive and objective information on climate change due to anthropogenic factoc as well as the possible response options. The IPCC undertakes periodic and systematic reviews of all published literature and with the help of the global scientific community reviews it making it the biggest peer review process. This review is then compiled into Assessment Reports. These reports are important for policymakers and the general public. <p>
 
-## What is chapter 03 about?  
+## What is chapter 03 about?  /
 
 * Title: </b>Mitigation Pathways Compatible with Long-Term Goals. 
 
