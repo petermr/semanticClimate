@@ -1,13 +1,9 @@
 # Bar graph images
 
-<<<<<<< HEAD
 This is a  project to extract complete numerical data *automatically* from pixel imgaes (PNGs). It is based on a successful projrct to extract data from various types of plot;
 discussion thread: https://github.com/petermr/petermr/discussions/8 .
  (https://github.com/petermr/petermr/discussions/8#discussioncomment-2495899) where a CSV file is created from a plot. 
-=======
-This is a  project to extract complete numerical data *automatically* from pixel images (PNGs). It is based on a successful project to extract data from lines (https://github.com/petermr/petermr/discussions/8#discussioncomment-2495899) where a CSV file is created from a plot. 
-
->>>>>>> 6cefe72c13bae537cadf5c5872a675fd722f146a
+ 
 <img src="https://user-images.githubusercontent.com/733515/161443757-3d494b55-7cda-42e9-bb22-a0b097fbd667.png"></img>
 
 We propose to do this for bar graphs such as 
