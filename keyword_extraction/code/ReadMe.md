@@ -1,8 +1,8 @@
-#key word extraction
+# key word extraction
 
 *how to use keyword_extraction.py*
 
--simple program
+- simple program
  
 ## input:
 we are feeding html as input file 
@@ -11,10 +11,10 @@ we are feeding html as input file
 As result we get text file we will use that text file for getting keywords and keyphrases
   
 ## methods for keywords/keyphrase:
-1)gensim
-2)Rake
-3)yake
-4)keybert
+1) gensim
+2) Rake
+3) yake
+4) keybert
 
 
 
