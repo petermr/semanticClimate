@@ -119,7 +119,7 @@ class keyword_extraction():
 
   def extract_keywords_yake(self):
     self.extract_text_fom_html()
-    kw_extractor = yake.KeywordExtractor(top=100, stopwords=None)
+    kw_extractor = yake.KeywordExtractor(top=100, n=n_gram, stopwords=None)
     keywords_yake = kw_extractor.extract_keywords(self.text)
     df_yake =pd.DataFrame(keywords_yake)
     df_yake.rename(columns = {0:'keyword/phrase',1:'score'}, inplace = True)
@@ -171,6 +171,10 @@ if __name__ == "__main__":
     parser.add_argument('--method',
                       required=True,  choices=['rake','yake','gensim','keyBERT','textrank','rawtext'],
                       help='which method you want to us to extact keywords /...')
+    parser.add_argument('--n_gram',
+                        required=False,
+                        help='length of n-grams to extract(Yake only) : /...'
+                        )
     
 
     args = parser.parse_args()
@@ -178,6 +182,7 @@ if __name__ == "__main__":
     html_path = args.html_path #'/content/semanticClimate/ipcc/ar6/wg3/Chapter06/fulltext.flow.html'
     saving_path = args.saving_path  #'/content/'
     method = args.method
+    n_gram = args.n_gram
     
     keyword_extractions = keyword_extraction(html_path,saving_path,method)
     keyword_extractions.main()
