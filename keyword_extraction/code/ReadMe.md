@@ -1,4 +1,4 @@
-# key word extraction
+# keyword extraction
 
 *how to use keyword_extraction.py*
 
