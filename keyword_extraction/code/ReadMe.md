@@ -32,7 +32,7 @@ As result we get text file we will use that text file for getting keywords and k
     python keyword_extraction_v2_test.py --html_path semanticClimate\ipcc\ar6\wg3\Chapter05\fulltext.html --saving_path semanticClimate\ipcc\ar6\wg3\Chapter05\fulltext.html --method gensim
  
  * This will give us an output file called ```gensim_keywords.csv``` in the ```--saving_path``` directory
- * Replace the ```--html_path``` and ```--saving_path``` with 
+  
 
 ## Methods for keywords/keyphrases:
 1) gensim
