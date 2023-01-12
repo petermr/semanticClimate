@@ -27,7 +27,7 @@ As result we get text file we will use that text file for getting keywords and k
     --n_gram N_GRAM       length of n-grams to extract(Yake only) : /...
     --html2text           Converts HTML to TXT : /...
 
-**Example Command To Extract Keywords**
+**Example Command To Extract Keywords Using Gensim Method**
     
     python keyword_extraction_v2_test.py --html_path semanticClimate\ipcc\ar6\wg3\Chapter05\fulltext.html --saving_path semanticClimate\ipcc\ar6\wg3\Chapter05\fulltext.html --method gensim
  
