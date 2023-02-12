@@ -230,10 +230,10 @@ class keyword_extraction():
             keyphrases = extractor(line)
             for i in keyphrases:
                 self.keyphrases.append(i)
-            print(self.keyphrases)
+            #print(self.keyphrases)
         self.keyphrases = [*set(self.keyphrases)]
         df = pd.DataFrame(self.keyphrases)
-        df.to_csv(self.saving_path + 'keyphrases.csv')
+        df.to_csv(self.saving_path + 'keyphrases.csv' ,index=False)
 
 
     def main(self):
