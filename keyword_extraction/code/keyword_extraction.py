@@ -76,7 +76,7 @@ class keyword_extraction():
 
   def extract_text_fom_html(self):
 
-    with open(self.html_path, 'r') as f:
+    with open(self.html_path, 'r', encoding="utf-8") as f:
       html = f.read()
       soup = BeautifulSoup(html, features="html.parser")
      
@@ -97,7 +97,7 @@ class keyword_extraction():
       #print(text)
       # TEXT_ = f'Chapter06_text.txt'
       # saving_path = '/content/'     
-      with open('text.txt', 'w') as file:
+      with open('text.txt', 'w', encoding="utf-8") as file:
           file.write(text)
       return self.text
   def extract_keywords_rake(self):
