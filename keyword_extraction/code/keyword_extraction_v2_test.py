@@ -11,6 +11,8 @@ from bs4 import BeautifulSoup
 from keybert import KeyBERT
 from multi_rake import Rake
 from summa import keywords
+import re
+import json
 import yake
 from gensim.summarization import keywords
 from IPython.display import HTML
@@ -27,7 +29,8 @@ from transformers import (
 )
 from transformers.pipelines import AggregationStrategy
 import numpy as np
-import os
+#import os
+#os.environ['TRANSFORMERS_CACHE'] = 'E:\git\transformer_cache'
 
 nlp = spacy.load("en_core_web_lg")
 
@@ -180,26 +183,13 @@ class keyword_extraction():
         df_gensim.to_csv(self.saving_path + 'gensim_keywords.csv', index=None)
 
     def extract_keywords_yake(self):
-        self.yake_keyphrases = []
-        self.clean_up_html_to_text()
-        kw_extractor = yake.KeywordExtractor(top = 100, n = n_gram, stopwords = None)
-        
-        
-        
-        
-        for line in tqdm(self.text.splitlines()):
-            #print(line)
-            keywords_yake = kw_extractor.extract_keywords(line)
-            print(keywords_yake)
-
-            
-            
-        ''' for i in keyphrases:
-                self.keyphrases.append(i)
-            print(self.keyphrases)
-        self.keyphrases = [*set(self.keyphrases)]
-        df = pd.DataFrame(self.keyphrases)
-        df.to_csv(self.saving_path + 'keyphrases.csv')'''
+        self.extract_text_fom_html()
+        kw_extractor = yake.KeywordExtractor(top=100, stopwords=None, )
+        keywords_yake = kw_extractor.extract_keywords(self.text)
+        df_yake =pd.DataFrame(keywords_yake)
+        df_yake.rename(columns = {0:'keyword/phrase',1:'score'}, inplace = True)
+        #df_yake = self.clean(df_yake)
+        df_yake['keyword/phrase'].to_csv(self.saving_path +'yake_keywords.csv',index=None) 
 
     def extract_keywords_textrank(self):
         self.extract_text_fom_html()
@@ -234,6 +224,78 @@ class keyword_extraction():
         self.keyphrases = [*set(self.keyphrases)]
         df = pd.DataFrame(self.keyphrases)
         df.to_csv(self.saving_path + 'keyphrases.csv' ,index=False)
+        return self.keyphrases
+    
+    def extraction_unigrams(self):
+
+        df = pd.read_csv('Chapter05_keyphrases.csv')
+        key = df['0'].tolist()
+        unigram =[]
+        ngram = []
+
+        pattern = "\s"
+        print(type(key))
+        for i in key:
+            if re.findall(pattern, i):
+                ngram.append(i)
+                #print('N-gram')
+            else:
+                unigram.append(i)
+                #print('Unigram')
+        #print(ngram)
+        #print(unigram)
+        #self.unigram = unigram
+        print(len(unigram))
+        return unigram
+        #print(len(ngram))
+
+    def wikidata_out(self):
+        #list = self.extraction_unigrams()
+        list = ['data']#, 'climate', 'mitigation']
+        #list = self.unigram
+        
+        for i in list:
+            self.wiki_lookup(i)
+            json_object = json.dumps(self.result, indent=4)
+            with open(self.saving_path + 'wikidata.txt', 'w', encoding="utf-8") as file:
+                with open("sample.json", "w") as outfile:
+
+                    outfile.write(json_object)
+
+
+            
+
+    
+
+    def wiki_lookup(self, query):
+        """Queries Wikidata API for Wikidata Item IDs for terms in ami-dict
+
+        :param query: term to query wikdiata for ID
+        :type query: string
+        :returns: potential Wikidata Item URLs
+        :rtype: list
+
+        """
+        params = {
+            "action": "wbsearchentities",
+            "search": query,
+            "language": "en",
+            "format": "json",
+            "wbsprofile": "language"
+        }
+        data = requests.get(
+            "https://www.wikidata.org/w/api.php", params=params)
+        result = data.json()
+        hit_list = []
+        self.result = result
+        for hit in result['search']:
+            try:
+                if "scientific article" not in hit["description"]:
+                    hit_list.append(hit["id"])
+            except:
+                hit_list2.append(hit["id"])
+        return hit_list
+
 
 
     def main(self):
@@ -250,7 +312,9 @@ class keyword_extraction():
         elif method == 'hf':
             self.extract_keywords_hf()
         elif method == 'rawtext':
-            self.clean_up_html_to_text()
+            self.wikidata_out()
+        else :
+            self.extract_keywords_hf()
         
 class KeyphraseExtractionPipeline(TokenClassificationPipeline):
     def __init__(self, model, *args, **kwargs):
@@ -273,19 +337,19 @@ class KeyphraseExtractionPipeline(TokenClassificationPipeline):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('-f', '--html_path',
+    parser.add_argument('-i', '--html_path',
                         required=False,
                         help='give the path where your html lives: /...')
 
-    parser.add_argument('-i', '--text_file',
+    parser.add_argument('-t', '--text_file',
                         required=False,
                         help='path to textfile: /...')
 
-    parser.add_argument('--saving_path',
+    parser.add_argument('-s', '--saving_path',
                         required=True,
                         help='path of the folder where you want to save the files : /...'
                         )
-    parser.add_argument('--method',
+    parser.add_argument('-m', '--method',
                         required=False, choices=['rake', 'yake', 'gensim', 'keyBERT', 'textrank', 'rawtext', 'hf'],
                         help='which method you want to us to extact keywords /...')
     parser.add_argument('--n_gram',
