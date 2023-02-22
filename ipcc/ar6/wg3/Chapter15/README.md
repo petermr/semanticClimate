@@ -31,27 +31,36 @@
 * [Summary for a student in high school]
 
 ## Dictionaries
-* [Abbreviations (XML)] ((https://github.com/petermr/semanticClimate/blob/c5608af3babe19c48d9f3e30d2793d1297b8eb4b/ipcc/ar6/wg3/Chapter15/dict/ipcc_chapter15_abb_dict.xml))
-* [Manual (XML)] ((https://github.com/petermr/semanticClimate/blob/c5608af3babe19c48d9f3e30d2793d1297b8eb4b/ipcc/ar6/wg3/Chapter15/dict/ipcc_chapter15_man_dict.xml))
-* [Keywords/Phrases (CSV)] ((https://github.com/petermr/semanticClimate/blob/c5608af3babe19c48d9f3e30d2793d1297b8eb4b/ipcc/ar6/wg3/Chapter15/raw/gensim_keywords.csv))
+* [Abbreviations (XML)](https://github.com/petermr/semanticClimate/blob/c5608af3babe19c48d9f3e30d2793d1297b8eb4b/ipcc/ar6/wg3/Chapter15/dict/ipcc_chapter15_abb_dict.xml)
+* [Manual (XML)](https://github.com/petermr/semanticClimate/blob/c5608af3babe19c48d9f3e30d2793d1297b8eb4b/ipcc/ar6/wg3/Chapter15/dict/ipcc_chapter15_man_dict.xml)
+* [Keywords/Phrases (CSV)](https://github.com/petermr/semanticClimate/blob/c5608af3babe19c48d9f3e30d2793d1297b8eb4b/ipcc/ar6/wg3/Chapter15/raw/gensim_keywords.csv)
 
 ## Images
 
- image1(https://github.com/petermr/semanticClimate/blob/c5608af3babe19c48d9f3e30d2793d1297b8eb4b/ipcc/ar6/wg3/Chapter15/pdfimages/image.11.1.71_522.51_267.png)
+ ![Alt text](https://github.com/petermr/semanticClimate/blob/c5608af3babe19c48d9f3e30d2793d1297b8eb4b/ipcc/ar6/wg3/Chapter15/pdfimages/image.11.1.71_522.51_267.png "Finance as: Enabler and Follower")
+ 
 
- image2 https://github.com/petermr/semanticClimate/blob/c5608af3babe19c48d9f3e30d2793d1297b8eb4b/ipcc/ar6/wg3/Chapter15/pdfimages/image.11.2.71_522.290_726.png
+ ![Alt text](https://github.com/petermr/semanticClimate/blob/c5608af3babe19c48d9f3e30d2793d1297b8eb4b/ipcc/ar6/wg3/Chapter15/pdfimages/image.11.2.71_522.290_726.png "Total climate finance flows between 2013-2020")
 
-image3(https://github.com/petermr/semanticClimate/blob/c5608af3babe19c48d9f3e30d2793d1297b8eb4b/ipcc/ar6/wg3/Chapter15/pdfimages/image.12.1.71_522.51_293.png)
 
-image4 https://github.com/petermr/semanticClimate/blob/c5608af3babe19c48d9f3e30d2793d1297b8eb4b/ipcc/ar6/wg3/Chapter15/pdfimages/image.12.2.71_476.316_382.png
 
-image5 https://github.com/petermr/semanticClimate/blob/c5608af3babe19c48d9f3e30d2793d1297b8eb4b/ipcc/ar6/wg3/Chapter15/pdfimages/image.52.1.72_523.30_322.png
+![Alt text](https://github.com/petermr/semanticClimate/blob/c5608af3babe19c48d9f3e30d2793d1297b8eb4b/ipcc/ar6/wg3/Chapter15/pdfimages/image.12.1.71_522.51_293.png )
 
-![image6]https://github.com/petermr/semanticClimate/blob/c5608af3babe19c48d9f3e30d2793d1297b8eb4b/ipcc/ar6/wg3/Chapter15/pdfimages/image.58.1.77_498.134_417.png
 
-![image7]https://github.com/petermr/semanticClimate/blob/c5608af3babe19c48d9f3e30d2793d1297b8eb4b/ipcc/ar6/wg3/Chapter15/pdfimages/image.66.1.77_529.306_596.png
+![Alt text](https://github.com/petermr/semanticClimate/blob/c5608af3babe19c48d9f3e30d2793d1297b8eb4b/ipcc/ar6/wg3/Chapter15/pdfimages/image.12.2.71_476.316_382.png)
 
-![image8]https://github.com/petermr/semanticClimate/blob/c5608af3babe19c48d9f3e30d2793d1297b8eb4b/ipcc/ar6/wg3/Chapter15/pdfimages/image.75.1.77_524.107_290.png
 
-![image9]https://github.com/petermr/semanticClimate/blob/c5608af3babe19c48d9f3e30d2793d1297b8eb4b/ipcc/ar6/wg3/Chapter15/pdfimages/image.94.1.77_519.31_315.png
-Images
+![Alt text](https://github.com/petermr/semanticClimate/blob/c5608af3babe19c48d9f3e30d2793d1297b8eb4b/ipcc/ar6/wg3/Chapter15/pdfimages/image.52.1.72_523.30_322.png "Yearly mitigation investment flows")
+
+
+![Alt text](https://github.com/petermr/semanticClimate/blob/c5608af3babe19c48d9f3e30d2793d1297b8eb4b/ipcc/ar6/wg3/Chapter15/pdfimages/image.58.1.77_498.134_417.png "Finance as: enabler and follower")
+
+
+![Alt text](https://github.com/petermr/semanticClimate/blob/c5608af3babe19c48d9f3e30d2793d1297b8eb4b/ipcc/ar6/wg3/Chapter15/pdfimages/image.66.1.77_529.306_596.png "Risk Analysis")
+
+
+![Alt text](https://github.com/petermr/semanticClimate/blob/c5608af3babe19c48d9f3e30d2793d1297b8eb4b/ipcc/ar6/wg3/Chapter15/pdfimages/image.75.1.77_524.107_290.png "investment trajectory")
+
+
+![Alt text](https://github.com/petermr/semanticClimate/blob/c5608af3babe19c48d9f3e30d2793d1297b8eb4b/ipcc/ar6/wg3/Chapter15/pdfimages/image.94.1.77_519.31_315.png "investment vs cost" )
+
