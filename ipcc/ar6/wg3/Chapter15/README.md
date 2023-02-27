@@ -15,16 +15,16 @@
 * Title: </b>Finance and Investment. 
 
 ## Introduction
-* [Introduction (15.1 - 15.1.1)]
+* [Introduction (15.1 - 15.1.1)](https://github.com/petermr/semanticClimate/blob/f6a1df33c0af71e5cc8f8e0e5f536aa58a7e3f33/ipcc/ar6/wg3/Chapter15/introduction.md)
 
 ## Table of contents
-* [Table of Contents]
+* [Table of Contents](https://github.com/petermr/semanticClimate/blob/f6a1df33c0af71e5cc8f8e0e5f536aa58a7e3f33/ipcc/ar6/wg3/Chapter15/Table_of_contents.md)
 
 ## Executive Summary
-* [Executive Summary]
+[Executive summary](https://github.com/petermr/semanticClimate/blob/f6a1df33c0af71e5cc8f8e0e5f536aa58a7e3f33/ipcc/ar6/wg3/Chapter15/execsummary.md)
 
 ## Chapter FAQs
-* [Frequently asked questions]
+* [Frequently asked questions](https://github.com/petermr/semanticClimate/blob/f6a1df33c0af71e5cc8f8e0e5f536aa58a7e3f33/ipcc/ar6/wg3/Chapter15/FAQs.md)
 
 
 ## Summary for a student in high school
