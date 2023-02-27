@@ -1,3 +1,4 @@
+## Introduction
 Finance for climate action (or climate finance), environmental finance (which also covers other 
  environmental priorities such as water, air pollution and biodiversity), and sustainable finance (which 
  encompasses issues relating to socio-economic impacts, poverty alleviation and empowerment) are 
