@@ -1,0 +1,893 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto:wght@300;400&family=VT323&display=swap);
+
+*, ::after, ::before {
+  box-sizing: border-box
+}
+
+ol[class], ul[class] {
+  padding: 0
+}
+
+blockquote, body, dd, dl, figcaption, figure, h1, h2, h3, h4, li, ol[class], p, ul[class] {
+  margin: 0
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5
+}
+
+ol[class], ul[class] {
+  list-style: none
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto
+}
+
+img {
+  max-width: 100%;
+  display: block
+}
+
+button, input, select, textarea {
+  font: inherit
+}
+
+@media (prefers-reduced-motion:reduce) {
+  * {
+    animation-duration: 0s !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0s !important;
+    scroll-behavior: auto !important
+  }
+}
+
+.home {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto
+}
+
+.page__title {
+  font-family: 'Noto Serif', serif;
+  font-size: 3.6rem
+}
+
+.page__title--home {
+  font-size: 4.8rem;
+  line-height: 4.8rem;
+  margin-bottom: 1.2rem;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column
+}
+
+.home__icon {
+  height: 4.8rem;
+  fill: #1857b6;
+  margin: 0 0 12px 0
+}
+
+.page__description {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 300
+}
+
+.home__upload {
+  width: 100%;
+  padding: 36px
+}
+
+.home__upload-input {
+  border: 1px solid #d9dadb;
+  width: 100%;
+  border-radius: 4px;
+  padding: 12px;
+  cursor: pointer;
+  transition: all .5s ease-out
+}
+
+.home__upload-input:hover {
+  border-color: #1857b6;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .1)
+}
+
+label {
+  display: block;
+  font-weight: 400;
+  margin-bottom: 12px;
+  font-size: 1.8rem
+}
+
+.label-small {
+  font-weight: 300;
+  display: block;
+  font-size: 1.4rem
+}
+
+.home__upload .home__upload-button {
+  background: #1857b6;
+  color: #fff;
+  margin: 16px 0 0 0;
+  cursor: pointer;
+  border: 0
+}
+
+.home__upload .home__upload-button:hover {
+  background: #11223d
+}
+
+@media screen and (min-width:800px) {
+  .page__title--home {
+    font-size: 6rem;
+    flex-direction: row
+  }
+
+  .home__icon {
+    margin: 0 12px 0 0
+  }
+}
+
+.gallery {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto
+}
+
+.gallery__item-link {
+  text-decoration: none
+}
+
+.gallery__images {
+  width: 100%
+}
+
+.gallery__item {
+  margin-bottom: 36px
+}
+
+.gallery__item-image {
+  margin: 0 auto
+}
+
+.gallery__item-image-wrapper {
+  padding: 6px;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .1);
+  margin-bottom: 1.2rem
+}
+
+.gallery__item-title {
+  font-family: 'Noto Serif', serif;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  margin-bottom: .6rem
+}
+
+.gallery__item-meta {
+  margin-bottom: .6rem
+}
+
+.gallery__item-authors, .gallery__item-meta {
+  display: flex;
+  flex-wrap: wrap
+}
+
+.gallery__item-authors li, .gallery__item-meta p {
+  max-width: 100%;
+  margin: 0 8px 0 0;
+  font-size: 1.4rem;
+  line-height: 2rem
+}
+
+.gallery__item-authors li a, .gallery__item-meta p {
+  color: #264653;
+  opacity: .8
+}
+
+@media screen and (min-width:800px) {
+  .gallery__images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 36px
+  }
+
+  .gallery__item {
+    margin-bottom: 0;
+    text-align: left
+  }
+
+  .gallery__item-image {
+    width: 100%;
+    height: auto
+  }
+
+  .gallery__item-image-wrapper {
+    height: 470px;
+    overflow: hidden
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .gallery__images {
+    grid-template-columns: 1fr 1fr 1fr 1fr
+  }
+
+  .gallery__item-image-wrapper {
+    height: 350px
+  }
+}
+
+.app__header, .app__header .settings .popover, .card, .paper__figure, .toc-toggle {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .1)
+}
+
+html {
+  background-color: #11223d;
+  color: #264653;
+  font-size: 55%;
+  font-family: Roboto, sans-serif
+}
+
+body {
+  font-size: 1.6rem
+}
+
+a {
+  color: #1857b6;
+  transition: color .25s ease-out
+}
+
+a:hover {
+  color: #11223d;
+  text-decoration: none
+}
+
+.app__signup-form .hbspt-form .hs-button, .button {
+  line-height: 20px;
+  padding: 6px 12px;
+  text-decoration: none;
+  border: 1px solid #9ac2ff;
+  color: #9ac2ff;
+  display: block;
+  border-radius: 4px;
+  margin-left: 12px;
+  font-size: 1.4rem;
+  white-space: nowrap;
+  transition: all .25s ease-out
+}
+
+.app__signup-form .hbspt-form .hs-button:hover, .button:hover {
+  color: #fff;
+  border-color: #fff
+}
+
+.card {
+  background: #fff
+}
+
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden
+}
+
+.app {
+  background-color: #f5f6f7;
+  min-height: 90vh
+}
+
+.app__header {
+  background: #11223d;
+  padding: 12px 16px;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10
+}
+
+.app__header .app__navigation {
+  display: flex;
+  align-items: center
+}
+
+.app__header .app__navigation .app__signup-form .hbspt-form .hs-button, .app__header .app__navigation .button, .app__signup-form .hbspt-form .app__header .app__navigation .hs-button {
+  margin: 0 12px 0 0
+}
+
+.app__header .logo {
+  display: none
+}
+
+.app__header .settings {
+  display: flex;
+  align-items: center
+}
+
+.app__header .settings .dropdown {
+  position: relative
+}
+
+.app__header .settings .dropdown.on .popover {
+  display: block
+}
+
+.app__header .settings .popover {
+  display: none;
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 6px;
+  background: #fff;
+  width: 320px;
+  padding: 24px;
+  z-index: 1000
+}
+
+.app__header .settings .popover:after {
+  content: "";
+  position: absolute;
+  top: -6px;
+  right: 6px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 6px 6px 6px;
+  border-color: transparent transparent #fff transparent
+}
+
+.app__header .settings .options {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 6px
+}
+
+.app__header .settings .options .option {
+  display: block;
+  border: 2px solid #d9dadb;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding: 6px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.app__header .settings .options .option.on {
+  border-color: #1857b6
+}
+
+.app__header .settings .options--4 {
+  grid-template-columns: 1fr 1fr
+}
+
+.app {
+  padding: 100px 16px 0 16px
+}
+
+.paper {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%
+}
+
+.paper__head {
+  grid-column: 1/span 3;
+  margin-bottom: 24px
+}
+
+.paper__head .paper__title {
+  margin-bottom: 12px
+}
+
+.paper__head .paper__meta {
+  display: flex;
+  flex-wrap: wrap
+}
+
+.paper__head .paper__meta .paper__meta-item {
+  margin: 0 5px 4px 0
+}
+
+.paper__head .paper__meta .paper__meta-item:after {
+  content: " • "
+}
+
+.paper__head .paper__meta .paper__meta-item:last-child:after {
+  content: ""
+}
+
+.toc-toggle {
+  position: fixed;
+  width: 96vw;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 24px 24px 0 0;
+  background: #11223d;
+  color: #fff;
+  left: 2vw;
+  bottom: 0;
+  text-decoration: none;
+  font-family: "Noto Serif", serif
+}
+
+.paper__nav.on {
+  top: 0;
+  background: rgba(0, 0, 0, .8)
+}
+
+.paper__nav.on .paper__toc {
+  top: 10vh;
+  opacity: 1
+}
+
+.paper__nav {
+  position: fixed;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 0 0;
+  z-index: 100;
+  transition: background-color .3s .2s ease-out
+}
+
+.paper__toc {
+  position: fixed;
+  opacity: 0;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  height: 90vh;
+  border-radius: 24px 24px 0 0;
+  overflow: auto;
+  transition: top .3s ease-out, opacity .3s ease-out;
+  font-size: 1.8rem
+}
+
+.paper__toc .toc__header {
+  border-bottom: 1px solid #d9dadb;
+  padding: 24px;
+  font-family: "Noto Serif", serif;
+  font-size: 2.4rem;
+  margin: 0
+}
+
+.paper__toc ul {
+  list-style: none;
+  padding: 24px;
+  margin: 0
+}
+
+.paper__toc li {
+  margin-bottom: 6px
+}
+
+.paper__toc a {
+  display: block
+}
+
+.paper__figure {
+  background-color: #fff;
+  padding: 24px;
+  margin-bottom: 24px
+}
+
+.paper__figure img {
+  border: 1px solid #d9dadb
+}
+
+.paper__figure .paper__figure-caption {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-align: left;
+}
+
+.paper__figure caption {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-align: left;
+}
+
+.paper__figure table {
+  border-top: 2px solid #bbb;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.paper__figure table th {
+  border: 2px solid #bbb;
+  text-align: left;
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-family: Roboto, sans-serif
+}
+
+.paper__figure table td {
+  border: 2px solid #bbb;
+  text-align: left;
+  font-size: 1.6rem;
+  font-family: Roboto, sans-serif
+}
+
+.paper__title {
+  font-family: "Noto Serif", serif;
+  font-size: 4.8rem;
+  line-height: 5.4rem
+}
+
+.paper__text {
+  font-family: "Noto Serif", serif;
+  font-size: 2rem;
+  line-height: 3.2rem
+}
+
+.paper h2, .paper h3, .paper h4, .paper h5, .paper h6 {
+  margin: 3.6rem 0 1.2rem 0;
+  color: #11223d
+}
+
+.paper h2:first-of-type {
+  margin-top: 0
+}
+
+.paper__text :last-child {
+  margin-bottom: 0
+}
+
+.paper ol, .paper p, .paper ul {
+  margin-bottom: 1.4rem
+}
+
+body.theme--reversed {
+  color: #d4d4d4
+}
+
+body.theme--reversed a {
+  color: #9cdcfe
+}
+
+body.theme--reversed .card, body.theme--reversed .paper__figure {
+  background: #252526
+}
+
+body.theme--reversed .app {
+  background-color: #1e1e1e
+}
+
+body.theme--reversed .paper__toc .toc__header {
+  border-bottom-color: #1e1e1e
+}
+
+body.theme--reversed .paper h2, body.theme--reversed .paper h3, body.theme--reversed .paper h4, body.theme--reversed .paper h5, body.theme--reversed .paper h6 {
+  color: #d4d4d4
+}
+
+body.theme--reversed .app__header .settings .popover {
+  background-color: #252526
+}
+
+body.theme--reversed .app__header .settings .popover:after {
+  border-color: transparent transparent #252526 transparent
+}
+
+body.theme--apple2 {
+  background-color: #0b0f0e;
+  font-size: 1.8rem;
+  color: #63ffc1;
+  font-family: VT323, monospace;
+  text-shadow: 0 0 20px #399065
+}
+
+body.theme--apple2 .app {
+  background-color: #131510
+}
+
+.app__signup-form .hbspt-form body.theme--apple2 .hs-button, body.theme--apple2 .app__signup-form .hbspt-form .hs-button, body.theme--apple2 .button {
+  border-width: 4px;
+  border-color: #63ffc1;
+  border-radius: none
+}
+
+body.theme--apple2 .app__header {
+  background: #0b0f0e;
+  border-bottom: 4px solid #63ffc1
+}
+
+body.theme--apple2 .paper__toc .toc__header {
+  font-family: VT323, monospace;
+  border-bottom: 4px solid #63ffc1
+}
+
+body.theme--apple2 .paper h2, body.theme--apple2 .paper h3, body.theme--apple2 .paper h4, body.theme--apple2 .paper h5, body.theme--apple2 .paper h6, body.theme--apple2 a {
+  color: #63ffc1
+}
+
+body.theme--apple2 .card, body.theme--apple2 .paper__figure {
+  background: 0 0;
+  border: 4px solid #63ffc1
+}
+
+body.theme--apple2 .paper__figure img {
+  image-rendering: pixelated
+}
+
+body.theme--apple2 .paper__text, body.theme--apple2 .paper__title {
+  font-family: VT323, monospace
+}
+
+body.theme--apple2 .toc__header {
+  font-size: 3rem;
+  line-height: 3.6rem
+}
+
+.app__signup-form .hbspt-form body.theme--apple2 .hs-button, body.theme--apple2 .app__header .settings .options .option, body.theme--apple2 .app__signup-form .hbspt-form .hs-button, body.theme--apple2 .button {
+  font-size: 2rem;
+  line-height: 2.4rem
+}
+
+body.theme--apple2 .paper__meta, body.theme--apple2 .paper__toc {
+  font-size: 2.4rem;
+  line-height: 3rem
+}
+
+body.theme--apple2 .paper__text {
+  font-size: 3rem;
+  line-height: 3.6rem
+}
+
+body.theme--apple2 .app__header .settings .options .option {
+  border-radius: 0;
+  border-width: 4px
+}
+
+body.theme--apple2 .app__header .settings .options .option.on {
+  border-color: #63ffc1
+}
+
+body.theme--apple2 .app__header .settings .popover {
+  right: 0;
+  background-color: #131510;
+  border: 4px solid #63ffc1
+}
+
+body.theme--apple2 .app__header .settings .popover:after {
+  display: none
+}
+
+body.theme--apple2 .app__footer {
+  border-top: 4px solid #63ffc1
+}
+
+html.aid--dyslexia .paper__text, html.aid--dyslexia .paper__title, html.aid--dyslexia .paper__toc {
+  word-spacing: 2.4rem;
+  letter-spacing: 2px
+}
+
+html.aid--dyslexia .paper__text {
+  line-height: 4.2rem
+}
+
+html.aid--xl {
+  font-size: 80%
+}
+
+html.aid--xl body {
+  font-size: 1.8rem
+}
+
+html.aid--focused .app__footer, html.aid--focused .app__header, html.aid--focused .paper__head, html.aid--focused .paper__nav, html.aid--focused .paper__text .paper__figure, html.aid--focused .paper__text h2, html.aid--focused .paper__text p {
+  opacity: .25;
+  transition: opacity .5s ease-out
+}
+
+html.aid--focused .app__footer:hover, html.aid--focused .app__header:hover, html.aid--focused .paper__head:hover, html.aid--focused .paper__nav:hover, html.aid--focused .paper__text .paper__figure:hover, html.aid--focused .paper__text h2:hover, html.aid--focused .paper__text p:hover {
+  opacity: 1
+}
+
+.app__footer {
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.2rem
+}
+
+.app__footer a {
+  color: #9ac2ff
+}
+
+.app__footer .content {
+  padding: 24px 16px
+}
+
+.app__signup-form {
+  background: #fff;
+  padding: 24px 16px;
+  border-top: 1px solid #d9dadb
+}
+
+.app__signup-form .hbspt-form {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  color: #264653;
+  font-family: Roboto, sans-serif
+}
+
+.app__signup-form .hbspt-form label {
+  margin-bottom: 6px
+}
+
+.app__signup-form .hbspt-form .hs-form-required {
+  display: none
+}
+
+.app__signup-form .hbspt-form .hs-input {
+  width: 100%;
+  height: 3.6rem;
+  line-height: 2.4rem;
+  padding: .6rem;
+  font-size: 1.6rem;
+  border: 1px solid #d9dadb;
+  margin-bottom: 1.2rem;
+  text-align: center
+}
+
+.app__signup-form .hbspt-form .hs-error-msgs {
+  color: #a92020
+}
+
+.app__signup-form .hbspt-form .hs-button {
+  cursor: pointer;
+  background: #1857b6;
+  border: none;
+  margin: 0 auto;
+  color: #fff
+}
+
+.app__signup-form .hbspt-form .hs-button:hover {
+  background: #11223d
+}
+
+@media screen and (min-width:800px) {
+  html {
+    font-size: 57.5%
+  }
+
+  .app {
+    padding: 140px 16px 120px 16px
+  }
+
+  .app__header {
+    padding: 12px 24px
+  }
+
+  .app__header .logo {
+    display: block
+  }
+
+  .paper {
+    column-gap: 36px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: start;
+    justify-items: start;
+    grid-template-columns: 1fr 580px 1fr
+  }
+
+  .toc-toggle {
+    display: none
+  }
+
+  .paper__nav {
+    align-self: start;
+    position: sticky;
+    top: 86px;
+    width: auto;
+    height: auto;
+    background: 0 0;
+    z-index: 1
+  }
+
+  .paper__toc {
+    border-top: 4px solid #1857b6;
+    max-height: calc(100vh - 110px);
+    position: relative;
+    height: auto;
+    border-radius: 0;
+    top: 0;
+    opacity: 1;
+    font-size: 1.4rem
+  }
+
+  .paper__toc .toc__header {
+    padding: 12px 24px;
+    font-size: 1.8rem
+  }
+
+  .paper__toc ul {
+    margin: 0;
+    padding-bottom: 18px
+  }
+
+  .paper__toc ul ul {
+    padding: 12px 0 6px 12px
+  }
+
+  .paper__text {
+    padding-top: 12px;
+    width: 100%
+  }
+}
+
+@media screen and (min-width:1200px) {
+  html {
+    font-size: 60%
+  }
+}
+
+@media screen and (min-width:1600px) {
+  html {
+    font-size: 62.5%
+  }
+}
+
+.tutorial__item {
+    font-size: 2.0rem;
+    margin-bottom: 30px;
+}
+
+.list__header {
+    font-size: 2.0rem;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.list__item__description {
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+
+.list__item__figure {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: auto;
+}
+
+.list__item__figure img {
+  border: 1px solid #d9dadb;
+  width: auto;
+}
+
+.list__item__figure__custom {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: max-content;
+}
+
+.false__footer {
+  text-align: left;
+  font-size: 1.6rem
+}

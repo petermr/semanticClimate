@@ -1,0 +1,122 @@
+<dictionary title="abb_chapter15">
+  <entry name="SCF" term="Standing Committee on Finance">
+    <raw wikidataID="Q115097350, Q107564351, Q60753288, Q3421536"/>
+  </entry>
+  <entry name="LDCs" term="Least Developed Countries">
+    <raw wikidataID="Q752401, Q177323"/>
+  </entry>
+  <entry name="GHG" term="greenhouse gas">
+    <raw wikidataID="Q167336, Q3588927, Q112192791, Q925312, Q57584895, Q110612403, Q111461869"/>
+  </entry>
+
+  <entry name="SDG" term="sustainable development  goals" wikidataID=""/>
+  <entry name="ESG" term="environmental, social and governance" wikidataID="Q3817465"/>
+  <entry name="TCFD" term="Task  Force  on  Climate-Related  Financial  Disclosures" wikidataID=""/>
+  <entry name="OPEX" term="operating  and maintenance expenditures" wikidataID=""/>
+  <entry name="GCF" term="Green Climate Fund">
+    <raw wikidataID="Q3075923, Q71863830"/>
+  </entry>
+  <entry name="GEF" term="Global Environment Facility">
+    <raw wikidataID="Q384410, Q59639658"/>
+  </entry>
+  <entry name="AF" term="Adaptation Fund" wikidataID="Q352378"/>
+  <entry name="PA" term="Paris  Agreement" wikidataID=""/>
+  <entry name="UNFCCC" term="United Nations Framework  Convention  on  Climate  Change" wikidataID=""/>
+
+  <entry name="ODA" term="Overseas Development Assistance" wikidataID=""/>
+  <entry name="SNA" term="System of National Accounts">
+    <raw wikidataID="Q350151, Q1522201"/>
+  </entry>
+
+  <entry name="GFCF" term="Gross fixed capital formation" wikidataID="Q994824"/>
+  <entry name="DRR" term="disaster-risk-reduction">
+    <raw wikidataID="Q5281359, Q58259968, Q112956834, Q112949817, Q58029230"/>
+  </entry>
+  <entry name="IEA" term="International Energy Agency">
+    <raw wikidataID="Q826700, Q48802009"/>
+  </entry>
+  <entry name="SDS" term="Sustainable Development Scenario" wikidataID=""/>
+  <entry name="BoP" term="bottom  of  the  pyramid" wikidataID=""/>
+  <entry name="PPA" term="Power  Purchase  Agreement" wikidataID=""/>
+  <entry name="CER" term="Certified Emission Reductions" wikidataID=""/>
+  <entry name="ESCO" term="Energy  Service  Companies" wikidataID=""/>
+  <entry name="IAMs" term="Integrated assessment models">
+    <raw wikidataID="Q115154814, Q57011922, Q59759892, Q58837476"/>
+  </entry>
+  <entry name="INDCs" term="intended NDCs" wikidataID=""/>
+  <entry name="TES" term="Transforming Energy Scenario" wikidataID=""/>
+  <entry name="and  costs" term="and financing constraints" wikidataID=""/>
+  <entry name="CTCN" term="Climate  Technology  Centre  and   Network" wikidataID=""/>
+  <entry name="ECB" term="European Central Bank">
+    <raw wikidataID="Q8901, Q57916434, Q76161279, Q58169479, Q59650366"/>
+  </entry>
+  <entry name="EIOPA" term="European Insurance  and Occupational Pensions Authority" wikidataID=""/>
+  <entry name="CurPol" term="Current Policies" wikidataID=""/>
+  <entry name="ModAct" term="Moderate Action" wikidataID="Q105295277"/>
+  <entry name="IMP" term="Illustrative Mitigation Pathways" wikidataID=""/>
+  <entry name="FiTs" term="feed-in-tariffs">
+    <raw wikidataID="Q5441167, Q16980581, Q5441168, Q57733427"/>
+  </entry>
+  <entry name="GIB" term="Green  investment  banks" wikidataID=""/>
+  <entry name="LCOE" term="levelized cost of energy">
+    <raw wikidataID="Q77896938, Q56672849"/>
+  </entry>
+  <entry name="CGE" term="Computable  General  Equilibrium" wikidataID=""/>
+  <entry name="PCRIP" term="Pacific  Catastrophe  Risk  Insurance  Pilot" wikidataID=""/>
+  <entry name="ARC" term="Africa  Risk  Capacity  risk  pooling" wikidataID=""/>
+  <entry name="SEADRIF" term="South East Asian Disaster Risk Insurance Facility" wikidataID=""/>
+  <entry name="SIF" term="Sustainable  Insurance  Facility" wikidataID=""/>
+  <entry name="COAST" term="Caribbean  Oceans  and  Aquaculture  Sustainability  Facility" wikidataID=""/>
+  <entry name="IPOs" term="initial public offerings">
+    <raw wikidataID="Q58601379, Q105918285"/>
+  </entry>
+  <entry name="SSE 2018" term="segments tripled from  five in 2016 to 15 in 2018" wikidataID=""/>
+ 
+  
+  <entry name="GBP" term="Green Bond   Principles" wikidataID=""/>
+
+  <entry name="AUM" term="assets  under  management" wikidataID=""/>
+  <entry name="LSE" term="London Stock Exchange">
+    <raw wikidataID="Q171240, Q5573225, Q438511, Q55099312, Q107190279, Q107227842, Q114833485"/>
+  </entry>
+  <entry name="PRI" term="Principles for Responsible Investment" wikidataID="Q7245184"/>
+  <entry name="NZAM  2020" term="Net  Zero  Asset  Managers  initiative  was  launched  in  December  2020" wikidataID=""/>
+  <entry name="NIC" term="National Infrastructure  Commission" wikidataID=""/>
+  <entry name="EaaS" term="Energy-as-a-service" wikidataID=""/>
+  <entry name="PayGo" term="Pay-as-you-go">
+    <raw wikidataID="Q2858140, Q1364792, Q7118288, Q7156539, Q55629310, Q5195088, Q59669555"/>
+  </entry>
+  <entry name="MaaS" term="Mobility-as-a-Service">
+    <raw wikidataID="Q16911496, Q25212654, Q87663466"/>
+  </entry>
+  <entry name="PPCR" term="Pilot Program on Climate Resilience" wikidataID=""/>
+  <entry name="CTF" term="Clean Technology Fund" wikidataID=""/>
+  <entry name="FIP" term="Forest Investment Program" wikidataID=""/>
+  <entry name="SREP" term="Scaling- Up Renewable Energy in Low-Income Countries Program" wikidataID=""/>
+
+  <entry name="IIFCL" term="India  Infrastructure  Finance  Company  Limited" wikidataID=""/>
+  <entry name="AOSIS" term="Alliance  Of  Small   Island  States" wikidataID=""/>
+  <entry name="CIFOR" term="Center  for International Forestry Research" wikidataID=""/>
+
+  <entry name="ESPCs" term="Energy  Savings  Performance  Contracts" wikidataID=""/>
+  <entry name="UESCs" term="Utility  Energy  Service   Contracts" wikidataID=""/>
+  <entry name="eds." term="E., G. Walters, C. Janzen, and S. Maginnis," wikidataID=""/>
+  <entry name="ESS" term="Environmental  and  Social   Safeguards" wikidataID=""/>
+  <entry name="ESMS" term="Environmental and Social Management System" wikidataID=""/>
+  <entry name="SRMI" term="Sustainable Renewables Risk Mitigation Initiative" wikidataID=""/>
+  <entry name="CBOs" term="Community-Based Organisations" wikidataID=""/>
+  <entry name="MDBs" term="Multilateral Development Banks">
+    <raw wikidataID="Q59669967, Q59561202, Q59666601, Q59635366, Q59667773, Q59561461, Q59671695"/>
+  </entry>
+  <entry name="NAP" term="National Adaptation Plan" wikidataID=""/>
+  <entry name="NDC" term="nationally determined contribution" wikidataID="Q20051297"/>
+
+ 
+  <entry name="PESGM" term="Power Energy Society General Meeting" wikidataID=""/>
+  <entry name="RBF" term="Results-Based Financing" wikidataID="Q59136636"/>
+  <entry name="IPoA" term="Instanbul Programme of Action" wikidataID=""/>
+  <entry name="SAMOA" term="SIDS  Accelerated  Modalities  of  Action" wikidataID=""/>
+  <entry name="CPEIR" term="Climate  Public  Expenditure  and  Institutional  Review" wikidataID=""/>
+  <entry name="EPAs" term="Energy  Purchase Agreements" wikidataID=""/>
+</dictionary>
+
