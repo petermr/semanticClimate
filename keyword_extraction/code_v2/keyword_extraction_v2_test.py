@@ -154,7 +154,9 @@ class keyword_extraction():
             # saving_path = '/content/'
             with open(self.saving_path + 'text.txt', 'w', encoding="utf-8") as file:
                 text = self.text.replace("Final Government Distribution  Chapter 5 IPCC AR6 WGIII", "").replace("Final Government Distribution Chapter 5 IPCC AR6 WGIII", "")
-                file.write(text)
+                for l in text.splitlines():
+                    file.write(l+"\n \n \n")
+                #file.write(text)
                 print("Done Writing File")
                 #print(self.text)
             return self.text
@@ -184,11 +186,11 @@ class keyword_extraction():
 
     def extract_keywords_yake(self):
         self.extract_text_fom_html()
-        kw_extractor = yake.KeywordExtractor(top=100, stopwords=None, )
+        kw_extractor = yake.KeywordExtractor(top=400, stopwords=None,)
         keywords_yake = kw_extractor.extract_keywords(self.text)
         df_yake =pd.DataFrame(keywords_yake)
         df_yake.rename(columns = {0:'keyword/phrase',1:'score'}, inplace = True)
-        #df_yake = self.clean(df_yake)
+        df_yake = self.clean(df_yake)
         df_yake['keyword/phrase'].to_csv(self.saving_path +'yake_keywords.csv',index=None) 
 
     def extract_keywords_textrank(self):
@@ -214,7 +216,7 @@ class keyword_extraction():
         self.clean_up_html_to_text()
         model_name = "ml6team/keyphrase-extraction-kbir-inspec"
         for line in tqdm(self.text.splitlines()):
-            #print(line)
+            #print(line) 
 
             extractor = KeyphraseExtractionPipeline(model=model_name)
             keyphrases = extractor(line)
@@ -309,8 +311,7 @@ class keyword_extraction():
             self.extract_keywords_textrank()
         elif method == 'keyBERT':
             self.extract_keywords_keyBERT()
-        elif method == 'hf':
-            self.extract_keywords_hf()
+       
         elif method == 'rawtext':
             self.wikidata_out()
         else :
@@ -339,7 +340,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('-i', '--html_path',
                         required=False,
-                        help='give the path where your html lives: /...')
+                        help=' path of the HTML file: /...')
 
     parser.add_argument('-t', '--text_file',
                         required=False,
@@ -350,8 +351,8 @@ if __name__ == "__main__":
                         help='path of the folder where you want to save the files : /...'
                         )
     parser.add_argument('-m', '--method',
-                        required=False, choices=['rake', 'yake', 'gensim', 'keyBERT', 'textrank', 'rawtext', 'hf'],
-                        help='which method you want to us to extact keywords /...')
+                        required=False, choices=['rake', 'yake', 'gensim', 'keyBERT', 'textrank', 'rawtext'],
+                        help='which method you want to us to extact keywords (Default is HF Model) /...')
     parser.add_argument('--n_gram',
                         required=False,
                         type=int,
@@ -375,7 +376,7 @@ if __name__ == "__main__":
     keyword_extractions = keyword_extraction(html_path, saving_path, method)
     keyword_extractions.main()
     if args.html2text:
-        keyword_extractions.read_text_from_html()
+        keyword_extractions.extract_text_fom_html()
     
 
     
