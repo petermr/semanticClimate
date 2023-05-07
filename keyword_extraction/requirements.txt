@@ -1,0 +1,200 @@
+abbreviations==0.2.5
+alabaster @ file:///home/ktietz/src/ci/alabaster_1611921544520/work
+arxiv==1.4.2
+asttokens==2.2.1
+atomicwrites==1.4.1
+attrs==22.1.0
+Babel @ file:///C:/b/abs_a2shv_3tqi/croot/babel_1671782804377/work
+backcall==0.2.0
+backports.zoneinfo==0.2.1
+beautifulsoup4==4.10.0
+blis==0.7.9
+braceexpand==0.1.7
+brotlipy==0.7.0
+bs4==0.0.1
+catalogue==2.0.8
+certifi @ file:///C:/b/abs_85o_6fm0se/croot/certifi_1671487778835/work/certifi
+cffi @ file:///C:/b/abs_49n3v2hyhr/croot/cffi_1670423218144/work
+chardet==5.0.0
+charset-normalizer==2.0.12
+click==7.1.2
+colorama @ file:///C:/b/abs_a9ozq0l032/croot/colorama_1672387194846/work
+coloredlogs==15.0.1
+commonmark==0.9.1
+ConfigArgParse==1.5.3
+configparser==5.0.2
+conllu==4.5.2
+cryptography==37.0.4
+cycler==0.11.0
+cymem==2.0.7
+Cython==0.29.33
+decorator==5.1.1
+dict2xml==1.7.2
+display==1.0.0
+distro==1.8.0
+docanalysis==0.2.0
+docopt==0.6.2
+docutils==0.19
+easyocr==1.6.2
+en-core-sci-sm @ https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.4.0/en_core_sci_sm-0.4.0.tar.gz
+en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.0.0/en_core_web_lg-3.0.0-py3-none-any.whl
+et-xmlfile==1.1.0
+executing==1.2.0
+feedparser==6.0.10
+filelock==3.9.0
+fonttools==4.38.0
+fst-pso==1.8.1
+future==0.18.2
+FuzzyTM==2.0.5
+gensim==3.8.3
+habanero==1.2.2
+huggingface-hub==0.11.1
+humanfriendly==10.0
+idna @ file:///C:/b/abs_bdhbebrioa/croot/idna_1666125572046/work
+imageio @ file:///home/conda/feedstock_root/build_artifacts/imageio_1669286839712/work
+imagesize @ file:///C:/Windows/TEMP/abs_3cecd249-3fc4-4bfc-b80b-bb227b0d701en12vqzot/croots/recipe/imagesize_1657179501304/work
+importlib-metadata==5.1.0
+iniconfig==1.1.1
+ipython==8.8.0
+isodate==0.6.1
+jedi==0.18.2
+jellyfish==0.9.0
+Jinja2 @ file:///C:/b/abs_7cdis66kl9/croot/jinja2_1666908141852/work
+joblib==1.2.0
+Js2Py==0.74
+keybert==0.7.0
+keyring==21.4.0
+kiwisolver==1.4.4
+llvmlite==0.39.1
+lxml==4.7.1
+MarkupSafe @ file:///C:/ci/markupsafe_1654489871526/work
+matplotlib==3.5.3
+matplotlib-inline==0.1.6
+miniful==0.0.6
+multi-rake==0.0.2
+murmurhash==1.0.9
+networkx==2.8.8
+ninja==1.11.1
+nltk==3.6.7
+nmslib==2.1.1
+numba==0.56.4
+numpy @ file:///D:/bld/numpy_1653325737787/work
+numpydoc==1.5.0
+opencv-python-headless==4.5.4.60
+openpyxl==3.0.10
+openssl-python==0.1.1
+packaging @ file:///C:/b/abs_cfsup8ur87/croot/packaging_1671697442297/work
+pandas==1.3.4
+parso==0.8.3
+pathy==0.10.0
+pdfminer.six==20220524
+pdfminer3==2018.12.3.0
+pdfplumber==0.7.4
+pickleshare==0.7.5
+Pillow==9.1.1
+pipreqs==0.4.11
+pipwin==0.5.2
+pluggy==1.0.0
+preshed==3.0.8
+prompt-toolkit==3.0.36
+psutil==5.9.4
+pure-eval==0.2.2
+purge==1.0
+py==1.9.0
+py4ami==0.0.45
+pyamiimage==0.0.13
+pybind11==2.6.1
+pycld2 @ file:///E:/git/pycld2-0.41-cp38-cp38-win_amd64.whl
+pyclipper==1.3.0.post4
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pycryptodome==3.16.0
+pydantic==1.8.2
+pyFUME==0.2.25
+pygetpapers==1.2.3
+Pygments==2.13.0
+pygrobid==0.1.6
+pyjsparser==2.7.1
+pyOpenSSL @ file:///opt/conda/conda-bld/pyopenssl_1643788558760/work
+pyparsing==3.0.9
+PyPDF2==1.26.0
+PyPrind==2.11.3
+pyreadline3==3.4.1
+pyrsistent==0.19.3
+pysbd==0.3.4
+pySmartDL==1.3.4
+PySocks @ file:///C:/ci/pysocks_1605287845585/work
+pytesseract==0.3.10
+pytest==6.2.5
+python-bidi==0.4.2
+python-dateutil==2.8.2
+python-rake==1.5.0
+pytz @ file:///C:/b/abs_22fofvpn1x/croot/pytz_1671698059864/work
+pytz-deprecation-shim==0.1.0.post0
+PyWavelets==1.4.1
+pywin32-ctypes==0.2.0
+PyYAML==6.0
+rdflib==6.2.0
+regex==2022.10.31
+requests @ file:///C:/ci/requests_1657717096906/work
+rich==13.0.1
+scikit-image==0.19.3
+scikit-learn==0.23.2
+scipy==1.9.3
+scispacy==0.4.0
+segtok==1.5.11
+sentence-transformers==2.2.2
+sentencepiece==0.1.97
+sgmllib3k==1.0.0
+Shapely==1.8.5.post1
+simpful==2.9.0
+six==1.16.0
+skan==0.10.0
+sklearn==0.0.post1
+sknw==0.14
+smart-open==5.2.1
+snowballstemmer @ file:///tmp/build/80754af9/snowballstemmer_1637937080595/work
+sortedcontainers==2.4.0
+soupsieve==2.3.2.post1
+spacy==3.0.7
+spacy-legacy==3.0.10
+SPARQLWrapper==1.8.5
+Sphinx==5.3.0
+sphinx-rtd-theme @ file:///home/conda/feedstock_root/build_artifacts/sphinx_rtd_theme_1670867610925/work
+sphinxcontrib-applehelp @ file:///home/ktietz/src/ci/sphinxcontrib-applehelp_1611920841464/work
+sphinxcontrib-devhelp @ file:///home/ktietz/src/ci/sphinxcontrib-devhelp_1611920923094/work
+sphinxcontrib-htmlhelp @ file:///tmp/build/80754af9/sphinxcontrib-htmlhelp_1623945626792/work
+sphinxcontrib-jsmath @ file:///home/ktietz/src/ci/sphinxcontrib-jsmath_1611920942228/work
+sphinxcontrib-qthelp @ file:///home/ktietz/src/ci/sphinxcontrib-qthelp_1611921055322/work
+sphinxcontrib-serializinghtml @ file:///tmp/build/80754af9/sphinxcontrib-serializinghtml_1624451540180/work
+srsly==2.4.5
+stack-data==0.6.2
+summa==1.2.0
+tabula-py==2.6.0
+tabulate==0.9.0
+thinc==8.0.17
+threadpoolctl==3.1.0
+tifffile==2022.10.10
+tkinterhtml==0.7
+tkinterweb==3.10.7
+tokenizers==0.13.2
+toml==0.10.2
+toolz==0.12.0
+torch==1.13.0
+torchvision==0.14.0
+tqdm==4.62.3
+traitlets==5.8.1
+transformers==4.25.1
+typer==0.3.2
+typing_extensions==4.4.0
+tzdata==2022.7
+tzlocal==4.2
+urllib3==1.26.14
+Wand==0.6.10
+wasabi==0.10.1
+wcwidth==0.2.5
+win-inet-pton @ file:///C:/ci/win_inet_pton_1605306167264/work
+wincertstore==0.2
+xmltodict==0.13.0
+yake==0.4.8
+yarg==0.1.9
+zipp @ file:///C:/b/abs_b9jfdr908q/croot/zipp_1672387552360/work
