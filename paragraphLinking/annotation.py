@@ -15,14 +15,14 @@ def wrapping_text_to_display(text):
   return wrapped_text
 
 
-def Lets_Annotate():
+def Lets_Annotate(data_path):
   
   clear_output()
   
   path_save = "/content/drive/MyDrive/SemanticClimate_Hackathon_Annotation/"
   if not os.path.exists(path_save):
       os.makedirs(path_save)
-      df = pd.read_csv("/content/semanticClimate/paragraphLinking/parsed_sample_anchor_target_pairs.csv")
+      df = pd.read_csv(data_path)
       if "Annotation" not in df.columns:
           df["Annotation"] = np.NaN
           df.to_csv(os.path.join(path_save,"SemanticClimate_Annotations.csv"),index=None)
