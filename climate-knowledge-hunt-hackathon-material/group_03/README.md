@@ -12,7 +12,7 @@ Shweata N. Hegde
 The group explored the structure and contents of IPCC Reports. We also toured the [Wikibase Instance](https://kg-ipclimatec-reports.wikibase.cloud/). Later, we curated terms related to migration, created an AMI dictionary and used it to search some chapters of IPCC Report. 
 
 ### Hack session 01
-We looked at the [PDF version of Synthesis Report]() to get a feel for what the how information is represented in these reports. We then explored the [HTML version]() of the report and brainstormed why HTML versions are better than dumb PDFs. 
+We looked at the [PDF version of Synthesis Report](/ipcc/ar6/syr/lr/fulltext.pdf) to get a feel for what the how information is represented in these reports. We then explored the [HTML version](/ipcc/ar6/syr/lr/html/fulltext/groups_groups.html) of the report and brainstormed why HTML versions are better than dumb PDFs. 
 
 We browsed through [Wikibase](https://kg-ipclimatec-reports.wikibase.cloud/), looked at [Items](https://kg-ipclimatec-reports.wikibase.cloud/) and ran [SPARQL Queries](https://kg-ipclimatec-reports.wikibase.cloud/query/#PREFIX%20wdt%3A%20%3Chttps%3A%2F%2Fkg-ipclimatec-reports.wikibase.cloud%2Fprop%2Fdirect%2F%3E%0APREFIX%20wd%3A%20%20%3Chttps%3A%2F%2Fkg-ipclimatec-reports.wikibase.cloud%2Fentity%2F%3E%0A%0ASELECT%20%3Fsection%20%3FsectionLabel%20%3FcitedSection%20%3FcitedSectionLabel%20WHERE%20%7B%0A%20%20%3Fsection%20wdt%3AP1%20wd%3AQ18%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20wdt%3AP11%20%3FcitedSection%20.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%7D)
 
