@@ -1,8 +1,11 @@
 ## Group Lead
 Ananya Singha
 ## Group Participants
- Shweta Hiralkar 
- (To Do Add Others)
+ * Shweta Hiralkar 
+ * Komal Rani
+ * Saksham
+ * Dr.Jayant Maini
+ * Dr. Vineeta Sharma
 
 ## What we did
 We investigated the interconnectedness between various target and anchor nodes, as well as identified the appropriate attributes for linking these node pairs. Additionally, we delved into the efficiency of the tools provided by semantic climate, which facilitate rapid analysis. We emphasized the capabilities of the Summarizer and Keyword Extraction tools and discussed their practical applications for various tasks. 
