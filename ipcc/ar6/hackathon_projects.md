@@ -3,7 +3,7 @@
 
 # IPCC/SYR statements for ingestion into Wikibase
 
-The file `ar6/syr/lr/total_pages_groups_confidence.html` contains several hundred paragraphs of the form:
+The file https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/)/syr/lr/total_pages_groups_confidence.html contains several hundred paragraphs of the form:
 ```
 2.1.1.bObserved increases in well-mixed GHG concentrations since around 1750 are unequivocally caused by GHG emissions from human activities. Land and ocean sinks have taken up a near-constant proportion (globally about 56% per year) of CO2 emissions from human activities over the past six decades, with regional differences *(high confidence*
 
