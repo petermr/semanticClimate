@@ -67,8 +67,10 @@ The directory has the top-level structure.
     ├── spm
     ├── structure.md
     └── ts
-	````
-within each report can be many more files. 
+````
+
+within each report can be many more files.
+
 ````
 ├── lr
 │   ├── extract_floats.html
