@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+  <head>
+    <link rel="stylesheet" type="text/css" href="/fanstatic/vendor/:version:2021-02-25T11:43:38.79/select2/select2.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/css/:version:2021-02-25T11:43:38.76/main.min.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/vendor/:version:2021-02-25T11:43:38.79/font-awesome/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/ckanext-geoview/:version:2022-05-12T11:18:46.11/css/geo-resource-styles.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/ckanext-scheming/:version:2021-04-14T08:40:25.66/styles/scheming.css" />
+
+    
+
+    <meta charset="utf-8" />
+    <meta name="generator" content="ckan 2.8.2" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Chennai Climate Action Plan">
+    <meta name="description" content="Climate Action Plan for Chennai">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://data.opencity.in/dataset/chennai-climate-action-plan">
+    <meta property="og:title" content="Chennai Climate Action Plan">
+    <meta property="og:description" content="Climate Action Plan for Chennai">
+    <meta property="og:image" content="https://data.opencity.in/images/Open_City_Icon.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://data.opencity.in/dataset/chennai-climate-action-plan">
+    <meta property="twitter:title" content="Chennai Climate Action Plan">
+    <meta property="twitter:description" content="Climate Action Plan for Chennai">
+    <meta property="twitter:image" content="https://data.opencity.in/images/Open_City_Icon.png">
+
+
+    <title>Chennai Climate Action Plan - Collections - OpenCity - Urban Data Portal</title>
+
+    
+    <link rel="shortcut icon" type="image/jpg" href="/images/Open_City_Icon.png"/>
+
+  
+  
+    
+      
+    
+    
+    
+
+  
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" 
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <!-- Filepond stylesheet -->
+  <link href="https://unpkg.com/filepond/dist/filepond.css" rel="stylesheet">
+  <!-- Snackbar -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/node-snackbar/0.1.16/snackbar.min.css" 
+    integrity="sha512-pKdIPri9vb1aqcci9Rsl1xO7n74wHe5+RMcqRufN36EnXVtOsbct0VKDtBdhAnSCqZeny2jiZBSpXp0iDSzZ+Q==" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="/css/common.css" />
+  <link rel="stylesheet" href="/css/footer.css" />
+  <link rel="stylesheet" href="/css/header.css" /> 
+  <link rel="stylesheet" href="/css/dataset.css" />
+  <link rel="stylesheet" href="/css/group.css" />
+  <link rel="stylesheet" href="/css/organization.css" />
+  <link rel="stylesheet" href="/css/contact.css" />  
+  <link rel="stylesheet" href="/css/about.css" />  
+  <link rel="stylesheet" href="/css/multiselect.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+
+    
+      
+      
+    
+  
+  <meta property="og:title" content="Chennai Climate Action Plan - OpenCity - Urban Data Portal">
+  <meta property="og:description" content="Climate Action Plan for Chennai">
+
+    
+  </head>
+
+  
+  <body data-site-root="https://data.opencity.in/" data-locale-root="https://data.opencity.in/" >
+
+    
+    <header class="site-header">    
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <button class="navbar-toggler mr-4" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="https://opencity.in/"><img class="navbar-logo" alt="Brand" src="/images/open-city-logo.png"></a>
+        
+        <div class="collapse navbar-collapse sidebar" id="navbarNavAltMarkup">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-long-arrow-left d-lg-none"></i>
+            </button>
+            <div class="navbar-nav ml-auto align-items-lg-center">
+                <a class="nav-item nav-link active" href="/dataset">Collections</a>
+                <a class="nav-item nav-link" href="/pages/city-explorer">City Explorer</a>
+                <a class="nav-item nav-link" target="_blank" href="https://community.opencity.in/">Community</a>
+                <a class="nav-item nav-link" href="/organization">Organisations</a>
+                <a class="nav-item nav-link" href="/group">Themes</a>
+                
+                   <a class="nav-item nav-link" href="/user/login">Sign in</a>
+                
+                
+                <a class="btn-primary text-sm btn-link-md ml-lg-4" href="/submit-data">Submit Data</a>
+            </div>
+       </div>     
+       
+       
+
+
+<div class="search-container ml-4">
+    <i class="fa fa-search toggler"></i>
+    <div class="search hide">
+        <input id="header_search" class="form-control" placeholder="Search for data or documents">
+    </div>
+</div>
+    </nav>
+</header>
+  <div class="site-container">
+    
+      <div role="main">
+        <div id="content" class="container-fluid">
+          
+            
+              <div class="flash-messages">
+                
+                  
+                
+              </div>
+            
+
+            
+              <div class="toolbar">
+                
+                  
+                    <ol class="breadcrumb">
+                      
+<li class="home"><a href="/"><i class="fa fa-home"></i><span> Home</span></a></li>
+                      
+  
+    
+    
+      
+      
+      <li><a href="/organization">Organizations</a></li>
+      <li><a href="/organization/greater-chennai-corporation">Greater Chennai ...</a></li>
+    
+    <li class="active"><a class=" active" href="/dataset/chennai-climate-action-plan">Chennai Climate Action Plan</a></li>
+  
+
+                    </ol>
+                  
+                
+              </div>
+            
+
+            <div class="row wrapper">
+
+              
+              
+              
+
+              
+                <div class="primary span9">
+                  
+                  
+                    <article class="module">
+                      
+                      <div class="module-content">
+                        
+                        
+  
+    <div class="dataset-tags">
+    
+        
+    
+    
+    
+    
+         
+            
+        
+        
+    
+
+
+
+
+
+  <ul class="tag-list">
+    
+      
+        <li class="mb-2 mr-2">
+          
+            <a class="tag organization-tag" 
+              href="/dataset?organization=greater-chennai-corporation" title="Greater Chennai Corporation (GCC)">Greater Chennai Cor...</a>
+                        
+        </li>
+      
+    
+      
+        <li class="mb-2 mr-2">
+          
+            <a class="tag group-tag" 
+              href="/dataset?groups=environment" title="Environment">Environment</a>
+                        
+        </li>
+      
+    
+  </ul>
+
+</div>
+  
+
+  <div class="row">
+    <div class="col-12 col-sm-12 col-md-9 col-lg-10">
+      
+        
+
+  
+    <section class="module module-narrow">
+      <div class="module">
+        <div class="module-content">
+            
+                
+                  <h1 class="heading zillaslab-semibold">Chennai Climate Action Plan</h1>
+                
+            
+
+            <div class="dataset-info d-flex flex-column flex-lg-row align-items-lg-center"> 
+              <div class="order-1 order-lg-0 mt-4 mt-lg-0 row align-items-center mr-md-4 mr-0">
+                <div class="col-6 col-md-12 d-flex flex-column flex-sm-row align-items-start align-items-md-center 
+                  justify-content-center justify-content-md-start pr-sm-0">
+                  
+                  
+                    <a href="/dataset?q=https://chennaicorporation.gov.in" target="_blank" class="ml-0 mr-4 dataset-tag text-decoration-none">
+                      <strong>Source: </strong> <strong class="text-orange">chennaicorporation.gov.in</strong>
+                    </a>
+                  
+                  <p class="mr-4 dataset-tag mt-4 mt-sm-0">
+                    <a href="/dataset/chennai-climate-action-plan/issues#issue_form" class="text-primary zillaslab-semibold">
+                      <i class="fa fa-flag text-danger"></i> Report Issue
+                    </a>
+                  </p>
+                </div>
+                <div class="col-6 d-flex flex-column flex-sm-row align-items-end align-items-md-center 
+                  justify-content-center justify-content-md-end d-md-none pl-md-0">
+                  
+                    
+
+
+
+  <section class="module module-narrow social d-inline-block">
+    
+      <ul class="nav nav-simple">
+        <li class="nav-item"><a href="https://twitter.com/share?url=https://data.opencity.in/dataset/chennai-climate-action-plan" target="_blank"><i class="fa fa-twitter fa-circled fa-2x"></i></a></li>
+        <li class="nav-item"><a href="https://www.facebook.com/sharer.php?u=https://data.opencity.in/dataset/chennai-climate-action-plan" target="_blank"><i class="fa fa-facebook fa-circled fa-2x"></i></a></li>
+        <li class="nav-item">
+          <input id="datasetclipboard-1" value="https://data.opencity.in/dataset/chennai-climate-action-plan">
+          <!-- Trigger -->
+          <button class="clip-btn" data-clipboard-target="#datasetclipboard-1">
+            <i class="fa fa-circled fa-2x pt-2">
+              <img class="pt-1" src="/images/link.svg" alt="Copy Url to clipboard">
+            </i>            
+          </button>
+        </li>
+      </ul>
+    
+  </section>
+
+                  
+        
+                  
+                    <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle d-flex align-items-center ml-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Download
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">	    
+      
+      
+        <li class="dropdown-item"><a href="https://data.opencity.in/dataset/bedee49c-deeb-4aab-be30-ec7ceac60d74/resource/42465716-438e-492c-8559-89cae8deb718/download/ccap_gcc_cscl_english.pdf">
+          <i class="fa fa-file" target="_blank"></i>
+          Climate Action Plan Chennai - 2022
+        </a></li>
+      
+    </ul>
+</div>
+                  
+                </div>                
+              </div>
+              <div class="order-0 order-lg-1 d-flex">
+                
+                  <p class="ml-0 ml-lg-4 mr-4"><strong class="text-green">Credits: </strong>Vaidyanathan R</p>
+                
+		<p class="mr-4"><strong class="text-green">Views: </strong>0</p>
+		
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+  
+
+      
+    </div>
+    <div class="col-12 col-sm-12 col-md-3 col-lg-2 d-none d-md-flex flex-column align-items-end">
+      
+        
+
+
+
+  <section class="module module-narrow social d-inline-block">
+    
+      <ul class="nav nav-simple">
+        <li class="nav-item"><a href="https://twitter.com/share?url=https://data.opencity.in/dataset/chennai-climate-action-plan" target="_blank"><i class="fa fa-twitter fa-circled fa-2x"></i></a></li>
+        <li class="nav-item"><a href="https://www.facebook.com/sharer.php?u=https://data.opencity.in/dataset/chennai-climate-action-plan" target="_blank"><i class="fa fa-facebook fa-circled fa-2x"></i></a></li>
+        <li class="nav-item">
+          <input id="datasetclipboard-0" value="https://data.opencity.in/dataset/chennai-climate-action-plan">
+          <!-- Trigger -->
+          <button class="clip-btn" data-clipboard-target="#datasetclipboard-0">
+            <i class="fa fa-circled fa-2x pt-2">
+              <img class="pt-1" src="/images/link.svg" alt="Copy Url to clipboard">
+            </i>            
+          </button>
+        </li>
+      </ul>
+    
+  </section>
+
+      
+
+      
+        
+        <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle d-flex align-items-center ml-2" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Download
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">	    
+      
+      
+        <li class="dropdown-item"><a href="https://data.opencity.in/dataset/bedee49c-deeb-4aab-be30-ec7ceac60d74/resource/42465716-438e-492c-8559-89cae8deb718/download/ccap_gcc_cscl_english.pdf">
+          <i class="fa fa-file" target="_blank"></i>
+          Climate Action Plan Chennai - 2022
+        </a></li>
+      
+    </ul>
+</div>
+      
+    </div>
+  </div>
+
+  <hr class="divider mt-0"/>
+  
+  
+    
+
+
+
+    <div class="dataset-detail-description">
+        
+            <div class="dataset-description collapse text-justify mt-4" id="collapseDataSetDescription">
+                Climate Action Plan for Chennai
+            </div>
+            <a class="dataset-description-toggler collapsed" data-toggle="collapse" href="#collapseDataSetDescription" 
+                role="button" aria-expanded="false" aria-controls="collapseDataSetDescription">        
+            </a>
+        
+    </div>     
+   
+  
+
+  
+    <ul class="nav nav-tabs">
+      
+  <li class="active"><a href="/dataset/chennai-climate-action-plan">Details</a></li>
+  <li><a href="/dataset/chennai-climate-action-plan/issues">Issues</a></li>
+  
+   
+    </ul>
+    <div class="tab-content">
+      
+  
+    
+                  
+      
+
+
+    
+    
+        <div class="item  active ">            
+            
+            
+                
+            
+            
+        </div>
+        
+    
+
+
+
+
+  <div id="opencityCarousel" class="carousel slide d-flex flex-column" data-ride="carousel">
+      <!-- Indicators -->
+      
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner order-1 order-md-0">
+        
+          <div class="item  active ">            
+            <iframe src="https://data.opencity.in/dataset/chennai-climate-action-plan/resource/42465716-438e-492c-8559-89cae8deb718/view/9f20db76-d03c-499c-883d-c91dbb377910" title="Climate Action Plan Chennai - 2022"></iframe>
+          </div>
+        
+      </div>
+
+      <!-- Left and right controls -->
+      <div class="carousel-control order-0 order-md-1">
+        <a href="#opencityCarousel" data-slide="prev">
+          <i class="fa fa-chevron-left"></i>
+        </a>
+        <span>Toggle previews</span>
+        <a href="#opencityCarousel" data-slide="next">
+          <i class="fa fa-chevron-right"></i>
+        </a>
+      </div>
+  </div>
+
+
+              
+  
+
+  
+    <section id="dataset-resources" class="resources">
+    
+
+
+
+
+
+<div class="section-header "
+    
+        id="resources"
+    >
+    
+        <h2 class="">
+            Files
+            <hr class="divider"/>
+        </h2>
+    
+
+    
+</div>
+
+
+    
+    
+      
+        <ul class="resource-grid">
+          
+            
+            
+              
+
+
+<li class="resource-item cursor-pointer zoom" data-id="42465716-438e-492c-8559-89cae8deb718" data-url="/dataset/chennai-climate-action-plan/resource/climate-action-plan-chennai---2022" title="Climate Action Plan Chennai - 2022">
+    <div class="row">
+        <div class="col-12 col-md-8 col-lg-9">
+            
+                <h6 class="heading">
+                    Climate Action Plan Chennai - 2022                    
+                </h6>
+            
+            
+                <p class="description">
+                    Climate Change Action Plan for Chennai published in 2022
+                </p>
+            
+        </div>
+        <div class="col-0 col-md-4 col-lg-3 text-center d-none d-md-flex align-items-center justify-content-end">
+            
+                
+
+
+<img class="" src="/images/PDF.svg"/>
+            
+        </div>
+    </div> 
+
+    <div class="row">
+        <div class="col-6 col-md-8 col-lg-9">
+	     <p class="text-green mb-0">Licence: Public Domain</p>	
+            <p class="text-green mb-0">Views: 0</p>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 d-flex align-items-center justify-content-end">            
+            
+                
+
+
+<img class="d-md-none mini" src="/images/PDF.svg"/>
+            
+
+            
+                
+                    <div class="dropdown">
+			<a href="/dataset/chennai-climate-action-plan/resource/climate-action-plan-chennai---2022" class="dropdown-toggle text-orange highlighted-link">
+                            Explore File
+                        </a>
+			
+                    </div>
+                
+            
+        </div>
+    </div>
+</li>
+            
+          
+        </ul>
+      
+    
+</section>
+  
+
+  
+    
+
+
+<section class="related_topics">
+    
+      
+
+
+
+
+
+<div class="section-header "
+    
+        id="similar_topics"
+    >
+    
+        <h2 class="">
+            Explore similar topics
+            <hr class="divider"/>
+        </h2>
+    
+
+    
+</div>
+
+
+    
+
+    
+      
+        <ul class="topics-grid">
+          
+            
+                
+                
+                <li class="topic-item" data-id="delhi-climate-action-plan">              
+                    <a href="/dataset/delhi-climate-action-plan" title="Climate Action plan for Delhi">Delhi Climate Action Plan</a>
+                </li>   
+            
+                
+                
+                <li class="topic-item" data-id="mumbai-climate-action-plan">              
+                    <a href="/dataset/mumbai-climate-action-plan" title="Mumbai Climate Action Plan 2022 published by the BMC.">Mumbai Climate Action Plan</a>
+                </li>   
+            
+                
+                
+                <li class="topic-item" data-id="ahmedabad-climate-action-plan">              
+                    <a href="/dataset/ahmedabad-climate-action-plan" title="Ahmedabad Climate action plan.">Ahmedabad Climate Action Plan</a>
+                </li>   
+            
+                
+                
+                <li class="topic-item" data-id="bengaluru-clean-air-action-plan">              
+                    <a href="/dataset/bengaluru-clean-air-action-plan" title="">Bengaluru Clean Air Action Plan</a>
+                </li>   
+            
+                
+                
+                <li class="topic-item" data-id="bangalore-blue-print-action-group-bbpag-gov-order">              
+                    <a href="/dataset/bangalore-blue-print-action-group-bbpag-gov-order" title="">Bangalore Blue Print Action Group (BBPAG) - Gov Order</a>
+                </li>   
+            
+                
+                
+                <li class="topic-item" data-id="hubli-dharwad-bus-rapid-transit-system">              
+                    <a href="/dataset/hubli-dharwad-bus-rapid-transit-system" title="">Hubli-Dharwad - Bus Rapid Transit System</a>
+                </li>   
+            
+          
+        </ul>
+      
+    
+</section>
+
+  
+
+  
+    <div class="dataset-detail-tags mt-60">
+    
+    
+    
+    
+      
+    
+      
+    
+    
+    
+      
+    
+          
+    
+    
+    
+    
+    
+       
+    
+    
+    
+       
+    
+    
+
+
+
+
+
+  <ul class="tag-list">
+    
+      
+        <li class="mb-2 mr-2">
+          
+            <a class="tag " 
+              href="/dataset?tags=Climate" title="Climate">Climate</a>
+                        
+        </li>
+      
+    
+      
+        <li class="mb-2 mr-2">
+          
+            <a class="tag " 
+              href="/dataset?tags=Environment" title="Environment">Environment</a>
+                        
+        </li>
+      
+    
+      
+        <li class="mb-2 mr-2">
+          
+            <a class="tag " 
+              href="/dataset?groups=environment" title="Environment">Environment</a>
+                        
+        </li>
+      
+    
+      
+        <li class="mb-2 mr-2">
+          
+            <a class="tag " 
+              href="/dataset?res_format=PDF" title="PDF">PDF</a>
+                        
+        </li>
+      
+    
+      
+        <li class="mb-2 mr-2">
+          
+            <a class="tag " 
+              href="/dataset?organization=greater-chennai-corporation" title="Greater Chennai Corporation (GCC)">Greater Chennai Cor...</a>
+                        
+        </li>
+      
+    
+      
+        <li class="mb-2 mr-2">
+          
+            <a class="tag " 
+              href="/dataset?license_id=other-pd" title="Other (Public Domain)">Other (Public Domain)</a>
+                        
+        </li>
+      
+    
+  </ul>
+
+</div>
+  
+
+  
+    
+
+
+<section class="dataset-comments">
+    
+
+
+
+
+
+<div class="section-header "
+    
+        id="responses"
+    >
+    
+        <h2 class="">
+            Respones
+            <hr class="divider"/>
+        </h2>
+    
+
+    
+</div>
+
+
+
+    <div class="comments-container mb-50">
+        
+            
+		    <h3 class="comment-login-prompt"> Please <a href="/user/login?came_from=https://data.opencity.in/dataset/chennai-climate-action-plan#responses">Sign in</a> to write a response </h3> 
+	    
+            
+            
+            
+            <div class="comment-container">
+                
+                
+                
+                    
+                    <ul class="comment-list">
+                        
+                    </ul>
+                    <div class="d-block mt-4 mb-4">
+                        <button class="btn-primary comments_less_loader float-right hide">Show less</button>
+                        <button class="btn-primary comments_more_loader float-right invisible" data-val='{"limit": 3, "total": 0}'>Show more</button>
+                    </div>
+                
+            
+            </div>
+        
+    </div>
+</section>
+  
+
+  
+
+      
+    </div>
+  
+
+                      </div>
+                    </article>
+                  
+                </div>
+              
+
+              
+                <aside class="secondary span3">
+                  
+                  
+                </aside>
+              
+            </div>
+          
+        </div>
+      </div>
+    
+      <footer class="site-footer">
+    <div class="container-fluid">
+        
+            <div class="row">
+                <div class="col-12 col-md-3 mx-auto">
+                    <li class="section-header">
+                        <h6>INITIATIVE BY</h6>
+                    </li>
+                    <a class="partner-logo" target="_blank" href="https://oorvani.org/"><img class="navbar-logo" alt="Oorvani Foundation" src="/images/oorvani-logo.png"></a>
+                    <a class="" target="_blank" href="http://datameet.org/"><img class="navbar-logo" alt="Data Meet" src="/images/datameet.png"></a>
+
+                </div>        
+                
+                <div class="col-12 col-md-3 mx-auto">
+                    <li class="section-header">
+                        <h6>NAVIGATE</h6>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/pages/about">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/pages/code-of-conduct">Code of Conduct</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="/contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/datarequest/new">Request Data</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a target="_blank" href="https://oorvani.org/support-us">Support us</a>
+                    </li>
+                </div>     
+                
+                <div class="col-12 col-md-3 mx-auto">
+                    <li class="section-header">
+                        <h6>SOCIAL MEDIA</h6>
+                    </li>
+                    <div class="social-icon-palette">
+                        <a target="_blank" href="https://www.facebook.com/opencity.in/"><i class="fa fa-facebook fa-circled mx-4"></i></a>
+                        <a target="_blank" href="https://twitter.com/opencity_in/"><i class="fa fa-twitter fa-circled mx-4"></i></a>
+                    </div>                    
+                    <a class="btn-primary btn-mini mt-4" href="/feedback">Give Feedback</a>
+                </div>     
+
+                <div class="col-12 col-md-3 mx-auto">
+                    <li class="section-header">
+                        <h6>SUBSCRIBE TO OUR NEWSLETTER</h6>
+                    </li>
+                    <input  id="subscribe-input" type="text" class="w-100 input-rounded"/>
+                    <button id="subscribe-btn" class="btn-primary">Subscribe</button>                   
+                </div>  
+            </div>
+
+            <p class="copyright">
+                <a href="/pages/privacy-policy">Privacy policy</a> 
+                <span class="dot"></span> 
+                <a href="/pages/license">License</a> 
+                <span class="dot"></span> 
+                <i class="fa fa-copyright"></i> OpenCity 2020
+            </p>
+
+         <!-- Global site tag (gtag.js) - Google Analytics -->
+         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-228719709-1"></script>
+         <script>
+             window.dataLayer = window.dataLayer || [];
+             function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'UA-228719709-1');
+         </script>
+
+        
+
+        
+            
+        
+    </div>    
+</footer>
+
+
+    </div>
+    
+    
+    
+      
+    
+  
+  
+    
+    
+    
+        
+        
+        <div class="js-hide" data-module="google-analytics"
+             data-module-googleanalytics_resource_prefix="">
+        </div>
+    
+
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
+  <!-- Snackbcar library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/node-snackbar/0.1.16/snackbar.min.js" 
+    integrity="sha512-iILlngu0qmiyIkOH6MV1RWSya+DL2uzo0cb/nKR4hqwz9H+Xnop1++f8TMw1j5CdbutXGkBUyfRUfg/hmNBfZg==" crossorigin="anonymous"></script>
+  <!-- Load FilePond library -->
+  <script src="https://unpkg.com/filepond/dist/filepond.js"></script>
+
+  
+  
+  
+
+
+      
+  <script>document.getElementsByTagName('html')[0].className += ' js';</script>
+<script type="text/javascript" src="/fanstatic/vendor/:version:2021-02-25T11:43:38.79/jquery.min.js"></script>
+<script type="text/javascript" src="/fanstatic/vendor/:version:2021-02-25T11:43:38.79/:bundle:bootstrap/js/bootstrap.min.js;jed.min.js;moment-with-locales.js;select2/select2.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/:version:2021-02-25T11:43:38.77/:bundle:plugins/jquery.inherit.min.js;plugins/jquery.proxy-all.min.js;plugins/jquery.url-helpers.min.js;plugins/jquery.date-helpers.min.js;plugins/jquery.slug.min.js;plugins/jquery.slug-preview.min.js;plugins/jquery.truncator.min.js;plugins/jquery.masonry.min.js;plugins/jquery.form-warning.min.js;plugins/jquery.images-loaded.min.js;sandbox.min.js;module.min.js;pubsub.min.js;client.min.js;notify.min.js;i18n.min.js;main.min.js;modules/select-switch.min.js;modules/slug-preview.min.js;modules/basic-form.min.js;modules/confirm-action.min.js;modules/api-info.min.js;modules/autocomplete.min.js;modules/custom-fields.min.js;modules/data-viewer.min.js;modules/table-selectable-rows.min.js;modules/resource-form.min.js;modules/resource-upload-field.min.js;modules/resource-reorder.min.js;modules/resource-view-reorder.min.js;modules/follow.min.js;modules/activity-stream.min.js;modules/dashboard.min.js;modules/resource-view-embed.min.js;view-filters.min.js;modules/resource-view-filters-form.min.js;modules/resource-view-filters.min.js;modules/table-toggle-more.min.js;modules/dataset-visibility.min.js;modules/media-grid.min.js;modules/image-upload.min.js;modules/followers-counter.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/:version:2021-02-25T11:43:38.77/tracking.min.js"></script>
+<script type="text/javascript" src="/fanstatic/ckanext-googleanalytics/:version:2022-04-13T05:18:30.56/googleanalytics_event_tracking.js"></script>
+<script type="text/javascript" src="/fanstatic/comments_js/:version:2021-04-11T21:04:10.55/:bundle:comment_validation.js;comments.js"></script>
+<script type="text/javascript" src="/fanstatic/opencity/:version:2022-05-12T11:52:04.23/:bundle:multiselect_min.js;opencity_theme.js"></script></body>
+</html>
