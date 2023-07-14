@@ -36,4 +36,5 @@ Urbanization refers to the process by which an increasing proportion of a popula
 - Existing cities can make changes like renovating buildings, using cleaner transportation, and making neighbourhood’s more compact.
 - We should also help informal settlements become better and more environmentally friendly.
 - To make all of this happen, governments, organizations, and people need to work together. We need money and support to make our cities cleaner and safer for everyone.
-
+git reset --hard HEAD^
+git push origin -f
