@@ -1,0 +1,84 @@
+(base) pm286macbook:wg3 pm286$ py4ami DICT --validate --dict Chapter02/dict/docanalysis_automated_abbreviation_dict.xml
+===========LOGGING 30 .. 10
+WARNING:pyami:
+============== running pyami main ===============
+['DICT', '--validate', '--dict', 'Chapter02/dict/docanalysis_automated_abbreviation_dict.xml']
+ COMMAND: DICT {'version': False, 'apply': None, 'assert': None, 'combine': None, 'config': None, 'copy': None, 'debug': None, 'delete': None, 'dict': 'Chapter02/dict/docanalysis_automated_abbreviation_dict.xml', 'examples': None, 'filter': None, 'flags': None, 'glob': None, 'languages': 'en', 'loglevel': 'info', 'maxbars': 25, 'nosearch': False, 'outfile': None, 'patt': None, 'plot': True, 'proj': None, 'sect': None, 'split': None, 'command': 'DICT', 'language': None, 'metadata': None, 'replace': None, 'synonym': None, 'validate': True, 'wikidata': None, 'wikipedia': None, 'words': None}
+ARG_DICT {'version': False, 'dict': 'Chapter02/dict/docanalysis_automated_abbreviation_dict.xml', 'languages': 'en', 'loglevel': 'info', 'maxbars': 25, 'nosearch': False, 'plot': True, 'command': 'DICT', 'validate': True}
+ARG_DICT {'version': False, 'dict': 'Chapter02/dict/docanalysis_automated_abbreviation_dict.xml', 'languages': 'en', 'loglevel': 'info', 'maxbars': 25, 'nosearch': False, 'plot': True, 'command': 'DICT', 'validate': True}
+reading Chapter02/dict/docanalysis_automated_abbreviation_dict.xml as dictionary
+dictionary.entries 60
+duplicate terms not allowed frequently asked questions
+duplicate terms not allowed fluorinated gases
+duplicate terms not allowed perfluorocarbons
+duplicate terms not allowed fluorinated gases
+duplicate terms not allowed fluorinated gases
+duplicate terms not allowed hydrochlorofluorocarbons
+duplicate terms not allowed fossil fuel combustion and industrial processes
+duplicate terms not allowed land use, land use change and forestry
+duplicate terms not allowed fluorinated gases
+duplicate terms not allowed global warming potentials with a 100-year time horizon
+duplicate terms not allowed global warming potentials with a 100 year time horizon
+duplicate terms not allowed fluorinated gases
+entry_by_term 48
+title docanalysis_automated_abbreviation_dict
+VALIDATING <py4ami.ami_dict.AmiDictionary object at 0x7fa44bf49ee0>
+=====
+===========LOGGING 30 .. 10
+ COMMAND: DICT {'version': False, 'apply': None, 'assert': None, 'combine': None, 'config': None, 'copy': None, 'debug': None, 'delete': None, 'dict': 'Chapter02/dict/docanalysis_automated_abbreviation_dict.xml', 'examples': None, 'filter': None, 'flags': None, 'glob': None, 'languages': 'en', 'loglevel': 'info', 'maxbars': 25, 'nosearch': False, 'outfile': None, 'patt': None, 'plot': True, 'proj': None, 'sect': None, 'split': None, 'command': 'DICT', 'language': None, 'metadata': None, 'replace': None, 'synonym': None, 'validate': True, 'wikidata': None, 'wikipedia': None, 'words': None}
+ARG_DICT {'version': False, 'dict': 'Chapter02/dict/docanalysis_automated_abbreviation_dict.xml', 'languages': 'en', 'loglevel': 'info', 'maxbars': 25, 'nosearch': False, 'plot': True, 'command': 'DICT', 'validate': True}
+ARG_DICT {'version': False, 'dict': 'Chapter02/dict/docanalysis_automated_abbreviation_dict.xml', 'languages': 'en', 'loglevel': 'info', 'maxbars': 25, 'nosearch': False, 'plot': True, 'command': 'DICT', 'validate': True}
+reading Chapter02/dict/docanalysis_automated_abbreviation_dict.xml as dictionary
+===========LOGGING 30 .. 10
+ COMMAND: DICT {'version': False, 'apply': None, 'assert': None, 'combine': None, 'config': None, 'copy': None, 'debug': None, 'delete': None, 'dict': 'docanalysis_automated_abbreviation_dict.xml', 'examples': None, 'filter': None, 'flags': None, 'glob': None, 'languages': 'en', 'loglevel': 'info', 'maxbars': 25, 'nosearch': False, 'outfile': None, 'patt': None, 'plot': True, 'proj': None, 'sect': None, 'split': None, 'command': 'DICT', 'language': None, 'metadata': None, 'replace': None, 'synonym': None, 'validate': True, 'wikidata': None, 'wikipedia': None, 'words': None}
+ARG_DICT {'version': False, 'dict': 'docanalysis_automated_abbreviation_dict.xml', 'languages': 'en', 'loglevel': 'info', 'maxbars': 25, 'nosearch': False, 'plot': True, 'command': 'DICT', 'validate': True}
+ARG_DICT {'version': False, 'dict': 'docanalysis_automated_abbreviation_dict.xml', 'languages': 'en', 'loglevel': 'info', 'maxbars': 25, 'nosearch': False, 'plot': True, 'command': 'DICT', 'validate': True}
+reading docanalysis_automated_abbreviation_dict.xml as dictionary
+dictionary.entries 60
+duplicate terms not allowed frequently asked questions
+duplicate terms not allowed fluorinated gases
+duplicate terms not allowed perfluorocarbons
+duplicate terms not allowed fluorinated gases
+duplicate terms not allowed fluorinated gases
+duplicate terms not allowed hydrochlorofluorocarbons
+duplicate terms not allowed fossil fuel combustion and industrial processes
+duplicate terms not allowed land use, land use change and forestry
+duplicate terms not allowed fluorinated gases
+duplicate terms not allowed global warming potentials with a 100-year time horizon
+duplicate terms not allowed global warming potentials with a 100 year time horizon
+duplicate terms not allowed fluorinated gases
+entry_by_term 48
+title docanalysis_automated_abbreviation_dict
+VALIDATING <py4ami.ami_dict.AmiDictionary object at 0x7f9679653df0>
+===========LOGGING 30 .. 10
+reading Chapter02/dict/docanalysis_automated_abbreviation_dictz.xml as dictionary
+===========LOGGING 30 .. 10
+ COMMAND: DICT {'version': False, 'apply': None, 'assert': None, 'combine': None, 'config': None, 'copy': None, 'debug': None, 'delete': None, 'dict': 'docanalysis_automated_abbreviation_dict.xml', 'examples': None, 'filter': None, 'flags': None, 'glob': None, 'languages': 'en', 'loglevel': 'info', 'maxbars': 25, 'nosearch': False, 'outfile': None, 'patt': None, 'plot': True, 'proj': None, 'sect': None, 'split': None, 'command': 'DICT', 'language': None, 'metadata': None, 'replace': None, 'synonym': None, 'validate': True, 'wikidata': None, 'wikipedia': None, 'words': None}
+ARG_DICT {'version': False, 'dict': 'docanalysis_automated_abbreviation_dict.xml', 'languages': 'en', 'loglevel': 'info', 'maxbars': 25, 'nosearch': False, 'plot': True, 'command': 'DICT', 'validate': True}
+ARG_DICT {'version': False, 'dict': 'docanalysis_automated_abbreviation_dict.xml', 'languages': 'en', 'loglevel': 'info', 'maxbars': 25, 'nosearch': False, 'plot': True, 'command': 'DICT', 'validate': True}
+reading docanalysis_automated_abbreviation_dict.xml as dictionary
+dictionary.entries 60
+duplicate terms not allowed frequently asked questions
+duplicate terms not allowed fluorinated gases
+duplicate terms not allowed perfluorocarbons
+duplicate terms not allowed fluorinated gases
+duplicate terms not allowed fluorinated gases
+duplicate terms not allowed hydrochlorofluorocarbons
+duplicate terms not allowed fossil fuel combustion and industrial processes
+duplicate terms not allowed land use, land use change and forestry
+duplicate terms not allowed fluorinated gases
+duplicate terms not allowed global warming potentials with a 100-year time horizon
+duplicate terms not allowed global warming potentials with a 100 year time horizon
+duplicate terms not allowed fluorinated gases
+entry_by_term 48
+title docanalysis_automated_abbreviation_dict
+VALIDATING <py4ami.ami_dict.AmiDictionary object at 0x7fb4ee64fd00>
+===========LOGGING 30 .. 10
+ COMMAND: DICT {'version': False, 'apply': None, 'assert': None, 'combine': None, 'config': None, 'copy': None, 'debug': None, 'delete': None, 'dict': 'emissions.xml', 'examples': None, 'filter': None, 'flags': None, 'glob': None, 'languages': 'en', 'loglevel': 'info', 'maxbars': 25, 'nosearch': False, 'outfile': None, 'patt': None, 'plot': True, 'proj': None, 'sect': None, 'split': None, 'command': 'DICT', 'language': None, 'metadata': None, 'replace': None, 'synonym': None, 'validate': True, 'wikidata': None, 'wikipedia': None, 'words': None}
+ARG_DICT {'version': False, 'dict': 'emissions.xml', 'languages': 'en', 'loglevel': 'info', 'maxbars': 25, 'nosearch': False, 'plot': True, 'command': 'DICT', 'validate': True}
+ARG_DICT {'version': False, 'dict': 'emissions.xml', 'languages': 'en', 'loglevel': 'info', 'maxbars': 25, 'nosearch': False, 'plot': True, 'command': 'DICT', 'validate': True}
+reading emissions.xml as dictionary
+dictionary.entries 38
+entry_by_term 38
+title emissions
+VALIDATING <py4ami.ami_dict.AmiDictionary object at 0x7f9c3c753f70>

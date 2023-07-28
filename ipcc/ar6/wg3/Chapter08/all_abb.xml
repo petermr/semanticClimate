@@ -1,0 +1,233 @@
+<dictionary title="all_abb">
+  <entry name="Singapore" term="Sharifi (Japan/Iran), Yoshiki Yamagata (Japan)Contributing Authors: Vanesa Cast&#225;n Broto (United Kingdom/Spain), Winston Chow" wikidataID=""/>
+  <entry name="TOD" term="transit-oriented development">
+    <raw wikidataID="Q374221, Q98089556, Q66875121"/>
+  </entry>
+  <entry name="UHI" term="urban heat island">
+    <raw wikidataID="Q215712, Q58077471, Q117864346, Q64026033, Q57409870, Q59242271"/>
+  </entry>
+  <entry name="IPCC" term="Intergovernmental Panel on Climate Change">
+    <raw wikidataID="Q171183, Q56670540, Q59664588"/>
+  </entry>
+  <entry name="GHG" term="greenhouse gas">
+    <raw wikidataID="Q167336, Q3588927, Q925312, Q57584895, Q110612403, Q111461869, Q106358009"/>
+  </entry>
+  <entry name="SRCCL" term="Special Report on Climate Change and Land" wikidataID="Q66310618"/>
+  <entry name="IPBES" term="Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services" wikidataID="Q1666088"/>
+  <entry name="GCoM" term="Global Covenant of Mayors" wikidataID="Q23579719"/>
+  <entry name="SSP" term="Shared Socio-economic Pathway" wikidataID="Q56867486"/>
+  <entry name="RCP" term="Representative Concentration Pathway">
+    <raw wikidataID="Q7314241, Q58239006"/>
+  </entry>
+  <entry name="GNI" term="gross national income">
+    <raw wikidataID="Q6803767, Q117777850, Q5610508, Q182859"/>
+  </entry>
+  <entry name="LDCs" term="least-developed countries">
+    <raw wikidataID="Q752401, Q177323"/>
+  </entry>
+  <entry name="TA" term="territorial accounting" wikidataID=""/>
+  <entry name="CIF" term="chain footprinting" wikidataID=""/>
+  <entry name="CBCF" term="consumption-based carbon footprint accounting" wikidataID=""/>
+  <entry name="UHI" term="urban heat island">
+    <raw wikidataID="Q215712, Q58077471, Q117864346, Q64026033, Q57409870, Q59242271"/>
+  </entry>
+  <entry name="ii" term="in a&#160;horizontal manner;" wikidataID=""/>
+  <entry name="IMPs" term="Illustrative Mitigation Pathways" wikidataID=""/>
+  <entry name="CCS" term="carbon capture and storage">
+    <raw wikidataID="Q41491, Q5037942, Q5037941, Q30687799"/>
+  </entry>
+  <entry name="IMPs" term="Illustrative Mitigation Pathways" wikidataID=""/>
+  <entry name="IMP-Ren" term="in the transformation pathways for renewable energy" wikidataID=""/>
+  <entry name="TOD" term="transit-oriented development">
+    <raw wikidataID="Q374221, Q98089556, Q66875121"/>
+  </entry>
+  <entry name="ASI" term="Avoid-Shift-Improve" wikidataID="Q106417824"/>
+  <entry name="glulam" term="glue-laminated" wikidataID=""/>
+  <entry name="CLT" term="cross-laminated timber" wikidataID="Q911043"/>
+  <entry name="NBS" term="nature-based solutions">
+    <raw wikidataID="Q2421934, Q74278659, Q56752602, Q56752590, Q56873279"/>
+  </entry>
+  <entry name="NYC" term="New York City">
+    <raw wikidataID="Q60, Q18710663, Q7013127, Q111668100, Q114518687, Q63438423, Q16998793"/>
+  </entry>
+  <entry name="USA" term="United States">
+    <raw wikidataID="Q30, Q4917, Q29468, Q29552, Q8676, Q11201, Q11220"/>
+  </entry>
+  <entry name="ICIs" term="International Cooperative Initiatives" wikidataID="Q120635461"/>
+  <entry name="UNEP" term="UN Environment Programme&#8217;s" wikidataID=""/>
+  <entry name="IFC" term="International Finance Corporation">
+    <raw wikidataID="Q656801, Q61931507, Q100397847, Q56751229, Q56751233, Q106633898, Q56751252"/>
+  </entry>
+  <entry name="eds." term="E.&#160;Ijjasz-Vasquez, and S.&#160;Mehndiratta," wikidataID=""/>
+  <entry name="NCE" term="New Climate Economy" wikidataID=""/>
+  <entry name="NCST" term="National Center for Sustainable Transportation" wikidataID="Q64143296"/>
+  <entry name="NBER" term="National Bureau of Economic Research">
+    <raw wikidataID="Q475424, Q57081850, Q113029932, Q113030089, Q27720806, Q96325361"/>
+  </entry>
+  <entry name="SEI" term="Stockholm Environment Institute">
+    <raw wikidataID="Q2350733, Q50378590, Q106411956, Q50035747, Q104481412, Q102873926, Q7618006"/>
+  </entry>
+  <entry name="CPI" term="Climate Policy Initiative" wikidataID="Q55006595"/>
+  <entry name="IEA" term="International Energy Agency">
+    <raw wikidataID="Q826700, Q48802009"/>
+  </entry>
+  <entry name="CCFLA" term="Cities Climate&#160;Finance Leadership Alliance" wikidataID="Q28456731"/>
+  <entry name="SDGs" term="Sustainable Development Goals">
+    <raw wikidataID="Q7649586, Q22547988, Q30252260, Q104759743, Q104858841, Q109354788, Q104858255"/>
+  </entry>
+  <entry name="WRI" term="World Resources Institute">
+    <raw wikidataID="Q976978, Q22677558"/>
+  </entry>
+  <entry name="IISD" term="Institute for Sustainable Development">
+    <raw wikidataID="Q30266877, Q30257121, Q25381095, Q41567138"/>
+  </entry>
+  <entry name="WRI" term="World Resources Institute">
+    <raw wikidataID="Q976978, Q22677558"/>
+  </entry>
+  <entry name="CUT" term="Coalition for Urban Transitions" wikidataID=""/>
+  <entry name="CPI" term="Climate Policy Initiative" wikidataID="Q55006595"/>
+  <entry name="UCL" term="University College London">
+    <raw wikidataID="Q193196, Q19880139, Q3551343, Q7864075, Q52665364, Q7894629"/>
+  </entry>
+  <entry name="INFLUX" term="Indianapolis Flux Experiment" wikidataID=""/>
+  <entry name="ESDA" term="Exploratory Spatial Data Analysis">
+    <raw wikidataID="Q58653589, Q60723219, Q61439420, Q119969010, Q119968898"/>
+  </entry>
+  <entry name="EC" term="European Commission">
+    <raw wikidataID="Q8880, Q2661677, Q1064559, Q5412398, Q645966, Q1780232, Q1676795"/>
+  </entry>
+  <entry name="EC" term="European Commission">
+    <raw wikidataID="Q8880, Q2661677, Q1064559, Q5412398, Q645966, Q1780232, Q1676795"/>
+  </entry>
+  <entry name="SEI" term="Stockholm Environment Institute">
+    <raw wikidataID="Q2350733, Q50378590, Q106411956, Q50035747, Q104481412, Q102873926, Q7618006"/>
+  </entry>
+  <entry name="CUT" term="Coalition for Urban Transitions" wikidataID=""/>
+  <entry name="WRI" term="World Resources Institute">
+    <raw wikidataID="Q976978, Q22677558"/>
+  </entry>
+  <entry name="eds." term="Energies [M&#225;rquez, F.P.G., A.&#160;Karyotakis, and M.&#160;Papaelias," wikidataID=""/>
+  <entry name="GCoM" term="Global Covenant of Mayors for Climate and Energy" wikidataID=""/>
+  <entry name="GCoM" term="Global Covenant of Mayors for Climate and Energy" wikidataID=""/>
+  <entry name="NCE" term="New Climate Economy" wikidataID=""/>
+  <entry name="Hestia-LA" term="Hestia fossil fuel CO2 emissions data product for the Los Angeles megacity" wikidataID=""/>
+  <entry name="ICCT" term="International Council on Clean Transportation" wikidataID="Q21002457"/>
+  <entry name="IASS" term="Institute for Advanced Sustainability Studies" wikidataID="Q1665134"/>
+  <entry name="UNEP" term="United Nations Environment Programme">
+    <raw wikidataID="Q182016, Q50357029, Q180982, Q1131844"/>
+  </entry>
+  <entry name="IEA" term="International Energy Agency">
+    <raw wikidataID="Q826700, Q48802009"/>
+  </entry>
+  <entry name="IEA" term="International Energy Agency">
+    <raw wikidataID="Q826700, Q48802009"/>
+  </entry>
+  <entry name="IEA" term="International Energy Agency">
+    <raw wikidataID="Q826700, Q48802009"/>
+  </entry>
+  <entry name="IEA" term="International Energy Agency">
+    <raw wikidataID="Q826700, Q48802009"/>
+  </entry>
+  <entry name="IEA" term="International Energy Agency">
+    <raw wikidataID="Q826700, Q48802009"/>
+  </entry>
+  <entry name="IEA" term="International Energy Agency">
+    <raw wikidataID="Q826700, Q48802009"/>
+  </entry>
+  <entry name="IEA" term="International Energy Agency">
+    <raw wikidataID="Q826700, Q48802009"/>
+  </entry>
+  <entry name="IEA" term="International Energy Agency">
+    <raw wikidataID="Q826700, Q48802009"/>
+  </entry>
+  <entry name="IEA" term="International Energy Agency">
+    <raw wikidataID="Q826700, Q48802009"/>
+  </entry>
+  <entry name="ILO" term="International Labour Office">
+    <raw wikidataID="Q27481109, Q100269543"/>
+  </entry>
+  <entry name="IPBES" term="Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services" wikidataID="Q1666088"/>
+  <entry name="IPBES" term="Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services" wikidataID="Q1666088"/>
+  <entry name="IRENA" term="International Renewable Energy Agency">
+    <raw wikidataID="Q392739, Q100540618, Q100547992"/>
+  </entry>
+  <entry name="IUCN" term="International Union for Conservation of Nature">
+    <raw wikidataID="Q48268, Q50356742, Q41568519, Q30296226, Q50356744, Q119847985, Q32059"/>
+  </entry>
+  <entry name="WWS" term="Wind, Water, and Sunlight" wikidataID=""/>
+  <entry name="WWS" term="Wind, Water, and Sunlight" wikidataID=""/>
+  <entry name="EMO" term="energy mix optimization" wikidataID=""/>
+  <entry name="WRI" term="World Resources Institute">
+    <raw wikidataID="Q976978, Q22677558"/>
+  </entry>
+  <entry name="EU" term="European Union">
+    <raw wikidataID="Q458, Q319328, Q5324585, Q326124, Q208202, Q185441, Q1126192"/>
+  </entry>
+  <entry name="WRI" term="World Resources Institute">
+    <raw wikidataID="Q976978, Q22677558"/>
+  </entry>
+  <entry name="IBRD" term="International Bank for Reconstruction and Development">
+    <raw wikidataID="Q191384, Q56756546, Q56756564"/>
+  </entry>
+  <entry name="INFLUX" term="Indianapolis flux experiment" wikidataID=""/>
+  <entry name="CLT" term="Cross Laminated Timber" wikidataID="Q911043"/>
+  <entry name="4GDH" term="4th Generation District Heating" wikidataID="Q55922903"/>
+  <entry name="TNC" term="The Nature Conservancy">
+    <raw wikidataID="Q1813186, Q61931961, Q58955292, Q58948077, Q59074773, Q58954496"/>
+  </entry>
+  <entry name="NCE" term="New Climate Economy" wikidataID=""/>
+  <entry name="CPI" term="Climate Policy Initiative" wikidataID="Q55006595"/>
+  <entry name="DIE" term="Deutsches Institut f&#252;r Entwicklungspolitik">
+    <raw wikidataID="Q317284, Q28737656"/>
+  </entry>
+  <entry name="DIE" term="Deutsches Institut f&#252;r Entwicklungspolitik">
+    <raw wikidataID="Q317284, Q28737656"/>
+  </entry>
+  <entry name="UNEP" term="United Nations Environment Programme">
+    <raw wikidataID="Q182016, Q50357029, Q180982, Q1131844"/>
+  </entry>
+  <entry name="WTE" term="waste-to-energy">
+    <raw wikidataID="Q2915573, Q23583615, Q112952274"/>
+  </entry>
+  <entry name="eds." term="Empirical Insights [Yamagata, Y. and A.&#160;Sharifi," wikidataID=""/>
+  <entry name="EU" term="European Union">
+    <raw wikidataID="Q458, Q319328, Q5324585, Q326124, Q208202, Q185441, Q1126192"/>
+  </entry>
+  <entry name="BPS" term="Bureau of Planning and Sustainability" wikidataID=""/>
+  <entry name="IPBES" term="Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services" wikidataID="Q1666088"/>
+  <entry name="IPCC" term="Intergovernmental Panel on Climate Change">
+    <raw wikidataID="Q171183, Q56670540, Q59664588"/>
+  </entry>
+  <entry name="IPCC" term="Intergovernmental Panel on Climate Change">
+    <raw wikidataID="Q171183, Q56670540, Q59664588"/>
+  </entry>
+  <entry name="WHO" term="World Health Organization">
+    <raw wikidataID="Q7817, Q30268376, Q30281222, Q30292572, Q30253728, Q30268340, Q30285506"/>
+  </entry>
+  <entry name="SUDS" term="Sustainable urban drainage systems" wikidataID=""/>
+  <entry name="UNEP" term="United Nations Environment Programme">
+    <raw wikidataID="Q182016, Q50357029, Q180982, Q1131844"/>
+  </entry>
+  <entry name="INFLUX" term="Indianapolis Flux Project" wikidataID=""/>
+  <entry name="UN DESA" term="United Nations Department of Economic and Social Affairs" wikidataID="Q2671637"/>
+  <entry name="UNEP" term="United Nations Environment Programme">
+    <raw wikidataID="Q182016, Q50357029, Q180982, Q1131844"/>
+  </entry>
+  <entry name="IRP" term="International Resource Panel" wikidataID="Q6052735"/>
+  <entry name="SDGs" term="Sustainable Development Goals">
+    <raw wikidataID="Q7649586, Q22547988, Q30252260, Q104759743, Q104858841, Q109354788, Q104858255"/>
+  </entry>
+  <entry name="USGCRP" term="US Global Change Research Program" wikidataID="Q7863189"/>
+  <entry name="PIOTs" term="physical input&#8211;output tables" wikidataID=""/>
+  <entry name="ICCT" term="International Council on Clean Transportation" wikidataID="Q21002457"/>
+  <entry name="WCRP" term="World Climate Research Programme">
+    <raw wikidataID="Q3407026, Q57251053"/>
+  </entry>
+  <entry name="WRI" term="World Resources Institute">
+    <raw wikidataID="Q976978, Q22677558"/>
+  </entry>
+  <entry name="INFLUX" term="Indianapolis Flux Experiment" wikidataID=""/>
+  <entry name="WMO" term="World Meteorological Organization">
+    <raw wikidataID="Q170424, Q28686426, Q3682092, Q115978020, Q8035959, Q27481254, Q64275668"/>
+  </entry>
+</dictionary>

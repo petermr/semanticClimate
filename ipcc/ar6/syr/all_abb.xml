@@ -1,0 +1,82 @@
+<dictionary title="all_abb">
+  <entry name="Chile" term="Christopher Trisos (South Africa), Jos&#233; Romero (Switzerland), Paulina Aldunce" wikidataID=""/>
+  <entry name="France" term="Fischer (Switzerland), Gregory Garner (USA), C&#233;line Guivarch" wikidataID=""/>
+  <entry name="Australia" term="Arias (Colombia), Mercedes Bustamante (Brazil), Ismail Elgizouli (Sudan), Gregory Flato (Canada), Mark Howden" wikidataID=""/>
+  <entry name="SYR" term="Synthesis Report">
+    <raw wikidataID="Q103980953, Q103980952"/>
+  </entry>
+  <entry name="UNFCCC" term="UN Framework Convention on Climate Change" wikidataID=""/>
+  <entry name="GHG" term="greenhouse gases">
+    <raw wikidataID="Q167336, Q57584895, Q925312, Q100135378, Q59666501"/>
+  </entry>
+  <entry name="ppm" term="parts per million" wikidataID="Q21006887"/>
+  <entry name="ppb" term="parts per billion">
+    <raw wikidataID="Q2055118, Q7140852, Q24759789"/>
+  </entry>
+  <entry name="UNFCCC" term="United Nations Framework Convention on Climate Change">
+    <raw wikidataID="Q208645, Q12252411"/>
+  </entry>
+  <entry name="NDCs" term="Nationally Determined Contributions" wikidataID="Q20051297"/>
+  <entry name="SDGs" term="Sustainable Development Goals">
+    <raw wikidataID="Q7649586, Q22547988, Q30252260, Q104759743, Q104858841, Q109354788, Q104858255"/>
+  </entry>
+  <entry name="EVs" term="electric vehicles">
+    <raw wikidataID="Q114861142, Q112939351, Q30589652, Q17653081, Q112913332, Q112907322"/>
+  </entry>
+  <entry name="NbS" term="Nature-based Solutions">
+    <raw wikidataID="Q2421934, Q74278659, Q56752602, Q56752590, Q56873279"/>
+  </entry>
+  <entry name="GHG" term="greenhouse gas">
+    <raw wikidataID="Q167336, Q3588927, Q925312, Q57584895, Q110612403, Q111461869, Q106358009"/>
+  </entry>
+  <entry name="SLCF" term="short-lived climate forcers">
+    <raw wikidataID="Q108097072, Q58386605"/>
+  </entry>
+  <entry name="1.1&#176;C" term="1.5&#176;C than at present" wikidataID=""/>
+  <entry name="RFC" term="Reasons for Concern" wikidataID="Q7301518"/>
+  <entry name="CDR" term="carbon dioxide removal">
+    <raw wikidataID="Q30314404, Q56298528, Q59296188, Q58824392"/>
+  </entry>
+  <entry name="RCB" term="remaining carbon budget" wikidataID=""/>
+  <entry name="CDR" term="Carbon dioxide removal">
+    <raw wikidataID="Q30314404, Q56298528, Q59296188, Q58824392"/>
+  </entry>
+  <entry name="CCS" term="carbon capture and storage">
+    <raw wikidataID="Q41491, Q5037942, Q5037941, Q30687799"/>
+  </entry>
+  <entry name="CCS" term="Carbon Capture and Storage">
+    <raw wikidataID="Q41491, Q5037942, Q5037941, Q30687799"/>
+  </entry>
+  <entry name="CCU" term="Carbon Capture and Utilisation" wikidataID="Q57762660"/>
+  <entry name="SDGs" term="Sustainable Development Goals">
+    <raw wikidataID="Q7649586, Q22547988, Q30252260, Q104759743, Q104858841, Q109354788, Q104858255"/>
+  </entry>
+  <entry name="SDGs" term="Sustainable Development Goals">
+    <raw wikidataID="Q7649586, Q22547988, Q30252260, Q104759743, Q104858841, Q109354788, Q104858255"/>
+  </entry>
+  <entry name="CO2-FFI" term="CO2 from fossil fuels and industry" wikidataID=""/>
+  <entry name="F-gases" term="fluorinated gases" wikidataID="Q3099705"/>
+  <entry name="CO2-eq" term="CO2-equivalents" wikidataID=""/>
+  <entry name="GWP100" term="Global Warming Potential with a time horizon of 100 years" wikidataID=""/>
+  <entry name="LDCs" term="Least developed countries">
+    <raw wikidataID="Q752401, Q177323"/>
+  </entry>
+  <entry name="SIDS" term="Small Island Developing States">
+    <raw wikidataID="Q1434887, Q58260016"/>
+  </entry>
+  <entry name="CO2-FFI" term="CO2 from fossil fuels and industrial processes" wikidataID=""/>
+  <entry name="LCOE" term="levelised costs of energy" wikidataID=""/>
+  <entry name="RCPs" term="Representative Concentration Pathways">
+    <raw wikidataID="Q7314241, Q58239006"/>
+  </entry>
+  <entry name="GWLs" term="Global Warming Levels" wikidataID=""/>
+  <entry name="GWLs" term="global warming levels" wikidataID=""/>
+  <entry name="2.7&#176;C" term="2.4&#176;C&#8211;3.1&#176;C" wikidataID=""/>
+  <entry name="4.7&#176;C" term="4.2&#176;C&#8211;5.4&#176;C" wikidataID=""/>
+  <entry name="ISIMIP" term="Inter-Sectoral Impact Model Intercomparison Project" wikidataID="Q117755964"/>
+  <entry name="1.5&#176;C" term="1986&#8211;2005 at projected GWLs of 0.9&#176;C&#8211;2.0&#176;C" wikidataID=""/>
+  <entry name="SCA" term="South Central America" wikidataID=""/>
+  <entry name="SDGs" term="Sustainable Development Goals">
+    <raw wikidataID="Q7649586, Q22547988, Q30252260, Q104759743, Q104858841, Q109354788, Q104858255"/>
+  </entry>
+</dictionary>
