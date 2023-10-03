@@ -1,3 +1,0 @@
-var site_url='//'+window.location.host+'/';var scripts=document.querySelectorAll('script[src]'),src=scripts[scripts.length-1].src,filename=src.split('/').pop();var theme_dir=src.replace('/resources/js/'+filename,'');var attachment_offset=20;(function($){$(function(){attachment_offset+=$('#header-primary').outerHeight();if($('body').hasClass('admin-bar')){attachment_offset+=32;}
-function attachment_stick(){if($(window).width()>800){$('.figure-image-sticky').stick_in_parent({parent:'figure',offset_top:attachment_offset});}else{$('.figure-image-sticky').trigger('sticky_kit:detach');}}
-attachment_stick();$(window).resize(function(){attachment_stick();});});})(jQuery);
