@@ -1,0 +1,350 @@
+<html lang="en"><head>
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>IPCC Glossary Search</title>
+<link href="css/glossarypublic.css" rel="stylesheet"/>
+<link href="../common/css/bootstrap5.min.css" rel="stylesheet"/>
+<link type="text/css" rel="stylesheet" href="../common/css/font-awesome.min.css"/>
+<script type="text/javascript" src="../common/js/jquery-3.4.1.min.js"/>
+<script type="text/javascript" src="../common/js/bootstrap5.min.js"/>
+</head>
+<body>
+<div id="message" class="message"><span id="info"/></div>
+<nav class="navbar navbar-light ps-3" style="background-color: #4265A7;">
+<div class="media">
+<div class="media-body" style="color:white;">
+<img class="ms-3" src="../common/images/ipcc.png" width="45" height="45"/>
+<span class="mt-1 ms-3 fw-bold">Glossary</span>
+</div>
+</div>
+</nav>
+<header>
+<nav class="navbar navbar-expand-lg navbar-light ps-2" style="background-color:#f0f8ff;">
+<div class="row w-100">
+<div class="col-10">
+<ul id="indexList" class="pagination indexes_ul pagination-sm mb-1">
+<li class="page-item"><a class="page-link prefixlink " data-prefix="123">123</a></li><li class="page-item"><a class="page-link prefixlink text-light bg-primary" data-prefix="A">A</a></li><li class="page-item"><a class="page-link prefixlink " data-prefix="B">B</a></li><li class="page-item"><a class="page-link prefixlink " data-prefix="C">C</a></li><li class="page-item"><a class="page-link prefixlink " data-prefix="D">D</a></li><li class="page-item"><a class="page-link prefixlink " data-prefix="E">E</a></li><li class="page-item"><a class="page-link prefixlink " data-prefix="F">F</a></li><li class="page-item"><a class="page-link prefixlink " data-prefix="G">G</a></li><li class="page-item"><a class="page-link prefixlink " data-prefix="H">H</a></li><li class="page-item"><a class="page-link prefixlink " data-prefix="I">I</a></li><li class="page-item"><a class="page-link prefixlink " data-prefix="J">J</a></li><li class="page-item"><a class="page-link prefixlink " data-prefix="K">K</a></li><li class="page-item"><a class="page-link prefixlink " data-prefix="L">L</a></li><li class="page-item"><a class="page-link prefixlink " data-prefix="M">M</a></li><li class="page-item"><a class="page-link prefixlink " data-prefix="N">N</a></li><li class="page-item"><a class="page-link prefixlink " data-prefix="O">O</a></li><li class="page-item"><a class="page-link prefixlink " data-prefix="P">P</a></li><li class="page-item"><a class="page-link prefixlink " data-prefix="Q">Q</a></li><li class="page-item"><a class="page-link prefixlink " data-prefix="R">R</a></li><li class="page-item"><a class="page-link prefixlink " data-prefix="S">S</a></li><li class="page-item"><a class="page-link prefixlink " data-prefix="T">T</a></li><li class="page-item"><a class="page-link prefixlink " data-prefix="U">U</a></li><li class="page-item"><a class="page-link prefixlink " data-prefix="V">V</a></li><li class="page-item"><a class="page-link prefixlink " data-prefix="W">W</a></li><li class="page-item"><a class="page-link prefixlink " data-prefix="Y">Y</a></li><li class="page-item"><a class="page-link prefixlink " data-prefix="Z">Z</a></li> </ul>
+</div>
+<div class="col-2">
+<button class="btn btn-outline-primary rounded me-1 float-end" id="btnsearch" data-toggle="modal" data-target="#searchModal" title="Search"><i class="fa fa-search"/> <span class="d-none d-block-lg">Search</span></button>
+<button class="btn btn-outline-secondary rounded mx-1 float-end" id="btnHistory" title="View past terms and definitions">Past Terms</button>
+</div>
+</div>
+</nav>
+</header>
+<div class="container-fluid">
+<div class="row mt-2">
+<div class="col">
+<div class="alert alert-warning alert-dismissible fade show mb-1" role="alert">
+You are viewing definitions of terms from the reports: AR6. Click the button 'Past Terms' to view definitions from earlier IPCC reports
+
+<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"/>
+</div>
+<div id="divnominations" class="table-responsive p-2">	
+	
+
+
+
+<table id="result" class="table table-striped" ms-2="" p-2=""><tbody><tr class="bg-primary text-light" style="line-height:32px;"><th>Term</th><th class="col-auto">Report</th></tr></tbody><tbody><tr><td><span class="alllink" data-phraseid="2076">Ablation (of glaciers, ice sheets, or snow cover)  &#171; WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Ablation (of glaciers, ice sheets, or snow cover)  &#171; WGI &#187;" data-phraseid="2076" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="5579">Abrupt change  &#171; WGI,WGII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Abrupt change  &#171; WGI,WGII &#187;" data-phraseid="5579" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="5581">Abrupt climate change  &#171; WGI,WGII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Abrupt climate change  &#171; WGI,WGII &#187;" data-phraseid="5581" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="5">Acceptability of policy or system change  &#171; WGIII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Acceptability of policy or system change  &#171; WGIII &#187;" data-phraseid="5" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="3228">Access (to food)  &#171; WGII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Access (to food)  &#171; WGII &#187;" data-phraseid="3228" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="5865">Access to modern energy services  &#171; WGIII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Access to modern energy services  &#171; WGIII &#187;" data-phraseid="5865" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="5842">Acclimatisation  &#171; WGII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Acclimatisation  &#171; WGII &#187;" data-phraseid="5842" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="2080">Accumulation (of glaciers, ice sheets or snow cover)  &#171; WGI,WGII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Accumulation (of glaciers, ice sheets or snow cover)  &#171; WGI,WGII &#187;" data-phraseid="2080" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="2082">Active layer  &#171; WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Active layer  &#171; WGI &#187;" data-phraseid="2082" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="5849">Acute food insecurity  &#171; WGII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Acute food insecurity  &#171; WGII &#187;" data-phraseid="5849" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="9">Adaptation  &#171; WGIII,WGII,WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Adaptation  &#171; WGIII,WGII,WGI &#187;" data-phraseid="9" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="345">Adaptation behaviour  &#171; WGII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Adaptation behaviour  &#171; WGII &#187;" data-phraseid="345" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="3156">Adaptation deficit  &#171; WGII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Adaptation deficit  &#171; WGII &#187;" data-phraseid="3156" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="2782">Adaptation Fund  &#171; WGII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Adaptation Fund  &#171; WGII &#187;" data-phraseid="2782" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="5844">Adaptation gap  &#171; WGII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Adaptation gap  &#171; WGII &#187;" data-phraseid="5844" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="15">Adaptation limits  &#171; WGIII,WGII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Adaptation limits  &#171; WGIII,WGII &#187;" data-phraseid="15" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="3234">Adaptation needs  &#171; WGII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Adaptation needs  &#171; WGII &#187;" data-phraseid="3234" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="3236">Adaptation opportunity</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Adaptation opportunity" data-phraseid="3236" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="17">Adaptation options  &#171; WGIII,WGII,WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Adaptation options  &#171; WGIII,WGII,WGI &#187;" data-phraseid="17" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="497">Adaptation pathways  &#171; WGIII,WGII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Adaptation pathways  &#171; WGIII,WGII &#187;" data-phraseid="497" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="19">Adaptive capacity  &#171; WGIII,WGII,WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Adaptive capacity  &#171; WGIII,WGII,WGI &#187;" data-phraseid="19" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="309">Adaptive governance  &#171; WGII,WGIII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Adaptive governance  &#171; WGII,WGIII &#187;" data-phraseid="309" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="3238">Adaptive management  &#171; WGII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Adaptive management  &#171; WGII &#187;" data-phraseid="3238" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="5172">Added value  &#171; WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Added value  &#171; WGI &#187;" data-phraseid="5172" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="2784">Additionality  &#171; WGIII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Additionality  &#171; WGIII &#187;" data-phraseid="2784" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="5749">Adjustments (in relation to effective radiative forcing)  &#171; WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Adjustments (in relation to effective radiative forcing)  &#171; WGI &#187;" data-phraseid="5749" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="2286">Advection  &#171; WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Advection  &#171; WGI &#187;" data-phraseid="2286" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="1520">Adverse side-effect  &#171; WGIII,WGII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Adverse side-effect  &#171; WGIII,WGII &#187;" data-phraseid="1520" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="21">Aerosol  &#171; WGI,WGII,WGIII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Aerosol  &#171; WGI,WGII,WGIII &#187;" data-phraseid="21" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="2294">Aerosol effective radiative forcing (ERFari+aci)  &#171; WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Aerosol effective radiative forcing (ERFari+aci)  &#171; WGI &#187;" data-phraseid="2294" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="4632">Aerosol optical depth (AOD)  &#171; WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Aerosol optical depth (AOD)  &#171; WGI &#187;" data-phraseid="4632" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="2288">Aerosol&#8211;cloud interaction  &#171; WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Aerosol&#8211;cloud interaction  &#171; WGI &#187;" data-phraseid="2288" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="2296">Aerosol&#8211;radiation interaction  &#171; WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Aerosol&#8211;radiation interaction  &#171; WGI &#187;" data-phraseid="2296" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="23">Afforestation  &#171; WGI,WGIII,WGII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Afforestation  &#171; WGI,WGIII,WGII &#187;" data-phraseid="23" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="25">Agreement  &#171; WGIII,WGII,WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Agreement  &#171; WGIII,WGII,WGI &#187;" data-phraseid="25" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="5559">Agricultural and ecological drought  &#171; WGI,WGII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Agricultural and ecological drought  &#171; WGI,WGII &#187;" data-phraseid="5559" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="1522">Agriculture, Forestry and Other Land Use (AFOLU)  &#171; WGIII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Agriculture, Forestry and Other Land Use (AFOLU)  &#171; WGIII &#187;" data-phraseid="1522" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="1526">Agroecology  &#171; WGII,WGIII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Agroecology  &#171; WGII,WGIII &#187;" data-phraseid="1526" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="1528">Agroforestry  &#171; WGII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Agroforestry  &#171; WGII &#187;" data-phraseid="1528" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="2302">Air mass  &#171; WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Air mass  &#171; WGI &#187;" data-phraseid="2302" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="27">Air pollution  &#171; WGIII,WGII,WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Air pollution  &#171; WGIII,WGII,WGI &#187;" data-phraseid="27" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="2304">Airborne fraction  &#171; WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Airborne fraction  &#171; WGI &#187;" data-phraseid="2304" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="29">Albedo  &#171; WGI,WGIII,WGII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Albedo  &#171; WGI,WGIII,WGII &#187;" data-phraseid="29" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="2306">Alkalinity  &#171; WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Alkalinity  &#171; WGI &#187;" data-phraseid="2306" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="2308">Altimetry  &#171; WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Altimetry  &#171; WGI &#187;" data-phraseid="2308" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="2310">Annular modes  &#171; WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Annular modes  &#171; WGI &#187;" data-phraseid="2310" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="33">Anomaly  &#171; WGI,WGIII,WGII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Anomaly  &#171; WGI,WGIII,WGII &#187;" data-phraseid="33" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="5164">Antarctic Ice Sheet (AIS)  &#171; WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Antarctic Ice Sheet (AIS)  &#171; WGI &#187;" data-phraseid="5164" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="35">Anthropocene  &#171; WGII,WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Anthropocene  &#171; WGII,WGI &#187;" data-phraseid="35" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="37">Anthropogenic  &#171; WGI,WGIII,WGII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Anthropogenic  &#171; WGI,WGIII,WGII &#187;" data-phraseid="37" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="39">Anthropogenic emissions  &#171; WGIII,WGII,WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Anthropogenic emissions  &#171; WGIII,WGII,WGI &#187;" data-phraseid="39" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="41">Anthropogenic removals  &#171; WGIII,WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Anthropogenic removals  &#171; WGIII,WGI &#187;" data-phraseid="41" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="2090">Anthropogenic subsidence  &#171; WGII,WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Anthropogenic subsidence  &#171; WGII,WGI &#187;" data-phraseid="2090" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="4922">Apparent hydrological sensitivity (&#951;a)  &#171; WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Apparent hydrological sensitivity (&#951;a)  &#171; WGI &#187;" data-phraseid="4922" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="5855">Arctic oscillation (AO)  &#171; WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Arctic oscillation (AO)  &#171; WGI &#187;" data-phraseid="5855" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="3242">Arid zone  &#171; WGI,WGII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Arid zone  &#171; WGI,WGII &#187;" data-phraseid="3242" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="1532">Aridity  &#171; WGII,WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Aridity  &#171; WGII,WGI &#187;" data-phraseid="1532" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="5497">Artificial ocean upwelling (AOUpw)  &#171; WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Artificial ocean upwelling (AOUpw)  &#171; WGI &#187;" data-phraseid="5497" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="4582">Assets  &#171; WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Assets  &#171; WGI &#187;" data-phraseid="4582" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="4642">Atlantic Meridional Mode (AMM)  &#171; WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Atlantic Meridional Mode (AMM)  &#171; WGI &#187;" data-phraseid="4642" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="2206">Atlantic Meridional Overturning Circulation (AMOC)  &#171; WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Atlantic Meridional Overturning Circulation (AMOC)  &#171; WGI &#187;" data-phraseid="2206" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="4538">Atlantic Multi-decadal Oscillation (AMO)  &#171; WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Atlantic Multi-decadal Oscillation (AMO)  &#171; WGI &#187;" data-phraseid="4538" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="5487">Atlantic Multi-decadal Variability (AMV)  &#171; WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Atlantic Multi-decadal Variability (AMV)  &#171; WGI &#187;" data-phraseid="5487" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="5350">Atlantic Zonal Mode (AZM)  &#171; WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Atlantic Zonal Mode (AZM)  &#171; WGI &#187;" data-phraseid="5350" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="45">Atmosphere  &#171; WGI,WGIII,WGII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Atmosphere  &#171; WGI,WGIII,WGII &#187;" data-phraseid="45" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="1536">Atmospheric boundary layer  &#171; WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Atmospheric boundary layer  &#171; WGI &#187;" data-phraseid="1536" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="3212">Atmospheric rivers (ARs)  &#171; WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Atmospheric rivers (ARs)  &#171; WGI &#187;" data-phraseid="3212" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="49">Attribution  &#171; WGI,WGII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Attribution  &#171; WGI,WGII &#187;" data-phraseid="49" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="4924">Australian and Maritime Continent monsoon (AusMCM)  &#171; WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Australian and Maritime Continent monsoon (AusMCM)  &#171; WGI &#187;" data-phraseid="4924" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="3244">Autonomous adaptation  &#171; WGII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Autonomous adaptation  &#171; WGII &#187;" data-phraseid="3244" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="2316">Autotrophic respiration  &#171; WGI &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Autotrophic respiration  &#171; WGI &#187;" data-phraseid="2316" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="2092">Avalanche  &#171; WGI,WGII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Avalanche  &#171; WGI,WGII &#187;" data-phraseid="2092" title="">AR6</span></td></tr><tr><td><span class="alllink" data-phraseid="5603">Avoid, Shift, Improve (ASI)  &#171; WGIII &#187;</span></td><td><span class="specificlink" data-report="AR6" data-phrase="Avoid, Shift, Improve (ASI)  &#171; WGIII &#187;" data-phraseid="5603" title="">AR6</span></td></tr></tbody></table>	
+</div>
+</div>
+</div>
+</div>
+
+<nav class="navbar fixed-bottom navbar-light bg-light text-primary" style="opacity:0.8">
+<div class="row p-1 w-100">
+<div class="d-none d-lg-block col-lg-9">
+<span class="d-none d-lg-block">&#169; Intergovernmental Panel on Climate Change (v 1.5)</span>
+</div>
+<div class="col-sm-12 col-lg-3">
+<span class="float-end text-success fw-bold howto">How to Cite?</span>
+</div>
+</div>
+</nav>
+
+<div class="modal fade" id="detailsModal" role="dialog" data-bs-keyboard="true" tabindex="-1">
+<div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+<div class="modal-content">
+<div class="modal-body">
+<div id="details" class="p-1"/>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="howtoModal" role="dialog" data-bs-keyboard="true" tabindex="-1">
+<div class="modal-dialog modal-fullscreen">
+<div class="modal-content">
+<div class="modal-header bg-primary text-light">
+<h6 id="transferModalTitle" class="modal-title fw-bold fs-5">How to Cite?</h6>
+</div>
+<div class="modal-body">
+<div id="howtoinfo" class="p-1"/>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="searchModal" role="dialog" data-bs-keyboard="false" data-bs-backdrop="static">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content">
+<div class="modal-header bg-primary text-light">
+<h6 id="transferModalTitle" class="modal-title">Search Glossary</h6>
+</div>
+<div class="modal-body">
+<form>
+<div class="form-group row mb-1">
+<label for="cmbtargetreport" class="d-none d-lg-block col-lg-3 form-label">Term </label>
+<div class="col-sm-12 col-lg-9">
+<input class="form-control" type="search" id="phrase" placeholder="Term to search"/>
+</div>
+</div>
+<div class="form-group row mb-1">
+<label for="cmbreport" class="d-none d-lg-block col-lg-3 form-label">Report </label>
+<div class="col-sm-12 col-lg-9">
+<select id="cmbreport" class="form-select">
+<option value="AR6">AR6</option> <option value="*" selected="">Any Report</option>
+<option value="" selected="">Please select report...</option>
+</select>
+</div>
+</div>
+<div class="form-group row mb-1">
+<label for="cmblanguage" class="d-none d-lg-block col-lg-3 form-label">Language </label>
+<div class="col-sm-12 col-lg-9">
+<select id="cmblanguage" class="form-select">
+<option value="ar">&#1575;&#1604;&#1593;&#1585;&#1576;&#1610;&#1577;</option><option value="es">Espa&#241;ol</option><option value="fr">Fran&#231;ais</option><option value="ru">&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;</option><option value="zh">&#31616;&#20307;&#20013;&#25991;</option> <option value="" selected="">English</option>
+</select>
+</div>
+</div>
+</form>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-outline-primary rounded" id="search"><i class="fa fa-search"/> Search</button>
+<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cancel</button>
+</div>
+</div>
+</div>
+
+<script language="javascript">
+        function updatetip(msg) {
+            var tip = $("#message");
+            $("#info").html(msg)
+            tip.hide().slideToggle();
+            setTimeout(function() {
+                if (tip.css("display") == "block") tip.slideToggle();
+            }, 3000);
+        }
+
+        function checkLength(o, n, min, max, focus) {
+            if (o.val().length &gt; max || o.val().length &lt; min) {
+                if (focus) o.focus();
+                o.addClass('missing');
+                updatetip(n + " (" + min + "-" + max + ")");
+                return false;
+            } else {
+                return true;
+            }
+        }
+
+		function resetSelection() {
+			$("#indexList &gt; .page-item .page-link").removeClass("bg-primary text-light");	
+		}
+		
+        $(document).ready(function() {
+            showterm = function(_id, _term) {
+                if (_id) {
+                    $.get("ajax/ajax.view.php?q=" + _id, function(data) {
+                        $("#more" + _id).html(data);
+                    });
+                }
+            }
+
+            $(document).on("click", "span.term", function() {
+                var _id = $(this).attr('data-id');
+                var _term = $(this).attr('data-term');
+                showterm(_id, _term);
+            });
+
+            $(document).on("click", ".navigator", function() {
+                var _url = $(this).attr('data-href');
+                if (_url) $("#divnominations").load(_url);
+            });
+
+            bValid = function() {
+                var ret = true;
+                $("#phrase, #cmbreport, #cmblanguage").removeClass('missing');
+                ret = ret &amp;&amp; checkLength($("#phrase"), "Please enter the phrase to search ", 1, 512);
+                ret = ret &amp;&amp; checkLength($("#cmbreport"), "Please enter the report ", 1, 512);
+                if (($("#cmblanguage").val() != "") &amp;&amp; ($("#cmbreport").val() == "*")) {
+                    updatetip("Please select the report from the dropdown when searching by translated language");
+                    $("#cmbreport").addClass('missing').focus();
+                    return (false);
+                }
+                return (ret);
+            }
+
+            function dosearch() {
+				resetSelection();
+                $("#divnominations")
+                    .html("&lt;div class='alert alert-warning'&gt;Searching glossary...&lt;/div&gt;")
+                    .load("ajax/ajax.searchlatest.php?q=" + encodeURIComponent($("#phrase").val()) + "&amp;r=" + encodeURIComponent($("#cmbreport").val()) + "&amp;l=" + encodeURIComponent($("#cmblanguage").val()))
+                    .removeClass('flex');
+            }
+
+            $("#search").click(function() {
+				if (bValid()) {
+					$("#phrase, #cmbreport, #cmblanguage").removeClass('missing');
+					$("#searchModal").modal("hide");
+					dosearch();
+				}
+			});
+
+            $('#phrase').keypress(function(e) {
+                if (e.which == 13) {
+                    if (bValid()) dosearch();
+                    return false;
+                }
+            });
+
+            $(document).on("click", "span.jump", function(e) {
+                var _parentid = $(this).attr('parent-id');
+                var _id = $(this).attr('data-id');
+                if (_id) {
+                    var _width = $(window).width() - 120;
+                    //var _width = $(window).width() - e.pageX - 100;	
+                    $(".container")
+                        //.css({'top':e.pageY+10,'left':e.pageX+30, 'position':'absolute', 'maxWidth' : _width})
+                        .css({
+                            'top': e.pageY + 10,
+                            'left': 50,
+                            'position': 'absolute',
+                            'maxWidth': _width
+                        })
+                        .show()
+                        .load("ajax/ajax.getdefinition.php?q=" + _id, function() {
+                            var _divheight = $(".container").height();
+                            var _locy = e.pageY + 20 + _divheight + $(".bottom").height();
+                            if (_locy &gt; $(window).height()) {
+                                $(".container").css({
+                                    'top': $(window).height() - _divheight - 30 - $(".bottom").height()
+                                });
+                            }
+                        })
+                        .draggable()
+                        .click(function() {
+                            $(this).hide();
+                        });
+                }
+            });
+
+			$("#btnsearch").click(function() {
+				$("#searchModal").modal('show');
+			});
+			
+            $(document).on("click", "p.related", function() {
+                var _id = $(this).attr('data-id');
+                if (_id) $(this).parent("div").load("ajax/ajax.evolution.php?q=" + _id);
+            });
+
+            $(document).on("click", ".refinesearch", function() {
+                var _term = $(this).html();
+                $("#phrase").val(_term);
+                $("#search").trigger("click");
+            });
+
+            $(document).on("click", ".specificlink", function() {
+                var _report = $(this).attr('data-report');
+                var _phraseid = $(this).attr('data-phraseid');
+                var _phrase = $(this).attr('data-phrase');
+                var _title = $(this).attr('title');
+                if ((_report) &amp;&amp; (_phraseid))
+                    $("#details")
+                    .html("&lt;div class='alert alert-warning'&gt;Retrieving definition from the glossary...&lt;/div&gt;")
+                    .load("ajax/ajax.searchbyphraseandreport.php?q=" + _phraseid + "&amp;r=" + encodeURIComponent(_report));
+                $("#detailsModal").modal('show');
+            });
+
+            $(document).on("click", ".separatewindowlink", function() {
+                var _report = $(this).attr('data-report');
+                var _phraseid = $(this).attr('data-phraseid');
+                if ((_report) &amp;&amp; (_phraseid))
+                    $("#divnominations").load("ajax/ajax.searchbyphraseandreport.php?q=" + _phraseid + "&amp;r=" + encodeURIComponent(_report));
+            });
+
+            function lookupitem(_pid, _report) {
+                $("#details")
+                    .html("&lt;div class='alert alert-warning'&gt;Retrieving definition from the glossary...&lt;/div&gt;")
+                    .load("ajax/ajax.searchalllatestoccurance.php?q=" + _pid + "&amp;r=" + _report);
+                $("#detailsModal").modal('show');
+            }
+
+            $(document).on("click", ".alllink", function() {
+                var _phraseid = $(this).attr('data-phraseid');
+                if (_phraseid) lookupitem(_phraseid, "");
+            });
+
+
+            $(".prefixlink").click(function() {
+                var _prefix = $(this).attr('data-prefix');
+				resetSelection();				
+                if (_prefix)
+					$(this).addClass('bg-primary text-light');
+                    $("#divnominations")
+                    .removeClass('flex')
+                    .html("&lt;div class='alert alert-warning'&gt;Retrieving Terms from the Glossary...&lt;/div&gt;")
+                    .load("ajax/ajax.searchbylatestindex.php?q=" + encodeURIComponent(_prefix));
+            });
+
+            $(document).on("click", ".lookup", function() {
+                var _report = $(this).attr('data-report');
+                var _phrase = ($(this)[0].hasAttribute('data-useterm') ? $(this).attr('data-useterm') : $(this).html());
+                if ((_report) &amp;&amp; (_phrase)) {
+                    $("#details")
+                        .html("&lt;div class='alert alert-warning'&gt;Retrieving definition from the glossary...&lt;/div&gt;")
+                        .load("ajax/ajax.lookupphrase.php?q=" + encodeURIComponent(_phrase) + "&amp;r=" + encodeURIComponent(_report));
+                    $("#detailsModal").modal('show');
+                }
+            });
+
+            $(".howto").click(function() {
+				//resetSelection()
+                $("#howtoinfo").load("_citation.php");
+				$("#howtoModal").modal('show');
+            });
+
+            $(document).on('click', '.translation', function() {
+                var _lang = $(this).data('lang');
+                var _report = $(this).data('report');
+                var _did = $(this).data('did');
+                var _pid = $(this).data('pid');
+                if ((_lang) &amp;&amp; (_report) &amp;&amp; (_did) &amp;&amp; (_pid)) {
+                    $("#details")
+                        .html("&lt;div class='alert alert-warning'&gt;Retrieving translation from the glossary...&lt;/div&gt;")
+                        .load("ajax/ajax.gettranslation.php?q=" + _did + "&amp;p=" + _pid + "&amp;r=" + encodeURIComponent(_report) + "&amp;l=" + _lang);
+					$("#detailsModal").modal('show');
+                } else alert("invalid");
+            });
+
+            $(document).on('click', '.back', function() {
+                var _report = $(this).data('report');
+                var _pid = $(this).data('pid');
+                if ((_report) &amp;&amp; (_pid))
+                    $("#details")
+                    .html("&lt;div class='alert alert-warning'&gt;Retrieving definition from the glossary...&lt;/div&gt;")
+                    .load("ajax/ajax.searchbyphraseandreport.php?q=" + _pid + "&amp;r=" + encodeURIComponent(_report));
+            });
+			
+			$("#btnHistory").click(function() {
+				location.href = "search.php"; 
+			});
+
+            $('#divnominations').html("&lt;div class='alert alert-warning'&gt;Loading Glossary...&lt;/div&gt;").load('ajax/ajax.searchbylatestindex.php?q=A')        });
+    </script>
+<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854" integrity="sha512-bjgnUKX4azu3dLTVtie9u6TKqgx29RBwfj3QXYt5EKfWM/9hPSAI/4qcV5NACjwAo8UtTeWefx6Zq5PHcMm7Tg==" data-cf-beacon="{&quot;rayId&quot;:&quot;80e6255aaadb35c5&quot;,&quot;token&quot;:&quot;de7e9e023f8b4b6a8345b0ddaf70708f&quot;,&quot;version&quot;:&quot;2023.8.0&quot;,&quot;si&quot;:100}" crossorigin="anonymous"/>
+
+</div></body></html>
