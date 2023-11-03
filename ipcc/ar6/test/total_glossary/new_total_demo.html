@@ -1,13 +1,142 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<style>
-			h4 {
-				font-size: 15pt; background: #ffffee; text-align: center;
-			}
-		</style>
-	</head><body><div class="gloss-back">
-		<div class="frontmatter">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>IPCC Glossary - #semanticClimate Research Demo</title>
+    <link type="text/css" rel="stylesheet" href="css/book.css" />
+    <style>
+      a.fn {
+        -adapt-template: url(data:application/xml,%3Chtml%20xmlns=%22http://www.w3.org/1999/xhtml%22%20xmlns:s=%22http://www.pyroxy.com/ns/shadow%22%3E%3Chead%3E%3Cstyle%3E.footnote-content%7Bfloat:footnote%7D%3C/style%3E%3C/head%3E%3Cbody%3E%3Cs:template%20id=%22footnote%22%3E%3Cs:content/%3E%3Cs:include%20class=%22footnote-content%22/%3E%3C/s:template%3E%3C/body%3E%3C/html%3E#footnote);
+        text-decoration: none;
+        color: inherit;
+        vertical-align: baseline;
+        font-size: 70%;
+        position: relative;
+        top: -0.3em;
+      }
+      body {
+        background-color: white;
+      }
+      section[role=doc-footnote] .footnote-counter:after {
+        content: ". ";
+      }
+      section.fnlist {
+        display: none;
+      }
+      section:footnote-content {
+        display: block;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: none;
+      }
+      .table-of-contents a {
+        display: inline-flex;
+        width: 100%;
+        text-decoration: none;
+        color: currentColor;
+        break-inside: avoid;
+        align-items: baseline;
+      }
+      .table-of-contents a::before {
+        margin-left: 1px;
+        margin-right: 1px;
+        border-bottom: solid 1px lightgray;
+        content: "";
+        order: 1;
+        flex: auto;
+      }
+      .table-of-contents a::after {
+        text-align: right;
+        content: target-counter(attr(href, url), page);
+        align-self: flex-end;
+        flex: none;
+        order: 2;
+      }
+      @page {
+        size: A4;
+        @top-center {
+          content: env(doc-title);
+        }
+        @bottom-center {
+          content: counter(page);
+        }
+      }
+      @page :first {
+        @bottom-center {
+          content: normal;
+        }
+        @top-center {
+          content: normal;
+        }
+      }
+      figure img {
+        max-width: 100%;
+      }
+      .article-title {
+        page-break-before: right;
+      }
+      h1.part {
+        page-break-before: right;
+      }
+      .copyrightpage {
+        page-break-before: left;
+      }
+      .tocpage {
+        page-break-before: right;
+      }
+      .booktitle {
+        text-align: center;
+      }
+    </style>
+    <link type="text/css" rel="stylesheet" href="css/appaloosa.css" />
+  </head>
+
+<body class="user-contents">
+    <div class="titlepage frontmatter">
+      <h1 class="booktitle">IPCC Glossary</h1>
+      <h2 class="booksubtitle">#semanticClimate Research Demo</h2>
+      <h3 class="bookauthor">by Team #semanticClimate</h3>
+      <h4 class="bookversion">Version Alpha 1.0 DOI: 10.1000/100 HASH: #0000000 UTC: 0000-00-00T00:00:00Z</h4>
+    </div>
+    <div class="copyrightpage frontmatter">
+      <p>IPCC Glossary: #semanticClimate Research Demo</p>
+	  <p>Version: Alpha 1.0 (work in progress)</p>
+      <p>Last updated: 2023-11-02</p>
+	  <p>GitHub source: <a href="https://github.com/semanticClimate/glossary-demo">github.com/semanticClimate/glossary-demo</a></p>
+
+<h3>IPCC Glossary </h3> 
+
+<p>IPCC Glossary © Intergovernmental Panel on Climate Change (v 1.5)</p>
+
+<p>IPCC Glossary: https://apps.ipcc.ch/glossary/</p>
+
+<p>Zotero citation sources: https://www.zotero.org/groups/2437020/ock/collections/B4U7JURX</p> 
+
+<h4>Sixth Assessment Cycle (AR6)</h4>
+
+<p>Weyer, N. M. (Ed.). (2019). Special Report on the Ocean and Cryosphere in a Changing Climate Glossary (Sixth Assessment Cycle (AR6)). IPCC. https://www.ipcc.ch/report/srocc</p>
+ 
+<p>Diemen, R. (Ed.). (2019). Special Report on Climate Change and Land Glossary (Sixth Assessment Cycle (AR6)). IPCC. https://www.ipcc.ch/report/srccl</p>
+
+<p>Matthews, J. B. R. (Ed.). (2018). Special Report on Global Warming of 1.5°C Glossary (Sixth Assessment Cycle (AR6)). IPCC. https://www.ipcc.ch/sr15/chapter/glossary</p>
+
+<h4>Fifth Assessment Cycle (AR5)</h4>
+
+<p>Mach, K. J., Planton, S., & von Stechow, C. (Eds.). (2014). AR5 Synthesis Report Glossary (Fifth Assessment Cycle (AR5), pp. 117–130). IPCC. https://www.ipcc.ch/report/ar5/syr</p>
+
+<p>Allwood, J. M., Bosetti, V., Dubash, N. K., Gómez-Echeverri, L., & von Stechow, C. (Eds.). (2014). AR5 Working Group III Report Glossary (Fifth Assessment Cycle (AR5)). IPCC. https://www.ipcc.ch/report/ar5/wg3</p>
+
+<p>Agard, J., Schipper, E. L. F., Birkmann, J., Campos, M., Dubeux, C., Nojiri, Y., Olsson, L., Osman-Elasha, B., Pelling, M., Prather, M. J., Rivera-Ferre, M. G., Ruppel, O. C., Sallenger, A., Smith, K. R., St. Clair, A. L., Mach, K. J., Mastrandrea, M. D., & Bilir, T. E. (Eds.). (2014). AR5 Working Group II Report Glossary (Fifth Assessment Cycle (AR5), pp. 1757–1776). IPCC. https://www.ipcc.ch/report/ar5/wg2</p>
+
+<p>Planton, S. (Ed.). (2013). AR5 Working Group I Report Glossary (Fifth Assessment Cycle (AR5)). IPCC. https://www.ipcc.ch/report/ar5/wg1</p>
+
+<p>Field, C. B., Barro, V., Stocker, T. F., Qin, D., Dokken, D. J., Ebi, K. L., Mastrandrea, M. D., Mach, K. J., Plattner, G.-K., Allen, S. K., Tignor, M., & Midgley, P. M. (Eds.). (2011). Special Report on Managing the Risks of Extreme Events and Disasters to Advance Climate Change Adaptation Glossary (Fifth Assessment Cycle (AR5), pp. 555–564). https://www.ipcc.ch/report/managing-the-risks-of-extreme-events-and-disasters-to-advance-climate-change-adaptation</p>
+
+<p>Verbruggen, A., Moomaw, W., & Nyboer, J. N. (Eds.). (2011). Special Report on Renewable Energy Sources and Climate Change Mitigation (Fifth Assessment Cycle (AR5)). IPCC. https://www.ipcc.ch/report/renewable-energy-sources-and-climate-change-mitigation</p>
+</div>
+
+<div class="frontmatter">
+	<h3>Instructions for use</h3> 
 			<p>All images are copied from Wikimedia with full provenance and attribution. Click on the image to visit Wikimedia</p>
 			<p>To insert an image from Wikimedia:
 				<ul>
@@ -38,7 +167,147 @@
 					<div class="gloss-translate"> <p>Translations</p> <ul> <li lang="de">DE: ablation</li> <li lang="hi">HI: पृथक करना</li> </ul> </div>
 			</pre>
 		</div>
-<a name="ablation"></a>
+
+    <div class="tocpage frontmatter">
+      <nav role="doc-toc">
+		<ol>
+          <li>
+            <a href="#_1_0">
+              A
+            </a>
+		  </li>
+		  <li>
+            <a href="#_2_0">
+              B
+            </a>
+		  </li>
+		  <li>
+            <a href="#_3_0">
+              C
+            </a>
+		  </li>
+		  <li>
+            <a href="#_4_0">
+              D
+            </a>
+		  </li>
+		  <li>
+            <a href="#_5_0">
+              E
+            </a>
+		  </li>
+		  <li>
+            <a href="#_6_0">
+              F
+            </a>
+		  </li>
+		  <li>
+            <a href="#_7_0">
+              G
+            </a>
+		  </li>
+		  <li>
+            <a href="#_8_0">
+              H
+            </a>
+		  </li>
+		  <li>
+            <a href="#_9_0">
+              I
+            </a>
+		  </li>
+		  <li>
+            <a href="#_10_0">
+              J
+            </a>
+		  </li>
+		  <li>
+            <a href="#_11_0">
+              K
+            </a>
+		  </li>
+		  <li>
+            <a href="#_12_0">
+              L
+            </a>
+		  </li>
+		  <li>
+            <a href="#_13_0">
+              M
+            </a>
+		  </li>
+		  <li>
+            <a href="#_14_0">
+              N
+            </a>
+		  </li>
+		  <li>
+            <a href="#_15_0">
+              O
+            </a>
+		  </li>
+		  <li>
+            <a href="#_16_0">
+              P
+            </a>
+		  </li>
+		  <li>
+            <a href="#_17_0">
+              Q
+            </a>
+		  </li>
+		  <li>
+            <a href="#_18_0">
+             R
+            </a>
+		  </li>
+		  <li>
+            <a href="#_19_0">
+              S
+            </a>
+		  </li>
+		  <li>
+            <a href="#_20_0">
+              T
+            </a>
+			<li>
+            <a href="#_21_0">
+              U
+            </a>
+		  </li>
+		  <li>
+            <a href="#_22_0">
+              V
+            </a>
+		  </li>
+		  <li>
+            <a href="#_23_0">
+             W
+            </a>
+		  </li>
+		  <li>
+            <a href="#_24_0">
+              X
+            </a>
+		  </li>
+		  <li>
+            <a href="#_25_0">
+             Y
+            </a>
+		  </li>
+		  <li>
+            <a href="#_26_0">
+              Z
+            </a>
+		  </li>
+	    </ol>
+	  </nav>
+</div>
+<div class="article-part article-title" id="_1_0">A</div>
+<div class="article-part article-richtext article-body">
+		
+<div style="gloss-back">
+	<a name="ablation"></a>
 <div class="p-1">	
 	<div class="gloss-term"><h4>ablation</h4><div><div><p class="definition">All processes that reduce the mass of a <em><a href="#glacier" class="mention">glacier</a></em>,<em><a href="#ice_sheet" class="mention"> ice sheet</a></em>, or snow cover.</p><p>The main processes are melting, and for glaciers also <em><a href="#calving" class="mention">calving</a></em> (or, when the glacier nourishes an <em><a href="#ice_shelf" class="mention">ice shelf</a></em>, <em>discharge of ice</em> across the <em><a href="#grounding_line" class="mention">grounding line</a></em>), but other processes such as sublimation and loss of wind-blown snow can also contribute to ablation. Ablation also refers to the mass lost by any of these processes.</p></div><div class="p-3 small"><h6 class="fs-6">Parent-term</h6><ul ><li><span data-report="AR6" data-phrase="Mass balance/budget (of glaciers or ice sheets)" data-phraseid="2202"><a href="#mass_balance/budget">Mass balance/budget (of glaciers or ice sheets)</a></span></li></ul></div>
 <a title="Kelvinsong, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Glacier_diagram.svg"><img width="512" alt="Glacier diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Glacier_diagram.svg/512px-Glacier_diagram.svg.png"></a>
