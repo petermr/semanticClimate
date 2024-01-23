@@ -1,0 +1,74 @@
+├── PMC9691815
+│   ├── eupmc_result.json
+│   ├── fulltext.xml
+│   ├── scholarly.html
+│   └── sections
+│       ├── 0_processing-meta
+│       │   └── 0_restricted-by.xml
+│       ├── 1_front
+│       │   ├── 0_journal-meta
+│       │   │   ├── 0_journal-id.xml
+│       │   │   ├── 4_journal-title-group.xml
+│       │   │   ├── 5_issn.xml
+│       │   │   └── 7_publisher.xml
+│       │   └── 1_article-meta
+│       │       ├── 0_article-id.xml
+│       │       ├── 10_pub-date.xml
+│       │       ├── 11_volume.xml
+│       │       ├── 12_issue.xml
+│       │       ├── 13_fpage.xml
+│       │       ├── 14_lpage.xml
+│       │       ├── 15_history.xml
+│       │       ├── 16_permissions.xml
+│       │       ├── 17_self-uri.xml
+│       │       ├── 18_kwd-group.xml
+│       │       ├── 19_custom-meta-group
+│       │       │   └── 0_custom-meta
+│       │       │       ├── 0_meta-name.xml
+│       │       │       └── 1_meta-value.xml
+│       │       ├── 1_article-id.xml
+│       │       ├── 4_article-categories.xml
+│       │       ├── 5_title-group.xml
+│       │       ├── 6_contrib-group.xml
+│       │       ├── 7_aff.xml
+│       │       ├── 8_author-notes.xml
+│       │       └── 9_pub-date.xml
+│       ├── 2_body
+│       │   ├── 0_disp-quote
+│       │   │   └── 0_p.xml
+│       │   ├── 1_p.xml
+│       │   ├── 2_p.xml
+│       │   ├── 3_africa_has_suffered_disproport
+│       │   │   ├── 0_title.xml
+│       │   │   ├── 1_p.xml
+│       │   │   ├── 2_p.xml
+│       │   │   └── 3_p.xml
+│       │   └── 4_the_fight_against_the_climate_
+│       │       ├── 0_title.xml
+│       │       ├── 1_p.xml
+│       │       ├── 2_p.xml
+│       │       ├── 3_p.xml
+│       │       ├── 4_p.xml
+│       │       └── 5_list_of_authors
+│       │           ├── 0_title.xml
+│       │           └── 1_p.xml
+│       └── 3_back
+│           ├── 0_fn-group
+│           │   ├── 0_fn
+│           │   │   └── 0_p.xml
+│           │   ├── 1_fn
+│           │   │   └── 0_p.xml
+│           │   └── 2_fn
+│           │       └── 0_p.xml
+│           ├── 1_ethics_statements
+│           │   ├── 0_title.xml
+│           │   ├── 1_patient_consent_for_publicatio
+│           │   │   ├── 0_title.xml
+│           │   │   └── 1_p.xml
+│           │   └── 2_ethics_approval
+│           │       ├── 0_title.xml
+│           │       └── 1_p.xml
+│           └── 2_ref-list
+│               ├── 0_title.xml
+...
+│               └── 9_ref.xml
