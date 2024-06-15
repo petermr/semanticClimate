@@ -7,7 +7,7 @@ The semantic version of this article is OKD-Open but unfortunately many "open" s
 
 ## The blogosphere
 
-The 2000's saw a blossoming of new forms of knowledge creation and dissemination, especially blogging which allowed readers to feedback additional material on the authors' sites effectively instantaneously. This allows for corrections, enhancements, aggregation, innovation and many different styles and uses. Blogs showed new types of publication such as commentary [A], collaboration, text, video, maths, chemistry, scientific findings, publication justice. See PeterMR's blog [] which included reviews and challenges to injustice. 
+The 2000's saw a blossoming of new forms of knowledge creation and dissemination, especially blogging which allowed readers to feedback additional material on the authors' sites effectively instantaneously. This allows for corrections, enhancements, aggregation, innovation and many different styles and uses. Blogs showed new types of publication such as commentary [A], collaboration, text, video, maths, chemistry, scientific findings, publication justice. See PeterMR's blog [] which included reviews and challenges to injustice. Unfortunately this vision is now relatively static and overshadowed by the surveillance publication industry
 
 
 [A] https://blogs.ch.cam.ac.uk/pmr/2007/06/28/a-snapshot-of-the-chemical-blogosphere/
