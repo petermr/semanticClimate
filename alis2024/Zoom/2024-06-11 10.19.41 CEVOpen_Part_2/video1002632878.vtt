@@ -1,0 +1,963 @@
+WEBVTT
+
+
+00:00:03.240 --> 00:00:24.240
+We then have to do captions. And we have to view all transcript. So. When I've got a minute I will try and find out and Oh, whether these transcripts are all the same or which the best one is.
+
+00:00:23.890 --> 00:00:41.890
+But they're relatively small compared with the Oh yeah and other streams. Okay. Any so Put in the, if you have comments or questions or anything, put them in the slack.
+
+00:00:41.639 --> 00:00:52.639
+I won't necessarily answer them at the same time. But, We definitely need your feedback.
+
+00:00:51.539 --> 00:00:55.539
+So.
+
+00:01:00.040 --> 00:01:06.040
+And put them in coordination. Now, that should be finished now.
+
+00:01:09.440 --> 00:01:22.440
+Okay, so. The video's been sent. Off we go. So I don't expect this to be more than an hour and it may well be less than an hour.
+
+00:01:22.090 --> 00:01:29.090
+Right. Okay. So.
+
+00:01:28.590 --> 00:01:39.590
+We've now got the motivation for being semantic. The, framework that we're going to use.
+
+00:01:38.840 --> 00:01:56.840
+Conceptually and technically. And now we're going to give examples. Because, it's 1 thing to come up with, designs for something and it's another to get the world to use this.
+
+00:01:58.990 --> 00:02:02.990
+So these are real working examples as are useful to the world.
+
+00:02:02.540 --> 00:02:16.540
+So I'm going to distinguish our sources as static. And dynamic. Static means that they never change.
+
+00:02:11.990 --> 00:02:39.990
+You can find them the same in 20 years. A 100 years, etc. And that's common for things like religious texts and, cultural works and so on they don't change they might have annotations but the basically it's a static.
+
+00:02:40.290 --> 00:02:50.290
+Corpus whereas, in today's knowledge, it's constantly changing.
+
+00:02:43.990 --> 00:02:57.990
+And if you take something like a Twitter stream, then people delete things. They add replies in different places.
+
+00:02:54.440 --> 00:03:04.440
+That's the most immediate level of discourse that we have.
+
+00:03:03.441 --> 00:03:19.441
+We're not going to deal with dynamic things. We have expandable corporate, and that's true of actually of all our corporate on different timescales.
+
+00:03:18.090 --> 00:03:32.090
+So when we look at the, scholarly literature, that expands daily, Europe, Pubmed Central has many thousands of new papers a day.
+
+00:03:32.290 --> 00:03:44.290
+When we look at, UN FCC, this updates every year. And when we look at.
+
+00:03:43.540 --> 00:04:00.540
+Ipcc reports they update every 7 years. So, We're going to deal with, essentially static corpora, which may occasionally be expanded.
+
+00:03:59.341 --> 00:04:18.341
+But not generally changed. So the 1st of these, I should also say before we start that some corpora are very homogeneous and some are heterogeneous.
+
+00:04:18.290 --> 00:04:27.290
+So the UNFCCC reports are extremely homogeneous. They have the same form for each cop meeting.
+
+00:04:26.190 --> 00:04:44.190
+And the same structure of the documents. The same terminology. So it's possible to create a template which manages those, which will do the same for the next cop and the cop after that and so on.
+
+00:04:44.040 --> 00:04:55.040
+For IPCC. The report structure probably changes every few years. But for the.
+
+00:04:55.090 --> 00:05:05.090
+Scholarly literature, we have something much more heterogeneous, where every, Publisher publishes something different.
+
+00:05:03.590 --> 00:05:14.590
+And it is, a nightmare to bring it all together because they're not semantic, in any sense of the term.
+
+00:05:13.240 --> 00:05:23.240
+So start with UNFCCC. Now, this is a typical legacy corpus. It's in PDF.
+
+00:05:23.040 --> 00:05:37.040
+The PDFs are relatively easy to, convert into semantic form because, Say, single column pages.
+
+00:05:34.840 --> 00:05:45.840
+They have a well-defined structure to their information. And we deal with them by creating heuristics.
+
+00:05:45.289 --> 00:06:04.289
+That convert them all into semantic form we also, create a, an implicit ontology for them because they use the same terms.
+
+00:05:59.840 --> 00:06:13.840
+Meeting after meeting. So it's possible to collect those terms. And 2 make the term semantic.
+
+00:06:15.640 --> 00:06:18.640
+And then to use those to annotate the corpus.
+
+00:06:18.808 --> 00:06:31.808
+The only main difference, there are no diagrams in UNFCCC. So the only problem we have is that they have in text footnotes.
+
+00:06:30.740 --> 00:06:47.740
+At the bottom of each page which need detecting they're sometimes a little bit difficult to detect. And we transform those into, end notes rather than footnotes.
+
+00:06:46.840 --> 00:07:00.840
+Pages have no real relevance in semantic and documents other than as legacy means of addressing.
+
+00:06:54.439 --> 00:07:11.439
+And the page is a product of printing, not a product of the conceptual design of documents.
+
+00:07:11.690 --> 00:07:26.690
+The next is, the IPCC material. And, We start with, the reports.
+
+00:07:25.190 --> 00:07:42.190
+The report structure has been well set out by Wiab in a set of videos Here it's simply that we have a set of Assessment reports.
+
+00:07:41.290 --> 00:07:50.290
+At 7 year intervals, within that, We have a number of reports.
+
+00:07:50.140 --> 00:08:12.140
+Usually about. 7. And within the report, it's implicitly structured into, chap, it's explicitly structured into chapters and sections and then subsections and subsections.
+
+00:08:10.441 --> 00:08:25.441
+These are all numbered so it gives us an annotation system. And we have, We can identify the paragraphs.
+
+00:08:24.390 --> 00:08:34.390
+In. The. There are 2 forms of publication from IPCC.
+
+00:08:29.640 --> 00:08:41.640
+One is PDFs, so you can get the reports as PDFs. These are normally double column.
+
+00:08:34.890 --> 00:08:53.890
+The initial release is single column, the final release is double column with graphic. Additions.
+
+00:08:53.840 --> 00:09:04.840
+But, it's relatively easy to pass this to a stream. However, we can also get the HTML.
+
+00:09:04.440 --> 00:09:14.440
+From the quotes explore unquote. And facility, which gives us PDF in the browser.
+
+00:09:13.689 --> 00:09:26.689
+This is dynamic, dynamically loaded PDF. So it includes sections which are hideable and viewable by clicking.
+
+00:09:27.239 --> 00:09:31.239
+And so we need a dynamic.
+
+00:09:32.040 --> 00:09:43.040
+Loading tool, for this. which hopefully, can download and expand all this material automatically.
+
+00:09:44.040 --> 00:09:55.040
+And I, Ashg, developed a tool for this. We, we refer to this as headless browser.
+
+00:09:54.690 --> 00:10:05.690
+Headless browsing. The, IPCC, also create a glossary.
+
+00:10:04.140 --> 00:10:19.140
+This glossary is online, firmly online. There is a PDF, the easiest thing we found is to download the glossary, in a headless manner.
+
+00:10:18.689 --> 00:10:28.689
+You said, and this browser to expand it. But also the glossary material, which is really important.
+
+00:10:27.640 --> 00:10:44.640
+Is spread over the different reports so different reports all have their own glossary, which, intersects that is distinct from and the main online glossary.
+
+00:10:43.340 --> 00:11:04.340
+The online grocery has about 700 terms using the chapters we probably take this up to about 2,000 and there are also probably about a thousand abbreviations in the chapters.
+
+00:11:02.590 --> 00:11:12.590
+So there's probably about between 1,000. 502,000. Entries in this glossary.
+
+00:11:13.590 --> 00:11:19.590
+And we'll use the term dictionary glossary. And interchangeably.
+
+00:11:19.040 --> 00:11:28.040
+So, Our job, in all of these then is to turn it into semantic form.
+
+00:11:27.990 --> 00:11:39.990
+So that we have a complete hierarchical structure all the way down to the paragraph and often down to the individual sentence.
+
+00:11:33.640 --> 00:11:54.640
+And occasionally splitting the sentences into more than one concept because the IPCC reports. Have an implicit structure of statements.
+
+00:11:54.941 --> 00:12:03.941
+They're very powerful but they're not structured. In this way and we have to do some empirical expansion.
+
+00:12:03.940 --> 00:12:15.940
+So scraping this is not easy. The IPCC HCML has 2 publication methods.
+
+00:12:13.440 --> 00:12:26.440
+One uses the WordPress tool, the other the Cats be tool, they require different passing but we have passes for both of these.
+
+00:12:24.940 --> 00:12:36.940
+And we been able to download all of the Corpus, 70 chapters and expand it to semantic form.
+
+00:12:37.091 --> 00:12:51.091
+A structural semantic form. The last component is the scholarly literature and here we use Pai get papers and doc analysis.
+
+00:12:50.191 --> 00:12:56.191
+Written by, I've, Gogg and, Explay to Hector.
+
+00:12:55.791 --> 00:13:08.791
+And these are very powerful general tools for the scholarly nitrogen. So that, Just go in literature is divided into.
+
+00:13:07.691 --> 00:13:25.691
+Closed and open access. Closed access means we cannot read it without paying and in some cases we can't redistribute or comment on it without permission.
+
+00:13:23.891 --> 00:13:37.891
+So we restrict ourselves to the open access where we can see this on the open web. And where we can make derivative copies.
+
+00:13:36.240 --> 00:13:50.240
+And make it semantic and market up. There's a grey legal area over this. Which we won't comment on here, may come up later.
+
+00:13:49.991 --> 00:14:06.991
+So, I get papers, is a tool to query the, organized open access literature in repositories and at the moment we support the following repositories.
+
+00:14:03.540 --> 00:14:15.540
+Europe, Pub, Central, which is bioscience but has a lot of open access material, from other disciplines.
+
+00:14:15.141 --> 00:14:41.141
+Open Alex which is a large metadata inspired collection of the publication. Arising probably out of Microsoft academic graph but now, handed over to the community founded by Heather Pivoire and Jason Prim who've done a brilliant job of.
+
+00:14:37.391 --> 00:15:02.391
+Making this universally available. In some cases, full text is available in open. Europe, Central in other cases, it isn't and in some cases it's only available as PDF, so we have to be able to deal with that.
+
+00:15:02.041 --> 00:15:24.041
+P get papers is able to query the material using complex queries so we can build queries with our Amy tools and give them to P get papers.
+
+00:15:17.891 --> 00:15:30.891
+So you can look for multiple terms and you can create Boolean queries. And it downloads all the hits automatically onto a local machine.
+
+00:15:30.841 --> 00:15:56.841
+It's then possible to run through that and turn it into semantic form and then, analyze it with dock analysis which uses natural language processing and A I ML tools to interpret this.
+
+00:15:54.640 --> 00:16:07.640
+The most important initial thing is to classify it. So that we are able to find out what type of a document it is.
+
+00:16:02.740 --> 00:16:23.740
+And what the concepts in it are. And then, we can apply domain specific tools, such as size spacey, which can, by scientific.
+
+00:16:24.890 --> 00:16:34.890
+Concepts such as species and chemicals to determine these. And with the advent of.
+
+00:16:34.640 --> 00:16:48.640
+Of domain specific, AI, for example, in hugging space, we expect Pi get papers and doc analysis to expand and to cover a wide range of subjects.
+
+00:16:49.090 --> 00:16:59.090
+So it's possible to annotate these documents using modern technology.
+
+00:16:58.890 --> 00:17:13.890
+So at the end of this, you get semantic documents and you will get some limited automatic annotation from domain specific tools.
+
+00:17:15.789 --> 00:17:24.789
+In that. So that's our corporate. Those are our corpora that we work with. The
+
+00:17:25.290 --> 00:17:34.290
+This will all be, this is all available as a work in progress. Which can be hyperlinked from this.
+
+00:17:35.640 --> 00:17:48.640
+Ideally from the main. HTML discourse. Which will link into the various components and you will see these changing week by week as our community works on them.
+
+00:17:48.939 --> 00:17:58.939
+No, the technology we've developed, or, web scraping. And for cementification.
+
+00:17:58.339 --> 00:18:08.339
+Is generic it's not limited to, the single domain of climate.
+
+00:18:10.090 --> 00:18:24.090
+And so we see the following as possible. Cool for that can be addressed. So. Output from cities on their climate plans.
+
+00:18:19.991 --> 00:18:40.991
+And I've just downloaded the Cambridge City climate plan. It's about I think 50 pages and can run cementifying tools and our glossary over this.
+
+00:18:40.190 --> 00:19:00.190
+To add value to that. A really important area is TCs. So that, a thesis is much better prepared than the average scholarly, publication in PDF.
+
+00:19:00.040 --> 00:19:20.040
+It's single column it separates diagrams from text and, They normally have a fairly, standard, form with, labeled, sections and so on.
+
+00:19:18.140 --> 00:19:34.140
+So, a primary area that It's just begging to be, made semantic and it would change our method of, publishing scholarship if we could actually work with CCs.
+
+00:19:34.641 --> 00:20:04.641
+And I'm absolutely sure that would have been. Arguing for. For capturing CCs in an open repository, making them semantic from the start because it's really fairly straightforward to do if you have semantic authoring tools and these could be created within a matter of you know
+
+00:20:04.990 --> 00:20:12.990
+Certainly months. With a semantic annotator such as a variety of glossaries.
+
+00:20:12.140 --> 00:20:31.140
+Dictionaries which would update it. So I would say that this is, this is also where, Scholarship is 1st reported in many cases in TCs and they're heavily underused area of scholarship.
+
+00:20:30.439 --> 00:20:46.439
+Also, comment on legal documents such as judgments of courts. And all laws. And the outputs of organisations such as.
+
+00:20:45.139 --> 00:21:02.139
+Governments. Non-governmental organization NGO. Sometimes companies And then, perhaps the most immediate and exciting, pre prints.
+
+00:21:01.640 --> 00:21:15.640
+So the. Scholar community urges people to publish their work as pre prints. And, these again are often single column PDFs.
+
+00:21:16.689 --> 00:21:20.689
+And in some cases you may even get HTML.
+
+00:21:20.240 --> 00:21:33.240
+Right, so that's our. And how we deal with them. So I'm having a very quick look here to see.
+
+00:21:34.390 --> 00:21:36.390
+No comments, okay.
+
+00:21:38.690 --> 00:21:40.690
+Or cheat.
+
+00:21:43.590 --> 00:21:58.590
+Okay, so. That was the extension. Now, A bit about how we work. I'll community, is described in a separate article by, Simon.
+
+00:21:57.540 --> 00:22:07.540
+Wasington and colleagues and that talks about how the semantic climate community was formed, how it operates.
+
+00:22:06.890 --> 00:22:27.890
+As a community. But I'm going to describe now how we work technically within this part of the community this is the community which focuses on climate documents and their conversion into semantic form.
+
+00:22:27.490 --> 00:22:45.490
+So. We work by having a zoom session every day and at the beginning of internships and projects this is often 2 h usually split.
+
+00:22:44.740 --> 00:23:02.740
+And we have an open notebook source. And open notebook for philosophy where we intend to get the results and findings of these zoom sessions onto the public web.
+
+00:23:02.240 --> 00:23:13.240
+That, we would benefit from having better tools at the moment. Some of this copying has to be, manual.
+
+00:23:12.489 --> 00:23:28.489
+We record the videos, which have an audio, stream in them. And with tools from Zoom and Slack, we can turn these into, quite usable transcripts in English.
+
+00:23:27.840 --> 00:23:38.840
+The main downside is that they mangle Indian names because they have a neo-colonialist attitude.
+
+00:23:33.440 --> 00:23:48.440
+Although I did see that, I did see that you can, actually have tools in zoom for different languages.
+
+00:23:47.240 --> 00:24:07.240
+And that might. Do somewhat better here. So we have and we have the text transcript. we publish all this material, both the, video recording and the transcript onto slack.
+
+00:24:07.040 --> 00:24:28.040
+That lasts for a period of about 2 months. and ideally we should copy those transcripts and the audio where appropriate to public sites such as, GitHub would come to in a minute.
+
+00:24:27.590 --> 00:24:48.590
+The slack is semi casual in that, and because it's got a permanence of 2 months approximately, we can we don't lose information which is of immediate value and and a lot of our discussion takes place on this.
+
+00:24:47.690 --> 00:24:56.690
+And we have separate channels on slack for different types of discussion. So we have a channel for.
+
+00:24:56.140 --> 00:25:05.140
+And Piket papers. Called get papers. We have a channel on doc analysis.
+
+00:25:04.490 --> 00:25:19.490
+We're channel on Amy Lib, the library, that we use. We've developed and, one on Amy climate for climate and there are other ones, as well.
+
+00:25:18.441 --> 00:25:35.441
+For example cities when we're talking about city plans so there's a structure there which we can use on slack but it's not permanent unless we want to pay literally tens of thousands of dollars a year.
+
+00:25:34.240 --> 00:25:49.240
+To make it available to us. Then we have GitHub. Now, distinguish between Git and GitHub, G is a technology developed eyeliner's tall f.
+
+00:25:48.640 --> 00:26:09.640
+Or a multi repository. And preservation and development of documents particularly software it's very powerful it's quite complex and we use a subset of GET.
+
+00:26:08.240 --> 00:26:16.240
+So the get, subset that we use is we make our own repositories in GitHub.
+
+00:26:15.390 --> 00:26:26.390
+Maybe I'll start with GitHub. GitHub is a tool for holding repositories.
+
+00:26:24.490 --> 00:26:39.490
+It's not open. Organizationally, but, everything is accessible on that and the, permission to reuse it is sufficient for our purposes.
+
+00:26:38.339 --> 00:26:56.339
+So, We published to GitHub in Open Notebook spirit. The repository holds everything so it's completely versions you commit.
+
+00:26:55.890 --> 00:27:11.890
+Your next version of the of the software or the documents But the old ones are completely preserved. And if you download a Git repository so there might be a repository for.
+
+00:27:11.540 --> 00:27:21.540
+Pie get papers, then the whole history of that is preserved in your repository. It's got a powerful tool called branching.
+
+00:27:21.240 --> 00:27:34.240
+So that when we want to develop something we don't want to contaminate. And follow up the main production part of the repository and so we make a branch.
+
+00:27:26.590 --> 00:27:45.590
+And so for example, I have a branch called PMR underscored Dick. Nichika has a branch called, test nitica and so forth.
+
+00:27:42.890 --> 00:27:56.890
+And that means we can do our own thing there without fouling things up. And then at regular times, we merge this together when we all agree that those branches are successful.
+
+00:27:58.440 --> 00:28:01.440
+We discard the branches if they didn't work out.
+
+00:28:02.290 --> 00:28:11.290
+So, GitHub supports all of that. It also supports, issues.
+
+00:28:03.740 --> 00:28:20.740
+So when we have a, a problem, we report it formally as an issue. And that is per repository.
+
+00:28:20.990 --> 00:28:32.990
+We can all so if amy lib doesn't work in one bit someone can post an issue and as a developer I will read that issue.
+
+00:28:28.340 --> 00:28:41.340
+And it's a formal statement of what the problem is and I will address it when I've got time.
+
+00:28:39.808 --> 00:28:49.808
+And that's a very, very common and very successful way of working in open source. I'll call it false.
+
+00:28:49.590 --> 00:29:04.590
+Brand open source software. There are also discussions so that, we put this material up on discussions on GitHub, the whole world can see it.
+
+00:29:02.690 --> 00:29:09.690
+They can add comments to it. And so forth.
+
+00:29:11.090 --> 00:29:32.090
+And GitHub material will be preserved indefinitely. Even if the company gets bought by, some mega, well, it's already belongs to a make a capitalist, but if it gets closed, then the Communities will immediately make it open.
+
+00:29:34.340 --> 00:29:46.340
+So, we come on to, Good, get is a tool for managing version documents.
+
+00:29:45.240 --> 00:29:59.240
+It's got hundreds of commands. It can be very complex. But we try and stick with a very small number of.
+
+00:29:58.807 --> 00:30:07.807
+Get clone to download the repository onto your own machine. Get status to tell you where you were at.
+
+00:30:07.440 --> 00:30:19.440
+Get commit which says, Mark, what I have done as a version and be prepared to push it to other repositories.
+
+00:30:18.290 --> 00:30:27.290
+You don't have to push it. And get push. We'll push it, to a repository.
+
+00:30:26.339 --> 00:30:35.339
+So, When you've got it on your machine to get a new version from your.
+
+00:30:34.641 --> 00:30:46.641
+Remote online repository you say get all and that's about the limit of the commands or newcomers.
+
+00:30:45.139 --> 00:31:02.139
+If you can master those ones, You've got 90% of what we do. If you follow up, then there are ways of recovery, but it's a good idea not to follow up.
+
+00:31:03.040 --> 00:31:18.040
+And if you have got people developing different branches, and so I might for example develop a branch which deals with
+
+00:31:17.639 --> 00:31:30.639
+Annotation and somebody else might deal with a branch which does indexing. And then we try and merge each branch together into the main branch.
+
+00:31:29.541 --> 00:31:43.541
+So you would merge the indexing branch into the main branch. There might be incompatibilities so you would resolve those with git merge.
+
+00:31:42.841 --> 00:32:07.841
+And then you might do the same thing for the, Other thing I mentioned. and merge that and so and so a Okay, get supportive repository is a stream of branches like that which come back and emerged and branched out and so on and so forth.
+
+00:32:00.540 --> 00:32:14.540
+But generally there is a main branch and that main branch. It's the one that people should use.
+
+00:32:13.491 --> 00:32:17.491
+For the,
+
+00:32:18.441 --> 00:32:35.441
+For their production work. We do all our development in Python. Over the last 10 years, there's been a big input.
+
+00:32:34.391 --> 00:33:06.391
+To make all the document management software. And most of the scientific software, compatible, regardless of which, and programming language you use, and so although some of the libraries we use are not Python at the level like network X and, other things of that sort.
+
+00:33:07.691 --> 00:33:20.691
+They have Python wrappers which are well tested and and so on. So assume that everything you want is available in Python or Python wrapper.
+
+00:33:20.539 --> 00:33:35.539
+There are 2 ways of using. Our software one is on your own machine where you get clone a repository, you might make some modifications and you run it.
+
+00:33:34.808 --> 00:33:45.808
+Locally as a Python program, using the Python, command. And let me say that.
+
+00:33:45.841 --> 00:34:00.841
+At the moment, everything we do is based on running things on the command line. We are developing methods of making it easier to use, in, both Google Collab.
+
+00:34:00.691 --> 00:34:14.691
+And other containers and also building our own. IDE, not ID, and, which will help us navigate things like dictionaries and so on.
+
+00:34:16.440 --> 00:34:20.440
+But at the moment most of the work is done on the command line.
+
+00:34:19.808 --> 00:34:37.808
+And then the other. Alternative and complementary match approaches where you install things and you do this by posting a version of your software to Pi.
+
+00:34:37.339 --> 00:34:50.339
+Which is a collection of 500,000 open source programs and so get papers I get papers, doc analysis.
+
+00:34:51.741 --> 00:35:24.741
+Amy, Lib, Amy, Climate, are all on Python. And the advantage of Python is you can just install it with the pip command so pip install P get papers and then you have P get papers on your machine that will install the latest version but Pi Pi also supports semantic questioning so sometimes we have to use specific versions of software
+
+00:35:25.239 --> 00:35:44.239
+And there will be links into lots of that, We work by being task driven. So when a new person comes in, as an intern, or as a volunteer.
+
+00:35:43.690 --> 00:36:04.690
+Then they have 2 or 3 tasks which are distinct from everybody else but use the same technology so They choose a chapter of the IPCC reports.
+
+00:35:59.390 --> 00:36:13.390
+There are 50 chapters. There may be 70 chapters, I think. and they choose one which appeals to them.
+
+00:36:12.090 --> 00:36:35.090
+And then they work on that chapter, but they will. Carry out the same tasks on that chapter so they will learn how to download it they'll learn how to cement learn how to extract terms from it, they'll know how to annotate it.
+
+00:36:34.090 --> 00:36:47.090
+And so forth. And at the end, they will have a chapter which is Similar in structure and semantics to all the other chapters we process.
+
+00:36:47.140 --> 00:36:58.140
+So, this works very well because, everyone, shares in their knowledge. We call it learning by doing so when you start this.
+
+00:36:58.440 --> 00:37:06.440
+Things won't always work out. There's no, blame in this.
+
+00:37:05.740 --> 00:37:15.740
+And other people who are more experienced will be able to help on that. So that's the chapters.
+
+00:37:14.040 --> 00:37:22.040
+And then on the other side, we have the glossary. The glossary has perhaps 2,000 terms.
+
+00:37:21.040 --> 00:37:36.040
+At the moment we ask people to select a particular letter of the alphabet in the glossary and and then to make the entries there as semantic as possible.
+
+00:37:35.489 --> 00:37:42.489
+So they're available in HTML. From Simon Worthington's, work.
+
+00:37:41.940 --> 00:37:52.940
+And there is a partial, structure to those in interglossary links.
+
+00:37:54.240 --> 00:37:57.240
+But we want to make those more.
+
+00:37:58.807 --> 00:38:09.807
+Semantic by adding in other annotations and other links. And Perhaps the.
+
+00:38:09.140 --> 00:38:24.140
+Epitome of what we want to create is a knowledge graph and knowledge graphs, a network of at rich triples of an ontologically enhanced triples.
+
+00:38:23.640 --> 00:38:46.640
+Which allow us to link together all of the things, in this so that it links together components in a chapter, it links cross chapter references, it links Glossaries together it links the annotation of glossaries of chapters, black glossaries.
+
+00:38:43.240 --> 00:39:02.240
+It links everything we have in semantic form. So a knowledge graph is a huge and concept. Construct but the good news is that it's now something that many people are working on.
+
+00:39:00.840 --> 00:39:09.840
+You know it's a mainstream information science. And so, We can expect.
+
+00:39:07.539 --> 00:39:15.539
+A wide range of tools that help us now, it's not easy to navigate knowledge graphs.
+
+00:39:16.140 --> 00:39:27.140
+Without software and even with software you tend to get a huge cluster so ways of navigating through that are really important.
+
+00:39:27.040 --> 00:39:38.040
+And then we come on to our. Ontoological, semantics and we do that with Wikimedia.
+
+00:39:37.640 --> 00:39:46.640
+We can media is the, generic container for, what we call Wikipedia.
+
+00:39:46.390 --> 00:40:04.390
+Thank you also includes, Wiki Data, 100 million plus. Semantic terms wiki publications, wiki journals, and Wikimedia resources such as images.
+
+00:40:04.040 --> 00:40:11.040
+So it's a vast collection of intellect, interlinked. Semantic knowledge.
+
+00:40:11.039 --> 00:40:22.039
+By default, we would say that any term that we use should be linked into the Wikimedia structure.
+
+00:40:16.340 --> 00:40:30.340
+Both the Wikimedia page and the Wikimedia and the Wiki data.
+
+00:40:29.740 --> 00:40:42.740
+Entry where possible. And we're writing tools which will take a phrase and retrieve both of those automatically.
+
+00:40:41.041 --> 00:40:52.041
+There will be a lot of ambiguity so it needs human filtering but Is that this is a very powerful tool indeed.
+
+00:40:52.439 --> 00:40:55.439
+So that's what we're aiming for.
+
+00:40:54.640 --> 00:41:05.640
+Now, just a little bit about the software. And then about the projectory and then we will have finished this session.
+
+00:41:04.190 --> 00:41:18.190
+Unless our community has added things which we should talk about and haven't. So software software structure now.
+
+00:41:17.539 --> 00:41:34.539
+It's all in Python. Where ever possible, we use libraries. So libraries are things like pandas or, Spacey, or, requests or whatever.
+
+00:41:28.039 --> 00:41:46.039
+Libraries which other people have written and which we rely on. And. So we try never to reinvent the wheel.
+
+00:41:46.090 --> 00:41:55.090
+We however are non specialists. So, some of the more, advanced Python constructs.
+
+00:41:56.640 --> 00:42:02.640
+Such as functional programming, and sometimes,
+
+00:42:02.340 --> 00:42:14.340
+Yields and properties and things like that can be a bit daunting for newcomers. So we deliberately keep our discourse.
+
+00:42:13.490 --> 00:42:30.490
+Barely, simple, and in some cases we write our own convenience routines to make things easier for the newcomer or newcomer from other languages.
+
+00:42:29.489 --> 00:42:40.489
+So, it's aimed at that. And so far that's been very successful.
+
+00:42:39.440 --> 00:42:55.440
+Our software is dynamic, so it's continually versioned. And we produce our libraries which are on Pi Pi and can be reused.
+
+00:42:54.439 --> 00:43:03.439
+Those by ourselves and by other people. Very briefly. Sweet.
+
+00:43:02.289 --> 00:43:20.289
+Apart from the existing 3rd party libraries. We have PIE get papers which, aims at downloading, scholarly publications.
+
+00:43:19.439 --> 00:43:31.439
+From, repositories, and it covers. You're Pubmed Central Open Alex and the preprint literature.
+
+00:43:30.189 --> 00:43:42.189
+I haven't mentioned pre prints that should go earlier. Freeprints. A form of open access publishing, which is highly encouraged.
+
+00:43:41.239 --> 00:43:52.239
+And which, means that before you publish the formal version of a paper, you should expose it as a pre print.
+
+00:43:51.340 --> 00:44:03.340
+And there are many pre print servers. We will probably use. well, we'll see if there's a appropriate one in India.
+
+00:44:02.640 --> 00:44:12.640
+But we might use something like, which is run by the library at CERN. And is a leading open access.
+
+00:44:13.339 --> 00:44:16.339
+And advocate.
+
+00:44:17.189 --> 00:44:34.189
+So, PIECE, And one of the things about these repositories, is they have a query language, which is usually bullying queries based on a restful API.
+
+00:44:34.041 --> 00:44:46.041
+So, get papers as, created APIs for, uses the APIs for Europe Pubmed Central Open Alex.
+
+00:44:44.189 --> 00:44:57.189
+And, preprints were available and preprints occur in things like bio archive and med archive.
+
+00:44:56.840 --> 00:45:22.840
+And the classical archive of physics and mathematics. I get papers, downloads onto your local disk, and all the, all the papers and their components, it's Time, and it has a separate.
+
+00:45:22.806 --> 00:45:31.806
+Component for the metadata. Where the full text is available, it downloads. XML.
+
+00:45:33.140 --> 00:45:43.140
+From your Popman Central where it isn't, it tries to get the PDF. And open Alex is, grows out of,
+
+00:45:45.940 --> 00:45:57.940
+What's it called? On pay wall, and, the open access button which allows you to press.
+
+00:45:57.890 --> 00:46:26.890
+On, a close publication and see if there is an open access. Version on a university or private repository or possibly in Doc analysis takes the output of PYGET papers and applies some ontoological markup to it.
+
+00:46:26.489 --> 00:46:35.489
+And filtering so that you can use doc analysis, to decide which of the papers you've downloaded are most relevant to you.
+
+00:46:34.840 --> 00:46:55.840
+And often there will be a 3 h of often up to. 10 times or you know 10% might be retained or something of that sort depending on this and then you can revisit that and perhaps tune up.
+
+00:46:54.440 --> 00:47:07.440
+The query and both Doc analysis and Python papers can use our dictionaries to help, create this sort of query we need.
+
+00:47:07.890 --> 00:47:10.890
+So if we are working that say on
+
+00:47:10.741 --> 00:47:35.741
+Let's say that we're working on something like, Hi, justice. Climate justice we would want a dictionary on climate terms and a dictionary on justice terms and justice might include things like human rights and court of human rights, and European Court of Justice.
+
+00:47:36.089 --> 00:47:48.089
+And things of that sort. Climate might include terms such as IPCC and sea level rise who knows what it might be.
+
+00:47:48.190 --> 00:48:16.190
+Then separately, but related are the Amy tools. Amy is, involved in creating the Struck, semantic documents so it will take a legacy documents and such as PDFs, and much HTML, strip out non, content.
+
+00:48:15.190 --> 00:48:25.190
+So, embellishments and navigation and things of those sorts and turn it into a semantic HTML.
+
+00:48:23.590 --> 00:48:53.590
+Well, I, semantic IDs and sectioning are implemented. Then to make it a Then to make it, ontologically, semantic, we will have tools, which, use semantic, dictionaries, such as the IPCC glossary and that marks up.
+
+00:48:52.639 --> 00:49:07.639
+These structural semantics with ontological semantics. And, the aiming climate tool, is a developing example of that.
+
+00:49:06.940 --> 00:49:17.940
+These are all dynamic. They're continually changing. I get papers has a very stable release.
+
+00:49:17.590 --> 00:49:28.590
+Talk analysis has stable releases and both of these have very good tutorial support so they're easy to get to use.
+
+00:49:27.490 --> 00:49:37.490
+I'm Amy Lib is becoming. frozen. Or developing a frozen version.
+
+00:49:34.040 --> 00:49:46.040
+But there still needs to be a lot of work on documentation there. How to use it.
+
+00:49:41.139 --> 00:49:58.139
+Amy climate. This primary concerned with, IPCC materials, and, You UNFCC materials.
+
+00:49:57.990 --> 00:50:09.990
+And making those structurally semantic at the moment. But, hopefully adding ontological semantic soon.
+
+00:50:09.140 --> 00:50:21.140
+So those are what we've got. And that's how we work. And I don't see any comments that I've.
+
+00:50:20.590 --> 00:50:37.590
+Missed anything out so what is our projectory So this is the future. Now, we only write about the future where it is not paper where this is very much going to happen.
+
+00:50:30.340 --> 00:50:49.340
+It's being actively worked on at the moment and because we do everything open, you can come and see our factory if you like and look at the components.
+
+00:50:48.540 --> 00:50:58.540
+Far too many scholarly publications are vapor where people talk about what they are going to do and it never happens.
+
+00:50:52.390 --> 00:51:19.390
+This is talking about what we are actually doing. At the moment. So on the dictionary we are working towards a universal climate semantic climate dictionary where all the terms in climates are
+
+00:51:18.390 --> 00:51:33.390
+Extracted from major climate resources such as IPCC or the current literature. And where those are then, embedded in the Wiki data.
+
+00:51:32.490 --> 00:51:43.490
+Global graph. So, that is ongoing. And we've done it for a number of letters in the dictionary.
+
+00:51:39.041 --> 00:51:55.041
+And so in terms of IPCC, which is static. Our aim is to come up with a knowledge graph for IPCC.
+
+00:51:53.842 --> 00:52:00.842
+We've done this, with or, Egon Villegan has, prototype this for.
+
+00:51:58.240 --> 00:52:18.240
+Part of the SYR synthesis report. And, so, the IPCC material consists of micros structure at the nano publications level.
+
+00:52:17.290 --> 00:52:31.290
+Semantic addressing so that you can address within a report. The reports make, frequent, reference to other reports.
+
+00:52:30.940 --> 00:52:42.940
+So we can address out and into these other reports, and we can micro address because we will have that semantic at the sentence level.
+
+00:52:42.489 --> 00:52:54.489
+And the IPCC also links out to scholarly publications and other reports so we can link to that.
+
+00:52:54.140 --> 00:53:03.140
+We are working on diagrams, but they're a little bit, on the back burner.
+
+00:52:55.540 --> 00:53:15.540
+We have been able to make semantic diagrams with the components of the diagram are rendered in SVG and we can navigate round them but it's relatively early days.
+
+00:53:14.689 --> 00:53:30.689
+For that. And we are aiming to create a intelligent scholarly reader which contains all of PI get papers, doc analysis.
+
+00:53:30.389 --> 00:53:47.389
+Amy Lib and then domain specific. And interpretations on top of that. And we hope that with climate we can demonstrate this in a short period of time.
+
+00:53:46.340 --> 00:53:59.340
+Now, one of the things that's happened since we started this, is the huge development of official intelligence and machine learning.
+
+00:53:59.090 --> 00:54:10.090
+And how does what we do relate into that. Now. Hey, I is not a new concept.
+
+00:54:08.690 --> 00:54:22.690
+Machine learning is not a new concept. They are 50 years old, at least. but in the last Hi, Piers, they've suddenly exploded into public prominence.
+
+00:54:21.689 --> 00:54:33.689
+And this is because of the development of large language models and generative AI. Large language models.
+
+00:54:32.290 --> 00:54:44.290
+Use a, a background corpus if you like of interpreted documents.
+
+00:54:45.090 --> 00:54:53.090
+To enhance our understanding of sentences, paragraphs and documents.
+
+00:54:52.941 --> 00:55:20.941
+Generative AI takes the same general background of scraping and allows you to predict. Where as, sentence or piece of desk course might go and so to create documents in the certain style and with certain types of Noledge.
+
+00:55:20.691 --> 00:55:47.691
+This is a very, rapidly growing field. It's also very contentious because what all of these tools most of these tools are created by closed mega corporations whose business model is knowledge created by closed mega corporations whose business model is knowledge created by closed mega corporations whose business model is knowledge surveillance capitalism Let me scrape whatever.
+
+00:55:46.640 --> 00:55:57.640
+Documents they can get. Public documents such as Wikipedia which has been a huge input into these without any permission.
+
+00:55:57.090 --> 00:56:08.090
+They also scrape a lot of private material so that today there's an answer, Apple, we're adding AI to their tools.
+
+00:56:06.990 --> 00:56:26.990
+I mean, they do it already, but they will. Take your emails, your photographs. Your discourse and they will scrape that and you so all of what you create in an Apple environment will be in their models.
+
+00:56:26.940 --> 00:56:38.940
+The same is true for Google. And for the others, like, Musk with, X, Twitter, and so forth.
+
+00:56:37.441 --> 00:56:48.441
+So the vast majority of AI, ML at the moment is Created in closed form by Mega Corporation.
+
+00:56:45.539 --> 00:56:59.539
+So those mega corporations do not have the. Well, of the world at heart. They have they,
+
+00:56:59.391 --> 00:57:11.391
+Exponential growth of their corporations by knowledge capture and reuse This means that you cannot rely on them.
+
+00:57:10.539 --> 00:57:18.539
+To, to do anything they do what they want. You cannot rely on them to be transparent.
+
+00:57:14.591 --> 00:57:29.591
+They do what they want and publish it. When or if they feel like it. And, they do not honor.
+
+00:57:29.341 --> 00:57:39.341
+Either the, formal legal requirements of copyright or the ethics of open publication.
+
+00:57:39.191 --> 00:57:57.191
+So There are a few open alternatives to this. I won't describe them all here, but we work on the basis that everything we do is open and could and should be incorporated into open models.
+
+00:57:57.691 --> 00:58:19.691
+So, This set of open models is offered to the fully open community as something that can be used, with acknowledgement, but without permission, as, a useful component in creating semantic climate.
+
+00:58:19.291 --> 00:58:33.291
+Right. That's the end of what I have to say. I'm just going to put, some, Foot, footnotes onto this.
+
+00:58:32.991 --> 00:58:45.991
+The authorship of this document will honor All of the people who've made significant contributions to.
+
+00:58:45.891 --> 00:59:09.891
+What we're working with at the moment because apart from PI get papers and doc analysis, there's been no scholarly publication on, The whole of the semantic climate effort which has included not just climate but also plants and barrel epidemics.
+
+00:59:10.040 --> 00:59:28.040
+We have published a lot in video form. And in public presentations. So those people who have published in this form, significantly should be honored.
+
+00:59:27.390 --> 00:59:42.390
+I can't remember all the people in my head. We've got probably a hundred 50 people who've are on our slack who participated in some.
+
+00:59:37.640 --> 00:59:49.640
+Way. Some people have only been briefly here, they haven't finished their internships.
+
+00:59:49.990 --> 00:59:54.990
+And have made an important
+
+00:59:54.140 --> 01:00:08.140
+Recorded contribution so we'll have an approximate contribution of people who finished their internships and have created a useful.
+
+01:00:08.640 --> 01:00:21.640
+Written report at the end or a significant online presentation. As a talk or video.
+
+01:00:22.090 --> 01:00:34.090
+We will start with when we, and created open virus, which if you like was the 1st community approach.
+
+01:00:34.139 --> 01:01:00.139
+And so for example, we will, and, invite Ambri, to be one of the authors of this because she was the 1st person because she was the 1st person to do machine learning And, She very much, held together, our first, st set of internships.
+
+01:01:01.090 --> 01:01:08.090
+And, and so and so. Hi.
+
+01:01:09.390 --> 01:01:23.390
+Reno and one or 2 others will go through and try and remember the contributions that have been made by the semantic climate community over the
+
+01:01:23.640 --> 01:01:51.640
+We will probably as and we will record all of our presentations or we will hyperlink to them because they're already, established in the work that has been done by Wahab and and Shoopam in pulling this together and Renew in documenting it on the semantic climate, web page.
+
+01:01:52.089 --> 01:02:00.089
+So that's the authorship.
+
+01:02:00.140 --> 01:02:12.140
+I see we will have to have a mechanism for. Updating our narratives. That's not too difficult if they're HTML.
+
+01:02:13.541 --> 01:02:26.541
+Because we will probably make them available on github discussions and people can comment on that. And so long as they are member of GitHub.
+
+01:02:28.089 --> 01:02:30.089
+Right.
+
+01:02:33.090 --> 01:02:40.090
+I see that that is or. Here. Renee, any comments?
+
+01:02:41.740 --> 01:02:53.740
+So we have included all the aspects like starting from the semantic climate, I think all the passports have been included.
+
+01:02:55.441 --> 01:02:57.441
+Right.
+
+01:02:55.540 --> 01:02:57.540
+But we.
+
+01:02:59.189 --> 01:03:02.189
+Now we need to structure it accordingly.
+
+01:03:01.690 --> 01:03:10.690
+Absolutely, so What? What we will do is we will ask. Our.
+
+01:03:10.590 --> 01:03:23.590
+We'll ask, people like Polly who has already reviewed, One of our, outputs and poly will be a really good.
+
+01:03:22.490 --> 01:03:34.490
+Reviewer for this because she comes knowing she needs this coming from an NGO and climate justice oriented background.
+
+01:03:34.140 --> 01:03:44.140
+And also has no prior knowledge of Python, or a lot of the material we're doing.
+
+01:03:45.890 --> 01:03:51.890
+So if you can understand it, I think that's a level we can aim for. I mean, we can't take.
+
+01:03:49.090 --> 01:03:54.090
+So, but we have to clean that content.
+
+01:03:54.190 --> 01:03:57.190
+Oh, we have to clean it a lot, yes.
+
+01:03:57.090 --> 01:04:01.090
+Presented in a like a paragraph and section.
+
+01:03:58.490 --> 01:04:06.490
+Absolutely. I've tried to make it sections. it should be fairly easy to.
+
+01:04:05.790 --> 01:04:14.790
+Add the sections into this. But this is what we will have to work on. Over the next period.
+
+01:04:16.540 --> 01:04:18.540
+I have
+
+01:04:20.589 --> 01:04:36.589
+I have a lunch engagement and I shall not be available most of the Uk's afternoon but do listen to the transcripts which I will Now.
+
+01:04:34.139 --> 01:04:40.139
+Hmm. So do we need to clean that content or?
+
+01:04:39.640 --> 01:04:49.640
+Well, I would suggest we take the transcripts as they are at the moment. You know, there's not much, Material that's not relevant.
+
+01:04:49.140 --> 01:05:02.140
+There are places where I've sort of said and then we look at X and then we'll look at why and then we'll look at Z, you know, that's easy to deal with.
+
+01:04:52.039 --> 01:04:54.039
+Hmm.
+
+01:04:57.440 --> 01:04:59.440
+Yes.
+
+01:05:00.091 --> 01:05:09.091
+And we have to edit that in. I know one or 2 cases where we say we deal with that later and so forth.
+
+01:05:09.790 --> 01:05:14.790
+But the key thing is that we say we deal with that later and so forth. But the key thing is that we haven't omitted anything.
+
+01:05:14.990 --> 01:05:16.990
+Hmm.
+
+01:05:17.590 --> 01:05:22.590
+I will. Very much value. Faces view on this.
+
+01:05:23.808 --> 01:05:25.808
+And ask her.
+
+01:05:24.240 --> 01:05:29.240
+Okay, then you'll post it.
+
+01:05:25.339 --> 01:05:32.339
+Right. Well, I'm going to now close the transcript, assuming that everyone's happy with that.
+
+01:05:31.640 --> 01:05:42.640
+So save transcript. And then. Close. Stop the screen.
+
+01:05:31.810 --> 01:05:35.810
+The Save them.
+
