@@ -1,0 +1,99 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" dtd-version="1.3" xml:lang="EN" article-type="editorial"><?properties open_access?><?DTDIdentifier.IdentifierValue -//ACS//DTD ACS Journal DTD v1.02 20061031//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName ACSJournal-v102.dtd?><?SourceDTD.Version 1.02?><?ConverterInfo.XSLTName acs2nlmx2.xsl?><?ConverterInfo.Version 1?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">ACS Omega</journal-id><journal-id journal-id-type="iso-abbrev">ACS Omega</journal-id><journal-id journal-id-type="publisher-id">ao</journal-id><journal-id journal-id-type="coden">acsodf</journal-id><journal-title-group><journal-title>ACS Omega</journal-title></journal-title-group><issn pub-type="epub">2470-1343</issn><publisher><publisher-name>American Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">9583331</article-id><article-id pub-id-type="doi">10.1021/acsomega.2c06305</article-id><article-categories><subj-group><subject>Editorial</subject></subj-group></article-categories><title-group><article-title>Open Science at ACS: Present and Future Opportunities
+for <italic>ACS Omega</italic> as We Celebrate 200 Issues</article-title></title-group><contrib-group><contrib contrib-type="author" corresp="yes" id="ath1"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-7557-0495</contrib-id><name><surname>Soares</surname><given-names>Dinesh C.</given-names></name><role>Associate Publisher</role></contrib><contrib contrib-type="author" id="ath2"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-5709-6088</contrib-id><name><surname>Zhang</surname><given-names>Deqing</given-names></name><role>Co-Editor</role></contrib><contrib contrib-type="author" id="ath3"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-2292-643X</contrib-id><name><surname>Ganesh</surname><given-names>Krishna N.</given-names></name><role>Co-Editor</role></contrib></contrib-group><pub-date pub-type="epub"><day>18</day><month>10</month><year>2022</year></pub-date><pub-date pub-type="collection"><day>18</day><month>10</month><year>2022</year></pub-date><volume>7</volume><issue>41</issue><fpage>36050</fpage><lpage>36051</lpage><history/><permissions><copyright-statement>Published 2022 by American Chemical Society</copyright-statement><copyright-year>2022</copyright-year><copyright-holder>American Chemical Society</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>Permits non-commercial access and re-use, provided that author attribution and integrity are maintained; but does not permit creation of adaptations or other derivative works (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">https://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link>).</license-p></license></permissions><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>ao2c06305</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>ao2c06305</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><p>By a happy coincidence, <italic>ACS Omega</italic> publishes its 200th
+issue a week before this year&#x02019;s
+International Open Access Week (October 24&#x02013;30, 2022, <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.openaccessweek.org/">https://www.openaccessweek.org/</uri>). This dual celebration gives us an opportunity to reflect on how
+far we have come as a journal as well as on the many other opportunities
+in Open Science that have become available to authors and researchers
+at ACS Publications since the journal published its first issue.</p><p>The theme of this year&#x02019;s International Open Access Week
+is &#x02018;Open for Climate Justice&#x02019;. This reminds us that
+chemistry will be instrumental in solving one of humankind&#x02019;s
+most urgent and pressing existential challenges. But for the researcher
+to provide the greatest impact, we must facilitate greater access
+to, and transparency of, the scientific enterprise. From open access
+publications to open data to preprints and transparent peer review,
+every step we take toward transparency and visibility builds ever
+more robust scientific literature and knowledge. The success of ACS
+Publications&#x02019; open access portfolio of <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://acsopenscience.org/open-access-journals/">12 journals</ext-link> reflects the global chemistry community&#x02019;s support of open
+access. <italic>ACS Omega</italic> alone has published almost 16,000
+articles with nearly 22 million downloads to date, growing appreciably
+in its published content and influence since its launch.<sup><xref ref-type="bibr" rid="ref1">1</xref>,<xref ref-type="bibr" rid="ref2">2</xref></sup> In June 2022, we were proud to receive more evidence of the journal&#x02019;s
+impressive performance when we learned that <italic>ACS Omega</italic> achieved an Impact Factor of 4.132, a CiteScore of 5.2, and a 5-Year
+Impact Factor of 4.197. In addition, <italic>ACS Omega</italic> articles
+were cited 41,528 times in 2021.</p><p>This scale-up and interest
+in publishing open access at <italic>ACS Omega</italic> have been
+driven in no small part by significant
+growth in funder and institutional backing for open access. We are
+pleased that ACS has entered into transformative open access publishing
+agreements (also called &#x0201c;Read + Publish agreements&#x0201d;)
+with over 560 universities and research centers in 26 countries (<uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://acsopenscience.org/read-publish-agreements/">https://acsopenscience.org/read-publish-agreements/</uri>), simplifying the process for researchers wanting to make their
+work open access. Hundreds of articles have been published via these
+Read + Publish agreements at ACS Publications&#x02019; open access
+journals.</p><p>In addition to expanding the open access journal portfolio,
+with
+the launch of <italic>JACS Au</italic>(<xref ref-type="bibr" rid="ref3">3</xref>) and the ACS Au community journals<sup><xref ref-type="bibr" rid="ref4">4</xref></sup> in
+2021, we welcome ACS&#x02019; commitment to making it easy for researchers
+to adopt open science practices. The use of preprints to share early
+results with the community continues to grow, with the ChemRxiv server
+(<uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://chemrxiv.org/">https://chemrxiv.org/</uri>) having
+already posted over 14,000 preprints.<sup><xref ref-type="bibr" rid="ref5">5</xref></sup> Authors
+can also submit their preprint manuscripts to any one of more than
+150 chemistry journals (including <italic>ACS Omega</italic>) from
+ChemRxiv via <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://chemrxiv.org/engage/chemrxiv/submission-information?show=direct-journal-transfer">Direct Journal Transfer</ext-link>. No presubmission inquiry is required
+when authors choose to transfer or submit their manuscripts from preprint
+servers to <italic>ACS Omega</italic>.</p><p>We also watch with interest
+two ongoing pilot programs. First,
+the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/page/peer_reviews/transparent_peer_review.html">transparent peer review</ext-link> pilot in <italic>ACS Central Science</italic> and <italic>The Journal of Physical Chemistry Letters</italic>(<xref ref-type="bibr" rid="ref6">6</xref>) has so far resulted in the publication of more
+than 250 articles with accompanying peer review reports since its
+launch in Fall 2021. The second pilot implements more open data requirements
+using the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://publish.acs.org/publish/data_policy">ACS Research Data Policy</ext-link>. The pilot, run in <italic>The
+Journal of Organic Chemistry</italic>, <italic>Organic Letters</italic>, and <italic>ACS Organic &#x00026; Inorganic Au</italic>,<sup><xref ref-type="bibr" rid="ref7">7</xref></sup> encourages authors to publicly share all the
+data underlying the results reported in the paper while <italic>requiring</italic> a Data Availability Statement describing the public availability
+of the data supporting the article&#x02019;s conclusions. The outcomes
+of these pilots will be evaluated for their practicality and implementation
+at <italic>ACS Omega</italic> to enhance the quality of the peer review
+process and the robustness of the research presented.</p><p>We are
+excited to hear that the team at ACS is running a series
+of webinars throughout Open Access Week, accompanied by the launch
+of a new &#x0201c;journey to open science&#x0201d; tool that we encourage
+you to explore. Using this tool, participants can identify which open
+science workflows they have already adopted and are provided with
+guidance on how to take their next steps in working toward a more
+open future. If you would like to join in, you can find more information
+on the ACS Open Science Web site.</p><p>In closing, on behalf of our
+team of Editors, Editorial Advisory
+Board members, and staff, we thank you for being part of our <italic>ACS Omega</italic> community of authors, reviewers, and readers.
+Your participation has helped the journal thrive. We are grateful
+to have you as part of our global community as we celebrate our 200th
+issue and International Open Access Week. We are excited as we look
+forward to a more open future and publishing our next 200 issues with
+your assistance!</p></body><back><notes notes-type="disclosure" id="notes-d1e190"><p>Views expressed
+in this editorial are those of the authors and not necessarily the
+views of the ACS.</p></notes><ack><title>Acknowledgments</title><p>We thank the <italic>ACS Omega</italic> and ACS
+Publications Open Access journals&#x02019; team members for assisting
+with draft preparation and useful discussions.</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name><surname>Ganesh</surname><given-names>K. N.</given-names></name>; <name><surname>Zhang</surname><given-names>D.</given-names></name>; <name><surname>Banerjee</surname><given-names>S.</given-names></name>; <name><surname>Dasgupta</surname><given-names>S.</given-names></name>; <name><surname>Goring</surname><given-names>P. D.</given-names></name>; <name><surname>Guo</surname><given-names>S.</given-names></name>; <name><surname>Hofkens</surname><given-names>J.</given-names></name>; <name><surname>Imberti</surname><given-names>S.</given-names></name>; <name><surname>Jha</surname><given-names>A.</given-names></name>; <name><surname>Jim&#x000e9;nez-Barbero</surname><given-names>J.</given-names></name>; <name><surname>Lee</surname><given-names>J. K.</given-names></name>; <name><surname>Ogoshi</surname><given-names>S.</given-names></name>; <name><surname>Quina</surname><given-names>F. H.</given-names></name>; <name><surname>Soares</surname><given-names>D. C.</given-names></name>; <name><surname>Torsi</surname><given-names>L.</given-names></name>; <name><surname>Zuo</surname><given-names>J.-L.</given-names></name>
+<article-title>Celebrating 5 Years of Open Access
+with ACS Omega</article-title>. <source>ACS Omega</source>
+<year>2020</year>, <volume>5</volume> (<issue>28</issue>), <fpage>16986</fpage>&#x02013;<lpage>16986</lpage>. <pub-id pub-id-type="doi">10.1021/acsomega.0c03076</pub-id>.<pub-id pub-id-type="pmid">32715185</pub-id></mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>Ganesh</surname><given-names>K. N.</given-names></name>; <name><surname>Zhang</surname><given-names>D.</given-names></name>
+<article-title>ACS Omega: 2022 Spring
+Forward, 2021 Look Back</article-title>. <source>ACS Omega</source>
+<year>2022</year>, <volume>7</volume> (<issue>15</issue>), <fpage>12448</fpage>&#x02013;<lpage>12452</lpage>. <pub-id pub-id-type="doi">10.1021/acsomega.2c01984</pub-id>.<pub-id pub-id-type="pmid">35465122</pub-id></mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name><surname>Jones</surname><given-names>C. W.</given-names></name>
+<article-title>Welcome
+to JACS Au</article-title>. <source>JACS Au</source>
+<year>2021</year>, <volume>1</volume> (<issue>1</issue>), <fpage>1</fpage>&#x02013;<lpage>2</lpage>. <pub-id pub-id-type="doi">10.1021/jacsau.1c00008</pub-id>.<pub-id pub-id-type="pmid">34467265</pub-id></mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>Minteer</surname><given-names>S.</given-names></name>
+<article-title>Funding Mandates
+and the Launch of Nine Fully Open Access ACS Au Journals</article-title>. <source>ACS Measurement Science Au</source>
+<year>2021</year>, <volume>1</volume> (<issue>1</issue>), <fpage>3</fpage>&#x02013;<lpage>5</lpage>. <pub-id pub-id-type="doi">10.1021/acsmeasuresciau.1c00001</pub-id>.</mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>Mudrak</surname><given-names>B.</given-names></name>; <name><surname>Bosshart</surname><given-names>S.</given-names></name>; <name><surname>Koch</surname><given-names>W.</given-names></name>; <name><surname>Leung</surname><given-names>A.</given-names></name>; <name><surname>Minton</surname><given-names>D.</given-names></name>; <name><surname>Sawamoto</surname><given-names>M.</given-names></name>; <name><surname>Tegen</surname><given-names>S.</given-names></name>
+<article-title>Five Years
+of ChemRxiv: Where We
+Are and Where We Go From Here</article-title>. <source>ChemRxiv</source>
+<year>2022</year>, <pub-id pub-id-type="doi">10.26434/chemrxiv-2022-w0jzh</pub-id>.</mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Garakyaraghi</surname><given-names>S.</given-names></name>; <name><surname>Aumiller</surname><given-names>W.</given-names></name>; <name><surname>Bertozzi</surname><given-names>C. R.</given-names></name>; <name><surname>Scholes</surname><given-names>G.</given-names></name>
+<article-title>Transparent Peer Review:
+A Look Inside the Peer Review Process</article-title>. <source>ACS Central
+Science</source>
+<year>2021</year>, <volume>7</volume> (<issue>11</issue>), <fpage>1771</fpage>&#x02013;<lpage>1772</lpage>. <pub-id pub-id-type="doi">10.1021/acscentsci.1c01238</pub-id>.<pub-id pub-id-type="pmid">34841049</pub-id></mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Masson</surname><given-names>G.</given-names></name>; <name><surname>Kozlowski</surname><given-names>M. C.</given-names></name>; <name><surname>Miller</surname><given-names>S. J.</given-names></name>
+<article-title>Data Availability
+Statements in The
+Journal of Organic Chemistry, Organic Letters, and ACS Organic &#x00026;
+Inorganic Au</article-title>. <source>ACS Organic &#x00026; Inorganic Au</source>
+<year>2022</year>, <volume>2</volume> (<issue>5</issue>), <fpage>370</fpage>&#x02013;<lpage>372</lpage>. <pub-id pub-id-type="doi">10.1021/acsorginorgau.2c00049</pub-id>.</mixed-citation></ref></ref-list></back></article>

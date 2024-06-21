@@ -1,0 +1,6 @@
+## Introduction
+
+<p>Chapter 3 takes a long-term perspective on climate change mitigation pathways. Its focus is on the implications of long-term targets for the required short- and medium-term system changes and associated greenhouse gas (GHG) emissions. This focus dictates a more global view and on issues related to path-dependency and up-scaling of mitigation options necessary to achieve different emissions trajectories, including particularly deep mitigation pathways that require rapid and fundamental changes.
+
+In parallel, based on the overall AR6 assessment seven illustrative pathways (IP) were defined representing critical mitigation strategies discussed in the assessment. The seven pathways are composed of two sets: (i) one set of five Illustrative Mitigation Pathways (IMPs) and (ii) one set of two reference pathways illustrative for high emissions. The IMPs are on the one hand representative of the scenario space but help in addition to communicate archetypes of distinctly different systems transformations and related policy choices. Subsequently, seven scenarios were selected from the full database that fitted these storylines of each IP best. For these scenarios are more strict vetting criteria were applied. The selection was done by first applying specific filters based on the storyline followed by a final selection.<p>
+

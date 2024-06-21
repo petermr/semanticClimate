@@ -1,0 +1,150 @@
+<dictionary title="Agriculture" version="0.0.1">
+  <metadata>
+
+  <desc> manually created by Kavita Joshi 2022-08-23 </desc>
+    <edit date="2023-01-03" editor="Peter Murray-Rust">removed entries with duplicate terms</edit>
+  </metadata>
+
+
+  <entry term="AFOLU" name="The Agriculture, Forestry and Other Land Uses" wikipediaPage="https://en.wiktionary.org/wiki/AFOLU"
+         desc="Agriculture, forestry and other land use (AFOLU) represents 20-24% of the global Greenhouse Gas (GHG) emissions"/>
+
+  <entry term="GHG"  name="greenhouse gas" wikidataID="Q167336"  wikipediaPage="https://en.wikipedia.org/wiki/Greenhouse_gas" desc="gas in an atmosphere of a planet (usually Earth) that absorbs and emits radiation within the thermal infrared range and causes the greenhouse effect"/>
+
+  <entry term="CDR" name="carbon dioxide removal" wikidataID="Q56298528" wikipediaPage="https://www.wikidata.org/wiki/Q56298528"
+         desc="removal of atmospheric carbon dioxide"/>
+
+  <entry term="IAM" name="integrated assessment models" wikidataID="Q1665424"
+         wikipediaPage="https://en.wikipedia.org/wiki/Integrated_assessment_modelling"
+         desc="term used for a type of scientific modelling that tries to link main features of society and economy with the biosphere and atmosphere into one modelling framework."/>
+
+  <entry term="IPCC" name="Intergovernmental Panel on Climate Change" wikidataID="Q171183"
+         wikipediaPage="https://www.wikidata.org/wiki/Q171183" desc="an intergovernmental body of the United Nations responsible for advancing knowledge on human-induced climate change" />
+
+  <entry term="IPBES" name="Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services" wikidataID="Q1666088"
+         wikipediaPage="https://www.wikidata.org/wiki/Q1666088" desc="scientific intergovernmental body which assesses the state of biodiversity"/>
+
+  <entry term="BECCS" name="Bioenergy with carbon capture and storage" wikidataID="Q2577671"
+         wikipediaPage="https://www.wikidata.org/wiki/Q2577671" desc="removing carbon dioxide from the atmosphere by growing plants, and then putting it permanently underground"/>
+
+  <entry term="NDCs" name="Nationally Determined Contributions"  wikidataID="Q20051297"
+         wikipediaPage="https://www.wikidata.org/wiki/Q20051297"
+         desc="non-binding national plans highlighting climate actions">
+    <raw desc="a non-binding national plan highlighting climate change mitigation, including climate-related targets for greenhouse gas emission reductions."/>
+  </entry>
+
+  <entry term="IAMs" name="Integrated Assessment Models" wikipediaPage="https://www.iamcdocumentation.eu/index.php/IAMC_wiki"
+         desc="aim to provide policy-relevant insights into global environmental change and sustainable development issues by providing a quantitative description of key processes in the human and earth systems and their interactions"/>
+
+  <entry term="AE" name="Agroecology" wikidataID="Q396338"
+         wikipediaPage="https://www.wikidata.org/wiki/Q396338" desc="study of ecological processes in agriculture"/>
+
+  <entry term="SDGs"  name="Sustainable Development Goals" wikidataID="Q7649586" wikipediaPage="https://www.wikidata.org/wiki/Q7649586"
+         desc="set of United Nations-defined global development goals and climate change" />
+
+  <entry term="SRCCL" name="Special Report on Climate Change and Land " wikidataID="Q66310618" wikipediaPage="https://en.wikipedia.org/wiki/Special_Report_on_Climate_Change_and_Land"
+         desc="The SRCCL provides a comprehensive overview of the entire land-climate system for the first time and decided to enlist land as a critical resource"/>
+
+
+  <entry term="LULUCF" name="Land Use, Land-Use Change, and Forestry" wikidataID="Q3348639"
+         wikipediaPage="greenhouse gas inventory sector that covers emissions and removals of greenhouse gases resulting from direct human-induced
+                        land use such as settlements and commercial uses, land-use change, and forestry activities."/>
+
+  <entry term="FAOSTAT" name="Food and Agriculture Organization Corporate Statistical Database" wikidataID="Q5465416"
+         wikipediaPage="https://www.wikidata.org/wiki/Q5465416" desc="website disseminates statistical data collected and maintained by the Food and Agriculture Organization (FAO)"/>
+
+  <entry term="GFED4s" name="Global Fire Emission Database" wikidataID="" wikipediaPage="http://wiki.seas.harvard.edu/geos-chem/images/1/15/GFED4.1_README.pdf"
+  desc= " provides monthly burned area, fire carbon (C) and dry matter (DM) emissions, and the contribution of different fire types to these emissions in order to calculate trace gas and aerosol emissions using emission factors."/>
+
+  <entry term="PRIMAP" name="Potsdam Real-Time Integrated Model for the probabilistic Assessment of Emission Pathways."
+         desc="The PRIMAP-hist dataset combines several published datasets to create a comprehensive set of greenhouse gas emission pathways for every country"/>
+
+  <entry term="NGHGIs" name="National Greenhouse Gas Inventories" wikidataID="Q5604177"
+         wikipediaPage="greenhouse gas inventory"
+         desc="emission inventories of greenhouse gas emissions that are developed for a variety of reasons" >
+          <raw desc="Greenhouse gas inventories are emission inventories of greenhouse gas emissions that are developed for a variety of reasons. Scientists use inventories of natural and anthropogenic (human-caused) emissions as tools when developing atmospheric models."/>
+  </entry>
+
+  <entry term="GWP" name="Global Warming Potential" wikidataID="Q901028" wikipediaPage="https://www.wikidata.org/wiki/Q901028"
+         desc="Estimate of how an atmospheric gas affects global climate change"/>
+
+  <entry term="DGVM" name="Dynamic global vegetation model" wikidataID="Q5318979"
+         wikipediaPage="https://www.wikidata.org/wiki/Q5318979" desc="a computer program that simulates shifts in potential vegetation and its associated biogeochemical and hydrological cycles as a response to shifts in climate."/>
+
+  <entry term="UNFCCC" name="United Nations Framework Convention on Climate Change" wikidataID="Q208645"
+         wikipediaPage="https://www.wikidata.org/wiki/Q208645" desc="an international environmental treaty to combat dangerous human interference with the climate system, in part by stabilizing greenhouse gas concentrations in the atmosphere"/>
+
+  <entry term="LUH2" name="Land-Use Harmonization" wikidataID=""
+         desc="project, with the goal to smoothly connect updated historical reconstructions of land-use with new future projections in the format required for ESMs"/>
+
+  <entry term="EDGAR" wikidataID="Q3050604" wikipediaPage="https://en.wikipedia.org/wiki/EDGAR"
+         desc="performs automated collection, validation, indexing, acceptance, and forwarding of submissions by companies and others who are required by law to file forms with the U.S. Securities and Exchange Commission"/>
+
+  <entry term="GCP"  name="Global Carbon Project" wikidataID="Q5570159"  wikipediaPage="https://www.wikidata.org/wiki/Q5570159"
+         desc="The Global Carbon Project (GCP) is an organisation that seeks to quantify global greenhouse gas emissions and their causes"/>
+
+  <entry term="FRA" name="Global Forest Resources Assessment" wikidataID="Q30601066"
+         wikipediaPage="https://www.wikidata.org/wiki/Q30601066" desc="The Global Forest Resources Assessment (FRA) reports on the status and trends of the world's forest resources"/>
+
+
+
+  <entry term="USEPA" name="United States Environmental Protection Agency" wikidataID="Q460173" wikipediaPage="https://en.wikipedia.org/wiki/United_States_Environmental_Protection_Agency"
+         desc="an independent executive agency of the United States federal government tasked with environmental protection matters" />
+
+  <entry term="OECD" name=" Organisation for Economic Co-operation and Development" wikidataID="Q8703549" wikipediaPage="https://en.wikipedia.org/wiki/Category:OECD"
+         desc="an international organisation of those developed countries that accept the principles of representative democracy and a free market economy"/>
+
+  <entry term="EIAs" name="Environmental Impact Assessments" wikidataID="Q320389" wikipediaPage="https://www.wikidata.org/wiki/Q320389"
+         desc="assessment of the environmental consequences of a plan, policy, program, or actual projects prior to the decision to move
+               forward with the proposed action"/>
+
+  <entry term="UNEP" name="UN Environment Programme" wikidataID="Q182016" wikipediaPage="https://www.wikidata.org/wiki/Q182016"
+  desc="responsible for coordinating responses to environmental issues within the United Nations system"/>
+
+  <entry term="SSP" name="Shared Socioeconomic Pathway" wikidataID=""
+         wikipediaPage="https://en.wikipedia.org/w/index.php?go=Go search=Shared+Socioeconomic+Pathway title=Special%3ASearch ns0=1"
+         desc="scenarios of projected socioeconomic global changes up to 2100. They are used to derive greenhouse gas emissions"/>
+
+  <entry term="RCP" name="GHG emissions trajectories " wikidataID=""/>
+
+  <entry term="CSA" name="Climate smart agriculture" wikidataID="Q85752879" wikipediaPage="https://www.wikidata.org/wiki/Q85752879"
+  desc="an integrated approach to managing landscapes to help adapt agricultural methods, livestock and crops to the effects of climate change and, where possible, counteract it by reducing greenhouse gas emissions from agriculture, at the same time taking into account the growing world population to ensure food security"/>
+
+  <entry term="CSC" name="climate smart cocoa" wikidataID=""/>
+
+  <entry term="CREMAs" name="Community Resource Management Area Mechanisms" wikidataID=""/>
+
+  <entry term="SCBD"  name="Secretariat of the Convention on Biological Diversity" wikidataID=""/>
+
+   <entry term="MTE"  name="Menominee Tribal Enterprises " wikidataID=""/>
+
+  <entry term="CFI" name="continuous forest inventories"/>
+
+  <entry term="EU-REDII" name="EU Renewable Energy Directive" wikidataID="Q5280475"
+         wikipediaPage="https://www.wikidata.org/wiki/Q5280475"
+         desc="Directive 2001/77/EC of the European Parliament and of the Council of 27 September 2001 on the promotion of electricity produced from renewable energy sources in the internal electricity market"/>
+
+  <entry term="US-RFS" name="US Renewable Energy Standard" wikidataID=""/>
+
+  <entry term="FSC" name="Forest Sustainability Council"/>
+
+  <entry term="PPCDAm" name="Plan for Prevention and Control of Deforestation in the Legal Amazon" wikidataID="Q66677938" wikipediaPage="https://www.wikidata.org/wiki/Q66677938"
+         desc="Plan for Prevention and Control of Deforestation in the Amazon (PPCDAM), with the goal to reduce the rate of deforestation through land use regulation, environmental monitoring, and sustainable activities, promoted through partnerships at the federal and private level, and legal penalties for violations"/>
+
+  <entry term="RA" name="Regenerative Agriculture" wikidataID="Q18393885"
+         wikipediaPage="https://en.wikipedia.org/wiki/Regenerative_agriculture" desc="a conservation and rehabilitation approach to food and farming systems"/>
+
+  <entry term="CA" name="Conservation Agriculture" wikidataID="Q4439388" wikipediaPage="https://www.wikidata.org/wiki/Q4439388"
+         desc="A farming system that promotes minimum soil disturbance (i.e. no-till farming), maintenance of a permanent soil cover, and diversification of plant species"/>
+
+  <entry term="IPS" name="Integrated Production Systems" wikidataID=""/>
+
+  <entry term="BAU" name="Business as Usual scenario" wikidataID="Q5001850" wikipediaPage="https://en.wikipedia.org/wiki/Business_as_usual_(business)"
+         desc="the normal execution of standard functional operations within an organisation, forms a possible contrast to projects or programmes which might introduce change"/>
+
+  <entry term="CANOPIES" name="Co-existence of Agriculture and Nature: Optimisation and Planning of Integrated Ecosystem Services "/>
+
+  <entry term="ICLF" name=" integrated crop-livestock-forestry"/>
+
+
+</dictionary>

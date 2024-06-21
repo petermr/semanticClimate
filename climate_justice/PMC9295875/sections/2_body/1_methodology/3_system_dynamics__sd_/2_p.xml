@@ -1,0 +1,10 @@
+<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" id="Par10">where <italic>C</italic> and <italic>INPUT</italic> are arbitrary data values and the minus <italic>OUTPUT</italic> shows the feedback event. So, the feedback algorithm is,<disp-formula id="Equ2"><label>2</label><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ C\left( {i + \, 2} \right) \, = C\left( i \right) \, {-}C\left( {i + \, 1} \right) $$\end{document}</tex-math><mml:math id="M4" display="block"><mml:mrow><mml:mi>C</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mi>i</mml:mi><mml:mo>+</mml:mo><mml:mspace width="0.166667em"/><mml:mn>2</mml:mn></mml:mrow></mml:mfenced><mml:mspace width="0.166667em"/><mml:mo>=</mml:mo><mml:mi>C</mml:mi><mml:mfenced close=")" open="("><mml:mi>i</mml:mi></mml:mfenced><mml:mspace width="0.166667em"/><mml:mo>-</mml:mo><mml:mi>C</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mi>i</mml:mi><mml:mo>+</mml:mo><mml:mspace width="0.166667em"/><mml:mn>1</mml:mn></mml:mrow></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="10668_2022_2551_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula></p>

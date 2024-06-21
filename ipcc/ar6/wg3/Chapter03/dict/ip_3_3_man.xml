@@ -1,0 +1,54 @@
+<dictionary title="manual_dict_chap03" version="0.0.5">
+<desc> Manually created by Sunag Parasu on 2022-12-06</desc>
+<entry term="Sinks" wikidataID="" desc="anything that holds greenhouse gases from the atmosphere"/>
+<entry term="sectoral dynamics" wikidataID="" desc=""/>
+<entry term="sectoral models" wikidataID="" desc=""/>
+<entry term="Path dependency" wikidataID="Q1093521" wikipediaPage="https://en.wikipedia.org/wiki/Path_dependence" desc="A concept where past events or decisions constrain later events or decisions"/>
+<entry term="up-scaling" wikidataID="Q7429728" wikipediaPage="https://en.wikipedia.org/wiki/Scale_up" desc="To improve the quality of something"/>
+<entry term="mitigation" wikidataID="Q6881760" wikipediaPage="https://en.wikipedia.org/wiki/Mitigation" desc="reduction of something harmful or the reduction of its harmful effects."/>
+<entry term="anthropogenic emissions" wikidataID="" descPage="https://www.ipcc.ch/sr15/chapter/glossary/#:~:text=and%20Anthropogenic%20removals.-,Anthropogenic%20emissions,waste%20management%20and%20industrial%20processes." desc="Emissions of greenhouse gases (GHGs), precursors of GHGs and aerosols caused by human activities."/>
+<entry term="scenario" wikidataID="Q1090839" wikipediaPage="https://en.wikipedia.org/wiki/Scenario" desc="description of an event or series of actions and events"/>
+<entry term="emission pathway" wikidataID="" wikipediaPage="" desc=""/>
+<entry term="endogenous climate model" wikidataID="" wikipediaPage="" desc=""/>
+<entry term="Granularity" wikidataID="Q1246948" wikipediaPage="https://en.wikipedia.org/wiki/Granularity" desc="refers to the extent to which a material or system is composed of distinguishable pieces"/>
+<entry term="climate impacts" wikidataID="" descPage="https://www.ucsusa.org/climate/impacts" desc="the consequences of climate change"/>
+<entry term="climate constraints" wikidataID="" wikipediaPage="" desc=""/>
+<entry term="climate model emulator" wikidataID="" descPage="https://climatemodeling.earth.indiana.edu/research/climate-model-emulators.html" desc="Climate model emulators are simple versions of climate models that only represent part of the system or represent the system at reduced complexity"/>
+<entry term="climate assessment" wikidataID="" wikipediaPage="" desc="Through its assessments, the IPCC determines the state of knowledge on climate change."/>
+<entry term="harmonization" wikidataID="Q1176143" wikipediaPage="https://en.wikipedia.org/wiki/Harmonisation_of_law" desc="the process of establishing common laws, treaties and standards"/>
+<entry term="infilling" wikidataID="" descPage="https://www.merriam-webster.com/dictionary/infill" desc="the act of filling or closing gaps"/>
+<entry term="probabilistic climate model emulator run" wikidataID="" wikipediaPage="" desc="running a climate model emulator"/>
+<entry term="energy intensity" wikidataID="Q1341351" wikipediaPage="https://en.wikipedia.org/wiki/Energy_intensity" desc="Energy intensity is a measure of the energy inefficiency of an economy"/>
+<entry term="representative concentration pathways" wikidataID="Q7314241" wikipediaPage="https://en.wikipedia.org/wiki/Representative_Concentration_Pathway" desc="These pathways describe different climate futures, all of which are considered possible depending on the volume of greenhouse gases (GHG) emitted in the years to come"/>
+<entry term="greenhouse gas forcing" wikidataID="" descPage="https://arstechnica.com/technopaedia/2008/03/greenhouse-gasgreenhouse-forcing/" desc="Greenhouse forcings occur due to changes in the level of gasses that share two properties: they are transparent to visible light, but absorb the infrared, which we typically perceive as heat"/>
+<entry term="halogenated gases" wikidataID="" descPage="https://www.epa.gov/climate-indicators/climate-change-indicators-atmospheric-concentrations-greenhouse-gases#:~:text=Some%20halogenated%20gases%20are%20considered,both%20the%20stratosphere%20and%20troposphere." desc="Some halogenated gases are considered major greenhouse gases due to their very high global warming potentials and long atmospheric lifetimes even if they only exist at a few ppt"/>
+<entry term="global temperature change potential" wikidataID="" descPage="http://www.ipcc.ch/report/ar5/wg3/" desc="GTP is an end-point metric that is based on temperature change for a selected year"/>
+<entry term="global damage potential" wikidataID="" wikipediaPage="" desc="The global damage potential (GDP) is expressed as the ratio of the social cost of a given greenhouse gas (GHG) to the social cost of CO2 (SCC), where the social cost of a GHG measures the (discounted) cumulative economic damage of that GHG"/>
+<entry term="feasibility" wikidataID="Q5439522" wikipediaPage="https://en.wikipedia.org/wiki/Feasibility" desc="the state or degree of being easily or conveniently done"/>
+<entry term="illustrative mitigation pathways" wikidataID="" descPage="https://www.ipcc.ch/report/ar6/wg3/figures/summary-for-policymakers/figure-spm-5/" desc=""/>
+<entry term="climate policy" wikidataID="" descPage="https://globalchange.mit.edu/research/focus-areas/climate-policy" desc="legislative policies related to climate change"/>
+<entry term="model calibration" wikidataID="" wikipediaPage="" desc=""/>
+<entry term="low-carbon technology" wikidataID="Q16872549" wikipediaPage="https://en.wikipedia.org/wiki/Low-carbon_technology" desc="technologies with low greenhouse gas emissions"/>
+<entry term="IPCC special report on global warming of 1.5C" wikidataID="" descPage="https://www.ipcc.ch/sr15/" desc=""/>
+<entry term="iterating" wikidataID="Q651022" wikipediaPage="https://en.wikipedia.org/wiki/Iteration" desc="teration is the repetition of a process in order to generate a (possibly unbounded) sequence of outcomes"/>
+<entry term="model dynamics" wikidataID="" wikipediaPage="" desc=""/>
+<entry term="metadata" wikidataID="Q180160" wikipediaPage="https://en.wikipedia.org/wiki/Metadata" desc="data that provides information about other data"/>
+<entry term="net-negative emissions" wikidataID="" descPage="https://www.iea.org/commentaries/going-carbon-negative-what-are-the-technology-options#:~:text=Becoming%20carbon%20negative%20requires%20a,known%20as%20net%20negative%20emissions." desc="global CO2 emissions to fall below zero in the second half of this century, achieving what is known as net negative emissions"/>
+<entry term="moderate action" wikidataID="" wikipediaPage="" desc="less extreme action"/>
+<entry term="climate projection" wikidataID="" descPage="https://climate.copernicus.eu/climate-projections#:~:text=Climate%20projections%20are%20simulations%20of,The%20Climate%20Data%20Store" desc="Climate projections are simulations of Earth's climate in future decades"/>
+<entry term="climate sensitivity" wikidataID="Q521783" wikipediaPage="https://en.wikipedia.org/wiki/Climate_sensitivity" desc="Climate sensitivity is a measure of how much Earth's surface will cool or warm after a specified factor causes a change in its climate system"/>
+<entry term="business-as-usual projections" wikidataID="" descPage="https://granthaminstitute.com/2017/09/12/what-does-business-as-usual-mean-today/" desc="a baseline to compare alternative scenarios, or a starting point for analysis of a system"/>
+<entry term="abatement potential" wikidataID="" descPage="https://ourworldindata.org/how-much-will-it-cost-to-mitigate-climate-change#:~:text='Abatement%20potential'%20is%20the%20term,and%20economically%20feasible%20to%20achieve." desc="abatement potential is the term we use to describe the magnitude of potential GHG reductions which could be technologically and economically feasible to achieve"/>
+<entry term="trophospheric ozone" wikidataID="" descPage="https://www.ccacoalition.org/en/slcps/tropospheric-ozone" desc="ozone gas found in the troposphere"/>
+<entry term="aerosol emissions" wikidataID="" descPage="" desc="emissions of tiny atmospheric particles of sea spray, smoke, dust, and other substances"/>
+<entry term="carbon budget" wikidataID="Q16722080" wikipediaPage="https://en.wikipedia.org/wiki/Carbon_budget" desc="A carbon budget is the maximum amount of cumulative net global anthropogenic carbon dioxide (CO2) emissions that would result in limiting global warming to a given level with a given probability"/>
+<entry term="global warming potential" wikidataID="Q901028" wikipediaPage="https://en.wikipedia.org/wiki/Global_warming_potential" desc="Global warming potential is the heat absorbed by any greenhouse gas in the atmosphere, as a multiple of the heat that would be absorbed by the same mass of carbon dioxide"/>
+<entry term="transient climate response" wikidataID="" wikipediaPage="" desc="Transient climate response (TCR) is the mean global warming predicted to occur around the time of doubling CO2 in earth system model runs for which atmospheric CO2 concentration is prescribed to increase at 1 % per year"/>
+<entry term="earth system feedbacks" wikidataID="" wikipediaPage="" desc=""/>
+<entry term="end-of-century termperature" wikidataID="" wikipediaPage="" desc="temperatures at the end of the century"/>
+<entry term="soil carbon enhancement" wikidataID="" wikipediaPage="" desc="a practice that enhance carbon sequestration in the soil or that mitigate the loss of soil carbon"/>
+<entry term="ocean alkalinization" wikidataID="" wikipediaPage="" desc="Ocean alkalinization is an approach to carbon removal that involves adding alkaline substances to seawater to enhance the ocean's natural carbon sink"/>
+<entry term="bio-energy" wikidataID="" descPage="https://www.energy.gov/eere/bioenergy/bioenergy-basics" desc="Bioenergy is a form of renewable energy generated when we burn biomass fuel"/>
+<entry term="equivalence metrics" wikidataID="" wikipediaPage="" desc=""/>
+<entry term="carbon neutrality" wikidataID="Q1774424" wikipediaPage="https://en.wikipedia.org/wiki/Carbon_neutrality" desc="Carbon neutrality is a state of net-zero carbon dioxide emissions"/>
+<entry term="equity principles" wikidataID="" wikipediaPage="" desc="principles such as equality, capability and responsibility"/>

@@ -1,0 +1,28 @@
+<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" id="Par49">The effort-sharing budget from 2020 to 2030 is determined via the EU target goal in 2030 of an at least 55% reduction compared to 1990 emissions.<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{array}{c}{G}_{{{{{{\rm{EU}}}}}}}^{2030}=\left[\left({e}_{{{{{{\rm{EU}}}}}}}^{1990}* \left(1-r\right)\right)-\left({e}_{{{{{{\rm{EU}}}}}}}^{1990}* \left(1-r\right)\right)* {{{{{\rm{ETS}}}}}}\right]+\Delta {{{{{\rm{LULUCF}}}}}}\end{array}$$\end{document}</tex-math><mml:math id="M2"><mml:mtable><mml:mtr><mml:mtd columnalign="center"><mml:msubsup><mml:mrow><mml:mi>G</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">EU</mml:mi></mml:mrow><mml:mrow><mml:mn>2030</mml:mn></mml:mrow></mml:msubsup><mml:mo>=</mml:mo><mml:mfenced close="]" open="["><mml:mrow><mml:mfenced close=")" open="("><mml:mrow><mml:msubsup><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">EU</mml:mi></mml:mrow><mml:mrow><mml:mn>1990</mml:mn></mml:mrow></mml:msubsup><mml:mo>*</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#8722;</mml:mo><mml:mi>r</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced><mml:mo>&#8722;</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:msubsup><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">EU</mml:mi></mml:mrow><mml:mrow><mml:mn>1990</mml:mn></mml:mrow></mml:msubsup><mml:mo>*</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#8722;</mml:mo><mml:mi>r</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced><mml:mo>*</mml:mo><mml:mi mathvariant="normal">ETS</mml:mi></mml:mrow></mml:mfenced><mml:mo>+</mml:mo><mml:mi mathvariant="normal">&#916;</mml:mi><mml:mi mathvariant="normal">LULUCF</mml:mi></mml:mtd></mml:mtr></mml:mtable></mml:math><graphic xlink:href="41467_2022_31204_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula>Where <inline-formula id="IEq1"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${G}_{{{{{{\rm{EU}}}}}}}^{2030}$$\end{document}</tex-math><mml:math id="M4"><mml:msubsup><mml:mrow><mml:mi>G</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">EU</mml:mi></mml:mrow><mml:mrow><mml:mn>2030</mml:mn></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="41467_2022_31204_Article_IEq1.gif"/></alternatives></inline-formula> is the target maximum emissions of the EU effort-sharing sector in 2030, <inline-formula id="IEq2"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${e}_{{{{{{\rm{EU}}}}}}}^{1990}$$\end{document}</tex-math><mml:math id="M6"><mml:msubsup><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">EU</mml:mi></mml:mrow><mml:mrow><mml:mn>1990</mml:mn></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="41467_2022_31204_Article_IEq2.gif"/></alternatives></inline-formula> the emissions of the EU in 1990, <italic>r</italic> is the total reduction percentage, ETS the ETS share of emissions, and &#8710;LULUCF the change in sinks due to land use, land use change and forestry when comparing 2030 to 1990. For our scenarios, we assume <italic>r</italic> to be 0.55, ETS 0.37, and &#8710;LULUCF to equal an increase in sinks of 98.8 Mt CO<sub>2</sub>, the target specified in the EU Fit for 55 climate package<sup><xref ref-type="bibr" rid="CR9">9</xref></sup>.</p>

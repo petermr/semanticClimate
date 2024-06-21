@@ -1,0 +1,78 @@
+<select data-drupal-facet-id="symboldec" data-drupal-selector="facet-symboldec" class="js-facets-select2-multi-checkboxes js-facets-widget form-select select2-widget form-control" name="Symbol[]" multiple="multiple" data-select2-config="{&quot;multiple&quot;:true,&quot;placeholder&quot;:&quot;Choose&quot;,&quot;allowClear&quot;:false,&quot;dir&quot;:&quot;ltr&quot;,&quot;language&quot;:&quot;en&quot;,&quot;tags&quot;:false,&quot;theme&quot;:&quot;default&quot;,&quot;maximumSelectionLength&quot;:0,&quot;tokenSeparators&quot;:[],&quot;selectOnClose&quot;:false,&quot;width&quot;:&quot;100%&quot;,&quot;placeholderForSearch&quot;:&quot;Search&quot;,&quot;search&quot;:false,&quot;dropdownAutoWidth&quot;:false}"><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A1/CMA.1&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">1/CMA.1</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A1/CMA.2&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">1/CMA.2</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A1/CMA.3&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">1/CMA.3</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A1/CMA.4&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">1/CMA.4</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A2/CMA.1&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">2/CMA.1</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A2/CMA.2&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">2/CMA.2</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A2/CMA.3%20&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">2/CMA.3 </option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A2/CMA.4&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">2/CMA.4</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A3/CMA.1&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">3/CMA.1</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A3/CMA.2&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">3/CMA.2</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A3/CMA.3%20&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">3/CMA.3 </option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A3/CMA.4&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">3/CMA.4</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A4/CMA.1&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">4/CMA.1</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A4/CMA.2&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">4/CMA.2</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A4/CMA.3%20&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">4/CMA.3 </option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A4/CMA.4&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">4/CMA.4</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A5/CMA.1&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">5/CMA.1</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A5/CMA.2&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">5/CMA.2</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A5/CMA.3&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">5/CMA.3</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A5/CMA.4&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">5/CMA.4</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A6/CMA.1&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">6/CMA.1</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A6/CMA.2&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">6/CMA.2</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A6/CMA.3&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">6/CMA.3</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A6/CMA.4&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">6/CMA.4</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A7/CMA.1&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">7/CMA.1</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A7/CMA.2&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">7/CMA.2</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A7/CMA.3&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">7/CMA.3</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A7/CMA.4&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">7/CMA.4</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A8/CMA.1&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">8/CMA.1</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A8/CMA.2&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">8/CMA.2</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A8/CMA.3%20&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">8/CMA.3 </option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A8/CMA.4&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">8/CMA.4</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A9/CMA.1&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">9/CMA.1</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A9/CMA.2&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">9/CMA.2</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A9/CMA.3%20&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">9/CMA.3 </option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A9/CMA.4&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">9/CMA.4</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A10/CMA.1&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">10/CMA.1</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A10/CMA.3%20&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">10/CMA.3 </option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A10/CMA.4&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">10/CMA.4</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A11/CMA.1&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">11/CMA.1</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A11/CMA.3%20&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">11/CMA.3 </option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A11/CMA.4&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">11/CMA.4</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A12/CMA.1&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">12/CMA.1</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A12/CMA.3&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">12/CMA.3</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A12/CMA.4&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">12/CMA.4</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A13/CMA.1&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">13/CMA.1</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A13/CMA.3%20&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">13/CMA.3 </option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A13/CMA.4&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">13/CMA.4</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A14/CMA.1&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">14/CMA.1</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A14/CMA.3&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">14/CMA.3</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A14/CMA.4&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">14/CMA.4</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A15/CMA.1&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">15/CMA.1</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A15/CMA.3%20&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">15/CMA.3 </option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A15/CMA.4&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">15/CMA.4</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A16/CMA.1&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">16/CMA.1</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A16/CMA.3&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">16/CMA.3</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A16/CMA.4&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">16/CMA.4</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A17/CMA.1&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">17/CMA.1</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A17/CMA.3%20&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">17/CMA.3 </option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A17/CMA.4&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">17/CMA.4</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A18/CMA.1&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">18/CMA.1</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A18/CMA.3%20&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">18/CMA.3 </option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A18/CMA.4&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">18/CMA.4</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A19/CMA.1&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">19/CMA.1</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A19/CMA.3%20&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">19/CMA.3 </option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A19/CMA.4&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">19/CMA.4</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A20/CMA.1&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">20/CMA.1</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A20/CMA.3%20&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">20/CMA.3 </option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A20/CMA.4&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">20/CMA.4</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A21/CMA.3%20&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">21/CMA.3 </option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A21/CMA.4&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">21/CMA.4</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A22/CMA.3%20&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">22/CMA.3 </option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A22/CMA.4&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">22/CMA.4</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A23/CMA.3%20&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">23/CMA.3 </option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A23/CMA.4&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">23/CMA.4</option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A24/CMA.3%20&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">24/CMA.3 </option><option
+            value="/decisions?f%5B0%5D=body%3A4099&amp;f%5B1%5D=symboldec%3A24/CMA.4&amp;search2=&amp;order=field_document_attachments_1&amp;sort=asc">24/CMA.4</option><option

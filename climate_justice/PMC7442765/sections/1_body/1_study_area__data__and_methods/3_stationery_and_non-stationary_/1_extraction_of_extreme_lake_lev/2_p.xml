@@ -1,0 +1,19 @@
+<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" id="Par19">For the POT analysis, a mean excess (ME) plot (Ghosh and Resnick <xref ref-type="bibr" rid="CR20">2010</xref>) of the entire series was firstly used to pre-determine the threshold (<italic>u</italic>) lake level (Madsen et al., <xref ref-type="bibr" rid="CR47">1997</xref>), above which levels recorded should be considered to be extremes. According to Ghosh and Resnick (<xref ref-type="bibr" rid="CR20">2010</xref>), the distribution of <italic>u</italic> is assumed to have a function F where:<disp-formula id="Equ4"><label>4</label><alternatives><tex-math id="M31">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${F}_u(x)=P\ \left[X-u\le x|X&gt;u\right]$$\end{document}</tex-math><mml:math id="M32" display="block"><mml:msub><mml:mi>F</mml:mi><mml:mi>u</mml:mi></mml:msub><mml:mfenced close=")" open="("><mml:mi>x</mml:mi></mml:mfenced><mml:mo>=</mml:mo><mml:mi>P</mml:mi><mml:mspace width="0.25em"/><mml:mfenced close="]" open="[" separators="|"><mml:mrow><mml:mi>X</mml:mi><mml:mo>&#8722;</mml:mo><mml:mi>u</mml:mi><mml:mo>&#8804;</mml:mo><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>X</mml:mi><mml:mo>&gt;</mml:mo><mml:mi>u</mml:mi></mml:mrow></mml:mfenced></mml:math><graphic xlink:href="10661_2020_8519_Article_Equ4.gif" position="anchor"/></alternatives></disp-formula>and the ME function of the form:<disp-formula id="Equ5"><label>5</label><alternatives><tex-math id="M33">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$M(u):= E\ \left[X-u|X&gt;u\right]$$\end{document}</tex-math><mml:math id="M34" display="block"><mml:mi>M</mml:mi><mml:mfenced close=")" open="("><mml:mi>u</mml:mi></mml:mfenced><mml:mo>&#8788;</mml:mo><mml:mi>E</mml:mi><mml:mspace width="0.25em"/><mml:mfenced close="]" open="[" separators="|"><mml:mrow><mml:mi>X</mml:mi><mml:mo>&#8722;</mml:mo><mml:mi>u</mml:mi></mml:mrow><mml:mrow><mml:mi>X</mml:mi><mml:mo>&gt;</mml:mo><mml:mi>u</mml:mi></mml:mrow></mml:mfenced></mml:math><graphic xlink:href="10661_2020_8519_Article_Equ5.gif" position="anchor"/></alternatives></disp-formula></p>

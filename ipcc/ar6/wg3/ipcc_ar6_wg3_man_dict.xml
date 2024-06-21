@@ -1,0 +1,1323 @@
+<dictionary title="ipcc_ar6_wg3_man_dict" version="0.0.5" >
+
+  <desc> manually created by Chapter02: Abhishek Prasad(Date: 2022-08-23) , Chapter03: Sunag Parasu(Date: 2022-12-06),Chapter05: Karthikeyan V(Date: 2022-12-06),
+       Chapter06: Mandeep(Date: 2022-11-19) Chapter07:kavita joshi(Date2022-08-23), Chapter08,17: Priti(Date: 2022-12-06)</desc>
+ 
+  <!-- chapter 2--> 
+  <entry term="carbon budget" wikidataID="Q16722080"
+         wikipediaPage="https://en.wikipedia.org/wiki/Carbon_budget" desc="limit on CO2 emission for a given climate impact"/>
+
+  <entry term="FFI" name="fossil fuel combustion and industrial processes" wikidataID="" desc=""/>
+
+  <entry term="FOLU" name="forestry and other land-use" wikidataID="Q3348639"
+         wikipediaPage="https://en.wikipedia.org/wiki/Land_use,_land-use_change,_and_forestry"
+         desc="Greenhouse gas inventory sector that covers emissions and removals of greenhouse gases resulting
+               from direct human-induced land use"/>
+
+  <entry term="fluorinated gas" wikidataID="Q3099705"
+         wikipediaPage="https://en.wikipedia.org/wiki/Fluorinated_gases"
+         desc="man-made gases that can stay in the atmosphere
+               for centuries and contribute to a global greenhouse effect">
+      <synonym>f-gas</synonym>
+  </entry>
+
+  <entry term="carbon pricing" wikidataID="Q20681009"
+         wikipediaPage="https://en.wikipedia.org/wiki/Carbon_price"
+         desc="amount that must be paid for the right to emit one
+               tonne of CO2 into the atmosphere"/>
+
+  <entry term="EDGAR" name="Emissions Database for Global Atmospheric Research" wikidataID="Q108749703"
+         wikipediaPage="https://en.wikipedia.org/wiki/Emission_Database_for_Global_Atmospheric_Research"
+         desc="a joint project of the European Commission Joint Research Centre and the
+               Netherlands Environmental Assessment Agency which estimates emissions of all
+               greenhouse gases, air pollutants and aerosols" />
+
+  <entry term="CAIT" name="Climate Analysis Indicators Tool" wikidataID=""
+         desc="The Climate Analysis Indicators Tool (CAIT) is an information and data analysis tool on global climate change
+               and provides a comprehensive and comparable database of greenhouse gas emissions data
+               (including all major sources and sinks) and other climate-relevant indicators"
+         descPage="https://link.springer.com/referenceworkentry/10.1007/978-94-007-0753-5_403"/>
+
+  <entry term="CEDS" name="A Community Emissions Data System for Historical Emissions" wikidataID="" desc="" descPage=""/>
+
+  <entry term="CRF" name="common reporting format" wikidataID="" desc=""/>
+
+  <entry term="emissions factor" wikidataID="" wikipediaPage=""
+         desc="An emissions factor is a representative value that attempts to relate
+               the quantity of a pollutant released to the atmosphere with an activity associated with
+               the release of that pollutant"
+         descPage="https://www.epa.gov/air-emissions-factors-and-quantification/basic-information-air-emissions-factors-and-quantification"/>
+
+  <entry term="emission inventory" wikidataID="Q1337883" wikipediaPage="https://en.wikipedia.org/wiki/Emission_inventory"
+         desc="An emission inventory (or emissions inventory) is an accounting of
+               the amount of pollutants discharged into the atmosphere"/>
+
+  <entry term="emission sectors" wikidataID="" wikipediaPage=""
+         desc="Transportation, Industry, Agriculture, and Land Use and Forestry are four global emission sectors
+               that roughly correspond to the U.S. sectors"
+         descPage="https://www.epa.gov/ghgemissions/global-greenhouse-gas-emissions-data"/>
+
+  <entry term="GWP100" name="100 year Global warming potential" wikidataID="" wikipediaPage=""
+         desc="Global warming potential calculated over a period of 100 years"
+         descPage="https://www.sciencedirect.com/topics/earth-and-planetary-sciences/global-warming-potential"/>
+
+  <entry term="WMO" name="World Meteorological Organisation" wikidataID="Q170424"
+         wikipediaPage="https://en.wikipedia.org/wiki/World_Meteorological_Organization"
+         desc="specialised agency of the United Nations for meteorology"/>
+
+  <entry term="top down atmospheric measurement" wikidataID="" wikipediaPage=""
+         desc="emissions inventory that comes from direct measurement and are done to evaluate measured emissions for a
+               geographical region or sector, using measurements from hand-held OGC cameras,
+               truck-mounted cameras, drones and planes, and satellites"
+         descPage="https://processecology.com/articles/which-is-better-bottom-up-or-top-down-emissions-estimates"/>
+
+  <entry term="GTP" name="Global Temperature Change Potential" wikidataID="" wikipediaPage=""
+         descPage="https://knowledge4policy.ec.europa.eu/glossary-item/global-temperature-change-potential_en"
+         desc="the change in global mean surface temperature at a chosen point in time in response to an emission pulse
+               relative to that of CO2"/>
+
+  <entry term="social discount rate" wikidataID="Q7551053" wikipediaPage="https://en.wikipedia.org/wiki/Social_discount_rate"
+         desc="rate used for discounting future benefits or costs to society"/>
+
+  <entry term="SLCF" name="Short Lived Climate Forcers" wikidataID="" wikipediaPage=""
+         desc="greenhouse gases and other climate pollutants that have relatively short atmospheric lifetimes
+               compared to carbon dioxide"
+         descPage="https://www.c2es.org/content/short-lived-climate-pollutants/">
+    <synonym> term="SLCP" name="Short-lived climate pollutants"</synonym>
+    <synonym> term="near-term climate forcers"</synonym>
+  </entry>
+
+  <entry term="CGTP" name="Combined Global Temperature Change Potential" wikidataID="" wikipediaPage="" descPage="" >
+    <metadata>
+      <!-- fictitious link -->
+      <source href="#ipcc/ar6/wg3/Chapter02/section.2.*.*"/>
+    </metadata>
+    
+  </entry>
+
+  <entry term="CO2-equivalent emission" wikidataID="NOT_FOUND" wikipediaPage="NOT_FOUND">
+         <links>
+            <link href="https://www3.epa.gov/carbon-footprint-calculator/tool/definitions/co2e.html"
+               desc="Carbon dioxide equivalent or CO2e means the number of metric tons of CO2 emissions
+               with the same global warming potential as one metric ton of another greenhouse gas">
+            </link>
+         </links>
+</entry>
+  <entry term="emissions trajectory" wikidataID="" wikipediaPage=""
+         desc="A projected development in time of the emission of a greenhouse gas
+               or group of greenhouse gases, aerosols and greenhouse gas precursors."
+         descPage="https://archive.unescwa.org/emission-trajectory"/>
+
+  <entry term="FAOSTAT" name="Food and Agriculture Organization Corporate Statistical Database" wikidataID="Q5465416"
+         wikipediaPage="https://en.wikipedia.org/wiki/Food_and_Agriculture_Organization_Corporate_Statistical_Database"
+         desc="FAOSTAT website disseminates statistical data collected and maintained by the
+              Food and Agriculture Organization (FAO)"/>
+
+  <entry term="SRES" name="Special Report on Emissions Scenarios" wikidataID="Q674505"
+         wikipediaPage="https://en.wikipedia.org/wiki/Special_Report_on_Emissions_Scenarios"
+         desc="2000 report by the Intergovernmental Panel on Climate Change"/>
+
+  <entry term="SSP" name="Shared Socioeconomic Pathways" wikidataID="" wikipediaPage=""
+         desc="Over the past few years, an international team of climate scientists, economists and
+              energy systems modellers have built a range of new “pathways” that examine how global society,
+              demographics and economics might change over the next century. They are collectively known as SSPs"
+         descPage="https://www.carbonbrief.org/explainer-how-shared-socioeconomic-pathways-explore-future-climate-change/"/>
+
+  <entry term="Primary Energy" wikidataID="Q1059714"
+         wikipediaPage="https://en.wikipedia.org/wiki/Primary_energy"
+         desc="energy form not subjected to any human conversion process"/>
+
+  <entry term="Primary Energy Conversion" wikidataID="" wikipediaPage=""
+         desc="direct use at the source, or supply to users without transformation, of crude energy,
+              that is, energy that has not been subjected to any conversion or transformation process"
+         descPage="https://stats.oecd.org/glossary/detail.asp?ID=2112"/>
+
+  <entry term="baseline scenario" wikidataID="NOT_FOUND">
+           <link href="https://www.eea.europa.eu/help/glossary/eea-glossary/baseline-scenario"
+         desc="Baseline scenarios depict a future state of society and/or environment in which
+              no new environmental policies are implemented apart from those already in the
+              pipeline today; or in which these policies do not have a discernable influence
+               regarding the questions being analysed">
+              <synonym term="benchmark scenario"/>
+              <synonym term="reference scenario"/>
+              <synonym term="non-intervention scenario"/>
+            </link>
+  </entry>
+
+  <entry term="atmospheric lifetime" wikidataID="" wikipediaPage=""
+         desc="The atmospheric lifetime of a species measures the time required to restore equilibrium
+               in the atmosphere following a sudden increase or decrease in concentration of the
+               species in question in the atmosphere."
+         descPage="https://www.sciencedirect.com/topics/engineering/atmospheric-lifetime"/>
+
+  <entry term="NMVOC" name="Non-methane volatile organic compound" wikidataID="Q16963326"
+         wikipediaPage="https://en.wikipedia.org/wiki/Non-methane_volatile_organic_compound"
+         desc="set of organic compounds that are typically photochemically reactive in the atmosphere and
+         are marked by the exclusion of methane"/>
+  <entry term="GtCO2eq" name="gigatonne CO2 equivalent" wikidataID="" wikipediaPage=""
+         desc="" descPage=""/>
+
+  <entry term="cumulative CO2 emissions" wikidataID="" wikipediaPage=""
+         desc="Cumulative carbon dioxide (CO₂) emissions represents the total sum of CO₂ emissions produced from fossil fuels
+          and cement since 1750, and is measured in tonnes. This measures CO₂ emissions from fossil fuels and cement
+           production only – land use change is not included."
+         descPage="https://ourworldindata.org/grapher/cumulative-co-emissions"/>
+
+  <entry term="Final Energy Demand" wikidataID="" wikipediaPage=""
+         desc="Final energy consumption covers all energy supplied to the final consumer for all energy uses. It is the sum of
+               energy consumption in each final demand sector"
+         descPage="https://www.eea.europa.eu/data-and-maps/indicators/final-energy-consumption-outlook-from-iea">
+      <synonym term="Final Energy Consumption"/>
+  </entry>
+
+<entry term="demand side solutions" wikidataID="" wikipediaPage="" desc="" descPage=""/>
+
+  <!-- chapter 3-->
+  <entry term="sinks" wikidataID="" desc="anything that holds greenhouse gases from the atmosphere"/>
+<entry term="sectoral dynamics" wikidataID="NOT_FOUND" desc=""/>
+<entry term="sectoral models" wikidataID="NOT_FOUND" desc=""/>
+<entry term="path dependency" wikidataID="Q1093521" wikipediaPage="https://en.wikipedia.org/wiki/Path_dependence" desc="A concept where past events or decisions constrain later events or decisions"/>
+<entry term="up-scaling" wikidataID="Q7429728" wikipediaPage="https://en.wikipedia.org/wiki/Scale_up" desc="To improve the quality of something"/>
+
+<entry term="anthropogenic emissions" wikidataID="" descPage="https://www.ipcc.ch/sr15/chapter/glossary/#:~:text=and%20Anthropogenic%20removals.-,Anthropogenic%20emissions,waste%20management%20and%20industrial%20processes." desc="Emissions of greenhouse gases (GHGs), precursors of GHGs and aerosols caused by human activities."/>
+<entry term="scenario" wikidataID="Q1090839" wikipediaPage="https://en.wikipedia.org/wiki/Scenario" desc="description of an event or series of actions and events"/>
+<entry term="emission pathway" wikidataID="" wikipediaPage="" desc=""/>
+<entry term="endogenous climate model" wikidataID="" wikipediaPage="" desc=""/>
+<entry term="Granularity" wikidataID="Q1246948" wikipediaPage="https://en.wikipedia.org/wiki/Granularity" desc="refers to the extent to which a material or system is composed of distinguishable pieces"/>
+<entry term="climate impacts" wikidataID="" descPage="https://www.ucsusa.org/climate/impacts" desc="the consequences of climate change"/>
+<entry term="climate constraints" wikidataID="" wikipediaPage="" desc=""/>
+<entry term="climate model emulator" wikidataID="" descPage="https://climatemodeling.earth.indiana.edu/research/climate-model-emulators.html" desc="Climate model emulators are simple versions of climate models that only represent part of the system or represent the system at reduced complexity"/>
+<entry term="climate assessment" wikidataID="" wikipediaPage="" desc="Through its assessments, the IPCC determines the state of knowledge on climate change."/>
+<entry term="harmonization" wikidataID="Q1176143" wikipediaPage="https://en.wikipedia.org/wiki/Harmonisation_of_law" desc="the process of establishing common laws, treaties and standards"/>
+<entry term="infilling" wikidataID="" descPage="https://www.merriam-webster.com/dictionary/infill" desc="the act of filling or closing gaps"/>
+<entry term="probabilistic climate model emulator run" wikidataID="" wikipediaPage="" desc="running a climate model emulator"/>
+<entry term="energy intensity" wikidataID="Q1341351" wikipediaPage="https://en.wikipedia.org/wiki/Energy_intensity" desc="Energy intensity is a measure of the energy inefficiency of an economy"/>
+<entry term="representative concentration pathways" wikidataID="Q7314241" wikipediaPage="https://en.wikipedia.org/wiki/Representative_Concentration_Pathway" desc="These pathways describe different climate futures, all of which are considered possible depending on the volume of greenhouse gases (GHG) emitted in the years to come"/>
+<entry term="greenhouse gas forcing" wikidataID="" descPage="https://arstechnica.com/technopaedia/2008/03/greenhouse-gasgreenhouse-forcing/" desc="Greenhouse forcings occur due to changes in the level of gasses that share two properties: they are transparent to visible light, but absorb the infrared, which we typically perceive as heat"/>
+<entry term="halogenated gases" wikidataID="" descPage="https://www.epa.gov/climate-indicators/climate-change-indicators-atmospheric-concentrations-greenhouse-gases#:~:text=Some%20halogenated%20gases%20are%20considered,both%20the%20stratosphere%20and%20troposphere." desc="Some halogenated gases are considered major greenhouse gases due to their very high global warming potentials and long atmospheric lifetimes even if they only exist at a few ppt"/>
+<entry term="global temperature change potential" wikidataID="" descPage="http://www.ipcc.ch/report/ar5/wg3/" desc="GTP is an end-point metric that is based on temperature change for a selected year"/>
+<entry term="global damage potential" wikidataID="" wikipediaPage="" desc="The global damage potential (GDP) is expressed as the ratio of the social cost of a given greenhouse gas (GHG) to the social cost of CO2 (SCC), where the social cost of a GHG measures the (discounted) cumulative economic damage of that GHG"/>
+<entry term="feasibility" wikidataID="Q5439522" wikipediaPage="https://en.wikipedia.org/wiki/Feasibility" desc="the state or degree of being easily or conveniently done"/>
+<entry term="illustrative mitigation pathways" wikidataID="" descPage="https://www.ipcc.ch/report/ar6/wg3/figures/summary-for-policymakers/figure-spm-5/" desc=""/>
+<entry term="climate policy" wikidataID="" descPage="https://globalchange.mit.edu/research/focus-areas/climate-policy" desc="legislative policies related to climate change"/>
+<entry term="model calibration" wikidataID="" wikipediaPage="" desc=""/>
+<entry term="low-carbon technology" wikidataID="Q16872549" wikipediaPage="https://en.wikipedia.org/wiki/Low-carbon_technology" desc="technologies with low greenhouse gas emissions"/>
+<entry term="IPCC special report on global warming of 1.5C" wikidataID="" descPage="https://www.ipcc.ch/sr15/" desc=""/>
+<entry term="iterating" wikidataID="Q651022" wikipediaPage="https://en.wikipedia.org/wiki/Iteration" desc="teration is the repetition of a process in order to generate a (possibly unbounded) sequence of outcomes"/>
+<entry term="model dynamics" wikidataID="" wikipediaPage="" desc=""/>
+<entry term="metadata" wikidataID="Q180160" wikipediaPage="https://en.wikipedia.org/wiki/Metadata" desc="data that provides information about other data"/>
+<entry term="net-negative emissions" wikidataID="" descPage="https://www.iea.org/commentaries/going-carbon-negative-what-are-the-technology-options#:~:text=Becoming%20carbon%20negative%20requires%20a,known%20as%20net%20negative%20emissions." desc="global CO2 emissions to fall below zero in the second half of this century, achieving what is known as net negative emissions"/>
+<entry term="moderate action" wikidataID="" wikipediaPage="" desc="less extreme action"/>
+<entry term="climate projection" wikidataID="" descPage="https://climate.copernicus.eu/climate-projections#:~:text=Climate%20projections%20are%20simulations%20of,The%20Climate%20Data%20Store" desc="Climate projections are simulations of Earth's climate in future decades"/>
+<entry term="climate sensitivity" wikidataID="Q521783" wikipediaPage="https://en.wikipedia.org/wiki/Climate_sensitivity" desc="Climate sensitivity is a measure of how much Earth's surface will cool or warm after a specified factor causes a change in its climate system"/>
+<entry term="business-as-usual projections" wikidataID="" descPage="https://granthaminstitute.com/2017/09/12/what-does-business-as-usual-mean-today/" desc="a baseline to compare alternative scenarios, or a starting point for analysis of a system"/>
+<entry term="abatement potential" wikidataID="" descPage="https://ourworldindata.org/how-much-will-it-cost-to-mitigate-climate-change#:~:text='Abatement%20potential'%20is%20the%20term,and%20economically%20feasible%20to%20achieve." desc="abatement potential is the term we use to describe the magnitude of potential GHG reductions which could be technologically and economically feasible to achieve"/>
+<entry term="tropospheric ozone" wikidataID="" descPage="https://www.ccacoalition.org/en/slcps/tropospheric-ozone" desc="ozone gas found in the troposphere"/>
+<entry term="aerosol emissions" wikidataID="" descPage="" desc="emissions of tiny atmospheric particles of sea spray, smoke, dust, and other substances"/>
+
+<entry term="global warming potential" wikidataID="Q901028" wikipediaPage="https://en.wikipedia.org/wiki/Global_warming_potential" desc="Global warming potential is the heat absorbed by any greenhouse gas in the atmosphere, as a multiple of the heat that would be absorbed by the same mass of carbon dioxide"/>
+<entry term="transient climate response" wikidataID="" wikipediaPage="" desc="Transient climate response (TCR) is the mean global warming predicted to occur around the time of doubling CO2 in earth system model runs for which atmospheric CO2 concentration is prescribed to increase at 1 % per year"/>
+<entry term="earth system feedbacks" wikidataID="" wikipediaPage="" desc=""/>
+<entry term="end-of-century termperature" wikidataID="" wikipediaPage="" desc="temperatures at the end of the century"/>
+<entry term="soil carbon enhancement" wikidataID="" wikipediaPage="" desc="a practice that enhance carbon sequestration in the soil or that mitigate the loss of soil carbon"/>
+<entry term="ocean alkalinization" wikidataID="" wikipediaPage="" desc="Ocean alkalinization is an approach to carbon removal that involves adding alkaline substances to seawater to enhance the ocean's natural carbon sink"/>
+<entry term="bio-energy" wikidataID="" descPage="https://www.energy.gov/eere/bioenergy/bioenergy-basics" desc="Bioenergy is a form of renewable energy generated when we burn biomass fuel"/>
+<entry term="equivalence metrics" wikidataID="" wikipediaPage="" desc=""/>
+
+<entry term="equity principles" wikidataID="" wikipediaPage="" desc="principles such as equality, capability and responsibility"/>
+<!-- chapter 5-->
+<entry term="Sixth Assessment Report" 
+       wikidataID="Q103843442" 
+       wikipediaPage="https://en.wikipedia.org/wiki/IPCC_Sixth_Assessment_Report"
+       desc="intergovernmental report on climate change"/>
+
+<entry term="Global Energy Assessment" 
+       wikidataID="" 
+       wikipediaPage=""
+       desc=" "/>
+
+<entry term="LED" 
+       wikidataID="" 
+       wikipediaPage=""
+       label="Low Energy Demand"/>
+
+<entry term="ASI" 
+       wikidataID="Q106417824" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Avoid-Shift-Improve"
+       label="Avoid-Shift-Improve"
+       desc="approach to environmental sustainability by changing consumer behavior"/>
+
+<entry term="DLS" 
+       wikidataID="" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Standard_of_living#:~:text=The%20decent%20living%20standard%20revolves%20around%20the%20idea,be%20maintained%20for%20a%20long%20period%20of%20time."
+       desc="Decent Living Standard"/>
+
+<entry term="GHG" 
+       wikidataID="Q167336" 
+       wikipediaPage=""
+       label="greenhouse gases"
+       desc="gas in an atmosphere of a planet (usually Earth) that absorbs and emits radiation within the thermal infrared range and causes the greenhouse effect"/>
+
+<entry term="bibliometric" 
+       wikidataID="Q603441" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Bibliometrics"
+       desc="statistical analysis of written publications, such as books or articles bibliometry"/>
+
+<entry term="decoupling" 
+       wikidataID="Q5249642" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Decoupling_(electronics)"
+       desc="prevention of undesired coupling between subsystems"/>
+
+<entry term="holistic" 
+       wikidataID="Q192891" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Holism"
+       desc="philosophical position that systems should be analyzed as wholes, not just as collections of parts"/>
+
+<entry term="gentrification" 
+       wikidataID="Q119380" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Gentrification"
+       desc="urban socioeconomic process"/>
+
+<entry term="green policies" 
+       wikidataID="" 
+       wikipediaPage=""
+       desc=""/>
+
+<entry term="Nexus" 
+       wikidataID="" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Nexus"
+       desc="Nexus is a Latin word for connection, usually where multiple elements meet."/>
+
+<entry term="merit order" 
+       wikidataID="Q1317949" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Merit_order"
+       desc="way of ranking available sources of energy"/>
+
+<entry term="decarbonization" 
+       wikidataID="Q11693783" 
+       wikipediaPage=""
+       desc="change of economy, especially of energy industries, towards lower carbon dioxide emissions"/>
+
+<entry term="Pertinent" 
+       wikidataID="" 
+       wikipediaPage="https://en.wikipedia.org/w/index.php?title=Pertinen and redirect=no"
+       desc=" "/>
+
+<entry term="low-carbon economy" 
+       wikidataID="Q3267905" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Low-carbon_economy"
+       desc="economy based on low carbon power sources"/>
+
+<entry term="hedonic" 
+       wikidataID="Q7064" 
+       wikipediaPage="https://en.wikiquote.org/wiki/Hedonism"
+       desc="philosophy of pleasure as the highest value"/>
+
+<entry term="eudaimonic" 
+       wikidataID="Q318401" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Eudaemonism"
+       desc="belief in living 'the good life'"/>
+
+<entry term="Individual Deprivation Measure" 
+       wikidataID="Q22909187" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Individual_Deprivation_Measure"
+       desc="Gender-sensitive and multidimensional measure of poverty developed to assess deprivation at the individual level and overcome the limitations of current approaches which measure poverty at the household level."/>
+
+<entry term="affluence" 
+       wikidataID="Q3187057" 
+       wikipediaPage=""
+       desc="Abundance of valuable financial assets or physical possessions which can be converted into a form that can be used for transactions."/>
+
+<entry term="extractivism " 
+       wikidataID="Q1385203" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Extractivism"
+       desc="process of extracting resources from the earth"/>
+
+<entry term="ameliorate" 
+       wikidataID="Q8197270" 
+       wikipediaPage=""
+       desc="the act of making something better; improvement"/>
+
+<entry term="racialized" 
+       wikidataID="Q7279602" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Racialized_society"
+       desc="society where race is important"/>
+
+<entry term="militarisation" 
+       wikidataID="" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Militarization"
+       desc=" "/>
+
+<entry term="exergy" 
+       wikidataID="Q663290" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Exergy"
+       desc="maximum energy available for use"/>
+
+<entry term="megatrend" 
+       wikidataID="Q99538550" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Megatrend"
+       desc="trends that have an effect on a global scale. Some of the current megatrends are identicalwith global threats."/>
+
+<entry term="SIT" 
+       wikidataID="" 
+       wikipediaPage=""
+       label="Socio-cultural factors, Infrastructure use and Technology adoption"/>
+
+<entry term="Slow steaming" 
+       wikidataID="Q12015603" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Slow_steaming"
+       desc="practice of operating transoceanic cargo ships, especially container ships, at significantly less than their maximum speed."/>
+
+<entry term="weather routing" 
+       wikidataID="" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Weather_routing"
+       desc="commercial service provided by commercial companies for cargo ships, to optimize their voyage performance."/>
+
+<entry term="contra-rotating propellers" 
+       wikidataID="Q1777836" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Contra-rotating_propellers"
+       desc="two-propeller design for improving low-airspeed maneuverability"/>
+
+<entry term="passive houses" 
+       wikidataID="Q464221" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Passive_house"
+       desc="house that does not require fossil energy supply"/>
+
+<entry term="Circularity" 
+       wikidataID="" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Circularity"
+       desc=""/>
+
+<entry term="superfluous" 
+       wikidataID="Q21262209" 
+       wikipediaPage=""
+       desc="excess"/>
+
+<entry term="Dematerialization " 
+       wikidataID="" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Dematerialization_(products)"
+       desc="less or no material is used to deliver the same level of functionality"/>
+
+<entry term="drivetrain" 
+       wikidataID="Q1786258" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Drivetrain"
+       desc="group of components that deliver power to the driving wheels, excluding the part(s) which powers the machine"/>
+
+
+<entry term="ESM" 
+       wikidataID="" 
+       wikipediaPage=""
+       label="energy systems model"/>
+
+<entry term="GCAM" 
+       wikidataID="Q113016236" 
+       wikipediaPage=""
+       label="Global Change Analysis Model"/>
+
+<entry term="EU-27" 
+       wikidataID="" 
+       wikipediaPage="https://en.wikipedia.org/wiki/EU_27"
+       desc=""/>
+
+<entry term="NZE" 
+       wikidataID="Q1774424" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Carbon_neutrality"
+       desc="Net Zero Emission"/>
+
+<entry term="B2DS" 
+       wikidataID="" 
+       wikipediaPage=""
+       desc=""/>
+
+<entry term="TIAM-Grantham" 
+       wikidataID="" 
+       wikipediaPage="https://www.imperial.ac.uk/events/105281/taking-on-tiam-an-introduction-to-energy-systems-modelling-and-initial-results/"
+       desc=""/>
+
+<entry term="AIMS" 
+       wikidataID="Q50811630" 
+       wikipediaPage=""
+       desc="academic journal published by AIMS Press, covering production of electric energy or power, powerplants, central stations"/>
+
+
+<entry term="circular economy" 
+       wikidataID="Q497743" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Circular_economy"
+       desc="regenerative system in which resource input and waste, emission, and energy leakage, are minimised"/>
+
+<entry term="P2P"
+       label="peer-to-peer"
+       wikidataID="Q161410" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Peer-to-peer"
+       desc="type of decentralized and distributed network architecture"/>
+
+<entry term="shared-ridehailing" 
+       wikidataID="" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Shared_transport"
+       desc="Shared transport"/>
+
+<entry term="ICT" 
+       wikidataID="Q5268834" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Information_and_communications_technology"
+       label="information and communications technology"
+       desc="use of integration of telecommunications and computers to access, store, transmit, and manipulate information"/>
+
+<entry term="IT" 
+       wikidataID="Q11661" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Information_and_communications_technology"
+       label="information technology"
+       desc="use of integration of telecommunications and computers to access, store, transmit, and manipulate information"/>
+
+<entry term="cryptocurrencies" 
+       wikidataID="Q13479982" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Cryptocurrency"
+       desc="digital medium of exchange using cryptography on a ledger to secure transactions and to verify transfer of ownership"/>
+
+<entry term="blockchain" 
+       wikidataID="Q20514253" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Blockchain"
+       desc="distributed data store for digital transactions"/>
+
+<entry term="Bitcoin mining" 
+       wikidataID="Q85874951" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Bitcoin_network#Mining"
+       desc=""/>
+
+<entry term="product service" 
+       wikidataID="Q179106" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Product-service_system"
+       desc="offers the use of a good or service rather than the good itself"/>
+
+<entry term="flexibilisation" 
+       wikidataID="Q1392543" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Flextime"
+       desc="flexible hours schedule that allows workers to alter workday start and finish times"/>
+
+<entry term="conflate" 
+       wikidataID="Q14946528" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Conflation"
+       desc="merging of distinct identities or concepts, usually erroneously"/>
+
+<entry term="deadheading" 
+       wikidataID="Q177982" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Deadheading_(employee)"
+       desc="carrying, free of charge, a transport company's own staff on a normal passenger trip"/>
+
+<entry term="Lyft" 
+       wikidataID="Q17077936" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Lyft"
+       desc="American transportation network company"/>
+
+<entry term="Uber" 
+       wikidataID="Q780442" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Uber"
+       desc="peer-to-peer ridesharing, food delivery, and transportation network company headquartered in San Francisco, California"/>
+
+<entry term="dock-less bikes" 
+       wikidataID="Q42556547" 
+       wikipediaPage=""
+       desc="dockless bicycle sharing system"/>
+
+<entry term="LCA" 
+       wikidataID="Q581950" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Life-cycle_assessment"
+       label="life-cycle assessment"
+       desc="environmental assessment method"/>
+
+<entry term="big data" 
+       wikidataID="Q858810" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Big_data"
+       desc="information assets characterized by such a high volume, velocity, and variety to require specific technology and analytical methods for its transformation into value"/>
+
+<entry term="densification" 
+       wikidataID="Q3023260" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Urban_density"
+       desc="policy of constraining further development and population growth towithin the boundaries of preexisting urban areas rather than expanding outward into suburban areas"/>
+
+<entry term="stringent" 
+       wikidataID="" 
+       wikipediaPage=""
+       desc="strict"/>
+
+<entry term="CE"
+       label="circular economy"
+       wikidataID="Q497743" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Circular_economy"
+       desc="regenerative system in which resource input and waste, emission, and energy leakage, are minimised"/>
+
+<entry term="cradle-to-cradle" 
+       wikidataID="Q2306286" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Cradle-to-cradle_design"
+       desc="biomimetic approach to the design of products"/>
+
+<entry term="biomimicry" 
+       wikidataID="Q1145644" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Biomimetics"
+       desc="imitation of biological systems for the solving of human problems"/>
+
+<entry term="Netherlands Environmental Assessment Agency" 
+       wikidataID="Q2367258" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Netherlands_Environmental_Assessment_Agency"
+       desc="Netherlands Environmental Assessment Agency"/>
+
+<entry term="Gt" 
+       wikidataID="" 
+       wikipediaPage=""
+       label="Giga Ton"/>
+
+<entry term="entrant" 
+       wikidataID="Q16868671" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Entrant"
+       desc="A participant who enters something, such as a contest."/>
+
+<entry term="LPG" 
+       wikidataID="Q351609" 
+       wikipediaPage="https://en.wikipedia.org/wiki/Liquefied_petroleum_gas"
+       label="liquefied petroleum gas"
+       desc="Flammable Gas"/>
+
+<entry term="ICS" 
+       wikidataID="Q6049784" 
+       wikipediaPage="https://en.wikipedia.org/wiki/International_Continence_Society"
+       label="International Continence Society"/>
+
+<entry term="cognizant" 
+       wikidataID="" 
+       wikipediaPage=""
+       desc="having knowledge or awareness"/>
+
+<entry term="altruistic" 
+       wikidataID="Q167323" 
+       wikipediaPage="https://en.wikiquote.org/wiki/Altruism"
+       desc="principle or practice of concern for the welfare of others"/>
+
+<entry term="egalitarian" 
+       wikidataID="Q188958" 
+       wikipediaPage="https://en.wikiquote.org/wiki/Egalitarianism"
+       desc="trend of thought that favors equality for all people"/>
+  
+<!-- chapter 6-->  
+<entry term="interquartile range" wikidataID="Q1916617"
+             wikipediaPage="https://en.wikipedia.org/wiki/Interquartile_range" desc="measure of statistical dispersion"/>
+
+<entry term="SDGs" name="sustainable development goals" wikidataID="Q7649586"
+             wikipediaPage="https://en.wikipedia.org/wiki/Sustainable_Development_Goals" desc="set of United Nations-defined global development goals and climate change"/>
+    
+<entry term="biofuels" wikidataID="Q128991"
+             wikipediaPage="https://www.wikidata.org/wiki/Q128991" desc="fuel that is produced through contemporary biological processes, as opposed to fossil fuel that was produced by prehistoric bio-geological processes"/>
+  
+<entry term="Viability" wikidataID="Q2521689"
+             wikipediaPage="https://en.wikipedia.org/wiki/Viability" desc="is the ability of a thing (a living organism, an artificial system, an idea, etc.) to maintain itself or recover its potentialities."/>
+   
+<entry term="Zero-energy" wikidataID="Q8069587"
+             wikipediaPage="https://en.wikipedia.org/wiki/Zero_energy" desc="zero net energy consumption"/>
+  
+<entry term="Low-carbon power" wikidataID="Q6692723"
+             wikipediaPage="https://en.wikipedia.org/wiki/Low-carbon_power" desc="power produced with lower carbon dioxide emissions"/>
+  
+<entry term="electricity power systems" wikidataID="Q2388981"
+             wikipediaPage="https://en.wikipedia.org/wiki/Electric_power_system"
+             desc="system to generate, transmit and distribute electricity"/>
+<entry term="energy crisis" wikidataID="Q1341376"
+             wikipediaPage="https://en.wikipedia.org/wiki/Energy_crisis" desc="
+             significant bottleneck in the supply of energy resources to an economy"/>  
+<entry term="Energy Security" wikidataID="Q2700433"
+             wikipediaPage="https://en.wikipedia.org/wiki/Energy_security" desc="national security considerations of energy availability"/>
+  
+<entry term="pollution" wikidataID="Q58734"
+             wikipediaPage="https://en.wikipedia.org/wiki/Pollution" desc="introduction of contaminants into the natural environment that cause adverse change"/>
+  
+<entry term="renewable technologies" wikidataID="Q12705"
+             wikipediaPage="https://en.wikipedia.org/wiki/Renewable_energy" desc="energy that is collected from renewable sources"/>
+  
+<entry term="Energy conservation" wikidataID="Q380170"
+             wikipediaPage="https://en.wikipedia.org/wiki/Energy_conservation" desc="reducing energy consumption"/>
+  
+<entry term="fuel-based electricity" wikidataID="Q12748"
+             wikipediaPage="https://en.wikipedia.org/wiki/Fossil_fuel" desc="fuel formed by natural processes such as anaerobic decomposition of buried dead organisms"/>
+  
+<entry term="Global warming" wikidataID="Q54745709"
+             wikipediaPage="" desc="increase in global average temperature"/>
+  
+<entry term=" transformation" wikidataID="Q234757"
+             wikipediaPage="https://en.wikipedia.org/wiki/Transformation" desc="changing of one form to another"/>
+  
+<entry term="Greenhouse gas emissions" wikidataID="Q112192791"
+             wikipediaPage="https://en.wikipedia.org/wiki/Greenhouse_gas_emissions" desc="Greenhouse gas emissions from human activities strengthen the greenhouse effect, causing climate change. Most is carbon dioxide from burning fossil fuels: coal, oil, and natural gas"/>
+    
+<entry term="APC" name="and Developing Pacific" wikidataID="" wikipediaPage=""/>
+  
+<entry term="HDI"  name="human development index" wikidataID="Q38994" wikipediaPage="https://en.wikipedia.org/wiki/Human_Development_Index" desc="
+                   composite statistic of life expectancy, education, and income indices"/>
+
+<entry term ="DACCS" name="Direct air carbon capture and storage" wikidataID="Q111902950" wikipediaPage="https://en.wikipedia.org/wiki/DACCS" desc=""/>
+
+<entry term="IEA" name="International Energy Agency" wikidataID="Q826700" wikipediaPage="https://en.wikipedia.org/wiki/International_Energy_Agency" desc="intergovernmental organization"/>
+
+<entry term="CSP" name="Concentrated solar power" wikidataID="Q285927" wikipediaPage="https://en.wikipedia.org/wiki/Concentrated_solar_power" desc="
+                   large-scale solar thermal system using concentrated sunlight"/>
+<entry term="BECSS" name="Bioenergy with carbon capture and storage" wikidataID="Q2577671" wikipediaPage="https://en.wikipedia.org/wiki/Bioenergy_with_carbon_capture_and_storage" desc="removing carbon dioxide from the atmosphere by growing plants, and then putting it permanently underground"/>
+
+<entry term="DAC" name="Direct air capture" wikidataID="Q60761394" wikipediaPage="https://en.wikipedia.org/wiki/Direct_air_capture" desc="method of carbon capture from carbon dioxide in air"/>
+
+<entry term="CDR" name="Carbon dioxide removal" wikidataID="Q56298528" wikipediaPage="" desc="removal of atmospheric carbon dioxide"/>
+
+<entry term="LDV" name="Light delivery vehicle" wikidataID="Q1209878" wikipediaPage="https://en.wikipedia.org/wiki/LDV" desc=""/>
+
+<entry term="Biorefineries" wikidataID="Q864683"
+             wikipediaPage="https://en.wikipedia.org/wiki/Biorefinery" desc="
+             refinery that converts biomass to energy and useful byproducts"/>
+    
+<entry term="Seasonal thermal energy storage" wikidataID="Q7441920"
+             wikipediaPage="https://en.wikipedia.org/wiki/Seasonal_thermal_energy_storage" desc="storage of heat or cold for periods of up to several months"/>
+    
+<entry term="solar energy" wikidataID="40015"
+             wikipediaPage="https://en.wikipedia.org/wiki/Solar_energy" desc="
+             radiant light and heat from the Sun that is harnessed using a range of technologies"/>
+
+<entry term="bioenergy or biofuel" wikidataID="Q128991"
+             wikipediaPage="https://en.wikipedia.org/wiki/Biofuel" 
+             desc="fuel that is produced through contemporary biological processes, as opposed to fossil fuel that was produced by prehistoric bio-geological processes"/>
+
+<entry term="biosphere" wikidataID="Q42762"
+             wikipediaPage="https://en.wikipedia.org/wiki/Biosphere" desc="global sum of all ecosystems"/>
+
+<entry term="Carbon capture" wikidataID="Q106983683"
+             wikipediaPage="https://en.wikipedia.org/wiki/Carbon_capture" desc="where the captured carbon dioxide is used"/>
+    
+<entry term="climate change or global warming" wikidataID="Q7942"
+             wikipediaPage="https://en.wikipedia.org/wiki/Climate_change" desc="
+             current rise in Earth's average temperature and related large-scale shifts in weather patterns"/>
+    
+<entry term="coal " wikidataID="Q24489"
+             wikipediaPage="https://en.wikipedia.org/wiki/Coal" desc="
+             combustible sedimentary rock composed primarily of carbon"/>
+    
+<entry term="coal mining" wikidataID="Q12880211"
+             wikipediaPage="https://en.wikipedia.org/wiki/Coal_mining" desc="process of getting coal out of the ground"/>
+    
+<entry term="deforestation" wikidataID="Q169940"
+             wikipediaPage="https://en.wikipedia.org/wiki/Deforestation" desc="removal of forest and conversion of the land to non-forest use"/>
+    
+<entry term="solid fuel" wikidataID="Q1408429"
+             wikipediaPage="https://en.wikipedia.org/wiki/Solid_fuel" desc="solid material that can be burnt to release energy"/>
+    
+<entry term="electrolysis" wikidataID="Q64403"
+             wikipediaPage="https://en.wikipedia.org/wiki/Electrolysis" 
+             desc="technique that uses a direct electric current to drive an otherwise non-spontaneous chemical reaction"/>
+    
+<entry term="diesel" wikidataID="Q1221452"
+             wikipediaPage="https://en.wikipedia.org/wiki/Diesel" desc="any liquid fuel specifically designed for use in a diesel engine"/>
+    
+<entry term="hydroelectricity" wikidataID="Q80638"
+             wikipediaPage="https://en.wikipedia.org/wiki/Hydroelectricity" desc="electricity generated by hydropower"/>
+    
+<entry term="biomass" wikidataID="Q18537"
+             wikipediaPage="https://en.wikipedia.org/wiki/Biomass" desc="
+             biological material used as a renewable energy source"/>
+    
+<entry term="nuclear power" wikidataID="Q12739"
+             wikipediaPage="https://en.wikipedia.org/wiki/Nuclear_power" desc="
+             power generated from nuclear reactions"/>
+    
+<entry term="Radioactive" wikidataID="Q736057"
+             wikipediaPage="https://en.wikipedia.org/wiki/Radioactive_(disambiguation)" desc=""/>
+    
+    
+<entry term="fuel" wikidataID="Q42501"
+             wikipediaPage="https://en.wikipedia.org/wiki/Fuel" desc="
+             any material that stores energy that can later be extracted, in presence of a oxidizer or a catalyser, or under the effect of a tool, but which is not conserved after the reaction"/>
+    
+<entry term="energy development" wikidataID="Q25584060"
+             wikipediaPage="https://en.wikipedia.org/wiki/Energy_development" desc="methods of energy production from various sources"/>
+    
+<entry term="gasoline " wikidataID="Q39558"
+             wikipediaPage="https://en.wikipedia.org/wiki/Gasoline" desc="petroleum-derived liquid used primarily as a fuel"/>
+<!-- chapter 7-->
+
+  <entry term="anthropogenic" wikidataID="Q29169263"
+         wikipediaPage="" desc="anthropogenic may also refer to things that have been generated by humans">
+  </entry>
+  <entry term="carbon sink" wikidataID="Q5611523)" wikipediaPage=""
+         desc="natural reservoir that stores carbon-containing chemical compounds accumulated over an indefinite period of time">
+  </entry>
+  <entry term="IAM" name="integrated assessment models" wikidataID="Q1665424"
+         wikipediaPage="https://en.wikipedia.org/wiki/Integrated_assessment_modelling"
+         desc="term used for a type of scientific modelling that tries to link main features of society and economy with the biosphere and atmosphere into one modelling framework.">
+  </entry>
+
+  <entry term="BECCS" name="Bioenergy with carbon capture and storage" wikidataID="Q2577671"
+         wikipediaPage="" desc="removing carbon dioxide from the atmosphere by growing plants, and then putting it permanently underground">
+  </entry>
+  <entry term="fossil" wikidataID="Q40614" wikipediaPage=""
+         desc="preserved remains or traces of organisms from a past geological age">
+  </entry>
+  <entry term="NDCs" name="Nationally Determined Contributions"  wikidataID="Q20051297"
+         wikipediaPage="" desc="non-binding national plans highlighting climate actions">
+  </entry>
+  <entry term="bioenergy" wikidataID="Q8300469"  wikipediaPage=""
+         desc="energy from renewable biological sources.">
+  </entry>
+
+  <entry term="AE" name="Agroecology" wikidataID="Q396338"
+         wikipediaPage="" desc="study of ecological processes in agriculture">
+  </entry>
+
+  <entry term="LULUCF" name="Land Use, Land-Use Change, and Forestry" wikidataID="Q3348639"
+         wikipediaPage="greenhouse gas inventory sector that covers emissions and removals of greenhouse gases resulting from direct human-induced
+                        land use such as settlements and commercial uses, land-use change, and forestry activities.">
+  </entry>
+  <entry term="GFED4s" name="Global Fire Emission Database" wikidataID="" wikipediaPage="http://wiki.seas.harvard.edu/geos-chem/images/1/15/GFED4.1_README.pdf"
+  desc=" provides monthly burned area, fire carbon (C) and dry matter (DM) emissions, and the contribution of different fire types to these emissions in order to calculate trace gas and aerosol emissions using emission factors.">
+  </entry>
+  <entry term="PRIMAP" name="Potsdam Real-Time Integrated Model for the probabilistic Assessment of Emission Pathways."
+         desc="The PRIMAP-hist dataset combines several published datasets to create a comprehensive set of greenhouse gas emission pathways for every country">
+  </entry>
+  <entry term="NGHGIs" name="National Greenhouse Gas Inventories" wikidataID="Q5604177"
+         wikipediaPage="greenhouse gas inventory" desc="emission inventories of greenhouse gas emissions that are developed for a variety of reasons" >
+  </entry>
+  <entry term="GWP" name="Global Warming Potential" wikidataID="Q901028" wikipediaPage=""
+         desc="Estimate of how an atmospheric gas affects global climate change">
+  </entry>
+  <entry term="DGVM" name="Dynamic global vegetation model" wikidataID="Q5318979"
+         wikipediaPage="" desc="a computer program that simulates shifts in potential vegetation and its associated biogeochemical and hydrological cycles as a response to shifts in climate.">
+  </entry>
+
+  <entry term="LUH2" name="Land-Use Harmonization" wikidataID=""
+         desc="project, with the goal to smoothly connect updated historical reconstructions of land-use with new future projections in the format required for ESMs">
+  </entry>
+  <entry term="CO2 fertilization effect"  wikidataID="Q28231720"
+         wikipediaPage="" desc="Fertilization from from increased levels of atmospheric carbon dioxide">
+  </entry>
+
+  <entry term="afforestation" wikidataID="Q2384419" wikipediaPage=""
+         desc="establishment of a forest or stand of trees in an area where there was no previous tree cover">
+  </entry>
+  <entry term="GCP"  name="Global Carbon Project" wikidataID="Q5570159"  wikipediaPage=""
+         desc="The Global Carbon Project (GCP) is an organisation that seeks to quantify global greenhouse gas emissions and their causes">
+  </entry>
+  <entry term="FRA" name="Global Forest Resources Assessment" wikidataID="Q30601066"
+         wikipediaPage="" desc="The Global Forest Resources Assessment (FRA) reports on the status and trends of the world's forest resources">
+  </entry>
+  <entry term="Global Carbon Budget" wikidataID="Q16722080" wikipediaPage="" desc= "the maximum amount of cumulative net global anthropogenic carbon dioxide (CO2) emissions that would result in limiting global warming to a given level with a given probability, taking into account the effect of other anthropogenic climate forcers">
+  </entry>
+  <entry term="USEPA" name="United States Environmental Protection Agency" wikidataID="Q460173" wikipediaPage="https://en.wikipedia.org/wiki/United_States_Environmental_Protection_Agency"
+         desc="an independent executive agency of the United States federal government tasked with environmental protection matters" >
+  </entry>
+  <entry term="OECD" name=" Organisation for Economic Co-operation and Development" wikidataID="Q8703549" wikipediaPage="https://en.wikipedia.org/wiki/Category:OECD"
+         desc="an international organisation of those developed countries that accept the principles of representative democracy and a free market economy">
+  </entry>
+  <entry term="mangrove forests" wikidataID="Q19756" wikipediaPage=""
+         desc="a shrub or tree that grows in coastal saline or brackish water">
+  </entry>
+  <entry term="biodiversity" wikidataID="Q47041" wikipediaPage=""
+         desc="the variety and variability of life on Earth. Biodiversity is a measure of variation at the genetic (genetic variability),
+               species (species diversity), and ecosystem (ecosystem diversity) level">
+  </entry>
+  <entry term="tropical forests" wikidataID="Q1048194" wikipediaPage=""
+         desc="forested landscapes in tropical regions: i.e. land areas approximately bounded by the tropic of Cancer and Capricorn">
+  </entry>
+  <entry term="EIAs" name="Environmental Impact Assessments" wikidataID="Q320389" wikipediaPage=""
+         desc="assessment of the environmental consequences of a plan, policy, program, or actual projects prior to the decision to move
+               forward with the proposed action">
+  </entry>
+  <entry term="UNEP" name="UN Environment Programme" wikidataID="Q182016" wikipediaPage=""
+  desc="responsible for coordinating responses to environmental issues within the United Nations system">
+  </entry>
+  <entry term="global sustainability">
+  </entry>
+  <entry term="RCP" name="GHG emissions trajectories " wikidataID="">
+  </entry>
+  <entry term="CSA" name="Climate smart agriculture" wikidataID="Q85752879" wikipediaPage=""
+  desc="an integrated approach to managing landscapes to help adapt agricultural methods, livestock and crops to the effects of climate change and, where possible, counteract it by reducing greenhouse gas emissions from agriculture, at the same time taking into account the growing world population to ensure food security">
+  </entry>
+  <entry term="CSC" name="climate smart cocoa" wikidataID="">
+  </entry>
+  <entry term="CREMAs" name="Community Resource Management Area Mechanisms" wikidataID="">
+  </entry>
+  <entry term="SCBD"  name="Secretariat of the Convention on Biological Diversity" wikidataID="">
+  </entry>
+  <entry term="Biophysical climate effects " wikidataID="" wikipediaPage="">
+  </entry>
+  <entry term="remote sensing" wikidataID="Q199687" wikipediaPage=""
+  desc="acquisition of information about an object or phenomenon without making physical contact with the object, especially the Earth">
+  </entry>
+
+  <entry term="invasive species" wikidataID="Q183368" wikipediaPage=""
+  desc="introduced organism that becomes overpopulated and harms its new environment">
+  </entry>
+
+  <entry term="Endemic species" wikidataID="Q54006446" wikipediaPage=""
+  desc="a biogeographic region that is both a significant reservoir of biodiversity and is threatened with destruction">
+  </entry>
+  <entry term="biomes/ecozones" wikidataID="Q101998" wikipediaPage=""
+         desc="distinct biological communities that have formed in response to a shared physical climate">
+  </entry>
+  <entry term="MTE"  name="Menominee Tribal Enterprises " wikidataID="">
+  </entry>
+  <entry term="CFI" name="continuous forest inventories">
+  </entry>
+  <entry term="EU-REDII" name="EU Renewable Energy Directive" wikidataID="Q5280475"
+         wikipediaPage=""
+         desc="Directive 2001/77/EC of the European Parliament and of the Council of 27 September 2001 on the promotion of electricity produced from renewable energy sources in the internal electricity market">
+  </entry>
+  <entry term="US-RFS" name="US Renewable Energy Standard" wikidataID="">
+  </entry>
+  <entry term="FSC" name="Forest Sustainability Council">
+  </entry>
+  <entry term="PPCDAm" name="Plan for Prevention and Control of Deforestation in the Legal Amazon" wikidataID="Q66677938" wikipediaPage=""
+         desc="Plan for Prevention and Control of Deforestation in the Amazon (PPCDAM), with the goal to reduce the rate of restation through land use regulation, environmental monitoring, and sustainable activities, promoted through partnerships at the federal and private level, and legal penalties for violations">
+  </entry>
+  <entry term="RA" name="Regenerative Agriculture" wikidataID="Q18393885"
+         wikipediaPage="https://en.wikipedia.org/wiki/Regenerative_agriculture" desc="a conservation and rehabilitation approach to food and farming systems">
+  </entry>
+  <entry term="organic farming"  wikidataID="Q57258525" wikipediaPage=""
+  desc="an agricultural system that uses fertilizers of organic origin such as compost manure, green manure, and bone meal and places emphasis on techniques such as crop rotation and companion planting">
+  </entry>
+  <entry term="CA" name="Conservation Agriculture" wikidataID="Q4439388" wikipediaPage=""
+         desc="A farming system that promotes minimum soil disturbance (i.e. no-till farming), maintenance of a permanent soil cover, and diversification of plant species">
+  </entry>
+  <entry term="IPS" name="Integrated Production Systems" wikidataID="">
+  </entry>
+  <entry term="BAU" name="Business as Usual scenario" wikidataID="Q5001850" wikipediaPage="https://en.wikipedia.org/wiki/Business_as_usual_(business)"
+         desc="the normal execution of standard functional operations within an organisation, forms a possible contrast to projects or programmes which might introduce change">
+  </entry>
+  <entry term="lignocellulosic crops" wikidataID="Q508355" wikipediaPage=""
+         desc="are crops with high yield of lignocellulosic biomass produced to serve as a raw material for production of second generation biofuel">
+  </entry>
+  <entry term="CANOPIES" name="Co-existence of Agriculture and Nature: Optimisation and Planning of Integrated Ecosystem Services ">
+  </entry>
+  <entry term="ICLF" name=" integrated crop-livestock-forestry">
+  </entry>
+  <entry term="Enteric fermentation" wikidataID="Q5380203" wikipediaPage="https://en.wikipedia.org/wiki/Enteric_fermentation"
+         desc=" a digestive process by which carbohydrates are broken down by microorganisms into simple molecules for absorption into the bloodstream of an animal. Because of human agricultural reliance in many parts of the world on animals which digest by enteric fermentation, it is one of the factors in increased methane emissions.">
+  </entry>
+  <entry term="Biochar" wikidataID="Q905495" wikipediaPage="https://en.wikipedia.org/wiki/Biochar"
+         desc="Biochar is the lightweight black residue, made of carbon and ashes, remaining after the pyrolysis of biomas">
+  </entry>
+
+ <!-- chapter 8--> 
+<entry term="urbanization" wikidataID="Q161078" wikipediapage="https://en.wikipedia.org/wiki/Urbanization"
+              desc="long term population movements (shift) from rural to urban areas;gradual increase 
+              in the proportion  of people living in urban areas, and the ways in which each society
+              adapts to the change;process by which towns and cities are formed and become larger"/>
+
+<entry term="mitigation" wikidataID="Q6881760" 
+             wikipediapage="https://en.wikipedia.org/wiki/Mitigation"
+             desc="Mitigation is the reduction of something harmful or the reduction of its harmful effects"/>
+<entry term="renewable energy" wikidataID="Q12705" 
+             wikipediapage="https://en.wikipedia.org/wiki/Renewable_energy"
+             desc="energy that is collected from renewable sources"/>
+<entry term="electrification" wikidataID="Q1076056" 
+             wikipediapage="https://en.wikipedia.org/wiki/Electrification" 
+             desc="process of converting a device, process, or society to the use of electric power"/>
+<entry term="carbon lock-in" wikidataID="Q5037970" 
+             wikipediapage="https://en.wikipedia.org/wiki/Carbon_lock-in"
+             desc="Carbon lock-in refers to the self-perpetuating inertia created by large fossil fuel-based 
+             energy systems that inhibits public and private efforts to introduce alternative energy technologies"/>
+<entry term="AFOLU" name="Agriculture, Forestry and Other Land Use" wikidataID="Q3348639" wikipediaPage="https://en.wiktionary.org/wiki/AFOLU" desc="">
+           <synonym>LULUCF</synonym>
+           <synonym>FOLU</synonym>
+</entry>
+<entry term="concomitant" wikidataID="Q16769663"
+             wikipediapage="https://en.wikipedia.org/wiki/Concomitant"
+             desc="Concomitance is the condition of accompanying or coexisting"/>
+<entry term="urban resilience" wikidataID="Q7900159" 
+             wikipediapage="https://en.wikipedia.org/wiki/Urban_resilience"
+             desc="ability of a city to function after a crisis"/>
+<entry term="climate resilience" wikidataID="Q17072637" 
+             wikipediapage="https://en.wikipedia.org/wiki/Climate_resilience" 
+             desc="the ability of systems to recover from climate change"/>
+<entry term="interventions" wikidataID="Q365681" 
+             wikipediapage="https://en.wikipedia.org/wiki/Intervention"
+             desc="the design and implementation of interventions in social settings where adults are 
+            confronted with the need to change their perspectives, attitudes, and actions"/>
+<entry term="jurisdiction" wikidataID="Q471855" 
+             wikipediapage="https://en.wikipedia.org/wiki/Jurisdiction"
+             desc="practical authority granted to a formally constituted legal body or to a political
+             leader to deal with legal matters"/>
+<entry term="green infrastructure" wikidataID="Q3427027" 
+            wikipediapage="https://en.wikipedia.org/wiki/Green_infrastructure"
+            desc="Green infrastructure or blue-green infrastructure refers to a network that provides the “ingredients” 
+            for solving urban and climatic challenges by building with nature"/>
+
+<entry term="spatial planning" wikidataID="Q149013"
+              wikipediapage="https://en.wikipedia.org/wiki/Spatial_planning"
+              desc="technique for physical organisation of space"/>
+<entry term="UN DESA" name="United Nations Department of Economic and Social Affairs" 
+             wikidataID="Q2671637" wikipediapage="https://en.wikipedia.org/wiki/United_Nations_Department_of_Eco…"
+             desc="government organization in New York, United States"/>
+<entry term="SRCCL" name="Special Report on Climate Change and Land" 
+              wikidataID="Q66310618" wikipediapage="https://en.wikipedia.org/wiki/Special_Report_on_Climate_Change…" 
+              desc="SRCCL, desertification, land degradation, sustainable land management, food security, 
+              and greenhouse gas fluxes in terrestrial ecosystems"/>
+<entry term="IPBES" name="Intergovernmental Platform on Biodiversity and Ecosystem Services" 
+              wikidataID="Q1666088" wikipediapage="https://en.wikipedia.org/wiki/Intergovernmental_Science-Policy_Platform_on_Biodiversity_and_Ecosystem_Services"
+              desc="scientific intergovernmental body which assesses the state of biodiversity"/>
+
+<entry term="continent" wikidataID="Q5107" 
+             wikipediapage="https://en.wikipedia.org/wiki/Shared_Socioeconomic_Pathways"
+              desc="very large landmass identified by convention"/>
+<entry term="globalization" wikidataID="Q7181"
+             wikipediapage="https://en.wikipedia.org/wiki/Globalization" 
+             desc="process of international integration arising from world views, products, ideas, and other aspects of culture"/>
+<entry term="Unprecedented" wikidataID="Q113002853"
+             wikipediapage="https://en.wikipedia.org/wiki/Unprecedented_(miniseries)"
+             desc="Unprecedented is a 2022 American-British documentary television miniseries revolving around the 2020
+             US presidential election, which premiered on July 10, 2022"/>
+<entry term="LDCs" name="Least Developed Countries" 
+             wikidataID="Q752401" wikipediapage="https://en.wikipedia.org/wiki/Least_developed_countries" 
+            desc="list of countries that exhibits the lowest indicators of socioeconomic development"/>
+<entry term="typologies" wikidataID="Q640643" 
+             wikipediapage="https://en.wikipedia.org/wiki/Typology"  
+             desc="the classification of characteristics common to buildings or urban spaces"/>
+<entry term="retrofitting" wikidataID="Q24662" 
+            wikipediapage="https://en.wikipedia.org/wiki/Retrofitting"
+            desc="addition of new technology or features to older systems"/>
+<entry term="blueprint" wikidataID="Q422321" 
+            wikipediapage="https://en.wikipedia.org/wiki/Blueprint"  
+            desc="document reproduction created by using a contact print process on light-sensitive sheets"/>
+<entry term="carbon footprint" wikidataID="Q310667"
+             wikipediapage="https://en.wikipedia.org/wiki/Carbon_footprint" 
+             desc="total set of greenhouse gas emissions caused by an individual, event, organisation, 
+              or product, expressed as carbon dioxide equivalent"/>
+
+<entry term="carbon cycle" wikidataID="Q167751"
+            wikipediapage="https://en.wikipedia.org/wiki/Carbon_cycle" 
+            desc="biogeochemical cycle by which carbon is exchanged among the biosphere"/>
+<entry term="carbon neutrality" wikidataID="Q1774424" 
+            wikipediapage="https://en.wikipedia.org/wiki/Carbon_neutrality" 
+            desc="having net zero carbon emissions"/>
+<entry term="green roofs" wikidataID="Q48741" 
+             wikipediapage="https://en.wikipedia.org/wiki/Green_roof" 
+             desc="A green roof or living roof is a roof of a building that is partially or completely
+             covered with vegetation and a growing medium, planted over a waterproofing membrane"/>
+<entry term="Leapfrogging" wikidataID="Q493754" 
+             wikipediapage="https://en.wikipedia.org/wiki/Leapfrogging" 
+             desc="Omitting / jumping over a stage in a development process"/>
+<entry term="local municipality" wikidataID="Q1500352" 
+             wikipediapage="https://en.wikipedia.org/wiki/Municipality" 
+             desc="third-level local government structure in South Africa"/>
+<entry term="urban settlements" wikidataID="Q7900166"
+             wikipediapage="https://en.wikipedia.org/wiki/Urban_settlement"
+             desc=" an official designation for a certain type of urban locality used in some of the republics of Africa such as Southern Africa"/>
+<entry term="gross national income" wikidataID="Q6803767"
+             wikipediapage="https://en.wikipedia.org/wiki/Gross_national_income" 
+             desc="total domestic and foreign output claimed by residents of a country, consisting of gross domestic product, 
+             plus factor incomes earned by foreign residents, minus income earned in the domestic economy by nonresidents"/>
+<entry term="informal economy" wikidataID="Q944235"
+             wikipediapage="https://en.wikipedia.org/wiki/Informal_economy" 
+             desc="economic activity unregulated by government"/>
+<entry term="Urban metabolism" wikidataID="Q7900131" 
+             wikipediapage="https://en.wikipedia.org/wiki/Urban_metabolism" 
+             desc="Urban metabolism is a model to facilitate the description and analysis of the flows of the
+              materials and energy within cities, such as undertaken in a material flow analysis of a city"/>
+<entry term="Urban emissions accounting" wikidataID="" desc="">
+    <synonym>"carbon accounting" wikidataID="Q140182"
+             wikipediapage="https://en.wikipedia.org/wiki/Carbon_accounting" 
+             desc="processes used to measure how much carbon dioxide equivalents an organization emits"</synonym>
+</entry>
+<entry term="input-output model" wikidataID="Q1140255" 
+             wikipediapage="https://en.wikipedia.org/wiki/Input–output_model" 
+             desc="quantitative economic model that represents the interdependencies between different sectors of a national economy or different regional economies"/>
+<entry term="Province" wikidataID="Q34876"
+              wikipediapage="https://en.wikipedia.org/wiki/Province" 
+             desc="administrative division in several countries"/>
+<entry term="Climate change and cities" wikidataID="Q102133023"
+             wikipediapage="https://en.wikipedia.org/wiki/Climate_change_and_cities" 
+             desc="field of research combining climate change impact and mitigation and cities"/>
+<entry term="sustainability" wikidataID="Q219416"
+             wikipediapage="https://en.wikipedia.org/wiki/Sustainability" 
+             desc="ability of human civilization to coexist with the biosphere in a steady state"/>                                                                                               
+<entry term="synergies" wikidataID="Q540614"
+             wikipediapage="https://en.wikipedia.org/wiki/Synergy" 
+             desc="creation of a whole that is greater than the simple sum of its parts"/>                                                                                                
+<entry term="(PM10)" name="particulate matter" 
+              wikidataID="Q498957" wikipediapage="https://en.wikipedia.org/wiki/Particulates"
+              desc="microscopic solid or liquid matter suspended in the Earth's atmosphere"/>                                                                                                
+<entry term="congestion" wikidataID="Q419301"
+             wikipediapage="https://en.wikipedia.org/wiki/Congestion" 
+             desc=""/>                                                                                                
+<entry term="Energy poverty" wikidataID="Q1341244"
+            wikipediapage="https://en.wikipedia.org/wiki/Energy_poverty" 
+            desc="lack of access to modern energy services"/>                                                                                               
+<entry term="black carbon" wikidataID="Q3233590"
+             wikipediapage="https://en.wikipedia.org/wiki/Black_carbon" 
+             desc="atmospheric soot; component of fine particulate matter"/>                                                                                               
+<entry term="NBS" name="nature-based solutions" 
+             wikidataID="Q2421934" wikipediapage="https://en.wikipedia.org/wiki/Nature-based_solutions" 
+             desc="sustainable management and use of nature for tackling socio-environmental challenges"/>                                                                                              
+<entry term="urban forestry" wikidataID="Q822620"
+            wikipediapage="https://en.wikipedia.org/wiki/Urban_Forestry" 
+            desc="land use management system in which trees or shrubs are cared or protected for well-being"/>                                                                                                
+<entry term="Urban agriculture" wikidataID="Q1194826"
+             wikipediapage="https://en.wikipedia.org/wiki/Urban_agriculture" 
+             desc="agriculture in urban environments"/>                                                                                                 
+<entry term="TOD" name="transit-oriented development" 
+             wikidataID="Q374221" wikipediapage="https://en.wikipedia.org/wiki/Transit-oriented_development" 
+             desc="urban development that maximizes the amount of residential, business, and leisure
+             space within walking distance of public transport"/>  
+<entry term="GDP" name="gross domestic product" 
+             wikidataID="Q12638" wikipediapage="https://en.wikipedia.org/wiki/Gross_domestic_product" 
+             desc="market value of goods and services produced within a country"/>  
+<entry term="Anti-sprawl policies" wikidataID=""
+             wikipediapage="" 
+             desc=""/>
+<entry term="WTP" name="Willingness to pay" 
+             wikidataID="Q140813" wikipediapage="https://en.wikipedia.org/wiki/Willingness_to_pay" 
+             desc="Economic concept of the maximum price a buyer is willing and able to give in a transaction"/>                                                                                               
+
+<entry term="UHI" name="urban heat island" wikidataID="Q215712"
+             wikipediapage="https://en.wikipedia.org/wiki/Urban_heat_island" 
+             desc="urban area that is significantly warmer than its surrounding rural areas due to human activities"/>                                                                                               
+<entry term="exacerbated" wikidataID="Q1383410"
+             wikipediapage="https://en.wikipedia.org/wiki/Exacerbation" 
+             desc="worsening of a disease"/>                                                                                               
+
+<entry term="legislation" wikidataID="Q49371"
+             wikipediapage="https://en.wikipedia.org/wiki/Legislation"
+             desc="law enacted by a legislature or other governing body"/>                                                                                               
+<entry term="zoning" wikidataID="Q702232"
+             wikipediapage="https://en.wikipedia.org/wiki/Zoning" 
+             desc="describes the control by authority of the use of land, and of the buildings thereon"/>                                                                                                                                                                                
+
+<entry term="off-grid utilities" wikidataID=""
+             wikipediapage=""
+             desc=""/>
+<entry term="vulnerabilities" wikidataID="Q1178984"
+              wikipediapage="https://en.wikipedia.org/wiki/Vulnerability"
+             desc="the inability of an entity to withstand the adverse effects of a hostile or uncertain environment"/> 
+<entry term="inertia" wikidataID="Q122508"
+             wikipediapage="https://en.wikipedia.org/wiki/Inertia" 
+             desc="the tendency of an object to remain in its existing state of motion is called its inertia"/>                                                                                                      
+<entry term="carbon sequestration" wikidataID="Q15305550"
+             wikipediapage="https://en.wikipedia.org/wiki/Carbon_sequestration" 
+             desc="process of long-term carbon capture"/>                                                                                                      
+<entry term="curtailing" wikipediapage="https://en.wikipedia.org/wiki/Curtailment_(electricity)" wikidataID="Q18412457"
+             desc="It is the deliberate reduction in output below what could have been produced in order to
+              balance energy supply and demand or due to transmission constraints."/>                                                                                                      
+<entry term="tipping points" wikidataID="Q7808931"
+             wikipediapage="https://en.wikipedia.org/wiki/Tipping_point" 
+             desc="thresholds that, when exceeded, can lead to large changes in the state of the system"/>                                                                                                      
+<entry term="pandemic" wikidataID="Q12184"
+             wikipediapage="https://en.wikipedia.org/wiki/Pandemic" 
+             desc="epidemic of infectious disease that has spread across a large region with global health impact"/>                                                                                                      
+<entry term="mortality rates" wikidataID="Q58702"
+             wikipediapage="https://en.wikipedia.org/wiki/Mortality_rate" 
+             desc="measure of the number of deaths in a population from a given cause, scaled by population, in a set period of time"/>                                                                                                      
+<entry term="WHO" name="World Health Organization" wikidataID="Q7817"
+             wikipediapage="https://en.wikipedia.org/wiki/World_health_organization" 
+             desc="specialized agency of the United Nations that is concerned with international public health"/>                                                                                                      
+
+<entry term="regimes" wikidataID="Q5589178"
+             wikipediapage="https://en.wikipedia.org/wiki/Regime" 
+             desc="form of government or the set of rules, cultural or social norms, etc.
+             that regulate the operation of a government or institution and its interactions with society"/>
+<entry term="IRP" name="International Resource Panel" wikidataID="Q6052735"
+             wikipediapage="https://en.wikipedia.org/wiki/International_Resource_Panel" 
+             desc="The International Resource Panel is a scientific panel of experts that aims to help nations use natural resources sustainably                     
+             without compromising economic growth and human needs"/>                                                                                                       
+<entry term="sharing economy" wikidataID="Q2277143"
+             wikipediapage="https://en.wikipedia.org/wiki/Sharing_economy" 
+             desc="economic and social systems that enable shared access to goods, services, data and talent"/>                                                                                                      
+<entry term="piecemeal" wikidataID="Q7191373"
+             wikipediapage="https://en.wikipedia.org/wiki/Piecemeal" 
+             desc="denotes something being done piece by piece or one stage at a time"/>                                                                                                       
+<entry term="SEA" name="strategic environmental assessments" 
+             wikidataID="Q63871" wikipediapage="https://en.wikipedia.org/wiki/Strategic_Environmental_Assessment" 
+             desc=" (SEA) is a systematic decision support process, aiming to ensure that environmental and possibly 
+             other sustainability aspects are considered effectively in policy, plan and program making."/>      
+<entry term="portfolio" wikidataID="Q79407829"
+              wikipediapage="https://en.wikipedia.org/wiki/Portfolio"
+             desc=" Portfolio (finance), a collection of assets held by an institution or a private
+             individual Artist's portfolio, a sample of an artist's work or a case used to display artwork, photographs etc."/>                                                                                                       
+<entry term="economic decoupling" wikidataID="Q5333090"
+             wikipediapage="https://en.wikipedia.org/wiki/Eco-economic_decoupling" 
+             desc="an economy that would grow without increasing its environmental pressure"/>                                                                                                       
+<entry term="IoT" name="Internet of Things" wikidataID="Q251212"
+              wikipediapage="https://en.wikipedia.org/wiki/Internet_of_things"
+             desc="proposed Internet-like structure connecting everyday physical objects"/>                                                                                                       
+<entry term="EV" name="electric vehicle" wikidataID="Q13629441"
+             wikipediapage="https://en.wikipedia.org/wiki/Electric_vehicle" 
+             desc="vehicle propelled by one or more electric motors"/>                                                                                                       
+<entry term="repurposing" wikidataID="Q21021151"
+             wikipediapage="https://en.wikipedia.org/wiki/Repurposing" 
+             desc="using object intended for one purpose in alternative way"/>                                                                                                     
+<!-- chapter 17-->
+<entry term="sustainable transport" wikidataID="Q1364310"
+             wikipediapage="https://en.wikipedia.org/wiki/Sustainable_transport" 
+             desc="broad subject of transport that is sustainable in the senses of social, environmental and climate 
+             impacts and the ability to, in the global scope, supply the source energy indefinitely"/>                                                                                                     
+<entry term="suburbs" wikidataID="Q188509"
+             wikipediapage="https://en.wikipedia.org/wiki/Suburb" 
+             desc="human settlement that is part of/or near to a larger city or town"/>                                                                                                    
+<entry term="maladaptation" wikidataID="Q4864574"
+             wikipediapage="https://en.wikipedia.org/wiki/Maladaptation" 
+             desc="a trait that is characterized by being more harmful than helpful"/>                                                                                                                                                                      
+<entry term="Multi-level governance" wikidataID="Q1459305"
+             wikipediapage="https://en.wikipedia.org/wiki/Multi-level_governance" 
+             desc="Multi-level (or multilevel) governance is a term used to describe the way power is spread vertically 
+             between many levels of government and horizontally across multiple quasi-government and non-governmental organizations and actors"/>                                                                                                    
+<entry term="Instigate" wikidataID="Q111181123"
+              wikipediapage="https://en.wikipedia.org/wiki/Instigate"
+             desc="To be a 'Joey' or to oust and be rude to someone else"/>
+<entry term="legitimacy" wikidataID="Q1174835"
+             wikipediapage="https://en.wikipedia.org/wiki/Legitimacy"
+             desc="to make lawful"/>
+<entry term="lobbying" wikidataID="Q187117"
+             wikipediapage="https://en.wikipedia.org/wiki/Lobbying" 
+             desc="attempting to influence decisions of government officials"/>
+<entry term="ICIs" name="International Cooperative Initiatives" wikidataID=""
+              wikipediapage=""
+             desc=""/> 
+<entry term="Shanghai" wikidataID="Q8686"
+             wikipediapage="https://en.wikipedia.org/wiki/Shanghai" 
+             desc="most populous city in China"/>                                                                                             
+<entry term="green electricity" wikidataID=""
+              wikipediapage="" 
+             desc=""/>
+<entry term="RMB" name="" wikidataID="renminbi"
+             wikipediapage="https://en.wikipedia.org/wiki/Renminbi" 
+             desc="official currency of the People's Republic of China"/>
+<entry term="subnational" wikidataID="Q64737978"
+             wikipediapage="https://en.wikipedia.org/wiki/Subnational" 
+             desc="a type of state, under the national level"/>
+<entry term="Coalition" wikidataID="Q124964"
+             wikipediapage="https://en.wikipedia.org/wiki/Coalition" 
+             desc="group formed of people, factions, states, political parties, militaries,
+             or other parties agree to work together, often temporarily, in a partnership to achieve a common goal"/>
+<entry term="pledge" wikidataID="Q7204419"
+             wikipediapage="https://en.wikipedia.org/wiki/Pledge" 
+             desc="a type of legal relationship"/>
+<entry term="GCoM" name="Global Change Observation Mission" wikidataID="Q3108984"
+            wikipediapage="https://en.wikipedia.org/wiki/Global_Change_Observation_Mission" 
+             desc="project of long-term observation of Earth environmental changes"/>
+<entry term="ICLEI" name="International Council for Local Environmental Initiatives" wikidataID="Q677691"
+             wikipediapage="https://en.wikipedia.org/wiki/ICLEI"
+             desc="international organization"/>
+<entry term="financialisation" wikidataID="Q607865"
+             wikipediapage="https://en.wikipedia.org/wiki/Financialization" 
+             desc="use and increased use of finance and financial instruments at the expense of production processes"/>
+<entry term="Barcelona’s" wikidataID="Q1492"
+              wikipediapage="https://en.wikipedia.org/wiki/Barcelona"
+             desc="city in Catalonia, Spain"/>
+
+<entry term="peer-to-peer" wikidataID="Q161410"
+             wikipediapage="https://en.wikipedia.org/wiki/Peer-to-peer" 
+             desc="type of decentralized and distributed network architecture"/>
+<entry term="calcination" wikidataID="Q849523"
+             wikipediapage="https://en.wikipedia.org/wiki/Calcination"
+             desc="manufacturing process"/>
+<entry term="asphalt" wikidataID="Q202251"
+             wikipediapage="https://en.wikipedia.org/wiki/Asphalt" 
+             desc="form of petroleum, primarily used in road construction"/>
+<entry term="ore" wikidataID="Q102798"
+              wikipediapage="https://en.wikipedia.org/wiki/Ore"
+             desc="rock with valuable metals, minerals and elements"/>
+<entry term="PVs" name="photovoltaics" wikidataID="Q192127"
+             wikipediapage="https://en.wikipedia.org/wiki/Photovoltaics" 
+             desc="method of converting solar radiation into direct current electricity"/>
+<entry term="EVs" name="electric vehicle" wikidataID="Q13629441"
+             wikpage="https://en.wikipedia.org/wiki/Electric_vehicle" 
+             desc="vehicle propelled by one or more electric motors"/>
+<entry term="prosumer" wikidataID="Q1145220" 
+             wikipediapage="https://en.wikipedia.org/wiki/Prosumer" 
+              desc="person who consumes and produces a product"/>
+<entry term="demolition" wikidataID="Q331483"
+              wikipediapage="https://en.wikipedia.org/wiki/Demolition" 
+              desc="tearing-down of buildings and other structures"/>
+
+<entry term="Finger Plan" wikidataID="Q1417116"
+             wikipediapage="https://en.wikipedia.org/wiki/Finger_Plan" 
+              desc="According to the plan, Copenhagen is to develop along five 'fingers', centred on S-train
+              commuter rail lines, which extend from the 'palm', that is the dense urban fabric of central Copenhagen"/>
+<entry term="rivalry" wikidataID="Q1139327"
+             wikipediapage="https://en.wikipedia.org/wiki/Rivalry" 
+              desc="state of two people or groups engaging in a lasting competitive relationship"/>
+<entry term="albeit" wikidataID="Q16863827"
+             wikipediapage="https://en.wikipedia.org/wiki/Albeit"
+             desc="even though it may be"/>
+<entry term="sustainable development" wikipediapage="https://en.wikipedia.org/wiki/Sustainable_development" wikidataID="Q131201"
+             desc="mode of human development"/>
+
+<entry term="vulnerability" wikipediapage="https://en.wikipedia.org/wiki/Vulnerability" wikidataID="Q1178984"
+             desc="the inability of an entity to withstand the adverse effects of a hostile or uncertain environment"/>
+
+<entry term="stakeholders" wikipediapage="https://en.wikipedia.org/wiki/Stakeholder" wikidataID="Q7597144"
+             desc=""/>
+
+<entry term="macroeconomic model" wikipediapage="https://en.wikipedia.org/wiki/Macroeconomic_model" wikidataID="Q1188791"
+             desc="analytical tool designed to describe the operation of the economy of a country or a region"/>
+
+<entry term="IAMs" name="Integrated assessment modelling" wikipediapage="https://en.wikipedia.org/wiki/Integrated_assessment_modelling"
+             wikidataID="Q1665424" desc="Scientific modeling that combines society, economy, biosphere, and atmosphere"/>
+
+<entry term="Fiscal" wikipediapage="https://en.wikipedia.org/wiki/Fiscal" wikidataID="Q1171776"
+             desc="Fiscal usually refers to government finance"/>
+
+<entry term="co-evolution" wikipediapage="https://en.wikipedia.org/wiki/Coevolution" wikidataID="Q208841"
+             desc="two or more species evolving together"/>
+
+
+<entry term="NGOs" name="non-governmental organization" wikipediapage="https://en.wikipedia.org/wiki/Non-governmental_organization" wikidataID="Q79913"
+             desc="organization independent of any government, usually created to aid those in need"/>
+
+<entry term="IPCC" name="Intergovernmental Process on Climate Change" wikipediapage="https://en.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change" wikidataID="Q171183"
+             desc="The Intergovernmental Panel on Climate Change (IPCC) is an intergovernmental body of the United Nations responsible for advancing knowledge on human-induced climate change."/>
+
+<entry term="UNFCCC" name="United Nations Framework Convention on Climate Change " wikipediapage="https://en.wikipedia.org/wiki/United_Nations_Framework_Convention_on_Climate_Change" wikidataID="Q208645"
+             desc="international treaty"/>
+
+<entry term="Paris Agreement" wikipediapage="https://en.wikipedia.org/wiki/Paris_Agreement" wikidataID="Q21707860"
+             desc="international agreement from 12 December 2015 within the United Nations Framework Convention on Climate Change (UNFCCC) dealing with greenhouse gas emissions mitigation, adaptation and finance starting in the year 2020"/>
+
+<entry term="VNRs" name="Voluntary National Reviews" wikipediapage="" wikidataID=""
+             desc=""/>
+
+<entry term="HLPF" name="High-level Political Forum on Sustainable Development" wikipediapage="https://en.wikipedia.org/wiki/High-level_Political_Forum_on_Sustainable_Development" wikidataID="Q17078095"
+             desc="core platform of the United Nations for monitoring and review of Agenda 2030."/>
+
+<entry term="trade-off" wikipediapage="https://en.wikipedia.org/wiki/Trade-off" wikidataID="Q638123"
+             desc="situation requiring choice of balance between desirable but incompatible features; a compromise"/>
+
+<entry term="SDG 2" name="Sustainable Development Goal 2" wikipediapage="https://en.wikipedia.org/wiki/Sustainable_Development_Goal_2" wikidataID="Q50215926"
+             desc="Zero Hunger"/>
+
+<entry term="SDG 14" name="Sustainable Development Goal 14" wikipediapage="https://en.wikipedia.org/wiki/Sustainable_Development_Goal_14" wikidataID="Q53581239"
+             desc="Life Below Water"/>
+
+<entry term="SDG 12" name="Sustainable Development Goal 12" wikipediapage="https://en.wikipedia.org/wiki/Sustainable_Development_Goal_12" wikidataID="Q53581232"
+             desc="Responsible Consumption and Production"/>
+
+<entry term="geothermal energy" wikipediapage="https://en.wikipedia.org/wiki/Geothermal_energy" wikidataID="Q127993"
+             desc="thermal energy generated and stored in the Earth"/>
+
+<entry term="SDG 1" name="Sustainable Development Goal 1" wikipediapage="https://en.wikipedia.org/wiki/Sustainable_Development_Goal_1" wikidataID="Q50214636"
+             desc="End poverty in all its forms everywhere"/>
+<entry term="SDG 7" name="Sustainable Development Goal 7" wikipediapage="https://en.wikipedia.org/wiki/Sustainable_Development_Goal_7" wikidataID="Q53581213"
+             desc="Affordable and Clean Energy"/>
+
+<entry term="reforestation" wikipediapage="https://en.wikipedia.org/wiki/Reforestation" wikidataID="Q815818"
+             desc="land regeneration method"/>
+
+<entry term="EV’s" name="electric vehicle" wikipediapage="https://en.wikipedia.org/wiki/Electric_vehicle" wikidataID="Q13629441"
+             desc="vehicle propelled by one or more electric motors and possibly also by an internal combustion engine, such as a train locomotive, a personal car, a freight truck, a bus, a tram, a trolleybus, an aircraft, a boat, a motorcycle or a bike"/>
+
+<entry term="LDVs" name="low-voltage differential signaling" wikipediapage="https://en.wikipedia.org/wiki/Low-voltage_differential_signaling" wikidataID="Q475966"
+             desc="technical standard"/>
+
+<entry term="Renewable Energy Systems" wikipediapage="https://en.wikipedia.org/wiki/Renewable_Energy_Systems" wikidataID="Q7313077"
+             desc="global renewable energy company"/>
+
+<entry term="ESD" name="electrostatic discharge" wikipediapage="https://en.wikipedia.org/wiki/Electrostatic_discharge" wikidataID="Q3574961"
+             desc="sudden flow of electricity between two electrically charged objects caused by contact, an electrical short, or dielectric breakdown"/>
+
+<entry term="WSUD" name="Water-sensitive urban design" wikipediapage="https://en.wikipedia.org/wiki/Water-sensitive_urban_design" wikidataID="Q7973225"
+             desc="(WSUD) is a land planning and engineering design approach which integrates the urban water cycle, including stormwater, groundwater, and wastewater management and water supply, into urban design to minimise environmental degradation and improve aesthetic and recreational appeal."/>
+
+<entry term="digitization" wikipediapage="https://en.wikipedia.org/wiki/Digitization" wikidataID="Q843958"
+             desc="process of creating a digital representation of a document or object"/>
+
+<entry term="LCS" name="Low-Carbon Society’s" wikipediapage="" wikidataID=""
+             desc=""/>
+</dictionary>

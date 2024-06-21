@@ -1,0 +1,82 @@
+<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" id="Par23">For NFA, the study followed the generalized additive models for location, scale and shape (GAMLISS) framework approach (Rigby and Stasinopoulos <xref ref-type="bibr" rid="CR60">2005</xref>) as in among others, Machado et al. (<xref ref-type="bibr" rid="CR40">2015</xref>), Prosdocimi et al. (<xref ref-type="bibr" rid="CR59">2015</xref>), Debele et al. (<xref ref-type="bibr" rid="CR13">2017</xref>), and Su and Chen (<xref ref-type="bibr" rid="CR71">2019</xref>). A total of 19 models with different combinations of the covariates in the location <inline-formula id="IEq13"><alternatives><tex-math id="M35">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\left(\hat{\mu}\right)$$\end{document}</tex-math><mml:math id="M36" display="inline"><mml:mfenced close=")" open="("><mml:mover accent="true"><mml:mi>&#956;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:mfenced></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq13.gif"/></alternatives></inline-formula> and scale parameter <inline-formula id="IEq14"><alternatives><tex-math id="M37">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\left(\hat{\sigma}\right)$$\end{document}</tex-math><mml:math id="M38" display="inline"><mml:mfenced close=")" open="("><mml:mover accent="true"><mml:mi>&#963;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:mfenced></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq14.gif"/></alternatives></inline-formula> were developed (Table <xref rid="Tab3" ref-type="table">3</xref>). In addition to the stationary model (AMS<sub>0</sub>), three further groups of non-stationary models can be identified in Table <xref rid="Tab3" ref-type="table">3</xref>:<list list-type="order"><list-item><p id="Par24">Those with varying <inline-formula id="IEq15"><alternatives><tex-math id="M39">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\mu}$$\end{document}</tex-math><mml:math id="M40" display="inline"><mml:mover accent="true"><mml:mi>&#956;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq15.gif"/></alternatives></inline-formula> but stationary <inline-formula id="IEq16"><alternatives><tex-math id="M41">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\sigma}$$\end{document}</tex-math><mml:math id="M42" display="inline"><mml:mover accent="true"><mml:mi>&#963;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq16.gif"/></alternatives></inline-formula>. This group also has covariate combined models in <inline-formula id="IEq17"><alternatives><tex-math id="M43">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\mu}$$\end{document}</tex-math><mml:math id="M44" display="inline"><mml:mover accent="true"><mml:mi>&#956;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq17.gif"/></alternatives></inline-formula>;</p></list-item><list-item><p id="Par25">Those with varying <inline-formula id="IEq18"><alternatives><tex-math id="M45">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\sigma}$$\end{document}</tex-math><mml:math id="M46" display="inline"><mml:mover accent="true"><mml:mi>&#963;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq18.gif"/></alternatives></inline-formula> but with stationary <inline-formula id="IEq19"><alternatives><tex-math id="M47">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\mu}$$\end{document}</tex-math><mml:math id="M48" display="inline"><mml:mover accent="true"><mml:mi>&#956;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq19.gif"/></alternatives></inline-formula>; and</p></list-item><list-item><p id="Par26">Those with both <inline-formula id="IEq20"><alternatives><tex-math id="M49">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\mu}$$\end{document}</tex-math><mml:math id="M50" display="inline"><mml:mover accent="true"><mml:mi>&#956;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq20.gif"/></alternatives></inline-formula> and <inline-formula id="IEq21"><alternatives><tex-math id="M51">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\sigma}$$\end{document}</tex-math><mml:math id="M52" display="inline"><mml:mover accent="true"><mml:mi>&#963;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq21.gif"/></alternatives></inline-formula> varying.</p></list-item></list><table-wrap id="Tab3"><label>Table 3</label><caption><p>Models for SFA and NSFA that were tested</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2">Model type</th><th rowspan="2">ID</th><th colspan="2">Description</th></tr><tr><th><italic>&#956;</italic></th><th><italic>&#963;</italic></th></tr></thead><tbody><tr><td>Stationary</td><td>AMS<sub>0</sub></td><td align="center"><italic>&#956;</italic><sub>0</sub></td><td align="center"><italic>&#963;</italic><sub>0</sub></td></tr><tr><td align="center" rowspan="17">Non-stationary</td><td>AMS<sub>1</sub></td><td><italic>&#956;</italic><sub>0</sub>&#8201;+&#8201;<italic>&#956;</italic><sub>1</sub>&#8201;&#8727;&#8201;<italic>P</italic></td><td align="center"><italic>&#963;</italic><sub>0</sub></td></tr><tr><td>AMS<sub>2</sub></td><td><italic>&#956;</italic><sub>0</sub>&#8201;+&#8201;<italic>&#956;</italic><sub>1</sub>&#8201;&#8727;&#8201;<italic>D</italic></td><td align="center"><italic>&#963;</italic><sub>0</sub></td></tr><tr><td>AMS<sub>3</sub></td><td><italic>&#956;</italic><sub>0</sub>&#8201;+&#8201;<italic>&#956;</italic><sub>1</sub>&#8201;&#8727;&#8201;Evap</td><td align="center"><italic>&#963;</italic><sub>0</sub></td></tr><tr><td>AMS<sub>4</sub></td><td><italic>&#956;</italic><sub>0</sub>&#8201;+&#8201;<italic>&#956;</italic><sub>1</sub>&#8201;&#8727;&#8201;IOD</td><td align="center"><italic>&#963;</italic><sub>0</sub></td></tr><tr><td>AMS<sub>5</sub></td><td><italic>&#956;</italic><sub>0</sub>&#8201;+&#8201;<italic>&#956;</italic><sub>1</sub>&#8201;&#8727;&#8201;SOI</td><td align="center"><italic>&#963;</italic><sub>0</sub></td></tr><tr><td>AMS<sub>6</sub></td><td><italic>&#956;</italic><sub>0</sub>&#8201;+&#8201;<italic>&#956;</italic><sub>1</sub>&#8201;&#8727;&#8201;Evap&#8201;+&#8201;<italic>&#956;</italic><sub>2</sub>&#8201;&#8727;&#8201;<italic>P</italic></td><td align="center"><italic>&#963;</italic><sub>0</sub></td></tr><tr><td>AMS<sub>7</sub></td><td><italic>&#956;</italic><sub>0</sub>&#8201;+&#8201;<italic>&#956;</italic><sub>1</sub>&#8201;&#8727;&#8201;Evap&#8201;+&#8201;<italic>&#956;</italic><sub>2</sub>&#8201;&#8727;&#8201;Disch</td><td align="center"><italic>&#963;</italic><sub>0</sub></td></tr><tr><td>AMS<sub>8</sub></td><td><italic>&#956;</italic><sub>0</sub>&#8201;+&#8201;<italic>&#956;</italic><sub>1</sub>&#8201;&#8727;&#8201;<italic>P</italic>&#8201;+&#8201;<italic>&#956;</italic><sub>2</sub>&#8201;&#8727;&#8201;Disch</td><td><italic>&#963;</italic><sub>0</sub></td></tr><tr><td>AMS<sub>9</sub></td><td><italic>&#956;</italic><sub>0</sub>&#8201;+&#8201;<italic>&#956;</italic><sub>1</sub>&#8201;&#8727;&#8201;<italic>P</italic>&#8201;+&#8201;<italic>&#956;</italic><sub>2</sub>&#8201;&#8727;&#8201;Disch&#8201;+&#8201;<italic>&#956;</italic><sub>3</sub>&#8201;&#8727;&#8201;Evap+</td><td><italic>&#963;</italic><sub>0</sub></td></tr><tr><td>AMS<sub>10</sub></td><td><italic>&#956;</italic><sub>0</sub></td><td><italic>&#963;</italic><sub>0</sub>&#8201;+&#8201;<italic>&#963;</italic>&#8201;&#8727;&#8201;<italic>P</italic></td></tr><tr><td>AMS<sub>11</sub></td><td><italic>&#956;</italic><sub>0</sub></td><td><italic>&#963;</italic><sub>0</sub>&#8201;+&#8201;<italic>&#963;</italic>&#8201;&#8727;&#8201;<italic>D</italic></td></tr><tr><td>AMS<sub>12</sub></td><td><italic>&#956;</italic><sub>0</sub></td><td><italic>&#963;</italic><sub>0</sub>&#8201;+&#8201;<italic>&#963;</italic>&#8201;&#8727;&#8201;Evap</td></tr><tr><td>AMS<sub>13</sub></td><td><italic>&#956;</italic><sub>0</sub></td><td><italic>&#963;</italic><sub>0</sub>&#8201;+&#8201;<italic>&#963;</italic>&#8201;&#8727;&#8201;IOD</td></tr><tr><td>AMS<sub>14</sub></td><td><italic>&#956;</italic><sub>0</sub></td><td><italic>&#963;</italic><sub>0</sub>&#8201;+&#8201;<italic>&#963;</italic>&#8201;&#8727;&#8201;SOI</td></tr><tr><td>AMS<sub>15</sub></td><td><italic>&#956;</italic><sub>0</sub>&#8201;+&#8201;<italic>&#956;</italic><sub>1</sub>&#8201;&#8727;&#8201;Evap</td><td><italic>&#963;</italic><sub>0</sub>&#8201;+&#8201;<italic>&#963;</italic><sub>1</sub>&#8201;&#8727;&#8201;Evap</td></tr><tr><td>AMS<sub>16</sub></td><td><italic>&#956;</italic><sub>0</sub>&#8201;+&#8201;<italic>&#956;</italic><sub>1</sub>&#8201;&#8727;&#8201;<italic>P</italic></td><td><italic>&#963;</italic><sub>0</sub>&#8201;+&#8201;<italic>&#963;</italic><sub>1</sub>&#8201;&#8727;&#8201;<italic>P</italic></td></tr><tr><td>AMS<sub>17</sub></td><td><italic>&#956;</italic><sub>0</sub>&#8201;+&#8201;<italic>&#956;</italic><sub>1</sub>&#8201;&#8727;&#8201;<italic>D</italic></td><td><italic>&#963;</italic><sub>0</sub>&#8201;+&#8201;<italic>&#963;</italic><sub>1</sub>&#8201;&#8727;&#8201;<italic>D</italic></td></tr><tr><td/><td>AMS<sub>18</sub></td><td><italic>&#956;</italic><sub>0</sub>&#8201;+&#8201;<italic>&#956;</italic><sub>1</sub>&#8201;&#8727;&#8201;IOD</td><td><italic>&#963;</italic><sub>0</sub>&#8201;+&#8201;<italic>&#963;</italic><sub>1</sub>&#8201;&#8727;&#8201;IOD</td></tr><tr><td/><td>AMS<sub>19</sub></td><td><italic>&#956;</italic><sub>0</sub>&#8201;+&#8201;<italic>&#956;</italic><sub>1</sub>&#8201;&#8727;&#8201;SOI</td><td><italic>&#963;</italic><sub>0</sub>&#8201;+&#8201;<italic>&#963;</italic><sub>1</sub>&#8201;&#8727;&#8201;SOI</td></tr></tbody></table></table-wrap></p>

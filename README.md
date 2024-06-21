@@ -1,59 +1,31 @@
 # semanticClimate
-Conversion of IPCC documents into semantic form
+Most other subjects have highly heterogeneous data without semantics and this holds back the creation of knowledge. There is a pressing need to make knowledge about climate available to mitigate the effects of gaseous emissions. 
 
+## IPCC
+An important resource is the UN’s IPCC reports, published about every five years. In 2021-2022 AR6, with 10,000 pages, was released. #semanticClimate is a group of young Indian science students who are developing tools and community protocols to make IPCC AR6 semantic.
 
-## goals
+## UNFCCC
+The UNFCCC publishers annual reports, mainly based on the UN's COP meetings. We have scraped and analysed most of these from the last >25 years. 
 
+# Goals
 * to convert the IPCC documents from PDF into (a) HTML (b) XML
-* extract terms and exploire their use and meaning
-* link terms to Wikidata and create AMI-dictionaries
+* extract terms and explore their use and meaning
+* link terms to [Wikidata](Wikidata.org) and create AMI-dictionaries
 * create new structiures for navigation, search, display
 
-# Content
+# What #SemanticClimate does
+We develop tools to liberate knowledge from locked PDFs and host events everybody gets a chance to explore the content in these reports through our tools. 
+Our [Technical Strategy Page](https://github.com/petermr/semanticClimate/tree/main/ipcc/ar6/wg3#readme) gives an overview of the tools. 
+# Upcoming Events
+Check out our [Events page](/events.md) for details about upcoming hackathons we host and other events we are part of. 
 
-Initially we will start with AR6 WGIII but move onto other WG's and perhaps look backwards as well.
-
-## Strategy
-
-* Create a directory ("CProject") with all current PDFs (Chapters, etc.)
-Location: https://github.com/petermr/semanticClimate/ipcc
-
-Download components, using a hierarchical naming scheme, and convert to text (`pdf2txt`)
-
-```
-semanticClimate pm286$ cd ipcc/ar6/wg3/
-$ ls
-Chapter01.pdf
-$ mkdir Chapter01
-$ cp Chapter01.pdf Chapter01/fulltext.pdf
-$ cd Chapter01
-$ pdf2txt.py -o fulltext.txt fulltext.pdf 
-$ ls
-fulltext.pdf	fulltext.txt
-```
-If you do not get `fulltext.txt` after running the `ls` command then, install `pdfminer.six` and execute the following commads in the Command Prompt:
-
-```
-cd pdfminer.six
-python tools/pdf2txt.py "Copy path.pdf" -o "Copy path.txt"
-```
-
-OVERVIEW 2022-09-16: (Abishek)
-(chapter-oriented)
-* convert PDF to HTML (2 methods) 
-* extract words and create dictionaries
- - manual
- - abbreviation
- - phrases
-* create super-dictionaries
-* annotate HTML with dictionaries
-
-LITERATURE search (PMR)
-* pygetpapers EPMC
-* annotate with dictionaries (CTree iterator)
-* index
-
- - search literature 
+# How to get involved
+We are looking for volunteers/funders to: 
+- run more events
+- develop the code (open an Issue/PR to get started)
+- develop the content (start a Discussion thread at https://github.com/petermr/petermr/discussions/)
+   - dictionaries
+   - semantified chapters
 
 # Events
 
@@ -61,3 +33,8 @@ LITERATURE search (PMR)
 
 Hackathon planned for 2022-10-24 to 2022-10-28
 * see [WG3 repository](ipcc/ar6/wg3)
+
+# Discussions
+We are using the Github Discussions tool to keep a narrative of our work. Currently we focus on individual chapters of the IPCC/AR^/WG3 report.
+* WG3/Chapter06: https://github.com/petermr/semanticClimate/discussions/22
+* WG3/Chapter08: https://github.com/petermr/semanticClimate/discussions/21

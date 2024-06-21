@@ -67,6 +67,7 @@ class keyword_extraction():
       df['POS']= df['keyword/phrase'].apply(lambda x: tagger(x))
       df['Lemma']= df['keyword/phrase'].apply(lambda x: lemma(x))
       df= df[df['keyword/phrase'] == df['Lemma'] ]
+      df = df.drop_duplicates(subset=['score'], keep='last')
       df= df[df.POS.isin(['NOUN', 'PROPN', 'ADJ', 'ADV'])]
       df= df[~df['keyword/phrase'].apply(lambda x: lemma(x)).isin(['http','https', 'publication','Chapter'])]
       df = df.drop(columns = ['Lemma'], axis = 0)
@@ -75,7 +76,7 @@ class keyword_extraction():
 
   def extract_text_fom_html(self):
 
-    with open(self.html_path, 'r') as f:
+    with open(self.html_path, 'r', encoding="utf-8") as f:
       html = f.read()
       soup = BeautifulSoup(html, features="html.parser")
      
@@ -96,7 +97,7 @@ class keyword_extraction():
       #print(text)
       # TEXT_ = f'Chapter06_text.txt'
       # saving_path = '/content/'     
-      with open('text.txt', 'w') as file:
+      with open('text.txt', 'w', encoding="utf-8") as file:
           file.write(text)
       return self.text
   def extract_keywords_rake(self):

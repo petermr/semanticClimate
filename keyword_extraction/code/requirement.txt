@@ -3,3 +3,7 @@ git+https://github.com/LIAAD/yake
 summa
 keybert
 pandas
+tkinterhtml==0.7
+pyamiimage
+pdfplumber==0.7.4
+pdfminer3

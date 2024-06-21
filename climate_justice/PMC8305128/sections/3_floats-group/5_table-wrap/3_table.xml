@@ -1,0 +1,59 @@
+<table xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" frame="hsides" rules="groups"><thead><tr><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">
+</th><th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1">Crude Models</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">
+</th><th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1">Adjusted Models</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">
+</th></tr></thead><tbody><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+<bold>IRR</bold>
+</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+<bold>95%CI</bold>
+</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+<italic><bold>p</bold></italic>
+<bold>-Value</bold>
+</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+<bold>IRR</bold>
+</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+<bold>95%CI</bold>
+</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+<italic><bold>p</bold></italic>
+<bold>-Value</bold>
+</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">Annual average PM<sub>2.5</sub>, &#956;g/m<sup>3</sup></td><td align="center" valign="middle" rowspan="1" colspan="1">1.015</td><td align="center" valign="middle" rowspan="1" colspan="1">1.011&#8211;1.019</td><td align="center" valign="middle" rowspan="1" colspan="1">&lt;0.001</td><td align="center" valign="middle" rowspan="1" colspan="1">1.012</td><td align="center" valign="middle" rowspan="1" colspan="1">1.008&#8211;1.017</td><td align="center" valign="middle" rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">Elderly index, %</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">0.989</td><td align="center" valign="middle" rowspan="1" colspan="1">0.975&#8211;1.004</td><td align="center" valign="middle" rowspan="1" colspan="1">0.155</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">Self-reported health, %</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">1.007</td><td align="center" valign="middle" rowspan="1" colspan="1">0.998&#8211;1.016</td><td align="center" valign="middle" rowspan="1" colspan="1">0.115</td></tr><tr><td colspan="2" align="center" valign="middle" rowspan="1">Houses with moderate overcrowding, %</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">1.043</td><td align="center" valign="middle" rowspan="1" colspan="1">1.018&#8211;1.068</td><td align="center" valign="middle" rowspan="1" colspan="1">0.001</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">Houses built before 2000, %</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">1.000</td><td align="center" valign="middle" rowspan="1" colspan="1">0.998&#8211;1.003</td><td align="center" valign="middle" rowspan="1" colspan="1">0.769</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">Mobility index</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">0.997</td><td align="center" valign="middle" rowspan="1" colspan="1">0.982&#8211;1.012</td><td align="center" valign="middle" rowspan="1" colspan="1">0.666</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">Average temperature, &#176;C</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">0.997</td><td align="center" valign="middle" rowspan="1" colspan="1">0.977&#8211;1.017</td><td align="center" valign="middle" rowspan="1" colspan="1">0.742</td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Relative humidity, %</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">1.012</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">1.006&#8211;1.018</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">Annual average PM<sub>10</sub>, &#956;g/m<sup>3</sup></td><td align="center" valign="middle" rowspan="1" colspan="1">1.009</td><td align="center" valign="middle" rowspan="1" colspan="1">1.006&#8211;1.011</td><td align="center" valign="middle" rowspan="1" colspan="1">&lt;0.001</td><td align="center" valign="middle" rowspan="1" colspan="1">1.009</td><td align="center" valign="middle" rowspan="1" colspan="1">1.007&#8211;1.011</td><td align="center" valign="middle" rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">Elderly index, %</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">0.985</td><td align="center" valign="middle" rowspan="1" colspan="1">0.972&#8211;0.999</td><td align="center" valign="middle" rowspan="1" colspan="1">0.041</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">Self-reported health, %</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">1.003</td><td align="center" valign="middle" rowspan="1" colspan="1">0.995&#8211;1.012</td><td align="center" valign="middle" rowspan="1" colspan="1">0.472</td></tr><tr><td colspan="2" align="center" valign="middle" rowspan="1">Houses with moderate overcrowding, %</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">1.038</td><td align="center" valign="middle" rowspan="1" colspan="1">1.015&#8211;1.063</td><td align="center" valign="middle" rowspan="1" colspan="1">0.001</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">Houses built before 2000, %</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">0.999</td><td align="center" valign="middle" rowspan="1" colspan="1">0.997&#8211;1.002</td><td align="center" valign="middle" rowspan="1" colspan="1">0.627</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">Mobility index</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">0.998</td><td align="center" valign="middle" rowspan="1" colspan="1">0.983&#8211;1.012</td><td align="center" valign="middle" rowspan="1" colspan="1">0.759</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">Average temperature, &#176;C</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">0.988</td><td align="center" valign="middle" rowspan="1" colspan="1">0.969&#8211;1.007</td><td align="center" valign="middle" rowspan="1" colspan="1">0.224</td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Relative humidity, %</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">1.015</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">1.009</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">&lt;0.001</td></tr></tbody></table>

@@ -1,0 +1,10 @@
+<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" id="Par22">For climate data, we use reanalysed data from ERA5-Land, the fifth generation European Centre for Medium-Range Weather Forecasts (ECMWF) atmospheric reanalysis of the global climate. Reanalysed climate data combines global climate models (numerical representation of the recent climate) with observational and satellite observations. Reanalysed data has the advantage of producing long time series and spanning the entire planet<sup><xref ref-type="bibr" rid="CR39">39</xref></sup>. Data from ERA5-Land is available at a spatial resolution of <inline-formula id="IEq20"><alternatives><tex-math id="M47">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$0.1^{\circ } \times 0.1^{\circ }$$\end{document}</tex-math><mml:math id="M48"><mml:mrow><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:msup><mml:mn>1</mml:mn><mml:mo>&#8728;</mml:mo></mml:msup><mml:mo>&#215;</mml:mo><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:msup><mml:mn>1</mml:mn><mml:mo>&#8728;</mml:mo></mml:msup></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq20.gif"/></alternatives></inline-formula> and hourly temporal-resolution<sup><xref ref-type="bibr" rid="CR40">40</xref></sup>. We extracted the climatic data for each region using georeferences before computing the mean annual temperature, 30-year (1981-2010) mean temperature, and finally the anomaly as a difference between the annual mean and the 30-year mean temperature for each region. We aggregate the number of times the six-month SPI is below the threshold of -1.5 in a given month to compute our drought indicator. Because we aggregate data to the annual level, temporal heterogeneities cannot be controlled for.</p>

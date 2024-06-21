@@ -1,0 +1,18 @@
+<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">Next, we used The New York Times API<sup><xref rid="fn5-14614448221135632" ref-type="fn">5</xref></sup> to collect online news
+comments for all articles in our sample that are published on the New York Times
+website. For the remaining news sources, we used a custom web scraper to scrape
+the comments section of the Washington Post and FiveThirtyEight articles. A
+total of 1851 comments were collected, 1239 comments from articles published in
+The New York Times, 328 comments from articles published in the Washington Post,
+and 284 comments from FiveThirtyEight. Since we were only interested in
+understanding the direct public response to predictive information in these
+articles, and not commenters&#8217; responses to each other&#8217;s comments, we excluded
+comment replies (i.e. comments to other readers&#8217; comments) before conducting our
+analysis. Out of the 1851 comments originally collected, only 885 direct
+comments were left for analysis (603 comments from The New York Times, 165
+comments from the Washington Post, and 117 comments from FiveThirtyEight). A
+small subset of uninformative comments were further excluded from the analysis
+because they were lacking clear relevance to the article (e.g. &#8220;Trends are your
+friends&#8221;). In the end, the remaining comments did not exhibit the quality issues
+sometimes observed in online news comments (<xref rid="bibr34-14614448221135632" ref-type="bibr">Santana, 2014</xref>) but rather reflected an
+overall courteous (i.e. not rude, obscene, or trolling) discourse.</p>

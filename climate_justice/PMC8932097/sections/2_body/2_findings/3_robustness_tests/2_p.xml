@@ -1,0 +1,64 @@
+<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" id="Par29">We also run a binned regression using an OLS specification with fixed effects (Table <xref rid="Tab3" ref-type="table">3</xref>). These results further show that, compared to the 0.2&#8211;0.4<inline-formula id="IEq55"><alternatives><tex-math id="M117">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M118"><mml:mrow><mml:msup><mml:mrow/><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq55.gif"/></alternatives></inline-formula> temperature anomaly bin, if there are more months with relatively higher temperature anomalies there is a greater incidence of food insecurity, while if there are more months with relatively lower temperature anomalies (&lt;0.2<inline-formula id="IEq56"><alternatives><tex-math id="M119">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M120"><mml:mrow><mml:msup><mml:mrow/><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq56.gif"/></alternatives></inline-formula>) compared to the reference bin results, the incidence of food insecurity is lower.<table-wrap id="Tab3"><label>Table 3</label><caption><p>Regressions with bins of monthly temperature anomalies (0.2&#8211;0.4<inline-formula id="IEq57"><alternatives><tex-math id="M121">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M122"><mml:mrow><mml:msup><mml:mrow/><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq57.gif"/></alternatives></inline-formula> is the reference bin).</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"/><th align="left">Moderate to severe</th><th align="left">Severe</th></tr></thead><tbody><tr><td align="left">SHDI</td><td align="left">&#8722;&#160;2.642</td><td align="left">&#8722;&#160;2.327</td></tr><tr><td align="left"/><td align="left">(&#8722;&#160;2774, &#8722;&#160;2.600)</td><td align="left">(&#8722;&#160;2.443, &#8722;&#160;2.211)</td></tr><tr><td align="left">Drought (SPI-6)</td><td align="left">0.014</td><td align="left">0.010</td></tr><tr><td align="left"/><td align="left">(0.012, 0.016)</td><td align="left">(0.008, 0.012)</td></tr><tr><td align="left"><inline-formula id="IEq58"><alternatives><tex-math id="M123">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$&lt; 0.2^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M124"><mml:mrow><mml:mo>&lt;</mml:mo><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:msup><mml:mn>2</mml:mn><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq58.gif"/></alternatives></inline-formula></td><td align="left">&#8722;&#160;0.009</td><td align="left">&#8722;&#160;0.007</td></tr><tr><td align="left"/><td align="left">(&#8722;&#160;0.008, &#8722;&#160;0.010)</td><td align="left">(&#8722;&#160;0.005, &#8722;&#160;0.009)</td></tr><tr><td align="left">0.4&#8211;0.6<inline-formula id="IEq59"><alternatives><tex-math id="M125">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M126"><mml:mrow><mml:msup><mml:mrow/><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq59.gif"/></alternatives></inline-formula></td><td align="left">0.014</td><td align="left">0.012</td></tr><tr><td align="left"/><td align="left">(0.012, 0.016)</td><td align="left">(0.011, 0.013)</td></tr><tr><td align="left">0.6 &#8211;0.8<inline-formula id="IEq60"><alternatives><tex-math id="M127">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M128"><mml:mrow><mml:msup><mml:mrow/><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq60.gif"/></alternatives></inline-formula></td><td align="left">0.020</td><td align="left">0.016</td></tr><tr><td align="left"/><td align="left">(0.018, 0.022)</td><td align="left">(0.014, 0.018)</td></tr><tr><td align="left"><inline-formula id="IEq61"><alternatives><tex-math id="M129">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$&gt; 0.8^{\circ }$$\end{document}</tex-math><mml:math id="M130"><mml:mrow><mml:mo>&gt;</mml:mo><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:msup><mml:mn>8</mml:mn><mml:mo>&#8728;</mml:mo></mml:msup></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq61.gif"/></alternatives></inline-formula></td><td align="left">0.028</td><td align="left">0.020</td></tr><tr><td align="left"/><td align="left">(0.027, 0.030)</td><td align="left">(0.018, 0.022)</td></tr><tr><td align="left" colspan="3">95% confidence intervals in parentheses</td></tr></tbody></table></table-wrap></p>

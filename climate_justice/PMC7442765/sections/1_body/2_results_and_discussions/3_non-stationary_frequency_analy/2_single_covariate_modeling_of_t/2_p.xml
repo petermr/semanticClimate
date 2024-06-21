@@ -1,0 +1,28 @@
+<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" id="Par41">The estimated models for the location parameter <italic>&#956;</italic> with single and combined covariates, the estimated constrained scale (<italic>&#963;</italic>) and shape parameters (<italic>&#958;</italic>), and their standard errors (<italic>se</italic>) are shown in Table <xref rid="Tab9" ref-type="table">9</xref>. Physically, models AMS<sub>1</sub> and AMS<sub>2</sub> show the additive effects of rainfall and discharge to the location parameter, whereas AMS<sub>3</sub> to AMS<sub>5</sub> suggests the respective subtractive effects of evaporation, IOD, and SOI on the location parameter. This means that higher rainfall and river inflows may lead to increases in lake levels, whereas higher evaporation and negative phases of IOD and SOI results in lower lake levels.<table-wrap id="Tab9"><label>Table 9</label><caption><p>Estimated fitted models of the location parameter (<inline-formula id="IEq26"><alternatives><tex-math id="M63">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\mu}$$\end{document}</tex-math><mml:math id="M64" display="inline"><mml:mover accent="true"><mml:mi>&#956;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq26.gif"/></alternatives></inline-formula>) with covariate (C)</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Model</th><th><inline-formula id="IEq27"><alternatives><tex-math id="M65">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\mu}={\mu}_0+{\mu}_1\ast C$$\end{document}</tex-math><mml:math id="M66" display="inline"><mml:mover accent="true"><mml:mi>&#956;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:msub><mml:mi>&#956;</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>&#956;</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>&#8727;</mml:mo><mml:mi>C</mml:mi></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq27.gif"/></alternatives></inline-formula></th><th><inline-formula id="IEq28"><alternatives><tex-math id="M67">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\sigma}(se)$$\end{document}</tex-math><mml:math id="M68" display="inline"><mml:mover accent="true"><mml:mi>&#963;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover><mml:mfenced close=")" open="("><mml:mi mathvariant="italic">se</mml:mi></mml:mfenced></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq28.gif"/></alternatives></inline-formula></th><th><italic>&#958;</italic>(<italic>se</italic>)</th></tr></thead><tbody><tr><td>AMS<sub>1</sub></td><td>474.57&#8201;+&#8201;1.33&#8201;&#8727;&#8201;<italic>P</italic></td><td>0.73 (0.09)</td><td>&#8722; 0.42 (0.13)</td></tr><tr><td>AMS<sub>2</sub></td><td>474.68&#8201;+&#8201;1.38&#8201;&#8727;&#8201;Disch</td><td>0.67 (0.08)</td><td>&#8722; 0.26 (0.12)</td></tr><tr><td><italic>AMS</italic><sub><italic>3</italic></sub></td><td>475.90&#8201;&#8722;&#8201;1.42&#8201;&#8727;&#8201;<italic>Evap</italic></td><td><italic>0.59 (0.07)</italic></td><td><italic>&#8722; 0.17 (0.13)</italic></td></tr><tr><td>AMS<sub>4</sub></td><td>475.68&#8201;&#8722;&#8201;0.88&#8201;&#8727;&#8201;IOD</td><td>0.73 (0.08)</td><td>&#8722; 0.32 (0.08)</td></tr><tr><td>AMS<sub>5</sub></td><td>475.59&#8201;&#8722;&#8201;0.62&#8201;&#8727;&#8201;SOI</td><td>0.71 (0.08)</td><td>&#8722; 0.26 (0.11)</td></tr><tr><td>AMS<sub>6</sub></td><td>475.71&#8201;&#8722;&#8201;1.31&#8201;&#8727;&#8201;Evap&#8201;+&#8201;0.26&#8201;&#8727;&#8201;<italic>P</italic></td><td>0.60 (0.07)</td><td>&#8722; 0.20 (0.14)</td></tr><tr><td>AMS<sub>7</sub></td><td>475.39&#8201;&#8722;&#8201;1.20&#8201;&#8727;&#8201;Evap&#8201;+&#8201;0.93&#8201;&#8727;&#8201;Disch</td><td>0.60 (0.07)</td><td>&#8722; 0.14 (0.14)</td></tr><tr><td>AMS<sub>8</sub></td><td>474.55&#8201;+&#8201;0.78&#8201;&#8727;&#8201;<italic>P</italic>&#8201;+&#8201;0.72&#8201;&#8727;&#8201;Disch</td><td>0.70 (0.10)</td><td>&#8722; 0.34 (0.16)</td></tr><tr><td>AMS<sub>9</sub></td><td>475.56&#8201;&#8722;&#8201;1.31&#8201;&#8727;&#8201;Evap&#8201;&#8722;&#8201;0.52&#8201;&#8727;&#8201;<italic>P</italic>&#8201;+&#8201;1.32&#8201;&#8727;&#8201;Disch</td><td>0.54 (0.07)</td><td>&#8722; 0.09 (0.14)</td></tr></tbody></table></table-wrap></p>

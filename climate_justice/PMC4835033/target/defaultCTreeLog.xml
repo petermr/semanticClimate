@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log date="2022-11-29T09:22:46.618Z">
+ <error method="org.contentmine.norma.NormaArgProcessor.checkAndGetInputFile" message="Could not find input file fulltext.xml in directory ./logs" millis="0"/>
+</log>

@@ -1,0 +1,37 @@
+<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" id="Par26">Our time-varying regression, that allows us to estimate the impact of temperature anomaly on food insecurity for the six consecutive years for which FIES data are available, suggests that for every 1<inline-formula id="IEq23"><alternatives><tex-math id="M53">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M54"><mml:mrow><mml:msup><mml:mrow/><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq23.gif"/></alternatives></inline-formula> of temperature anomaly, severe global food insecurity increased by 1.4% (95% CI: 1.3-1.47) in 2014 but by 1.64% (95% CI: 1.6-1.65) in 2019, suggesting an increasing trajectory (Table <xref rid="Tab1" ref-type="table">1</xref> and Fig.&#160;<xref rid="Fig4" ref-type="fig">4</xref>, second-panel). The impact of temperature anomaly on moderate to severe global food insecurity is higher, with the results suggesting that a 1<inline-formula id="IEq24"><alternatives><tex-math id="M55">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M56"><mml:mrow><mml:msup><mml:mrow/><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq24.gif"/></alternatives></inline-formula> increase in temperature anomaly increased moderate to severe food insecurity by 1.58% (95% CI: 1.48-1.68) in 2014 but had a significantly higher impact of 2.14% (95% CI: 2.08-2.20) in 2019 (Table <xref rid="Tab1" ref-type="table">1</xref> and Fig.&#160;<xref rid="Fig4" ref-type="fig">4</xref>, third-panel). We formally tested this difference using a multi-variate regression which provided statistical evidence that the impact of temperature anomaly on moderate to severe and severe food insecurity is heterogeneous. One of the advantages of using a time-varying coefficients regression is that we are able to identify the impact of temperature anomaly on food insecurity for every time-period in our dataset. Our approach reveals that temperature anomaly not only increases the probability of food insecurity but the magnitude of this impact is increasing over time. We tested this hypothesis using Wald tests, which suggest that the each of the coefficients in year <inline-formula id="IEq25"><alternatives><tex-math id="M57">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\textit{t}$$\end{document}</tex-math><mml:math id="M58"><mml:mi mathvariant="italic">t</mml:mi></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq25.gif"/></alternatives></inline-formula> were grater than that in year <inline-formula id="IEq26"><alternatives><tex-math id="M59">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${t_{t-1}}$$\end{document}</tex-math><mml:math id="M60"><mml:msub><mml:mi>t</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq26.gif"/></alternatives></inline-formula>. These results are worrying, as they suggest that the temperature anomaly may continue to increase due to future climate change, likely further intensifying the stress on food security.<fig id="Fig4"><label>Figure 4</label><caption><p>Annual temperature anomaly and time-varying regression results.</p></caption><graphic xlink:href="41598_2022_8696_Fig4_HTML" id="MO8"/></fig></p>

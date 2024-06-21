@@ -1,0 +1,220 @@
+/* Footnote and figure/table labeling */
+
+span.label-counter::after,
+a.reference-counter::after {
+    content: ' ' attr(data-book-counter); /* or data-chapter-counter */
+}
+
+.footnote-counter::before {
+    content: attr(data-book-counter); /* or data-chapter-counter */
+}
+
+section[role='doc-footnote'] .footnote-counter::after {
+    content: '. ';
+}
+
+/* CSL */
+
+.csl-bib-body {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.csl-left-margin {
+    padding-right: 1ch;
+    clear: left;
+    float: left;
+    white-space: pre;
+}
+
+.csl-entry i {
+    font-style: italic;
+}
+
+.csl-entry b {
+    font-weight: bold;
+}
+
+.csl-entry sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+.csl-entry sub {
+    vertical-align: sub;
+    font-size: smaller;
+}
+
+.csl-indent {
+    padding-left: .5in;
+}
+
+.csl-entry {
+    clear: left;
+}
+
+.csl-right-inline {
+    padding-left: 20px;
+}
+
+span.anchor {
+    text-decoration: underline;
+    color: var(--cs-4-text);
+}
+
+figure figcaption {
+    margin-top: 10px;
+    font-size: .9em;
+}
+
+figure img {
+    max-width: 100%;
+}
+
+figure {
+    width: calc(80% - 12px);
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    break-inside: avoid;
+    cursor: pointer;
+    margin: 10%;
+    clear: none;
+}
+
+.aligned-right {
+    float: right;
+}
+
+.aligned-left {
+    float: left;
+}
+
+.aligned-center {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+
+.image-width-100 {
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.image-width-75 {
+    width: 55%;
+    box-sizing: border-box;
+}
+
+.image-width-50 {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-sizing: border-box;
+}
+
+.image-width-25 {
+    width: 21%;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-sizing: border-box;
+}
+
+
+figure[data-category='table'] figcaption span.text::before,
+figure[data-category='photo'] figcaption span.text::before,
+figure[data-category='figure'] figcaption span.text::before,
+table[data-category='table'] caption span.text::before {
+    content: ': ';
+}
+
+table {
+    clear: both;
+}
+
+.table-25 {
+    width: 25%;
+}
+
+.table-50 {
+    width: 50%;
+}
+
+.table-75 {
+    width: 75%;
+}
+
+.table-100 {
+    width: 100%;
+}
+
+.table-center {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    clear: both;
+}
+
+.table-left {
+    float: left;
+}
+
+.table-right {
+    float: right;
+}
+
+.user-contents a {
+    text-decoration: underline;
+}
+
+.article table[data-layout='fixed'] {
+    table-layout: fixed !important;
+}
+
+.article table[data-layout='auto'] {
+    table-layout: auto !important;
+}
+
+.article-title {
+    font-size: 48px;
+}
+
+.article .table-of-contents h1,
+.article .table-of-contents h2,
+.article .table-of-contents h3,
+.article .table-of-contents h4,
+.article .table-of-contents h5,
+.article .table-of-contents h6 {
+    font-size: 1em;
+    font-weight: normal;
+    margin-bottom: unset;
+}
+
+.article .table-of-contents h2 {
+    padding-left: 1em;
+}
+
+.article .table-of-contents h3 {
+    padding-left: 2em;
+}
+
+.article .table-of-contents h4 {
+    padding-left: 3em;
+}
+
+.article .table-of-contents h5 {
+    padding-left: 4em;
+}
+
+.article .table-of-contents h6 {
+    padding-left: 5em;
+}
+
+.article .table-of-contents h1.toc {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}

@@ -1,0 +1,1 @@
+![[Chapter2/figures/fig2_19/fig2_19.png]]Figure 2.19 Trends and drivers of global buildings sector emissions (see caption of Figure 2.16 for details). Energy is here measured as total final energy consumption.

@@ -1,0 +1,145 @@
+<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" id="Par44">For varying both <inline-formula id="IEq33"><alternatives><tex-math id="M77">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\mu}$$\end{document}</tex-math><mml:math id="M78" display="inline"><mml:mover accent="true"><mml:mi>&#956;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq33.gif"/></alternatives></inline-formula> and <inline-formula id="IEq34"><alternatives><tex-math id="M79">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\sigma}$$\end{document}</tex-math><mml:math id="M80" display="inline"><mml:mover accent="true"><mml:mi>&#963;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq34.gif"/></alternatives></inline-formula>, only the three covariates (rainfall, discharge, and evaporation) whose influence was found in the location parameter were considered. The stationary model (AMS<sub>0</sub>) and each of the models incorporating variations in <italic>&#956;</italic> only served as the nested models for the respective covariates. The results (Tables <xref rid="Tab12" ref-type="table">12</xref> and <xref rid="Tab13" ref-type="table">13</xref>) show that AMS<sub>17</sub>, with evaporation in <inline-formula id="IEq35"><alternatives><tex-math id="M81">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\mu}$$\end{document}</tex-math><mml:math id="M82" display="inline"><mml:mover accent="true"><mml:mi>&#956;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq35.gif"/></alternatives></inline-formula> and <inline-formula id="IEq36"><alternatives><tex-math id="M83">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\sigma}$$\end{document}</tex-math><mml:math id="M84" display="inline"><mml:mover accent="true"><mml:mi>&#963;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq36.gif"/></alternatives></inline-formula>, has the best performance, as it has lowest values of AIC, BIC, and NLL. The LR test however suggests that having a covariate in both <inline-formula id="IEq37"><alternatives><tex-math id="M85">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\mu}$$\end{document}</tex-math><mml:math id="M86" display="inline"><mml:mover accent="true"><mml:mi>&#956;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq37.gif"/></alternatives></inline-formula> and <inline-formula id="IEq38"><alternatives><tex-math id="M87">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\sigma}$$\end{document}</tex-math><mml:math id="M88" display="inline"><mml:mover accent="true"><mml:mi>&#963;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq38.gif"/></alternatives></inline-formula> does significantly improve the performance of the AMS<sub>0</sub> for the rainfall, evaporation, and discharge-based models (AMS<sub>15</sub>, AMS<sub>16</sub>, AMS<sub>17</sub>, respectively) with <italic>p</italic>&#8201;&lt;&#8201;0.05. AMS<sub>17</sub> is also the best model among the three as <italic>p</italic>&#8201;=&#8201;0.0006 is the lowest of the LR ratio results. However, this LR ratio is larger than the LR ratio results of AMS<sub>3</sub>, the model with evaporation as a covariate in <inline-formula id="IEq39"><alternatives><tex-math id="M89">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\mu}$$\end{document}</tex-math><mml:math id="M90" display="inline"><mml:mover accent="true"><mml:mi>&#956;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq39.gif"/></alternatives></inline-formula>. This aspect is validated by the LR test results in Table <xref rid="Tab12" ref-type="table">12</xref>, where all 5 models with covariates <inline-formula id="IEq40"><alternatives><tex-math id="M91">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\mu}$$\end{document}</tex-math><mml:math id="M92" display="inline"><mml:mover accent="true"><mml:mi>&#956;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq40.gif"/></alternatives></inline-formula> accepted the null hypothesis of no significant improvements in their performance with covariates in <inline-formula id="IEq41"><alternatives><tex-math id="M93">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\sigma}$$\end{document}</tex-math><mml:math id="M94" display="inline"><mml:mover accent="true"><mml:mi>&#963;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq41.gif"/></alternatives></inline-formula>&#160;(<italic>p</italic>&#8201;&gt;&#8201;0.05).<table-wrap id="Tab12"><label>Table 12</label><caption><p>Test results for models with covariates in both <inline-formula id="IEq42"><alternatives><tex-math id="M95">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\mu}$$\end{document}</tex-math><mml:math id="M96" display="inline"><mml:mover accent="true"><mml:mi>&#956;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq42.gif"/></alternatives></inline-formula> and <inline-formula id="IEq43"><alternatives><tex-math id="M97">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\sigma}$$\end{document}</tex-math><mml:math id="M98" display="inline"><mml:mover accent="true"><mml:mi>&#963;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq43.gif"/></alternatives></inline-formula></p></caption><table frame="hsides" rules="groups"><thead><tr><th>Model</th><th>Covariate(s)</th><th>AIC</th><th>BIC</th><th>NLL</th><th>Nested model</th><th>LR (<italic>p</italic> value)</th><th>Nested model</th><th>LR (<italic>p</italic> value)</th></tr></thead><tbody><tr><td>AMS<sub>15</sub></td><td>Rainfall, Rainfall</td><td>99.25</td><td>108.17</td><td>44.63</td><td>AMS<sub>0</sub></td><td>0.016</td><td>AMS<sub>1</sub></td><td>0.203</td></tr><tr><td>AMS<sub>16</sub></td><td>Discharge, Discharge</td><td>100.35</td><td>109.27</td><td>45.18</td><td>AMS<sub>0</sub></td><td>0.027</td><td>AMS<sub>2</sub></td><td>0.3272</td></tr><tr><td><italic>AMS</italic><sub><italic>17</italic></sub></td><td><italic>Evap, Evap</italic></td><td><italic>92.76</italic></td><td><italic>101.68</italic></td><td><italic>41.38</italic></td><td>AMS<sub>0</sub></td><td><italic>0.0006</italic></td><td><italic>AMS</italic><sub><italic>3</italic></sub></td><td><italic>0.1915</italic></td></tr><tr><td>AMS<sub>18</sub></td><td>IOD, IOD</td><td>103.04</td><td>111.96</td><td>46.52</td><td>AMS<sub>0</sub></td><td>0.104</td><td>AMS<sub>4</sub></td><td>0.238</td></tr><tr><td>AMS<sub>19</sub></td><td>SOI, SOI</td><td>102.81</td><td>111.73</td><td>46.41</td><td>AMS<sub>0</sub></td><td>0.0933</td><td>AMS<sub>5</sub></td><td>0.0831</td></tr></tbody></table></table-wrap><table-wrap id="Tab13"><label>Table 13</label><caption><p>Estimated fitted models for <inline-formula id="IEq44"><alternatives><tex-math id="M99">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\mu}$$\end{document}</tex-math><mml:math id="M100" display="inline"><mml:mover accent="true"><mml:mi>&#956;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq44.gif"/></alternatives></inline-formula> and <inline-formula id="IEq45"><alternatives><tex-math id="M101">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\sigma}$$\end{document}</tex-math><mml:math id="M102" display="inline"><mml:mover accent="true"><mml:mi>&#963;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq45.gif"/></alternatives></inline-formula> with covariate (C)</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Model</th><th><inline-formula id="IEq46"><alternatives><tex-math id="M103">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\mu}={\mu}_0+{\mu}_1\ast C$$\end{document}</tex-math><mml:math id="M104" display="inline"><mml:mover accent="true"><mml:mi>&#956;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:msub><mml:mi>&#956;</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>&#956;</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>&#8727;</mml:mo><mml:mi>C</mml:mi></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq46.gif"/></alternatives></inline-formula></th><th><inline-formula id="IEq47"><alternatives><tex-math id="M105">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\sigma}={\sigma}_0+{\sigma}_1\ast C$$\end{document}</tex-math><mml:math id="M106" display="inline"><mml:mover accent="true"><mml:mi>&#963;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:msub><mml:mi>&#963;</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>&#963;</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>&#8727;</mml:mo><mml:mi>C</mml:mi></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq47.gif"/></alternatives></inline-formula></th><th><inline-formula id="IEq48"><alternatives><tex-math id="M107">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\xi\ }$$\end{document}</tex-math><mml:math id="M108" display="inline"><mml:mover accent="true"><mml:mrow><mml:mi>&#958;</mml:mi><mml:mspace width="0.25em"/></mml:mrow><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq48.gif"/></alternatives></inline-formula> (<italic>se</italic>)</th></tr></thead><tbody><tr><td>AMS<sub>15</sub></td><td>474.76&#8201;+&#8201;1.03&#8201;&#8727;&#8201;<italic>P</italic></td><td>0.48&#8201;+&#8201;0.47&#8201;&#8727;&#8201;<italic>P</italic></td><td>&#8722; 0.47 (0.13)</td></tr><tr><td>AMS<sub>16</sub></td><td>474.72&#8201;+&#8201;1.21&#8201;&#8727;&#8201;Disch</td><td>0.91&#8201;&#8722;&#8201;0.62&#8201;&#8727;&#8201;Disch</td><td>&#8722; 0.15 (0.16)</td></tr><tr><td><italic>AMS</italic><sub><italic>17</italic></sub></td><td>475.78&#8201;&#8722;&#8201;1.20&#8201;&#8727;&#8201;<italic>Evap</italic></td><td>0.35&#8201;+&#8201;0.48&#8201;&#8727;&#8201;<italic>Evap</italic></td><td><italic>&#8722; 0.73 (&#8722; 0.07)</italic></td></tr><tr><td>AMS<sub>18</sub></td><td>475.68&#8201;&#8722;&#8201;0.88&#8201;&#8727;&#8201;IOD</td><td>0.85&#8201;&#8722;&#8201;0.31&#8201;&#8727;&#8201;IOD</td><td>&#8722; 0.30 (0.09)</td></tr><tr><td>AMS<sub>19</sub></td><td>475.46&#8201;&#8722;&#8201;0.39&#8201;&#8727;&#8201;SOI</td><td>0.29&#8201;+&#8201;0.78&#8201;&#8727;&#8201;SOI</td><td>&#8722; 0.18 (0.10)</td></tr></tbody></table></table-wrap></p>

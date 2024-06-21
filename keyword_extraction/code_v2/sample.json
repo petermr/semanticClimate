@@ -1,0 +1,189 @@
+{
+    "warnings": {
+        "main": {
+            "*": "Unrecognized parameter: wbsprofile."
+        }
+    },
+    "searchinfo": {
+        "search": "data"
+    },
+    "search": [
+        {
+            "id": "Q42848",
+            "title": "Q42848",
+            "pageid": 45078,
+            "display": {
+                "label": {
+                    "value": "data",
+                    "language": "en"
+                },
+                "description": {
+                    "value": "information arranged for automatic processing",
+                    "language": "en"
+                }
+            },
+            "repository": "wikidata",
+            "url": "//www.wikidata.org/wiki/Q42848",
+            "concepturi": "http://www.wikidata.org/entity/Q42848",
+            "label": "data",
+            "description": "information arranged for automatic processing",
+            "match": {
+                "type": "label",
+                "language": "en",
+                "text": "data"
+            }
+        },
+        {
+            "id": "Q22983",
+            "title": "Q22983",
+            "pageid": 26401,
+            "display": {
+                "label": {
+                    "value": "Data",
+                    "language": "en"
+                },
+                "description": {
+                    "value": "fictional  character in the fictional Star Trek universe",
+                    "language": "en"
+                }
+            },
+            "repository": "wikidata",
+            "url": "//www.wikidata.org/wiki/Q22983",
+            "concepturi": "http://www.wikidata.org/entity/Q22983",
+            "label": "Data",
+            "description": "fictional  character in the fictional Star Trek universe",
+            "match": {
+                "type": "label",
+                "language": "en",
+                "text": "Data"
+            }
+        },
+        {
+            "id": "Q494756",
+            "title": "Q494756",
+            "pageid": 465483,
+            "display": {
+                "label": {
+                    "value": "data",
+                    "language": "en"
+                },
+                "description": {
+                    "value": "quantities, characters, or symbols on which operations are performed by a computer",
+                    "language": "en"
+                }
+            },
+            "repository": "wikidata",
+            "url": "//www.wikidata.org/wiki/Q494756",
+            "concepturi": "http://www.wikidata.org/entity/Q494756",
+            "label": "data",
+            "description": "quantities, characters, or symbols on which operations are performed by a computer",
+            "match": {
+                "type": "label",
+                "language": "en",
+                "text": "data"
+            }
+        },
+        {
+            "id": "Q28923403",
+            "title": "Q28923403",
+            "pageid": 30583920,
+            "display": {
+                "label": {
+                    "value": "Data",
+                    "language": "en"
+                },
+                "description": {
+                    "value": "scientific journal",
+                    "language": "en"
+                }
+            },
+            "repository": "wikidata",
+            "url": "//www.wikidata.org/wiki/Q28923403",
+            "concepturi": "http://www.wikidata.org/entity/Q28923403",
+            "label": "Data",
+            "description": "scientific journal",
+            "match": {
+                "type": "label",
+                "language": "en",
+                "text": "Data"
+            }
+        },
+        {
+            "id": "Q5227137",
+            "title": "Q5227137",
+            "pageid": 4996578,
+            "display": {
+                "label": {
+                    "value": "Data",
+                    "language": "en"
+                },
+                "description": {
+                    "value": "genus of insects",
+                    "language": "en"
+                }
+            },
+            "repository": "wikidata",
+            "url": "//www.wikidata.org/wiki/Q5227137",
+            "concepturi": "http://www.wikidata.org/entity/Q5227137",
+            "label": "Data",
+            "description": "genus of insects",
+            "match": {
+                "type": "label",
+                "language": "en",
+                "text": "Data"
+            }
+        },
+        {
+            "id": "Q8513",
+            "title": "Q8513",
+            "pageid": 9824,
+            "display": {
+                "label": {
+                    "value": "database",
+                    "language": "en"
+                },
+                "description": {
+                    "value": "organized collection of data in computing",
+                    "language": "en"
+                }
+            },
+            "repository": "wikidata",
+            "url": "//www.wikidata.org/wiki/Q8513",
+            "concepturi": "http://www.wikidata.org/entity/Q8513",
+            "label": "database",
+            "description": "organized collection of data in computing",
+            "match": {
+                "type": "label",
+                "language": "en",
+                "text": "database"
+            }
+        },
+        {
+            "id": "Q172491",
+            "title": "Q172491",
+            "pageid": 172591,
+            "display": {
+                "label": {
+                    "value": "data mining",
+                    "language": "en"
+                },
+                "description": {
+                    "value": "process of discovering patterns in large data sets using computational methods at the intersection of statistics, database systems, or machine learning",
+                    "language": "en"
+                }
+            },
+            "repository": "wikidata",
+            "url": "//www.wikidata.org/wiki/Q172491",
+            "concepturi": "http://www.wikidata.org/entity/Q172491",
+            "label": "data mining",
+            "description": "process of discovering patterns in large data sets using computational methods at the intersection of statistics, database systems, or machine learning",
+            "match": {
+                "type": "label",
+                "language": "en",
+                "text": "data mining"
+            }
+        }
+    ],
+    "search-continue": 7,
+    "success": 1
+}

@@ -1,0 +1,814 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article"><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-journalpublishing1.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jats2jats3.xsl?><?ConverterInfo.Version 1?><?covid-19-tdm?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">New Media Soc</journal-id><journal-id journal-id-type="iso-abbrev">New Media Soc</journal-id><journal-id journal-id-type="publisher-id">NMS</journal-id><journal-id journal-id-type="hwp">spnms</journal-id><journal-title-group><journal-title>New Media &#x00026; Society</journal-title></journal-title-group><issn pub-type="ppub">1461-4448</issn><issn pub-type="epub">1461-7315</issn><publisher><publisher-name>SAGE Publications</publisher-name><publisher-loc>Sage UK: London, England</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">9669507</article-id><article-id pub-id-type="doi">10.1177/14614448221135632</article-id><article-id pub-id-type="publisher-id">10.1177_14614448221135632</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>Predicting COVID: Understanding audience responses to predictive
+journalism via online comments</article-title></title-group><contrib-group><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-9211-4598</contrib-id><name><surname>Allaham</surname><given-names>Mowafak</given-names></name><xref rid="corresp1-14614448221135632" ref-type="corresp"/></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-5005-6123</contrib-id><name><surname>Diakopoulos</surname><given-names>Nicholas</given-names></name></contrib><aff id="aff1-14614448221135632">Northwestern University, USA</aff></contrib-group><author-notes><corresp id="corresp1-14614448221135632">Mowafak Allaham, Computational Journalism
+Lab, Northwestern University, Frances Searle Building, Room 1-269, 2240 Campus
+Drive, Evanston, IL 60208, USA. Email:
+<email>mowafakallaham2021@u.northwestern.edu</email></corresp></author-notes><pub-date pub-type="epub"><day>15</day><month>11</month><year>2022</year></pub-date><pub-date pub-type="pmc-release"><day>15</day><month>11</month><year>2022</year></pub-date><!--PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="epub"/>.--><elocation-id>14614448221135632</elocation-id><permissions><copyright-statement>&#x000a9; The Author(s) 2022</copyright-statement><copyright-year>2022</copyright-year><copyright-holder content-type="sage">SAGE Publications</copyright-holder><ali:free_to_read xmlns:ali="http://www.niso.org/schemas/ali/1.0/"/><license><license-p>This article is made available via the PMC Open Access Subset for
+unrestricted re-use and analyses in any form or by any means with
+acknowledgement of the original source. These permissions are granted for
+the duration of the COVID-19 pandemic or until permissions are revoked in
+writing. Upon expiration of these permissions, PMC is granted a perpetual
+license to make this article available via PMC and Europe PMC, consistent
+with existing copyright protections.</license-p></license></permissions><abstract><p>The COVID-19 pandemic triggered a global health crisis that stimulated
+journalists to frame their stories around predictive models and forecasts aiming
+to predict the future trend of the pandemic. This article examines the audience
+response to predictive journalism by qualitatively analyzing readers&#x02019; comments
+to articles covering COVID that were published in a small sample of mainstream
+media. Based on a thematic analysis of readers&#x02019; comments, this research
+contributes a typology of audience response types to the models incorporated in
+such predictive journalism. We elaborate on each of three primary
+themes&#x02014;reflecting affective, action-oriented, and evaluative responses&#x02014;and
+discuss the implications of our findings and the importance of expanding
+research to answer questions related to the role of predictive journalism in
+shaping affective response, encouraging action-oriented responses and collective
+planning around responsibility for taking future actions, and considering the
+ways in which supportive and critical comments triggered by the models may be
+harnessed to improve communication.</p></abstract><kwd-group><kwd>COVID-19</kwd><kwd>data journalism</kwd><kwd>online comments</kwd><kwd>predictive journalism</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>edited-state</meta-name><meta-value>corrected-proof</meta-value></custom-meta><custom-meta><meta-name>typesetter</meta-name><meta-value>ts1</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec sec-type="intro" id="section1-14614448221135632"><title>Introduction</title><p>Predictive journalism is an emerging genre within data journalism that incorporates
+predictive information such as estimations, forecasts, or nowcasts into news
+production processes (e.g. reporting, publication, distribution) by using or relying
+on data-driven computational techniques such as predictive analytics or computer
+simulations (<xref rid="bibr10-14614448221135632" ref-type="bibr">Diakopoulos,
+2022</xref>). One potential application of predictive journalism is to assist
+the public in reasoning under uncertainty about possible future events and outcomes.
+For example, in 2008, FiveThirtyEight began to popularize this genre of journalism
+in election predictions to answer the question of who is leading the elections and
+who is likely to win. The accessibility of big data paired with advancements in
+computational power has also enabled journalists to cover stories beyond election
+forecasts and political polling (<xref rid="bibr42-14614448221135632" ref-type="bibr">Toff, 2019</xref>) such as weather forecasts as
+well as entertainment (<xref rid="bibr13-14614448221135632" ref-type="bibr">Franck
+and Wilson, 2020</xref>) and sports predictions (<xref rid="bibr29-14614448221135632" ref-type="bibr">Pentzold and Fechner, 2020</xref>) and more
+recently projecting the number of COVID-19 cases in the future.</p><p>Throughout the COVID-19 pandemic, journalists utilized epidemiological and
+forecasting models to offer reports and infographics informing the public about the
+scale and pace of the health crises amid a wave of muddled information (<xref rid="bibr31-14614448221135632" ref-type="bibr">Pentzold et al., 2021</xref>).
+Yet despite the prominFranckence of this type of journalism throughout the course of
+the pandemic, little is known about how such predictions, themselves full of
+uncertainty, are received by audiences and might influence public attitudes and
+emotions toward the pandemic. Accordingly, our research primarily focuses on
+answering the following question: <italic toggle="yes">How did the public respond to COVID-19
+models conveyed in predictive journalism articles published in US-based news
+media?</italic></p><p>This research aims to understand the impact of predictive journalism on audiences by
+qualitatively analyzing the comments section of a sample of such news articles from
+three US-based news outlets: The New York Times, The Washington Post, and
+FiveThirtyEight. The digital medium of predictive journalism combined with the
+deliberate and thoughtful engagement from readers via online comments offers a
+unique opportunity to understand how people respond to predictive models and
+forecasts in news media (<xref rid="bibr19-14614448221135632" ref-type="bibr">Hullman et al., 2015</xref>). Because comments are generally unsolicited and
+reflect readers&#x02019; raw reactions to news content, they provide a rich and ecologically
+valid window into how <italic toggle="yes">some</italic> people in the audience are responding to
+the predictions. In this work, we analyze 885 comments made in response to six
+articles, applying an iterative qualitative thematic analysis approach to uncover
+patterns and themes in user reactions.</p><p>Our findings contribute a typology of responses to predictive journalism that
+articulates three main themes (<italic toggle="yes">affective, action-oriented</italic>, and
+<italic toggle="yes">evaluative</italic> responses) as well as several subthemes which
+emerged from the thematic analysis of readers&#x02019; comments in our sample. We found that
+the focal point of readers&#x02019; comments was largely on the predictive models described
+in the sampled articles; thus, these themes reflect readers&#x02019; responses that are
+specific to the models. <italic toggle="yes">Affective response</italic> reflects the emotions
+expressed as a result of analyzing and interpreting the models.
+<italic toggle="yes">Action-oriented response</italic> includes all comments requesting or
+demanding an action to be taken based on the numbers conveyed by the models.
+<italic toggle="yes">Evaluative response</italic> comprises a variety of supporting and
+critical comments that are relevant to the models.</p><p>Building on these findings, our discussion offers further insights into the
+emotionality in public response to predictive models in journalism, how these models
+can encourage action-oriented responses and collective planning around
+responsibility for taking future actions, and the type of supportive and critical
+comments that these models trigger among commenters. Predictive journalism has an
+apparent capacity for impacting public emotions, attitudes, and behavior, which are
+consequential to the ways in which the public makes sense of news information.
+Developing this typology of responses is an important initial contribution toward
+understanding the range of responses to predictive journalism that can inform future
+research in operationalizing such responses as well as suggest ways for journalistic
+practice to better communicate predictions and forecasts about the future. This work
+thus outlines a first step in a larger research program examining the role of
+predictive journalism in the news media, and how this genre of journalism may shape
+public attitudes and opinions about future events and public policy for a variety of
+social processes that are predicted in the news.</p></sec><sec id="section2-14614448221135632"><title>Background: predictive journalism in the COVID-19 pandemic</title><p>The COVID-19 pandemic triggered broad intolerance of uncertainty around policy
+responses and when life would return to &#x0201c;normal&#x0201d; as well as other emotions such as
+fear, stress, depression, and anxiety (<xref rid="bibr8-14614448221135632" ref-type="bibr">Coelho et al., 2020</xref>; <xref rid="bibr27-14614448221135632" ref-type="bibr">Pakpour and Griffiths, 2020</xref>). Media
+exposure, health anxiety, and risk for loved ones were predictors of fear of the
+coronavirus (<xref rid="bibr6-14614448221135632" ref-type="bibr">Chu et al.,
+2022</xref>; <xref rid="bibr25-14614448221135632" ref-type="bibr">Mertens et
+al., 2020</xref>). Traumatic stress symptoms and fear of economic factors were
+also associated with the coronavirus (<xref rid="bibr20-14614448221135632" ref-type="bibr">Jacmin-Park et al., 2020</xref>).</p><p>COVID-19 thus created a public need for orientation and information seeking due to
+the high uncertainty about the future and its relative impact on peoples&#x02019; lives.
+Research by <xref rid="bibr23-14614448221135632" ref-type="bibr">McCombs and Weaver
+(1973)</xref> on the need for orientation suggests that people&#x02019;s motivation to
+learn about their social environment increases with uncertainty and relevance.
+Accordingly, it is plausible for the public to seek information from the news during
+crises.</p><p>During the COVID-19 crisis, journalism acted as a facilitator and a communication
+channel between public officials and experts and the broader public (<xref rid="bibr32-14614448221135632" ref-type="bibr">Perreault and Perreault,
+2021</xref>). In the United States, for example, early news coverage of the
+COVID-19 pandemic communicated to the public constant updates about prevention
+policies (<xref rid="bibr2-14614448221135632" ref-type="bibr">Basch et al.,
+2020</xref>). Nevertheless, a large degree of uncertainty and speculation
+remains in news making (<xref rid="bibr26-14614448221135632" ref-type="bibr">Neiger,
+2007</xref>; <xref rid="bibr38-14614448221135632" ref-type="bibr">Spiegelhalter,
+2017</xref>), especially when predicting the future. As more data, technologies,
+and computational power become accessible to journalists, <xref rid="bibr24-14614448221135632" ref-type="bibr">MayCotte (2015)</xref> foresaw the potential of
+predictive journalism in news making: &#x0201c;journalists will be able to orchestrate
+predictions and write tomorrow&#x02019;s headlines and stories&#x0201d;. News organizations ventured
+into predictive journalism after recognizing the ability of predictive analytics to
+generate &#x0201c;pre-emptive knowledge&#x0201d; about the future and shape the formulation of
+knowledge claims in newsmaking (<xref rid="bibr30-14614448221135632" ref-type="bibr">Pentzold and Fechner, 2021</xref>).</p><p>In response to the coronavirus outbreak, many news outlets developed their own
+data-driven predictive models and simulations to report on the possible impact of
+preventive policies and health measures on case counts and mortality rates (<xref rid="bibr10-14614448221135632" ref-type="bibr">Diakopoulos, 2022</xref>).
+Readers were given the opportunity to engage with these models through exploring
+different possible future outcomes and scenarios by modifying some of the underlying
+assumptions and configurations of these models. Journalists have also incorporated
+third-party predictive models into their news reporting (e.g. the IHME model) when
+thinking about the future and imaging tradeoffs between short-term decisions and
+long term effects (<xref rid="bibr9-14614448221135632" ref-type="bibr">Colglazier
+and Diakopoulos, 2022</xref>). For instance, The New York Times published an
+article entitled &#x0201c;What 5 Coronavirus Models Say the Next Month Will Look Like&#x0201d;
+(<xref rid="bibr5-14614448221135632" ref-type="bibr">Bui et al., 2020</xref>)
+comparing five different predictive models forecasting case counts,
+hospitalizations, and deaths and how these models are guiding current public
+policies. It is evident from the title of this article that the focus of predictive
+journalism is on informing the public about possible and predicted future outcomes
+and how such outcomes could possibly have an impact on society.</p><p>The majority of prior academic research on predictive journalism has been focused on
+either interpreting model outcomes, describing journalistic practices in this genre
+of data journalism, or the way models were presented to the public (<xref rid="bibr31-14614448221135632" ref-type="bibr">Pentzold et al., 2021</xref>;
+<xref rid="bibr44-14614448221135632" ref-type="bibr">Westwood et al.,
+2020</xref>). Westwood et al. focused on the consequences of misinterpreting
+projections in predictive journalism articles on demobilizing the public in election
+forecasts (2020). In the context of COVID, Pentzold et al. looked at how predictive
+models in the news were presented and discussed in news products and whether such
+models did a good job casting away uncertainty and ambiguity around COVID-19 (2021).
+Moving beyond these prior studies, the present research focuses on describing
+<italic toggle="yes">the public response to predictive models</italic> covering the COVID-19
+pandemic by elaborating themes that reflect the types of responses found in online
+news comments</p></sec><sec sec-type="methods" id="section3-14614448221135632"><title>Methods</title><p>In this section, we describe the data collection and analytic approach to the
+qualitative analysis of the comments section of news articles published in three
+news outlets: The New York Times, The Washington Post, and FiveThirtyEight.</p><sec id="section4-14614448221135632"><title>Data</title><p>Our data here consist of news comments made in response to predictive journalism
+articles about COVID-19. We chose to focus on news comments as they contribute
+to the deliberative public discourse and offer a rich stream of data for
+understanding public reactions (<xref rid="bibr12-14614448221135632" ref-type="bibr">Eisele et al., 2022</xref>; <xref rid="bibr22-14614448221135632" ref-type="bibr">Lee and McElroy,
+2019</xref>). At the same time, comments do not reflect all news readers (<xref rid="bibr14-14614448221135632" ref-type="bibr">Friemel and D&#x000f6;tsch,
+2015</xref>), and therefore, our analysis of comments should not be
+interpreted as some reflection of public opinion or the general population but
+rather reflects only the population of commenters studied. Although there are
+sometimes issues with the quality of news comments (<xref rid="bibr34-14614448221135632" ref-type="bibr">Santana, 2014</xref>) including issues of
+incivility, hate speech, and rude language (<xref rid="bibr7-14614448221135632" ref-type="bibr">Coe et al., 2014</xref>; <xref rid="bibr18-14614448221135632" ref-type="bibr">Hughey and Daniels, 2013</xref>), prior
+research has shown that people tend to conform to standards of thoughtfulness
+set by others in online commenting communities (<xref rid="bibr16-14614448221135632" ref-type="bibr">Han and Brazeal, 2015</xref>; <xref rid="bibr40-14614448221135632" ref-type="bibr">Sukumaran et al.,
+2011</xref>). In addition, in comparison to comments on social media, research
+has found that comments on news websites have more deliberative quality than
+those on social media outlets (<xref rid="bibr33-14614448221135632" ref-type="bibr">Rowe, 2015</xref>). As our results here show,
+we did not encounter substantive quality issues with the data we collected.</p><p>To construct our dataset, we draw on a corpus of previously collected news
+articles that incorporate predictive information (<xref rid="bibr10-14614448221135632" ref-type="bibr">Diakopoulos, 2022</xref>) and identify a
+subset related to COVID-19, which could be in the present or the future (e.g.
+projecting the number of COVID-19 cases next month). We specifically sought
+articles related to COVID-19 that showed evidence of some computational
+technique (i.e. a model that can predict a value, score, or category) or
+computer simulation. A total of 27 articles were identified, coming from various
+sources including: The New York Times (11), The Economist (6), Washington Post
+(3), NPR (2), Time (2), Bloomberg (1), FiveThirtyEight (1), and Reuters (1).
+Articles that did not have a comment section or did not allow readers to comment
+on the article were excluded from further analysis. Accordingly, only six
+articles remained, three articles from The New York Times,<sup><xref rid="fn1-14614448221135632" ref-type="fn">1</xref></sup> two articles
+from the Washington Post,<sup><xref rid="fn2-14614448221135632" ref-type="fn">2</xref></sup> and one article from FiveThirtyEight<sup><xref rid="fn3-14614448221135632" ref-type="fn">3</xref></sup> that fit the
+search criteria and enabled readers to comment. All six articles were published
+between 19 February 2020 and 28 May 2021 at a time when the world was still
+learning about the virus and vaccine efficacy (<xref rid="table1-14614448221135632" ref-type="table">Table 1</xref>).</p><table-wrap position="float" id="table1-14614448221135632"><label>Table 1.</label><caption><p>Articles used in the data analysis, the date those articles were
+published on, their source, and the number of comments analyzed from
+each article.</p></caption><alternatives><graphic xlink:href="10.1177_14614448221135632-table1" position="float"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/></colgroup><thead><tr><th align="left" rowspan="1" colspan="1">Title</th><th align="left" rowspan="1" colspan="1">Date Published</th><th align="left" rowspan="1" colspan="1">Source</th><th align="left" rowspan="1" colspan="1">Number of Comments Analyzed</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">How epidemics like COVID-19 end (and how to end them
+faster)</td><td rowspan="1" colspan="1">19 February 2020</td><td rowspan="1" colspan="1">The Washington Post</td><td rowspan="1" colspan="1">56</td></tr><tr><td rowspan="1" colspan="1">How Much Worse the Coronavirus Could Get, in Charts</td><td rowspan="1" colspan="1">13 March 2020</td><td rowspan="1" colspan="1">The New York Times</td><td rowspan="1" colspan="1">341</td></tr><tr><td rowspan="1" colspan="1">What 5 Coronavirus Models Say the Next Month Will Look
+Like</td><td rowspan="1" colspan="1">22 April 2020</td><td rowspan="1" colspan="1">The New York Times</td><td rowspan="1" colspan="1">223</td></tr><tr><td rowspan="1" colspan="1">How a sluggish vaccination program could delay a return to
+normal and invite vaccine-resistant variants to emerge</td><td rowspan="1" colspan="1">9 February 2021</td><td rowspan="1" colspan="1">The Washington Post</td><td rowspan="1" colspan="1">109</td></tr><tr><td rowspan="1" colspan="1">Just How Big Could India&#x02019;s True Covid Toll Be?</td><td rowspan="1" colspan="1">25 May 2021</td><td rowspan="1" colspan="1">The New York Times</td><td rowspan="1" colspan="1">39</td></tr><tr><td rowspan="1" colspan="1">Where The Latest COVID-19 Models Think We&#x02019;re Headed&#x02014;And Why
+They Disagree</td><td rowspan="1" colspan="1">28 May 2021</td><td rowspan="1" colspan="1">FiveThirtyEight</td><td rowspan="1" colspan="1">117</td></tr></tbody></table></alternatives></table-wrap><p>All of the articles in our dataset followed a relatively similar structure where
+journalists pose a question related to COVID-19 that is relevant to the public,
+then attempt to answer this question using either computer simulations,
+mathematical, or epidemiological models that convey to the public possible
+future outcomes. For example, on 13 March 2020, 2 days after the declaration of
+COVID-19 as a global pandemic by the WHO and prior to any public conversation
+about rolling out the vaccine, Nicholas Kristof and Stuart Thompson published in
+collaboration with infectious disease epidemiologists an online opinion article
+titled &#x0201c;How Much Worse the Coronavirus Could Get, in Charts.&#x0201d;<sup><xref rid="fn4-14614448221135632" ref-type="fn">4</xref></sup> The discourse
+in this article was mainly focusing on potential policies and actions that could
+help in curbing the number of infections due to COVID-19. The article showcases
+an interactive simulation tool that allows readers to visualize how swift
+actions by U.S officials could make a difference in controlling the pandemic.
+The interactive tool starts by displaying simulated numbers of COVID-19
+infections and fatalities in the United States from April 2020 until July 2021
+if no action was taken by U.S officials to control the pandemic (<xref rid="fig1-14614448221135632" ref-type="fig">Figure 1a</xref>). As the reader
+scrolls down through the article, different scenarios were displayed to
+demonstrate that implementing interventions is not only important, but the
+timing and immediacy of when these interventions are implemented could have
+consequences on the number of infections and fatalities. For example, based on
+results from the interactive tool for one of the shown scenarios, implementing
+intervention measures (e.g. ending public gatherings, closing workplaces and
+schools, and mass testing) as early as June 2020 could reduce the number of
+infections in July 2020 from 9.4 million, if no action was taken, to 4.5 million
+cases and reduce the number of fatalities from 1 million, if no action was
+taken, to 475,000 deaths by July 2021 (<xref rid="fig1-14614448221135632" ref-type="fig">Figure 1b</xref>). Readers can modify the
+timing and level of aggressiveness in implementing additional measures to better
+understand the impact of these factors on the course of the pandemic (<xref rid="fig2-14614448221135632" ref-type="fig">Figure 2</xref>).</p><fig position="float" id="fig1-14614448221135632"><label>Figure 1.</label><caption><p>(a) and (b) Predictions generated by the model developed at the New York
+Times. (a) The predicted number of infections and total deaths due to
+COVID if no intervention or action is taken. (b) The relationship
+between early interventions and the model&#x02019;s forecasts and the impact of
+early interventions on the forecasted number of infections and total
+deaths.</p></caption><graphic xlink:href="10.1177_14614448221135632-fig1" position="float"/></fig><fig position="float" id="fig2-14614448221135632"><label>Figure 2.</label><caption><p>Illustrates how the audience can interact with the model by changing when
+interventions can begin and their level of severity. There are three
+levels of severity that the model accounted for: mild, moderate, and
+aggressive. The audience can visualize the impact of each level of
+intervention severity on the number of infections and total deaths due
+to COVID.</p></caption><graphic xlink:href="10.1177_14614448221135632-fig2" position="float"/></fig><p>Next, we used The New York Times API<sup><xref rid="fn5-14614448221135632" ref-type="fn">5</xref></sup> to collect online news
+comments for all articles in our sample that are published on the New York Times
+website. For the remaining news sources, we used a custom web scraper to scrape
+the comments section of the Washington Post and FiveThirtyEight articles. A
+total of 1851 comments were collected, 1239 comments from articles published in
+The New York Times, 328 comments from articles published in the Washington Post,
+and 284 comments from FiveThirtyEight. Since we were only interested in
+understanding the direct public response to predictive information in these
+articles, and not commenters&#x02019; responses to each other&#x02019;s comments, we excluded
+comment replies (i.e. comments to other readers&#x02019; comments) before conducting our
+analysis. Out of the 1851 comments originally collected, only 885 direct
+comments were left for analysis (603 comments from The New York Times, 165
+comments from the Washington Post, and 117 comments from FiveThirtyEight). A
+small subset of uninformative comments were further excluded from the analysis
+because they were lacking clear relevance to the article (e.g. &#x0201c;Trends are your
+friends&#x0201d;). In the end, the remaining comments did not exhibit the quality issues
+sometimes observed in online news comments (<xref rid="bibr34-14614448221135632" ref-type="bibr">Santana, 2014</xref>) but rather reflected an
+overall courteous (i.e. not rude, obscene, or trolling) discourse.</p></sec><sec id="section5-14614448221135632"><title>Analysis</title><p>All of the collected comments were analyzed using a qualitative thematic analysis
+approach (<xref rid="bibr4-14614448221135632" ref-type="bibr">Braun and Clarke,
+2006</xref>). The authors started with the earliest published article to
+sequentially open code all comments. The objective was to allow themes to emerge
+from the data while following the method of constant comparison to continuously
+assess the fit and organization of comments into stable conceptual groupings
+across comments. To code the comments, the authors read comments while
+summarizing and pulling excerpts that could be grouped together to fit into an
+evolving set of possible thematic clusters of comments or potentially be the
+basis for new themes. Throughout the coding process, the authors wrote memos to
+articulate and clarify the evolving definitions of concepts that the themes
+represent. The authors also periodically discussed and assessed the conceptual
+organization of themes, a process often referred to as analyst triangulation
+(<xref rid="bibr28-14614448221135632" ref-type="bibr">Patton, 2014</xref>).
+This contributed to the refinement of the overall organization of the emerging
+themes. Per the constant comparison process in qualitative research, all
+emerging themes and their definitions were continuously revised and assessed
+throughout the coding process to ensure that the themes made conceptual sense
+and decide whether they needed to be reorganized, merged, or further broken into
+more themes (<xref rid="bibr39-14614448221135632" ref-type="bibr">Strauss and
+Corbin, 1990</xref>). After coding 768 comments on five articles, the themes
+were largely saturated and stable with small amounts of new information still
+being added depending on the specific context of the article being coded.
+However, this new information did not require any reorganization or revisions of
+the concepts that defined the saturated themes. To be sure that the authors
+reached a suitable level of thematic saturation, an additional article from the
+list of sampled articles (described in <xref rid="table1-14614448221135632" ref-type="table">Table 1</xref>), titled &#x0201c;Where The Latest
+COVID-19 Models Think We&#x02019;re Headed&#x02014;And Why They Disagree,&#x0201d; was coded bringing
+the total number of coded comments to 885. The newly coded comments did not
+contribute to the formation of new themes or necessitate the revision of the
+conceptual organization of themes, but rather supported the already existing
+themes and how they were organized. As a qualitative analysis, we focus our
+results on describing and elaborating themes rather than on considering the
+salience or prevalence of those themes.</p></sec></sec><sec sec-type="results" id="section6-14614448221135632"><title>Results</title><p>Throughout the qualitative thematic analysis of the comments, we found that the focal
+point of readers&#x02019; comments was on the models described in the sampled articles. All
+emerging themes resulting from the qualitative thematic analysis were also
+descriptive of the attitudinal responses to the models in the sampled predictive
+journalism articles in the context of the pandemic. In the following subsections, we
+describe the three themes and corresponding subthemes and codes, which are also
+summarized in <xref rid="fig3-14614448221135632" ref-type="fig">Figure 3</xref>.</p><fig position="float" id="fig3-14614448221135632"><label>Figure 3.</label><caption><p>Typology of responses to predictive journalism articles grouped by the three
+main themes (shaded in dark gray) and their corresponding sub-themes (shaded
+in light gray) and codes constituting those themes (white).</p></caption><graphic xlink:href="10.1177_14614448221135632-fig3" position="float"/></fig><sec id="section7-14614448221135632"><title>Affective response</title><p>All comments that include clear expressions of negative emotional responses after
+interpreting the models described in the sampled predictive journalism articles
+were grouped under the broad <italic toggle="yes">affective response</italic> theme. Comments
+in this theme conveyed rising levels of concern about the future of the virus.
+Predominantly, comments consistently expressed fear as one of the emotions
+triggered by the models&#x02019; depictions and forecasts of the worst-case scenario
+(e.g. &#x0201c;the worst-case scenario [as described in the model] does nothing but
+promote anxiety and fear&#x0201d;). Such comments were grouped into a single subtheme
+named <italic toggle="yes">negative emotional response.</italic> Throughout the qualitative
+analysis of the comments, we also observed a few commenters communicating other
+types of emotions such as anxiety, nervousness, and frustration in response to
+the models. For instance, one commenter wrote, &#x0201c;I don&#x02019;t find articles like these
+helpful; it just accelerates anxiety and panic&#x0201d; and another stated that &#x0201c;Every
+evening I get into a state of fear and frustration when I come here to see the
+updates [of the model].&#x0201d;</p><p>Another observation we found in readers&#x02019; comments is their utilization of the
+model to mentally simulate future events about the possible trends of COVID.
+This, however, could yield a worrying perspective and negative sentiment about
+the future as one commenter puts it &#x0201c;There is no way to eradicate this virus and
+other viruses. Everybody will be afraid to engage in sports, travel and even
+work. Life as we know has been dramatically diminished forever.&#x0201d; Even in the
+presence of optimistic news such as the vaccine development, readers expressed
+their negative outlook of the future outcome of COVID based on their
+interpretation of the models &#x0201c;I think a vaccine is at least a year away and that
+is super optimistic. By then, Covid might well have run its course, killing
+millions.&#x0201d; Other commenters used information from the models to compare it to
+the present state of the virus at the time. This mental process could have
+created negative emotions and perception of the uncertain future as readers
+interpreted results of the model. For example, a commenter in their seventies
+shared: &#x0201c;all outcomes are uncertain and trend towards the dire, towards the non
+flattened curve on your chart [referring to the model]. My husband and I are
+both in our seventies. We&#x02019;re not panicking, but are definitely afraid.&#x0201d;</p><p>Negative emotions evoked by interpreting the models, as shown in the previous
+examples, were also in some instances a catalyst for readers to take action.
+This was evident in a comment shared by a teacher in a community college
+discussing the shift to online learning due to their concern about safety: &#x0201c;I
+work at a rural community college. These charts [referring to the model] make it
+look like the entire summer, fall, and even next spring might be too unsafe,
+resulting in maybe a year or more of online instruction.&#x0201d; In the next section,
+we will further elaborate on this type of action-oriented response by focusing
+on the numerous actions that were taken or demanded by the readers as expressed
+in their comments.</p></sec><sec id="section8-14614448221135632"><title>Action-oriented response</title><p><italic toggle="yes">Action-oriented response</italic> is the main theme which amasses all
+comments requesting or demanding action as a result of understanding and
+interpreting the models; as one comment illustrates, &#x0201c;The model easily
+understandable and illustrates the impact of practical changes in our behavior
+on the peak severity and cumulative fatalities, The good news is that an
+aggressive approach can save thousands of lives. Lets get underway today!&#x0201d;.
+Throughout the qualitative analysis of readers&#x02019; comments that gave rise to this
+theme, commenters were encouraging domestic (i.e. <italic toggle="yes">government, collective
+society</italic>, or <italic toggle="yes">individual/personal</italic>) and global (i.e.
+<italic toggle="yes">global community</italic>) actors to take political, economic, or
+health-related actions.</p><p>In the <italic toggle="yes">action-oriented response</italic> theme, commenters referenced the
+model in their comments to justify when, why, and by whom an action needs to be
+taken to curb the spread of the virus. For example, commenters ascribed to the
+government the task of implementing aggressive measures as early as possible to
+slow down the spread of the virus, one commenter wrote &#x0201c;As shown on the graphs
+very early intervention is absolutely essential. Everything possible to do must
+be done if that means closing schools, public gatherings, etc..&#x0201d; Other
+commenters also proposed that society should take the necessary measures moving
+forward to avoid infecting more people. For example, a commenter suggests,
+&#x0201c;Great article and the model helps to explain what is going on. Work from home
+if you can. Clean your hands-a lot. Go out just once a day, if needed, to get
+supplies.&#x0201d; It is worth noting that irrespective of the type of ascribed
+responsibility or action, models in the sampled predictive journalism articles
+remain the main focal point of the comments requesting to take action in
+response to the pandemic. Next, we elaborate on the types of actions commenters
+ascribed to domestic and global actors.</p><p>Our analysis revealed three main types of actions referenced in readers&#x02019;
+comments: political, economic, and health-related actions.
+<italic toggle="yes">Political</italic> actions are best described in terms of comments
+requesting actions that are political in nature such as voting the president out
+(e.g. &#x0201c;Call them out on it . . . and vote them out on it.&#x0201d;) or calling for
+collective action (e.g. &#x0201c;It&#x02019;s up to the people to organize and demand action&#x0201d;).
+<italic toggle="yes">Economic</italic> actions include comments calling for the
+distribution of economic relief packages to support individuals, families, and
+businesses impacted by the virus (e.g. &#x0201c;$1000 a month would go a long way to
+helping millions of Americans who will lose their jobs in the coming months from
+an economy grinding to a halt.&#x0201d;). Finally, <italic toggle="yes">health-related</italic>
+actions were expressed through comments encouraging the adoption of health
+measures on the individual or societal levels, such as social distancing, to
+slow down the rising number of COVID-19 cases and protect vulnerable groups in
+the medical profession (e.g. &#x0201c;social distancing will matter greatly to avoid the
+peak happening too quickly.. Let&#x02019;s do all we can to flatten the curve, to care
+for the high risk and our medical professionals.).</p><p>All actions were ascribed to either domestic or global actors. On the domestic
+level, actions were ascribed to either the <italic toggle="yes">government, collective
+society</italic>, or <italic toggle="yes">individual</italic> (or
+<italic toggle="yes">personal</italic>) actors. Comments ascribing actions and
+responsibility to the <italic toggle="yes">government</italic> are requesting actions to be
+taken by the state or federal governments in response to the virus. Examples of
+actions include, but are not limited to, increasing testing capabilities as one
+commenter stated, &#x0201c;Our nation does not have testing kits available for everyone.
+We need multiple tests for each person in America.&#x0201d; Another action that was
+requested in the comments in the form of a suggestion is to reopen closed
+military facilities as hospitals to treat infected individuals, &#x0201c;Beyond
+increased testing, what is being done to expand capacity to support the surge in
+hospitalizations?. Build new hospitals in 10 days as China did? Reopen closed
+military facilities to quarantine infected individuals?&#x0201d;. In addition, some
+comments were also demanding further clarification on health strategies to
+handle COVID as one commenter puts it, &#x0201c;. . . I don&#x02019;t disagree with the current
+strategies, but I would like to hear CDC epidemiologists give modeling updates
+frequently and not just tell us what to do, but keep explaining why&#x0201d;.</p><p>Commenters also ascribed actions to collective society by using collective
+language and terminology (e.g. &#x0201c;we,&#x0201d; &#x0201c;American public,&#x0201d; &#x0201c;us&#x0201d;) to request and
+encourage the public to take precautionary measures in response to the virus.
+For example, one commenter encouraged the public to comply with the recommended
+aggressive measures of social distancing as stated in their comment: &#x0201c;We all
+have to concentrate on social distancing and hand washing&#x0201d;. In another example,
+a commenter encouraged others to wear masks in public &#x0201c;Once more vaccines are
+approved, things will change for the better. Until then, wear a real mask,
+practice social distancing and the virus will have a tough time jumping around&#x0201d;.
+Other comments ascribed actions on the <italic toggle="yes">Individual or Personal</italic>
+level. This was evident from a group of comments expressing actions that will
+and should be taken by commenters on the individual or family levels to minimize
+the spread of the virus. After reviewing the models, some commenters, for
+example, were &#x0201c;persuaded to lay low and not to visit their elderly parents over
+spring break&#x0201d;. Others chose to take extra health precautions by &#x0201c;wearing a mask
+and gloves and washing hands for a very long time&#x0201d;.</p><p>On the global level, comments ascribing responsibility to the global or
+international community were grouped under the <italic toggle="yes">global community</italic>
+actor group category. Comments were encouraging global altruism in vaccination
+initiatives to increase vaccination rates around the world (e.g. &#x0201c;. . . The
+entire world must help the entire world get vaccinated&#x0201d;). In addition,
+commenters were also concerned about the moral implications pertaining to
+vaccine inequity as privileged countries produced and purchased more vaccines
+than less privileged countries. One commenter writes in that regard, &#x0201c;I am
+concerned about rich countries buying up vaccines and smaller, less rich
+countries trying to compete for those vaccines. Ignoring the moral implications,
+this is not be good for our world.&#x0201d;</p><p>Overall, action-oriented responses can be thought of in terms of a matrix of
+actors and actions. In our analysis of users&#x02019; comments, we found the list of
+actors to include the government, society, individual/or personal actors, and
+the global (or international) community. We also identified political, economic,
+and health-related types of actions to be associated with the aforementioned
+actors. Despite our findings, we expect the list of actors and actions to expand
+depending on the context of future research. In the next section, we shed light
+on the remaining group of comments concerning readers&#x02019; evaluations of the
+models.</p></sec><sec id="section9-14614448221135632"><title>Evaluative response</title><p>This theme encompasses all the remaining comments consisting of supportive and
+critical responses resulting from evaluating the models. Supportive comments
+were grouped into three subthemes: <italic toggle="yes">supporting predictive journalism,
+model enhancements</italic>, and <italic toggle="yes">illustrating modeling
+principles</italic>. In contrast, <italic toggle="yes">Critical Comments</italic> were
+criticizing the models and the way models were visualized and presented
+(<italic toggle="yes">visualizations</italic>). Throughout the thematic analysis, we also
+found a few instances of critical comments being directed toward other entities
+(e.g. <italic toggle="yes">healthcare system</italic>), and actors (e.g.
+<italic toggle="yes">government</italic>, the <italic toggle="yes">public, and
+journalists</italic>).</p><p>Supportive comments in the <italic toggle="yes">supporting predictive journalism</italic>
+sub-theme were complementing the analyses and models that journalists have put
+together. Some readers expressed their appreciation for the ease of
+accessibility and understanding of the models, one reader commented: &#x0201c;Thank you
+very much for this animated graphic. It really makes the science behind
+epidemics much easier for us lay people to understand&#x0201d;. According to another
+group of commenters, models seem to have clarified information about the virus,
+another commenter wrote: &#x0201c;Great! Curves like these act as a kind of armature
+that give a rough idea of the form of the beast we face. Again, great!&#x0201d;. Also,
+readers complemented the journalistic efforts sharing models that are
+informative of the primary role of interventions in responding to the virus,
+&#x0201c;This was the sort of analysis that was needed to explain what and when things
+needed to be done. Thank you&#x0201d;. In a few instances, commenters also complimented
+the models for giving them an insight into the impact of the virus in other
+countries, a reader commented: &#x0201c;This is a great mathematical projection of what
+is actually going on in India. The saddest part is so many lives could have been
+saved if the authorities had been prepared with proper medical stockpiles&#x0201d;.</p><p>In the <italic toggle="yes">model enhancements</italic> subtheme, comments included several
+suggestions to improve the models such as assessing the performance and accuracy
+of the models (e.g. &#x0201c;it would be interesting to compare the past predictions of
+each model to the actual death count.&#x0201d;). Other suggestions include requests to
+account for additional assumptions that were not considered during the model
+development process (e.g. &#x0201c;It doesn&#x02019;t seem these models take into account the
+potential for new infections in the vast re-opening that is planned in certain
+states. They should show that effect estimated&#x0201d;). Commenters also suggested
+developing additional models that &#x0201c;takes into account the impacts of mutation of
+coronavirus and potential reinfection rates.&#x0201d; A few other comments were relevant
+to the user experience of the readers as they read through the results of static
+(i.e. noninteractive) models. For example, a commenter suggested for journalists
+to give readers the ability to engage with the models: &#x0201c;It&#x02019;d be great if the
+designers let the readers use this tool.&#x0201d;</p><p>As for the <italic toggle="yes">illustrating modeling principles</italic> subtheme, in some
+instances, comments described how models work (e.g. &#x0201c;Models are not static and
+continually get refined with more data. Most models have assumptions. All models
+have uncertainty&#x0201d;). In other instances, comments clarified the assumptions made
+in the process of making predictions, one commenter elaborates:<disp-quote><p>Models don&#x02019;t know the future outright &#x02013; what people do matters and they
+try to adjust to those changes. Think of it this way: the models that
+predict deaths are going to decrease assume we will be
+sheltering-in-place for longer, while models that predict the number of
+deaths will increase assume shelter-in-place will be lifted. Models
+extrapolate from trends&#x02014;they don&#x02019;t predict policy decisions.</p></disp-quote></p><p>In addition, commenters shared information on how a model&#x02019;s performance can be
+assessed through the quality of its predictions in comparison to observed
+outcomes, &#x0201c;There is bound to be an error epsilon between the real deaths and
+those predicted by the model.&#x0201d;</p><p>Criticism in the <italic toggle="yes">critical comments</italic> sub-theme was being mainly
+directed toward the models with a few other instances of it being directed at
+entities and actors. Comments criticized the models for their poor performance
+due to the lack of testing data incorporated into the models (e.g. &#x0201c;Garbage in,
+garbage out. Until we test enough, we&#x02019;re just guessing.&#x0201d;) or the bias they may
+introduce among researchers aiming to understand how the virus is spreading
+(e.g. &#x0201c;These models limit a researcher&#x02019;s ability to see how the data develops.
+they channel the researcher into seeing if the data fits the model instead of if
+the data fits the theory. I know this sounds abstract but it is a genuine
+worry&#x0201d;). The over-optimism in some models&#x02019; predictions was also criticized by
+commenters as shown in this comment:<disp-quote><p>I looked back at IHME forecast in March. It predicted 1,500 deaths in CA
+by end of August. We passed 2000 in April. Even now it predicts we will
+be done with deaths by May 19 or so. The model is far too
+optimistic.</p></disp-quote></p><p>In addition, a small subset of commenters uniquely focused their criticism on the
+way models were presented and visualized. For example, one of the comments
+criticized the aesthetics of a graphical plot displaying multiple line charts in
+a single chart, the commenter wrote: &#x0201c;I&#x02019;m sorry I don&#x02019;t understand these charts.
+I&#x02019;m confused as to where each one starts.&#x0201d; In another example, a commenter also
+criticized the visualizations for being too difficult to interpret, the
+commenter wrote: &#x0201c;More clarity would be nice, I&#x02019;m a science guy and I struggled
+to understand what was being shown.&#x0201d;</p><p>The remaining collection of critical comments were directing criticism to
+entities such as the healthcare system that commenters think should have taken
+more responsible actions in response to the pandemic. Specifically, in the
+context of the lack of accessibility to COVID testing, one physician wrote: &#x0201c;As
+a physician, I am appalled at the delivery system for valid coronavirus tests in
+comparison to competent medical systems like South Korea who have rapid-result
+and drive-through testing.&#x0201d; Other comments focused on the sluggish vaccine
+distribution process, one commenter complained: &#x0201c;Most vaccination centers have
+little if any vaccine stocks, opening more will not help unless vaccines can be
+sent to them by the hundreds of millions.&#x0201d;</p><p>Government entities were also the subject of criticism in the comments. The
+executive branch of the government was criticized for its poor leadership and
+inaction in response to the virus, a commenter wrote &#x0201c;Yet the schools are still
+open. Just the kind of leadership and vision that we&#x02019;ve come to expect.&#x0201d; The
+Centers for Disease Control and Prevention (CDC) was also criticized after it
+decides to revoke the masking rules for vaccinated individuals as stated in one
+of the comments: &#x0201c;CDC says no masking needed for the vaccinated. what a joke?!
+this is what you get when everything is politicalized in US.&#x0201d; Commenters also
+criticized a segment of the public for disregarding the dangers of spreading the
+virus during travel. One commenter expressed the problem by criticizing &#x0201c;the
+people who are infected while traveling are ignoring the fact that they are
+spreading the disease by returning home.&#x0201d; Furthermore, some commenters were
+critical of people in society dismissing the information presented in the
+models, &#x0201c;It makes me nuts reading people dismiss the models as irrelevant simply
+because they are imperfect&#x0201d;&#x02014;one commenter wrote.</p><p>In contrast to the comments in the <italic toggle="yes">supporting predictive
+journalism</italic> subtheme of <italic toggle="yes">support comments</italic>, there
+were a handful of comments in the <italic toggle="yes">critical comments</italic> theme that
+focused their criticism on journalists and the models they have developed. For
+example, one commenter thinks that journalists <italic toggle="yes">&#x0201c;</italic>should be out
+volunteering instead of complaining and whining [about rising cases due to the
+virus].&#x0201d; Another commenter found &#x0201c;a remarkable lack of actual substance&#x0201d; in the
+models and therefore decided to &#x0201c;tune them out as distraction.&#x0201d;</p><p>All supportive comments in the <italic toggle="yes">evaluative response</italic> theme were
+either complementing the journalistic effort put forth by journalists,
+explaining how modeling works, or providing recommendations and suggestions to
+enhance the models. Critical comments, however, were predominantly focusing on
+criticizing the models with a few instances of comments directing criticism to
+other entities as stated earlier.</p></sec></sec><sec sec-type="discussion" id="section10-14614448221135632"><title>Discussion</title><p>In addressing the research question of how the public responded to COVID predictions
+in the news media, this research elaborates three main types of public responses
+(affective, action-oriented, and evaluative as well as several subthemes of those
+types) that we observed in the online news comments to articles of predictive
+journalism related to the COVID pandemic. This richly described typology of
+responses offers a contribution insofar as it nuances the ways through which
+predictive information is processed and could indeed impact cognition or behavior,
+suggesting routes through which the misinterpretation of predictions in news media
+(<xref rid="bibr15-14614448221135632" ref-type="bibr">Gelman et al.,
+2020</xref>; <xref rid="bibr44-14614448221135632" ref-type="bibr">Westwood et al.,
+2020</xref>) could be activated. Moreover, the typology offers fertile ground
+for researchers to further explore and validate these types of audience responses,
+operationalize them for potential quantitative or computational analysis at a larger
+scale, and expand and validate them in other contexts such as in political,
+economic, or climate forecasts. Studying the range of public response to predictive
+journalism is a necessary first step toward understanding how journalistic practice
+might also adapt to avoid misinforming the public, biasing its opinion, or
+discourage it from civic participation. In the following subsections, we further
+discuss implications for research and practice that emerge from our synthesis of the
+response types.</p><sec id="section11-14614448221135632"><title>The role of affect in future-oriented cognition</title><p>The intolerance of uncertainty about the future paired with the fear of COVID-19
+appears to have an effect on peoples&#x02019; mental well-being (<xref rid="bibr35-14614448221135632" ref-type="bibr">Satici et al., 2022</xref>). The
+<italic toggle="yes">affective response</italic> theme surfaced some of the negative
+emotions attributed to the pandemic that are in line with recent research (<xref rid="bibr8-14614448221135632" ref-type="bibr">Coelho et al., 2020</xref>;
+<xref rid="bibr25-14614448221135632" ref-type="bibr">Mertens et al.,
+2020</xref>). Although our findings in this theme reflect readers&#x02019; fear and
+anxiety about the future, we suggest that researchers should explore whether
+predictive journalism could also have the capacity of eliciting prosocial
+emotions, such as empathy, that could motivate cooperation in collective acts,
+especially during crises (e.g. motivating the public to wear a mask during the
+COVID pandemic as a precautionary measure to protect the elderly). In contrast,
+misinterpreting predictive journalism articles could elicit negative emotions,
+such as anger, that may divide the public and mobilize it toward hostile
+action.</p><p>Our findings also suggest the need to consider the public&#x02019;s affective response to
+the models as a feedback system that stimulates retrospective appraisal of
+previous actions, and possibly alters future behavior (<xref rid="bibr3-14614448221135632" ref-type="bibr">Baumeister et al., 2007</xref>). For example,
+if someone is fearful due to interpreting the model, this emotion can stimulate
+the thought of previous actions that should have been taken and possibly inform
+future behavior. In light of this, it might be worth exploring whether public
+emotionality mediates the possible effect of predictive journalism on informing
+readers&#x02019; judgments and decisions or motivating their actions with respect to the
+future. Given that affect can drive planning and eventual action (<xref rid="bibr37-14614448221135632" ref-type="bibr">Seligman et al.,
+2016</xref>), it seems crucial that future work engage deeply with the affective
+response to predictive journalism. This is aligned with the recently termed
+&#x0201c;emotional turn&#x0201d; in journalism studies&#x02014;a growing area of research in journalism
+in the past decade that recognizes the importance of emotion as a prism to
+understand social and political life which suggests an agenda for research on
+how emotions and journalism intersect (<xref rid="bibr43-14614448221135632" ref-type="bibr">Wahl-Jorgensen and Pantti, 2021</xref>).</p></sec><sec id="section12-14614448221135632"><title>Responsibility assignment for future actions</title><p>In the <italic toggle="yes">action-oriented response</italic> theme, we identified an
+interesting pattern in readers&#x02019; comments that tend to ascribe responsibilities
+and actions to different actors. Commenters even outlined actions that can and
+must be taken in response to the pandemic by different actors in society,
+government, and the international community on the global level. In a sense,
+commenters were engaged in a group planning activity where particular actions
+and responsibilities are articulated for future action. Summarizing such group
+planning, including using other feedback signals on comments such as &#x0201c;likes,&#x0201d;
+could be a powerful way to harness the collective future-oriented cognition
+(<xref rid="bibr41-14614448221135632" ref-type="bibr">Szpunar et al.,
+2014</xref>) of a community to both suggest and evaluate what to do.</p><p>The notion of responsibility assignment also raises the broader question about
+the function of predictive journalism in society, especially with respect to
+mobilizing the public toward social issues or in crises when there is very
+little known about the future. Prior research by <xref rid="bibr45-14614448221135632" ref-type="bibr">Yanovitzky and Weber (2019)</xref> theorized
+the effects of news media on policy actors and subsequently on policy making
+where they outlined mobilization as one of the core knowledge-brokering
+functions of news media. <xref rid="bibr1-14614448221135632" ref-type="bibr">Appelgren and J&#x000f6;nsson (2021)</xref> also found that the merger between
+science communication and data journalistic practices coupled with motivational
+framing were effective in increasing public engagement with climate change.
+Accordingly, it is vital to deeply understand why and how the framing of
+forecasts outlined in predictive journalism articles may encourage the public to
+conduct a responsibility analysis of who is responsible for what, who needs to
+do what, and when. Future work on predictive journalism should consider focusing
+on understanding how the design and presentation of predictions could positively
+shape and channel collective activities to increase citizen engagement and
+willingness to take action on issues related to social and climate justice.</p></sec><sec id="section13-14614448221135632"><title>Harnessing responses for improved communication</title><p>Overall, commenters expressed the significance of predictive journalism by
+thanking journalists for their efforts in covering the pandemic and
+complementing the models attempting to cast away the uncertainty about the
+future. Additional supportive comments came in the form of suggestions such as
+enhancing the predictive power of the models (<xref rid="bibr11-14614448221135632" ref-type="bibr">Diakopoulos and Naaman, 2011</xref>; <xref rid="bibr17-14614448221135632" ref-type="bibr">Henrich and Holmes,
+2013</xref>). Despite this supportive sentiment, other comments criticized
+the models and the way they were visualized. Practitioners may find some of
+these comments helpful in developing new communication tools (<xref rid="bibr21-14614448221135632" ref-type="bibr">Kay, 2022</xref>) or shaping
+best practices that data journalists could follow to achieve simplicity and
+clarity in visualizing forecasts and scientific data.</p><p>The <italic toggle="yes">critical comments</italic> subtheme in the <italic toggle="yes">evaluative
+response</italic> theme further highlights the importance of introducing
+novel qualitative and quantitative methods that capture and assess the accuracy
+in public understanding of statistical and scientific visualizations in the news
+to avoid possible misinterpretations of facts or forecasts on the public level
+(<xref rid="bibr36-14614448221135632" ref-type="bibr">Secko et al.,
+2011</xref>). Although our findings in the <italic toggle="yes">illustrating modeling
+principles</italic> subtheme show examples of commenter-led initiatives to
+educate others about basic modeling principles such as model assumptions, model
+interpretation, and model performance evaluation, we think that this inclination
+could be more explicitly shaped and encouraged through journalistic initiatives
+similar to the New York Times &#x0201c;What is Going on in this Graph?&#x0201d;<sup><xref rid="fn6-14614448221135632" ref-type="fn">6</xref></sup> that grants
+students and readers the online space to develop their data-literacy skills
+through discussing and interpreting visualizations as a group.</p></sec></sec><sec sec-type="conclusions" id="section14-14614448221135632"><title>Conclusion</title><p>Predictive journalism offers the public the ability to explore possible future
+scenarios on topics that are relevant to society and help them comprehend
+uncertainties about the future. In this research, online news comments enabled us to
+understand audiences&#x02019; responses to COVID models in the news and more broadly to the
+emerging genre of predictive journalism. Specifically, this research is a step
+toward examining how this genre of journalism impacts the public&#x02019;s emotions,
+behaviors, and future thinking. We elaborate a discussion examining the role of
+affect in future-oriented cognition around media, the notion of collective
+responsibility assignment which may have implications for how groups plan the future
+or think about accountability for failure, and the idea of leveraging comment
+responses for improving communication of predictions. Based on our findings, we
+propose future research directions around deepening our understanding of the role of
+predictive journalism in shaping public opinion especially with respect to future
+decisions on policies for a variety of social and political issues. In particular,
+survey methods could also be developed to further understand audience responses to
+predictive journalism, especially given that not all articles have comments. The
+typology presented in this work opens up space for future research to validate it,
+operationalize it for quantitative study, and extend it to study it in other
+exceeding important domains such as election and climate forecasting.</p></sec></body><back><fn-group><fn fn-type="other"><p><bold>Authors&#x02019; Note:</bold> All authors listed in this article confirm that they have agreed to submit this
+article to the journal of <italic toggle="yes">New Media &#x00026; Society</italic> and that the
+present article is not currently being considered for publication by any other
+print or electronic journal.</p></fn><fn fn-type="financial-disclosure"><p><bold>Funding:</bold> The author(s) received no financial support for the research, authorship, and/or
+publication of this article.</p></fn><fn fn-type="other"><p><bold>ORCID iDs:</bold> Mowafak Allaham <inline-graphic xlink:href="10.1177_14614448221135632-img1.jpg"/><ext-link xlink:href="https://orcid.org/0000-0001-9211-4598" ext-link-type="uri">https://orcid.org/0000-0001-9211-4598</ext-link></p><p>Nicholas Diakopoulos <inline-graphic xlink:href="10.1177_14614448221135632-img1.jpg"/><ext-link xlink:href="https://orcid.org/0000-0001-5005-6123" ext-link-type="uri">https://orcid.org/0000-0001-5005-6123</ext-link></p></fn></fn-group><bio id="d64e689"><title>Author biographies</title><p><bold>Mowafak Allaham</bold> is a PhD student in Technology &#x00026; Social Behavior
+program (a joint PhD in Computer Science and Communication Studies). His research
+interests are at the intersection of technology, journalism, and social
+behavior.</p><p><bold>Nicholas Diakopoulos</bold> is an associate professor in Communication Studies
+and Computer Science (by courtesy) at Northwestern University where he is director
+of the Computational Journalism Lab (CJL). He is the author of the book
+<italic toggle="yes">Automating the News: How Algorithms are Rewriting the Media</italic>,
+published by Harvard University Press in 2019.</p></bio><notes><fn-group><fn fn-type="other" id="fn1-14614448221135632"><label>1.</label><p><ext-link xlink:href="https://www.nytimes.com/interactive/2020/03/13/opinion/coronavirus-trump-response.html" ext-link-type="uri">https://www.nytimes.com/interactive/2020/03/13/opinion/coronavirus-trump-response.html</ext-link>;
+<ext-link xlink:href="https://www.nytimes.com/interactive/2020/04/22/upshot/coronavirus-models.html" ext-link-type="uri">https://www.nytimes.com/interactive/2020/04/22/upshot/coronavirus-models.html</ext-link>;
+<ext-link xlink:href="https://www.nytimes.com/interactive/2021/05/25/world/asia/india-covid-death-estimates.html" ext-link-type="uri">https://www.nytimes.com/interactive/2021/05/25/world/asia/india-covid-death-estimates.html</ext-link>.</p></fn><fn fn-type="other" id="fn2-14614448221135632"><label>2.</label><p><ext-link xlink:href="http://www.washingtonpost.com/graphics/2020/health/coronavirus-how-epidemics-spread-and-end/" ext-link-type="uri">www.washingtonpost.com/graphics/2020/health/coronavirus-how-epidemics-spread-and-end/</ext-link>;
+<ext-link xlink:href="https://www.washingtonpost.com/nation/interactive/2021/vaccination-pace-herd-immunity/" ext-link-type="uri">https://www.washingtonpost.com/nation/interactive/2021/vaccination-pace-herd-immunity/</ext-link>.</p></fn><fn fn-type="other" id="fn3-14614448221135632"><label>3.</label><p><ext-link xlink:href="https://projects.fivethirtyeight.com/covid-forecasts/" ext-link-type="uri">https://projects.fivethirtyeight.com/covid-forecasts/</ext-link>.</p></fn><fn fn-type="other" id="fn4-14614448221135632"><label>4.</label><p><ext-link xlink:href="https://www.nytimes.com/interactive/2020/03/13/opinion/coronavirus-trump-response.html" ext-link-type="uri">https://www.nytimes.com/interactive/2020/03/13/opinion/coronavirus-trump-response.html</ext-link>.</p></fn><fn fn-type="other" id="fn5-14614448221135632"><label>5.</label><p><ext-link xlink:href="https://developer.nytimes.com/apis" ext-link-type="uri">https://developer.nytimes.com/apis</ext-link>.</p></fn><fn fn-type="other" id="fn6-14614448221135632"><label>6.</label><p><ext-link xlink:href="https://www.nytimes.com/column/whats-going-on-in-this-graph" ext-link-type="uri">https://www.nytimes.com/column/whats-going-on-in-this-graph</ext-link>.</p></fn></fn-group></notes><ref-list><title>References</title><ref id="bibr1-14614448221135632"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Appelgren</surname><given-names>E</given-names></name><name><surname>J&#x000f6;nsson</surname><given-names>AM</given-names></name></person-group> (<year>2021</year>) <article-title>Engaging citizens
+for climate change&#x02014;challenges for journalism</article-title>.
+<source>Digital Journalism</source><volume>9</volume>(<issue>6</issue>):
+<fpage>755</fpage>&#x02013;<lpage>772</lpage>.</mixed-citation></ref><ref id="bibr2-14614448221135632"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Basch</surname><given-names>CH</given-names></name><name><surname>Kecojevic</surname><given-names>A</given-names></name><name><surname>Wagner</surname><given-names>VH</given-names></name></person-group> (<year>2020</year>) <article-title>Coverage of the
+COVID-19 pandemic in the online versions of highly circulated U.S. daily
+newspapers</article-title>. <source>Journal of Community
+Health</source><volume>45</volume>(<issue>6</issue>):
+<fpage>1089</fpage>&#x02013;<lpage>1097</lpage>.<pub-id pub-id-type="pmid">32902813</pub-id></mixed-citation></ref><ref id="bibr3-14614448221135632"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Baumeister</surname><given-names>RF</given-names></name><name><surname>Vohs</surname><given-names>KD</given-names></name><name><surname>Nathan DeWall</surname><given-names>C</given-names></name></person-group>, <etal>et al</etal>. (<year>2007</year>)
+<article-title>How emotion shapes behavior: feedback, anticipation, and
+reflection, rather than direct causation</article-title>.
+<source>Personality and Social Psychology
+Review</source><volume>11</volume>(<issue>2</issue>):
+<fpage>167</fpage>&#x02013;<lpage>203</lpage>.<pub-id pub-id-type="pmid">18453461</pub-id></mixed-citation></ref><ref id="bibr4-14614448221135632"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Braun</surname><given-names>V</given-names></name><name><surname>Clarke</surname><given-names>V</given-names></name></person-group> (<year>2006</year>) <article-title>Using thematic
+analysis in psychology</article-title>. <source>Qualitative Research in
+Psychology</source><volume>3</volume>(<issue>2</issue>):
+<fpage>77</fpage>&#x02013;<lpage>101</lpage>.</mixed-citation></ref><ref id="bibr5-14614448221135632"><mixed-citation publication-type="webpage"><person-group person-group-type="author"><name><surname>Bui</surname><given-names>Q</given-names></name><name><surname>Katz</surname><given-names>J</given-names></name><name><surname>Parlapiano</surname><given-names>A</given-names></name></person-group>, <etal>et al</etal>. (<year>2020</year>)
+<article-title>What 5 Coronavirus models say the next month will look
+like</article-title>. <source>The New York Times</source>,
+<day>22</day><month>April</month>. Available at: <ext-link xlink:href="https://www.nytimes.com/interactive/2020/04/22/upshot/coronavirus-models.html" ext-link-type="uri">https://www.nytimes.com/interactive/2020/04/22/upshot/coronavirus-models.html</ext-link>
+(<comment>accessed 2 June 2022</comment>).</mixed-citation></ref><ref id="bibr6-14614448221135632"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Chu</surname><given-names>TH</given-names></name><name><surname>Yeo</surname><given-names>TED</given-names></name><name><surname>Su</surname><given-names>Y</given-names></name></person-group> (<year>2022</year>) <article-title>Effects of
+exposure to COVID-19 news and information: a meta-analysis of media use and
+uncertainty-related responses during the pandemic</article-title>.
+<source>Journalism &#x00026; Mass Communication
+Quarterly</source><volume>99</volume>(<issue>1</issue>):
+<fpage>89</fpage>&#x02013;<lpage>112</lpage>.</mixed-citation></ref><ref id="bibr7-14614448221135632"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Coe</surname><given-names>K</given-names></name><name><surname>Kenski</surname><given-names>K</given-names></name><name><surname>Rains</surname><given-names>SA</given-names></name></person-group> (<year>2014</year>) <article-title>Online and
+uncivil? Patterns and determinants of incivility in newspaper website
+comments</article-title>. <source>Journal of
+Communication</source><volume>64</volume>(<issue>4</issue>):
+<fpage>658</fpage>&#x02013;<lpage>679</lpage>.</mixed-citation></ref><ref id="bibr8-14614448221135632"><mixed-citation publication-type="webpage"><person-group person-group-type="author"><name><surname>Coelho</surname><given-names>CM</given-names></name><name><surname>Suttiwan</surname><given-names>P</given-names></name><name><surname>Arato</surname><given-names>N</given-names></name></person-group>, <etal>et al</etal>. (<year>2020</year>)
+<article-title>On the nature of fear and anxiety triggered by
+COVID-19</article-title>. <source>Frontiers in Psychology</source>.
+Available at: <ext-link xlink:href="https://www.frontiersin.org/article/10.3389/fpsyg.2020.581314" ext-link-type="uri">https://www.frontiersin.org/article/10.3389/fpsyg.2020.581314</ext-link>
+(<comment>accessed 1 June 2022</comment>).</mixed-citation></ref><ref id="bibr9-14614448221135632"><mixed-citation publication-type="confproc"><person-group person-group-type="author"><name><surname>Colglazier</surname><given-names>C</given-names></name><name><surname>Diakopoulos</surname><given-names>N</given-names></name></person-group> (<year>2022</year>) <article-title>Predictive models
+in news coverage of the COVID-19 pandemic in the U.S</article-title>. In:
+<conf-name>International Communication Association conference</conf-name>,
+<conf-loc>Paris, France</conf-loc>, <conf-date>26&#x02013;30 May
+2022</conf-date>.</mixed-citation></ref><ref id="bibr10-14614448221135632"><mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Diakopoulos</surname><given-names>N</given-names></name></person-group> (<year>2022</year>) <source>Predictive journalism: on
+the role of computational prospection in news media</source>. SSRN Scholarly
+Paper 4092033, 22 April. <publisher-loc>Rochester, NY</publisher-loc>:
+<publisher-name>Social Science Research Network</publisher-name>. Available
+at: <ext-link xlink:href="https://papers.ssrn.com/abstract=4092033" ext-link-type="uri">https://papers.ssrn.com/abstract=4092033</ext-link> (<comment>accessed 1
+June 2022</comment>).</mixed-citation></ref><ref id="bibr11-14614448221135632"><mixed-citation publication-type="confproc"><person-group person-group-type="author"><name><surname>Diakopoulos</surname><given-names>N</given-names></name><name><surname>Naaman</surname><given-names>M</given-names></name></person-group> (<year>2011</year>) <article-title>Towards quality
+discourse in online news comments</article-title>. In:
+<conf-name>Proceedings of the ACM 2011 conference on computer supported
+cooperative work</conf-name>, <conf-loc>Hangzhou, China</conf-loc>,
+<conf-date>19&#x02013;23 March 2011</conf-date>, pp.
+<fpage>133</fpage>&#x02013;<lpage>142</lpage>. <publisher-loc>New
+York</publisher-loc>: <publisher-name>ACM</publisher-name>.</mixed-citation></ref><ref id="bibr12-14614448221135632"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Eisele</surname><given-names>O</given-names></name><name><surname>Litvyak</surname><given-names>O</given-names></name><name><surname>Br&#x000e4;ndle</surname><given-names>VK</given-names></name></person-group>, <etal>et al</etal>. (<year>2022</year>)
+<article-title>An emotional rally: exploring commenters&#x02019; responses to online
+news coverage of the COVID-19 crisis in Austria</article-title>.
+<source>Digital Journalism</source><volume>10</volume>(<issue>6</issue>):
+<fpage>952</fpage>&#x02013;<lpage>975</lpage>.</mixed-citation></ref><ref id="bibr13-14614448221135632"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Franck</surname><given-names>CT</given-names></name><name><surname>Wilson</surname><given-names>CE</given-names></name></person-group> (<year>2020</year>) <article-title>Predicting
+competitions by combining conditional logistic regression and subjective
+Bayes: an academy awards case study</article-title>. <source>The Annals of
+Applied Statistics</source><volume>15</volume>(<issue>4</issue>):
+<fpage>2083</fpage>&#x02013;<lpage>2100</lpage>.</mixed-citation></ref><ref id="bibr14-14614448221135632"><mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Friemel</surname><given-names>TN</given-names></name><name><surname>D&#x000f6;tsch</surname><given-names>M</given-names></name></person-group> (<year>2015</year>) <part-title>Online reader
+comments as indicator for perceived public opinion</part-title>. In:
+<person-group person-group-type="editor"><name><surname>Emmer Mans Strippel</surname><given-names>C</given-names></name></person-group> (eds) <source>Kommunikationspolitik f&#x000fc;r die digitale
+Gesellschaft</source>. <publisher-loc>Berlin</publisher-loc>:
+<publisher-name>Ifpuk&#x02014;Institute for Media and Communication Studies at Freie
+Universit&#x000e4;t Berlin</publisher-name>, pp.
+<fpage>151</fpage>&#x02013;<lpage>172</lpage>.</mixed-citation></ref><ref id="bibr15-14614448221135632"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Gelman</surname><given-names>A</given-names></name><name><surname>Hullman</surname><given-names>J</given-names></name><name><surname>Wlezien</surname><given-names>C</given-names></name></person-group>, <etal>et al</etal>. (<year>2020</year>)
+<article-title>Information, incentives, and goals in election
+forecasts</article-title>. <source>Judgment and Decision
+Making</source><volume>15</volume>(<issue>5</issue>):
+<fpage>863</fpage>&#x02013;<lpage>880</lpage>.</mixed-citation></ref><ref id="bibr16-14614448221135632"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Han</surname><given-names>S-H</given-names></name><name><surname>Brazeal</surname><given-names>LM</given-names></name></person-group> (<year>2015</year>) <article-title>Playing nice:
+modeling civility in online political discussions</article-title>.
+<source>Communication Research
+Reports</source><volume>32</volume>(<issue>1</issue>):
+<fpage>20</fpage>&#x02013;<lpage>28</lpage>.</mixed-citation></ref><ref id="bibr17-14614448221135632"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Henrich</surname><given-names>N</given-names></name><name><surname>Holmes</surname><given-names>B</given-names></name></person-group> (<year>2013</year>) <article-title>Web news readers
+comments: towards developing a methodology for using on-line comments in
+social inquiry</article-title>. <source>Journal of Media and Communication
+Studies</source><volume>5</volume>(<issue>1</issue>):
+<fpage>1</fpage>&#x02013;<lpage>4</lpage>.</mixed-citation></ref><ref id="bibr18-14614448221135632"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hughey</surname><given-names>MW</given-names></name><name><surname>Daniels</surname><given-names>J</given-names></name></person-group> (<year>2013</year>) <article-title>Racist comments at
+online news sites: a methodological dilemma for discourse
+analysis</article-title>. <source>Media, Culture &#x00026;
+Society</source><volume>35</volume>(<issue>3</issue>):
+<fpage>332</fpage>&#x02013;<lpage>347</lpage>.</mixed-citation></ref><ref id="bibr19-14614448221135632"><mixed-citation publication-type="confproc"><person-group person-group-type="author"><name><surname>Hullman</surname><given-names>J</given-names></name><name><surname>Diakopoulos</surname><given-names>N</given-names></name><name><surname>Momeni</surname><given-names>E</given-names></name></person-group>, <etal>et al</etal>. (<year>2015</year>)
+<article-title>Content, context, and critique: commenting on a data
+visualization blog</article-title>. In: <conf-name>Proceedings of the 18th
+ACM conference on computer supported cooperative work &#x00026; social
+computing</conf-name>, <conf-loc>Vancouver, BC, Canada</conf-loc>,
+<conf-date>28 February</conf-date>, pp.
+<fpage>1170</fpage>&#x02013;<lpage>1175</lpage>. <publisher-loc>New
+York</publisher-loc>: <publisher-name>ACM</publisher-name>.</mixed-citation></ref><ref id="bibr20-14614448221135632"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Jacmin-Park</surname><given-names>S</given-names></name><name><surname>Bourdon</surname><given-names>O</given-names></name><name><surname>Larocque</surname><given-names>O</given-names></name></person-group>, <etal>et al</etal>. (<year>2020</year>)
+<article-title>Sex-and gender-based analysis of coronavirus crisis
+competence</article-title>.
+<source>Psychoneuroendocrinology</source><volume>119</volume>:
+<fpage>104957</fpage>.</mixed-citation></ref><ref id="bibr21-14614448221135632"><mixed-citation publication-type="webpage"><person-group person-group-type="author"><name><surname>Kay</surname><given-names>M</given-names></name></person-group> (<year>2022</year>) <source>ggdist: Visualizations of
+Distributions and Uncertainty</source> (R Package Version 3.0.1). Available
+at: <ext-link xlink:href="https://mjskay.github.io/ggdist/" ext-link-type="uri">https://mjskay.github.io/ggdist/</ext-link></mixed-citation></ref><ref id="bibr22-14614448221135632"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lee</surname><given-names>NY</given-names></name><name><surname>McElroy</surname><given-names>K</given-names></name></person-group> (<year>2019</year>) <article-title>Online comments:
+the nature of comments on health journalism</article-title>.
+<source>Computers in Human Behavior</source><volume>92</volume>:
+<fpage>282</fpage>&#x02013;<lpage>287</lpage>.</mixed-citation></ref><ref id="bibr23-14614448221135632"><mixed-citation publication-type="confproc"><person-group person-group-type="author"><name><surname>McCombs</surname><given-names>M</given-names></name><name><surname>Weaver</surname><given-names>D</given-names></name></person-group> (<year>1973</year>) <article-title>Voters&#x02019; need for
+orientation and use of mass communication</article-title>. <conf-name>Paper
+presented at the annual meeting of the International Communication
+Association</conf-name>, <conf-loc>Montreal, QC, Canada</conf-loc>,
+<conf-date>25&#x02013;28 April</conf-date>.</mixed-citation></ref><ref id="bibr24-14614448221135632"><mixed-citation publication-type="webpage"><person-group person-group-type="author"><name><surname>Maycotte</surname><given-names>HO</given-names></name></person-group> (<year>2015</year>) <article-title>Big data triggers
+predictive journalism</article-title>. <source>Nieman Lab</source>.
+Available at: <ext-link xlink:href="https://www.niemanlab.org/2015/12/big-data-triggers-predictive-journalism/" ext-link-type="uri">https://www.niemanlab.org/2015/12/big-data-triggers-predictive-journalism/</ext-link>
+(<comment>accessed 2 June 2022</comment>).</mixed-citation></ref><ref id="bibr25-14614448221135632"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Mertens</surname><given-names>G</given-names></name><name><surname>Gerritsen</surname><given-names>L</given-names></name><name><surname>Duijndam</surname><given-names>S</given-names></name></person-group>, <etal>et al</etal>. (<year>2020</year>)
+<article-title>Fear of the coronavirus (COVID-19): predictors in an online
+study conducted in March 2020</article-title>. <source>Journal of Anxiety
+Disorders</source><volume>74</volume>:
+<fpage>102258</fpage>.<pub-id pub-id-type="pmid">32569905</pub-id></mixed-citation></ref><ref id="bibr26-14614448221135632"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Neiger</surname><given-names>M</given-names></name></person-group> (<year>2007</year>) <article-title>Media oracles: the
+cultural significance and political import of news referring to future
+events</article-title>.
+<source>Journalism</source><volume>8</volume>(<issue>3</issue>):
+<fpage>309</fpage>&#x02013;<lpage>321</lpage>.</mixed-citation></ref><ref id="bibr27-14614448221135632"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Pakpour</surname><given-names>AH</given-names></name><name><surname>Griffiths</surname><given-names>MD</given-names></name></person-group> (<year>2020</year>) <article-title>The fear of
+COVID-19 and its role in preventive behaviors</article-title>.
+<source>Journal of Concurrent
+Disorders</source><volume>2</volume>(<issue>1</issue>):
+<fpage>58</fpage>&#x02013;<lpage>63</lpage>.</mixed-citation></ref><ref id="bibr28-14614448221135632"><mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Patton</surname><given-names>MQ</given-names></name></person-group> (<year>2014</year>) <source>Qualitative Research
+&#x00026; Evaluation Methods: Integrating Theory and Practice</source>.
+<publisher-loc>Thousand Oaks, CA</publisher-loc>:
+<publisher-name>SAGE</publisher-name>.</mixed-citation></ref><ref id="bibr29-14614448221135632"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Pentzold</surname><given-names>C</given-names></name><name><surname>Fechner</surname><given-names>D</given-names></name></person-group> (<year>2020</year>) <article-title>Data journalism&#x02019;s
+many futures: diagrammatic displays and prospective probabilities in
+data-driven news predictions</article-title>.
+<source>Convergence</source><volume>26</volume>(<issue>4</issue>):
+<fpage>732</fpage>&#x02013;<lpage>750</lpage>.</mixed-citation></ref><ref id="bibr30-14614448221135632"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Pentzold</surname><given-names>C</given-names></name><name><surname>Fechner</surname><given-names>D</given-names></name></person-group> (<year>2021</year>) <article-title>Probabilistic
+storytelling and temporal exigencies in predictive data
+journalism</article-title>. <source>Digital
+Journalism</source><volume>9</volume>(<issue>6</issue>):
+<fpage>715</fpage>&#x02013;<lpage>736</lpage>.</mixed-citation></ref><ref id="bibr31-14614448221135632"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Pentzold</surname><given-names>C</given-names></name><name><surname>Fechner</surname><given-names>DJ</given-names></name><name><surname>Zuber</surname><given-names>C</given-names></name></person-group> (<year>2021</year>) <article-title>&#x0201c;Flatten the
+Curve&#x0201d;: data-driven projections and the journalistic brokering of knowledge
+during the COVID-19 crisis</article-title>. <source>Digital
+Journalism</source><volume>9</volume>(<issue>9</issue>):
+<fpage>1367</fpage>&#x02013;<lpage>1390</lpage>.</mixed-citation></ref><ref id="bibr32-14614448221135632"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Perreault</surname><given-names>MF</given-names></name><name><surname>Perreault</surname><given-names>GP</given-names></name></person-group> (<year>2021</year>) <article-title>Journalists on
+COVID-19 journalism: communication ecology of pandemic
+reporting</article-title>. <source>American Behavioral
+Scientist</source><volume>65</volume>(<issue>7</issue>):
+<fpage>976</fpage>&#x02013;<lpage>991</lpage>.</mixed-citation></ref><ref id="bibr33-14614448221135632"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Rowe</surname><given-names>I</given-names></name></person-group> (<year>2015</year>) <article-title>Deliberation 2.0:
+comparing the deliberative quality of online news user comments across
+platforms</article-title>. <source>Journal of Broadcasting &#x00026; Electronic
+Media</source><volume>59</volume>(<issue>4</issue>):
+<fpage>539</fpage>&#x02013;<lpage>555</lpage>.</mixed-citation></ref><ref id="bibr34-14614448221135632"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Santana</surname><given-names>AD</given-names></name></person-group> (<year>2014</year>) <article-title>Virtuous or
+vitriolic: the effect of anonymity on civility in online newspaper reader
+comment boards</article-title>. <source>Journalism
+Practice</source><volume>8</volume>(<issue>1</issue>):
+<fpage>18</fpage>&#x02013;<lpage>33</lpage>.</mixed-citation></ref><ref id="bibr35-14614448221135632"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Satici</surname><given-names>B</given-names></name><name><surname>Saricali</surname><given-names>M</given-names></name><name><surname>Satici</surname><given-names>SA</given-names></name></person-group>, <etal>et al</etal>. (<year>2022</year>)
+<article-title>Intolerance of uncertainty and mental wellbeing: serial
+mediation by rumination and fear of COVID-19</article-title>.
+<source>International Journal of Mental Health and
+Addiction</source><volume>20</volume>(<issue>5</issue>):
+<fpage>2731</fpage>&#x02013;<lpage>2742</lpage>.<pub-id pub-id-type="pmid">32427165</pub-id></mixed-citation></ref><ref id="bibr36-14614448221135632"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Secko</surname><given-names>DM</given-names></name><name><surname>Tlalka</surname><given-names>S</given-names></name><name><surname>Dunlop</surname><given-names>M</given-names></name></person-group>, <etal>et al</etal>. (<year>2011</year>)
+<article-title>The unfinished science story: journalist&#x02013;audience
+interactions from the globe and mail&#x02019;s online health and science
+sections</article-title>.
+<source>Journalism</source><volume>12</volume>(<issue>7</issue>):
+<fpage>814</fpage>&#x02013;<lpage>831</lpage>.</mixed-citation></ref><ref id="bibr37-14614448221135632"><mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Seligman</surname><given-names>ME</given-names></name><name><surname>Railton</surname><given-names>P</given-names></name><name><surname>Baumeister</surname><given-names>RF</given-names></name></person-group>, <etal>et al</etal>. (<year>2016</year>) <source>Homo
+Prospectus</source>. <publisher-loc>Oxford</publisher-loc>:
+<publisher-name>Oxford University Press</publisher-name>.</mixed-citation></ref><ref id="bibr38-14614448221135632"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Spiegelhalter</surname><given-names>D</given-names></name></person-group> (<year>2017</year>) <article-title>Risk and
+uncertainty communication</article-title>. <source>Annual Review of
+Statistics and Its Application</source><volume>4</volume>:
+<fpage>31</fpage>&#x02013;<lpage>60</lpage>.</mixed-citation></ref><ref id="bibr39-14614448221135632"><mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Strauss</surname><given-names>A</given-names></name><name><surname>Corbin</surname><given-names>J</given-names></name></person-group> (<year>1990</year>) <source>Basics of Qualitative
+Research</source>. <publisher-loc>Thousand Oaks, CA</publisher-loc>:
+<publisher-name>SAGE</publisher-name>.</mixed-citation></ref><ref id="bibr40-14614448221135632"><mixed-citation publication-type="confproc"><person-group person-group-type="author"><name><surname>Sukumaran</surname><given-names>A</given-names></name><name><surname>Vezich</surname><given-names>S</given-names></name><name><surname>McHugh</surname><given-names>M</given-names></name></person-group>, <etal>et al</etal>. (<year>2011</year>)
+<article-title>Normative influences on thoughtful online
+participation</article-title>. In: <conf-name>Proceedings of the SIGCHI
+conference on human factors in computing systems</conf-name>,
+<conf-loc>Vancouver, BC, Canada</conf-loc>, <conf-date>7&#x02013;12 May</conf-date>,
+pp. <fpage>3401</fpage>&#x02013;<lpage>3410</lpage>. <publisher-loc>New
+York</publisher-loc>: <publisher-name>ACM</publisher-name>.</mixed-citation></ref><ref id="bibr41-14614448221135632"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Szpunar</surname><given-names>KK</given-names></name><name><surname>Spreng</surname><given-names>RN</given-names></name><name><surname>Schacter</surname><given-names>DL</given-names></name></person-group> (<year>2014</year>) <article-title>A taxonomy of
+prospection: introducing an organizational framework for future-oriented
+cognition</article-title>. <source>Proceedings of the National Academy of
+Sciences</source><volume>111</volume>(<issue>52</issue>):
+<fpage>18414</fpage>&#x02013;<lpage>18421</lpage>.</mixed-citation></ref><ref id="bibr42-14614448221135632"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Toff</surname><given-names>B</given-names></name></person-group> (<year>2019</year>) <article-title>The &#x02018;nate silver
+effect&#x02019; on political journalism: gatecrashers, gatekeepers, and changing
+newsroom practices around coverage of public opinion polls</article-title>.
+<source>Journalism</source><volume>20</volume>(<issue>7</issue>):
+<fpage>873</fpage>&#x02013;<lpage>889</lpage>.</mixed-citation></ref><ref id="bibr43-14614448221135632"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wahl-Jorgensen</surname><given-names>K</given-names></name><name><surname>Pantti</surname><given-names>M</given-names></name></person-group> (<year>2021</year>) <article-title>Introduction: the
+emotional turn in journalism</article-title>.
+<source>Journalism</source><volume>22</volume>(<issue>5</issue>):
+<fpage>1147</fpage>&#x02013;<lpage>1154</lpage>.</mixed-citation></ref><ref id="bibr44-14614448221135632"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Westwood</surname><given-names>SJ</given-names></name><name><surname>Messing</surname><given-names>S</given-names></name><name><surname>Lelkes</surname><given-names>Y</given-names></name></person-group> (<year>2020</year>) <article-title>Projecting
+confidence: how the probabilistic horse race confuses and demobilizes the
+public</article-title>. <source>The Journal of
+Politics</source><volume>82</volume>(<issue>4</issue>):
+<fpage>1530</fpage>&#x02013;<lpage>1544</lpage>.</mixed-citation></ref><ref id="bibr45-14614448221135632"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Yanovitzky</surname><given-names>I</given-names></name><name><surname>Weber</surname><given-names>MS</given-names></name></person-group> (<year>2019</year>) <article-title>News media as
+knowledge brokers in public policymaking processes</article-title>.
+<source>Communication Theory</source><volume>29</volume>(<issue>2</issue>):
+<fpage>191</fpage>&#x02013;<lpage>212</lpage>.</mixed-citation></ref></ref-list></back></article>

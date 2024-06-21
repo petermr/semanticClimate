@@ -1,0 +1,28 @@
+<dictionary title="abb_chapter03">
+  
+  <metadata>
+    <edit date="2022-12-04" editor="Sunag">Automatic creation from docanalysis</edit>
+  </metadata>
+  
+  <entry name="IMPs" term="Illustrative Mitigation Pathways" wikidataID=""/>
+  <entry name="SR1.5" term="Special Report on Global Warming of 1.5C" wikidataID=""/>
+  <entry name="SDGs" term="Sustainable  Development  Goals" wikidataID=""/>
+  <entry name="IPs" term="Illustrative Pathways" wikidataID=""/>
+  <entry name="IAMs" term="Integrated  Assessment  Models" wikidataID=""/>
+  <entry name="GWL" term="global  warming levels" wikidataID=""/>
+  <entry name="BECCS" term="bio-energy-and-carbon-capture-and-storage" wikidataID=""/>
+  <entry name="DACCS" term="direct air carbon capture and storage" wikidataID=""/>
+  <entry name="GHGs" term="greenhouse gases">
+    <raw wikidataID="Q167336"/>
+  </entry>
+  <entry name="F-gases" term="fluorinated  gases" wikidataID=""/>
+  <entry name="GWPs" term="Global  Warming  Potentials" wikidataID=""/>
+  <entry name="GTP" term="Global  Temperature  change  Potentials" wikidataID=""/>
+  <entry name="GTEMs" term="global  transport  energy  sectoral  models" wikidataID=""/>
+  <entry name="CEA" term="Cost-effectiveness analysis" wikidataID="Q1754768"/>
+  <entry name="CBA" term="Cost-benefit  analysis" wikidataID=""/>
+  <entry name="France" term="from avoided climate impacts along long-term mitigation pathways Authors:  Celine Guivarch" wikidataID=""/>
+  <entry name="KRs" term="Key  Risks" wikidataID=""/>
+  <entry name="RKRs" term="Representative  Key  Risks" wikidataID=""/>
+  <entry name="CDR" term="carbon  dioxide  removal" wikidataID=""/>
+</dictionary>

@@ -1,0 +1,244 @@
+<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" id="Par28">Our results from the main specifications are consistent with a series of robustness tests. In the first robustness specification (Table <xref rid="Tab2" ref-type="table">2</xref>), we extend our main specification with time-varying bins of monthly temperature anomalies. Using the 0.2&#8211;0.4<inline-formula id="IEq28"><alternatives><tex-math id="M63">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M64"><mml:mrow><mml:msup><mml:mrow/><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq28.gif"/></alternatives></inline-formula> as the reference bin, our results suggest that relatively low monthly temperature anomalies (&lt; 0.2<inline-formula id="IEq29"><alternatives><tex-math id="M65">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M66"><mml:mrow><mml:msup><mml:mrow/><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq29.gif"/></alternatives></inline-formula>) reduce incidences of food insecurity (for both indicators). However, the coefficients for this anomaly bin changes rather slowly over time. Compared to the reference bin, temperature anomalies in the higher bins result in an increase in incidences of food insecurity. The coefficients of all the higher temperature bins (additional months with relatively higher temperature anomalies) also increase over time, providing further evidence that the magnitude of increasing temperature anomaly on food insecurity has increased over time.<table-wrap id="Tab2"><label>Table 2</label><caption><p>Time-varying regressions with bins of monthly temperature anomalies (0.2&#8211;0.4<inline-formula id="IEq30"><alternatives><tex-math id="M67">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M68"><mml:mrow><mml:msup><mml:mrow/><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq30.gif"/></alternatives></inline-formula> is the reference bin).</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"/><th align="left">Moderate to severe</th><th align="left">Severe</th></tr></thead><tbody><tr><td align="left">SHDI</td><td align="left">&#8722;&#160;2.631</td><td align="left">&#8722;&#160;2.147</td></tr><tr><td align="left"/><td align="left">(&#8722;&#160;2.848, &#8722;&#160;2.414)</td><td align="left">(&#8722;&#160;2.292, &#8722;&#160;2.002)</td></tr><tr><td align="left">Drought (SPI-6)</td><td align="left">0.014</td><td align="left">0.008</td></tr><tr><td align="left"/><td align="left">(0.012, 0.016)</td><td align="left">(0.007, 0.009)</td></tr><tr><td align="left">Temperature anomaly<sub>(t)</sub></td><td align="left"/><td align="left"/></tr><tr><td align="left">2014: <inline-formula id="IEq31"><alternatives><tex-math id="M69">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$&lt; 0.2^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M70"><mml:mrow><mml:mo>&lt;</mml:mo><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:msup><mml:mn>2</mml:mn><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq31.gif"/></alternatives></inline-formula></td><td align="left">&#8722;&#160;0.008</td><td align="left">&#8722;&#160;0.005</td></tr><tr><td align="left"/><td align="left">(&#8722;&#160;0.007, &#8722;&#160;0.011)</td><td align="left">(&#8722;&#160;0.004, &#8722;&#160;0.006)</td></tr><tr><td align="left">2015: <inline-formula id="IEq32"><alternatives><tex-math id="M71">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$&lt; 0.2^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M72"><mml:mrow><mml:mo>&lt;</mml:mo><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:msup><mml:mn>2</mml:mn><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq32.gif"/></alternatives></inline-formula></td><td align="left">&#8722;&#160;0.009</td><td align="left">&#8722;&#160;0.006</td></tr><tr><td align="left"/><td align="left">(&#8722;&#160;0.008, &#8722;&#160;0.010)</td><td align="left">(&#8722;&#160;0.003, &#8722;&#160;0.009)</td></tr><tr><td align="left">2016: <inline-formula id="IEq33"><alternatives><tex-math id="M73">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$&lt; 0.2^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M74"><mml:mrow><mml:mo>&lt;</mml:mo><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:msup><mml:mn>2</mml:mn><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq33.gif"/></alternatives></inline-formula></td><td align="left">&#8722;&#160;0.009</td><td align="left">&#8722;&#160;0.005</td></tr><tr><td align="left"/><td align="left">(&#8722;&#160;0.007, &#8722;&#160;0.011)</td><td align="left">(&#8722;&#160;0.003, &#8722;&#160;0.007)</td></tr><tr><td align="left">2017: <inline-formula id="IEq34"><alternatives><tex-math id="M75">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$&lt; 0.2^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M76"><mml:mrow><mml:mo>&lt;</mml:mo><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:msup><mml:mn>2</mml:mn><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq34.gif"/></alternatives></inline-formula></td><td align="left">&#8722;&#160;0.008</td><td align="left">&#8722;&#160;0.006</td></tr><tr><td align="left"/><td align="left">(&#8722;&#160;0.004, &#8722;&#160;0.011)</td><td align="left">(&#8722;&#160;0.003, &#8722;&#160;0.009)</td></tr><tr><td align="left">2018: <inline-formula id="IEq35"><alternatives><tex-math id="M77">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$&lt; 0.2^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M78"><mml:mrow><mml:mo>&lt;</mml:mo><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:msup><mml:mn>2</mml:mn><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq35.gif"/></alternatives></inline-formula></td><td align="left">&#8722;&#160;0.010</td><td align="left">&#8722;&#160;0.005</td></tr><tr><td align="left"/><td align="left">(&#8722;&#160;0.008, &#8722;&#160;0.012)</td><td align="left">(&#8722;&#160;0.004, &#8722;&#160;0.006)</td></tr><tr><td align="left">2019: <inline-formula id="IEq36"><alternatives><tex-math id="M79">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$&lt; 0.2^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M80"><mml:mrow><mml:mo>&lt;</mml:mo><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:msup><mml:mn>2</mml:mn><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq36.gif"/></alternatives></inline-formula></td><td align="left">&#8722;&#160;0.009</td><td align="left">&#8722;&#160;0.006</td></tr><tr><td align="left"/><td align="left">(&#8722;&#160;0.007, &#8722;&#160;0.011)</td><td align="left">(&#8722;&#160;0.004, &#8722;&#160;0.007)</td></tr><tr><td align="left">2014: 0.4&#8211;0.6<inline-formula id="IEq37"><alternatives><tex-math id="M81">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M82"><mml:mrow><mml:msup><mml:mrow/><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq37.gif"/></alternatives></inline-formula></td><td align="left">0.028</td><td align="left">0.020</td></tr><tr><td align="left"/><td align="left">(0.026, 0.030)</td><td align="left">(0.018, 0.022)</td></tr><tr><td align="left">2015: 0.4&#8211;0.6<inline-formula id="IEq38"><alternatives><tex-math id="M83">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M84"><mml:mrow><mml:msup><mml:mrow/><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq38.gif"/></alternatives></inline-formula></td><td align="left">0.030</td><td align="left">0.021</td></tr><tr><td align="left"/><td align="left">(0.027, 0.033)</td><td align="left">(0.017, 0.025)</td></tr><tr><td align="left">2016: 0.4&#8211;0.6<inline-formula id="IEq39"><alternatives><tex-math id="M85">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M86"><mml:mrow><mml:msup><mml:mrow/><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq39.gif"/></alternatives></inline-formula></td><td align="left">0.031</td><td align="left">0.022</td></tr><tr><td align="left"/><td align="left">(0.030, 0.032)</td><td align="left">(0.019, 0.024)</td></tr><tr><td align="left">2017: 0.4 &#8211;0.6<inline-formula id="IEq40"><alternatives><tex-math id="M87">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M88"><mml:mrow><mml:msup><mml:mrow/><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq40.gif"/></alternatives></inline-formula></td><td align="left">0.033</td><td align="left">0.024</td></tr><tr><td align="left"/><td align="left">(0.031, 0.035)</td><td align="left">(0.022, 0.026)</td></tr><tr><td align="left">2018: 0.4 &#8211;0.6<inline-formula id="IEq41"><alternatives><tex-math id="M89">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M90"><mml:mrow><mml:msup><mml:mrow/><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq41.gif"/></alternatives></inline-formula></td><td align="left">0.033</td><td align="left">0.024</td></tr><tr><td align="left"/><td align="left">(0.030, 0.036)</td><td align="left">(0.021, 0.027)</td></tr><tr><td align="left">2019: 0.4 &#8211;0.6<inline-formula id="IEq42"><alternatives><tex-math id="M91">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M92"><mml:mrow><mml:msup><mml:mrow/><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq42.gif"/></alternatives></inline-formula></td><td align="left">0.035</td><td align="left">0.026</td></tr><tr><td align="left"/><td align="left">(0.033, 0.037)</td><td align="left">(0.024, 0.028)</td></tr><tr><td align="left">2014: 0.6&#8211;0.8<inline-formula id="IEq43"><alternatives><tex-math id="M93">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M94"><mml:mrow><mml:msup><mml:mrow/><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq43.gif"/></alternatives></inline-formula></td><td align="left">0.039</td><td align="left">0.030</td></tr><tr><td align="left"/><td align="left">(0.037, 0.041)</td><td align="left">(0.028, 0.032)</td></tr><tr><td align="left">2015: 0.6&#8211;0.8<inline-formula id="IEq44"><alternatives><tex-math id="M95">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M96"><mml:mrow><mml:msup><mml:mrow/><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq44.gif"/></alternatives></inline-formula></td><td align="left">0.040</td><td align="left">0.031</td></tr><tr><td align="left"/><td align="left">(0.039, 0.041)</td><td align="left">(0.029, 0.033)</td></tr><tr><td align="left">2016: 0.6&#8211;0.8<inline-formula id="IEq45"><alternatives><tex-math id="M97">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M98"><mml:mrow><mml:msup><mml:mrow/><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq45.gif"/></alternatives></inline-formula></td><td align="left">0.041</td><td align="left">0.033</td></tr><tr><td align="left"/><td align="left">(0.039, 0.043)</td><td align="left">(0.031, 0.034)</td></tr><tr><td align="left">2017: 0.6&#8211;0.8<inline-formula id="IEq46"><alternatives><tex-math id="M99">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M100"><mml:mrow><mml:msup><mml:mrow/><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq46.gif"/></alternatives></inline-formula></td><td align="left">0.043</td><td align="left">0.035</td></tr><tr><td align="left"/><td align="left">(0.040, 0.046)</td><td align="left">(0.033, 0.037)</td></tr><tr><td align="left">2018: 0.6 &#8211;0.8<inline-formula id="IEq47"><alternatives><tex-math id="M101">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M102"><mml:mrow><mml:msup><mml:mrow/><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq47.gif"/></alternatives></inline-formula></td><td align="left">0.042</td><td align="left">0.034</td></tr><tr><td align="left"/><td align="left">(0.040, 0.044)</td><td align="left">(0.031, 0.037)</td></tr><tr><td align="left">2019: 0.6&#8211;0.8<inline-formula id="IEq48"><alternatives><tex-math id="M103">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M104"><mml:mrow><mml:msup><mml:mrow/><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq48.gif"/></alternatives></inline-formula></td><td align="left">0.044</td><td align="left">0.036</td></tr><tr><td align="left"/><td align="left">(0.043, 0.045)</td><td align="left">(0.033, 0.039)</td></tr><tr><td align="left">2014: <inline-formula id="IEq49"><alternatives><tex-math id="M105">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$&gt; 0.8^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M106"><mml:mrow><mml:mo>&gt;</mml:mo><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:msup><mml:mn>8</mml:mn><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq49.gif"/></alternatives></inline-formula></td><td align="left">0.047</td><td align="left">0.039</td></tr><tr><td align="left"/><td align="left">(0.044, 0.050)</td><td align="left">(0.037, 0.041)</td></tr><tr><td align="left">2015: <inline-formula id="IEq50"><alternatives><tex-math id="M107">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$&gt; 0.8^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M108"><mml:mrow><mml:mo>&gt;</mml:mo><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:msup><mml:mn>8</mml:mn><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq50.gif"/></alternatives></inline-formula></td><td align="left">0.048</td><td align="left">0.041</td></tr><tr><td align="left"/><td align="left">(0.046, 0.050)</td><td align="left">(0.038, 0.044)</td></tr><tr><td align="left">2016: <inline-formula id="IEq51"><alternatives><tex-math id="M109">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$&gt; 0.8^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M110"><mml:mrow><mml:mo>&gt;</mml:mo><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:msup><mml:mn>8</mml:mn><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq51.gif"/></alternatives></inline-formula></td><td align="left">0.050</td><td align="left">0.042</td></tr><tr><td align="left"/><td align="left">(0.047, 0.053)</td><td align="left">(0.039, 0.045)</td></tr><tr><td align="left">2017: <inline-formula id="IEq52"><alternatives><tex-math id="M111">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$&gt; 0.8^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M112"><mml:mrow><mml:mo>&gt;</mml:mo><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:msup><mml:mn>8</mml:mn><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq52.gif"/></alternatives></inline-formula></td><td align="left">0.051</td><td align="left">0.043</td></tr><tr><td align="left"/><td align="left">(0.049, 0.053)</td><td align="left">(0.040, 0.046)</td></tr><tr><td align="left">2018: <inline-formula id="IEq53"><alternatives><tex-math id="M113">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$&gt; 0.8^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M114"><mml:mrow><mml:mo>&gt;</mml:mo><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:msup><mml:mn>8</mml:mn><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq53.gif"/></alternatives></inline-formula></td><td align="left">0.050</td><td align="left">0.043</td></tr><tr><td align="left"/><td align="left">(0.047, 0.053)</td><td align="left">(0.042, 0.044)</td></tr><tr><td align="left">2019: <inline-formula id="IEq54"><alternatives><tex-math id="M115">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$&gt; 0.8^{\circ }\,\hbox {C}$$\end{document}</tex-math><mml:math id="M116"><mml:mrow><mml:mo>&gt;</mml:mo><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:msup><mml:mn>8</mml:mn><mml:mo>&#8728;</mml:mo></mml:msup><mml:mspace width="0.166667em"/><mml:mtext>C</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq54.gif"/></alternatives></inline-formula></td><td align="left">0.054</td><td align="left">0.045</td></tr><tr><td align="left"/><td align="left">(0.052, 0.056)</td><td align="left">(0.043, 0.047)</td></tr></tbody></table></table-wrap></p>

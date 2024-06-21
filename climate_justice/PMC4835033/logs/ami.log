@@ -1,0 +1,60 @@
+09:22:46.143 INFO  org.contentmine.ami.tools.AMI - args: [-p, ., search]
+09:22:46.169 DEBUG org.contentmine.ami.tools.AMI - Specified verbosity=0, this translates to level=WARN
+09:22:46.169 DEBUG org.contentmine.ami.tools.AMI - Reconfiguring Console appender with WARN
+09:22:46.170 INFO  org.contentmine.ami.tools.AMI - (The console will show WARN level messages)
+09:22:46.170 INFO  org.contentmine.ami.tools.AMI - (Logs will also be printed to /Users/pm286/projects/semanticClimate/climate_justice/PMC4835033/logs/ami.log)
+09:22:46.331 DEBUG org.contentmine.ami.tools.AMI - Version: ami 2021.09.27_15.49-NEXT-SNAPSHOT
+(jar:file:/Users/pm286/workspace/cmdev/ami3/target/appassembler/repo/ami3-2021.09.27_15.49-NEXT-SNAPSHOT.jar)
+JVM: 14.0.1 (Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 14.0.1+7)
+OS: Mac OS X 10.16 x86_64
+
+09:22:46.333 WARN  org.contentmine.ami.tools.AbstractAMITool - 
+09:22:46.333 WARN  org.contentmine.ami.tools.AbstractAMITool - Generic values (AMISearchTool)
+09:22:46.333 WARN  org.contentmine.ami.tools.AbstractAMITool - ================================
+09:22:46.419 INFO  org.contentmine.ami.tools.AbstractAMITool - input basename      null
+09:22:46.419 INFO  org.contentmine.ami.tools.AbstractAMITool - input basename list null
+09:22:46.420 INFO  org.contentmine.ami.tools.AbstractAMITool - cproject            /Users/pm286/projects/semanticClimate/climate_justice/PMC4835033/.
+09:22:46.420 INFO  org.contentmine.ami.tools.AbstractAMITool - ctree               
+09:22:46.420 INFO  org.contentmine.ami.tools.AbstractAMITool - cTreeList           [./logs]
+09:22:46.420 INFO  org.contentmine.ami.tools.AbstractAMITool - excludeBase         {}
+09:22:46.420 INFO  org.contentmine.ami.tools.AbstractAMITool - excludeTrees        {}
+09:22:46.420 INFO  org.contentmine.ami.tools.AbstractAMITool - forceMake           false
+09:22:46.421 INFO  org.contentmine.ami.tools.AbstractAMITool - includeBase         {}
+09:22:46.421 INFO  org.contentmine.ami.tools.AbstractAMITool - includeTrees        null
+09:22:46.421 INFO  org.contentmine.ami.tools.AbstractAMITool - log4j               {}
+09:22:46.421 INFO  org.contentmine.ami.tools.AbstractAMITool - verbose             0
+09:22:46.421 WARN  org.contentmine.ami.tools.AbstractAMITool - 
+09:22:46.421 WARN  org.contentmine.ami.tools.AbstractAMITool - Specific values (AMISearchTool)
+09:22:46.422 WARN  org.contentmine.ami.tools.AbstractAMITool - ================================
+09:22:46.422 INFO  org.contentmine.ami.tools.AbstractAMITool - Command line options for 'ami search':
+09:22:46.423 INFO  org.contentmine.ami.tools.AbstractAMITool - --stripNumbers      : d     false
+09:22:46.423 INFO  org.contentmine.ami.tools.AbstractAMITool - --wordCount         : d (20,1000000)
+09:22:46.424 INFO  org.contentmine.ami.tools.AbstractAMITool - --wordLength        : d    (1,20)
+09:22:46.424 INFO  org.contentmine.ami.tools.AbstractAMITool - --wikidataBiblio    : d     false
+09:22:46.424 INFO  org.contentmine.ami.tools.AbstractAMITool - --no-oldstyle       : d      true
+09:22:46.424 INFO  org.contentmine.ami.tools.AbstractAMITool - --dictionary        : d      null
+09:22:46.424 INFO  org.contentmine.ami.tools.AbstractAMITool - --dictionarySuffix  : d     [xml]
+09:22:46.425 INFO  org.contentmine.ami.tools.AbstractAMITool - --dictionaryTop     : d [/Users/pm286/ami/dictionary]
+09:22:46.425 INFO  org.contentmine.ami.tools.AbstractAMITool - --ignorePlugins     : d        []
+09:22:46.425 INFO  org.contentmine.ami.tools.AbstractAMITool - --help              : d     false
+09:22:46.426 INFO  org.contentmine.ami.tools.AbstractAMITool - --version           : d     false
+09:22:46.549 WARN  org.contentmine.ami.tools.AMISearchTool - created COMMAND: word(frequencies)xpath:@count>20~w.stopwords:pmcstop.txt_stopwords.txt
+09:22:46.551 DEBUG org.contentmine.ami.tools.AbstractAMISearchTool - old style search command); to be changed
+09:22:46.551 WARN  org.contentmine.ami.tools.AMISearchTool - cProject: .
+09:22:46.552 WARN  org.contentmine.ami.tools.AMISearchTool - created COMMAND: word(frequencies)xpath:@count>20~w.stopwords:pmcstop.txt_stopwords.txt
+09:22:46.552 INFO  org.contentmine.ami.tools.AMISearchTool - ASTrunning search: word(frequencies)xpath:@count>20~w.stopwords:pmcstop.txt_stopwords.txt
+09:22:46.552 INFO  org.contentmine.ami.tools.AbstractAMISearchTool - SEARCH running legacy processors
+09:22:46.554 DEBUG org.contentmine.ami.plugins.CommandProcessor - ComProc> Reading old AMI abbreviations: obsolete these
+09:22:46.556 WARN  org.contentmine.ami.tools.AbstractAMISearchTool - legacy cmd> word(frequencies)xpath:@count>20~w.stopwords:pmcstop.txt_stopwords.txt
+09:22:46.560 DEBUG org.contentmine.ami.plugins.CommandProcessor - running NORMA -i fulltext.xml -o scholarly.html --transform nlm2html --project .
+09:22:46.646 DEBUG org.contentmine.ami.plugins.CommandProcessor - 
++++++++++++++++++++running: word; word([frequencies])[{xpath:@count>20}, {w.stopwords:pmcstop.txt stopwords.txt}]
+09:22:46.690 WARN  org.contentmine.ami.wordutil.WordSetWrapper - WSW> Cannot read stopword stream: /org/contentmine/ami/wordutil, ami3, version 2021/09/27_15/49-NEXT-SNAPSHOT/pmcstop.txt
+09:22:46.691 WARN  org.contentmine.ami.wordutil.WordSetWrapper - WSW> Cannot read stopword stream: /org/contentmine/ami/wordutil, ami3, version 2021/09/27_15/49-NEXT-SNAPSHOT/stopwords.txt
+09:22:46.700 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - no words found to extract
+09:22:46.701 DEBUG org.contentmine.ami.plugins.word.WordCollectionFactory - no words found to extract
+09:22:46.774 INFO  org.contentmine.ami.tools.AbstractAMISearchTool - Running oldstyle datatales
+09:22:46.776 WARN  org.contentmine.ami.plugins.CommandProcessor - 
+create data tables
+09:22:46.781 WARN  org.contentmine.ami.plugins.ResultsAnalysisImpl - Null pluginOption
+09:22:46.789 DEBUG org.contentmine.ami.AMIProcessor - dicts: null

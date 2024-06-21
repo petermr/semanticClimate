@@ -1,0 +1,37 @@
+<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" id="Par45">Table <xref rid="Tab14" ref-type="table">14</xref> summarizes the ranks of the various models for <inline-formula id="IEq49"><alternatives><tex-math id="M109">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\mu}$$\end{document}</tex-math><mml:math id="M110" display="inline"><mml:mover accent="true"><mml:mi>&#956;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq49.gif"/></alternatives></inline-formula> and <inline-formula id="IEq50"><alternatives><tex-math id="M111">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\sigma}$$\end{document}</tex-math><mml:math id="M112" display="inline"><mml:mover accent="true"><mml:mi>&#963;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq50.gif"/></alternatives></inline-formula> based on the AIC, BIC, NLL, and LR test results. From the table, it is apparent that evaporation-based models dominate. AMS<sub>17</sub>, AMS<sub>9</sub>, and AMS<sub>12</sub> can be removed from the list, as they are all evaporation-based and did not significantly improve the performance of AMS<sub>3</sub>, according to the LR tests. From the foregoing, it is apparent that the lake open water evaporative demand has the most significant influence on the AMS series, followed by rainfall over the lake and inflowing discharge. The lake evaporative demand is implicitly a function of the temperature regime in an unlimited moisture supply environment like Lake Malawi. Many studies have reported on increasing temperatures in Malawi (Warnatzsch and Reay <xref ref-type="bibr" rid="CR77">2015</xref> and references within, Ngongondo et al. <xref ref-type="bibr" rid="CR52">2015</xref>) and over Southern Africa (Engelbrecht et al. <xref ref-type="bibr" rid="CR16">2015</xref>, Ngongondo et al. <xref ref-type="bibr" rid="CR52">2015</xref>, Ma&#250;re et al. <xref ref-type="bibr" rid="CR47">2018</xref>). In the &#8220;<xref rid="Sec9" ref-type="sec">Temporal hydro-climatic pattern of Lake Malawi basin (1899 to 2017</xref>)&#8221; section, this study also reported on statistically significant increases in the temperature and the evaporation regimes of Lake Malawi. In their modeling studies, Crossely et al. (1990) established that reduced rainfall by 30% in the Lake Malawi basin resulted in increased evaporation over the lake by up to 4%, with mean inflowing river discharge decreasing by up to 48%. Awange et al. (<xref ref-type="bibr" rid="CR2">2008</xref>) also reported a significant influence of rainfall in the recession of Lake Victoria during (1976&#8211;1999). However, that study only considered rainfall and discharge from some inflowing rivers.<table-wrap id="Tab14"><label>Table 14</label><caption><p>Rankings of the models for <inline-formula id="IEq51"><alternatives><tex-math id="M113">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\mu}$$\end{document}</tex-math><mml:math id="M114" display="inline"><mml:mover accent="true"><mml:mi>&#956;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq51.gif"/></alternatives></inline-formula> and <inline-formula id="IEq52"><alternatives><tex-math id="M115">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{\sigma}$$\end{document}</tex-math><mml:math id="M116" display="inline"><mml:mover accent="true"><mml:mi>&#963;</mml:mi><mml:mo stretchy="true">^</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq52.gif"/></alternatives></inline-formula></p></caption><table frame="hsides" rules="groups"><thead><tr><th>Model#</th><th>Covariate(s)</th><th>AIC</th><th>BIC</th><th>NLL</th><th>LR (<italic>p</italic> value)</th><th>Nested model</th></tr></thead><tbody><tr><td><italic>AMS</italic><sub><italic>3</italic></sub></td><td><italic>Evaporation*</italic></td><td><italic>92.47</italic></td><td><italic>99.61</italic></td><td><italic>42.23</italic></td><td><italic>0.0003</italic></td><td>AMS<sub>0</sub></td></tr><tr><td align="left">AMS<sub>17</sub></td><td>Evap, Evap</td><td>92.76</td><td>101.68</td><td>41.38</td><td>0.0006</td><td>AMS<sub>0</sub></td></tr><tr><td>AMS<sub>9</sub></td><td>Evap+Rainfall+Discharge</td><td>92.52</td><td>103.22</td><td>40.26</td><td>0.0018</td><td>AMS<sub>8</sub></td></tr><tr><td>AMS<sub>1</sub></td><td>Rainfall</td><td>98.87</td><td>106.01</td><td>45.43</td><td>0.0097</td><td>AMS<sub>0</sub></td></tr><tr><td>AMS<sub>2</sub></td><td>Discharge</td><td>99.31</td><td>106.45</td><td>45.66</td><td>0.0125</td><td>AMS<sub>0</sub></td></tr><tr><td><italic>AMS</italic><sub><italic>12</italic></sub></td><td><italic>Evaporation</italic></td><td><italic>100.71</italic></td><td><italic>107.85</italic></td><td><italic>46.36</italic></td><td><italic>0.0277</italic></td><td>AMS<sub>0</sub></td></tr></tbody></table></table-wrap></p>

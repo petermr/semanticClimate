@@ -1,0 +1,10 @@
+<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" id="Par45">With <inline-formula id="IEq1"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${Y}_{i}^{{{{{{{\mathrm{scn}}}}}}}}$$\end{document}</tex-math><mml:math id="M4"><mml:msubsup><mml:mrow><mml:mi>Y</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">scn</mml:mi></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="41467_2022_31056_Article_IEq1.gif"/></alternatives></inline-formula> denoting either the depth of flooding attributed to climate change in parcel <italic>i</italic> and in census tract <italic>c</italic>, or the amount of damage attributed to climate change from this flooding (calculated using the damage functions described above). Each one of these is estimated for each climate change scenario (scn: from 7 to 38% less precipitation without climate change). <italic>X</italic><sub><italic>c</italic></sub> is the vector of variables denoting the composition of the census tract in which the parcel is located (the ethnic composition variables and the median income. <italic>V</italic><sub><italic>ic</italic></sub> is a vector of measures associated with each specific parcel (the appraised value of the parcel, and whether it is a single-family home, mobile home, or multifamily home). In some specifications, we also interact with some of the <italic>X</italic><sub><italic>c</italic></sub> and <italic>V</italic><sub><italic>ic</italic></sub> variables. The <italic>&#946;</italic> coefficients denote the association of these measures with the climate change attributable impact on these properties.</p>

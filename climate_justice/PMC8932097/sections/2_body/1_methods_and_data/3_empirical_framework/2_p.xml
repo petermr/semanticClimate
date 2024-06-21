@@ -1,0 +1,28 @@
+<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" id="Par10">Most of the empirical literature focuses on constant-parameter coefficients that do not change over time. A standard fixed-effects (FE) specification can be written as:<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} y_{it} = \alpha _{i} + x^{\prime }_{it}\beta + \mu _{it} \end{aligned}$$\end{document}</tex-math><mml:math id="M8" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:msub><mml:mi>y</mml:mi><mml:mrow><mml:mi mathvariant="italic">it</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>&#945;</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msubsup><mml:mi>x</mml:mi><mml:mrow><mml:mi mathvariant="italic">it</mml:mi></mml:mrow><mml:mo>&#8242;</mml:mo></mml:msubsup><mml:mi>&#946;</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mi>&#956;</mml:mi><mml:mrow><mml:mi mathvariant="italic">it</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="41598_2022_8696_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula>where <inline-formula id="IEq4"><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\beta$$\end{document}</tex-math><mml:math id="M10"><mml:mi>&#946;</mml:mi></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq4.gif"/></alternatives></inline-formula> is a time-constant coefficient that measures the marginal impact above cross-sectional units&#8217; long-run average rate. A fixed-effects specification allows the individual and/or time specific effects to be correlated with explanatory variables. An assumption with such panel FE specifications is that the effects of observed explanatory variables, <inline-formula id="IEq5"><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\underline{x}$$\end{document}</tex-math><mml:math id="M12"><mml:munder><mml:mi>x</mml:mi><mml:mo>_</mml:mo></mml:munder></mml:math><inline-graphic xlink:href="41598_2022_8696_Article_IEq5.gif"/></alternatives></inline-formula>, are identical across cross-sectional units (<italic>i</italic>), and over time (<italic>t</italic>). However, this assumption of a time-constant effect of temperature anomaly may be too restrictive if the impact of climatic stressors on socioeconomic outcomes evolves over time, implying that more flexible approaches may therefore be needed. In such cases, regression specifications allowing for a time-varying association between the dependent variable and the covariates of interest are most likely more appropriate.</p>

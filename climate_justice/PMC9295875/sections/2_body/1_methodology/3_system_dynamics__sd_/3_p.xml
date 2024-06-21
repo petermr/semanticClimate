@@ -1,0 +1,29 @@
+<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" id="Par11">In addition, for the coupled equation, it is written as,<disp-formula id="Equ3"><label>3</label><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{\mathrm{d}C(i)}{\mathrm{d}t}=INPUT(i) - OUTPUT(i)$$\end{document}</tex-math><mml:math id="M6" display="block"><mml:mrow><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi>C</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mi>I</mml:mi><mml:mi>N</mml:mi><mml:mi>P</mml:mi><mml:mi>U</mml:mi><mml:mi>T</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>-</mml:mo><mml:mi>O</mml:mi><mml:mi>U</mml:mi><mml:mi>T</mml:mi><mml:mi>P</mml:mi><mml:mi>U</mml:mi><mml:mi>T</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>i</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:math><graphic xlink:href="10668_2022_2551_Article_Equ3.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ4"><label>4</label><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{\mathrm{d}C(j)}{\mathrm{d}t}=INPUT(j) - OUTPUT(j)$$\end{document}</tex-math><mml:math id="M8" display="block"><mml:mrow><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi>C</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>j</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mi>I</mml:mi><mml:mi>N</mml:mi><mml:mi>P</mml:mi><mml:mi>U</mml:mi><mml:mi>T</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>j</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>-</mml:mo><mml:mi>O</mml:mi><mml:mi>U</mml:mi><mml:mi>T</mml:mi><mml:mi>P</mml:mi><mml:mi>U</mml:mi><mml:mi>T</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>j</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:math><graphic xlink:href="10668_2022_2551_Article_Equ4.gif" position="anchor"/></alternatives></disp-formula>
+where <italic>i</italic> and <italic>j</italic> are variables. In modeling expression, the double arrow line can make the data addition and subtraction. So, it is shown as,<disp-formula id="Equ5"><label>5</label><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$EVENT FLOW=\sum (INPUT - OUTPUT)$$\end{document}</tex-math><mml:math id="M10" display="block"><mml:mrow><mml:mi>E</mml:mi><mml:mi>V</mml:mi><mml:mi>E</mml:mi><mml:mi>N</mml:mi><mml:mi>T</mml:mi><mml:mi>F</mml:mi><mml:mi>L</mml:mi><mml:mi>O</mml:mi><mml:mi>W</mml:mi><mml:mo>=</mml:mo><mml:mo>&#8721;</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:mi>I</mml:mi><mml:mi>N</mml:mi><mml:mi>P</mml:mi><mml:mi>U</mml:mi><mml:mi>T</mml:mi><mml:mo>-</mml:mo><mml:mi>O</mml:mi><mml:mi>U</mml:mi><mml:mi>T</mml:mi><mml:mi>P</mml:mi><mml:mi>U</mml:mi><mml:mi>T</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><graphic xlink:href="10668_2022_2551_Article_Equ5.gif" position="anchor"/></alternatives></disp-formula></p>

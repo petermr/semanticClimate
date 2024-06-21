@@ -1,0 +1,37 @@
+<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" id="Par4">For areas around lakes, there is an apparent need for estimating design values of lake level quantiles (Q<sub>T</sub>) with their associated return periods (T) in order to inform various aspects such as engineering infrastructural-related safety measures, flood hazard assessments, flood zoning, and subsequent mitigation measures (Botero and Frances <xref ref-type="bibr" rid="CR6">2010</xref>). The common approaches are through flood frequency analysis (FFA) using historical records (Iacobellis et al. <xref ref-type="bibr" rid="CR27">2011</xref>; Machado et al. <xref ref-type="bibr" rid="CR40">2015</xref>). As opposed to the use of physically based models which have various levels of data needs and the concepts of probable maximum precipitation or flood (PMP or PMF) (Fran&#231;ois et al. <xref ref-type="bibr" rid="CR18">2019</xref>), FFA is quiet convenient as it applies statistical methods to derive these quantiles, as long as the records are long enough. Conventional FFA has over the years been dependent on the assumption of a stationary time series, which can be defined as those time series whose probability distribution function (pdf) is independent of time (Bayazit <xref ref-type="bibr" rid="CR3">2015</xref>) or a series whose marginal distribution remains invariant with time (Salas et al. <xref ref-type="bibr" rid="CR63">2018</xref>). Under stationarity, all realizations of a random variable <italic>X</italic> are assumed to be independent and identically distributed (<italic>iid</italic>) with a probability distribution function <inline-formula id="IEq1"><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${F}_X\left(x/\underset{\_}{\varnothing}\right)$$\end{document}</tex-math><mml:math id="M2" display="inline"><mml:msub><mml:mi>F</mml:mi><mml:mi>X</mml:mi></mml:msub><mml:mfenced close=")" open="("><mml:mrow><mml:mi>x</mml:mi><mml:mo>/</mml:mo><mml:munder accentunder="false"><mml:mo>&#8709;</mml:mo><mml:mo>_</mml:mo></mml:munder></mml:mrow></mml:mfenced></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq1.gif"/></alternatives></inline-formula> and a time invariant parameter vector <inline-formula id="IEq2"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\underset{\_}{\varnothing }$$\end{document}</tex-math><mml:math id="M4" display="inline"><mml:munder accentunder="false"><mml:mo>&#8709;</mml:mo><mml:mo>_</mml:mo></mml:munder></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq2.gif"/></alternatives></inline-formula> (De Luca and Galasso <xref ref-type="bibr" rid="CR11">2018</xref>). With the documented evidence of natural and man-made and induced changes in lake levels globally, the concept of stationarity has been considerably challenged (Milly et al. <xref ref-type="bibr" rid="CR49">2008</xref>; Debele et al. <xref ref-type="bibr" rid="CR13">2017</xref>). Consequently, FFA approaches that incorporate time variance of the pdfs (or non-stationarity) is now being widely explored. Non-stationarity assumes that realizations of a random variable <italic>X</italic> are independent but not identically distributed (<italic>inid</italic>) with a probability distribution function <inline-formula id="IEq3"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${F}_X\left(x/\underset{\_}{\varnothing }(t)\right)$$\end{document}</tex-math><mml:math id="M6" display="inline"><mml:msub><mml:mi>F</mml:mi><mml:mi>X</mml:mi></mml:msub><mml:mfenced close=")" open="("><mml:mrow><mml:mi>x</mml:mi><mml:mo>/</mml:mo><mml:munder accentunder="false"><mml:mo>&#8709;</mml:mo><mml:mo>_</mml:mo></mml:munder><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced></mml:mrow></mml:mfenced></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq3.gif"/></alternatives></inline-formula> having a time variant parameter vector <inline-formula id="IEq4"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\underset{\_}{\varnothing }\ (t)$$\end{document}</tex-math><mml:math id="M8" display="inline"><mml:munder accentunder="false"><mml:mo>&#8709;</mml:mo><mml:mo>_</mml:mo></mml:munder><mml:mspace width="0.25em"/><mml:mfenced close=")" open="("><mml:mi>t</mml:mi></mml:mfenced></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq4.gif"/></alternatives></inline-formula> that is a function of some covariates (De Luca and Galasso <xref ref-type="bibr" rid="CR11">2018</xref>). Both approaches have their own sources of uncertainty, with stationary FFA (SFA hereafter) deriving most of uncertainty from the estimation of flood quantiles with return periods beyond the observed values. On the other hand, uncertainty in non-stationary FFA (NFA hereafter) arises from the assumed function(s) linking parameters and covariates. In addition to a plethora of available studies on both SFA and NFA, the merits and demerits of both approaches have also been reviewed by many authors (e.g., Bayazit <xref ref-type="bibr" rid="CR3">2015</xref>; Salas et al. <xref ref-type="bibr" rid="CR63">2018</xref>; Fran&#231;ois et al. <xref ref-type="bibr" rid="CR18">2019</xref>). What is clear from the literature is that the non-incorporation of non-stationarity in FFA may lead to over (or under) designing, with related negative societal and economic consequences (Salas et al. <xref ref-type="bibr" rid="CR63">2018</xref>). In addition, most of the studies have focused on SFA (and NFA) of either river discharge or precipitation series (e.g., Hounkp&#232; et al. <xref ref-type="bibr" rid="CR26">2014</xref>, &#352;raj et al. <xref ref-type="bibr" rid="CR69">2016</xref>, Ajami et al. <xref ref-type="bibr" rid="CR1">2017</xref>, De Paola et al. <xref ref-type="bibr" rid="CR12">2018</xref>, De Luca and Galasso <xref ref-type="bibr" rid="CR11">2018</xref>). This is despite there being a lot of studies providing evidence of lake level changes and an obvious need for design lake levels that take into consideration NFA. There is also an apparent need for an understanding of the role of key drivers of the lake level changes in NFA (Lopez and Frances <xref ref-type="bibr" rid="CR38">2013</xref>; Su and Chen <xref ref-type="bibr" rid="CR71">2019</xref>).</p>

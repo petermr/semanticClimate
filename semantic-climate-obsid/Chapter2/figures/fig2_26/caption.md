@@ -1,0 +1,5 @@
+![[fig2_26.png]]Figure 2.26 Future CO2 emissions from existing and currently planned fossil fuel infrastructure in the
+context of Paris carbon budgets in GtCO2 based on historic patterns of infrastructure lifetimes and capacity utilization. Future CO2 emissions estimates of existing infrastructure for the electricity sector as well as all other sectors (industry, transport, buildings, other fossil fuel infrastructures) and of proposed infrastructures for coal power as well as gas and oil power. Grey bars on the right depict the range (5th – 95th percentile) in overall cumulative net CO2 emissions until reaching net zero CO2 in pathways that limit warming to 1.5°C with no or limited overshoot (1.5°C scenarios), and in pathways that limit likely
+warming to 2°C (2°C scenarios).
+
+Source: Based on (Tong et al., 2019) and (Edenhofer et al., 2018).

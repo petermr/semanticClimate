@@ -1,0 +1,1 @@
+Table 2.3 Country groups with different degree of CBE-GDP decoupling from 2015 to 2018

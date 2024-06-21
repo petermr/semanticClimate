@@ -1,0 +1,55 @@
+<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" id="Par17">In addition, the <italic>F</italic> test was used to determine any differences in the second moment (variance) of the lake level time series. The test was undertaken under the null hypothesis (H<sub>0</sub>) of equal variance (<inline-formula id="IEq7"><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathrm{H}}_0:{\sigma}_1^2={\sigma}_2^2\Big)$$\end{document}</tex-math><mml:math id="M20" display="inline"><mml:msub><mml:mi mathvariant="normal">H</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>:</mml:mo><mml:msubsup><mml:mi>&#963;</mml:mi><mml:mn>1</mml:mn><mml:mn>2</mml:mn></mml:msubsup><mml:mo>=</mml:mo><mml:msubsup><mml:mi>&#963;</mml:mi><mml:mn>2</mml:mn><mml:mn>2</mml:mn></mml:msubsup><mml:mo stretchy="true">)</mml:mo></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq7.gif"/></alternatives></inline-formula> and an alternate hypothesis (H<sub>1</sub>) of unequal variances (<inline-formula id="IEq8"><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathrm{H}}_1:{\sigma}_1^2\ne {\sigma}_2^2\Big)$$\end{document}</tex-math><mml:math id="M22" display="inline"><mml:msub><mml:mi mathvariant="normal">H</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>:</mml:mo><mml:msubsup><mml:mi>&#963;</mml:mi><mml:mn>1</mml:mn><mml:mn>2</mml:mn></mml:msubsup><mml:mo>&#8800;</mml:mo><mml:msubsup><mml:mi>&#963;</mml:mi><mml:mn>2</mml:mn><mml:mn>2</mml:mn></mml:msubsup><mml:mo stretchy="true">)</mml:mo></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq8.gif"/></alternatives></inline-formula> as follows: <inline-formula id="IEq9"><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${F}_c={s}_1^2/{s}_2^2$$\end{document}</tex-math><mml:math id="M24" display="inline"><mml:msub><mml:mi>F</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msubsup><mml:mi>s</mml:mi><mml:mn>1</mml:mn><mml:mn>2</mml:mn></mml:msubsup><mml:mo>/</mml:mo><mml:msubsup><mml:mi>s</mml:mi><mml:mn>2</mml:mn><mml:mn>2</mml:mn></mml:msubsup></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq9.gif"/></alternatives></inline-formula>, <inline-formula id="IEq10"><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${s}_1^2&gt;{s}_2^2$$\end{document}</tex-math><mml:math id="M26" display="inline"><mml:msubsup><mml:mi>s</mml:mi><mml:mn>1</mml:mn><mml:mn>2</mml:mn></mml:msubsup><mml:mo>&gt;</mml:mo><mml:msubsup><mml:mi>s</mml:mi><mml:mn>2</mml:mn><mml:mn>2</mml:mn></mml:msubsup></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq10.gif"/></alternatives></inline-formula>, and H<sub>0</sub> are rejected if <inline-formula id="IEq11"><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${F}_c\ge {F}_{1-\alpha, {n}_1-1,{n}_2-2}$$\end{document}</tex-math><mml:math id="M28" display="inline"><mml:msub><mml:mi>F</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mo>&#8805;</mml:mo><mml:msub><mml:mi>F</mml:mi><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#8722;</mml:mo><mml:mi>&#945;</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mi>n</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>&#8722;</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:msub><mml:mi>n</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>&#8722;</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq11.gif"/></alternatives></inline-formula> where <inline-formula id="IEq12"><alternatives><tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${F}_{1-\alpha, {n}_1-1,{n}_2-2}$$\end{document}</tex-math><mml:math id="M30" display="inline"><mml:msub><mml:mi>F</mml:mi><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#8722;</mml:mo><mml:mi>&#945;</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mi>n</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>&#8722;</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:msub><mml:mi>n</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>&#8722;</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="10661_2020_8519_Article_IEq12.gif"/></alternatives></inline-formula> is the critical value from the F-distribution table (Li et al. <xref ref-type="bibr" rid="CR36">2013</xref>).</p>

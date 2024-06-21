@@ -1,0 +1,2 @@
+![[fig2_22.png]]Figure 2.22: Learning curves for renewable energy technologies 2000–2019 
+Range of fossil fuel levelised cost of electricity indicated as horizontal dashed lines spanning the range of USD50–177 MWh-1. Dashed lines are power functions fit to data for AR4–AR5 in black and for post-AR5 (2012) in blue. Blue areas show ranges between the 10th and 90th percentile in each year. Source: Data from Nemet (2019), IRENA (2020).

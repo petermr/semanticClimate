@@ -1,0 +1,281 @@
+<dictionary title="ipcc_ar6_wg3_abb_dict">
+<desc>
+     <create method="Automatically created by docanalysis from IPCC chapters(02,03,05,6,07,08,17)"/>
+     <edit date="2023-01-03" editor="Priti">removed entries with duplicate terms</edit>
+  </desc>
+  <entry name="GHG" term="greenhouse  gas" wikidataID=""/>
+  <entry name="CBEs" term="consumption-based  CO2  emissions" wikidataID=""/>
+  <entry name="EET" term="embodied in trade" wikidataID=""/>
+  <entry name="F-gases" term="fluorinated gases" wikidataID="Q3099705"/>
+  <entry name="FFI" term="fossil fuel and industry" wikidataID=""/>
+  <entry name="LULUCF" term="land  use,  land-use  change  and  forestry" wikidataID=""/>
+  <entry name="GWP100" term="Global  Warming  Potentials  with  a  100-year  time  horizon" wikidataID=""/>
+  <entry name="UNFCCC" term="United  Nations Framework Convention on Climate Change" wikidataID=""/>
+  <entry name="GDP" term="Gross  Domestic  Product" wikidataID=""/>
+  <entry name="HFCs" term="hydrofluorocarbons">
+    <raw wikidataID="Q59100158, Q1031943"/>
+  </entry>
+  <entry name="PFCs" term="perfluorocarbons" wikidataID="Q56989783"/>
+  <entry name="HCFCs" term="hydrochlorofluorocarbons" wikidataID=""/>
+  <entry name="CRF" term="common reporting format" wikidataID=""/>
+  <entry name="NGHGI" term="national  greenhouse  gas  inventories" wikidataID=""/>
+  <entry name="WMO" term="World Meteorological Organisation&#8217;s" wikidataID=""/>
+  <entry name="NGHGI" term="National Greenhouse Gas Inventories">
+    <raw wikidataID="Q60556832, Q60556831"/>
+  </entry>
+  <entry name="GWP" term="Global Warming Potential">
+    <raw wikidataID="Q901028, Q57084968, Q57084755, Q57084921, Q57084776, Q57402965"/>
+  </entry>
+  <entry name="GTP" term="Global Temperature change Potential" wikidataID="Q98974337"/>
+  <entry name="GWP100" term="GWP with a lifetime of 100 years" wikidataID=""/>
+  <entry name="21 GtCO2eq" term="2010 (53&#177;5.7 GtCO2eq) (AR5 reference year) and about 54%" wikidataID=""/>
+  <entry name="LULUCF" term="Land Use, Land Use Change and Forestry" wikidataID="Q3348639"/>
+  <entry name="GWP-100" term="global warming potentials with a 100-year time horizon" wikidataID=""/>
+  <entry name="FFI" term="fossil fuel combustion and industrial processes" wikidataID=""/>
+  <entry name="FFI" term="fossil fuel combustion and industry" wikidataID=""/>
+  <entry name="CBEs" term="consumption-based  emissions" wikidataID=""/>
+  <entry name="PBEs" term="Production-based  emissions" wikidataID=""/>
+  <entry name="TCBA" term="technology-adjusted consumption-based emission accounting" wikidataID=""/>
+  <entry name="HCEs" term="Historical cumulative emissions" wikidataID=""/>
+  <entry name="EBEs" term="extraction-based emissions" wikidataID=""/>
+  <entry name="IBE" term="income-based emission accounting" wikidataID=""/>
+  <entry name="RSD" term="relative standard variation" wikidataID=""/>
+  <entry name="RSD" term="Relative Standard Deviation">
+    <raw wikidataID="Q623738, Q103864527"/>
+  </entry>
+  <entry name="HDI" term="Human  Development  Index" wikidataID=""/>
+  <entry name="CSP" term="concentrating solar power">
+    <raw wikidataID="Q77081290, Q62596130, Q60545805"/>
+  </entry>
+  <entry name="ECR" term="effective carbon rate" wikidataID=""/>
+  <entry name="ETSs" term="emissions trading schemes" wikidataID=""/>
+  <entry name="EU ETS" term="European Union Emissions Trading Scheme" wikidataID="Q57784189"/>
+  <entry name="RGGI" term="Regional Greenhouse Gas Initiative" wikidataID="Q3423541"/>
+  <entry name="ODSs" term="ozone-depleting  substances" wikidataID=""/>
+  <entry name="HCS" term="High  Carbon  Stock" wikidataID=""/>
+  <entry name="FAQs" term="Frequently Asked Questions">
+    <raw wikidataID="Q189293, Q785373, Q95101889, Q47462925, Q59597761, Q64397094, Q56229396"/>
+  </entry>
+  <entry name="VOCs" term="volatile  organic  compounds" wikidataID=""/>
+  <entry name="NDCs" term="Nationally  Dertermined  Contributions" wikidataID=""/>
+  <entry name="NGHGI" term="National  GHG  inventories" wikidataID=""/>
+  <synonyms>"National Greenhouse Gas Inventory"</synonyms>
+  <entry name="NDCs" term="Nationally Determined Contributions" wikidataID="Q20051297"/>
+  <entry name="LULUCF" term="Land Use, Land-Use Change, and Forestry" wikidataID=""/>
+  <entry name="A/C" term="anthropogenic emissions by gasD =" wikidataID=""/>
+  <entry name="FAO 2020a" term="FRA 2020 update" wikidataID=""/>
+  <entry name="FOLU" term="Forestry and other land use" wikidataID=""/>
+  <entry name="UNEP" term="UN Environment Programme">
+    <raw wikidataID="Q182016, Q590861"/>
+  </entry>
+  <entry name="CDR" term="carbon dioxide removal">
+    <raw wikidataID="Q30314404, Q56298528, Q59296188, Q58824392"/>
+  </entry>
+  <entry name="A/R" term="and reforestation" wikidataID=""/>
+  <entry name="HWPs" term="harvested wood products" wikidataID="Q64227121"/>
+  <entry name="ICLF" term="integrated crop-livestock-forestry" wikidataID=""/>
+  <entry name="CSA" term="climate-smart agriculture">
+    <raw wikidataID="Q85752879, Q110832922, Q58400322, Q58613732"/>
+  </entry>
+  <entry name="BAU" term="business as usual">
+    <raw wikidataID="Q3286599, Q3284139, Q5001844, Q3647574, Q5001842, Q5001843, Q114545337"/>
+  </entry>
+  <entry name="NDG" term="National Dietary Guidelines" wikidataID=""/>
+  <entry name="FLW" term="Food  loss  and  waste" wikidataID=""/>
+  <entry name="ILMs" term="Integrative land-use models" wikidataID=""/>
+  <entry name="EntF" term="enteric fermentation" wikidataID="Q5380203"/>
+  <entry name="AWM" term="animal waste management" wikidataID="Q59670814"/>
+  <entry name="LAM" term="Latin America and Caribbean">
+    <raw wikidataID="Q1311100, Q99864848, Q98270380"/>
+  </entry>
+  <entry name="IMPs" term="Illustrative  Mitigation  Pathways" wikidataID=""/>
+  <entry name="CDM" term="Clean Development Mechanism">
+    <raw wikidataID="Q535536, Q55721222"/>
+  </entry>
+  <entry name="REDD+" term="reduce  deforestation  and  forest degradation" wikidataID=""/>
+  <entry name="NAMAs" term="Nationally  Appropriate  Mitigation  Strategies" wikidataID=""/>
+  <entry name="ACCUs" term="Australia carbon credit units" wikidataID=""/>
+  <entry name="GEF" term="Global Environmental Facility" wikidataID=""/>
+  <entry name="IE" term="impact evaluation">
+    <raw wikidataID="Q17055852, Q61956601, Q62062128, Q79113498, Q64336596, Q65360822, Q65355865"/>
+  </entry>
+  <entry name="NAPs" term="National Adaptation Plans" wikidataID=""/>
+  <entry name="CFM" term="Community forest management">
+    <raw wikidataID="Q64640321, Q59169409, Q111706149, Q108531146, Q58178299"/>
+  </entry>
+  <entry name="MTE" term="Menominee Tribal Enterprises" wikidataID=""/>
+  <entry name="CFI" term="continuous forest inventories" wikidataID=""/>
+  <entry name="EU-REDII" term="EU Renewable Energy Directive" wikidataID=""/>
+  <entry name="FSC" term="Forest  Sustainability  Council" wikidataID=""/>
+  <entry name="PEFC" term="Programme  for  the Endorsement of Forest Certification" wikidataID=""/>
+  <entry name="RSPO" term="Roundtable on Sustainable Palm Oil" wikidataID="Q686421"/>
+  <entry name="PPCDAm" term="Plan  for  Prevention  and  Control  of Deforestation in the Legal Amazon" wikidataID=""/>
+  <entry name="FMNR" term="Farmer Managed Natural Regeneration" wikidataID="Q1396849"/>
+  <entry name="CAR" term="Climate Action Reserve" wikidataID=""/>
+  <entry name="CAR" term="Climate  Action  Reserve" wikidataID=""/>
+
+  <entry name="BECCS" term="Biomass Energy with Carbon Capture and Storage" wikidataID="Q58092807"/>
+    <synonyms>"bio-energy-and-carbon-capture-and-storage"</synonyms>
+  <entry name="CSA" term="Climate  smart  agriculture" wikidataID=""/>
+  <entry name="CSC" term="climate  smart  cocoa" wikidataID=""/>
+  <entry name="CREMAs" term="Community Resource Management Area  Mechanisms" wikidataID=""/>
+  <entry name="NbS" term="Nature-based  solutions" wikidataID=""/>
+  <entry name="VRE" term="Variable Renewable Energy" wikidataID="Q7915732"/>
+  <entry name="TPES" term="total primary energy supply" wikidataID="Q114063046"/>
+  <entry name="TFC" term="total final energy consumption" wikidataID=""/>
+  <entry name="CSP" term="Concentrating  solar  power" wikidataID=""/>
+  <entry name="LIBs" term="lithium-ion batteries">
+    <raw wikidataID="Q106988181, Q56157763, Q57959688, Q56157653, Q59902591"/>
+  </entry>
+  <entry name="BEVs" term="battery electric vehicles">
+    <raw wikidataID="Q13629441, Q115869678"/>
+  </entry>
+  <entry name="FIT" term="feed-in-tariffs">
+    <raw wikidataID="Q5441167, Q16980581, Q5441168, Q57733427"/>
+  </entry>
+  <entry name="LPG" term="liquefied petroleum gas">
+    <raw wikidataID="Q351609, Q100538112, Q100538109, Q56738412, Q56819470, Q56819121, Q56819215"/>
+  </entry>
+  <entry name="LCOE" term="Levelized costs of electricity" wikidataID=""/>
+  <entry name="PERC" term="passivated emitter and rear cell" wikidataID=""/>
+  <entry name="OLEDs" term="organic light emitting diodes">
+    <raw wikidataID="Q35733158, Q58237246"/>
+  </entry>
+  <entry name="HTL" term="hydrothermal liquefaction">
+    <raw wikidataID="Q16878117, Q57424975, Q57424979"/>
+  </entry>
+  <entry name="EGS" term="Enhanced Geothermal Systems" wikidataID="Q57867003"/>
+  <entry name="PHS" term="Pumped Hydroelectric Storage" wikidataID=""/>
+  <entry name="CLIM" term="Classic Li Metal" wikidataID=""/>
+  <entry name="Li S" term="Li Metal (CLIM)  Under Development Metal Sulfur" wikidataID=""/>
+  <entry name="Na S" term="Near Commercialization Metal Sulfur" wikidataID=""/>
+  <entry name="LAES" term="Liquid Air Energy Storage" wikidataID=""/>
+  <entry name="PTES" term="Pumped Thermal Energy Storage" wikidataID=""/>
+  <entry name="RFB" term="Redox  Flow  Batteries" wikidataID=""/>
+  <entry name="LOHCs" term="liquid organic hydrogen carriers">
+    <raw wikidataID="Q18624145, Q59666770, Q57076081, Q64163800"/>
+  </entry>
+  <entry name="UHVDC" term="ultra-high  voltage  direct  current" wikidataID=""/>
+  <entry name="CIDs" term="climate impact-drivers" wikidataID=""/>
+  <entry name="EAF" term="electric arc furnace">
+    <raw wikidataID="Q650993, Q26363520, Q26373817"/>
+  </entry>
+  <entry name="ATR" term="auto-thermal reforming" wikidataID=""/>
+  <entry name="SMR" term="steam  methane  reforming" wikidataID=""/>
+  <entry name="LAM" term="Latin America &amp; Caribbean" wikidataID="Q74207312"/>
+  <entry name="DEV" term="Developed Countries">
+    <raw wikidataID="Q132453, Q94321567"/>
+  </entry>
+  <entry name="APC" term="and Developing Pacific" wikidataID=""/>
+  <entry name="HDI" term="human development index" wikidataID="Q38994"/>
+  <entry name="speed" term="sustainable development involves not only expediting the pace of change" wikidataID=""/>
+  <entry name="IAMs" term="integrated assessment models">
+    <raw wikidataID="Q115154814, Q57011922, Q59759892, Q58837476"/>
+  </entry>
+  <entry name="NGOs" term="non-governmental organizations">
+    <raw wikidataID="Q58296295, Q7048923, Q29518039, Q66185556, Q64407586"/>
+  </entry>
+  <entry name="FAR" term="First Assessment Report" wikidataID=""/>
+  <entry name="SAR" term="Second Assessment Report" wikidataID=""/>
+  <entry name="NDCs" term="nationally  determined contributions" wikidataID=""/>
+  <entry name="VNRs" term="Voluntary National Reviews" wikidataID=""/>
+  <entry name="HLPF" term="High-Level Political Forum" wikidataID="Q17078095"/>
+  <entry name="ESG" term="environmental, social and governance" wikidataID="Q3817465"/>
+  <entry name="TCFD" term="Task Force on Climate-Related Financial Disclosures" wikidataID="Q107694317"/>
+  <entry name="GFCA" term="Global Framework for Climate Action" wikidataID=""/>
+  <entry name="NDCs" term="national determined contributions" wikidataID=""/>
+  <entry name="LED" term="low-energy demand" wikidataID=""/>
+  <entry name="IoT" term="internet of things">
+    <raw wikidataID="Q251212, Q96708225, Q96325266, Q110262629, Q59408925, Q106035699"/>
+  </entry>
+  <entry name="SDS" term="Sustainable Development Scenario" wikidataID=""/>
+  <entry name="STEPS" term="Stated Policies Scenario" wikidataID=""/>
+  <entry name="TWI" term="The World in 2050 Initiative" wikidataID=""/>
+  <entry name="CCUS" term="carbon capture, utilisation and storage" wikidataID=""/>
+  <entry name="CF" term="carbon footprint">
+    <raw wikidataID="Q310667, Q106979291, Q112883733, Q106979290, Q106979288, Q106979292, Q115918550"/>
+  </entry>
+  <entry name="CCS" term="carbon capture and storage">
+    <raw wikidataID="Q41491, Q5037942, Q5037941, Q30687799"/>
+  </entry>
+  <entry name="WRAP" term="Waste and Resources Action Programme" wikidataID=""/>
+  <entry name="APEC" term="Asia Pacific Economic Cooperation">
+    <raw wikidataID="Q170481, Q59640124, Q59638517, Q6327716"/>
+  </entry>
+  <entry name="CCUS" term="carbon capture, use and storage" wikidataID=""/>
+  <entry name="CSR" term="cooperate  social  responsibility" wikidataID=""/>
+  <entry name="NUA" term="New Urban Agenda" wikidataID=""/>
+  <entry name="NUPs" term="national  urban  policies" wikidataID=""/>
+  <entry name="SLRs" term="sea level rises" wikidataID=""/>
+  <entry name="ESD" term="education for  sustainable  development" wikidataID=""/>
+  <entry name="BRT" term="bus  rapid  transit" wikidataID=""/>
+  <entry name="WSUD" term="Water  Sensitive  Urban  Design" wikidataID=""/>
+  <entry name="SR1.5" term="Special Report on Global Warming of 1.5&#61616;C" wikidataID=""/>
+  <entry name="IPs" term="Illustrative Pathways" wikidataID=""/>
+  <entry name="GWL" term="global  warming levels" wikidataID=""/>
+  <entry name="DACCS" term="Direct  Air  Capture  with  Carbon  Storage" wikidataID=""/>
+  <entry name="LD" term="low demand" wikidataID=""/>
+  <entry name="SP" term="shifting pathways" wikidataID=""/>
+  <entry name="BECCS" term="bio-energy-and-carbon-capture-and-storage" wikidataID=""/>
+  <entry name="DACCS" term="direct air carbon capture and storage" wikidataID=""/>
+  <entry name="GHGs" term="greenhouse gases">
+    <raw wikidataID="Q167336, Q57584895, Q925312, Q59666501, Q100135378"/>
+  </entry>
+  <entry name="GWPs" term="Global  Warming Potentials" wikidataID=""/>
+  <entry name="GTP" term="Global  Temperature  change  Potentials" wikidataID=""/>
+  <entry name="SP" term="sustainable development">
+    <raw wikidataID="Q131201, Q15755398, Q96733609, Q97910397, Q7649586, Q113996647, Q113472624"/>
+  </entry>
+  <entry name="GTEMs" term="global  transport  energy  sectoral  models" wikidataID=""/>
+  <entry name="CEA" term="Cost-effectiveness analysis" wikidataID="Q1754768"/>
+  <entry name="CBA" term="Cost-benefit  analysis" wikidataID=""/>
+  <entry name="CDR" term="carbon  dioxide  removal" wikidataID=""/>
+  <entry name="DLS" term="demand-side mitigation actionsDecent living standards" wikidataID=""/>
+  <entry name="DLS" term="Decent Living Standards" wikidataID=""/>
+  <entry name="SDGs" term="Sustainable Development Goals">
+    <raw wikidataID="Q7649586, Q22547988, Q30252260, Q104759743, Q109354788, Q104858255, Q104856926"/>
+  </entry>
+  <entry name="NZE" term="Net  Zero  Emissions  by  2050" wikidataID=""/>
+  <entry name="WEM" term="World Energy Model" wikidataID=""/>
+  <entry name="NZE" term="Net&#8208;Zero Emissions by 2050 Scenario" wikidataID=""/>
+  <entry name="LCAs" term="life-cycle assessments">
+    <raw wikidataID="Q56698259, Q63532509, Q58157000, Q58536262"/>
+  </entry>
+  <entry name="CE" term="circular  economy" wikidataID=""/>
+  <entry name="IHDs" term="in home displays" wikidataID=""/>
+  <entry name="SSBM" term="sustainability  business  models" wikidataID=""/>
+  <entry name="ASI" term="avoid-shift-improve" wikidataID="Q106417824"/>
+  <entry name="EV" term="Electric Vehicle">
+    <raw wikidataID="Q13629441, Q2140665, Q37929123, Q900762, Q294714, Q4355707, Q66024958"/>
+  </entry>
+  <entry name="IPCC" term="Intergovernmental Panel on Climate Change">
+    <raw wikidataID="Q171183, Q56670540, Q59664588"/>
+    <synonyms>"Intergovernmental  Process  on  Climate  Change"</synonyms>
+  </entry>
+  <entry name="SRCCL" term="Special Report on Climate Change and Land" wikidataID="Q66310618"/>
+  <entry name="IPBES" term="Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services" wikidataID="Q1666088"/>
+  <entry name="NUA" term="New  Urban  Agenda" wikidataID=""/>
+  <entry name="GCoM" term="Global  Covenant  of  Mayors" wikidataID=""/>
+  <entry name="SSP" term="Shared Socioeconomic Pathway">
+    <raw wikidataID="Q84021487, Q109284284"/>
+  </entry>
+  <entry name="RCP" term="Representative Concentration Pathway">
+    <raw wikidataID="Q7314241, Q58239006"/>
+  </entry>
+  <entry name="LDCs" term="Least-Developed Countries">
+    <raw wikidataID="Q752401, Q177323"/>
+  </entry>
+  <entry name="GDP" term="gross domestic product">
+    <raw wikidataID="Q12638, Q9280950, Q796024, Q5610525, Q19978244"/>
+  </entry>
+  <entry name="UHI" term="urban heat island">
+    <raw wikidataID="Q215712, Q58077471, Q64026033, Q57409870, Q59242271, Q59242261"/>
+  </entry>
+  <entry name="IMPs" term="Illustrative Mitigation Pathways" wikidataID=""/>
+  <entry name="CLT" term="cross-laminated timber" wikidataID="Q911043"/>
+  <entry name="NYC" term="New York City">
+    <raw wikidataID="Q60, Q18710663, Q99673783, Q7013127, Q111668100, Q114518687, Q16998793"/>
+  </entry>
+  <entry name="ICIs" term="International Cooperative Initiatives" wikidataID=""/>
+  <entry name="UNEP" term="UN Environment Programme&#8217;s" wikidataID=""/>
+</dictionary>

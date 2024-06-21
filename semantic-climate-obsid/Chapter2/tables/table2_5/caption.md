@@ -1,0 +1,1 @@
+Table 2.5 Summary reasons to expect a fast energy transition and reasons to expect a slow transition.

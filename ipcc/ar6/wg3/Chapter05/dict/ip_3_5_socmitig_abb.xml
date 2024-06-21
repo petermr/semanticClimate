@@ -1,0 +1,24 @@
+<dictionary title="abb_chapter05">
+    <metadata>
+    <edit date="2023-01-03" editor="Peter Murray-Rust">removed entries with duplicate terms</edit>
+  </metadata>
+
+  <entry name="ASI" term="Avoid-Shift-Improve" wikidataID="Q106417824"/>
+  <entry name="DLS" term="Decent living standards" wikidataID=""/>
+  <entry name="SDGs" term="Sustainable Development Goals">
+    <raw wikidataID="Q7649586, Q22547988, Q30252260, Q104759743, Q111643133, Q109354788, Q104858255"/>
+  </entry>
+  <entry name="NZE" term="Net  Zero  Emissions  by  2050" wikidataID=""/>
+  <entry name="WEM" term="World Energy Model" wikidataID=""/>
+  <entry name="NZE" term="Net&#8208;Zero Emissions by 2050 Scenario" wikidataID=""/>
+  <entry name="LCAs" term="life-cycle assessments">
+    <raw wikidataID="Q56698259, Q63532509, Q58157000, Q58536262"/>
+  </entry>
+  <entry name="CE" term="circular  economy" wikidataID=""/>
+  <entry name="IHDs" term="in home displays" wikidataID=""/>
+  <entry name="SSBM" term="sustainability  business  models" wikidataID=""/>
+  <entry name="EV" term="Electric Vehicle">
+    <raw wikidataID="Q13629441, Q2140665, Q37929123, Q900762, Q294714, Q4355707, Q66024958"/>
+    <synonym>Electrical Vehicle</synonym>
+  </entry>
+</dictionary>
