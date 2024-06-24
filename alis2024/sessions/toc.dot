@@ -1,0 +1,14 @@
+graph toc {
+
+"climate" [label=<<u>climate</u>>, URL="2024-06-05_10_climate.md", style="filled", color="yellow", shape="ellipse"]
+"semantic" [label=<<u>semantic</u>>, URL="2024-06-05_11_opennote_semantic.md", style="filled", color="yellow", shape="ellipse"]
+"Part1" [label=<<u>Part1</u>>, URL="2024-06-11_09_Part_1.md", style="filled", color="yellow", shape="ellipse"]
+"Part2" [label=<<u>Part2</u>>, URL="2024-06-11_10_Part_2.md", style="filled", color="yellow", shape="ellipse"]
+"Ranganathan" [label=<<u>Ranganathan</u>>, URL="2024-06-13_09_Ranganathan.md", style="filled", color="yellow", shape="ellipse"]
+"creation" [label=<<u>creation</u>>, URL="2024-06-13_10_github_doc_creation.md", style="filled", color="yellow", shape="ellipse"]
+"summarization" [label=<<u>summarization</u>>, URL="2024-06-14_09_summarization.md", style="filled", color="yellow", shape="ellipse"]
+"overview" [label=<<u>overview</u>>, URL="2024-06-18_09_overview.md", style="filled", color="yellow", shape="ellipse"]
+"management" [label=<<u>management</u>>, URL="2024-06-19_09_management.md", style="filled", color="yellow", shape="ellipse"]
+"overview1" [label=<<u>overview1</u>>, URL="2024_06_18_09_overview1.md", style="filled", color="yellow", shape="ellipse"]
+
+}
