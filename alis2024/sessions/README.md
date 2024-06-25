@@ -18,7 +18,8 @@
 ## 2024-06-13_09_Ranganathan.md
 
 ## 2024-06-13_10_github_doc_creation.md
-
+* [2024-06-13_10_github_doc_creation.md](./2024-06-13_10_github_doc_creation.md)
+* [Summary](./Summary_github_doc_creation.md)
 ## 2024-06-14_09_summarization.md
 
 ## 2024-06-18_09_overview.md
