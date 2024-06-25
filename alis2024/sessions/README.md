@@ -19,7 +19,7 @@
 
 ## 2024-06-13_10_github_doc_creation.md
 * [2024-06-13_10_github_doc_creation.md](./2024-06-13_10_github_doc_creation.md)
-* [Summary](./Summary-2024-06-13_10_github_doc_creation.md)
+* [Summary](./Summary_github_doc_creation.md)
 
 ## 2024-06-14_09_summarization.md
 
