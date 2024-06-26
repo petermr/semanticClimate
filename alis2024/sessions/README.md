@@ -12,7 +12,7 @@
 ##  2024-06-11_09_Part_1-new.md
 
 ##  2024-06-11_09_Part_1.md
-* [2024-06-13_10_github_doc_creation.md](./2024-06-11_09_Part_1.md)
+* [2024-06-11_09_Part_1.md](./2024-06-11_09_Part_1.md)
 * [Summary](./Summary_Part_1_overview.md)
 
 
