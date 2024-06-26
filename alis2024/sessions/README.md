@@ -8,7 +8,7 @@
 * [2024-06-05_10_climate.md](./2024-06-05_10_climate.md)
 
 ##  2024-06-05_11_opennote_semantic.md
-* [OPEN NOTE BOOK AND SEMENTIFICATION (1).md](OPEN_NOTE_BOOK_AND_SEMENTIFICATION(1).md)
+* [OPEN NOTE BOOK AND SEMENTIFICATION (1).md](OPENNOTE_AND_SEMANTIFICATION)
 * [summary](Summary_opennote_semantic.md)
 
 ##  2024-06-11_09_Part_1-new.md
