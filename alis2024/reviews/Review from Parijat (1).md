@@ -1,0 +1,2 @@
+# REVIEW FROM PARIJAT
+It has been over 3 weeks since I have joined the semanticClimate team and the working environment here is the best. Despite my background in non-computer science fields, the team has been very halpful, kind and patient with me. I feel priviledged to be a part of semanticClimate 
