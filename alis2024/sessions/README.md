@@ -8,7 +8,7 @@
 * [2024-06-05_10_climate.md](./2024-06-05_10_climate.md)
 
 ##  2024-06-05_11_opennote_semantic.md
-* [OPEN NOTE BOOK AND SEMENTIFICATION (1).md (https://github.com/petermr/semanticClimate/commit/1d50b13dcfd6efdabf4841276177f489b777b608)
+* [OPEN NOTE BOOK AND SEMENTIFICATION (1).md](https://github.com/petermr/semanticClimate/commit/1d50b13dcfd6efdabf4841276177f489b777b608)
 
 ##  2024-06-11_09_Part_1-new.md
 
