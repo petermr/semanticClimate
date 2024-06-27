@@ -1,0 +1,137 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>downloaded</th>
+      <th>htmlmade</th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>authorIdList</th>
+      <th>dataLinksTagsList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>affiliation</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>grantsList</th>
+      <th>meshHeadingList</th>
+      <th>keywordList</th>
+      <th>subsetList</th>
+      <th>fullTextUrlList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>manuscriptId</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>dateOfCompletion</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>electronicPublicationDate</th>
+      <th>firstPublicationDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC4028152</th>
+      <td>True</td>
+      <td>False</td>
+      <td>23727024</td>
+      <td>MED</td>
+      <td>23727024</td>
+      <td>PMC4028152</td>
+      <td>{'fullTextId': 'PMC4028152'}</td>
+      <td>10.1016/j.neuroimage.2013.05.094</td>
+      <td>Towards structured sharing of raw and derived neuroimaging data across existing resources.</td>
+      <td>Keator DB, Helmer K, Steffener J, Turner JA, Van Erp TG, Gadde S, Ashish N, Burns GA, Nichols BN.</td>
+      <td>{'author': [{'fullName': 'Keator DB', 'firstName': 'D B', 'lastName': 'Keator', 'initials': 'DB', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Psychiatry and Human Behavior, University of California, Irvine, CA 92617, USA. dbkeator@uci.edu')]))])}, {'fullName': 'Helmer K', 'firstName': 'K', 'lastName': 'Helmer', 'initials': 'K'}, {'fullName': 'Steffener J', 'firstName': 'J', 'lastName': 'Steffener', 'initials': 'J'}, {'fullName': 'Turner JA', 'firstName': 'J A', 'lastName': 'Turner', 'initials': 'JA', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-0076-8434')])}, {'fullName': 'Van Erp TG', 'firstName': 'T G M', 'lastName': 'Van Erp', 'initials': 'TG'}, {'fullName': 'Gadde S', 'firstName': 'S', 'lastName': 'Gadde', 'initials': 'S'}, {'fullName': 'Ashish N', 'firstName': 'N', 'lastName': 'Ashish', 'initials': 'N'}, {'fullName': 'Burns GA', 'firstName': 'G A', 'lastName': 'Burns', 'initials': 'GA', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-1493-865X')])}, {'fullName': 'Nichols BN', 'firstName': 'B N', 'lastName': 'Nichols', 'initials': 'BN', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-1099-3328')])}]}</td>
+      <td>{'authorId': [{'@type': 'ORCID', '#text': '0000-0003-0076-8434'}, {'@type': 'ORCID', '#text': '0000-0003-1099-3328'}, {'@type': 'ORCID', '#text': '0000-0003-1493-865X'}]}</td>
+      <td>{'dataLinkstag': 'altmetrics'}</td>
+      <td>{'volume': '82', 'journalIssueId': '2071137', 'dateOfPublication': '2013 Nov', 'monthOfPublication': '11', 'yearOfPublication': '2013', 'printPublicationDate': '2013-11-01', 'journal': {'title': 'NeuroImage', 'ISOAbbreviation': 'Neuroimage', 'medlineAbbreviation': 'Neuroimage', 'NLMid': '9215515', 'ISSN': '1053-8119', 'ESSN': '1095-9572'}}</td>
+      <td>2013</td>
+      <td>647-661</td>
+      <td>Data sharing efforts increasingly contribute to the acceleration of scientific discovery. Neuroimaging data is accumulating in distributed domain-specific databases and there is currently no integrated access mechanism nor an accepted format for the critically important meta-data that is necessary for making use of the combined, available neuroimaging data. In this manuscript, we present work from the Derived Data Working Group, an open-access group sponsored by the Biomedical Informatics Research Network (BIRN) and the International Neuroimaging Coordinating Facility (INCF) focused on practical tools for distributed access to neuroimaging data. The working group develops models and tools facilitating the structured interchange of neuroimaging meta-data and is making progress towards a unified set of tools for such data and meta-data exchange. We report on the key components required for integrated access to raw and derived neuroimaging data as well as associated meta-data and provenance across neuroimaging resources. The components include (1) a structured terminology that provides semantic context to data, (2) a formal data model for neuroimaging with robust tracking of data provenance, (3) a web service-based application programming interface (API) that provides a consistent mechanism to access and query the data model, and (4) a provenance library that can be used for the extraction of provenance data by image analysts and imaging software developers. We believe that the framework and set of tools outlined in this manuscript have great potential for solving many of the issues the neuroimaging community faces when sharing raw and derived neuroimaging data across the various existing database systems for the purpose of accelerating scientific discovery.</td>
+      <td>Department of Psychiatry and Human Behavior, University of California, Irvine, CA 92617, USA. dbkeator@uci.edu</td>
+      <td>ppublish</td>
+      <td>eng</td>
+      <td>Print-Electronic</td>
+      <td>{'pubType': ['Research Support, Non-U.S. Gov't', 'research-article', 'Journal Article', 'Research Support, N.I.H., Extramural']}</td>
+      <td>{'grant': [{'grantId': 'T15 LM007442', 'agency': 'NLM NIH HHS', 'acronym': 'LM', 'orderIn': '0'}, {'grantId': 'U24 RR025736', 'agency': 'NCRR NIH HHS', 'acronym': 'RR', 'orderIn': '0'}, {'grantId': '1 U24 U24 RR021992', 'agency': 'NCRR NIH HHS', 'acronym': 'RR', 'orderIn': '0'}, {'agency': 'International Neuroinformatics Coordinating Facility', 'orderIn': '0'}, {'grantId': 'NIH 1 U24 U24 RR021992', 'agency': 'Function Biomedical Informatics Research Network', 'orderIn': '0'}, {'grantId': 'RC4 NS073008', 'agency': 'NINDS NIH HHS', 'acronym': 'NS', 'orderIn': '0'}, {'agency': 'National Academies Keck Futures Initiative', 'orderIn': '0'}, {'agency': 'RC4 NS073008-01', 'orderIn': '0'}, {'grantId': '1 U24 RR025736-01', 'agency': 'NCRR NIH HHS', 'acronym': 'RR', 'orderIn': '0'}, {'grantId': 'RC4 NS073008-01', 'agency': 'NINDS NIH HHS', 'acronym': 'NS', 'orderIn': '0'}, {'grantId': 'K01 AG035061', 'agency': 'NIA NIH HHS', 'acronym': 'AG', 'orderIn': '0'}, {'grantId': 'U24 RR021992', 'agency': 'NCRR NIH HHS', 'acronym': 'RR', 'orderIn': '0'}, {'grantId': 'NIH 1 U24 RR025736-01', 'agency': 'BIRN Coordinating Center', 'orderIn': '0'}]}</td>
+      <td>{'meshHeading': [{'majorTopic_YN': 'N', 'descriptorName': 'Humans'}, {'majorTopic_YN': 'N', 'descriptorName': 'Information Dissemination', 'meshQualifierList': OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'MT'), ('qualifierName', 'methods'), ('majorTopic_YN', 'Y')]))])}, {'majorTopic_YN': 'N', 'descriptorName': 'Internet'}, {'majorTopic_YN': 'N', 'descriptorName': 'Database Management Systems', 'meshQualifierList': OrderedDict([('meshQualifier', [OrderedDict([('abbreviation', 'OG'), ('qualifierName', 'organization & administration'), ('majorTopic_YN', 'Y')]), OrderedDict([('abbreviation', 'ST'), ('qualifierName', 'standards'), ('majorTopic_YN', 'Y')])])])}, {'majorTopic_YN': 'N', 'descriptorName': 'Informatics', 'meshQualifierList': OrderedDict([('meshQualifier', [OrderedDict([('abbreviation', 'MT'), ('qualifierName', 'methods'), ('majorTopic_YN', 'N')]), OrderedDict([('abbreviation', 'ST'), ('qualifierName', 'standards'), ('majorTopic_YN', 'Y')]), OrderedDict([('abbreviation', 'TD'), ('qualifierName', 'trends'), ('majorTopic_YN', 'N')])])])}, {'majorTopic_YN': 'N', 'descriptorName': 'Databases, Factual', 'meshQualifierList': OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'ST'), ('qualifierName', 'standards'), ('majorTopic_YN', 'N')]))])}, {'majorTopic_YN': 'N', 'descriptorName': 'Neuroimaging', 'meshQualifierList': OrderedDict([('meshQualifier', [OrderedDict([('abbreviation', 'MT'), ('qualifierName', 'methods'), ('majorTopic_YN', 'Y')]), OrderedDict([('abbreviation', 'ST'), ('qualifierName', 'standards'), ('majorTopic_YN', 'N')])])])}]}</td>
+      <td>{'keyword': ['Database', 'Provenance', 'Xcede', 'Neuroimaging', 'Web Services', 'Data Model']}</td>
+      <td>{'subset': {'code': 'IM', 'name': 'Index Medicus'}}</td>
+      <td>{'fullTextUrl': [{'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'pdf', 'site': 'Unpaywall', 'url': 'https://europepmc.org/articles/pmc4028152?pdf=render'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1016/j.neuroimage.2013.05.094'}, {'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC4028152'}, {'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC4028152?pdf=render'}, {'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1016/j.neuroimage.2013.05.094'}]}</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+      <td>42</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>NIHMS487278</td>
+      <td>N</td>
+      <td>2014-04-15</td>
+      <td>2013-06-04</td>
+      <td>2013-06-05</td>
+      <td>2020-10-28</td>
+      <td>2024-05-02</td>
+      <td>2013-05-30</td>
+      <td>2013-05-30</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    

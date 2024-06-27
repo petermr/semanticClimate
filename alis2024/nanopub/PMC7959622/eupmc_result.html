@@ -1,0 +1,133 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>downloaded</th>
+      <th>htmlmade</th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>authorIdList</th>
+      <th>dataLinksTagsList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>affiliation</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>grantsList</th>
+      <th>keywordList</th>
+      <th>fullTextUrlList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>license</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>tmAccessionTypeList</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>electronicPublicationDate</th>
+      <th>firstPublicationDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC7959622</th>
+      <td>True</td>
+      <td>False</td>
+      <td>33816986</td>
+      <td>MED</td>
+      <td>33816986</td>
+      <td>PMC7959622</td>
+      <td>{'fullTextId': 'PMC7959622'}</td>
+      <td>10.7717/peerj-cs.335</td>
+      <td>Search, access, and explore life science nanopublications on the Web.</td>
+      <td>Giachelle F, Dosso D, Silvello G.</td>
+      <td>{'author': [{'fullName': 'Giachelle F', 'firstName': 'Fabio', 'lastName': 'Giachelle', 'initials': 'F', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-5015-5498')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Information Engineering, University of Padua, Padova, Italy.')]))])}, {'fullName': 'Dosso D', 'firstName': 'Dennis', 'lastName': 'Dosso', 'initials': 'D', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-7307-4607')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Information Engineering, University of Padua, Padova, Italy.')]))])}, {'fullName': 'Silvello G', 'firstName': 'Gianmaria', 'lastName': 'Silvello', 'initials': 'G', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-4970-4554')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Information Engineering, University of Padua, Padova, Italy.')]))])}]}</td>
+      <td>{'authorId': [{'@type': 'ORCID', '#text': '0000-0001-5015-5498'}, {'@type': 'ORCID', '#text': '0000-0001-7307-4607'}, {'@type': 'ORCID', '#text': '0000-0003-4970-4554'}]}</td>
+      <td>{'dataLinkstag': ['altmetrics', 'supporting_data']}</td>
+      <td>{'volume': '7', 'journalIssueId': '3146359', 'dateOfPublication': '2021', 'monthOfPublication': '0', 'yearOfPublication': '2021', 'printPublicationDate': '2021-01-01', 'journal': {'title': 'PeerJ. Computer science', 'ISOAbbreviation': 'PeerJ Comput Sci', 'medlineAbbreviation': 'PeerJ Comput Sci', 'NLMid': '101660598', 'ISSN': '2167-9843', 'ESSN': '2376-5992'}}</td>
+      <td>2021</td>
+      <td>e335</td>
+      <td>Nanopublications are Resource Description Framework (RDF) graphs encoding scientific facts extracted from the literature and enriched with provenance and attribution information. There are millions of nanopublications currently available on the Web, especially in the life science domain. Nanopublications are thought to facilitate the discovery, exploration, and re-use of scientific facts. Nevertheless, they are still not widely used by scientists outside specific circles; they are hard to find and rarely cited. We believe this is due to the lack of services to seek, find and understand nanopublications' content. To this end, we present the NanoWeb application to seamlessly search, access, explore, and re-use the nanopublications publicly available on the Web. For the time being, NanoWeb focuses on the life science domain where the vastest amount of nanopublications are available. It is a unified access point to the world of nanopublications enabling search over graph data, direct connections to evidence papers, and scientific curated databases, and visual and intuitive exploration of the relation network created by the encoded scientific facts.</td>
+      <td>Department of Information Engineering, University of Padua, Padova, Italy.</td>
+      <td>epublish</td>
+      <td>eng</td>
+      <td>Electronic-eCollection</td>
+      <td>{'pubType': ['research-article', 'Journal Article']}</td>
+      <td>{'grant': {'grantId': '825292', 'agency': 'European Union Horizon 2020 Program', 'orderIn': '0'}}</td>
+      <td>{'keyword': ['Data search', 'Data Access', 'Scientific Data', 'Data Citation', 'Data Exploration', 'Nanopublication', 'Graph Exploration']}</td>
+      <td>{'fullTextUrl': [{'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'doi', 'site': 'Unpaywall', 'url': 'https://doi.org/10.7717/peerj-cs.335'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.7717/peerj-cs.335'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC7959622'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC7959622?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+      <td>2</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>{'accessionType': 'doi'}</td>
+      <td>2021-04-05</td>
+      <td>2021-04-06</td>
+      <td>2021-04-05</td>
+      <td>2024-03-31</td>
+      <td>2021-02-04</td>
+      <td>2021-02-04</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    

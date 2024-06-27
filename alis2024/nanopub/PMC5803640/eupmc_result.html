@@ -1,0 +1,131 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>downloaded</th>
+      <th>htmlmade</th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>authorIdList</th>
+      <th>dataLinksTagsList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>affiliation</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>keywordList</th>
+      <th>fullTextUrlList</th>
+      <th>commentCorrectionList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>license</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>electronicPublicationDate</th>
+      <th>firstPublicationDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC5803640</th>
+      <td>True</td>
+      <td>False</td>
+      <td>29451561</td>
+      <td>MED</td>
+      <td>29451561</td>
+      <td>PMC5803640</td>
+      <td>{'fullTextId': 'PMC5803640'}</td>
+      <td>10.1186/s41073-017-0028-9</td>
+      <td>What incentives increase data sharing in health and medical research? A systematic review.</td>
+      <td>Rowhani-Farid A, Allen M, Barnett AG.</td>
+      <td>{'author': [{'fullName': 'Rowhani-Farid A', 'firstName': 'Anisa', 'lastName': 'Rowhani-Farid', 'initials': 'A', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-3637-2423')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Australian Centre for Health Services Innovation, Institute of Health and Biomedical Innovation, Queensland University of Technology, 60 Musk Avenue, Kelvin Grove, 4059 Australia.')]))])}, {'fullName': 'Allen M', 'firstName': 'Michelle', 'lastName': 'Allen', 'initials': 'M', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Australian Centre for Health Services Innovation, Institute of Health and Biomedical Innovation, Queensland University of Technology, 60 Musk Avenue, Kelvin Grove, 4059 Australia.')]))])}, {'fullName': 'Barnett AG', 'firstName': 'Adrian G', 'lastName': 'Barnett', 'initials': 'AG', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-6339-0374')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Australian Centre for Health Services Innovation, Institute of Health and Biomedical Innovation, Queensland University of Technology, 60 Musk Avenue, Kelvin Grove, 4059 Australia.')]))])}]}</td>
+      <td>{'authorId': [{'@type': 'ORCID', '#text': '0000-0001-6339-0374'}, {'@type': 'ORCID', '#text': '0000-0003-3637-2423'}]}</td>
+      <td>{'dataLinkstag': 'altmetrics'}</td>
+      <td>{'volume': '2', 'journalIssueId': '2587728', 'dateOfPublication': '2017', 'monthOfPublication': '0', 'yearOfPublication': '2017', 'printPublicationDate': '2017-01-01', 'journal': {'title': 'Research integrity and peer review', 'ISOAbbreviation': 'Res Integr Peer Rev', 'medlineAbbreviation': 'Res Integr Peer Rev', 'NLMid': '101676020', 'ISSN': '2058-8615', 'ESSN': '2058-8615'}}</td>
+      <td>2017</td>
+      <td>4</td>
+      <td><h4>Background</h4>The foundation of health and medical research is data. Data sharing facilitates the progress of research and strengthens science. Data sharing in research is widely discussed in the literature; however, there are seemingly no evidence-based incentives that promote data sharing.<h4>Methods</h4>A systematic review (registration: 10.17605/OSF.IO/6PZ5E) of the health and medical research literature was used to uncover any evidence-based incentives, with pre- and post-empirical data that examined data sharing rates. We were also interested in quantifying and classifying the number of opinion pieces on the importance of incentives, the number observational studies that analysed data sharing rates and practices, and strategies aimed at increasing data sharing rates.<h4>Results</h4>Only one incentive (using open data badges) has been tested in health and medical research that examined data sharing rates. The number of opinion pieces (<i>n</i> = 85) out-weighed the number of article-testing strategies (<i>n</i> = 76), and the number of observational studies exceeded them both (<i>n</i> = 106).<h4>Conclusions</h4>Given that data is the foundation of evidence-based health and medical research, it is paradoxical that there is only one evidence-based incentive to promote data sharing. More well-designed studies are needed in order to increase the currently low rates of data sharing.</td>
+      <td>Australian Centre for Health Services Innovation, Institute of Health and Biomedical Innovation, Queensland University of Technology, 60 Musk Avenue, Kelvin Grove, 4059 Australia.</td>
+      <td>epublish</td>
+      <td>eng</td>
+      <td>Electronic-eCollection</td>
+      <td>{'pubType': ['review-article', 'Review', 'Journal Article']}</td>
+      <td>{'keyword': ['data sharing', 'Incentives', 'Open Data', 'Meta-research']}</td>
+      <td>{'fullTextUrl': [{'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Unpaywall', 'url': 'https://researchintegrityjournal.biomedcentral.com/track/pdf/10.1186/s41073-017-0028-9'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1186/s41073-017-0028-9'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC5803640'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC5803640?pdf=render'}]}</td>
+      <td>{'commentCorrection': {'id': '29457799', 'source': 'MED', 'reference': 'Res Integr Peer Rev. 2017 May 23;2:7', 'type': 'Erratum in', 'orderIn': '1'}}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+      <td>26</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>2018-02-17</td>
+      <td>2018-02-17</td>
+      <td>2020-07-11</td>
+      <td>2023-11-12</td>
+      <td>2017-05-05</td>
+      <td>2017-05-05</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    

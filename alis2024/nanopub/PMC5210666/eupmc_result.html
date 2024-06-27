@@ -1,0 +1,135 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>downloaded</th>
+      <th>htmlmade</th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>authorIdList</th>
+      <th>dataLinksTagsList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>affiliation</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>grantsList</th>
+      <th>meshHeadingList</th>
+      <th>subsetList</th>
+      <th>fullTextUrlList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>license</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>dateOfCompletion</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>electronicPublicationDate</th>
+      <th>firstPublicationDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC5210666</th>
+      <td>True</td>
+      <td>False</td>
+      <td>27794045</td>
+      <td>MED</td>
+      <td>27794045</td>
+      <td>PMC5210666</td>
+      <td>{'fullTextId': 'PMC5210666'}</td>
+      <td>10.1093/nar/gkw995</td>
+      <td>Update of the FANTOM web resource: high resolution transcriptome of diverse cell types in mammals.</td>
+      <td>Lizio M, Harshbarger J, Abugessaisa I, Noguchi S, Kondo A, Severin J, Mungall C, Arenillas D, Mathelier A, Medvedeva YA, Lennartsson A, Drabløs F, Ramilowski JA, Rackham O, Gough J, Andersson R, Sandelin A, Ienasescu H, Ono H, Bono H, Hayashizaki Y, Carninci P, Forrest AR, Kasukawa T, Kawaji H.</td>
+      <td>{'author': [{'fullName': 'Lizio M', 'firstName': 'Marina', 'lastName': 'Lizio', 'initials': 'M', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Division of Genomic Technologies (DGT), RIKEN Center for Life Science Technologie, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan.')]))])}, {'fullName': 'Harshbarger J', 'firstName': 'Jayson', 'lastName': 'Harshbarger', 'initials': 'J', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Division of Genomic Technologies (DGT), RIKEN Center for Life Science Technologie, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan.')]))])}, {'fullName': 'Abugessaisa I', 'firstName': 'Imad', 'lastName': 'Abugessaisa', 'initials': 'I', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-7458-801X')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Division of Genomic Technologies (DGT), RIKEN Center for Life Science Technologie, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan.')]))])}, {'fullName': 'Noguchi S', 'firstName': 'Shuei', 'lastName': 'Noguchi', 'initials': 'S', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Division of Genomic Technologies (DGT), RIKEN Center for Life Science Technologie, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan.')]))])}, {'fullName': 'Kondo A', 'firstName': 'Atsushi', 'lastName': 'Kondo', 'initials': 'A', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Division of Genomic Technologies (DGT), RIKEN Center for Life Science Technologie, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan.')]))])}, {'fullName': 'Severin J', 'firstName': 'Jessica', 'lastName': 'Severin', 'initials': 'J', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Division of Genomic Technologies (DGT), RIKEN Center for Life Science Technologie, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan.')]))])}, {'fullName': 'Mungall C', 'firstName': 'Chris', 'lastName': 'Mungall', 'initials': 'C', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Genomics Division, Lawrence Berkeley National Laboratory, 84R01, 1 Cyclotron Road, Berkeley, CA 94720, USA.')]))])}, {'fullName': 'Arenillas D', 'firstName': 'David', 'lastName': 'Arenillas', 'initials': 'D', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', "Centre for Molecular Medicine and Therapeutics at BC Children's Hospital Research, Department of Medical Genetics, University of British Columbia, 950 West 28th Avenue, Vancouver, BC, V5Z 4H4, Canada.")]))])}, {'fullName': 'Mathelier A', 'firstName': 'Anthony', 'lastName': 'Mathelier', 'initials': 'A', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-5127-5459')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Centre for Molecular Medicine Norway (NCMM), Nordic EMBL Partnership, University of Oslo, 0318 Oslo, Norway.')]), OrderedDict([('affiliation', 'Department of Cancer Genetics, Institute for Cancer Research, Oslo University Hospital, 0372 Oslo, Norway.')])])])}, {'fullName': 'Medvedeva YA', 'firstName': 'Yulia A', 'lastName': 'Medvedeva', 'initials': 'YA', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-7587-1666')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Institute of Bioengineering, Research Center of Biotechnology, Russian Academy of Science, Leninsky prospect, 33, build. 2, 119071 Moscow, Russia.')]), OrderedDict([('affiliation', 'Vavilov Institute of General Genetics, Russian Academy of Science, Gubkina str. 3, Moscow 119991, Russia.')])])])}, {'fullName': 'Lennartsson A', 'firstName': 'Andreas', 'lastName': 'Lennartsson', 'initials': 'A', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-3272-2505')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Biosciences and Nutrition, Karolinska Institutet, HÃ¤lsovÃ¤gen 7-9, 14183 Huddinge, Sweden.')]))])}, {'fullName': 'Drabløs F', 'firstName': 'Finn', 'lastName': 'Drabløs', 'initials': 'F', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-5794-828X')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Cancer Research and Molecular Medicine, Norwegian University of Science and Technology (NTNU), P.O. Box 8905, NO-7491 Trondheim, Norway.')]))])}, {'fullName': 'Ramilowski JA', 'firstName': 'Jordan A', 'lastName': 'Ramilowski', 'initials': 'JA', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Division of Genomic Technologies (DGT), RIKEN Center for Life Science Technologie, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan.')]))])}, {'fullName': 'Rackham O', 'firstName': 'Owen', 'lastName': 'Rackham', 'initials': 'O', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-4390-0872')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', "Program in Cardiovascular and Metabolic Disorders, Duke's National University of Singapore Medical School, 8 College Road, Singapore 169857, Singapore.")]))])}, {'fullName': 'Gough J', 'firstName': 'Julian', 'lastName': 'Gough', 'initials': 'J', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Computer Science, University of Bristol, Merchant Venturers Building, Woodland Road, Bristol BS8 1UB UK.')]))])}, {'fullName': 'Andersson R', 'firstName': 'Robin', 'lastName': 'Andersson', 'initials': 'R', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-1516-879X')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'The Bioinformatics Centre, Section for Computational and RNA Biology, Department of Biology, University of Copenhagen, Ole Maaloes Vej 5, DK-2200 Copenhagen, Denmark.')]))])}, {'fullName': 'Sandelin A', 'firstName': 'Albin', 'lastName': 'Sandelin', 'initials': 'A', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-7109-7378')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Section for Computational and RNA Biology, Department of Biology & Biotech Research and Innovation Centre, University of Copenhagen, Ole Maaloes Vej 5, DK-2200 Copenhagen, Denmark.')]))])}, {'fullName': 'Ienasescu H', 'firstName': 'Hans', 'lastName': 'Ienasescu', 'initials': 'H', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Section for Computational and RNA Biology, Department of Biology & Biotech Research and Innovation Centre, University of Copenhagen, Ole Maaloes Vej 5, DK-2200 Copenhagen, Denmark.')]))])}, {'fullName': 'Ono H', 'firstName': 'Hiromasa', 'lastName': 'Ono', 'initials': 'H', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-8675-963X')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Database Center for Life Science (DBCLS), Joint Support-Center for Data Science Research, Research Organization of Information and Systems (ROIS), 1111 Yata, Mishima 411-8540, Japan.')]))])}, {'fullName': 'Bono H', 'firstName': 'Hidemasa', 'lastName': 'Bono', 'initials': 'H', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-4413-0651')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Database Center for Life Science (DBCLS), Joint Support-Center for Data Science Research, Research Organization of Information and Systems (ROIS), 1111 Yata, Mishima 411-8540, Japan.')]))])}, {'fullName': 'Hayashizaki Y', 'firstName': 'Yoshihide', 'lastName': 'Hayashizaki', 'initials': 'Y', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Preventive medicine and applied genomics unit, RIKEN Advanced Center for Computing and Communication, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan.')]), OrderedDict([('affiliation', 'Systems biology and Genomics, Harry Perkins Institute of MedicalResearch, PO Box 7214, 6 Verdun Street, Nedlands, Perth, Western Australia 6008, Australia.')])])])}, {'fullName': 'Carninci P', 'firstName': 'Piero', 'lastName': 'Carninci', 'initials': 'P', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-7202-7243')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Division of Genomic Technologies (DGT), RIKEN Center for Life Science Technologie, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan.')]))])}, {'fullName': 'Forrest AR', 'firstName': 'Alistair R R', 'lastName': 'Forrest', 'initials': 'AR', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-4543-1675')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'RIKEN Preventive Medicine and Diagnosis Innovation Program, 2-1 Hirosawa, Wako, Saitama 351-0198, Japan.')]))])}, {'fullName': 'Kasukawa T', 'firstName': 'Takeya', 'lastName': 'Kasukawa', 'initials': 'T', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-5085-0802')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Division of Genomic Technologies (DGT), RIKEN Center for Life Science Technologie, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan takeya.kasukawa@riken.jp.')]))])}, {'fullName': 'Kawaji H', 'firstName': 'Hideya', 'lastName': 'Kawaji', 'initials': 'H', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-0575-0308')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Division of Genomic Technologies (DGT), RIKEN Center for Life Science Technologie, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan kawaji@gsc.riken.jp.')]), OrderedDict([('affiliation', 'RIKEN Preventive Medicine and Diagnosis Innovation Program, 2-1 Hirosawa, Wako, Saitama 351-0198, Japan.')]), OrderedDict([('affiliation', 'Preventive medicine and applied genomics unit, RIKEN Advanced Center for Computing and Communication, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan.')])])])}]}</td>
+      <td>{'authorId': [{'@type': 'ORCID', '#text': '0000-0001-5085-0802'}, {'@type': 'ORCID', '#text': '0000-0001-5127-5459'}, {'@type': 'ORCID', '#text': '0000-0001-5794-828X'}, {'@type': 'ORCID', '#text': '0000-0001-7202-7243'}, {'@type': 'ORCID', '#text': '0000-0001-7458-801X'}, {'@type': 'ORCID', '#text': '0000-0001-8675-963X'}, {'@type': 'ORCID', '#text': '0000-0002-0575-0308'}, {'@type': 'ORCID', '#text': '0000-0002-3272-2505'}, {'@type': 'ORCID', '#text': '0000-0002-4390-0872'}, {'@type': 'ORCID', '#text': '0000-0002-7109-7378'}, {'@type': 'ORCID', '#text': '0000-0002-7587-1666'}, {'@type': 'ORCID', '#text': '0000-0003-1516-879X'}, {'@type': 'ORCID', '#text': '0000-0003-4413-0651'}, {'@type': 'ORCID', '#text': '0000-0003-4543-1675'}]}</td>
+      <td>{'dataLinkstag': 'altmetrics'}</td>
+      <td>{'issue': 'D1', 'volume': '45', 'journalIssueId': '2511327', 'dateOfPublication': '2017 Jan', 'monthOfPublication': '1', 'yearOfPublication': '2017', 'printPublicationDate': '2017-01-01', 'journal': {'title': 'Nucleic acids research', 'ISOAbbreviation': 'Nucleic Acids Res', 'medlineAbbreviation': 'Nucleic Acids Res', 'NLMid': '0411011', 'ISSN': '0305-1048', 'ESSN': '1362-4962'}}</td>
+      <td>2017</td>
+      <td>D737-D743</td>
+      <td>Upon the first publication of the fifth iteration of the Functional Annotation of Mammalian Genomes collaborative project, FANTOM5, we gathered a series of primary data and database systems into the FANTOM web resource (http://fantom.gsc.riken.jp) to facilitate researchers to explore transcriptional regulation and cellular states. In the course of the collaboration, primary data and analysis results have been expanded, and functionalities of the database systems enhanced. We believe that our data and web systems are invaluable resources, and we think the scientific community will benefit for this recent update to deepen their understanding of mammalian cellular organization. We introduce the contents of FANTOM5 here, report recent updates in the web resource and provide future perspectives.</td>
+      <td>Division of Genomic Technologies (DGT), RIKEN Center for Life Science Technologie, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan.</td>
+      <td>ppublish</td>
+      <td>eng</td>
+      <td>Print-Electronic</td>
+      <td>{'pubType': ['Research Support, Non-U.S. Gov't', 'research-article', 'Journal Article']}</td>
+      <td>{'grant': [{'grantId': 'U01 HG009453', 'agency': 'NHGRI NIH HHS', 'acronym': 'HG', 'orderIn': '0'}, {'grantId': 'BB/G022771/1', 'agency': 'Biotechnology and Biological Sciences Research Council', 'acronym': 'BB_', 'orderIn': '0'}, {'grantId': 'NNF10SA1016550', 'agency': 'Novo Nordisk Fonden', 'orderIn': '0'}, {'grantId': 'R82-2010-6779', 'agency': 'Lundbeck Foundation', 'orderIn': '0'}]}</td>
+      <td>{'meshHeading': [{'majorTopic_YN': 'N', 'descriptorName': 'Animals'}, {'majorTopic_YN': 'N', 'descriptorName': 'Mammals', 'meshQualifierList': OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'GE'), ('qualifierName', 'genetics'), ('majorTopic_YN', 'Y')]))])}, {'majorTopic_YN': 'N', 'descriptorName': 'Humans'}, {'majorTopic_YN': 'N', 'descriptorName': 'Gene Expression Profiling', 'meshQualifierList': OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'MT'), ('qualifierName', 'methods'), ('majorTopic_YN', 'Y')]))])}, {'majorTopic_YN': 'N', 'descriptorName': 'Computational Biology'}, {'majorTopic_YN': 'N', 'descriptorName': 'Genomics', 'meshQualifierList': OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'MT'), ('qualifierName', 'methods'), ('majorTopic_YN', 'Y')]))])}, {'majorTopic_YN': 'Y', 'descriptorName': 'Software'}, {'majorTopic_YN': 'Y', 'descriptorName': 'Databases, Genetic'}, {'majorTopic_YN': 'N', 'descriptorName': 'Search Engine'}, {'majorTopic_YN': 'Y', 'descriptorName': 'Web Browser'}]}</td>
+      <td>{'subset': {'code': 'IM', 'name': 'Index Medicus'}}</td>
+      <td>{'fullTextUrl': [{'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Unpaywall', 'url': 'https://academic.oup.com/nar/article-pdf/45/D1/D737/8847380/gkw995.pdf'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1093/nar/gkw995'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC5210666'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC5210666?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+      <td>59</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>2017-06-15</td>
+      <td>2016-10-30</td>
+      <td>2016-11-01</td>
+      <td>2020-07-11</td>
+      <td>2022-01-29</td>
+      <td>2016-10-27</td>
+      <td>2016-10-27</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    

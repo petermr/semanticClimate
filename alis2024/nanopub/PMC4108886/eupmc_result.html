@@ -1,0 +1,129 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>downloaded</th>
+      <th>htmlmade</th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>authorIdList</th>
+      <th>dataLinksTagsList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>affiliation</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>fullTextUrlList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>license</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>dateOfCompletion</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>electronicPublicationDate</th>
+      <th>firstPublicationDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC4108886</th>
+      <td>True</td>
+      <td>False</td>
+      <td>25093070</td>
+      <td>MED</td>
+      <td>25093070</td>
+      <td>PMC4108886</td>
+      <td>{'fullTextId': 'PMC4108886'}</td>
+      <td>10.1186/2041-1480-5-s1-s1</td>
+      <td>SEE: structured representation of scientific evidence in the biomedical domain using Semantic Web techniques.</td>
+      <td>Bölling C, Weidlich M, Holzhütter HG.</td>
+      <td>{'author': [{'fullName': 'Bölling C', 'firstName': 'Christian', 'lastName': 'Bölling', 'initials': 'C', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Institute of Biochemistry, Charité Universitätsmedizin Berlin, Berlin, Germany.')]))])}, {'fullName': 'Weidlich M', 'firstName': 'Michael', 'lastName': 'Weidlich', 'initials': 'M', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Computer Science, Humboldt-Universität zu Berlin, Berlin, Germany.')]))])}, {'fullName': 'Holzhütter HG', 'firstName': 'Hermann-Georg', 'lastName': 'Holzhütter', 'initials': 'HG', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-5054-6023')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Institute of Biochemistry, Charité Universitätsmedizin Berlin, Berlin, Germany.')]))])}]}</td>
+      <td>{'authorId': {'@type': 'ORCID', '#text': '0000-0002-5054-6023'}}</td>
+      <td>{'dataLinkstag': ['altmetrics', 'supporting_data']}</td>
+      <td>{'issue': 'Suppl 1 Proceedings of the Bio-Ontologies Spec Interest', 'volume': '5', 'journalIssueId': '2187886', 'dateOfPublication': '2014', 'monthOfPublication': '0', 'yearOfPublication': '2014', 'printPublicationDate': '2014-01-01', 'journal': {'title': 'Journal of biomedical semantics', 'ISOAbbreviation': 'J Biomed Semantics', 'medlineAbbreviation': 'J Biomed Semantics', 'NLMid': '101531992', 'ISSN': '2041-1480', 'ESSN': '2041-1480'}}</td>
+      <td>2014</td>
+      <td>S1</td>
+      <td><h4>Background</h4>Accounts of evidence are vital to evaluate and reproduce scientific findings and integrate data on an informed basis. Currently, such accounts are often inadequate, unstandardized and inaccessible for computational knowledge engineering even though computational technologies, among them those of the semantic web, are ever more employed to represent, disseminate and integrate biomedical data and knowledge.<h4>Results</h4>We present SEE (Semantic EvidencE), an RDF/OWL based approach for detailed representation of evidence in terms of the argumentative structure of the supporting background for claims even in complex settings. We derive design principles and identify minimal components for the representation of evidence. We specify the Reasoning and Discourse Ontology (RDO), an OWL representation of the model of scientific claims, their subjects, their provenance and their argumentative relations underlying the SEE approach. We demonstrate the application of SEE and illustrate its design patterns in a case study by providing an expressive account of the evidence for certain claims regarding the isolation of the enzyme glutamine synthetase.<h4>Conclusions</h4>SEE is suited to provide coherent and computationally accessible representations of evidence-related information such as the materials, methods, assumptions, reasoning and information sources used to establish a scientific finding by adopting a consistently claim-based perspective on scientific results and their evidence. SEE allows for extensible evidence representations, in which the level of detail can be adjusted and which can be extended as needed. It supports representation of arbitrary many consecutive layers of interpretation and attribution and different evaluations of the same data. SEE and its underlying model could be a valuable component in a variety of use cases that require careful representation or examination of evidence for data presented on the semantic web or in other formats.</td>
+      <td>Institute of Biochemistry, Charité Universitätsmedizin Berlin, Berlin, Germany.</td>
+      <td>epublish</td>
+      <td>eng</td>
+      <td>Electronic-eCollection</td>
+      <td>{'pubType': ['abstract', 'Journal Article']}</td>
+      <td>{'fullTextUrl': [{'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Unpaywall', 'url': 'https://jbiomedsem.biomedcentral.com/counter/pdf/10.1186/2041-1480-5-S1-S1'}, {'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'html', 'site': 'PubMedCentral', 'url': 'https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/25093070/?tool=EBI'}, {'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'pdf', 'site': 'PubMedCentral', 'url': 'https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/25093070/pdf/?tool=EBI'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1186/2041-1480-5-S1-S1'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC4108886'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC4108886?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>1</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>2014-08-05</td>
+      <td>2014-08-06</td>
+      <td>2014-08-06</td>
+      <td>2020-07-12</td>
+      <td>2024-03-21</td>
+      <td>2014-06-03</td>
+      <td>2014-06-03</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    

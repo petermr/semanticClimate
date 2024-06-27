@@ -1,0 +1,131 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>downloaded</th>
+      <th>htmlmade</th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>authorIdList</th>
+      <th>dataLinksTagsList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>affiliation</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>grantsList</th>
+      <th>fullTextUrlList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>license</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>dateOfCompletion</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>electronicPublicationDate</th>
+      <th>firstPublicationDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC4177195</th>
+      <td>True</td>
+      <td>False</td>
+      <td>24267948</td>
+      <td>MED</td>
+      <td>24267948</td>
+      <td>PMC4177195</td>
+      <td>{'fullTextId': 'PMC4177195'}</td>
+      <td>10.1186/2041-1480-4-37</td>
+      <td>PAV ontology: provenance, authoring and versioning.</td>
+      <td>Ciccarese P, Soiland-Reyes S, Belhajjame K, Gray AJ, Goble C, Clark T.</td>
+      <td>{'author': [{'fullName': 'Ciccarese P', 'firstName': 'Paolo', 'lastName': 'Ciccarese', 'initials': 'P', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-5156-2703')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Neurology, Massachusetts General Hospital, 55 Fruit Street, Boston, MA 02114, USA. paolo.ciccarese@gmail.com.')]))])}, {'fullName': 'Soiland-Reyes S', 'firstName': 'Stian', 'lastName': 'Soiland-Reyes', 'initials': 'S', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-9842-9718')])}, {'fullName': 'Belhajjame K', 'firstName': 'Khalid', 'lastName': 'Belhajjame', 'initials': 'K'}, {'fullName': 'Gray AJ', 'firstName': 'Alasdair Jg', 'lastName': 'Gray', 'initials': 'AJ', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-5711-4872')])}, {'fullName': 'Goble C', 'firstName': 'Carole', 'lastName': 'Goble', 'initials': 'C'}, {'fullName': 'Clark T', 'firstName': 'Tim', 'lastName': 'Clark', 'initials': 'T', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-4060-7360')])}]}</td>
+      <td>{'authorId': [{'@type': 'ORCID', '#text': '0000-0001-9842-9718'}, {'@type': 'ORCID', '#text': '0000-0002-5156-2703'}, {'@type': 'ORCID', '#text': '0000-0002-5711-4872'}, {'@type': 'ORCID', '#text': '0000-0003-4060-7360'}]}</td>
+      <td>{'dataLinkstag': ['altmetrics', 'wikipedia']}</td>
+      <td>{'issue': '1', 'volume': '4', 'journalIssueId': '2092506', 'dateOfPublication': '2013 Nov', 'monthOfPublication': '11', 'yearOfPublication': '2013', 'printPublicationDate': '2013-11-01', 'journal': {'title': 'Journal of biomedical semantics', 'ISOAbbreviation': 'J Biomed Semantics', 'medlineAbbreviation': 'J Biomed Semantics', 'NLMid': '101531992', 'ISSN': '2041-1480', 'ESSN': '2041-1480'}}</td>
+      <td>2013</td>
+      <td>37</td>
+      <td><h4>Background</h4>Provenance is a critical ingredient for establishing trust of published scientific content. This is true whether we are considering a data set, a computational workflow, a peer-reviewed publication or a simple scientific claim with supportive evidence. Existing vocabularies such as Dublin Core Terms (DC Terms) and the W3C Provenance Ontology (PROV-O) are domain-independent and general-purpose and they allow and encourage for extensions to cover more specific needs. In particular, to track authoring and versioning information of web resources, PROV-O provides a basic methodology but not any specific classes and properties for identifying or distinguishing between the various roles assumed by agents manipulating digital artifacts, such as author, contributor and curator.<h4>Results</h4>We present the Provenance, Authoring and Versioning ontology (PAV, namespace http://purl.org/pav/): a lightweight ontology for capturing "just enough" descriptions essential for tracking the provenance, authoring and versioning of web resources. We argue that such descriptions are essential for digital scientific content. PAV distinguishes between contributors, authors and curators of content and creators of representations in addition to the provenance of originating resources that have been accessed, transformed and consumed. We explore five projects (and communities) that have adopted PAV illustrating their usage through concrete examples. Moreover, we present mappings that show how PAV extends the W3C PROV-O ontology to support broader interoperability.<h4>Method</h4>The initial design of the PAV ontology was driven by requirements from the AlzSWAN project with further requirements incorporated later from other projects detailed in this paper. The authors strived to keep PAV lightweight and compact by including only those terms that have demonstrated to be pragmatically useful in existing applications, and by recommending terms from existing ontologies when plausible.<h4>Discussion</h4>We analyze and compare PAV with related approaches, namely Provenance Vocabulary (PRV), DC Terms and BIBFRAME. We identify similarities and analyze differences between those vocabularies and PAV, outlining strengths and weaknesses of our proposed model. We specify SKOS mappings that align PAV with DC Terms. We conclude the paper with general remarks on the applicability of PAV.</td>
+      <td>Department of Neurology, Massachusetts General Hospital, 55 Fruit Street, Boston, MA 02114, USA. paolo.ciccarese@gmail.com.</td>
+      <td>epublish</td>
+      <td>eng</td>
+      <td>Electronic</td>
+      <td>{'pubType': ['research-article', 'Journal Article']}</td>
+      <td>{'grant': {'grantId': 'EP/G026238/1', 'agency': 'Engineering and Physical Sciences Research Council', 'orderIn': '0'}}</td>
+      <td>{'fullTextUrl': [{'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Unpaywall', 'url': 'https://jbiomedsem.biomedcentral.com/counter/pdf/10.1186/2041-1480-4-37'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1186/2041-1480-4-37'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC4177195'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC4177195?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+      <td>17</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>2013-12-09</td>
+      <td>2013-11-26</td>
+      <td>2013-11-26</td>
+      <td>2020-07-09</td>
+      <td>2023-11-10</td>
+      <td>2013-11-22</td>
+      <td>2013-11-22</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    

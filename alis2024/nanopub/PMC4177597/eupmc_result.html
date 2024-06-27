@@ -1,0 +1,135 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>downloaded</th>
+      <th>htmlmade</th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>authorIdList</th>
+      <th>dataLinksTagsList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>affiliation</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>grantsList</th>
+      <th>keywordList</th>
+      <th>fullTextUrlList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>license</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>tmAccessionTypeList</th>
+      <th>dateOfCompletion</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>electronicPublicationDate</th>
+      <th>firstPublicationDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC4177597</th>
+      <td>True</td>
+      <td>False</td>
+      <td>25276335</td>
+      <td>MED</td>
+      <td>25276335</td>
+      <td>PMC4177597</td>
+      <td>{'fullTextId': 'PMC4177597'}</td>
+      <td>10.1186/2041-1480-5-41</td>
+      <td>Structuring research methods and data with the research object model: genomics workflows as a case study.</td>
+      <td>Hettne KM, Dharuri H, Zhao J, Wolstencroft K, Belhajjame K, Soiland-Reyes S, Mina E, Thompson M, Cruickshank D, Verdes-Montenegro L, Garrido J, de Roure D, Corcho O, Klyne G, van Schouwen R, 't Hoen PA, Bechhofer S, Goble C, Roos M.</td>
+      <td>{'author': [{'fullName': 'Hettne KM', 'firstName': 'Kristina M', 'lastName': 'Hettne', 'initials': 'KM', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-4182-7560')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Human Genetics, Leiden University Medical Center, Leiden, The Netherlands.')]))])}, {'fullName': 'Dharuri H', 'firstName': 'Harish', 'lastName': 'Dharuri', 'initials': 'H', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Human Genetics, Leiden University Medical Center, Leiden, The Netherlands.')]))])}, {'fullName': 'Zhao J', 'firstName': 'Jun', 'lastName': 'Zhao', 'initials': 'J', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-6935-9028')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Zoology, University of Oxford, Oxford, UK.')]))])}, {'fullName': 'Wolstencroft K', 'firstName': 'Katherine', 'lastName': 'Wolstencroft', 'initials': 'K', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-1279-5133')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'School of Computer Science, University of Manchester, Manchester, UK ; Leiden Institute of Advanced Computer Science, Leiden University, Leiden, The Netherlands.')]))])}, {'fullName': 'Belhajjame K', 'firstName': 'Khalid', 'lastName': 'Belhajjame', 'initials': 'K', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'School of Computer Science, University of Manchester, Manchester, UK.')]))])}, {'fullName': 'Soiland-Reyes S', 'firstName': 'Stian', 'lastName': 'Soiland-Reyes', 'initials': 'S', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-9842-9718')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'School of Computer Science, University of Manchester, Manchester, UK.')]))])}, {'fullName': 'Mina E', 'firstName': 'Eleni', 'lastName': 'Mina', 'initials': 'E', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-8972-9206')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Human Genetics, Leiden University Medical Center, Leiden, The Netherlands.')]))])}, {'fullName': 'Thompson M', 'firstName': 'Mark', 'lastName': 'Thompson', 'initials': 'M', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Human Genetics, Leiden University Medical Center, Leiden, The Netherlands.')]))])}, {'fullName': 'Cruickshank D', 'firstName': 'Don', 'lastName': 'Cruickshank', 'initials': 'D', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Zoology, University of Oxford, Oxford, UK.')]))])}, {'fullName': 'Verdes-Montenegro L', 'firstName': 'Lourdes', 'lastName': 'Verdes-Montenegro', 'initials': 'L', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-0156-6180')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Instituto de Astrofísica de Andalucía, Granada, Spain.')]))])}, {'fullName': 'Garrido J', 'firstName': 'Julian', 'lastName': 'Garrido', 'initials': 'J', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-6696-4772')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Instituto de Astrofísica de Andalucía, Granada, Spain.')]))])}, {'fullName': 'de Roure D', 'firstName': 'David', 'lastName': 'de Roure', 'initials': 'D', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-9074-3016')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Zoology, University of Oxford, Oxford, UK.')]))])}, {'fullName': 'Corcho O', 'firstName': 'Oscar', 'lastName': 'Corcho', 'initials': 'O', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-9260-0753')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Ontology Engineering Group, Universidad Politécnica de Madrid, Madrid, Spain.')]))])}, {'fullName': 'Klyne G', 'firstName': 'Graham', 'lastName': 'Klyne', 'initials': 'G', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Zoology, University of Oxford, Oxford, UK.')]))])}, {'fullName': 'van Schouwen R', 'firstName': 'Reinout', 'lastName': 'van Schouwen', 'initials': 'R', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Human Genetics, Leiden University Medical Center, Leiden, The Netherlands.')]))])}, {'fullName': ''t Hoen PA', 'firstName': 'Peter A C', 'lastName': ''t Hoen', 'initials': 'PA', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-4450-3112')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Human Genetics, Leiden University Medical Center, Leiden, The Netherlands.')]))])}, {'fullName': 'Bechhofer S', 'firstName': 'Sean', 'lastName': 'Bechhofer', 'initials': 'S', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-5872-3573')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'School of Computer Science, University of Manchester, Manchester, UK.')]))])}, {'fullName': 'Goble C', 'firstName': 'Carole', 'lastName': 'Goble', 'initials': 'C', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'School of Computer Science, University of Manchester, Manchester, UK.')]))])}, {'fullName': 'Roos M', 'firstName': 'Marco', 'lastName': 'Roos', 'initials': 'M', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Human Genetics, Leiden University Medical Center, Leiden, The Netherlands.')]))])}]}</td>
+      <td>{'authorId': [{'@type': 'ORCID', '#text': '0000-0001-6935-9028'}, {'@type': 'ORCID', '#text': '0000-0001-9074-3016'}, {'@type': 'ORCID', '#text': '0000-0001-9842-9718'}, {'@type': 'ORCID', '#text': '0000-0002-1279-5133'}, {'@type': 'ORCID', '#text': '0000-0002-4182-7560'}, {'@type': 'ORCID', '#text': '0000-0002-5872-3573'}, {'@type': 'ORCID', '#text': '0000-0002-6696-4772'}, {'@type': 'ORCID', '#text': '0000-0002-8972-9206'}, {'@type': 'ORCID', '#text': '0000-0002-9260-0753'}, {'@type': 'ORCID', '#text': '0000-0003-0156-6180'}, {'@type': 'ORCID', '#text': '0000-0003-4450-3112'}]}</td>
+      <td>{'dataLinkstag': ['altmetrics', 'supporting_data']}</td>
+      <td>{'issue': '1', 'volume': '5', 'journalIssueId': '2121727', 'dateOfPublication': '2014', 'monthOfPublication': '0', 'yearOfPublication': '2014', 'printPublicationDate': '2014-01-01', 'journal': {'title': 'Journal of biomedical semantics', 'ISOAbbreviation': 'J Biomed Semantics', 'medlineAbbreviation': 'J Biomed Semantics', 'NLMid': '101531992', 'ISSN': '2041-1480', 'ESSN': '2041-1480'}}</td>
+      <td>2014</td>
+      <td>41</td>
+      <td><h4>Background</h4>One of the main challenges for biomedical research lies in the computer-assisted integrative study of large and increasingly complex combinations of data in order to understand molecular mechanisms. The preservation of the materials and methods of such computational experiments with clear annotations is essential for understanding an experiment, and this is increasingly recognized in the bioinformatics community. Our assumption is that offering means of digital, structured aggregation and annotation of the objects of an experiment will provide necessary meta-data for a scientist to understand and recreate the results of an experiment. To support this we explored a model for the semantic description of a workflow-centric Research Object (RO), where an RO is defined as a resource that aggregates other resources, e.g., datasets, software, spreadsheets, text, etc. We applied this model to a case study where we analysed human metabolite variation by workflows.<h4>Results</h4>We present the application of the workflow-centric RO model for our bioinformatics case study. Three workflows were produced following recently defined Best Practices for workflow design. By modelling the experiment as an RO, we were able to automatically query the experiment and answer questions such as "which particular data was input to a particular workflow to test a particular hypothesis?", and "which particular conclusions were drawn from a particular workflow?".<h4>Conclusions</h4>Applying a workflow-centric RO model to aggregate and annotate the resources used in a bioinformatics experiment, allowed us to retrieve the conclusions of the experiment in the context of the driving hypothesis, the executed workflows and their input data. The RO model is an extendable reference model that can be used by other systems as well.<h4>Availability</h4>The Research Object is available at http://www.myexperiment.org/packs/428 The Wf4Ever Research Object Model is available at http://wf4ever.github.io/ro.</td>
+      <td>Department of Human Genetics, Leiden University Medical Center, Leiden, The Netherlands.</td>
+      <td>epublish</td>
+      <td>eng</td>
+      <td>Electronic-eCollection</td>
+      <td>{'pubType': ['research-article', 'Journal Article']}</td>
+      <td>{'grant': {'grantId': 'EP/G026238/1', 'agency': 'Engineering and Physical Sciences Research Council', 'orderIn': '0'}}</td>
+      <td>{'keyword': ['Genome Wide Association Study', 'Digital Libraries', 'Scientific Workflows', 'Semantic Web Models']}</td>
+      <td>{'fullTextUrl': [{'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Unpaywall', 'url': 'https://jbiomedsem.biomedcentral.com/counter/pdf/10.1186/2041-1480-5-41'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1186/2041-1480-5-41'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC4177597'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC4177597?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>12</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>{'accessionType': 'refsnp'}</td>
+      <td>2014-10-03</td>
+      <td>2014-10-03</td>
+      <td>2014-10-03</td>
+      <td>2020-07-11</td>
+      <td>2024-03-22</td>
+      <td>2014-09-18</td>
+      <td>2014-09-18</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    

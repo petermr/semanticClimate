@@ -1,0 +1,135 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>downloaded</th>
+      <th>htmlmade</th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>authorIdList</th>
+      <th>dataLinksTagsList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>affiliation</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>grantsList</th>
+      <th>keywordList</th>
+      <th>fullTextUrlList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>license</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>tmAccessionTypeList</th>
+      <th>dateOfCompletion</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>electronicPublicationDate</th>
+      <th>firstPublicationDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC4530550</th>
+      <td>True</td>
+      <td>False</td>
+      <td>26261718</td>
+      <td>MED</td>
+      <td>26261718</td>
+      <td>PMC4530550</td>
+      <td>{'fullTextId': 'PMC4530550'}</td>
+      <td>10.1186/2041-1480-5-28</td>
+      <td>Micropublications: a semantic model for claims, evidence, arguments and annotations in biomedical communications.</td>
+      <td>Clark T, Ciccarese PN, Goble CA.</td>
+      <td>{'author': [{'fullName': 'Clark T', 'firstName': 'Tim', 'lastName': 'Clark', 'initials': 'T', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-4060-7360')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Neurology, Massachusetts General Hospital, 55 Fruit Street, Boston, MA 02114, USA ; Harvard Medical School, 25 Shattuck Street, Boston, MA 02115, USA ; School of Computer Science, University of Manchester, Oxford Road, Manchester M13 9PL, UK.')]))])}, {'fullName': 'Ciccarese PN', 'firstName': 'Paolo N', 'lastName': 'Ciccarese', 'initials': 'PN', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Neurology, Massachusetts General Hospital, 55 Fruit Street, Boston, MA 02114, USA ; Harvard Medical School, 25 Shattuck Street, Boston, MA 02115, USA.')]))])}, {'fullName': 'Goble CA', 'firstName': 'Carole A', 'lastName': 'Goble', 'initials': 'CA', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'School of Computer Science, University of Manchester, Oxford Road, Manchester M13 9PL, UK.')]))])}]}</td>
+      <td>{'authorId': {'@type': 'ORCID', '#text': '0000-0003-4060-7360'}}</td>
+      <td>{'dataLinkstag': ['altmetrics', 'supporting_data']}</td>
+      <td>{'volume': '5', 'journalIssueId': '2171443', 'dateOfPublication': '2014', 'monthOfPublication': '0', 'yearOfPublication': '2014', 'printPublicationDate': '2014-01-01', 'journal': {'title': 'Journal of biomedical semantics', 'ISOAbbreviation': 'J Biomed Semantics', 'medlineAbbreviation': 'J Biomed Semantics', 'NLMid': '101531992', 'ISSN': '2041-1480', 'ESSN': '2041-1480'}}</td>
+      <td>2014</td>
+      <td>28</td>
+      <td><h4>Background</h4>Scientific publications are documentary representations of defeasible arguments, supported by data and repeatable methods. They are the essential mediating artifacts in the ecosystem of scientific communications. The institutional "goal" of science is publishing results. The linear document publication format, dating from 1665, has survived transition to the Web. Intractable publication volumes; the difficulty of verifying evidence; and observed problems in evidence and citation chains suggest a need for a web-friendly and machine-tractable model of scientific publications. This model should support: digital summarization, evidence examination, challenge, verification and remix, and incremental adoption. Such a model must be capable of expressing a broad spectrum of representational complexity, ranging from minimal to maximal forms.<h4>Results</h4>The micropublications semantic model of scientific argument and evidence provides these features. Micropublications support natural language statements; data; methods and materials specifications; discussion and commentary; challenge and disagreement; as well as allowing many kinds of statement formalization. The minimal form of a micropublication is a statement with its attribution. The maximal form is a statement with its complete supporting argument, consisting of all relevant evidence, interpretations, discussion and challenges brought forward in support of or opposition to it. Micropublications may be formalized and serialized in multiple ways, including in RDF. They may be added to publications as stand-off metadata. An OWL 2 vocabulary for micropublications is available at http://purl.org/mp. A discussion of this vocabulary along with RDF examples from the case studies, appears as OWL Vocabulary and RDF Examples in Additional file 1.<h4>Conclusion</h4>Micropublications, because they model evidence and allow qualified, nuanced assertions, can play essential roles in the scientific communications ecosystem in places where simpler, formalized and purely statement-based models, such as the nanopublications model, will not be sufficient. At the same time they will add significant value to, and are intentionally compatible with, statement-based formalizations. We suggest that micropublications, generated by useful software tools supporting such activities as writing, editing, reviewing, and discussion, will be of great value in improving the quality and tractability of biomedical communications.</td>
+      <td>Department of Neurology, Massachusetts General Hospital, 55 Fruit Street, Boston, MA 02114, USA ; Harvard Medical School, 25 Shattuck Street, Boston, MA 02115, USA ; School of Computer Science, University of Manchester, Oxford Road, Manchester M13 9PL, UK.</td>
+      <td>epublish</td>
+      <td>eng</td>
+      <td>Electronic-eCollection</td>
+      <td>{'pubType': ['research-article', 'Journal Article']}</td>
+      <td>{'grant': [{'grantId': 'P30 AG062421', 'agency': 'NIA NIH HHS', 'acronym': 'AG', 'orderIn': '0'}, {'grantId': 'EP/G026238/1', 'agency': 'Engineering and Physical Sciences Research Council', 'orderIn': '0'}, {'grantId': 'P50 AG005134', 'agency': 'NIA NIH HHS', 'acronym': 'AG', 'orderIn': '0'}]}</td>
+      <td>{'keyword': ['Annotation', 'Argumentation', 'Scientific Evidence', 'Data Citation', 'Research Reproducibility', 'Digital Abstract', 'Scientific Discourse', 'Methods Citation', 'Nanopublications']}</td>
+      <td>{'fullTextUrl': [{'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Unpaywall', 'url': 'https://jbiomedsem.biomedcentral.com/counter/pdf/10.1186/2041-1480-5-28'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1186/2041-1480-5-28'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC4530550'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC4530550?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>25</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>{'accessionType': 'uniprot'}</td>
+      <td>2015-08-11</td>
+      <td>2015-08-12</td>
+      <td>2015-08-14</td>
+      <td>2020-07-11</td>
+      <td>2020-01-22</td>
+      <td>2014-07-04</td>
+      <td>2014-07-04</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    

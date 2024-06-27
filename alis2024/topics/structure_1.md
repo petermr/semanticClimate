@@ -1,0 +1,349 @@
+## Ranganathan
+Off we are. So. This article is to celebrate the centenary of SR.
+Ranganathon the father of library science. And It is complex and ambitious.
+And there are many themes to it. So we will indicate these as we go through. The 1st and probably the most important thing for library science is is that it describes semantic publication.
+An idea which has been around for probably 50 years. Promoted in.
+1994 by Tim Berners Lee particularly but almost completely ignored by the Scholarly publishing community.
+We believe. Passionately that scholarly publishing must become semantic if it is not to be totally overcome by new methods.
+Which have been developed often labeled AI and so on. So. This will outline the structure and purpose of semantic publication.
+## climate
+To do it. And to exemplify it we'll be talking about climate. Climate is the most important thing.
+In the world at the moment even though in many elections it's not mentioned If one follows the climate discourse then very serious predictions about How the world is going to change almost all for the worse.
+And how we have to adapt and how we have to mitigate. And those are going to happen whether or not politicians do anything.
+Immediate about it. We are lucky that we have. Very good material to work with in climate.
+And it's an ideal starting point to show what semantics are.
+## semantic
+So. The structure of this article is going to be partially semantic. The ideal would be to make the whole article semantic.
+It would be probably the equivalent of 500 published pages including a multimedia of various sorts because that's what semantic is doing at the moment.
+However we have to condense it into something readable. climate
+## HTML and production
+So there will be a narrative in HTML.
+And very possibly from this monologue at the moment which will cover all the main points. And the monologue will then be hyperlinked into richer semantic components.
+As we go. So the monologue will probably be about 2030 pages when printed.
+And then that monologue will be conversed into. Converted into a PDF or publication in the NS article.
+And our intention is that that will be a high level guide to what we're doing. But heavily hyperlinked so that people can get an immediate idea of what the particular component what the political particular philosophy is.
+## semantic publishing
+At any stage. So we'll start with semantic publishing. I am sure we are sure that if Ranganathan were working today that he would be hyperactive on making publishing a semantic.
+He worked in a time when the flow of information was very slow and was primarily from author to reader by a printed material.
+And picking out the important concepts for today. 
+## inclusiveness
+We have inclusiveness. That he was passionate about including people outside the traditional library readership.
+And in our case this is outside. Traditional scholarly publishing. So he mentioned.
+The infirm people with language disabilities. And people who did not have access to to books and so on.
+And I'm sure that he would be promoting all of these. Ideas very actively.
+
+## laws
+Among his laws we will pick out. Save the time of the reader. And that is very much the seam of this article here.
+We are making. Articles easier to read and we will add to that 
+
+## save the time of the author
+ because authors are many readers are now also authors.
+In the multi-dimensional web you can offer at many levels primary also you can comment on others and so on.
+And I am sure that he would have been and active in this. he would have been I think very.
+Disappointed with PDF as the main medium of scholarly communication. He promoted semantic publishing.
+And in library classifications. With the Colon classification which is a forerunner of today's No SQL databases.
+Many of which work on a faceted approach to classification and discovery. And I am sure that he would have seen data and text as simply parts of a spectrum.
+Rather than 2 separate components which we have at the moment where you publish the text you publish the data and then you make some weak hyperlink between them.
+Data and text are simply parts of a continuum which which which includes discourse. Multimedia.
+And much else. 
+
+## TBL
+Now. We are inspired by the work of Tim Berners Lee.
+Who came up with the concept in about 1990 of the semantic web.
+And he Tim really launched this at the 1994 World Wide Web Conference.
+Where he gave a vision of the semantic web. Which was an integrated system. Where all information was semantic and where you could
+Where you could discover it and understand it. With a range of tools.
+
+## early semantic
+many people adopted this concept of semantic publishing. And built systems and in the early 2,000 s and it was I there was a considerable level of discourse about it tools were created exemplars were created.
+And so David Shotton created a marked up. Archicho Henry Shepherd and I myself did this for chemistry.
+And there were various prototypes of semantic material. And one of the useful concepts at that stage was 
+
+## nanopubs
+Nano-publication the idea that we could break publications down into small components and each of those was semantic and could be understood by machines.
+We will see this idea. Later in the knowledge graph for the UN IPCC material.
+
+## open
+The other thing that happened in about the same time was the rise of open. Open is a philosophy of universal access.
+To. Knowledge both its consumption and its creation. And There were many efforts to systematize this.
+
+## software
+For example open source and free software were championed by Linus Torvalds and Richard Stallman.
+And those concepts have been Seminal in changing the way that software is developed in a community.
+And with universally available tools for the whole process. Open source.
+Of free and open source software. F/OSS has been enormously successful and most software which is generated and outside corporations is F/OSS and organizations such as the European Commission and other national bodies have taken on board the requirement to make software an open.
+
+## open definition
+What open means is that a piece of information is free to use.
+Reuse and redistribute without any permission. And that's encapsulated by the open knowledge foundations.
+Open definition which I have just quoted from. It was expected in the 2,000 s that the idea of open would spread to other.
+Aspects of human knowledge and and in 
+
+## BOAI and Open Access
+25 years ago there was a major commitment by the Budapest definition of open access which defines what open access to published knowledge should be.
+And it takes the view of the open definition that this is free to use reuse and redistribute without permission.
+And that the purpose of published knowledge is for use by the world as well as for recording what particular people and organisations have done.
+Unfortunately that vision has failed. Open access is now largely in the global north is largely bureaucratic and and a business model.
+Complex and it doesn't serve the ideals of reuse and global ownership. 
+
+## Global South
+This the model of open however has been.
+Adopted by the Global South. Particularly in Latin America which is also spreading this vision.
+And in the work of Ariana Beck and colleagues a co author on these the model which is practiced is that publishing scholarly publishing is a public Good and should be available to the whole world.
+And that means that anyone can access it reuse it and the reuse can actually be repurposing so that we can.
+We can make this semantic for easier reuse.
+
+## OpenNotebook science
+In terms of science. Open science again is a concept which was advocated. It's not really It's not universal it's patchy.
+And one of the adherence to this full open model was It's the idea of open notebook science which was championed by Jean Claude Bradley and we adopt the idea of open notebook science where we make everything that we do available immediately to the whole world.
+Now this is not at the moment. Automatic because the tools do not exist but we are in the process of generating tools which will take the work that we do including developing this paper this article and put it out to the world as we do it.
+It builds on the concept of the 
+
+### Memex
+Memex from Van. In 1948 where he conceived a machine which would record everything you do.
+And make this available for posterity. Unfortunately we are seeing this model developed by closed corporations over which we have no control very little insight and which is not done for the benefit of humanity.
+But for the benefit of the corporations and we have to try and create however we can do it an equivalent which is open so that as the world creates knowledge it publishes it immediately in semantic form.
+That's the theme of this article. 
+
+## our examples
+Now we're going to use a particular.
+Set of examples to show this and these examples are not hypothetical. We have done them. So we have built semantic knowledge products.
+
+### climate
+In the area of climate. Climate is the most important thing in the world at the moment.
+Many people think we have only a few Yes. Until we enter irretrievable tipping points feedback loops and human disaster.
+And So it's immediate. It's technically very complex. It covers every domain.
+So it covers Mathematics physics astronomy. Chemistry. biology psychology.
+Politics Law every discipline is involved in climate. Much of the work so far has been global north centric so it's written from the point of view of English speaking.
+Nations and often with a neo-colonial agenda. But at the center of the efforts we espouse what the united nations is doing in 3 areas 
+
+#### UNFCCC
+the creation of records of United Nations meetings.
+That's the UN FCCC. 
+
+#### IPCC Reports
+The handbook on climate the IPCC reports.
+
+#### IPCC Glossary
+And the IPCC glossary which we are turning into semantic form
+It's pan disciplinary as I say which means that almost always we will be finding we interact with disciplines which we have not been trained in and have no knowledge and so we have to be able to read and understand those very quickly.
+The Things that Semantic climate can help with immediately are 
+
+* the concepts to extract those from the IPCC.
+* And the terminology. 
+
+So. We deal primarily with Textual and graphical discourse we're not dealing with data at the moment.
+That's deliberate. There's a lot of people who work with data. Again it's complex.
+It's complex to discover. So we're working with what we're called documents.
+Right that's setting the scene. I know it's taking a long time but we will condense all this.
+
+## semantic model
+At the end. So we now come on to the model. Of our publication. So this is semantic publication.
+And what this involved is a wide range of things that have to be done before something is semantic.
+So. We'll have a mental model here of a document a scholarly publication or a report from a company or government or NGO.
+And 1st thing we have to do is to structure it. 
+
+### components
+
+So. What are the components? Of the document.
+A lot has been done. For the bibliography of the document so that's very well researched and supported by the academic and other communities.
+Less has been done with the actual content of the document. So conceptually a document often has a 
+
+* head 
+* body
+* footers.
+#### head
+The header is describing what is in the document often called metadata.
+And that is described in great detail by the JATS suite. Which.
+Has about 250 terms which describe the components of a scholarly publication.
+It's applicable to other domains as well. So it covers things like Publisher authors.
+Subjects. And abstracts references things of that sort. 
+
+#### body
+The body of a publication is much less well defined.
+And varies a great deal. And is often domain specific.
+And the And then we come to the microstructure of the document where we go down to the individual.
+Nano components. No no public thing was developed by Barend Mons and Jan Valterop.
+And and ideally comes down to statements which are about the size of a sentence. And which can be taken out of context if they're properly annotated.
+And the IPCC synthesis report and other reports are actually in many cases a collection of micro nano publications and very well.
+In this. They are.
+Often sufficiently well stated that they can be taken. Out of context or that if you give them a context they can be understood without the rest of the document.
+They're not a new idea. 
+
+# nanopublication
+They're well seen in analysis of our presentation of religious texts and and works and creative works such as collections of plays or a poetry or whatever.
+And I'd welcome examples from Indian culture. And so I may mention things which are in the English and.
+Judaeo-Christian canon but only because I'm familiar with them and they are very well described in research. So religious texts often are represented as a collection of books.
+The books have chapters. And the chapters have verses. And the verses are micro addressable.
+So very often all that is quoted is the verse. And its address.
+Which is normally something like chapter and verse. 
+
+## HTML 
+### elements
+Now to support this we have all the elements in HTML and we see HTML and we see HTML as the elements in HTML and we see HTML as the tool which will support.
+All of our work except for. Specialist subjects. And HML has a rich.
+Range of structuring tools we will use. Head body. I'm within body we will use which is a division which can be either More divisions or.
+Paragraphs. Or lists or tables. So those are the main next micro addressable levels.
+And then we have within a paragraph. We have in line. Mark up which is spans.
+
+
+So a paragraph may consist of a list of spans which is very useful. It may also have A's which are anchors for hyperlinks bi-directional hyperlinks.
+And Those are what we will represent. Used to represent our semantic.
+
+### attributes
+Material. Now on top of those elements as they're called in XML we have attributes.
+Which are in the start tag of LMS and and particularly these include classes. So the class attribute gives the role of the Yeah.
+And may also be used to give information on its display. 
+
+### content and style
+We strictly separate. Content from presentation which is a major semantic philosophy.
+So that There is no presentation information in what we create. But you can present it.
+In different ways by using. by using tools such as cascading style sheets which allow you to discover the class the HTML classes and to render them in different ways by using you to discover the class the HTML classes and to render them in different ways which allow you to discover the class the HTML classes and to render them in different ways including hiding
+them and to render them in different ways including hiding them or aggregating them.
+So HTML contains all of the management tools that we need and we would strongly recommend that that all publication was in semantic HTML.
+
+## what is semantics?
+Now we've talked about semantics a lot. Semantics at this level as 2 levels.
+
+### RDF
+One is the role of the components. So this is Well seen in RDF.
+Resource description framework. Which is also developed to be compatible with HTML.
+So we promote the idea of RDF as the vehicle in which roles will be embedded.
+A typical role is
+* Reno Kamari is the author of this article. 
+* Peter marry rust is an author of this article.
+Reno Kumari is employed by NIPGR.
+* Peacher Murray Rust is A member of staff in Cambridge University.
+* Cambridge University is a university. 
+* Cambridge University is located in Cambridge. 
+* Cambridge is located in UK.
+
+
+By the way there's more than one Cambridge in the world. An IPGR is located in Delhi.
+An IPGR is a scientific organization. 
+
+Now those are all stated as triples. Where we have subject relation object subject property objects.
+And it's extremely powerful and it's a major tool for how we represent the semantics.
+
+### Ontologies
+However there's a second dimension to semantics which is ontologies. Ontologies can become very complex and we use a very lightweight approach to ontologies.
+So on challenges will allow you to discover the meaning of a relationship the meaning of an object. And ontologies are often structured.
+Often with a hierarchy. 
+So We will find that a plant. Has a plant has a binomial name.
+The binomial name. 
+Has a specific and a genus. A genus.
+Is a subset of I forget now family is it something of that sort. You can see the hierarchy developing and via scientists use hierarchical classifications a great deal.
+ ontologies are more powerful than that and with tools they can deal with things which have multiple relations.
+And we will see in our dictionary that we have multiple relations within the dictionary.
+So that a term can be related to many other terms.
+
+## annotation
+Annotation is extremely important. So annotation is very well presented in Wiki Media products particularly Wiki.
+Wikipedia and terms within the discourse are highlighted as Hiperlinks normally displayed as blue underlined.
+And so if you have a tool if you have a term like NIPGR it will give you a dynamic hyperlink which links you to.
+The page on the Wikipedia page on an IPGR. And that will in its turn contain a large number of.
+
+### Wikimedia
+Links to other concepts and so on. So Wikimedia contains a literally over a hundred 1 million different concepts all of which are linkable.
+And where the presentation is usually with inline annotation. A hyperlinks which are described by an HTML bar A with H for F.
+Which points outward and A with an ID which receives incoming annotations.
+The more complex annotation is stand off on an annotation. but this requires software and we don't use standoff on notation at the moment.
+
+### multimedia
+No knowledge is multimedia. And it should be highly integrated. And,
+Scholarly knowledge consists of text. 
+
+Images and diagrams. I'll come back to the difference in a minute.
+Audio and video streams which we shall not deal with in this publication and 
+
+specialist domains such as maths and chemistry.
+
+
+And all of those are part of the complete publication and i'm sure Ranganathan would have been A delighted with the tools available.
+To do that. However to make that a reality we need the will to do it and the will to do it.
+Although it was potentially there 15 years ago there's been virtually no progress in the public domain.
+Since then.
+
+## Tools
+So we now come on to tooling.
+We cannot do we cannot be completely. Semantic without tools which manage our semantics. And And that's been a major drawback.
+Because without the will there are no tools and without the tools it's very difficult to create the will.
+And so what semantic climate is doing is blazing a trail here to try and show that the tools already there.
+And that what we need primarily is the will to develop them. If we have the will then we can develop the tools.
+
+## Dynamic publication
+Now true semantic and publication will be dynamic. Where information is always changing. Because the world changes day to day.
+And We see reports on climate which we want to annotate. We see comments on previous reports which suggest that they need revision.
+We see new ideas so we would want to reannotate. Those previous works. And so forth.
+
+That is hard. It's possible but it's hard. 
+
+### static
+And so we take a static approach at the moment.
+So all of our semantic material is essentially static. It's created once.
+And it is an archived and available But it is not dynamically updated. That's not to say that we don't ourselves work with dynamic information and we do this using versions.
+So all of our. Software is heavily versioned. Every time we make a change to the software we have a new version.
+And we believe that that should be the norm for scholarly information. That every time 1st of all that things should be revised they should they should be annotated and each of these should be a new version.
+Tools exist to do it. The will does not. S
+
+## identifiers
+
+o before we can do this we need identifiers.
+Identifies a really important they are things which allow us to refer to a precise object.
+And this really came in I think Probably well it came in With Ranganathan with his idea of classification you know which Well he wasn't the 1st to do this.
+### versions
+But the idea of classification and versioning has been with us or.
+Hundreds of years. And But in terms of versions of publication Hey has been very little.
+In terms of dynamic versions and in fact the academic communities idea of the version of record which is what we are publishing here.
+Is highly counterproductive because it suggests that there is a golden period in which one can say this is the state of knowledge at this time and for often for the future.
+That might work for say a mathematical proof. But it does not work for scientific information. It does not work for global information which literally changes by the minute.
+So we But use identifiers for all our material and these identifiers are both semantic and non-smantic.
+### semantic identifier
+A semantic identifier is one whose structure of the string of the identifier explains. What it is and often how to find it.
+
+So typical semantic identifier which we use in the IPCC reports is report.
+Chapter. Section subsection subsection.
+Paragraph sentence. 
+
+So that's Can all be combined into a single identifier. And that identifier should be permanent for static information.
+
+where we get our material. Now because there is no semantic publication we have to convert it from what's called legacy information.
+And legacy is horrible. So legacy means it is not semantic. It's often not structured.
+It is very difficult for machines to understand automatically. And it's often impenetrable to people who do not speak the language in which it's written and who are not experts in the discipline.
+
+#### hierarchy of legacy
+
+There is a hierarchy of legacy. the lowest is
+Publications as bit maps. the worst is handwriting. We don't deal with that.
+Then there is Type set material which is sometimes recoverable by optical character recognition And if it is clear.
+And if it has come from if the text has come from a machine is often recoverable. and links to what we do for PDF.
+
+![]
+
+#### PDF
+Now most scholarly publications including this article are in PDF. PDF is extremely difficult to make semantic.
+It is underneath it is Only 3 things. Characters images. 4 things. Image is graphic curves and hyperlinks.
+That's all you get. There were no words. There are no circles. D there are simply these primitives in the PDF.
+And the software has to try and do its best. To make some sense of it. I mean in its most primitive form PDF is simply a set of characters on the page and that's what people might use for.
+Let's just say flyers or political slogans or whatever. But in scholarly the articles it's usually easier to do.
+Something better than that. So the raw material or a publication is usually a a document authored in Word or Latex and submitted to a journal in that form.
+And in its most tractable form it is single column so spans the whole of the page. It does not have images embedded within the text.
+And it has separate sections or different concepts. So this is what is seen in academic theses which are far better for semantic purposes than scholarly publications including this one.
+We therefore deal in PDF with characters which have. Coordinates they have a geometry and they have.
+
+
+* Styling which is things like fonts. Colors. and other types of style.
+* Images are bitmaps ideally in PNG Okay. 
+* curves/paths And we can also get curves out.
+Where the material has been published in semantic. Or implicit semantic graphic form. Such as in SVG.
+And those curves can sometimes be turned into higher level objects such as chemical formulae or phylogenetic trees.
+
+#### creating words
+We have to turn the characters into text and to to do this we have to use heuristics to tell which are words.
+So the size of space matters we have to know what the line end means. Is it continuing to next line or is it a list?
+And that requires a lot of heuristics. We it is often per publisher dependent so different publishers use different approaches.
+So another problem we have to contend with is there are probably 200 major scholarly publishers and publications and each of them uses a different type of publication and each of them mixes up content with non content and such as advertising or author scores and things of that sort making it incredibly difficult.
+To do that and we may have to come down to having a per publisher semanntifier.
+And all these articles. Right. So that's discover that's talked about what we need and what the tooling is.
+
+ in the second Part is our examples.

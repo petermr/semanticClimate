@@ -1,0 +1,133 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>downloaded</th>
+      <th>htmlmade</th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>authorIdList</th>
+      <th>dataLinksTagsList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>affiliation</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>meshHeadingList</th>
+      <th>subsetList</th>
+      <th>fullTextUrlList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>license</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>dateOfCompletion</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>electronicPublicationDate</th>
+      <th>firstPublicationDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC3920087</th>
+      <td>True</td>
+      <td>False</td>
+      <td>24520105</td>
+      <td>MED</td>
+      <td>24520105</td>
+      <td>PMC3920087</td>
+      <td>{'fullTextId': 'PMC3920087'}</td>
+      <td>10.1093/database/bau003</td>
+      <td>Literature mining of genetic variants for curation: quantifying the importance of supplementary material.</td>
+      <td>Jimeno Yepes A, Verspoor K.</td>
+      <td>{'author': [{'fullName': 'Jimeno Yepes A', 'firstName': 'Antonio', 'lastName': 'Jimeno Yepes', 'initials': 'A', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'National ICT Australia, Victoria Research Laboratory, Melbourne, Australia and Department of Computing and Information Systems, The University of Melbourne, Melbourne, Australia.')]))])}, {'fullName': 'Verspoor K', 'firstName': 'Karin', 'lastName': 'Verspoor', 'initials': 'K', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-8661-1544')])}]}</td>
+      <td>{'authorId': {'@type': 'ORCID', '#text': '0000-0002-8661-1544'}}</td>
+      <td>{'dataLinkstag': 'altmetrics'}</td>
+      <td>{'volume': '2014', 'journalIssueId': '2116603', 'dateOfPublication': '2014', 'monthOfPublication': '0', 'yearOfPublication': '2014', 'printPublicationDate': '2014-01-01', 'journal': {'title': 'Database : the journal of biological databases and curation', 'ISOAbbreviation': 'Database (Oxford)', 'medlineAbbreviation': 'Database (Oxford)', 'NLMid': '101517697', 'ISSN': '1758-0463', 'ESSN': '1758-0463'}}</td>
+      <td>2014</td>
+      <td>bau003</td>
+      <td>A major focus of modern biological research is the understanding of how genomic variation relates to disease. Although there are significant ongoing efforts to capture this understanding in curated resources, much of the information remains locked in unstructured sources, in particular, the scientific literature. Thus, there have been several text mining systems developed to target extraction of mutations and other genetic variation from the literature. We have performed the first study of the use of text mining for the recovery of genetic variants curated directly from the literature. We consider two curated databases, COSMIC (Catalogue Of Somatic Mutations In Cancer) and InSiGHT (International Society for Gastro-intestinal Hereditary Tumours), that contain explicit links to the source literature for each included mutation. Our analysis shows that the recall of the mutations catalogued in the databases using a text mining tool is very low, despite the well-established good performance of the tool and even when the full text of the associated article is available for processing. We demonstrate that this discrepancy can be explained by considering the supplementary material linked to the published articles, not previously considered by text mining tools. Although it is anecdotally known that supplementary material contains 'all of the information', and some researchers have speculated about the role of supplementary material (Schenck et al. Extraction of genetic mutations associated with cancer from public literature. J Health Med Inform 2012;S2:2.), our analysis substantiates the significant extent to which this material is critical. Our results highlight the need for literature mining tools to consider not only the narrative content of a publication but also the full set of material related to a publication.</td>
+      <td>National ICT Australia, Victoria Research Laboratory, Melbourne, Australia and Department of Computing and Information Systems, The University of Melbourne, Melbourne, Australia.</td>
+      <td>epublish</td>
+      <td>eng</td>
+      <td>Electronic-Print</td>
+      <td>{'pubType': ['Research Support, Non-U.S. Gov't', 'research-article', 'Journal Article']}</td>
+      <td>{'meshHeading': [{'majorTopic_YN': 'N', 'descriptorName': 'Humans'}, {'majorTopic_YN': 'N', 'descriptorName': 'Mutation', 'meshQualifierList': OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'GE'), ('qualifierName', 'genetics'), ('majorTopic_YN', 'N')]))])}, {'majorTopic_YN': 'N', 'descriptorName': 'Genome, Human', 'meshQualifierList': OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'GE'), ('qualifierName', 'genetics'), ('majorTopic_YN', 'N')]))])}, {'majorTopic_YN': 'Y', 'descriptorName': 'Publications'}, {'majorTopic_YN': 'N', 'descriptorName': 'Software'}, {'majorTopic_YN': 'N', 'descriptorName': 'Medical Subject Headings'}, {'majorTopic_YN': 'N', 'descriptorName': 'Statistics as Topic'}, {'majorTopic_YN': 'Y', 'descriptorName': 'Genetic Variation'}, {'majorTopic_YN': 'N', 'descriptorName': 'Data Mining', 'meshQualifierList': OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'MT'), ('qualifierName', 'methods'), ('majorTopic_YN', 'Y')]))])}]}</td>
+      <td>{'subset': {'code': 'IM', 'name': 'Index Medicus'}}</td>
+      <td>{'fullTextUrl': [{'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Unpaywall', 'url': 'https://academic.oup.com/database/article-pdf/doi/10.1093/database/bau003/8244303/bau003.pdf'}, {'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'html', 'site': 'PubMedCentral', 'url': 'https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/24520105/?tool=EBI'}, {'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'pdf', 'site': 'PubMedCentral', 'url': 'https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/24520105/pdf/?tool=EBI'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1093/database/bau003'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC3920087'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC3920087?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+      <td>17</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>2014-08-26</td>
+      <td>2014-02-13</td>
+      <td>2014-02-13</td>
+      <td>2020-07-09</td>
+      <td>2022-03-18</td>
+      <td>2014-02-10</td>
+      <td>2014-02-10</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    

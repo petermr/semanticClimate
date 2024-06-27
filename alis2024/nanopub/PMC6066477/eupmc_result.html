@@ -1,0 +1,133 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>downloaded</th>
+      <th>htmlmade</th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>authorIdList</th>
+      <th>dataLinksTagsList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>affiliation</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>keywordList</th>
+      <th>fullTextUrlList</th>
+      <th>commentCorrectionList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>license</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>tmAccessionTypeList</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>electronicPublicationDate</th>
+      <th>firstPublicationDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC6066477</th>
+      <td>True</td>
+      <td>False</td>
+      <td>30065607</td>
+      <td>MED</td>
+      <td>30065607</td>
+      <td>PMC6066477</td>
+      <td>{'fullTextId': 'PMC6066477'}</td>
+      <td>10.3897/bdj.6.e27539</td>
+      <td>Liberating links between datasets using lightweight data publishing: an example using plant names and the taxonomic literature.</td>
+      <td>Page R.</td>
+      <td>{'author': {'fullName': 'Page R', 'firstName': 'Roderic', 'lastName': 'Page', 'initials': 'R', 'authorId': {'@type': 'ORCID', '#text': '0000-0002-7101-9767'}, 'authorAffiliationDetailsList': {'authorAffiliation': OrderedDict([('affiliation', 'University of Glasgow, Glasgow, United Kingdom University of Glasgow Glasgow United Kingdom.')])}}}</td>
+      <td>{'authorId': {'@type': 'ORCID', '#text': '0000-0002-7101-9767'}}</td>
+      <td>{'dataLinkstag': ['altmetrics', 'supporting_data']}</td>
+      <td>{'issue': '6', 'journalIssueId': '2649691', 'dateOfPublication': '2018', 'monthOfPublication': '0', 'yearOfPublication': '2018', 'printPublicationDate': '2018-01-01', 'journal': {'title': 'Biodiversity data journal', 'ISOAbbreviation': 'Biodivers Data J', 'medlineAbbreviation': 'Biodivers Data J', 'NLMid': '101619899', 'ISSN': '1314-2828', 'ESSN': '1314-2828'}}</td>
+      <td>2018</td>
+      <td>e27539</td>
+      <td>Constructing a biodiversity knowledge graph will require making millions of cross links between diversity entities in different datasets. Researchers trying to bootstrap the growth of the biodiversity knowledge graph by constructing databases of links between these entities lack obvious ways to publish these sets of links. One appealing and lightweight approach is to create a "datasette", a database that is wrapped together with a simple web server that enables users to query the data. Datasettes can be packaged into Docker containers and hosted online with minimal effort. This approach is illustrated using a dataset of links between globally unique identifiers for plant taxonomic namesand identifiers for the taxonomic articles that published those names.</td>
+      <td>University of Glasgow, Glasgow, United Kingdom University of Glasgow Glasgow United Kingdom.</td>
+      <td>epublish</td>
+      <td>eng</td>
+      <td>Electronic-eCollection</td>
+      <td>{'pubType': ['research-article', 'Journal Article']}</td>
+      <td>{'keyword': ['Linked Data', 'Data Publishing', 'Biodiversity Knowledge Graph', 'Datasette', 'Taxonomic Names']}</td>
+      <td>{'fullTextUrl': [{'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Unpaywall', 'url': 'https://bdj.pensoft.net/article/27539/download/pdf/'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.3897/BDJ.6.e27539'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC6066477'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC6066477?pdf=render'}]}</td>
+      <td>{'commentCorrection': {'id': 'PPR9894', 'source': 'PPR', 'type': 'Preprint in', 'note': 'CrossRef Pre-print loader', 'orderIn': '10002'}}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+      <td>4</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>{'accessionType': 'doi'}</td>
+      <td>2018-08-02</td>
+      <td>2018-08-02</td>
+      <td>2020-07-10</td>
+      <td>2020-10-01</td>
+      <td>2018-07-23</td>
+      <td>2018-07-23</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    

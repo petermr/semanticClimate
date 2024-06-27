@@ -1,0 +1,135 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>downloaded</th>
+      <th>htmlmade</th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>authorIdList</th>
+      <th>dataLinksTagsList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>affiliation</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>grantsList</th>
+      <th>meshHeadingList</th>
+      <th>subsetList</th>
+      <th>fullTextUrlList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>license</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>dateOfCompletion</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>electronicPublicationDate</th>
+      <th>firstPublicationDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC4721915</th>
+      <td>True</td>
+      <td>False</td>
+      <td>26796797</td>
+      <td>MED</td>
+      <td>26796797</td>
+      <td>PMC4721915</td>
+      <td>{'fullTextId': 'PMC4721915'}</td>
+      <td>10.1371/journal.pgen.1005772</td>
+      <td>Consent Codes: Upholding Standard Data Use Conditions.</td>
+      <td>Dyke SO, Philippakis AA, Rambla De Argila J, Paltoo DN, Luetkemeier ES, Knoppers BM, Brookes AJ, Spalding JD, Thompson M, Roos M, Boycott KM, Brudno M, Hurles M, Rehm HL, Matern A, Fiume M, Sherry ST.</td>
+      <td>{'author': [{'fullName': 'Dyke SO', 'firstName': 'Stephanie O M', 'lastName': 'Dyke', 'initials': 'SO', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Centre of Genomics and Policy, Faculty of Medicine, McGill University, Montreal, Quebec, Canada.')]))])}, {'fullName': 'Philippakis AA', 'firstName': 'Anthony A', 'lastName': 'Philippakis', 'initials': 'AA', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Broad Institute of MIT and Harvard, Cambridge, Massachusetts, United States of America.')]))])}, {'fullName': 'Rambla De Argila J', 'firstName': 'Jordi', 'lastName': 'Rambla De Argila', 'initials': 'J', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Centre for Genomic Regulation (CRG), Barcelona, Spain.')]), OrderedDict([('affiliation', 'Universitat Pompeu Fabra (UPF), Barcelona, Spain.')])])])}, {'fullName': 'Paltoo DN', 'firstName': 'Dina N', 'lastName': 'Paltoo', 'initials': 'DN', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Office of Science Policy, Office of the Director, National Institutes of Health, Bethesda, Maryland, United States of America.')]))])}, {'fullName': 'Luetkemeier ES', 'firstName': 'Erin S', 'lastName': 'Luetkemeier', 'initials': 'ES', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Office of Science Policy, Office of the Director, National Institutes of Health, Bethesda, Maryland, United States of America.')]))])}, {'fullName': 'Knoppers BM', 'firstName': 'Bartha M', 'lastName': 'Knoppers', 'initials': 'BM', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Centre of Genomics and Policy, Faculty of Medicine, McGill University, Montreal, Quebec, Canada.')]))])}, {'fullName': 'Brookes AJ', 'firstName': 'Anthony J', 'lastName': 'Brookes', 'initials': 'AJ', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Genetics, University of Leicester, Leicester, United Kingdom.')]))])}, {'fullName': 'Spalding JD', 'firstName': 'J Dylan', 'lastName': 'Spalding', 'initials': 'JD', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-4285-2493')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'European Molecular Biology Laboratory-European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge, United Kingdom.'), ('affiliationOrgId', 'ror.org/02catss52')]))])}, {'fullName': 'Thompson M', 'firstName': 'Mark', 'lastName': 'Thompson', 'initials': 'M', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Human Genetics Department, Leiden University Medical Center, Leiden, The Netherlands.')]))])}, {'fullName': 'Roos M', 'firstName': 'Marco', 'lastName': 'Roos', 'initials': 'M', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-8691-772X')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Human Genetics Department, Leiden University Medical Center, Leiden, The Netherlands.')]))])}, {'fullName': 'Boycott KM', 'firstName': 'Kym M', 'lastName': 'Boycott', 'initials': 'KM', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', "Children's Hospital of Eastern Ontario Research Institute, University of Ottawa, Ottawa, Ontario, Canada.")]))])}, {'fullName': 'Brudno M', 'firstName': 'Michael', 'lastName': 'Brudno', 'initials': 'M', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Centre for Computational Medicine, Hospital for Sick Children, Toronto, Ontario, Canada.')]), OrderedDict([('affiliation', 'Department of Computer Science, University of Toronto, Toronto, Ontario, Canada.')])])])}, {'fullName': 'Hurles M', 'firstName': 'Matthew', 'lastName': 'Hurles', 'initials': 'M', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Wellcome Trust Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, United Kingdom.')]))])}, {'fullName': 'Rehm HL', 'firstName': 'Heidi L', 'lastName': 'Rehm', 'initials': 'HL', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-6025-0015')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Broad Institute of MIT and Harvard, Cambridge, Massachusetts, United States of America.')]), OrderedDict([('affiliation', "Department of Pathology, Brigham & Women's Hospital and Harvard Medical School, Boston, Massachusetts, United States of America.")])])])}, {'fullName': 'Matern A', 'firstName': 'Andreas', 'lastName': 'Matern', 'initials': 'A', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-0815-4296')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Bioreference Laboratories, Inc., Elmwood Park, New Jersey, United States of America.')]))])}, {'fullName': 'Fiume M', 'firstName': 'Marc', 'lastName': 'Fiume', 'initials': 'M', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'DNAstack, Toronto, Ontario, Canada.')]))])}, {'fullName': 'Sherry ST', 'firstName': 'Stephen T', 'lastName': 'Sherry', 'initials': 'ST', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-7982-076X')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'National Centre for Biotechnology Information, US National Library of Medicine, Bethesda, Maryland, United States of America.')]))])}]}</td>
+      <td>{'authorId': [{'@type': 'ORCID', '#text': '0000-0001-9091-257X'}, {'@type': 'ORCID', '#text': '0000-0002-0815-4296'}, {'@type': 'ORCID', '#text': '0000-0002-4285-2493'}, {'@type': 'ORCID', '#text': '0000-0002-6025-0015'}, {'@type': 'ORCID', '#text': '0000-0002-7982-076X'}, {'@type': 'ORCID', '#text': '0000-0002-8691-772X'}]}</td>
+      <td>{'dataLinkstag': ['altmetrics', 'supporting_data', 'recommended_reviews', 'wikipedia']}</td>
+      <td>{'issue': '1', 'volume': '12', 'journalIssueId': '2358462', 'dateOfPublication': '2016 Jan', 'monthOfPublication': '1', 'yearOfPublication': '2016', 'printPublicationDate': '2016-01-01', 'journal': {'title': 'PLoS genetics', 'ISOAbbreviation': 'PLoS Genet', 'medlineAbbreviation': 'PLoS Genet', 'NLMid': '101239074', 'ISSN': '1553-7390', 'ESSN': '1553-7404'}}</td>
+      <td>2016</td>
+      <td>e1005772</td>
+      <td>A systematic way of recording data use conditions that are based on consent permissions as found in the datasets of the main public genome archives (NCBI dbGaP and EMBL-EBI/CRG EGA).</td>
+      <td>Centre of Genomics and Policy, Faculty of Medicine, McGill University, Montreal, Quebec, Canada.</td>
+      <td>epublish</td>
+      <td>eng</td>
+      <td>Electronic-eCollection</td>
+      <td>{'pubType': ['Research Support, Non-U.S. Gov't', 'research-article', 'Journal Article']}</td>
+      <td>{'grant': [{'grantId': '650.002.002', 'agency': 'Dutch Research Council (NWO)', 'orderIn': '0'}, {'grantId': 'EP2-120609', 'agency': 'Canadian Institutes of Health Research', 'orderIn': '0'}, {'grantId': 'EP1-120608', 'agency': 'Canadian Institutes of Health Research', 'orderIn': '0'}]}</td>
+      <td>{'meshHeading': [{'majorTopic_YN': 'Y', 'descriptorName': 'Genomic Library'}, {'majorTopic_YN': 'Y', 'descriptorName': 'Genome'}, {'majorTopic_YN': 'Y', 'descriptorName': 'Databases, Nucleic Acid'}, {'majorTopic_YN': 'N', 'descriptorName': 'Health Services Research'}]}</td>
+      <td>{'subset': {'code': 'IM', 'name': 'Index Medicus'}}</td>
+      <td>{'fullTextUrl': [{'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Unpaywall', 'url': 'https://journals.plos.org/plosgenetics/article/file?id=10.1371/journal.pgen.1005772&type=printable'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1371/journal.pgen.1005772'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC4721915'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC4721915?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+      <td>39</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>cc0</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>2016-05-09</td>
+      <td>2016-01-23</td>
+      <td>2016-01-23</td>
+      <td>2020-07-12</td>
+      <td>2019-02-02</td>
+      <td>2016-01-21</td>
+      <td>2016-01-21</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    

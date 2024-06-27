@@ -1,0 +1,131 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>downloaded</th>
+      <th>htmlmade</th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>authorIdList</th>
+      <th>dataLinksTagsList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>affiliation</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>fullTextUrlList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>license</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>tmAccessionTypeList</th>
+      <th>dateOfCompletion</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>electronicPublicationDate</th>
+      <th>firstPublicationDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC3285520</th>
+      <td>True</td>
+      <td>False</td>
+      <td>22226027</td>
+      <td>MED</td>
+      <td>22226027</td>
+      <td>PMC3285520</td>
+      <td>{'fullTextId': 'PMC3285520'}</td>
+      <td>10.1186/1756-0500-5-10</td>
+      <td>Guidelines for information about therapy experiments: a proposal on best practice for recording experimental data on cancer therapy.</td>
+      <td>González-Beltrán AN, Yong MY, Dancey G, Begent R.</td>
+      <td>{'author': [{'fullName': 'González-Beltrán AN', 'firstName': 'Alejandra N', 'lastName': 'González-Beltrán', 'initials': 'AN', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-3499-8262')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Computational and Systems Medicine, University College London, Cruciform Building, Gower Street, London, UK. a.beltran@ucl.ac.uk.')]))])}, {'fullName': 'Yong MY', 'firstName': 'May Y', 'lastName': 'Yong', 'initials': 'MY', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-0465-1623')])}, {'fullName': 'Dancey G', 'firstName': 'Gairin', 'lastName': 'Dancey', 'initials': 'G'}, {'fullName': 'Begent R', 'firstName': 'Richard', 'lastName': 'Begent', 'initials': 'R'}]}</td>
+      <td>{'authorId': [{'@type': 'ORCID', '#text': '0000-0002-0465-1623'}, {'@type': 'ORCID', '#text': '0000-0003-3499-8262'}]}</td>
+      <td>{'dataLinkstag': ['altmetrics', 'supporting_data']}</td>
+      <td>{'volume': '5', 'journalIssueId': '2470673', 'dateOfPublication': '2012 Jan', 'monthOfPublication': '1', 'yearOfPublication': '2012', 'printPublicationDate': '2012-01-01', 'journal': {'title': 'BMC research notes', 'ISOAbbreviation': 'BMC Res Notes', 'medlineAbbreviation': 'BMC Res Notes', 'NLMid': '101462768', 'ISSN': '1756-0500', 'ESSN': '1756-0500'}}</td>
+      <td>2012</td>
+      <td>10</td>
+      <td><h4>Background</h4>Biology, biomedicine and healthcare have become data-driven enterprises, where scientists and clinicians need to generate, access, validate, interpret and integrate different kinds of experimental and patient-related data. Thus, recording and reporting of data in a systematic and unambiguous fashion is crucial to allow aggregation and re-use of data. This paper reviews the benefits of existing biomedical data standards and focuses on key elements to record experiments for therapy development. Specifically, we describe the experiments performed in molecular, cellular, animal and clinical models. We also provide an example set of elements for a therapy tested in a phase I clinical trial.<h4>Findings</h4>We introduce the Guidelines for Information About Therapy Experiments (GIATE), a minimum information checklist creating a consistent framework to transparently report the purpose, methods and results of the therapeutic experiments. A discussion on the scope, design and structure of the guidelines is presented, together with a description of the intended audience. We also present complementary resources such as a classification scheme, and two alternative ways of creating GIATE information: an electronic lab notebook and a simple spreadsheet-based format. Finally, we use GIATE to record the details of the phase I clinical trial of CHT-25 for patients with refractory lymphomas. The benefits of using GIATE for this experiment are discussed.<h4>Conclusions</h4>While data standards are being developed to facilitate data sharing and integration in various aspects of experimental medicine, such as genomics and clinical data, no previous work focused on therapy development. We propose a checklist for therapy experiments and demonstrate its use in the 131Iodine labeled CHT-25 chimeric antibody cancer therapy. As future work, we will expand the set of GIATE tools to continue to encourage its use by cancer researchers, and we will engineer an ontology to annotate GIATE elements and facilitate unambiguous interpretation and data integration.</td>
+      <td>Computational and Systems Medicine, University College London, Cruciform Building, Gower Street, London, UK. a.beltran@ucl.ac.uk.</td>
+      <td>epublish</td>
+      <td>eng</td>
+      <td>Electronic</td>
+      <td>{'pubType': ['research-article', 'Journal Article']}</td>
+      <td>{'fullTextUrl': [{'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Unpaywall', 'url': 'https://bmcresnotes.biomedcentral.com/track/pdf/10.1186/1756-0500-5-10'}, {'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'pdf', 'site': 'PubMedCentral', 'url': 'https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/22226027/pdf/?tool=EBI'}, {'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'html', 'site': 'PubMedCentral', 'url': 'https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/22226027/?tool=EBI'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1186/1756-0500-5-10'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC3285520'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC3285520?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>1</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>{'accessionType': 'uniprot'}</td>
+      <td>2012-10-02</td>
+      <td>2012-01-10</td>
+      <td>2012-01-10</td>
+      <td>2020-07-10</td>
+      <td>2021-10-21</td>
+      <td>2012-01-06</td>
+      <td>2012-01-06</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    

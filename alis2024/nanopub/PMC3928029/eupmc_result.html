@@ -1,0 +1,135 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>downloaded</th>
+      <th>htmlmade</th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>authorIdList</th>
+      <th>dataLinksTagsList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>affiliation</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>grantsList</th>
+      <th>meshHeadingList</th>
+      <th>subsetList</th>
+      <th>fullTextUrlList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>license</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>dateOfCompletion</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>electronicPublicationDate</th>
+      <th>firstPublicationDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC3928029</th>
+      <td>True</td>
+      <td>False</td>
+      <td>24558353</td>
+      <td>MED</td>
+      <td>24558353</td>
+      <td>PMC3928029</td>
+      <td>{'fullTextId': 'PMC3928029'}</td>
+      <td>10.1371/journal.pmed.1001603</td>
+      <td>Living systematic reviews: an emerging opportunity to narrow the evidence-practice gap.</td>
+      <td>Elliott JH, Turner T, Clavisi O, Thomas J, Higgins JP, Mavergames C, Gruen RL.</td>
+      <td>{'author': [{'fullName': 'Elliott JH', 'firstName': 'Julian H', 'lastName': 'Elliott', 'initials': 'JH', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Infectious Diseases, Alfred Hospital and Monash University, Melbourne, Australia ; School of Public Health and Preventive Medicine, Monash University, Melbourne, Australia.')]))])}, {'fullName': 'Turner T', 'firstName': 'Tari', 'lastName': 'Turner', 'initials': 'T', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-7990-1623')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'School of Public Health and Preventive Medicine, Monash University, Melbourne, Australia ; World Vision Australia, Melbourne, Australia.')]))])}, {'fullName': 'Clavisi O', 'firstName': 'Ornella', 'lastName': 'Clavisi', 'initials': 'O', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'National Trauma Research Institute, Alfred Hospital, Melbourne, Australia.')]))])}, {'fullName': 'Thomas J', 'firstName': 'James', 'lastName': 'Thomas', 'initials': 'J', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-4805-4190')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'EPPI-Centre, Institute of Education, University of London, London, England.')]))])}, {'fullName': 'Higgins JP', 'firstName': 'Julian P T', 'lastName': 'Higgins', 'initials': 'JP', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-8323-2514')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'School of Social and Community Medicine, University of Bristol, Bristol, England ; Centre for Reviews and Dissemination, University of York, York, England.')]))])}, {'fullName': 'Mavergames C', 'firstName': 'Chris', 'lastName': 'Mavergames', 'initials': 'C', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Informatics and Knowledge Management Department, The Cochrane Collaboration, Freiburg, Germany.')]))])}, {'fullName': 'Gruen RL', 'firstName': 'Russell L', 'lastName': 'Gruen', 'initials': 'RL', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-8023-1957')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'National Trauma Research Institute, Alfred Hospital, Melbourne, Australia ; Department of Surgery, Monash University, Melbourne, Australia.')]))])}]}</td>
+      <td>{'authorId': [{'@type': 'ORCID', '#text': '0000-0001-8023-1957'}, {'@type': 'ORCID', '#text': '0000-0002-7990-1623'}, {'@type': 'ORCID', '#text': '0000-0002-8323-2514'}, {'@type': 'ORCID', '#text': '0000-0003-4805-4190'}]}</td>
+      <td>{'dataLinkstag': ['altmetrics', 'wikipedia']}</td>
+      <td>{'issue': '2', 'volume': '11', 'journalIssueId': '2124582', 'dateOfPublication': '2014 Feb', 'monthOfPublication': '2', 'yearOfPublication': '2014', 'printPublicationDate': '2014-02-01', 'journal': {'title': 'PLoS medicine', 'ISOAbbreviation': 'PLoS Med', 'medlineAbbreviation': 'PLoS Med', 'NLMid': '101231360', 'ISSN': '1549-1277', 'ESSN': '1549-1676'}}</td>
+      <td>2014</td>
+      <td>e1001603</td>
+      <td>The current difficulties in keeping systematic reviews up to date leads to considerable inaccuracy, hampering the translation of knowledge into action. Incremental advances in conventional review updating are unlikely to lead to substantial improvements in review currency. A new approach is needed. We propose living systematic review as a contribution to evidence synthesis that combines currency with rigour to enhance the accuracy and utility of health evidence. Living systematic reviews are high quality, up-to-date online summaries of health research, updated as new research becomes available, and enabled by improved production efficiency and adherence to the norms of scholarly communication. Together with innovations in primary research reporting and the creation and use of evidence in health systems, living systematic review contributes to an emerging evidence ecosystem.</td>
+      <td>Department of Infectious Diseases, Alfred Hospital and Monash University, Melbourne, Australia ; School of Public Health and Preventive Medicine, Monash University, Melbourne, Australia.</td>
+      <td>epublish</td>
+      <td>eng</td>
+      <td>Electronic-eCollection</td>
+      <td>{'pubType': ['Research Support, Non-U.S. Gov't', 'research-article', 'Journal Article']}</td>
+      <td>{'grant': [{'grantId': 'MR/J005037/1', 'agency': 'Medical Research Council', 'acronym': 'MRC_', 'orderIn': '0'}, {'grantId': 'MC_U105285807', 'agency': 'Medical Research Council', 'acronym': 'MRC_', 'orderIn': '0'}]}</td>
+      <td>{'meshHeading': [{'majorTopic_YN': 'N', 'descriptorName': 'Humans'}, {'majorTopic_YN': 'N', 'descriptorName': 'Information Dissemination'}, {'majorTopic_YN': 'N', 'descriptorName': 'Cooperative Behavior'}, {'majorTopic_YN': 'N', 'descriptorName': 'Evidence-Based Medicine', 'meshQualifierList': OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'TD'), ('qualifierName', 'trends'), ('majorTopic_YN', 'Y')]))])}, {'majorTopic_YN': 'N', 'descriptorName': 'Biomedical Research', 'meshQualifierList': OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'TD'), ('qualifierName', 'trends'), ('majorTopic_YN', 'Y')]))])}, {'majorTopic_YN': 'N', 'descriptorName': 'Time Factors'}, {'majorTopic_YN': 'N', 'descriptorName': 'Access to Information'}, {'majorTopic_YN': 'Y', 'descriptorName': 'Review Literature as Topic'}, {'majorTopic_YN': 'N', 'descriptorName': 'Workflow'}]}</td>
+      <td>{'subset': {'code': 'IM', 'name': 'Index Medicus'}}</td>
+      <td>{'fullTextUrl': [{'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Unpaywall', 'url': 'https://journals.plos.org/plosmedicine/article/file?id=10.1371/journal.pmed.1001603&type=printable'}, {'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'pdf', 'site': 'PubMedCentral', 'url': 'https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/24558353/pdf/?tool=EBI'}, {'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'html', 'site': 'PubMedCentral', 'url': 'https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/24558353/?tool=EBI'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1371/journal.pmed.1001603'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC3928029'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC3928029?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+      <td>196</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>2014-09-29</td>
+      <td>2014-02-22</td>
+      <td>2014-02-22</td>
+      <td>2020-07-08</td>
+      <td>2022-03-21</td>
+      <td>2014-02-18</td>
+      <td>2014-02-18</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    

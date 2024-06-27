@@ -1,0 +1,137 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>downloaded</th>
+      <th>htmlmade</th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>authorIdList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>affiliation</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>grantsList</th>
+      <th>meshHeadingList</th>
+      <th>keywordList</th>
+      <th>subsetList</th>
+      <th>fullTextUrlList</th>
+      <th>commentCorrectionList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>license</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>dateOfCompletion</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>electronicPublicationDate</th>
+      <th>firstPublicationDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC11131308</th>
+      <td>True</td>
+      <td>False</td>
+      <td>38802877</td>
+      <td>MED</td>
+      <td>38802877</td>
+      <td>PMC11131308</td>
+      <td>{'fullTextId': 'PMC11131308'}</td>
+      <td>10.1186/s13326-024-00310-5</td>
+      <td>Semantic units: organizing knowledge graphs into semantically meaningful units of representation.</td>
+      <td>Vogt L, Kuhn T, Hoehndorf R.</td>
+      <td>{'author': [{'fullName': 'Vogt L', 'firstName': 'Lars', 'lastName': 'Vogt', 'initials': 'L', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-8280-0487')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'TIB Leibniz Information Centre for Science and Technology, Welfengarten 1B, 30167, Hanover, Germany. lars.m.vogt@googlemail.com.')]))])}, {'fullName': 'Kuhn T', 'firstName': 'Tobias', 'lastName': 'Kuhn', 'initials': 'T', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-1267-0234')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Computer Science, Vrije Universiteit, Amsterdam, Netherlands.')]))])}, {'fullName': 'Hoehndorf R', 'firstName': 'Robert', 'lastName': 'Hoehndorf', 'initials': 'R', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-8149-5890')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Computational Bioscience Research Center, Computer, Electrical and Mathematical Sciences & Engineering Division, King Abdullah University of Science and Technology, 4700 KAUST, 23955, Thuwal, Saudi Arabia.')]))])}]}</td>
+      <td>{'authorId': [{'@type': 'ORCID', '#text': '0000-0001-8149-5890'}, {'@type': 'ORCID', '#text': '0000-0002-1267-0234'}, {'@type': 'ORCID', '#text': '0000-0002-8280-0487'}]}</td>
+      <td>{'issue': '1', 'volume': '15', 'journalIssueId': '3763755', 'dateOfPublication': '2024 May', 'monthOfPublication': '5', 'yearOfPublication': '2024', 'printPublicationDate': '2024-05-01', 'journal': {'title': 'Journal of biomedical semantics', 'ISOAbbreviation': 'J Biomed Semantics', 'medlineAbbreviation': 'J Biomed Semantics', 'NLMid': '101531992', 'ISSN': '2041-1480', 'ESSN': '2041-1480'}}</td>
+      <td>2024</td>
+      <td>7</td>
+      <td><h4>Background</h4>In today's landscape of data management, the importance of knowledge graphs and ontologies is escalating as critical mechanisms aligned with the FAIR Guiding Principles-ensuring data and metadata are Findable, Accessible, Interoperable, and Reusable. We discuss three challenges that may hinder the effective exploitation of the full potential of FAIR knowledge graphs.<h4>Results</h4>We introduce "semantic units" as a conceptual solution, although currently exemplified only in a limited prototype. Semantic units structure a knowledge graph into identifiable and semantically meaningful subgraphs by adding another layer of triples on top of the conventional data layer. Semantic units and their subgraphs are represented by their own resource that instantiates a corresponding semantic unit class. We distinguish statement and compound units as basic categories of semantic units. A statement unit is the smallest, independent proposition that is semantically meaningful for a human reader. Depending on the relation of its underlying proposition, it consists of one or more triples. Organizing a knowledge graph into statement units results in a partition of the graph, with each triple belonging to exactly one statement unit. A compound unit, on the other hand, is a semantically meaningful collection of statement and compound units that form larger subgraphs. Some semantic units organize the graph into different levels of representational granularity, others orthogonally into different types of granularity trees or different frames of reference, structuring and organizing the knowledge graph into partially overlapping, partially enclosed subgraphs, each of which can be referenced by its own resource.<h4>Conclusions</h4>Semantic units, applicable in RDF/OWL and labeled property graphs, offer support for making statements about statements and facilitate graph-alignment, subgraph-matching, knowledge graph profiling, and for management of access restrictions to sensitive data. Additionally, we argue that organizing the graph into semantic units promotes the differentiation of ontological and discursive information, and that it also supports the differentiation of multiple frames of reference within the graph.</td>
+      <td>TIB Leibniz Information Centre for Science and Technology, Welfengarten 1B, 30167, Hanover, Germany. lars.m.vogt@googlemail.com.</td>
+      <td>epublish</td>
+      <td>eng</td>
+      <td>Electronic</td>
+      <td>{'pubType': ['research-article', 'Journal Article']}</td>
+      <td>{'grant': [{'agency': 'Technische Informationsbibliothek (TIB) - Leibniz Informationszentrum Technik und Naturwissenschaften', 'orderIn': '0'}, {'grantId': '819536', 'agency': 'European Research Council', 'orderIn': '0'}]}</td>
+      <td>{'meshHeading': [{'majorTopic_YN': 'N', 'descriptorName': 'Humans'}, {'majorTopic_YN': 'Y', 'descriptorName': 'Semantics'}, {'majorTopic_YN': 'N', 'descriptorName': 'Computer Graphics'}, {'majorTopic_YN': 'N', 'descriptorName': 'Biological Ontologies'}]}</td>
+      <td>{'keyword': ['Rdf', 'Owl', 'Knowledge Graph', 'Fair Data And Metadata', 'Granularity Tree', 'Graph Organization', 'Representational Granularity', 'Semantic Unit']}</td>
+      <td>{'subset': {'code': 'IM', 'name': 'Index Medicus'}}</td>
+      <td>{'fullTextUrl': [{'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Unpaywall', 'url': 'https://jbiomedsem.biomedcentral.com/counter/pdf/10.1186/s13326-024-00310-5'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1186/s13326-024-00310-5'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC11131308'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC11131308?pdf=render'}]}</td>
+      <td>{'commentCorrection': {'id': '38844997', 'source': 'MED', 'reference': 'J Biomed Semantics. 2024 Jun 6;15(1):10. doi: 10.1186/s13326-024-00313-2', 'type': 'Erratum in', 'orderIn': '1'}}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+      <td>1</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>2024-05-28</td>
+      <td>2024-05-27</td>
+      <td>2024-05-28</td>
+      <td>2024-06-01</td>
+      <td>2024-06-06</td>
+      <td>2024-05-27</td>
+      <td>2024-05-27</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    

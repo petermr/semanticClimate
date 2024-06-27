@@ -1,0 +1,133 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>downloaded</th>
+      <th>htmlmade</th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>authorIdList</th>
+      <th>dataLinksTagsList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>affiliation</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>grantsList</th>
+      <th>meshHeadingList</th>
+      <th>subsetList</th>
+      <th>fullTextUrlList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>license</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>dateOfCompletion</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>firstPublicationDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC7779061</th>
+      <td>True</td>
+      <td>False</td>
+      <td>33211851</td>
+      <td>MED</td>
+      <td>33211851</td>
+      <td>PMC7779061</td>
+      <td>{'fullTextId': 'PMC7779061'}</td>
+      <td>10.1093/nar/gkaa1024</td>
+      <td>WikiPathways: connecting communities.</td>
+      <td>Martens M, Ammar A, Riutta A, Waagmeester A, Slenter DN, Hanspers K, A Miller R, Digles D, Lopes EN, Ehrhart F, Dupuis LJ, Winckers LA, Coort SL, Willighagen EL, Evelo CT, Pico AR, Kutmon M.</td>
+      <td>{'author': [{'fullName': 'Martens M', 'firstName': 'Marvin', 'lastName': 'Martens', 'initials': 'M', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-2230-0840')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Bioinformatics - BiGCaT, NUTRIM, Maastricht University, 6229\xa0ER Maastricht, the Netherlands.')]))])}, {'fullName': 'Ammar A', 'firstName': 'Ammar', 'lastName': 'Ammar', 'initials': 'A', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-8399-8990')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Bioinformatics - BiGCaT, NUTRIM, Maastricht University, 6229\xa0ER Maastricht, the Netherlands.')]))])}, {'fullName': 'Riutta A', 'firstName': 'Anders', 'lastName': 'Riutta', 'initials': 'A', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-4693-0591')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Institute of Data Science and Biotechnology, Gladstone Institutes, San Francisco, CA 94158, USA.')]))])}, {'fullName': 'Waagmeester A', 'firstName': 'Andra', 'lastName': 'Waagmeester', 'initials': 'A', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-9773-4008')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Micelio, 2180, Antwerp, Belgium.')]))])}, {'fullName': 'Slenter DN', 'firstName': 'Denise N', 'lastName': 'Slenter', 'initials': 'DN', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-8449-1318')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Bioinformatics - BiGCaT, NUTRIM, Maastricht University, 6229\xa0ER Maastricht, the Netherlands.')]))])}, {'fullName': 'Hanspers K', 'firstName': 'Kristina', 'lastName': 'Hanspers', 'initials': 'K', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-5410-599X')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Institute of Data Science and Biotechnology, Gladstone Institutes, San Francisco, CA 94158, USA.')]))])}, {'fullName': 'A Miller R', 'firstName': 'Ryan', 'lastName': 'A Miller', 'initials': 'R', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Bioinformatics - BiGCaT, NUTRIM, Maastricht University, 6229\xa0ER Maastricht, the Netherlands.')]))])}, {'fullName': 'Digles D', 'firstName': 'Daniela', 'lastName': 'Digles', 'initials': 'D', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-5934-3559')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Pharmaceutical Chemistry/Pharmacoinformatics Research Group, University of Vienna, 1090 Vienna, Austria.')]))])}, {'fullName': 'Lopes EN', 'firstName': 'Elisson N', 'lastName': 'Lopes', 'initials': 'EN', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-1661-6304')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Instituto de Ciencias Biologicas, Departamento de Bioquimica e Imunologia, Universidade Federal de Minas Gerais, Belo Horizonte, 31270-901, Brazil.')]))])}, {'fullName': 'Ehrhart F', 'firstName': 'Friederike', 'lastName': 'Ehrhart', 'initials': 'F', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-7770-620X')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Bioinformatics - BiGCaT, NUTRIM, Maastricht University, 6229\xa0ER Maastricht, the Netherlands.')]))])}, {'fullName': 'Dupuis LJ', 'firstName': 'Lauren J', 'lastName': 'Dupuis', 'initials': 'LJ', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Bioinformatics - BiGCaT, NUTRIM, Maastricht University, 6229\xa0ER Maastricht, the Netherlands.')]))])}, {'fullName': 'Winckers LA', 'firstName': 'Laurent A', 'lastName': 'Winckers', 'initials': 'LA', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-9454-4783')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Bioinformatics - BiGCaT, NUTRIM, Maastricht University, 6229\xa0ER Maastricht, the Netherlands.')]))])}, {'fullName': 'Coort SL', 'firstName': 'Susan L', 'lastName': 'Coort', 'initials': 'SL', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-1224-9690')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Bioinformatics - BiGCaT, NUTRIM, Maastricht University, 6229\xa0ER Maastricht, the Netherlands.')]))])}, {'fullName': 'Willighagen EL', 'firstName': 'Egon L', 'lastName': 'Willighagen', 'initials': 'EL', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-7542-0286')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Bioinformatics - BiGCaT, NUTRIM, Maastricht University, 6229\xa0ER Maastricht, the Netherlands.')]))])}, {'fullName': 'Evelo CT', 'firstName': 'Chris T', 'lastName': 'Evelo', 'initials': 'CT', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-5301-3142')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Department of Bioinformatics - BiGCaT, NUTRIM, Maastricht University, 6229\xa0ER Maastricht, the Netherlands.')]), OrderedDict([('affiliation', 'Maastricht Centre for Systems Biology (MaCSBio), Maastricht University, 6229\xa0EN Maastricht, the Netherlands.')])])])}, {'fullName': 'Pico AR', 'firstName': 'Alexander R', 'lastName': 'Pico', 'initials': 'AR', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Institute of Data Science and Biotechnology, Gladstone Institutes, San Francisco, CA 94158, USA.')]))])}, {'fullName': 'Kutmon M', 'firstName': 'Martina', 'lastName': 'Kutmon', 'initials': 'M', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-7699-8191')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Department of Bioinformatics - BiGCaT, NUTRIM, Maastricht University, 6229\xa0ER Maastricht, the Netherlands.')]), OrderedDict([('affiliation', 'Maastricht Centre for Systems Biology (MaCSBio), Maastricht University, 6229\xa0EN Maastricht, the Netherlands.')])])])}]}</td>
+      <td>{'authorId': [{'@type': 'ORCID', '#text': '0000-0001-5410-599X'}, {'@type': 'ORCID', '#text': '0000-0001-5934-3559'}, {'@type': 'ORCID', '#text': '0000-0001-7542-0286'}, {'@type': 'ORCID', '#text': '0000-0001-8449-1318'}, {'@type': 'ORCID', '#text': '0000-0001-9773-4008'}, {'@type': 'ORCID', '#text': '0000-0002-4693-0591'}, {'@type': 'ORCID', '#text': '0000-0002-5301-3142'}, {'@type': 'ORCID', '#text': '0000-0002-7699-8191'}, {'@type': 'ORCID', '#text': '0000-0002-7770-620X'}, {'@type': 'ORCID', '#text': '0000-0002-8399-8990'}, {'@type': 'ORCID', '#text': '0000-0002-9454-4783'}, {'@type': 'ORCID', '#text': '0000-0003-1224-9690'}, {'@type': 'ORCID', '#text': '0000-0003-1661-6304'}, {'@type': 'ORCID', '#text': '0000-0003-2230-0840'}]}</td>
+      <td>{'dataLinkstag': 'altmetrics'}</td>
+      <td>{'issue': 'D1', 'volume': '49', 'journalIssueId': '3083618', 'dateOfPublication': '2021 Jan', 'monthOfPublication': '1', 'yearOfPublication': '2021', 'printPublicationDate': '2021-01-01', 'journal': {'title': 'Nucleic acids research', 'ISOAbbreviation': 'Nucleic Acids Res', 'medlineAbbreviation': 'Nucleic Acids Res', 'NLMid': '0411011', 'ISSN': '0305-1048', 'ESSN': '1362-4962'}}</td>
+      <td>2021</td>
+      <td>D613-D621</td>
+      <td>WikiPathways (https://www.wikipathways.org) is a biological pathway database known for its collaborative nature and open science approaches. With the core idea of the scientific community developing and curating biological knowledge in pathway models, WikiPathways lowers all barriers for accessing and using its content. Increasingly more content creators, initiatives, projects and tools have started using WikiPathways. Central in this growth and increased use of WikiPathways are the various communities that focus on particular subsets of molecular pathways such as for rare diseases and lipid metabolism. Knowledge from published pathway figures helps prioritize pathway development, using optical character and named entity recognition. We show the growth of WikiPathways over the last three years, highlight the new communities and collaborations of pathway authors and curators, and describe various technologies to connect to external resources and initiatives. The road toward a sustainable, community-driven pathway database goes through integration with other resources such as Wikidata and allowing more use, curation and redistribution of WikiPathways content.</td>
+      <td>Department of Bioinformatics - BiGCaT, NUTRIM, Maastricht University, 6229 ER Maastricht, the Netherlands.</td>
+      <td>ppublish</td>
+      <td>eng</td>
+      <td>Print</td>
+      <td>{'pubType': ['Research Support, Non-U.S. Gov't', 'research-article', 'Journal Article', 'Research Support, N.I.H., Extramural']}</td>
+      <td>{'grant': [{'grantId': '814425', 'agency': 'Horizon 2020', 'orderIn': '0'}, {'grantId': '814572', 'agency': 'Horizon 2020', 'orderIn': '0'}, {'grantId': '825575', 'agency': 'Horizon 2020', 'orderIn': '0'}, {'grantId': 'R01 GM089820', 'agency': 'National Institute of General Medical Sciences', 'orderIn': '0'}, {'grantId': 'R01 GM100039', 'agency': 'National Institute of General Medical Sciences', 'orderIn': '0'}, {'grantId': 'R01 GM089820', 'agency': 'NIGMS NIH HHS', 'acronym': 'GM', 'orderIn': '0'}, {'grantId': '731032', 'agency': 'Horizon 2020', 'orderIn': '0'}, {'grantId': '731075', 'agency': 'Horizon 2020', 'orderIn': '0'}, {'grantId': '10430012010015', 'agency': 'ZonMw', 'acronym': 'ZONMW_', 'orderIn': '0'}, {'grantId': 'R01 GM100039', 'agency': 'NIGMS NIH HHS', 'acronym': 'GM', 'orderIn': '0'}]}</td>
+      <td>{'meshHeading': [{'majorTopic_YN': 'N', 'descriptorName': 'Humans'}, {'majorTopic_YN': 'N', 'descriptorName': 'Publications'}, {'majorTopic_YN': 'N', 'descriptorName': 'User-Computer Interface'}, {'majorTopic_YN': 'Y', 'descriptorName': 'Databases, Factual'}, {'majorTopic_YN': 'N', 'descriptorName': 'Data Curation'}, {'majorTopic_YN': 'N', 'descriptorName': 'COVID-19', 'meshQualifierList': OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'PA'), ('qualifierName', 'pathology'), ('majorTopic_YN', 'N')]))])}]}</td>
+      <td>{'subset': {'code': 'IM', 'name': 'Index Medicus'}}</td>
+      <td>{'fullTextUrl': [{'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Unpaywall', 'url': 'https://academic.oup.com/nar/article-pdf/49/D1/D613/35364599/gkaa1024.pdf'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1093/nar/gkaa1024'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC7779061'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC7779061?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+      <td>377</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>2021-01-26</td>
+      <td>2020-11-19</td>
+      <td>2020-11-20</td>
+      <td>2021-01-12</td>
+      <td>2024-03-30</td>
+      <td>2021-01-01</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    

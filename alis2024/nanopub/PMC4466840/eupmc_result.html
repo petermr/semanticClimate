@@ -1,0 +1,135 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>downloaded</th>
+      <th>htmlmade</th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>authorIdList</th>
+      <th>dataLinksTagsList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>affiliation</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>meshHeadingList</th>
+      <th>subsetList</th>
+      <th>fullTextUrlList</th>
+      <th>commentCorrectionList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>license</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>dateOfCompletion</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>electronicPublicationDate</th>
+      <th>firstPublicationDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC4466840</th>
+      <td>True</td>
+      <td>False</td>
+      <td>25886734</td>
+      <td>MED</td>
+      <td>25886734</td>
+      <td>PMC4466840</td>
+      <td>{'fullTextId': 'PMC4466840'}</td>
+      <td>10.1186/s12859-015-0472-9</td>
+      <td>Extraction of relations between genes and diseases from text and large-scale data analysis: implications for translational research.</td>
+      <td>Bravo À, Piñero J, Queralt-Rosinach N, Rautschka M, Furlong LI.</td>
+      <td>{'author': [{'fullName': 'Bravo À', 'firstName': 'Àlex', 'lastName': 'Bravo', 'initials': 'À', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Research Programme on Biomedical Informatics (GRIB), IMIM, DCEXS, Universitat Pompeu Fabra, Barcelona, Spain. abravo@imim.es.')]))])}, {'fullName': 'Piñero J', 'firstName': 'Janet', 'lastName': 'Piñero', 'initials': 'J', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-1244-7654')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Research Programme on Biomedical Informatics (GRIB), IMIM, DCEXS, Universitat Pompeu Fabra, Barcelona, Spain. jpinero@imim.es.')]))])}, {'fullName': 'Queralt-Rosinach N', 'firstName': 'Núria', 'lastName': 'Queralt-Rosinach', 'initials': 'N', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Research Programme on Biomedical Informatics (GRIB), IMIM, DCEXS, Universitat Pompeu Fabra, Barcelona, Spain. nqueralt@imim.es.')]))])}, {'fullName': 'Rautschka M', 'firstName': 'Michael', 'lastName': 'Rautschka', 'initials': 'M', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Research Programme on Biomedical Informatics (GRIB), IMIM, DCEXS, Universitat Pompeu Fabra, Barcelona, Spain. rautschy@gmail.com.')]))])}, {'fullName': 'Furlong LI', 'firstName': 'Laura I', 'lastName': 'Furlong', 'initials': 'LI', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-9383-528X')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Research Programme on Biomedical Informatics (GRIB), IMIM, DCEXS, Universitat Pompeu Fabra, Barcelona, Spain. lfurlong@imim.es.')]))])}]}</td>
+      <td>{'authorId': [{'@type': 'ORCID', '#text': '0000-0002-9383-528X'}, {'@type': 'ORCID', '#text': '0000-0003-1244-7654'}]}</td>
+      <td>{'dataLinkstag': ['altmetrics', 'wikipedia']}</td>
+      <td>{'volume': '16', 'journalIssueId': '2475468', 'dateOfPublication': '2015 Feb', 'monthOfPublication': '2', 'yearOfPublication': '2015', 'printPublicationDate': '2015-02-01', 'journal': {'title': 'BMC bioinformatics', 'ISOAbbreviation': 'BMC Bioinformatics', 'medlineAbbreviation': 'BMC Bioinformatics', 'NLMid': '100965194', 'ISSN': '1471-2105', 'ESSN': '1471-2105'}}</td>
+      <td>2015</td>
+      <td>55</td>
+      <td><h4>Background</h4>Current biomedical research needs to leverage and exploit the large amount of information reported in scientific publications. Automated text mining approaches, in particular those aimed at finding relationships between entities, are key for identification of actionable knowledge from free text repositories. We present the BeFree system aimed at identifying relationships between biomedical entities with a special focus on genes and their associated diseases.<h4>Results</h4>By exploiting morpho-syntactic information of the text, BeFree is able to identify gene-disease, drug-disease and drug-target associations with state-of-the-art performance. The application of BeFree to real-case scenarios shows its effectiveness in extracting information relevant for translational research. We show the value of the gene-disease associations extracted by BeFree through a number of analyses and integration with other data sources. BeFree succeeds in identifying genes associated to a major cause of morbidity worldwide, depression, which are not present in other public resources. Moreover, large-scale extraction and analysis of gene-disease associations, and integration with current biomedical knowledge, provided interesting insights on the kind of information that can be found in the literature, and raised challenges regarding data prioritization and curation. We found that only a small proportion of the gene-disease associations discovered by using BeFree is collected in expert-curated databases. Thus, there is a pressing need to find alternative strategies to manual curation, in order to review, prioritize and curate text-mining data and incorporate it into domain-specific databases. We present our strategy for data prioritization and discuss its implications for supporting biomedical research and applications.<h4>Conclusions</h4>BeFree is a novel text mining system that performs competitively for the identification of gene-disease, drug-disease and drug-target associations. Our analyses show that mining only a small fraction of MEDLINE results in a large dataset of gene-disease associations, and only a small proportion of this dataset is actually recorded in curated resources (2%), raising several issues on data prioritization and curation. We propose that joint analysis of text mined data with data curated by experts appears as a suitable approach to both assess data quality and highlight novel and interesting information.</td>
+      <td>Research Programme on Biomedical Informatics (GRIB), IMIM, DCEXS, Universitat Pompeu Fabra, Barcelona, Spain. abravo@imim.es.</td>
+      <td>epublish</td>
+      <td>eng</td>
+      <td>Electronic</td>
+      <td>{'pubType': ['Research Support, Non-U.S. Gov't', 'research-article', 'Journal Article']}</td>
+      <td>{'meshHeading': [{'majorTopic_YN': 'N', 'descriptorName': 'Humans'}, {'majorTopic_YN': 'N', 'descriptorName': 'Disease', 'meshQualifierList': OrderedDict([('meshQualifier', [OrderedDict([('abbreviation', 'CL'), ('qualifierName', 'classification'), ('majorTopic_YN', 'N')]), OrderedDict([('abbreviation', 'GE'), ('qualifierName', 'genetics'), ('majorTopic_YN', 'Y')])])])}, {'majorTopic_YN': 'N', 'descriptorName': 'Depression', 'meshQualifierList': OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'GE'), ('qualifierName', 'genetics'), ('majorTopic_YN', 'N')]))])}, {'majorTopic_YN': 'Y', 'descriptorName': 'Publications'}, {'majorTopic_YN': 'Y', 'descriptorName': 'Information Storage and Retrieval'}, {'majorTopic_YN': 'Y', 'descriptorName': 'MEDLINE'}, {'majorTopic_YN': 'N', 'descriptorName': 'Databases, Factual'}, {'majorTopic_YN': 'N', 'descriptorName': 'Knowledge Bases'}, {'majorTopic_YN': 'N', 'descriptorName': 'Data Mining', 'meshQualifierList': OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'MT'), ('qualifierName', 'methods'), ('majorTopic_YN', 'Y')]))])}, {'majorTopic_YN': 'Y', 'descriptorName': 'Translational Research, Biomedical'}]}</td>
+      <td>{'subset': {'code': 'IM', 'name': 'Index Medicus'}}</td>
+      <td>{'fullTextUrl': [{'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Unpaywall', 'url': 'https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/s12859-015-0472-9'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1186/s12859-015-0472-9'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC4466840'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC4466840?pdf=render'}]}</td>
+      <td>{'commentCorrection': {'id': 'PPR31658', 'source': 'PPR', 'type': 'Preprint in', 'note': 'CrossRef Pre-print loader', 'orderIn': '10002'}}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+      <td>75</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>2015-10-06</td>
+      <td>2015-04-19</td>
+      <td>2015-04-19</td>
+      <td>2020-07-12</td>
+      <td>2022-03-16</td>
+      <td>2015-02-21</td>
+      <td>2015-02-21</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    

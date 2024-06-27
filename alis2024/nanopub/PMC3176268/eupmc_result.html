@@ -1,0 +1,135 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>downloaded</th>
+      <th>htmlmade</th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>authorIdList</th>
+      <th>dataLinksTagsList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>affiliation</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>grantsList</th>
+      <th>meshHeadingList</th>
+      <th>subsetList</th>
+      <th>fullTextUrlList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>license</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>dateOfCompletion</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>electronicPublicationDate</th>
+      <th>firstPublicationDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC3176268</th>
+      <td>True</td>
+      <td>False</td>
+      <td>21859449</td>
+      <td>MED</td>
+      <td>21859449</td>
+      <td>PMC3176268</td>
+      <td>{'fullTextId': 'PMC3176268'}</td>
+      <td>10.1186/1471-2105-12-351</td>
+      <td>Knowledge engineering tools for reasoning with scientific observations and interpretations: a neural connectivity use case.</td>
+      <td>Russ TA, Ramakrishnan C, Hovy EH, Bota M, Burns GA.</td>
+      <td>{'author': [{'fullName': 'Russ TA', 'firstName': 'Thomas A', 'lastName': 'Russ', 'initials': 'TA', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Information Sciences Institute, University of Southern California, Marina del Rey, CA, USA.')]))])}, {'fullName': 'Ramakrishnan C', 'firstName': 'Cartic', 'lastName': 'Ramakrishnan', 'initials': 'C'}, {'fullName': 'Hovy EH', 'firstName': 'Eduard H', 'lastName': 'Hovy', 'initials': 'EH', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-3270-7903')])}, {'fullName': 'Bota M', 'firstName': 'Mihail', 'lastName': 'Bota', 'initials': 'M'}, {'fullName': 'Burns GA', 'firstName': 'Gully A P C', 'lastName': 'Burns', 'initials': 'GA', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-1493-865X')])}]}</td>
+      <td>{'authorId': [{'@type': 'ORCID', '#text': '0000-0002-3270-7903'}, {'@type': 'ORCID', '#text': '0000-0003-1493-865X'}]}</td>
+      <td>{'dataLinkstag': ['altmetrics', 'supporting_data']}</td>
+      <td>{'volume': '12', 'journalIssueId': '2470003', 'dateOfPublication': '2011 Aug', 'monthOfPublication': '8', 'yearOfPublication': '2011', 'printPublicationDate': '2011-08-01', 'journal': {'title': 'BMC bioinformatics', 'ISOAbbreviation': 'BMC Bioinformatics', 'medlineAbbreviation': 'BMC Bioinformatics', 'NLMid': '100965194', 'ISSN': '1471-2105', 'ESSN': '1471-2105'}}</td>
+      <td>2011</td>
+      <td>351</td>
+      <td><h4>Background</h4>We address the goal of curating observations from published experiments in a generalizable form; reasoning over these observations to generate interpretations and then querying this interpreted knowledge to supply the supporting evidence. We present web-application software as part of the 'BioScholar' project (R01-GM083871) that fully instantiates this process for a well-defined domain: using tract-tracing experiments to study the neural connectivity of the rat brain.<h4>Results</h4>The main contribution of this work is to provide the first instantiation of a knowledge representation for experimental observations called 'Knowledge Engineering from Experimental Design' (KEfED) based on experimental variables and their interdependencies. The software has three parts: (a) the KEfED model editor - a design editor for creating KEfED models by drawing a flow diagram of an experimental protocol; (b) the KEfED data interface - a spreadsheet-like tool that permits users to enter experimental data pertaining to a specific model; (c) a 'neural connection matrix' interface that presents neural connectivity as a table of ordinal connection strengths representing the interpretations of tract-tracing data. This tool also allows the user to view experimental evidence pertaining to a specific connection. BioScholar is built in Flex 3.5. It uses Persevere (a noSQL database) as a flexible data store and PowerLoom® (a mature First Order Logic reasoning system) to execute queries using spatial reasoning over the BAMS neuroanatomical ontology.<h4>Conclusions</h4>We first introduce the KEfED approach as a general approach and describe its possible role as a way of introducing structured reasoning into models of argumentation within new models of scientific publication. We then describe the design and implementation of our example application: the BioScholar software. This is presented as a possible biocuration interface and supplementary reasoning toolkit for a larger, more specialized bioinformatics system: the Brain Architecture Management System (BAMS).</td>
+      <td>Information Sciences Institute, University of Southern California, Marina del Rey, CA, USA.</td>
+      <td>epublish</td>
+      <td>eng</td>
+      <td>Electronic</td>
+      <td>{'pubType': ['Research Support, Non-U.S. Gov't', 'data-paper', 'Journal Article', 'Research Support, N.I.H., Extramural']}</td>
+      <td>{'grant': [{'grantId': 'R01 GM083871', 'agency': 'NIGMS NIH HHS', 'acronym': 'GM', 'orderIn': '0'}, {'grantId': 'R01 MH079068', 'agency': 'NIMH NIH HHS', 'acronym': 'MH', 'orderIn': '0'}, {'grantId': 'U24 GM104203', 'agency': 'NIGMS NIH HHS', 'acronym': 'GM', 'orderIn': '0'}, {'grantId': '1 U24 RR025736-01', 'agency': 'NCRR NIH HHS', 'acronym': 'RR', 'orderIn': '0'}, {'grantId': 'U24 RR025736', 'agency': 'NCRR NIH HHS', 'acronym': 'RR', 'orderIn': '0'}, {'grantId': 'R01-GM083871', 'agency': 'NIGMS NIH HHS', 'acronym': 'GM', 'orderIn': '0'}, {'grantId': '1R01MH079068-01A2', 'agency': 'NIMH NIH HHS', 'acronym': 'MH', 'orderIn': '0'}]}</td>
+      <td>{'meshHeading': [{'majorTopic_YN': 'N', 'descriptorName': 'Animals'}, {'majorTopic_YN': 'N', 'descriptorName': 'Humans'}, {'majorTopic_YN': 'N', 'descriptorName': 'Rats'}, {'majorTopic_YN': 'N', 'descriptorName': 'Brain Mapping', 'meshQualifierList': OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'MT'), ('qualifierName', 'methods'), ('majorTopic_YN', 'Y')]))])}, {'majorTopic_YN': 'N', 'descriptorName': 'Computational Biology', 'meshQualifierList': OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'MT'), ('qualifierName', 'methods'), ('majorTopic_YN', 'N')]))])}, {'majorTopic_YN': 'N', 'descriptorName': 'Internet'}, {'majorTopic_YN': 'Y', 'descriptorName': 'Software'}, {'majorTopic_YN': 'Y', 'descriptorName': 'Knowledge Bases'}]}</td>
+      <td>{'subset': {'code': 'IM', 'name': 'Index Medicus'}}</td>
+      <td>{'fullTextUrl': [{'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Unpaywall', 'url': 'https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-12-351'}, {'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'html', 'site': 'PubMedCentral', 'url': 'https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/21859449/?tool=EBI'}, {'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'pdf', 'site': 'PubMedCentral', 'url': 'https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/21859449/pdf/?tool=EBI'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1186/1471-2105-12-351'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC3176268'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC3176268?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>21</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>2011-12-29</td>
+      <td>2011-08-24</td>
+      <td>2011-08-24</td>
+      <td>2020-07-09</td>
+      <td>2023-05-05</td>
+      <td>2011-08-22</td>
+      <td>2011-08-22</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    

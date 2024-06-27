@@ -1,0 +1,135 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>downloaded</th>
+      <th>htmlmade</th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>authorIdList</th>
+      <th>dataLinksTagsList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>affiliation</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>grantsList</th>
+      <th>meshHeadingList</th>
+      <th>subsetList</th>
+      <th>fullTextUrlList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>license</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>dateOfCompletion</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>electronicPublicationDate</th>
+      <th>firstPublicationDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC3703255</th>
+      <td>True</td>
+      <td>False</td>
+      <td>23803311</td>
+      <td>MED</td>
+      <td>23803311</td>
+      <td>PMC3703255</td>
+      <td>{'fullTextId': 'PMC3703255'}</td>
+      <td>10.1186/1752-0509-7-50</td>
+      <td>Consensus and conflict cards for metabolic pathway databases.</td>
+      <td>Stobbe MD, Swertz MA, Thiele I, Rengaw T, van Kampen AH, Moerland PD.</td>
+      <td>{'author': [{'fullName': 'Stobbe MD', 'firstName': 'Miranda D', 'lastName': 'Stobbe', 'initials': 'MD', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Bioinformatics Laboratory, Academic Medical Center, University of Amsterdam, PO Box 22700, Amsterdam 1100 DE, the Netherlands.')]))])}, {'fullName': 'Swertz MA', 'firstName': 'Morris A', 'lastName': 'Swertz', 'initials': 'MA', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-0979-3401')])}, {'fullName': 'Thiele I', 'firstName': 'Ines', 'lastName': 'Thiele', 'initials': 'I', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-8071-7110')])}, {'fullName': 'Rengaw T', 'firstName': 'Trebor', 'lastName': 'Rengaw', 'initials': 'T'}, {'fullName': 'van Kampen AH', 'firstName': 'Antoine H C', 'lastName': 'van Kampen', 'initials': 'AH'}, {'fullName': 'Moerland PD', 'firstName': 'Perry D', 'lastName': 'Moerland', 'initials': 'PD', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-2357-3659')])}]}</td>
+      <td>{'authorId': [{'@type': 'ORCID', '#text': '0000-0002-0979-3401'}, {'@type': 'ORCID', '#text': '0000-0002-2357-3659'}, {'@type': 'ORCID', '#text': '0000-0002-8071-7110'}]}</td>
+      <td>{'dataLinkstag': ['altmetrics', 'supporting_data']}</td>
+      <td>{'volume': '7', 'journalIssueId': '2472401', 'dateOfPublication': '2013 Jun', 'monthOfPublication': '6', 'yearOfPublication': '2013', 'printPublicationDate': '2013-06-01', 'journal': {'title': 'BMC systems biology', 'ISOAbbreviation': 'BMC Syst Biol', 'medlineAbbreviation': 'BMC Syst Biol', 'NLMid': '101301827', 'ISSN': '1752-0509', 'ESSN': '1752-0509'}}</td>
+      <td>2013</td>
+      <td>50</td>
+      <td><h4>Background</h4>The metabolic network of H. sapiens and many other organisms is described in multiple pathway databases. The level of agreement between these descriptions, however, has proven to be low. We can use these different descriptions to our advantage by identifying conflicting information and combining their knowledge into a single, more accurate, and more complete description. This task is, however, far from trivial.<h4>Results</h4>We introduce the concept of Consensus and Conflict Cards (C₂Cards) to provide concise overviews of what the databases do or do not agree on. Each card is centered at a single gene, EC number or reaction. These three complementary perspectives make it possible to distinguish disagreements on the underlying biology of a metabolic process from differences that can be explained by different decisions on how and in what detail to represent knowledge. As a proof-of-concept, we implemented C₂Cards(Human), as a web application http://www.molgenis.org/c2cards, covering five human pathway databases.<h4>Conclusions</h4>C₂Cards can contribute to ongoing reconciliation efforts by simplifying the identification of consensus and conflicts between pathway databases and lowering the threshold for experts to contribute. Several case studies illustrate the potential of the C₂Cards in identifying disagreements on the underlying biology of a metabolic process. The overviews may also point out controversial biological knowledge that should be subject of further research. Finally, the examples provided emphasize the importance of manual curation and the need for a broad community involvement.</td>
+      <td>Bioinformatics Laboratory, Academic Medical Center, University of Amsterdam, PO Box 22700, Amsterdam 1100 DE, the Netherlands.</td>
+      <td>epublish</td>
+      <td>eng</td>
+      <td>Electronic</td>
+      <td>{'pubType': ['Research Support, Non-U.S. Gov't', 'research-article', 'Journal Article']}</td>
+      <td>{'grant': {'grantId': '232816', 'agency': 'European Research Council', 'orderIn': '0'}}</td>
+      <td>{'meshHeading': [{'majorTopic_YN': 'N', 'descriptorName': 'Humans'}, {'majorTopic_YN': 'N', 'descriptorName': 'Consensus'}, {'majorTopic_YN': 'Y', 'descriptorName': 'Databases, Genetic'}, {'majorTopic_YN': 'Y', 'descriptorName': 'Metabolic Networks and Pathways', 'meshQualifierList': OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'GE'), ('qualifierName', 'genetics'), ('majorTopic_YN', 'N')]))])}, {'majorTopic_YN': 'N', 'descriptorName': 'Data Mining', 'meshQualifierList': OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'MT'), ('qualifierName', 'methods'), ('majorTopic_YN', 'Y')]))])}, {'majorTopic_YN': 'N', 'descriptorName': 'Conflict, Psychological'}]}</td>
+      <td>{'subset': {'code': 'IM', 'name': 'Index Medicus'}}</td>
+      <td>{'fullTextUrl': [{'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'doi', 'site': 'Unpaywall', 'url': 'https://doi.org/10.1186/1752-0509-7-50'}, {'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'pdf', 'site': 'PubMedCentral', 'url': 'https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/23803311/pdf/?tool=EBI'}, {'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'html', 'site': 'PubMedCentral', 'url': 'https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/23803311/?tool=EBI'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1186/1752-0509-7-50'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC3703255'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC3703255?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>7</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>2013-10-23</td>
+      <td>2013-06-28</td>
+      <td>2013-06-29</td>
+      <td>2020-07-09</td>
+      <td>2021-10-21</td>
+      <td>2013-06-26</td>
+      <td>2013-06-26</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    
