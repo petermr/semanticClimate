@@ -1,0 +1,435 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article"><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20190208//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-journalpublishing1.dtd?><?SourceDTD.Version 1.2?><?ConverterInfo.XSLTName jats2jats3.xsl?><?ConverterInfo.Version 1?><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">BMJ Health Care Inform</journal-id><journal-id journal-id-type="iso-abbrev">BMJ Health Care Inform</journal-id><journal-id journal-id-type="hwp">bmjhci</journal-id><journal-id journal-id-type="publisher-id">bmjhci</journal-id><journal-title-group><journal-title>BMJ Health &#x00026; Care Informatics</journal-title></journal-title-group><issn pub-type="epub">2632-1009</issn><publisher><publisher-name>BMJ Publishing Group</publisher-name><publisher-loc>BMA House, Tavistock Square, London, WC1H 9JR</publisher-loc></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmcid">11033660</article-id><article-id pub-id-type="pmid">38642920</article-id>
+<article-id pub-id-type="publisher-id">bmjhci-2023-100935</article-id><article-id pub-id-type="doi">10.1136/bmjhci-2023-100935</article-id><article-categories><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group><subj-group subj-group-type="hwp-journal-coll"><subject>1506</subject></subj-group></article-categories><title-group><article-title>Development of a scoring system to quantify errors from semantic characteristics in incident reports</article-title></title-group><contrib-group><contrib id="author-96903119" contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-2800-6802</contrib-id><name><surname>Uematsu</surname><given-names>Haruhiro</given-names></name><xref rid="aff1" ref-type="aff">1</xref></contrib><contrib id="author-65187404" contrib-type="author"><name><surname>Uemura</surname><given-names>Masakazu</given-names></name><xref rid="aff2" ref-type="aff">2</xref></contrib><contrib id="author-80012638" contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-9195-4202</contrib-id><name><surname>Kurihara</surname><given-names>Masaru</given-names></name><xref rid="aff2" ref-type="aff">2</xref></contrib><contrib id="author-112653186" contrib-type="author"><name><surname>Yamamoto</surname><given-names>Hiroo</given-names></name><xref rid="aff2" ref-type="aff">2</xref></contrib><contrib id="author-65187379" contrib-type="author"><name><surname>Umemura</surname><given-names>Tomomi</given-names></name><xref rid="aff2" ref-type="aff">2</xref></contrib><contrib id="author-65187414" contrib-type="author"><name><surname>Kitano</surname><given-names>Fumimasa</given-names></name><xref rid="aff2" ref-type="aff">2</xref></contrib><contrib id="author-89080202" contrib-type="author"><name><surname>Hiramatsu</surname><given-names>Mariko</given-names></name><xref rid="aff2" ref-type="aff">2</xref></contrib><contrib id="author-65187424" contrib-type="author"><name><surname>Nagao</surname><given-names>Yoshimasa</given-names></name><xref rid="aff1" ref-type="aff">1</xref><xref rid="aff2" ref-type="aff">2</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label>
+<institution content-type="department">Department of Quality and Patient Safety</institution>, <institution specific-use="Ringgold_36589">Nagoya University Graduate School of Medicine</institution>, <addr-line content-type="city">Nagoya</addr-line>, <addr-line content-type="state">Aichi</addr-line>, <country>Japan</country>
+</aff><aff id="aff2">
+<label>2</label>
+<institution content-type="department">Department of Patient Safety</institution>, <institution specific-use="Ringgold_36590">Nagoya University Hospital</institution>, <addr-line content-type="city">Nagoya</addr-line>, <addr-line content-type="state">Aichi</addr-line>, <country>Japan</country>
+</aff><author-notes><corresp>
+<label>Correspondence to</label> Dr Haruhiro Uematsu; <email>hiro_uematsu@hotmail.com</email>
+</corresp></author-notes><pub-date pub-type="collection"><year>2024</year></pub-date><pub-date pub-type="epub"><day>19</day><month>4</month><year>2024</year></pub-date><volume>31</volume><issue>1</issue><elocation-id>e100935</elocation-id><history><date date-type="received"><day>11</day><month>10</month><year>2023</year></date><date date-type="accepted"><day>02</day><month>4</month><year>2024</year></date></history><permissions><copyright-statement>&#x000a9; Author(s) (or their employer(s)) 2024. Re-use permitted under CC BY-NC. No commercial re-use. See rights and permissions. Published by BMJ.</copyright-statement><copyright-year>2024</copyright-year><ali:free_to_read xmlns:ali="http://www.niso.org/schemas/ali/1.0/"/><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense" start_date="2024-04-18">https://creativecommons.org/licenses/by-nc/4.0/</ali:license_ref><license-p>This is an open access article distributed in accordance with the Creative Commons Attribution Non Commercial (CC BY-NC 4.0) license, which permits others to distribute, remix, adapt, build upon this work non-commercially, and license their derivative works on different terms, provided the original work is properly cited, appropriate credit is given, any changes made indicated, and the use is non-commercial. See:&#x000a0;<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ext-link>.</license-p></license></permissions><self-uri xlink:title="pdf" xlink:href="bmjhci-2023-100935.pdf"/><abstract><sec><title>Objectives</title><p>Incident reporting systems are widely used to identify risks and enable organisational learning. Free-text descriptions contain important information about factors associated with incidents. This study aimed to develop error scores by extracting information about the presence of error factors in incidents using an original decision-making model that partly relies on natural language processing techniques.</p></sec><sec><title>Methods</title><p>We retrospectively analysed free-text data from reports of incidents between January 2012 and December 2022 from Nagoya University Hospital, Japan. The sample data were randomly allocated to equal-sized training and validation datasets. We conducted morphological analysis on free text to segment terms from sentences in the training dataset. We calculated error scores for terms, individual reports and reports from staff groups according to report volume size and compared these with conventional classifications by patient safety experts. We also calculated accuracy, recall, precision and F-score values from the proposed &#x02018;report error score&#x02019;.</p></sec><sec><title>Results</title><p>Overall, 114&#x02009;013 reports were included. We calculated 36 131 &#x02018;term error scores&#x02019; from the 57&#x02009;006 reports in the training dataset. There was a significant difference in error scores between reports of incidents categorised by experts as arising from errors (p&#x0003c;0.001, <italic toggle="yes">d</italic>=0.73 (large)) and other incidents. The accuracy, recall, precision and F-score values were 0.8, 0.82, 0.85 and 0.84, respectively. Group error scores were positively associated with expert ratings (correlation coefficient, 0.66; 95% CI 0.54 to 0.75, p&#x0003c;0.001) for all departments.</p></sec><sec><title>Conclusion</title><p>Our error scoring system could provide insights to improve patient safety using aggregated incident report data.</p></sec></abstract><kwd-group><kwd>Artificial intelligence</kwd><kwd>Decision Making, Computer-Assisted</kwd><kwd>Safety Management</kwd></kwd-group><funding-group specific-use="FundRef"><award-group id="funding-1"><funding-source>
+<institution-wrap><institution>Ministry of Health, Labour and Welfare Policy Research Grants, Research on Region Medical</institution></institution-wrap>
+</funding-source><award-id>20IA2001</award-id></award-group></funding-group><custom-meta-group><custom-meta><meta-name>special-feature</meta-name><meta-value>unlocked</meta-value></custom-meta></custom-meta-group></article-meta></front><body><boxed-text id="BX1" position="float"><sec><title>WHAT IS ALREADY KNOWN ON THIS TOPIC</title><list list-type="bullet"><list-item><p>Incident reporting systems have an important role in patient safety. Incidents caused by errors have a particularly significant influence on patient safety. There are various methods to analyse errors in healthcare settings, but to our knowledge, no studies have explored methods to quantify errors or analyse organisational trends by using the scores developed from free text in incident reports.</p></list-item></list></sec><sec><title>WHAT THIS STUDY ADDS</title><list list-type="bullet"><list-item><p>We developed error scores that partly rely on natural language processing techniques to obtain quantitative information about the presence of error factors in incident reports. Group error scores, representing averaged error scores in a certain group, were positively associated with manual ratings of patient safety experts. Our error scoring system could provide insights to improve patient safety using aggregated incident report data.</p></list-item></list></sec><sec><title>HOW THIS STUDY MIGHT AFFECT RESEARCH, PRACTICE OR POLICY</title><list list-type="bullet"><list-item><p>The proposed model will be used to monitor chronological trends in errors in groups and increase the awareness of workers and general risk managers. This system will also potentially be helpful for preventing future incidents by providing a warning (score changes), as well as for educational purposes. In future, a useful tool to improve patient safety may be developed by combining and balancing multiple factors to produce scores using the same methodology applied herein.</p></list-item></list></sec></boxed-text><sec sec-type="intro" id="s1"><title>Introduction</title><p>Many healthcare organisations have endorsed patient safety measures over the years.<xref rid="R1" ref-type="bibr">1</xref> However, the rates of medical errors and adverse events continue to be of serious concern.<xref rid="R2" ref-type="bibr">2</xref> Measures of quality are relatively well established, but the measurement and monitoring of safety continue to be problematic.<xref rid="R3" ref-type="bibr">3</xref>
+</p><p>Incident reporting systems allow healthcare workers to voluntarily disclose adverse events and &#x02018;near misses&#x02019;.<xref rid="R4" ref-type="bibr">4 5</xref> These systems function as barometers of risk in the healthcare setting and provide a foundation for organisational learning and improvement.<xref rid="R6" ref-type="bibr">6</xref> In addition, voluntary confidential submission is thought to deepen our understanding of events and promote a safe environment.<xref rid="R5" ref-type="bibr">5 7</xref> The use of incident reports is strongly recommended by the Institute of Medicine.<xref rid="R8" ref-type="bibr">8</xref> However, their varying quality is considered suboptimal for organisational learning.<xref rid="R9" ref-type="bibr">9</xref> Reports submitted by frontline workers can provide valuable insights,<xref rid="R4" ref-type="bibr">4</xref> especially the free-text sections used to describe incidents in greater detail,<xref rid="R10" ref-type="bibr">10</xref> but interpretation of incidents is challenging for various reasons, including inadequate use of evolving health information technology.<xref rid="R11" ref-type="bibr">11</xref>
+</p><p>The integration of artificial intelligence into patient safety measures has gained greater attention in recent years.<xref rid="R12" ref-type="bibr">12 13</xref> Studies have explored how to obtain better value from incident reports using health information technologies. One recent study proposed an original decision-making model that partly relies on natural language processing (NLP) techniques to quantify the severity of incidents from aggregated big data and measure organisational trends using the central limit theorem.<xref rid="R14" ref-type="bibr">14</xref> This model was novel in two ways. First, it used an original vectorisation approach to weigh terms from a bag of words. This enabled conversion of narrative free-text data into quantitative measures. Second, the model aimed to investigate organisational patterns and trends using a computer-assisted decision-making model. Generally, techniques using NLP help to answer binary questions or classify incident types for individual reporting.<xref rid="R15" ref-type="bibr">15</xref> However, the WHO recommends collecting systemic insights from aggregated incident data,<xref rid="R6" ref-type="bibr">6</xref> and this model was helpful in investigating particular factors in incident reports at the organisational level. However, it is not clear whether it could also be used to measure other factors in incident reports.</p><p>Incidents caused by errors potentially have a significant influence on patient safety. The occurrence of errors could lead to malpractice suits, which have an impact on healthcare costs.<xref rid="R16" ref-type="bibr">16</xref> Errors also create a serious public health problem<xref rid="R17" ref-type="bibr">17</xref> and are associated with stress for healthcare professionals.<xref rid="R18" ref-type="bibr">18</xref> We therefore attempted to extract information about errors from incident reports using the model from a previous study. To date, various methods have been applied in healthcare settings to analyse errors.<xref rid="R19" ref-type="bibr">19 20</xref> However, to our knowledge, no studies have used models to quantify errors or analyse organisational trends in incident reports.</p><p>This study aimed to develop error scores to quantify errors in incidents using semantic characteristics in incident reports, and to confirm the criterion-related validity of these error scores by comparing them with manual ratings of patient safety experts.</p></sec><sec sec-type="methods" id="s2"><title>Methods</title><sec id="s2-1"><title>Data sources</title><sec id="s2-1-1"><title>Incident reporting systems</title><p>All incident reports were collected at Nagoya University Hospital (NUH), Japan. NUH is a 1080-bed hospital that contributes to advanced medical care, education and research. NUH is the only national university hospital in Japan accredited by the Joint Commission International, an accreditation body for healthcare quality and safety. NUH has used an incident reporting system since 2000 and a reporting culture is well established.<xref rid="R21" ref-type="bibr">21</xref> Every employee can report incidents anonymously through the electronic health record system. The system collects background data about incidents using a structured format and free-text descriptions. Collected reports are reviewed by trained general risk managers (GRMs), a multidisciplinary group including physicians, nurses, a pharmacist and lawyers. Our hospital has been making considerable efforts to eliminate severe error-containing events, and GRMs sort incident reports according to information such as the severity and nature of errors. Severity is classified into five categories using the grading system developed at NUH: &#x02018;Near Miss&#x02019;, &#x02018;No Harm&#x02019;, &#x02018;Low Harm&#x02019;, &#x02018;Severe Harm&#x02019; and &#x02018;Catastrophic/Fatal Event&#x02019;. It has similarities with other grading systems such as those of the WHO and National University Hospital Council of Japan.<xref rid="R14" ref-type="bibr">14</xref>
+</p></sec><sec id="s2-1-2"><title>Manual data labelling (definition of error)</title><p>The term &#x02018;error&#x02019; has various meanings depending on the context; its precise meaning is actively debated,<xref rid="R22" ref-type="bibr">22</xref> and no universal grading scale is used in healthcare. The WHO defines an error as a failure to carry out a planned action as intended or the application of an incorrect plan.<xref rid="R23" ref-type="bibr">23</xref> Errors are divided into active and latent. Active errors are caused by unsafe acts committed by personnel resulting from slips, lapses, mistakes or violations.<xref rid="R24" ref-type="bibr">24</xref> Latent errors may provoke further errors or create inherent weaknesses in the system. In NUH, GRMs review all incident reports, and incidents are labelled as containing errors if they are associated with any types of system, process or human errors, regardless of whether a patient was harmed. Reports are classified as error free when the incident is considered very unlikely to have occurred as the result of an error.</p></sec><sec id="s2-1-3"><title>Generating training and validation datasets</title><p>We retrospectively extracted free-text data from incident reports dating from January 2012 to December 2022 at NUH. We included all free-text data from the submitted incident reports, regardless of the type of incident or the length of the text. Data were randomly allocated to equal-sized training and validation datasets. The training dataset was used to generate error scores according to the GRM classification, and the validation dataset was used to test the scores.</p></sec></sec><sec id="s2-2"><title>Semantic feature representation</title><p>We segmented the original free-text data to the smallest unit using morphological analysis to define the semantic characteristics in incident reports. Of the possible parts of speech, we used only nouns in the analysis because they appear most frequently in the text and represent the smallest unit of meaning. We did not preprocess the data because we prioritised applying the method to real-world data. During segmentation, sentences were processed into an unordered collection of words, known as a bag of words. This analysis was performed by an open-source engine, MeCab, which was equipped with two commercially available medical dictionaries, MANBYO (MANBYO_201907_Dic-sjis) and Comejisyo (ComeJisyo Sjis-2), for application to medical writing.</p></sec><sec id="s2-3"><title>Calculating error scores</title><p>
+<xref rid="F1" ref-type="fig">Figure 1</xref> provides an overview of how the error scores were developed from incident reports. After segmentation, the bag of words was transformed into a numerical representation using the original vectorisation (<italic toggle="yes">{A+1/(A+B+1)}/{C+1/(C+D+1)}</italic>), inspired by the epidemiological concept of relative risk. All segmented terms were examined using the &#x003c7;<sup>2</sup> test in terms of the relative frequency of their use in error-containing reports and other reports, as classified by GRMs. We modified the formula by adding one to both the numerator and denominator to pick up more terms from free-text data and avoid zero probability. When a term appeared more frequently in reports of error-free incidents (C+1/(C+D+1)&#x0003e;A+1/(A+B+1)), implying that it is less important in incidents arising from errors, we reversed the numerator and denominator and replaced the plus sign with a minus sign (&#x02212;[C+1/(C+D+1)]/[A+1/(A+B+1)]). A term score having more impact on the likelihood of errors being associated with the incident therefore becomes greater than 1, and one with the opposite effect becomes less than &#x02212;1.</p><fig position="float" id="F1"><label>Figure 1</label><caption><p>Process for calculating error scores from original text in incident reports.</p></caption><graphic xlink:href="bmjhci-2023-100935f01" position="float"/></fig><p>Once the error scores for segmented terms had been calculated, we averaged the scores for each report unit. Then, the scores for a certain group (clinical or non-clinical departments/wards) were calculated by averaging the scores for individual reports in that group, adjusted by its number of workers. &#x02018;Term error score&#x02019;, &#x02018;report error score&#x02019; and &#x02018;group error score&#x02019; were defined in this manner. We also analysed the score distributions according to report volume size.</p></sec><sec id="s2-4"><title>Statistical analysis</title><p>We used the Wilcoxon signed-rank test to compare the &#x02018;report error score&#x02019; with the manual GRM ratings. In addition, we calculated accuracy, recall, precision and F-score values from the report error score to evaluate the performance. For this analysis, we set a cut-off value on the basis of the receiver operating characteristic (ROC) curve using the training dataset. To determine the association of group error score level with manual ratings, we used Pearson&#x02019;s product&#x02013;moment correlation test. A validation dataset not used for generating the training dataset was analysed using R software (V.4.3.0; R Project for Statistical Computing, Vienna, Austria).</p></sec></sec><sec sec-type="results" id="s3"><title>Results</title><sec id="s3-1"><title>Sample characteristics</title><p>Overall, 116&#x02009;786 incident reports were collected during the study period. The incident reports by year and reporter occupation are shown in <xref rid="T1" ref-type="table">table 1</xref>. Reports in all years were made most often by nurses or midwives, accounting for 73.4% of all reports. After 2018, when &#x02018;other healthcare professionals&#x02019; were subdivided by profession, physicians, pharmacists and rehabilitation therapists were the most likely (after nurses) to submit reports.</p><table-wrap position="float" id="T1"><label>Table 1</label><caption><p>Incident reports by year and occupation of reporter</p></caption><table frame="hsides" rules="groups"><thead><tr><td align="left" valign="bottom" rowspan="1" colspan="1"/><td align="left" valign="bottom" rowspan="1" colspan="1">2012</td><td align="left" valign="bottom" rowspan="1" colspan="1">2013</td><td align="left" valign="bottom" rowspan="1" colspan="1">2014</td><td align="left" valign="bottom" rowspan="1" colspan="1">2015</td><td align="left" valign="bottom" rowspan="1" colspan="1">2016</td><td align="left" valign="bottom" rowspan="1" colspan="1">2017</td><td align="left" valign="bottom" rowspan="1" colspan="1">2018</td><td align="left" valign="bottom" rowspan="1" colspan="1">2019</td><td align="left" valign="bottom" rowspan="1" colspan="1">2020</td><td align="left" valign="bottom" rowspan="1" colspan="1">2021</td><td align="left" valign="bottom" rowspan="1" colspan="1">2022</td><td align="left" valign="bottom" rowspan="1" colspan="1">Total</td></tr></thead><tbody><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>Total submitted incident reports</bold>
+</td><td align="left" valign="top" rowspan="1" colspan="1">9183</td><td align="left" valign="top" rowspan="1" colspan="1">9752</td><td align="left" valign="top" rowspan="1" colspan="1">10&#x02009;082</td><td align="left" valign="top" rowspan="1" colspan="1">11&#x02009;443</td><td align="left" valign="top" rowspan="1" colspan="1">11&#x02009;109</td><td align="left" valign="top" rowspan="1" colspan="1">10&#x02009;333</td><td align="left" valign="top" rowspan="1" colspan="1">10&#x02009;086</td><td align="left" valign="top" rowspan="1" colspan="1">10&#x02009;676</td><td align="left" valign="top" rowspan="1" colspan="1">10&#x02009;939</td><td align="left" valign="top" rowspan="1" colspan="1">11&#x02009;883</td><td align="left" valign="top" rowspan="1" colspan="1">11&#x02009;300</td><td align="left" valign="top" rowspan="1" colspan="1">116&#x02009;786</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>By reporters</bold>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Physician</td><td align="left" valign="top" rowspan="1" colspan="1">635</td><td align="left" valign="top" rowspan="1" colspan="1">674</td><td align="left" valign="top" rowspan="1" colspan="1">768</td><td align="left" valign="top" rowspan="1" colspan="1">958</td><td align="left" valign="top" rowspan="1" colspan="1">822</td><td align="left" valign="top" rowspan="1" colspan="1">700</td><td align="left" valign="top" rowspan="1" colspan="1">746</td><td align="left" valign="top" rowspan="1" colspan="1">987</td><td align="left" valign="top" rowspan="1" colspan="1">1218</td><td align="left" valign="top" rowspan="1" colspan="1">1033</td><td align="left" valign="top" rowspan="1" colspan="1">971</td><td align="left" valign="top" rowspan="1" colspan="1">9512</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Nurse/midwife</td><td align="left" valign="top" rowspan="1" colspan="1">7603</td><td align="left" valign="top" rowspan="1" colspan="1">7899</td><td align="left" valign="top" rowspan="1" colspan="1">7734</td><td align="left" valign="top" rowspan="1" colspan="1">8457</td><td align="left" valign="top" rowspan="1" colspan="1">7975</td><td align="left" valign="top" rowspan="1" colspan="1">7379</td><td align="left" valign="top" rowspan="1" colspan="1">7074</td><td align="left" valign="top" rowspan="1" colspan="1">7357</td><td align="left" valign="top" rowspan="1" colspan="1">7491</td><td align="left" valign="top" rowspan="1" colspan="1">8517</td><td align="left" valign="top" rowspan="1" colspan="1">8268</td><td align="left" valign="top" rowspan="1" colspan="1">85&#x02009;755</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Other healthcare professionals</td><td align="left" valign="top" rowspan="1" colspan="1">914</td><td align="left" valign="top" rowspan="1" colspan="1">1142</td><td align="left" valign="top" rowspan="1" colspan="1">1542</td><td align="left" valign="top" rowspan="1" colspan="1">1985</td><td align="left" valign="top" rowspan="1" colspan="1">2263</td><td align="left" valign="top" rowspan="1" colspan="1">2212</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">10&#x02009;058</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">&#x02003;Pharmacist</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">458</td><td align="left" valign="top" rowspan="1" colspan="1">803</td><td align="left" valign="top" rowspan="1" colspan="1">853</td><td align="left" valign="top" rowspan="1" colspan="1">915</td><td align="left" valign="top" rowspan="1" colspan="1">636</td><td align="left" valign="top" rowspan="1" colspan="1">3665</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">&#x02003;Radiological technologist</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">221</td><td align="left" valign="top" rowspan="1" colspan="1">172</td><td align="left" valign="top" rowspan="1" colspan="1">170</td><td align="left" valign="top" rowspan="1" colspan="1">222</td><td align="left" valign="top" rowspan="1" colspan="1">266</td><td align="left" valign="top" rowspan="1" colspan="1">1051</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">&#x02003;Medical technologist</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">310</td><td align="left" valign="top" rowspan="1" colspan="1">259</td><td align="left" valign="top" rowspan="1" colspan="1">156</td><td align="left" valign="top" rowspan="1" colspan="1">145</td><td align="left" valign="top" rowspan="1" colspan="1">188</td><td align="left" valign="top" rowspan="1" colspan="1">1058</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">&#x02003;Rehabilitation therapist</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">314</td><td align="left" valign="top" rowspan="1" colspan="1">387</td><td align="left" valign="top" rowspan="1" colspan="1">395</td><td align="left" valign="top" rowspan="1" colspan="1">413</td><td align="left" valign="top" rowspan="1" colspan="1">381</td><td align="left" valign="top" rowspan="1" colspan="1">1890</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">&#x02003;Orthoptist</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">51</td><td align="left" valign="top" rowspan="1" colspan="1">45</td><td align="left" valign="top" rowspan="1" colspan="1">55</td><td align="left" valign="top" rowspan="1" colspan="1">56</td><td align="left" valign="top" rowspan="1" colspan="1">33</td><td align="left" valign="top" rowspan="1" colspan="1">240</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">&#x02003;Biomedical equipment technician</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">222</td><td align="left" valign="top" rowspan="1" colspan="1">201</td><td align="left" valign="top" rowspan="1" colspan="1">194</td><td align="left" valign="top" rowspan="1" colspan="1">197</td><td align="left" valign="top" rowspan="1" colspan="1">145</td><td align="left" valign="top" rowspan="1" colspan="1">959</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">&#x02003;Nursing assistant</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">1</td><td align="left" valign="top" rowspan="1" colspan="1">2</td><td align="left" valign="top" rowspan="1" colspan="1">1</td><td align="left" valign="top" rowspan="1" colspan="1">1</td><td align="left" valign="top" rowspan="1" colspan="1">2</td><td align="left" valign="top" rowspan="1" colspan="1">7</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">&#x02003;Dental hygienist</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">0</td><td align="left" valign="top" rowspan="1" colspan="1">0</td><td align="left" valign="top" rowspan="1" colspan="1">0</td><td align="left" valign="top" rowspan="1" colspan="1">3</td><td align="left" valign="top" rowspan="1" colspan="1">5</td><td align="left" valign="top" rowspan="1" colspan="1">8</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">&#x02003;Nutritionist</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">219</td><td align="left" valign="top" rowspan="1" colspan="1">226</td><td align="left" valign="top" rowspan="1" colspan="1">178</td><td align="left" valign="top" rowspan="1" colspan="1">143</td><td align="left" valign="top" rowspan="1" colspan="1">144</td><td align="left" valign="top" rowspan="1" colspan="1">910</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">&#x02003;Administrative assistant</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">447</td><td align="left" valign="top" rowspan="1" colspan="1">186</td><td align="left" valign="top" rowspan="1" colspan="1">191</td><td align="left" valign="top" rowspan="1" colspan="1">200</td><td align="left" valign="top" rowspan="1" colspan="1">238</td><td align="left" valign="top" rowspan="1" colspan="1">1262</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">&#x02003;Security guard</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">0</td><td align="left" valign="top" rowspan="1" colspan="1">0</td><td align="left" valign="top" rowspan="1" colspan="1">0</td><td align="left" valign="top" rowspan="1" colspan="1">2</td><td align="left" valign="top" rowspan="1" colspan="1">2</td><td align="left" valign="top" rowspan="1" colspan="1">4</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Others</td><td align="left" valign="top" rowspan="1" colspan="1">31</td><td align="left" valign="top" rowspan="1" colspan="1">37</td><td align="left" valign="top" rowspan="1" colspan="1">38</td><td align="left" valign="top" rowspan="1" colspan="1">43</td><td align="left" valign="top" rowspan="1" colspan="1">49</td><td align="left" valign="top" rowspan="1" colspan="1">42</td><td align="left" valign="top" rowspan="1" colspan="1">23</td><td align="left" valign="top" rowspan="1" colspan="1">51</td><td align="left" valign="top" rowspan="1" colspan="1">36</td><td align="left" valign="top" rowspan="1" colspan="1">36</td><td align="left" valign="top" rowspan="1" colspan="1">21</td><td align="left" valign="top" rowspan="1" colspan="1">407</td></tr></tbody></table><table-wrap-foot><fn id="T1_FN1"><p>The category of &#x02018;other healthcare professionals&#x02019; was subdivided after 2018.</p></fn></table-wrap-foot></table-wrap><p>We included 114&#x02009;013 reports in the study, with 2773 being excluded because the GRMs made no assessment about whether or not they were associated with errors. Of these reports, 71&#x02009;038 (62.3%) were determined to contain errors; 57&#x02009;006 reports were included in the training dataset and 57&#x02009;007 in the validation dataset.</p></sec><sec id="s3-2"><title>Development of error scores</title><p>Using morphological analysis, error scores were calculated for 36&#x02009;131 terms in the incident reports in the training dataset. The median term error score was &#x02212;1.36 (IQR: &#x02212;3.27 to 1.22). The highest term error score (45.25) was for &#x02018;temoto joho&#x02019; (patient identifiers that healthcare workers can access to prevent misidentification), followed by &#x02018;jikanme&#x02019; (hour(s) passed since an action was taken; 37.91), &#x02018;kansasha&#x02019; (a person who inspects compounded medications; 30.58), &#x02018;shokusatsu&#x02019; (a diet card with a patient identifier; 27.82) and &#x02018;kanjagonin&#x02019; (patient misidentification; 23.85). The terms with high error scores are shown in <xref rid="SP1" ref-type="supplementary-material">online supplemental appendix 1</xref>.</p><supplementary-material id="SP1" position="float" content-type="local-data"><object-id pub-id-type="doi">10.1136/bmjhci-2023-100935.supp1</object-id><label>Supplementary data</label><p>
+<inline-supplementary-material id="SS1" xlink:href="bmjhci-2023-100935supp001.pdf" content-type="local-data"/>
+</p></supplementary-material><p>The median report error score was 0.50 (IQR: &#x02212;1.26 to 1.46). The median group error score, which is the total report error score of a group divided by the number of workers therein, was 0.06 (IQR: &#x02212;0.46 to 0.61). Group error scores were high for the clinical nutrition (2.86), administration (2.73) and hospital pharmacy (2.20) departments, and low for the geriatrics ward (&#x02212;2.38) and rehabilitation department (&#x02212;2.09).</p><p>The SDs of these scores steadily decreased by level (3.45 for the term error score, 2.31 for the report error score and 0.85 for the group error score) (<xref rid="SP2" ref-type="supplementary-material">online supplemental appendix 2</xref>).</p><supplementary-material id="SP2" position="float" content-type="local-data"><object-id pub-id-type="doi">10.1136/bmjhci-2023-100935.supp2</object-id><label>Supplementary data</label><p>
+<inline-supplementary-material id="SS2" xlink:href="bmjhci-2023-100935supp002.pdf" content-type="local-data"/>
+</p></supplementary-material></sec><sec id="s3-3"><title>Validation and performance of the report error score</title><p>The median report error score was &#x02212;1.66 (IQR: &#x02212;3.66 to &#x02212;0.05) for error-free reports and 1.11 (IQR: 0.35&#x02013;1.80) for reports of incidents that GRMs labelled as error containing; the difference was significant (p&#x0003c;0.001, <italic toggle="yes">d</italic>=0.73 (large)) (<xref rid="F2" ref-type="fig">figure 2</xref>). Regarding the performance metrics, accuracy, which indicates the model&#x02019;s ability to correctly predict the outcome (error containing or non-error containing) on the basis of all reports, was 0.8. Recall, that is, the probability of identifying error-containing reports among the GRM-classified error-containing reports, was 0.82. Precision, that is, the concordance between GRM-categorised error-containing reports and error-containing reports as determined by the model, was 0.85. Finally, the F-score, which reflects the balance between precision and recall, was 0.84. These results were obtained using an optimal cut-off score of &#x02265;0.037 for error-containing incident reports derived from the ROC analysis (<xref rid="F3" ref-type="fig">figure 3</xref>).</p><fig position="float" id="F2"><label>Figure 2</label><caption><p>Box plot of report error scores among incident reports manually categorised by general risk managers (GRMs).</p></caption><graphic xlink:href="bmjhci-2023-100935f02" position="float"/></fig><fig position="float" id="F3"><label>Figure 3</label><caption><p>Performance metrics of report error score. ROC, receiver operating characteristic.</p></caption><graphic xlink:href="bmjhci-2023-100935f03" position="float"/></fig></sec><sec id="s3-4"><title>Correlation of group error scores with manual classifications</title><p>A total of 119 organisational units were eligible to submit incident reports, including all departments and wards in NUH. Incident reports that GRMs rated as error containing were plotted against the group error scores for these 119 organisational units, and the correlation coefficient of 0.66 was highly significant (95% CI 0.54 to 0.75, p&#x0003c;0.001)(<xref rid="F4" ref-type="fig">figure 4</xref>A). In the subgroup analysis focusing on the clinical departments in which incident reports were only submitted by physicians (n=58), the correlation coefficient was 0.71 (95% CI 0.55 to 0.82, p&#x0003c;0.001) (<xref rid="F4" ref-type="fig">figure 4</xref>B).</p><fig position="float" id="F4"><label>Figure 4</label><caption><p>Scatter plot of the ratio of general risk manager (GRM)-labelled error-containing incident reports against averaged group error scores in each organisational unit at Nagoya University Hospital (NUH). In A, all departments were plotted. Only the clinical departments were included in B.</p></caption><graphic xlink:href="bmjhci-2023-100935f04" position="float"/></fig></sec></sec><sec sec-type="discussion" id="s4"><title>Discussion</title><sec id="s4-1"><title>Main findings and implications</title><p>The writing quality of individual reports widely varied because the reporters sometimes used the same term in different contexts or used different expressions to describe the same event. In addition, in medical dictionaries, &#x02018;error&#x02019; appeared in terms such as &#x02018;Human error&#x02019; and &#x02018;Error message&#x02019;, which may have affected the scores. However, the results became more reliable as the volume of reports increased, in line with the central limit theorem.</p><p>Notably, the report error score demonstrated that the model could more effectively identify reports of incidents arising from errors compared with manual categorisation by GRMs; the model&#x02019;s performance metrics were good. These findings suggest that our model could be useful to analyse errors documented in individual reports, but we emphasise that it was designed to evaluate organisational trends in aggregated reports.</p><p>More importantly, higher error scores for departments were associated with a higher submission rate of error-containing incident reports. This phenomenon was also observed for group severity scores which indicate the severity of incidents using this model.<xref rid="R14" ref-type="bibr">14</xref> Severe events rarely occur, but events associated with errors are relatively common. The results suggest that our model is able to analyse factors involved in incidents regardless of their frequency of occurrence.</p><p>Departments with higher error scores, such as the clinical nutrition, administration and hospital pharmacy departments, tended to submit more reports. However, their reports included many near-miss and less severe events. The error score simply indicates the existence of error in association with an incident, not the severity of the error or its consequences. Each department provides their own services, and scores therefore cannot be compared directly among departments. The scores are also influenced by whether departments are correctly submitting reports of all incidents, including those arising from errors and other reasons. Although we are aware that the outcomes would have been more accurate had outliers been removed, the results are nevertheless considered robust given the sufficient data volume.</p></sec><sec id="s4-2"><title>Comparison with previous related work</title><p>When artificial intelligence-enabled decision support systems are implemented correctly, they can improve patient safety.<xref rid="R13" ref-type="bibr">13</xref> Researchers have explored the potential of applying NLP techniques to incident reports, often in conjunction with machine learning.<xref rid="R15" ref-type="bibr">15</xref> Most studies used a binary classification, but research aiming to identify multiclass classifications is emerging gradually.<xref rid="R25" ref-type="bibr">25</xref> These studies were designed to answer questions about individual incident reports. However, the writing quality (ie, complexity and length) of incident reports varies greatly.<xref rid="R26" ref-type="bibr">26</xref> Our model is unique in that we aimed to analyse groups of reports to understand organisational patterns and trends. We performed statistical analysis to compare the results between groups, but we could not find adequate classifiers to evaluate groups in the context of machine learning and NLP. We therefore adopted rank-based tests, which are sometimes used in NLP.<xref rid="R27" ref-type="bibr">27 28</xref> The drawback of rank-based tests is their relatively weak statistical power, but our sample size was large enough to overcome this limitation.</p><p>Various vectorisation methods, such as binary, term frequency, thresholding and term frequency-inverse document frequency methods, are generally used to transform segmented terms into numerical representations.<xref rid="R29" ref-type="bibr">29</xref> We adopted the same vectorisation method to weigh semantic characteristics as was applied to the severity score, which is used to quantify event severity on the basis of training data and GRM classifications.<xref rid="R14" ref-type="bibr">14</xref> The severity score can also be used to predict organisational trends. A study on severity scores highlighted that many terms used in reports of severe incidents did not appear in reports of non-severe incidents. However, that study had a huge number of non-severe incident reports and far fewer severe reports.<xref rid="R14" ref-type="bibr">14</xref> To alleviate this imbalance, the formula was updated in this study by adding one. This method reduced the number of words with a zero probability and has been used in other vectorisations, such as term frequency-inverse document frequency<xref rid="R30" ref-type="bibr">30</xref> and Bayesian vectorisation.<xref rid="R31" ref-type="bibr">31</xref> However, direct comparison with other vectorisation models was outside the scope of this research.</p></sec><sec id="s4-3"><title>Limitations</title><p>This study had several limitations. First, it used data from a single facility in Japan. All incident reports were written in Japanese, and the results may vary by language. Moreover, we applied a consensus method to triage reports using our institutional definition of &#x02018;error&#x02019;. Unfortunately, the inter-rater reliability of the GRMs in terms of error scores was not confirmed, although we consider the quality of our safety department to be high. In addition, the judgements of multiple trained GRMs were considered, including legal experts. The number of incident reports may vary among hospitals depending on the reporting culture. As incident reports share similarities, we believe that this model is widely applicable, although additional research is required to confirm its applicability to other languages or institutions.</p><p>Second, we did not perform any qualitative analysis of the segmented terms generated by the morphological analysis, and the narrative descriptions in the reports were not included in the analysis. Although these factors would have influenced the quality of the scores, we nevertheless consider the study useful because it included a large sample of real-world data, including incomplete reports and ones with inaccurate event descriptions. However, some measures, such as maintenance of dictionaries for morphological analysis and preprocessing of raw free-text data to correct typing errors, could improve the results.</p></sec><sec id="s4-4"><title>Challenges for future work</title><p>In future, our scoring model could be used to monitor chronological trends in errors at the group level, as well as to increase the awareness of workers and GRMs. It might therefore provide data that could help prevent future incidents. We also expect this system to be useful for educating new GRMs.</p><p>We will continue to try to improve the performance of the model. We modified the vectorisation formula to increase calculable terms in free-text data; other possible measures include data preprocessing, updating dictionaries and identifying the optimal number of incident reports to assess group error scores.</p><p>In addition to severity and error, other factors are involved in incidents; we will aim to quantify these factors using the same methodology applied herein. In future, a useful tool could be developed to enhance organisational patient safety by combining multiple scores, including severity and error scores, in a balanced manner. This study represents a useful step towards that goal.</p></sec></sec><sec sec-type="conclusions" id="s5"><title>Conclusions</title><p>We developed a decision-making model to quantify errors by analysing the semantic characteristics of free-text data in incident reports. Analysing scores by organisational unit revealed strong correlations with expert ratings. By expanding the scope of this model, an incident reporting system promoting patient safety could be obtained.</p></sec></body><back><ack><p>We thank the staff of the Department of Patient Safety at Nagoya University Hospital and members of ASUISHI and CQSO. We also thank Atsushi Okawa, Nobuyuki Toyama, Yasuyuki Nasuhara, Toshihiro Kaneko, Masashi Uramatsu, Yumi Arai, Kouichi Tanabe and Tatsuya Fukami for their help in this research project. We thank Melissa Leffler, MBA, and Michael Irvine, PhD, from Edanz (<ext-link xlink:href="https://jp.edanz.com/ac" ext-link-type="uri">https://jp.edanz.com/ac</ext-link>) for editing a draft of this manuscript.</p></ack><fn-group><fn fn-type="other"><p><bold>Contributors:</bold> YN and MU conceived the idea for the study. HU led the writing of this paper. MU, MK, HY, TU, MH, FK and YN analysed and interpreted the data. MU, MK, HY and YN contributed to the writing of the paper as well as participated in revising this manuscript. All authors contributed substantially to the writing of the paper, and all reviewed and approved the final draft. HU and YN are the guarantors of this study.</p></fn><fn fn-type="other"><p><bold>Funding:</bold> This research was supported by the Ministry of Health, Labour and Welfare Policy Research Grants, Research on Region Medical (20IA2001).</p></fn><fn fn-type="COI-statement"><p><bold>Competing interests:</bold> None declared.</p></fn><fn fn-type="other"><p><bold>Provenance and peer review:</bold> Not commissioned; externally peer reviewed.</p></fn><fn fn-type="other"><p><bold>Supplemental material:</bold> This content has been supplied by the author(s). It has not been vetted by BMJ Publishing Group Limited (BMJ) and may not have been peer-reviewed. Any opinions or recommendations discussed are solely those of the author(s) and are not endorsed by BMJ. BMJ disclaims all liability and responsibility arising from any reliance placed on the content. Where the content includes any translated material, BMJ does not warrant the accuracy and reliability of the translations (including but not limited to local regulations, clinical guidelines, terminology, drug names and drug dosages), and is not responsible for any error and/or omissions arising from translation and adaptation or otherwise.</p></fn></fn-group><sec sec-type="data-availability"><title>Data availability statement</title><p>Data are available upon reasonable request. The data that support the findings of this study are available from the corresponding author upon reasonable request.</p></sec><sec sec-type="ethics-statement"><title>Ethics statements</title><sec><title>Patient consent for publication</title><p content-type="ethics-consent-to-publish">Not applicable.</p></sec><sec><title>Ethics approval</title><p content-type="ethics-approval">This study was approved by the Nagoya University Hospital Research Ethics Committee (2020-0181).</p></sec></sec><ref-list><title>References</title><ref id="R1"><label>1</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Dzau</surname>
+<given-names>VJ</given-names>
+</string-name>, <string-name>
+<surname>Shine</surname>
+<given-names>KI</given-names>
+</string-name>
+</person-group>. <article-title>Two decades since to err is human: progress, but still a &#x0201c;chasm&#x0201d;</article-title>. <source>JAMA</source>
+<year>2020</year>;<volume>324</volume>:<fpage>2489</fpage>&#x02013;<lpage>90</lpage>. <pub-id pub-id-type="doi">10.1001/jama.2020.23151</pub-id>
+<pub-id pub-id-type="pmid">33351025</pub-id>
+</mixed-citation></ref><ref id="R2"><label>2</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Makary</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name>
+<surname>Daniel</surname>
+<given-names>M</given-names>
+</string-name>
+</person-group>. <article-title>Medical error-the third leading cause of death in the US</article-title>. <source>BMJ</source>
+<year>2016</year>;<volume>353</volume>:<elocation-id>i2139</elocation-id>. <pub-id pub-id-type="doi">10.1136/bmj.i2139</pub-id>
+<pub-id pub-id-type="pmid">27143499</pub-id>
+</mixed-citation></ref><ref id="R3"><label>3</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Vincent</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Burnett</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Carthey</surname>
+<given-names>J</given-names>
+</string-name>
+</person-group>. <article-title>Safety measurement and monitoring in Healthcare: a framework to guide clinical teams and healthcare organisations in maintaining safety</article-title>. <source>BMJ Qual Saf</source>
+<year>2014</year>;<volume>23</volume>:<fpage>670</fpage>&#x02013;<lpage>7</lpage>. <pub-id pub-id-type="doi">10.1136/bmjqs-2013-002757</pub-id>
+</mixed-citation></ref><ref id="R4"><label>4</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Pham</surname>
+<given-names>JC</given-names>
+</string-name>, <string-name>
+<surname>Girard</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Pronovost</surname>
+<given-names>PJ</given-names>
+</string-name>
+</person-group>. <article-title>What to do with healthcare incident reporting systems</article-title>. <source>J Public Health Res</source>
+<year>2013</year>;<volume>2</volume>:<elocation-id>e27</elocation-id>. <pub-id pub-id-type="doi">10.4081/jphr.2013.e27</pub-id>
+<pub-id pub-id-type="pmid">25170498</pub-id>
+</mixed-citation></ref><ref id="R5"><label>5</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Evans</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name>
+<surname>Smith</surname>
+<given-names>BJ</given-names>
+</string-name>, <string-name>
+<surname>Esterman</surname>
+<given-names>A</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Evaluation of an intervention aimed at improving voluntary incident reporting in hospitals</article-title>. <source>Qual Saf Health Care</source>
+<year>2007</year>;<volume>16</volume>:<fpage>169</fpage>&#x02013;<lpage>75</lpage>. <pub-id pub-id-type="doi">10.1136/qshc.2006.019349</pub-id>
+<pub-id pub-id-type="pmid">17545341</pub-id>
+</mixed-citation></ref><ref id="R6"><label>6</label><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<collab>World Health Organization</collab>
+</person-group>. <source>Patient safety incident reporting and learning systems: technical report and guidance</source>. <publisher-loc>Geneva</publisher-loc>: <publisher-name>World Health Organization</publisher-name>, <year>2020</year>.</mixed-citation></ref><ref id="R7"><label>7</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Stavropoulou</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Doherty</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Tosey</surname>
+<given-names>P</given-names>
+</string-name>
+</person-group>. <article-title>How effective are incident-reporting systems for improving patient safety? A systematic literature review</article-title>. <source>Milbank Q</source>
+<year>2015</year>;<volume>93</volume>:<fpage>826</fpage>&#x02013;<lpage>66</lpage>. <pub-id pub-id-type="doi">10.1111/1468-0009.12166</pub-id>
+<pub-id pub-id-type="pmid">26626987</pub-id>
+</mixed-citation></ref><ref id="R8"><label>8</label><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<string-name>
+<surname>Kohn</surname>
+<given-names>KT</given-names>
+</string-name>, <string-name>
+<surname>Corrigan</surname>
+<given-names>JM</given-names>
+</string-name>, <string-name>
+<surname>Donaldson</surname>
+<given-names>MS</given-names>
+</string-name>
+</person-group>. <source>To err is human: building a safer health system</source>. <publisher-loc>Washington, DC</publisher-loc>, <year>1999</year>.</mixed-citation></ref><ref id="R9"><label>9</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Scott</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Dawson</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Heavey</surname>
+<given-names>E</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Content analysis of patient safety incident reports for older adult patient transfers, handovers, and discharges: do they serve organizations, staff, or patients</article-title>
+<source>J Patient Saf</source>
+<year>2021</year>;<volume>17</volume>:<fpage>e1744</fpage>&#x02013;<lpage>58</lpage>. <pub-id pub-id-type="doi">10.1097/PTS.0000000000000654</pub-id>
+<pub-id pub-id-type="pmid">31790011</pub-id>
+</mixed-citation></ref><ref id="R10"><label>10</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Howell</surname>
+<given-names>A-M</given-names>
+</string-name>, <string-name>
+<surname>Burns</surname>
+<given-names>EM</given-names>
+</string-name>, <string-name>
+<surname>Bouras</surname>
+<given-names>G</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Can patient safety incident reports be used to compare hospital safety? Results from a quantitative analysis of the English national reporting and learning system data</article-title>. <source>PLoS One</source>
+<year>2015</year>;<volume>10</volume>:<elocation-id>e0144107</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0144107</pub-id>
+<pub-id pub-id-type="pmid">26650823</pub-id>
+</mixed-citation></ref><ref id="R11"><label>11</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Mitchell</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Schuster</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Smith</surname>
+<given-names>K</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Patient safety incident reporting: a qualitative study of thoughts and perceptions of experts 15 years after 'to err is human'</article-title>. <source>BMJ Qual Saf</source>
+<year>2016</year>;<volume>25</volume>:<fpage>92</fpage>&#x02013;<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1136/bmjqs-2015-004405</pub-id>
+</mixed-citation></ref><ref id="R12"><label>12</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Bates</surname>
+<given-names>DW</given-names>
+</string-name>, <string-name>
+<surname>Levine</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Syrowatka</surname>
+<given-names>A</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>The potential of artificial intelligence to improve patient safety: a scoping review</article-title>. <source>NPJ Digit Med</source>
+<year>2021</year>;<volume>4</volume>:<elocation-id>54</elocation-id>. <pub-id pub-id-type="doi">10.1038/s41746-021-00423-6</pub-id>
+<pub-id pub-id-type="pmid">33742085</pub-id>
+</mixed-citation></ref><ref id="R13"><label>13</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Choudhury</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Asan</surname>
+<given-names>O</given-names>
+</string-name>
+</person-group>. <article-title>Role of artificial intelligence in patient safety outcomes: systematic literature review</article-title>. <source>JMIR Med Inform</source>
+<year>2020</year>;<volume>8</volume>:<elocation-id>e18599</elocation-id>. <pub-id pub-id-type="doi">10.2196/18599</pub-id>
+<pub-id pub-id-type="pmid">32706688</pub-id>
+</mixed-citation></ref><ref id="R14"><label>14</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Uematsu</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Uemura</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Kurihara</surname>
+<given-names>M</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Development of a novel scoring system to quantify the severity of incident reports: an exploratory research study</article-title>. <source>J Med Syst</source>
+<year>2022</year>;<volume>46</volume>:<elocation-id>106</elocation-id>. <pub-id pub-id-type="doi">10.1007/s10916-022-01893-1</pub-id>
+<pub-id pub-id-type="pmid">36503962</pub-id>
+</mixed-citation></ref><ref id="R15"><label>15</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Young</surname>
+<given-names>IJB</given-names>
+</string-name>, <string-name>
+<surname>Luz</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Lone</surname>
+<given-names>N</given-names>
+</string-name>
+</person-group>. <article-title>A systematic review of natural language processing for classification tasks in the field of incident reporting and adverse event analysis</article-title>. <source>Int J Med Inform</source>
+<year>2019</year>;<volume>132</volume>:<fpage>103971</fpage>. <pub-id pub-id-type="doi">10.1016/j.ijmedinf.2019.103971</pub-id>
+<pub-id pub-id-type="pmid">31630063</pub-id>
+</mixed-citation></ref><ref id="R16"><label>16</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Hoshi</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Nagao</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Sawai</surname>
+<given-names>N</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Assessment of medical malpractice cost at a Japanese national University hospital</article-title>. <source>Nagoya J Med Sci</source>
+<year>2021</year>;<volume>83</volume>:<fpage>397</fpage>&#x02013;<lpage>405</lpage>. <pub-id pub-id-type="doi">10.18999/nagjms.83.3.397</pub-id>
+<pub-id pub-id-type="pmid">34552278</pub-id>
+</mixed-citation></ref><ref id="R17"><label>17</label><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<string-name>
+<surname>Rodziewicz</surname>
+<given-names>TL</given-names>
+</string-name>, <string-name>
+<surname>Houseman</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Hipskind</surname>
+<given-names>JE</given-names>
+</string-name>
+</person-group>. <part-title>Medical error reduction and prevention</part-title>. In: <source>StatPearls</source>. <publisher-loc>Treasure Island (FL)</publisher-loc>: <publisher-name>StatPearls Publishing Copyright &#x000a9; 2023, StatPearls Publishing LLC</publisher-name>, <year>2023</year>.</mixed-citation></ref><ref id="R18"><label>18</label><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<string-name>
+<surname>Higham</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Vincent</surname>
+<given-names>C</given-names>
+</string-name>
+</person-group>. <part-title>Human error and patient safety</part-title>. In: <person-group person-group-type="editor">
+<string-name>
+<surname>Donaldson</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Ricciardi</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Sheridan</surname>
+<given-names>S</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>, eds. <source>Textbook of patient safety and clinical risk management</source>. <publisher-loc>Cham (CH)</publisher-loc>: <publisher-name>Springer Copyright</publisher-name>, <year>2021</year>: <fpage>29</fpage>&#x02013;<lpage>44</lpage>.</mixed-citation></ref><ref id="R19"><label>19</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Thomas</surname>
+<given-names>EJ</given-names>
+</string-name>, <string-name>
+<surname>Petersen</surname>
+<given-names>LA</given-names>
+</string-name>
+</person-group>. <article-title>Measuring errors and adverse events in health care</article-title>. <source>J Gen Intern Med</source>
+<year>2003</year>;<volume>18</volume>:<fpage>61</fpage>&#x02013;<lpage>7</lpage>. <pub-id pub-id-type="doi">10.1046/j.1525-1497.2003.20147.x</pub-id>
+<pub-id pub-id-type="pmid">12534766</pub-id>
+</mixed-citation></ref><ref id="R20"><label>20</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Benn</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Koutantji</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Wallace</surname>
+<given-names>L</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Feedback from incident reporting: information and action to improve patient safety</article-title>. <source>Qual Saf Health Care</source>
+<year>2009</year>;<volume>18</volume>:<fpage>11</fpage>&#x02013;<lpage>21</lpage>. <pub-id pub-id-type="doi">10.1136/qshc.2007.024166</pub-id>
+<pub-id pub-id-type="pmid">19204126</pub-id>
+</mixed-citation></ref><ref id="R21"><label>21</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Fukami</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Uemura</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Nagao</surname>
+<given-names>Y</given-names>
+</string-name>
+</person-group>. <article-title>Significance of incident reports by medical doctors for organizational transparency and driving forces for patient safety</article-title>. <source>Patient Saf Surg</source>
+<year>2020</year>;<volume>14</volume>:<elocation-id>13</elocation-id>. <pub-id pub-id-type="doi">10.1186/s13037-020-00240-y</pub-id>
+<pub-id pub-id-type="pmid">32322306</pub-id>
+</mixed-citation></ref><ref id="R22"><label>22</label><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<string-name>
+<surname>Fondahn</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Lane</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Vannucci</surname>
+<given-names>A</given-names>
+</string-name>
+</person-group>. <source>The Washington manual of patient safety and quality improvement</source>. <publisher-loc>Philadelphia, Pennsylvania</publisher-loc>: <publisher-name>Wolters Kluwer</publisher-name>, <year>2016</year>.</mixed-citation></ref><ref id="R23"><label>23</label><mixed-citation publication-type="webpage">
+<person-group person-group-type="author">
+<collab>World Health Organization</collab>
+</person-group>. <article-title>Patient safety curriculum guide: multi-professional edition</article-title>. <year>2011</year>. <comment>Available</comment>: <uri xlink:href="https://apps.who.int/iris/bitstream/handle/10665/44641/9789241501958_eng.pdf;jsessionid=E3E8BA7049BED778EACF49D665F9FCD4?sequence=1">https://apps.who.int/iris/bitstream/handle/10665/44641/9789241501958_eng.pdf;jsessionid=E3E8BA7049BED778EACF49D665F9FCD4?sequence=1</uri>
+</mixed-citation></ref><ref id="R24"><label>24</label><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<string-name>
+<surname>Reason</surname>
+<given-names>J</given-names>
+</string-name>
+</person-group>. <source>Human error</source>. <publisher-loc>Cambridge</publisher-loc>: <publisher-name>Cambridge University Press</publisher-name>, <year>1990</year>.</mixed-citation></ref><ref id="R25"><label>25</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Wang</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Coiera</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Magrabi</surname>
+<given-names>F</given-names>
+</string-name>
+</person-group>. <article-title>Using convolutional neural networks to identify patient safety incident reports by type and severity</article-title>. <source>J Am Med Inform Assoc</source>
+<year>2019</year>;<volume>26</volume>:<fpage>1600</fpage>&#x02013;<lpage>8</lpage>. <pub-id pub-id-type="doi">10.1093/jamia/ocz146</pub-id>
+<pub-id pub-id-type="pmid">31730700</pub-id>
+</mixed-citation></ref><ref id="R26"><label>26</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Fong</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Hettinger</surname>
+<given-names>AZ</given-names>
+</string-name>, <string-name>
+<surname>Ratwani</surname>
+<given-names>RM</given-names>
+</string-name>
+</person-group>. <article-title>Exploring methods for identifying related patient safety events using structured and unstructured data</article-title>. <source>J Biomed Inform</source>
+<year>2015</year>;<volume>58</volume>:<fpage>89</fpage>&#x02013;<lpage>95</lpage>. <pub-id pub-id-type="doi">10.1016/j.jbi.2015.09.011</pub-id>
+<pub-id pub-id-type="pmid">26432354</pub-id>
+</mixed-citation></ref><ref id="R27"><label>27</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Rousseau</surname>
+<given-names>JF</given-names>
+</string-name>, <string-name>
+<surname>Ip</surname>
+<given-names>IK</given-names>
+</string-name>, <string-name>
+<surname>Raja</surname>
+<given-names>AS</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Can automated retrieval of data from emergency department physician notes enhance the imaging order entry process?</article-title>
+<source>Appl Clin Inform</source>
+<year>2019</year>;<volume>10</volume>:<fpage>189</fpage>&#x02013;<lpage>98</lpage>. <pub-id pub-id-type="doi">10.1055/s-0039-1679927</pub-id>
+<pub-id pub-id-type="pmid">30895573</pub-id>
+</mixed-citation></ref><ref id="R28"><label>28</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Donnelly</surname>
+<given-names>LF</given-names>
+</string-name>, <string-name>
+<surname>Grzeszczuk</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Guimaraes</surname>
+<given-names>CV</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Using a natural language processing and machine learning algorithm program to analyze inter-Radiologist report style variation and compare variation between radiologists when using highly structured versus more free text reporting</article-title>. <source>Curr Probl Diagn Radiol</source>
+<year>2019</year>;<volume>48</volume>:<fpage>524</fpage>&#x02013;<lpage>30</lpage>. <pub-id pub-id-type="doi">10.1067/j.cpradiol.2018.09.005</pub-id>
+<pub-id pub-id-type="pmid">30391224</pub-id>
+</mixed-citation></ref><ref id="R29"><label>29</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Ong</surname>
+<given-names>MS</given-names>
+</string-name>, <string-name>
+<surname>Magrabi</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Coiera</surname>
+<given-names>E</given-names>
+</string-name>
+</person-group>. <article-title>Automated identification of extreme-risk events in clinical incident reports</article-title>. <source>J Am Med Inform Assoc</source>
+<year>2012</year>;<volume>19</volume>:<fpage>e110</fpage>&#x02013;<lpage>8</lpage>. <pub-id pub-id-type="doi">10.1136/amiajnl-2011-000562</pub-id>
+<pub-id pub-id-type="pmid">22237865</pub-id>
+</mixed-citation></ref><ref id="R30"><label>30</label><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<string-name>
+<surname>van Zaanen</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Kanters</surname>
+<given-names>P</given-names>
+</string-name>
+</person-group>. <source>Automatic mood classification using TF* IDF based on lyrics</source>. <publisher-name>ISMIR</publisher-name>, <year>2010</year>.</mixed-citation></ref><ref id="R31"><label>31</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Sueno</surname>
+<given-names>HT</given-names>
+</string-name>, <string-name>
+<surname>Gerardo</surname>
+<given-names>BD</given-names>
+</string-name>, <string-name>
+<surname>Medina</surname>
+<given-names>RP</given-names>
+</string-name>
+</person-group>. <article-title>Converting text to numerical representation using modified Bayesian vectorization technique for multi-class classification</article-title>. <source>International Journal</source>
+<year>2020</year>;<volume>9</volume>:<elocation-id>10.30534</elocation-id>.</mixed-citation></ref></ref-list></back></article>

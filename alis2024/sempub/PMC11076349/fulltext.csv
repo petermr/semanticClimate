@@ -1,0 +1,51 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,38713405
+source,MED
+pmid,38713405
+pmcid,PMC11076349
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC11076349')])"
+doi,10.1007/s00701-024-06062-6
+title,An update on tests used for intraoperative monitoring of cognition during awake craniotomy.
+authorString,"de Zwart B, Ruis C."
+authorList,"OrderedDict([('author', [OrderedDict([('fullName', 'de Zwart B'), ('firstName', 'Beleke'), ('lastName', 'de Zwart'), ('initials', 'B'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0009-0003-2286-9794')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Experimental Psychology, Helmholtz Institution, Utrecht University, Utrecht, The Netherlands. b.dezwart@uu.nl.')]))]))]), OrderedDict([('fullName', 'Ruis C'), ('firstName', 'Carla'), ('lastName', 'Ruis'), ('initials', 'C'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Experimental Psychology, Helmholtz Institution, Utrecht University, Utrecht, The Netherlands.')]), OrderedDict([('affiliation', 'Department of Neurology and Neurosurgery, University Medical Center Utrecht, Utrecht, The Netherlands.')])])]))])])])"
+authorIdList,"OrderedDict([('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0009-0003-2286-9794')]))])"
+journalInfo,"OrderedDict([('issue', '1'), ('volume', '166'), ('journalIssueId', '3764560'), ('dateOfPublication', '2024 May'), ('monthOfPublication', '5'), ('yearOfPublication', '2024'), ('printPublicationDate', '2024-05-01'), ('journal', OrderedDict([('title', 'Acta neurochirurgica'), ('ISOAbbreviation', 'Acta Neurochir (Wien)'), ('medlineAbbreviation', 'Acta Neurochir (Wien)'), ('NLMid', '0151000'), ('ISSN', '0001-6268'), ('ESSN', '0942-0940')]))])"
+pubYear,2024
+pageInfo,204
+abstractText,"<h4>Purpose</h4>Mapping higher-order cognitive functions during awake brain surgery is important for cognitive preservation which is related to postoperative quality of life. A systematic review from 2018 about neuropsychological tests used during awake craniotomy made clear that until 2017 language was most often monitored and that the other cognitive domains were underexposed (Ruis, J Clin Exp Neuropsychol 40(10):1081-1104, 218). The field of awake craniotomy and cognitive monitoring is however developing rapidly. The aim of the current review is therefore, to investigate whether there is a change in the field towards incorporation of new tests and more complete mapping of (higher-order) cognitive functions.<h4>Methods</h4>We replicated the systematic search of the study from 2018 in PubMed and Embase from February 2017 to November 2023, yielding 5130 potentially relevant articles. We used the artificial machine learning tool ASReview for screening and included 272 papers that gave a detailed description of the neuropsychological tests used during awake craniotomy.<h4>Results</h4>Comparable to the previous study of 2018, the majority of studies (90.4%) reported tests for assessing language functions (Ruis, J Clin Exp Neuropsychol 40(10):1081-1104, 218). Nevertheless, an increasing number of studies now also describe tests for monitoring visuospatial functions, social cognition, and executive functions.<h4>Conclusions</h4>Language remains the most extensively tested cognitive domain. However, a broader range of tests are now implemented during awake craniotomy and there are (new developed) tests which received more attention. The rapid development in the field is reflected in the included studies in this review. Nevertheless, for some cognitive domains (e.g., executive functions and memory), there is still a need for developing tests that can be used during awake surgery."
+affiliation,"Experimental Psychology, Helmholtz Institution, Utrecht University, Utrecht, The Netherlands. b.dezwart@uu.nl."
+publicationStatus,epublish
+language,eng
+pubModel,Electronic
+pubTypeList,"OrderedDict([('pubType', ['Systematic Review', 'review-article', 'Review', 'Journal Article'])])"
+meshHeadingList,"OrderedDict([('meshHeading', [OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Humans')]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Monitoring, Intraoperative'), ('meshQualifierList', OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'MT'), ('qualifierName', 'methods'), ('majorTopic_YN', 'N')]))]))]), OrderedDict([('majorTopic_YN', 'Y'), ('descriptorName', 'Craniotomy'), ('meshQualifierList', OrderedDict([('meshQualifier', [OrderedDict([('abbreviation', 'AE'), ('qualifierName', 'adverse effects'), ('majorTopic_YN', 'N')]), OrderedDict([('abbreviation', 'MT'), ('qualifierName', 'methods'), ('majorTopic_YN', 'N')])])]))]), OrderedDict([('majorTopic_YN', 'Y'), ('descriptorName', 'Cognition'), ('meshQualifierList', OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'PH'), ('qualifierName', 'physiology'), ('majorTopic_YN', 'N')]))]))]), OrderedDict([('majorTopic_YN', 'Y'), ('descriptorName', 'Wakefulness'), ('meshQualifierList', OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'PH'), ('qualifierName', 'physiology'), ('majorTopic_YN', 'N')]))]))]), OrderedDict([('majorTopic_YN', 'Y'), ('descriptorName', 'Neuropsychological Tests')]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Intraoperative Neurophysiological Monitoring'), ('meshQualifierList', OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'MT'), ('qualifierName', 'methods'), ('majorTopic_YN', 'N')]))]))])])])"
+keywordList,"OrderedDict([('keyword', ['Epilepsy', 'Cognition', 'Glioma', 'Brain neoplasms', 'Neuropsychological Tests', 'Intraoperative Monitoring'])])"
+subsetList,"OrderedDict([('subset', OrderedDict([('code', 'IM'), ('name', 'Index Medicus')]))])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Unpaywall'), ('url', 'https://link.springer.com/content/pdf/10.1007/s00701-024-06062-6.pdf')]), OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.1007/s00701-024-06062-6')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC11076349')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC11076349?pdf=render')])])])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,Y
+citedByCount,0
+hasData,Y
+hasReferences,Y
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,N
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCompletion,2024-05-07
+dateOfCreation,2024-05-07
+firstIndexDate,2024-05-08
+fullTextReceivedDate,2024-05-12
+dateOfRevision,2024-05-21
+electronicPublicationDate,2024-05-07
+firstPublicationDate,2024-05-07

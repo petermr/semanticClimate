@@ -1,0 +1,48 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,38890715
+source,MED
+pmid,38890715
+pmcid,PMC11184879
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC11184879')])"
+doi,10.1186/s13040-024-00371-3
+title,Using GPT-4 to write a scientific review article: a pilot evaluation study.
+authorString,"Wang ZP, Bhandary P, Wang Y, Moore JH."
+authorList,"OrderedDict([('author', [OrderedDict([('fullName', 'Wang ZP'), ('firstName', 'Zhiping Paul'), ('lastName', 'Wang'), ('initials', 'ZP'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Computational Biomedicine, Cedars Sinai Medical Center, 700 N. San Vicente Blvd, Pacific Design Center, Suite G-541, West Hollywood, CA, 90069, USA.')]))]))]), OrderedDict([('fullName', 'Bhandary P'), ('firstName', 'Priyanka'), ('lastName', 'Bhandary'), ('initials', 'P'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Computational Biomedicine, Cedars Sinai Medical Center, 700 N. San Vicente Blvd, Pacific Design Center, Suite G-541, West Hollywood, CA, 90069, USA.')]))]))]), OrderedDict([('fullName', 'Wang Y'), ('firstName', 'Yizhou'), ('lastName', 'Wang'), ('initials', 'Y'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Computational Biomedicine, Cedars Sinai Medical Center, 700 N. San Vicente Blvd, Pacific Design Center, Suite G-541, West Hollywood, CA, 90069, USA.')]))]))]), OrderedDict([('fullName', 'Moore JH'), ('firstName', 'Jason H'), ('lastName', 'Moore'), ('initials', 'JH'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Computational Biomedicine, Cedars Sinai Medical Center, 700 N. San Vicente Blvd, Pacific Design Center, Suite G-541, West Hollywood, CA, 90069, USA. jason.moore@csmc.edu.')]))]))])])])"
+dataLinksTagsList,"OrderedDict([('dataLinkstag', 'altmetrics')])"
+journalInfo,"OrderedDict([('issue', '1'), ('volume', '17'), ('journalIssueId', '3785450'), ('dateOfPublication', '2024 Jun'), ('monthOfPublication', '6'), ('yearOfPublication', '2024'), ('printPublicationDate', '2024-06-01'), ('journal', OrderedDict([('title', 'BioData mining'), ('ISOAbbreviation', 'BioData Min'), ('medlineAbbreviation', 'BioData Min'), ('NLMid', '101319161'), ('ISSN', '1756-0381'), ('ESSN', '1756-0381')]))])"
+pubYear,2024
+pageInfo,16
+abstractText,"GPT-4, as the most advanced version of OpenAI's large language models, has attracted widespread attention, rapidly becoming an indispensable AI tool across various areas. This includes its exploration by scientists for diverse applications. Our study focused on assessing GPT-4's capabilities in generating text, tables, and diagrams for biomedical review papers. We also assessed the consistency in text generation by GPT-4, along with potential plagiarism issues when employing this model for the composition of scientific review papers. Based on the results, we suggest the development of enhanced functionalities in ChatGPT, aiming to meet the needs of the scientific community more effectively. This includes enhancements in uploaded document processing for reference materials, a deeper grasp of intricate biomedical concepts, more precise and efficient information distillation for table generation, and a further refined model specifically tailored for scientific diagram creation."
+affiliation,"Department of Computational Biomedicine, Cedars Sinai Medical Center, 700 N. San Vicente Blvd, Pacific Design Center, Suite G-541, West Hollywood, CA, 90069, USA."
+publicationStatus,epublish
+language,eng
+pubModel,Electronic
+pubTypeList,"OrderedDict([('pubType', ['research-article', 'Journal Article'])])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Unpaywall'), ('url', 'https://biodatamining.biomedcentral.com/counter/pdf/10.1186/s13040-024-00371-3')]), OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.1186/s13040-024-00371-3')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC11184879')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC11184879?pdf=render')])])])"
+commentCorrectionList,"OrderedDict([('commentCorrection', OrderedDict([('id', 'PPR838369'), ('source', 'PPR'), ('type', 'Preprint in'), ('note', 'Link created based on a title-first author match'), ('orderIn', '10002')]))])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,N
+citedByCount,0
+hasData,N
+hasReferences,Y
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,Y
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCreation,2024-06-18
+firstIndexDate,2024-06-19
+fullTextReceivedDate,2024-06-22
+dateOfRevision,2024-06-20
+electronicPublicationDate,2024-06-18
+firstPublicationDate,2024-06-18

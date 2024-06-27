@@ -1,0 +1,47 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,38374955
+source,MED
+pmid,38374955
+pmcid,PMC10876301
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC10876301')])"
+doi,10.1155/2024/9804280
+title,Retracted: Dynamic Data Infrastructure Security for Interoperable e-Healthcare Systems: A Semantic Feature-Driven NoSQL Intrusion Attack Detection Model.
+authorString,International BR.
+authorList,"OrderedDict([('author', OrderedDict([('fullName', 'International BR'), ('firstName', 'BioMed Research'), ('lastName', 'International'), ('initials', 'BR')]))])"
+journalInfo,"OrderedDict([('volume', '2024'), ('journalIssueId', '3695436'), ('dateOfPublication', '2024'), ('monthOfPublication', '0'), ('yearOfPublication', '2024'), ('printPublicationDate', '2024-01-01'), ('journal', OrderedDict([('title', 'BioMed research international'), ('ISOAbbreviation', 'Biomed Res Int'), ('medlineAbbreviation', 'Biomed Res Int'), ('NLMid', '101600173'), ('ISSN', '2314-6133'), ('ESSN', '2314-6141')]))])"
+pubYear,2024
+pageInfo,9804280
+abstractText,[This retracts the article DOI: 10.1155/2022/4080199.].
+publicationStatus,epublish
+language,eng
+pubModel,Electronic-eCollection
+pubTypeList,"OrderedDict([('pubType', 'Retraction of Publication')])"
+subsetList,"OrderedDict([('subset', OrderedDict([('code', 'IM'), ('name', 'Index Medicus')]))])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.1155/2024/9804280')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10876301')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10876301?pdf=render')])])])"
+commentCorrectionList,"OrderedDict([('commentCorrection', OrderedDict([('id', '35722459'), ('source', 'MED'), ('reference', 'Biomed Res Int. 2022 Jun 10;2022:4080199'), ('type', 'Retraction of'), ('orderIn', '1')]))])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,N
+citedByCount,0
+hasData,N
+hasReferences,Y
+hasTextMinedTerms,N
+hasDbCrossReferences,N
+hasLabsLinks,N
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCreation,2024-02-20
+firstIndexDate,2024-02-21
+fullTextReceivedDate,2024-02-23
+dateOfRevision,2024-02-21
+electronicPublicationDate,2024-02-12
+firstPublicationDate,2024-02-12

@@ -1,0 +1,52 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,38730252
+source,MED
+pmid,38730252
+pmcid,PMC11087458
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC11087458')])"
+doi,10.1038/s41597-024-03185-4
+title,A maturity model for catalogues of semantic artefacts.
+authorString,"Corcho O, Ekaputra FJ, Heibi I, Jonquet C, Micsik A, Peroni S, Storti E."
+authorList,"OrderedDict([('author', [OrderedDict([('fullName', 'Corcho O'), ('firstName', 'Oscar'), ('lastName', 'Corcho'), ('initials', 'O'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Ontology Engineering Group (OEG), Computer Science School, Universidad Politécnica de Madrid, Madrid, Spain.')]))]))]), OrderedDict([('fullName', 'Ekaputra FJ'), ('firstName', 'Fajar J'), ('lastName', 'Ekaputra'), ('initials', 'FJ'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-4569-2496')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'DPKM, Vienna University of Economic and Business (WU), Vienna, Austria.')]), OrderedDict([('affiliation', 'Data Science Research Unit, TU Wien, Vienna, Austria.')])])]))]), OrderedDict([('fullName', 'Heibi I'), ('firstName', 'Ivan'), ('lastName', 'Heibi'), ('initials', 'I'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Digital Humanities Advanced Research Centre (/DH.arc), Department of Classical Philology and Italian Studies, University of Bologna, Bologna, Italy.')]), OrderedDict([('affiliation', 'Research Centre for Open Scholarly Metadata, Department of Classical Philology and Italian Studies, University of Bologna, Bologna, Italy.')])])]))]), OrderedDict([('fullName', 'Jonquet C'), ('firstName', 'Clement'), ('lastName', 'Jonquet'), ('initials', 'C'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'MISTEA, University of Montpellier, INRAE & Institut Agro, Montpellier, France.')]), OrderedDict([('affiliation', 'LIRMM, University of Montpellier & CNRS, Montpellier, France.')])])]))]), OrderedDict([('fullName', 'Micsik A'), ('firstName', 'Andras'), ('lastName', 'Micsik'), ('initials', 'A'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-9859-9186')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Distributed Systems (DSD), Institute for Computer Science and Control (SZTAKI), Hungarian Research Network (HUN-REN), Budapest, Hungary.')]))]))]), OrderedDict([('fullName', 'Peroni S'), ('firstName', 'Silvio'), ('lastName', 'Peroni'), ('initials', 'S'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-0530-4305')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Digital Humanities Advanced Research Centre (/DH.arc), Department of Classical Philology and Italian Studies, University of Bologna, Bologna, Italy. silvio.peroni@unibo.it.')]), OrderedDict([('affiliation', 'Research Centre for Open Scholarly Metadata, Department of Classical Philology and Italian Studies, University of Bologna, Bologna, Italy. silvio.peroni@unibo.it.')])])]))]), OrderedDict([('fullName', 'Storti E'), ('firstName', 'Emanuele'), ('lastName', 'Storti'), ('initials', 'E'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Department of Information Engineering, Polytechnic University of Marche, Ancona, Italy.')]), OrderedDict([('affiliation', 'European Council of Doctoral Candidates and Junior Researchers (Eurodoc), Brussels, Belgium.')])])]))])])])"
+authorIdList,"OrderedDict([('authorId', [OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-9859-9186')]), OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-0530-4305')]), OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-4569-2496')])])])"
+dataLinksTagsList,"OrderedDict([('dataLinkstag', ['altmetrics', 'supporting_data'])])"
+journalInfo,"OrderedDict([('issue', '1'), ('volume', '11'), ('journalIssueId', '3763652'), ('dateOfPublication', '2024 May'), ('monthOfPublication', '5'), ('yearOfPublication', '2024'), ('printPublicationDate', '2024-05-01'), ('journal', OrderedDict([('title', 'Scientific data'), ('ISOAbbreviation', 'Sci Data'), ('medlineAbbreviation', 'Sci Data'), ('NLMid', '101640192'), ('ISSN', '2052-4463'), ('ESSN', '2052-4463')]))])"
+pubYear,2024
+pageInfo,479
+abstractText,"This work presents a maturity model for assessing catalogues of semantic artefacts, one of the keystones that permit semantic interoperability of systems. We defined the dimensions and related features to include in the maturity model by analysing the current literature and existing catalogues of semantic artefacts provided by experts. In addition, we assessed 26 different catalogues to demonstrate the effectiveness of the maturity model, which includes 12 different dimensions (Metadata, Openness, Quality, Availability, Statistics, PID, Governance, Community, Sustainability, Technology, Transparency, and Assessment) and 43 related features (or sub-criteria) associated with these dimensions. Such a maturity model is one of the first attempts to provide recommendations for governance and processes for preserving and maintaining semantic artefacts and helps assess/address interoperability challenges."
+affiliation,"Ontology Engineering Group (OEG), Computer Science School, Universidad Politécnica de Madrid, Madrid, Spain."
+publicationStatus,epublish
+language,eng
+pubModel,Electronic
+pubTypeList,"OrderedDict([('pubType', [""Research Support, Non-U.S. Gov't"", 'research-article', 'Dataset', 'Journal Article'])])"
+grantsList,"OrderedDict([('grant', [OrderedDict([('grantId', '101095129'), ('agency', 'European Commission (EC)'), ('orderIn', '0')]), OrderedDict([('agency', 'Data Repository Platform project of the Eötvös Loránd Research Network'), ('orderIn', '0')]), OrderedDict([('grantId', '101057344'), ('agency', 'European Commission (EC)'), ('orderIn', '0')]), OrderedDict([('grantId', '101017452'), ('agency', 'European Commission'), ('orderIn', '0')]), OrderedDict([('grantId', '101057344'), ('agency', 'European Commission'), ('orderIn', '0')]), OrderedDict([('grantId', '101095129'), ('agency', 'European Commission'), ('orderIn', '0')]), OrderedDict([('grantId', '101017452'), ('agency', 'European Commission (EC)'), ('orderIn', '0')])])])"
+subsetList,"OrderedDict([('subset', OrderedDict([('code', 'IM'), ('name', 'Index Medicus')]))])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Unpaywall'), ('url', 'https://www.nature.com/articles/s41597-024-03185-4.pdf')]), OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.1038/s41597-024-03185-4')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC11087458')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC11087458?pdf=render')])])])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,N
+citedByCount,1
+hasData,Y
+hasReferences,Y
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,Y
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,Y
+tmAccessionTypeList,"OrderedDict([('accessionType', 'doi')])"
+dateOfCompletion,2024-05-10
+dateOfCreation,2024-05-10
+firstIndexDate,2024-05-12
+fullTextReceivedDate,2024-05-16
+dateOfRevision,2024-05-13
+electronicPublicationDate,2024-05-10
+firstPublicationDate,2024-05-10

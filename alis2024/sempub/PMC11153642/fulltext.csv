@@ -1,0 +1,49 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,38839794
+source,MED
+pmid,38839794
+pmcid,PMC11153642
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC11153642')])"
+doi,10.1038/s41598-024-63279-2
+title,A novel model for relation prediction in knowledge graphs exploiting semantic and structural feature integration.
+authorString,"Yang J, Lu G, He S, Cao Q, Liu Y."
+authorList,"OrderedDict([('author', [OrderedDict([('fullName', 'Yang J'), ('firstName', 'Jianliang'), ('lastName', 'Yang'), ('initials', 'J'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'School of Information Resource Management, Renmin University of China, Beijing, China.')]))]))]), OrderedDict([('fullName', 'Lu G'), ('firstName', 'Guoxuan'), ('lastName', 'Lu'), ('initials', 'G'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'School of Information Resource Management, Renmin University of China, Beijing, China.')]))]))]), OrderedDict([('fullName', 'He S'), ('firstName', 'Siyuan'), ('lastName', 'He'), ('initials', 'S'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'School of Information Resource Management, Renmin University of China, Beijing, China.')]))]))]), OrderedDict([('fullName', 'Cao Q'), ('firstName', 'Qiuer'), ('lastName', 'Cao'), ('initials', 'Q'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'School of Journalism and Communication, Renmin University of China, Beijing, China.')]))]))]), OrderedDict([('fullName', 'Liu Y'), ('firstName', 'Yuenan'), ('lastName', 'Liu'), ('initials', 'Y'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'School of Information Resource Management, Renmin University of China, Beijing, China. liuyuenan@ruc.edu.cn.')]))]))])])])"
+journalInfo,"OrderedDict([('issue', '1'), ('volume', '14'), ('journalIssueId', '3778079'), ('dateOfPublication', '2024 Jun'), ('monthOfPublication', '6'), ('yearOfPublication', '2024'), ('printPublicationDate', '2024-06-01'), ('journal', OrderedDict([('title', 'Scientific reports'), ('ISOAbbreviation', 'Sci Rep'), ('medlineAbbreviation', 'Sci Rep'), ('NLMid', '101563288'), ('ISSN', '2045-2322'), ('ESSN', '2045-2322')]))])"
+pubYear,2024
+pageInfo,12962
+abstractText,"Relation prediction is a critical task in knowledge graph completion and associated downstream tasks that rely on knowledge representation. Previous studies indicate that both structural features and semantic information are meaningful for predicting missing relations in knowledge graphs. This has led to the development of two types of methods: structure-based methods and semantics-based methods. Since these two approaches represent two distinct learning paradigms, it is difficult to fully utilize both sets of features within a single learning model, especially deep features. As a result, existing studies usually focus on only one type of feature. This leads to an insufficient representation of knowledge in current methods and makes them prone to overlooking certain patterns when predicting missing relations. In this study, we introduce a novel model, RP-ISS, which combines deep semantic and structural features for relation prediction. The RP-ISS model utilizes a two-part architecture, with the first component being a RoBERTa module that is responsible for extracting semantic features from entity nodes. The second part of the system employs an edge-based relational message-passing network designed to capture and interpret structural information within the data. To alleviate the computational burden of the message-passing network on the RoBERTa module during the sampling process, RP-ISS introduces a node embedding memory bank, which updates asynchronously to circumvent excessive computation. The model was assessed on three publicly accessible datasets (WN18RR, WN18, and FB15k-237), and the results revealed that RP-ISS surpasses all baseline methods across all evaluation metrics. Moreover, RP-ISS showcases robust performance in graph inductive learning."
+affiliation,"School of Information Resource Management, Renmin University of China, Beijing, China."
+publicationStatus,epublish
+language,eng
+pubModel,Electronic
+pubTypeList,"OrderedDict([('pubType', ['research-article', 'Journal Article'])])"
+grantsList,"OrderedDict([('grant', [OrderedDict([('grantId', 'No. 21CTQ030'), ('agency', 'National Social Science Fund of China'), ('orderIn', '0')]), OrderedDict([('grantId', 'No.23XNF039'), ('agency', 'Research Fund of Renmin University of China'), ('orderIn', '0')])])])"
+keywordList,"OrderedDict([('keyword', ['Knowledge Graph', 'Relation Prediction', 'Relation Message Passing', 'Bert'])])"
+subsetList,"OrderedDict([('subset', OrderedDict([('code', 'IM'), ('name', 'Index Medicus')]))])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Unpaywall'), ('url', 'https://www.nature.com/articles/s41598-024-63279-2.pdf')]), OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.1038/s41598-024-63279-2')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC11153642')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC11153642?pdf=render')])])])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,N
+citedByCount,0
+hasData,N
+hasReferences,N
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,N
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCreation,2024-06-05
+firstIndexDate,2024-06-07
+fullTextReceivedDate,2024-06-17
+dateOfRevision,2024-06-08
+electronicPublicationDate,2024-06-05
+firstPublicationDate,2024-06-05

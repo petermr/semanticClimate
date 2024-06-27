@@ -1,0 +1,48 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,38438403
+source,MED
+pmid,38438403
+pmcid,PMC10912646
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC10912646')])"
+doi,10.1038/s41598-024-51793-2
+title,The interplay of semantic and syntactic processing across hemispheres.
+authorString,"Kim S, Nam K, Lee EH."
+authorList,"OrderedDict([('author', [OrderedDict([('fullName', 'Kim S'), ('firstName', 'Sangyub'), ('lastName', 'Kim'), ('initials', 'S'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Psychology, Chonnam National University, 77, Yongbong-ro, Buk-gu, Gwangju, 61217, Republic of Korea.')]))]))]), OrderedDict([('fullName', 'Nam K'), ('firstName', 'Kichun'), ('lastName', 'Nam'), ('initials', 'K'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Psychology, Korea University, 145, Anam-ro, Seoungbuk-gu, Seoul, 02841, Republic of Korea.')]))]))]), OrderedDict([('fullName', 'Lee EH'), ('firstName', 'Eun-Ha'), ('lastName', 'Lee'), ('initials', 'EH'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Wisdom Science Center, Korea University, 145, Anam-ro, Seoungbuk-gu, Seoul, 02841, Republic of Korea. seekermonth@korea.ac.kr.')]))]))])])])"
+journalInfo,"OrderedDict([('issue', '1'), ('volume', '14'), ('journalIssueId', '3724758'), ('dateOfPublication', '2024 Mar'), ('monthOfPublication', '3'), ('yearOfPublication', '2024'), ('printPublicationDate', '2024-03-01'), ('journal', OrderedDict([('title', 'Scientific reports'), ('ISOAbbreviation', 'Sci Rep'), ('medlineAbbreviation', 'Sci Rep'), ('NLMid', '101563288'), ('ISSN', '2045-2322'), ('ESSN', '2045-2322')]))])"
+pubYear,2024
+pageInfo,5262
+abstractText,"The current study investigated the hemispheric dynamics underlying semantic and syntactic priming in lexical decision tasks. Utilizing primed-lateralized paradigms, we observed a distinct pattern of semantic priming contingent on the priming hemisphere. The right hemisphere (RH) exhibited robust semantic priming irrespective of syntactic congruency between prime and target, underscoring its proclivity for semantic processing. Conversely, the left hemisphere (LH) demonstrated slower response times for semantically congruent yet syntactically incongruent word pairs, highlighting its syntactic processing specialization. Additionally, nonword data revealed a hemispheric divergence in syntactic processing, with the LH showing significant intrahemispheric syntactic priming. These findings illuminate the intrinsic hemispheric specializations for semantic and syntactic processing, offering empirical support for serial processing models. The study advances our understanding of the complex interplay between semantic and syntactic factors in hemispheric interactions."
+affiliation,"Department of Psychology, Chonnam National University, 77, Yongbong-ro, Buk-gu, Gwangju, 61217, Republic of Korea."
+publicationStatus,epublish
+language,eng
+pubModel,Electronic
+pubTypeList,"OrderedDict([('pubType', ['research-article', 'Journal Article'])])"
+grantsList,"OrderedDict([('grant', OrderedDict([('grantId', 'NRF-2022R1I1A1A01065550'), ('agency', 'The Ministry of Education of the Republic of Korea and the National Research Foundation of Korea'), ('orderIn', '0')]))])"
+subsetList,"OrderedDict([('subset', OrderedDict([('code', 'IM'), ('name', 'Index Medicus')]))])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Unpaywall'), ('url', 'https://www.nature.com/articles/s41598-024-51793-2.pdf')]), OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.1038/s41598-024-51793-2')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10912646')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10912646?pdf=render')])])])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,N
+citedByCount,0
+hasData,N
+hasReferences,Y
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,N
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCreation,2024-03-04
+firstIndexDate,2024-03-05
+fullTextReceivedDate,2024-03-07
+dateOfRevision,2024-03-08
+electronicPublicationDate,2024-03-04
+firstPublicationDate,2024-03-04

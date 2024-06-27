@@ -1,0 +1,131 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>downloaded</th>
+      <th>htmlmade</th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>authorIdList</th>
+      <th>dataLinksTagsList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>affiliation</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>subsetList</th>
+      <th>fullTextUrlList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>license</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>dateOfCompletion</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>electronicPublicationDate</th>
+      <th>firstPublicationDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC11186750</th>
+      <td>True</td>
+      <td>False</td>
+      <td>38898292</td>
+      <td>MED</td>
+      <td>38898292</td>
+      <td>PMC11186750</td>
+      <td>{'fullTextId': 'PMC11186750'}</td>
+      <td>10.1038/s41586-024-07421-0</td>
+      <td>Detecting hallucinations in large language models using semantic entropy.</td>
+      <td>Farquhar S, Kossen J, Kuhn L, Gal Y.</td>
+      <td>{'author': [{'fullName': 'Farquhar S', 'firstName': 'Sebastian', 'lastName': 'Farquhar', 'initials': 'S', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-9185-6415')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'OATML, Department of Computer Science, University of Oxford, Oxford, UK. sebfar@gmail.com.')]))])}, {'fullName': 'Kossen J', 'firstName': 'Jannik', 'lastName': 'Kossen', 'initials': 'J', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'OATML, Department of Computer Science, University of Oxford, Oxford, UK.')]))])}, {'fullName': 'Kuhn L', 'firstName': 'Lorenz', 'lastName': 'Kuhn', 'initials': 'L', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'OATML, Department of Computer Science, University of Oxford, Oxford, UK.')]))])}, {'fullName': 'Gal Y', 'firstName': 'Yarin', 'lastName': 'Gal', 'initials': 'Y', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-2733-2078')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'OATML, Department of Computer Science, University of Oxford, Oxford, UK.')]))])}]}</td>
+      <td>{'authorId': [{'@type': 'ORCID', '#text': '0000-0002-2733-2078'}, {'@type': 'ORCID', '#text': '0000-0002-9185-6415'}]}</td>
+      <td>{'dataLinkstag': 'altmetrics'}</td>
+      <td>{'issue': '8017', 'volume': '630', 'journalIssueId': '3785771', 'dateOfPublication': '2024 Jun', 'monthOfPublication': '6', 'yearOfPublication': '2024', 'printPublicationDate': '2024-06-01', 'journal': {'title': 'Nature', 'ISOAbbreviation': 'Nature', 'medlineAbbreviation': 'Nature', 'NLMid': '0410462', 'ISSN': '0028-0836', 'ESSN': '1476-4687'}}</td>
+      <td>2024</td>
+      <td>625-630</td>
+      <td>Large language model (LLM) systems, such as ChatGPT<sup>1</sup> or Gemini<sup>2</sup>, can show impressive reasoning and question-answering capabilities but often 'hallucinate' false outputs and unsubstantiated answers<sup>3,4</sup>. Answering unreliably or without the necessary information prevents adoption in diverse fields, with problems including fabrication of legal precedents<sup>5</sup> or untrue facts in news articles<sup>6</sup> and even posing a risk to human life in medical domains such as radiology<sup>7</sup>. Encouraging truthfulness through supervision or reinforcement has been only partially successful<sup>8</sup>. Researchers need a general method for detecting hallucinations in LLMs that works even with new and unseen questions to which humans might not know the answer. Here we develop new methods grounded in statistics, proposing entropy-based uncertainty estimators for LLMs to detect a subset of hallucinations-confabulations-which are arbitrary and incorrect generations. Our method addresses the fact that one idea can be expressed in many ways by computing uncertainty at the level of meaning rather than specific sequences of words. Our method works across datasets and tasks without a priori knowledge of the task, requires no task-specific data and robustly generalizes to new tasks not seen before. By detecting when a prompt is likely to produce a confabulation, our method helps users understand when they must take extra care with LLMs and opens up new possibilities for using LLMs that are otherwise prevented by their unreliability.</td>
+      <td>OATML, Department of Computer Science, University of Oxford, Oxford, UK. sebfar@gmail.com.</td>
+      <td>ppublish</td>
+      <td>eng</td>
+      <td>Print-Electronic</td>
+      <td>{'pubType': ['research-article', 'Journal Article']}</td>
+      <td>{'subset': {'code': 'IM', 'name': 'Index Medicus'}}</td>
+      <td>{'fullTextUrl': [{'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1038/s41586-024-07421-0'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC11186750'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC11186750?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>0</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>2024-06-19</td>
+      <td>2024-06-19</td>
+      <td>2024-06-21</td>
+      <td>2024-06-22</td>
+      <td>2024-06-22</td>
+      <td>2024-06-19</td>
+      <td>2024-06-19</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    

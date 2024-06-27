@@ -1,0 +1,1265 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd"> 
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.3"><?properties open_access?><?DTDIdentifier.IdentifierValue -//Springer-Verlag//DTD A++ V2.4//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName A++V2.4.dtd?><?SourceDTD.Version 2.4?><?ConverterInfo.XSLTName springer2nlmx2.xsl?><?ConverterInfo.Version 1?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Sci Rep</journal-id><journal-id journal-id-type="iso-abbrev">Sci Rep</journal-id><journal-title-group><journal-title>Scientific Reports</journal-title></journal-title-group><issn pub-type="epub">2045-2322</issn><publisher><publisher-name>Nature Publishing Group UK</publisher-name><publisher-loc>London</publisher-loc></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmcid">10973504</article-id><article-id pub-id-type="publisher-id">57419</article-id><article-id pub-id-type="doi">10.1038/s41598-024-57419-x</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>Scoring method of English composition integrating deep learning in higher vocational colleges</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Feng</surname><given-names>Shuo</given-names></name><xref ref-type="aff" rid="Aff1"/></contrib><contrib contrib-type="author"><name><surname>Yu</surname><given-names>Lixia</given-names></name><xref ref-type="aff" rid="Aff1"/></contrib><contrib contrib-type="author" corresp="yes"><name><surname>Liu</surname><given-names>Fen</given-names></name><address><email>savagelinda@126.com</email></address><xref ref-type="aff" rid="Aff1"/></contrib><aff id="Aff1">Department of Culture, Sports and Labor, Gannan Healthcare Vocational College, Ganzhou, 341000 China </aff></contrib-group><pub-date pub-type="epub"><day>27</day><month>3</month><year>2024</year></pub-date><pub-date pub-type="pmc-release"><day>27</day><month>3</month><year>2024</year></pub-date><pub-date pub-type="collection"><year>2024</year></pub-date><volume>14</volume><elocation-id>7287</elocation-id><history><date date-type="received"><day>28</day><month>1</month><year>2024</year></date><date date-type="accepted"><day>18</day><month>3</month><year>2024</year></date></history><permissions><copyright-statement>&#x000a9; The Author(s) 2024</copyright-statement><license><ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p></license></permissions><abstract id="Abs1"><p id="Par1">Along with the progress of natural language processing technology and deep learning, the subjectivity, slow feedback, and long grading time of traditional English essay grading have been addressed. Intelligent English automatic scoring has been widely concerned by scholars. Given the limitations of topic relevance feature extraction methods and traditional automatic grading methods for English compositions, a topic decision model is proposed to calculate the topic relevance score of the topic richness in English composition. Then, based on the Score of Relevance Based on Topic Richness (TRSR) calculation method, an intelligent English composition scoring method combining artificial feature extraction and deep learning is designed. From the findings, the Topic Decision (TD) model achieved the best effect only when it was iterated 80 times. The corresponding accuracy, recall and F1 value were 0.97, 0.93 and 0.95 respectively. The model training loss finally stabilized at 0.03. The Intelligent English Composition Grading Method Integrating Deep Learning (DLIECG) method has the best overall performance and the best performance on dataset P. To sum up, the intelligent English composition scoring method has better effectiveness and reliability.</p></abstract><kwd-group xml:lang="en"><title>Keywords</title><kwd>Deep learning</kwd><kwd>Higher vocational colleges</kwd><kwd>Natural language processing</kwd><kwd>English composition</kwd><kwd>Intelligent scoring</kwd></kwd-group><kwd-group kwd-group-type="npg-subject"><title>Subject terms</title><kwd>Psychology</kwd><kwd>Engineering</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>issue-copyright-statement</meta-name><meta-value>&#x000a9; Springer Nature Limited 2024</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="Sec1"><title>Introduction</title><p id="Par2">Language is a bridge between international communication and academic research. English is also a compulsory course in compulsory education and higher vocational colleges in China. However, in China, English exam-oriented education focuses on the written tests, which comprehensively evaluate students' English proficiency based on their vocabulary proficiency, reading comprehension ability, and English writing ability. Among them, the English composition exam is a comprehensive examination of students' language ability from words, grammar, long and difficult sentences and overall text expression ability. The traditional offline English teaching is widely used in higher vocational colleges. There is often a serious contradiction between effective classroom teaching practice and many students. It is hard for teachers to check every student efficiently and comprehensively. It is also difficult to provide timely feedback on students' writing issues. In addition, the subjective factors of teachers also affect composition judgment. According to the statistics of the Ministry of Education, the students in China have displayed a significant upward trend, but the number of English teachers has declined <sup><xref ref-type="bibr" rid="CR1">1</xref></sup>. In this context, English teaching has become a heavy burden for teachers. It is also difficult for students to receive timely feedback from teachers on composition problems. Liu H et al. proposed a new relationship-driven method based on Transformer architecture. A new token-guided multiple loss function was designed to solve the severe occlusion, low illumination and extreme direction existing in head pose estimation in practical applications. Based on the experimental results of three challenging benchmark HPE datasets, the proposed approach achieved state-of-the-art performance <sup><xref ref-type="bibr" rid="CR2">2</xref></sup>. Liu et al., proposed a human pose estimation model with joint direction cue and Gaussian coordinate coding to alleviate the constraints of human pose estimation under normal circumstances. Experimental results showed that this method could obtain robust results. The extended experiments were carried out on the collected infrared images. The results indicate that the experiment achieved good results when there was insufficient color and texture information <sup><xref ref-type="bibr" rid="CR3">3</xref></sup>. Liu et al., designed an efficient deep matrix decomposition with retrospective feature learning for industrial recommendation systems to explain the characteristics of user reviews. The research results on multiple data sets showed that the proposed method was superior to existing methods in terms of effectiveness and efficiency. It had a good prospect for industrial transformation and application <sup><xref ref-type="bibr" rid="CR4">4</xref></sup>. Therefore, it is the most important thing to realize the intelligent scoring method of English composition with Internet technology. With the gradual maturity of Internet technology, it is possible to combine it with education. The Score of Relevance Based on Topic Richness (TRSR) is designed to address the dimension of topic richness in English compositions, aiming to achieve objective and efficient intelligent scoring. Combined with Deep Learning <sup><xref ref-type="bibr" rid="CR5">5</xref>&#x02013;<xref ref-type="bibr" rid="CR7">7</xref></sup>, an Intelligent English Composition Grading Method Integrating Deep Learning (DLIECG) is proposed.</p></sec><sec id="Sec2"><title>Related work</title><p id="Par3">In recent years, artificial intelligence has been widely applied in various fields. The automatic grading of English compositions has also received extensive attention from researchers <sup><xref ref-type="bibr" rid="CR8">8</xref></sup>. Automatic grading of English composition is to solve the heavy teaching burden, strong subjectivity of composition grading, long examination time and difficult feedback in traditional English teaching <sup><xref ref-type="bibr" rid="CR9">9</xref></sup>. Many scholars have conducted in-depth analysis and discussion. Rajagede designed a model for automatically evaluating student essay answers for automatic grading of Indonesian student essays. The results showed that the model extracted more information from sentences. However, the file size was smaller than the Fast-Text pre-training model. On the Ukara dataset, the model had a better F1 value, at 0.829 <sup><xref ref-type="bibr" rid="CR10">10</xref></sup>. Under the background of computer technology and AI technology, Yi found that automatic English grading was the inevitable trend. He proposed a college English assistance system solution based on artificial intelligence technology. This paper discussed the application of AI in English teaching to improve the English teaching effect <sup><xref ref-type="bibr" rid="CR11">11</xref></sup>. Ince et al., aimed to develop an objective and effective automatic scoring model for open questions using machine learning method. The research results showed that this method had the best precision and F1 value in the T&#x000fc;rkiye physics curriculum dataset <sup><xref ref-type="bibr" rid="CR12">12</xref></sup>.</p><p id="Par4">The deep learning has achieved relatively mature application achievements. The composition scoring method based on deep learning can solve the difficult semantic information extraction relying on artificial features, maintaining excellent performance in most tasks <sup><xref ref-type="bibr" rid="CR13">13</xref></sup>. However, in the practical application of English composition grading, due to the constraints of scale, the generalization ability of the model is defective, resulting in the inability to recognize the shallow features <sup><xref ref-type="bibr" rid="CR14">14</xref></sup>. Wang et al., found that traditional machine learning couldn&#x02019;t be directly applied. Therefore, deep learning was introduced to design an English word segmentation processing method with multiple neural networks. The experimental results showed that the average prediction processing speed of this method was 1.94 times faster than BI-LSTM-CRF, indicating that the proposed method had a faster processing speed. It could effectively improve the efficiency of word segmentation processing <sup><xref ref-type="bibr" rid="CR15">15</xref></sup>. Cui analyzed the application of deep learning and object visual detection in online English vocabulary teaching. The results showed that the application of corpora in university vocabulary teaching could promote students to actively use corpora in English vocabulary learning. The classification accuracy of this method was over 90% <sup><xref ref-type="bibr" rid="CR16">16</xref></sup>. Hao found that students didn&#x02019;t have sufficient interactive interest and emotional stimulation in multimedia English teaching. For this defect, an intelligent network English teaching system based on deep learning speech enhancement and facial expression recognition was studied. The experimental results confirmed that it had good detection ability on students' expressions <sup><xref ref-type="bibr" rid="CR17">17</xref></sup>.</p><p id="Par5">To sum up, the research on automatic English grading methods is not mature, but it can learn from other automatic essay grading systems. In view of the lack of relevance dimension research in the existing English scoring system and the feature deficiencies in deep learning, the research first proposes a TRSR model based on topic richness. Then, deep learning is combined with artificial feature extraction methods to construct the DLIECG method.</p></sec><sec id="Sec3"><title>Design of intelligent English composition scoring method integrating deep learning</title><sec id="Sec4"><title>Preparation stage of intelligent English composition scoring method</title><p id="Par6">The preparation stage of intelligent English composition scoring method includes Pre-training Word Vector (PWV), Recurrent Neural Network (RNN), Transfer Learning (TL) and Text Segmentation (TS) <sup><xref ref-type="bibr" rid="CR18">18</xref>&#x02013;<xref ref-type="bibr" rid="CR20">20</xref></sup>. PWV encodes syntactic and semantic information into a dense vector, which solves the dimensionality curse caused by traditional single hot encoding. Among them, single hot encoding mainly encodes N states through N-bit state registers. Each state is represented by a corresponding independent register bit, which is only valid for one bit at any time. The dimensionality curse problem is that a single hot encoding introduces a large number of new features based on the original features, leading to dimension explosion. Especially in situations with multiple classifications, this may increase computational complexity and storage space requirements. At present, the mainstream word vector construction work includes the Context-based Pre-training Word Vector Construction method (Word2vec), the Global Vectors for Word Representation (Glove) and the Transformer-based Pre-training model (BERT) <sup><xref ref-type="bibr" rid="CR21">21</xref>,<xref ref-type="bibr" rid="CR22">22</xref></sup>. In the Word2vec model training, the Continuous Word Bag model (CWB) for predicting intermediate words in the sliding window and the Skip-Gram model for predicting two words on both sides of the known intermediate words are shown in Fig.&#x000a0;<xref rid="Fig1" ref-type="fig">1</xref>.<fig id="Fig1"><label>Figure 1</label><caption><p>Structure diagram of CWB model and skip-gram model.</p></caption><graphic xlink:href="41598_2024_57419_Fig1_HTML" id="MO1"/></fig></p><p id="Par7">In Fig.&#x000a0;<xref rid="Fig1" ref-type="fig">1</xref>a, the CWB model is composed of input layer, projection layer and output layer. <inline-formula id="IEq1"><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\left[ {A_{t - 2} ,A_{t - 1} ,A_{t} ,A_{t + 1} ,A_{t + 2} ,} \right]$$\end{document}</tex-math><mml:math id="M2"><mml:mfenced close="]" open="["><mml:mrow><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>+</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo></mml:mrow></mml:mfenced></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq1.gif"/></alternatives></inline-formula> is the current window contains words. The window word is first thermally coded separately as the input layer. The coding dimension is the non-repeating thesaurus set of the current corpus. The unique heat code of <inline-formula id="IEq2"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\left[ {A_{t - 2} ,A_{t - 1} ,A_{t + 1} ,A_{t + 2} ,} \right]$$\end{document}</tex-math><mml:math id="M4"><mml:mfenced close="]" open="["><mml:mrow><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>+</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo></mml:mrow></mml:mfenced></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq2.gif"/></alternatives></inline-formula> is accumulated and summed on the projection layer. Secondly, the summation coding is used as the input layer. The SoftMax function is used to classify and predict the prediction words. Finally, the network parameters are optimized by back-propagation algorithm. CWB uses a Huffman tree to classify the output layer for optimized computation. In Fig.&#x000a0;<xref rid="Fig1" ref-type="fig">1</xref>b, the speed of the skip-Gram model training word vector is opposite to that of CWB. The input is the unique code of the target word, and the output is the words on both sides of the window. The core task of the Skip-Gram model is to learn a mapping relationship that maps words into a vector space, so that semantically similar words have close distances in the vector space. Glove uses the property of <inline-formula id="IEq3"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ratio$$\end{document}</tex-math><mml:math id="M6"><mml:mrow><mml:mi mathvariant="italic">ratio</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq3.gif"/></alternatives></inline-formula> to establish the loss function by connecting with the word vector. The least square loss is optimized using the Adarad method. The construction process of co-occurrence matrix is as follows. <inline-formula id="IEq4"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$U$$\end{document}</tex-math><mml:math id="M8"><mml:mi>U</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq4.gif"/></alternatives></inline-formula> is the co-occurrence matrix. The element is <inline-formula id="IEq5"><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$U_{j,k}$$\end{document}</tex-math><mml:math id="M10"><mml:msub><mml:mi>U</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq5.gif"/></alternatives></inline-formula>, which represents the number of times that the words <inline-formula id="IEq6"><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$j$$\end{document}</tex-math><mml:math id="M12"><mml:mi>j</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq6.gif"/></alternatives></inline-formula> and <inline-formula id="IEq7"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$k$$\end{document}</tex-math><mml:math id="M14"><mml:mi>k</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq7.gif"/></alternatives></inline-formula> appear together in a window. <inline-formula id="IEq8"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$B = \left\{ {Anny,I,like,you,but,you,like,her} \right\}$$\end{document}</tex-math><mml:math id="M16"><mml:mrow><mml:mi>B</mml:mi><mml:mo>=</mml:mo><mml:mfenced close="}" open="{"><mml:mrow><mml:mi>A</mml:mi><mml:mi>n</mml:mi><mml:mi>n</mml:mi><mml:mi>y</mml:mi><mml:mo>,</mml:mo><mml:mi>I</mml:mi><mml:mo>,</mml:mo><mml:mi>l</mml:mi><mml:mi>i</mml:mi><mml:mi>k</mml:mi><mml:mi>e</mml:mi><mml:mo>,</mml:mo><mml:mi>y</mml:mi><mml:mi>o</mml:mi><mml:mi>u</mml:mi><mml:mo>,</mml:mo><mml:mi>b</mml:mi><mml:mi>u</mml:mi><mml:mi>t</mml:mi><mml:mo>,</mml:mo><mml:mi>y</mml:mi><mml:mi>o</mml:mi><mml:mi>u</mml:mi><mml:mo>,</mml:mo><mml:mi>l</mml:mi><mml:mi>i</mml:mi><mml:mi>k</mml:mi><mml:mi>e</mml:mi><mml:mo>,</mml:mo><mml:mi>h</mml:mi><mml:mi>e</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq8.gif"/></alternatives></inline-formula> is the corpus. The vocabulary size is <inline-formula id="IEq9"><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$N = 6$$\end{document}</tex-math><mml:math id="M18"><mml:mrow><mml:mi>N</mml:mi><mml:mo>=</mml:mo><mml:mn>6</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq9.gif"/></alternatives></inline-formula>. Assuming that the current sliding window width is 5, a window content will be generated after one sliding. Taking Window 3 as an example, that is, the head word is you, and the context words are I, like, but and you. The formula (<xref rid="Equ1" ref-type="disp-formula">1</xref>) can be obtained.<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\left\{ \begin{gathered} U_{you,i} + = 1 \hfill \\ U_{you,like} + = 1 \hfill \\ U_{you,but} + = 1 \hfill \\ U_{you,you} + = 1 \hfill \\ \end{gathered} \right.$$\end{document}</tex-math><mml:math id="M20" display="block"><mml:mfenced open="{"><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mrow><mml:msub><mml:mi>U</mml:mi><mml:mrow><mml:mi>y</mml:mi><mml:mi>o</mml:mi><mml:mi>u</mml:mi><mml:mo>,</mml:mo><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mrow/><mml:msub><mml:mi>U</mml:mi><mml:mrow><mml:mi>y</mml:mi><mml:mi>o</mml:mi><mml:mi>u</mml:mi><mml:mo>,</mml:mo><mml:mi>l</mml:mi><mml:mi>i</mml:mi><mml:mi>k</mml:mi><mml:mi>e</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mrow/><mml:msub><mml:mi>U</mml:mi><mml:mrow><mml:mi>y</mml:mi><mml:mi>o</mml:mi><mml:mi>u</mml:mi><mml:mo>,</mml:mo><mml:mi>b</mml:mi><mml:mi>u</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mrow/><mml:msub><mml:mi>U</mml:mi><mml:mrow><mml:mi>y</mml:mi><mml:mi>o</mml:mi><mml:mi>u</mml:mi><mml:mo>,</mml:mo><mml:mi>y</mml:mi><mml:mi>o</mml:mi><mml:mi>u</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow/></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced></mml:math><graphic xlink:href="41598_2024_57419_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par8">Taking formula (<xref rid="Equ1" ref-type="disp-formula">1</xref>) as an example, the co-occurrence matrix <inline-formula id="IEq10"><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$U_{6 \times 6}$$\end{document}</tex-math><mml:math id="M22"><mml:msub><mml:mi>U</mml:mi><mml:mrow><mml:mn>6</mml:mn><mml:mo>&#x000d7;</mml:mo><mml:mn>6</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq10.gif"/></alternatives></inline-formula> is obtained by sliding <inline-formula id="IEq11"><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$B$$\end{document}</tex-math><mml:math id="M24"><mml:mi>B</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq11.gif"/></alternatives></inline-formula>. The number of times two adjacent words appeared together in <inline-formula id="IEq12"><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$B$$\end{document}</tex-math><mml:math id="M26"><mml:mi>B</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq12.gif"/></alternatives></inline-formula> is stored by co-occurrence matrix. Then the word vector is constructed through <inline-formula id="IEq13"><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ratio$$\end{document}</tex-math><mml:math id="M28"><mml:mrow><mml:mi mathvariant="italic">ratio</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq13.gif"/></alternatives></inline-formula> feature, as shown in formula (<xref rid="Equ2" ref-type="disp-formula">2</xref>).<disp-formula id="Equ2"><label>2</label><alternatives><tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\left\{ \begin{gathered} ratio_{i,j,k} = \frac{{P_{i,k} }}{{P_{j,k} }} = \frac{{\exp \left( {b_{i}^{T} b_{k} } \right)}}{{\exp \left( {b_{j}^{T} b_{k} } \right)}} \hfill \\ P_{i,k} = \frac{{U_{i,k} }}{{U_{i} }} \hfill \\ U_{i} = \sum\limits_{j = 1}^{N} {U_{i,j} } \hfill \\ \end{gathered} \right.$$\end{document}</tex-math><mml:math id="M30" display="block"><mml:mfenced open="{"><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mrow><mml:mi>r</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:msub><mml:mi>o</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mo>exp</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:msubsup><mml:mi>b</mml:mi><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mi>T</mml:mi></mml:msubsup><mml:msub><mml:mi>b</mml:mi><mml:mi>k</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mo>exp</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:msubsup><mml:mi>b</mml:mi><mml:mrow><mml:mi>j</mml:mi></mml:mrow><mml:mi>T</mml:mi></mml:msubsup><mml:msub><mml:mi>b</mml:mi><mml:mi>k</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mfrac></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mrow/><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:msub><mml:mi>U</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mi>U</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mfrac></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mrow/><mml:msub><mml:mi>U</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:munderover><mml:mo movablelimits="false">&#x02211;</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>N</mml:mi></mml:munderover><mml:msub><mml:mi>U</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow/></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced></mml:math><graphic xlink:href="41598_2024_57419_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par9">In formula (<xref rid="Equ2" ref-type="disp-formula">2</xref>), <inline-formula id="IEq14"><alternatives><tex-math id="M31">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$P_{i,k}$$\end{document}</tex-math><mml:math id="M32"><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq14.gif"/></alternatives></inline-formula> and <inline-formula id="IEq15"><alternatives><tex-math id="M33">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$P_{i,k}$$\end{document}</tex-math><mml:math id="M34"><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq15.gif"/></alternatives></inline-formula> represent the occurrences of the word <inline-formula id="IEq16"><alternatives><tex-math id="M35">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$k$$\end{document}</tex-math><mml:math id="M36"><mml:mi>k</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq16.gif"/></alternatives></inline-formula> in the context of <inline-formula id="IEq17"><alternatives><tex-math id="M37">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$i$$\end{document}</tex-math><mml:math id="M38"><mml:mi>i</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq17.gif"/></alternatives></inline-formula> and <inline-formula id="IEq18"><alternatives><tex-math id="M39">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$j$$\end{document}</tex-math><mml:math id="M40"><mml:mi>j</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq18.gif"/></alternatives></inline-formula>. <inline-formula id="IEq19"><alternatives><tex-math id="M41">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$b_{i}$$\end{document}</tex-math><mml:math id="M42"><mml:msub><mml:mi>b</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq19.gif"/></alternatives></inline-formula>, <inline-formula id="IEq20"><alternatives><tex-math id="M43">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$b_{j}$$\end{document}</tex-math><mml:math id="M44"><mml:msub><mml:mi>b</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq20.gif"/></alternatives></inline-formula> and <inline-formula id="IEq21"><alternatives><tex-math id="M45">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$b_{k}$$\end{document}</tex-math><mml:math id="M46"><mml:msub><mml:mi>b</mml:mi><mml:mi>k</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq21.gif"/></alternatives></inline-formula> are vector representations of the current words <inline-formula id="IEq22"><alternatives><tex-math id="M47">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$i$$\end{document}</tex-math><mml:math id="M48"><mml:mi>i</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq22.gif"/></alternatives></inline-formula>, <inline-formula id="IEq23"><alternatives><tex-math id="M49">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$j$$\end{document}</tex-math><mml:math id="M50"><mml:mi>j</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq23.gif"/></alternatives></inline-formula> and <inline-formula id="IEq24"><alternatives><tex-math id="M51">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$k$$\end{document}</tex-math><mml:math id="M52"><mml:mi>k</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq24.gif"/></alternatives></inline-formula>. <inline-formula id="IEq25"><alternatives><tex-math id="M53">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$U_{i,k}$$\end{document}</tex-math><mml:math id="M54"><mml:msub><mml:mi>U</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq25.gif"/></alternatives></inline-formula> is the number of occurrences of the word <inline-formula id="IEq26"><alternatives><tex-math id="M55">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$k$$\end{document}</tex-math><mml:math id="M56"><mml:mi>k</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq26.gif"/></alternatives></inline-formula> in the <inline-formula id="IEq27"><alternatives><tex-math id="M57">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$i$$\end{document}</tex-math><mml:math id="M58"><mml:mi>i</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq27.gif"/></alternatives></inline-formula> context. <inline-formula id="IEq28"><alternatives><tex-math id="M59">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$U_{i}$$\end{document}</tex-math><mml:math id="M60"><mml:msub><mml:mi>U</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq28.gif"/></alternatives></inline-formula> represents the number of occurrences of the word <inline-formula id="IEq29"><alternatives><tex-math id="M61">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$i$$\end{document}</tex-math><mml:math id="M62"><mml:mi>i</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq29.gif"/></alternatives></inline-formula>. Table <xref rid="Tab1" ref-type="table">1</xref> shows the property of <inline-formula id="IEq30"><alternatives><tex-math id="M63">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ratio$$\end{document}</tex-math><mml:math id="M64"><mml:mrow><mml:mi mathvariant="italic">ratio</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq30.gif"/></alternatives></inline-formula>.<table-wrap id="Tab1"><label>Table 1</label><caption><p><inline-formula id="IEq31"><alternatives><tex-math id="M65">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ratio$$\end{document}</tex-math><mml:math id="M66"><mml:mrow><mml:mi mathvariant="italic">ratio</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq31.gif"/></alternatives></inline-formula> value property.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">The value of <inline-formula id="IEq32"><alternatives><tex-math id="M67">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ratio_{i,j,k}$$\end{document}</tex-math><mml:math id="M68"><mml:mrow><mml:mi>r</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:msub><mml:mi>o</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq32.gif"/></alternatives></inline-formula></th><th align="left">Words <inline-formula id="IEq33"><alternatives><tex-math id="M69">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$j$$\end{document}</tex-math><mml:math id="M70"><mml:mi>j</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq33.gif"/></alternatives></inline-formula> and <inline-formula id="IEq34"><alternatives><tex-math id="M71">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$k$$\end{document}</tex-math><mml:math id="M72"><mml:mi>k</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq34.gif"/></alternatives></inline-formula> are related</th><th align="left">Words <inline-formula id="IEq35"><alternatives><tex-math id="M73">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$j$$\end{document}</tex-math><mml:math id="M74"><mml:mi>j</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq35.gif"/></alternatives></inline-formula> and <inline-formula id="IEq36"><alternatives><tex-math id="M75">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$k$$\end{document}</tex-math><mml:math id="M76"><mml:mi>k</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq36.gif"/></alternatives></inline-formula> are unrelated</th></tr></thead><tbody><tr><td align="left">Words <inline-formula id="IEq37"><alternatives><tex-math id="M77">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$i$$\end{document}</tex-math><mml:math id="M78"><mml:mi>i</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq37.gif"/></alternatives></inline-formula> and <inline-formula id="IEq38"><alternatives><tex-math id="M79">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$k$$\end{document}</tex-math><mml:math id="M80"><mml:mi>k</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq38.gif"/></alternatives></inline-formula> are related</td><td align="left">Close to 1</td><td align="left">Very big</td></tr><tr><td align="left">Words <inline-formula id="IEq39"><alternatives><tex-math id="M81">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$i$$\end{document}</tex-math><mml:math id="M82"><mml:mi>i</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq39.gif"/></alternatives></inline-formula> and <inline-formula id="IEq40"><alternatives><tex-math id="M83">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$k$$\end{document}</tex-math><mml:math id="M84"><mml:mi>k</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq40.gif"/></alternatives></inline-formula> are unrelated</td><td align="left">Very small</td><td align="left">Close to 1</td></tr></tbody></table></table-wrap></p><p id="Par10">BERT model is universal. Based on the transformer encoder part, it uses the Masked Language Model (MLM) and the Next Sentence Prediction (NSP) training task to train on the data. The structure of Transformer encoder unit is shown in Fig.&#x000a0;<xref rid="Fig2" ref-type="fig">2</xref>.<fig id="Fig2"><label>Figure 2</label><caption><p>Transformer encoder unit structure.</p></caption><graphic xlink:href="41598_2024_57419_Fig2_HTML" id="MO2"/></fig></p><p id="Par11">In Fig.&#x000a0;<xref rid="Fig2" ref-type="fig">2</xref>, the unit is composed of a Multi-headed Self-attention Mechanism (MSM) and a fully connected forward propagation network. Normalization and residual connection are introduced in this unit. The MSM allocates the weight of input codes, accumulates and transmits the codes after each Attention Mechanism (AM) to the forward network. After the forward network normalizes the coding, it can be output to the next transformer encoder unit by adding the coding before transmission. BERT model uses the processing mode of transformer encoder to encode the bidirectional context information based on the MLM pre-training task. RNN is widely used in Natural Language Processing (NLP), which solves the unordered input information in feedforward neural networks, large space occupied by traditional language models, and the inability of convolutional neural networks to extract global semantics. RNN can capture the information that has been calculated in the history for calculating the current time. At present, the mainstream RNN-based method is the Long Short-term Memory Network (LSTM). The model optimizes the structure of RNN, adds <inline-formula id="IEq41"><alternatives><tex-math id="M85">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Cell$$\end{document}</tex-math><mml:math id="M86"><mml:mrow><mml:mi mathvariant="italic">Cell</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq41.gif"/></alternatives></inline-formula> state unit, and alleviates the gradient disappearance problem caused by RNN structure. <inline-formula id="IEq42"><alternatives><tex-math id="M87">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Cell$$\end{document}</tex-math><mml:math id="M88"><mml:mrow><mml:mi mathvariant="italic">Cell</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq42.gif"/></alternatives></inline-formula> structure is composed of input gate <inline-formula id="IEq43"><alternatives><tex-math id="M89">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$s$$\end{document}</tex-math><mml:math id="M90"><mml:mi>s</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq43.gif"/></alternatives></inline-formula>, forgetting gate <inline-formula id="IEq44"><alternatives><tex-math id="M91">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$f$$\end{document}</tex-math><mml:math id="M92"><mml:mi>f</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq44.gif"/></alternatives></inline-formula> and output gate . The relevant calculation is shown in formula (<xref rid="Equ3" ref-type="disp-formula">3</xref>).<disp-formula id="Equ3"><label>3</label><alternatives><tex-math id="M93">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\left\{ \begin{gathered} s_{t} = \delta \left( {\omega_{s} \cdot \left[ {h_{t - 1} ,u_{t} } \right] + d_{s} } \right) \hfill \\ f_{t} = \delta \left( {\omega_{f} \cdot \left[ {h_{t - 1} ,u_{t} } \right] + d_{f} } \right) \hfill \\ o_{t} = \delta \left( {\omega_{o} \cdot \left[ {h_{t - 1} ,u_{t} } \right] + d_{o} } \right) \hfill \\ \end{gathered} \right.$$\end{document}</tex-math><mml:math id="M94" display="block"><mml:mfenced open="{"><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mrow><mml:msub><mml:mi>s</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi>&#x003b4;</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>&#x003c9;</mml:mi><mml:mi>s</mml:mi></mml:msub><mml:mo>&#x000b7;</mml:mo><mml:mfenced close="]" open="["><mml:mrow><mml:msub><mml:mi>h</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>u</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow></mml:mfenced><mml:mo>+</mml:mo><mml:msub><mml:mi>d</mml:mi><mml:mi>s</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mrow/><mml:msub><mml:mi>f</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi>&#x003b4;</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>&#x003c9;</mml:mi><mml:mi>f</mml:mi></mml:msub><mml:mo>&#x000b7;</mml:mo><mml:mfenced close="]" open="["><mml:mrow><mml:msub><mml:mi>h</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>u</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow></mml:mfenced><mml:mo>+</mml:mo><mml:msub><mml:mi>d</mml:mi><mml:mi>f</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mrow/><mml:msub><mml:mi>o</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi>&#x003b4;</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>&#x003c9;</mml:mi><mml:mi>o</mml:mi></mml:msub><mml:mo>&#x000b7;</mml:mo><mml:mfenced close="]" open="["><mml:mrow><mml:msub><mml:mi>h</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>u</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow></mml:mfenced><mml:mo>+</mml:mo><mml:msub><mml:mi>d</mml:mi><mml:mi>o</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow/></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced></mml:math><graphic xlink:href="41598_2024_57419_Article_Equ3.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par12">In formula (<xref rid="Equ3" ref-type="disp-formula">3</xref>), <inline-formula id="IEq45"><alternatives><tex-math id="M95">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\delta$$\end{document}</tex-math><mml:math id="M96"><mml:mi>&#x003b4;</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq45.gif"/></alternatives></inline-formula> is the activation function. <inline-formula id="IEq46"><alternatives><tex-math id="M97">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\omega$$\end{document}</tex-math><mml:math id="M98"><mml:mi>&#x003c9;</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq46.gif"/></alternatives></inline-formula> is the weight matrix. <inline-formula id="IEq47"><alternatives><tex-math id="M99">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\left\{ \begin{gathered} CL_{t} \hfill \\ CL_{t} \hfill \\ h_{t} \hfill \\ \end{gathered} \right.$$\end{document}</tex-math><mml:math id="M100"><mml:mfenced open="{"><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mrow><mml:mi>C</mml:mi><mml:msub><mml:mi>L</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mrow/><mml:mi>C</mml:mi><mml:msub><mml:mi>L</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mrow/><mml:msub><mml:mi>h</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow/></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq47.gif"/></alternatives></inline-formula> is the deviation value. The calculation of <inline-formula id="IEq48"><alternatives><tex-math id="M101">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Cell$$\end{document}</tex-math><mml:math id="M102"><mml:mrow><mml:mi mathvariant="italic">Cell</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq48.gif"/></alternatives></inline-formula> unit <inline-formula id="IEq49"><alternatives><tex-math id="M103">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$CL_{t}$$\end{document}</tex-math><mml:math id="M104"><mml:mrow><mml:mi>C</mml:mi><mml:msub><mml:mi>L</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq49.gif"/></alternatives></inline-formula> and hidden layer state <inline-formula id="IEq50"><alternatives><tex-math id="M105">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$h_{t}$$\end{document}</tex-math><mml:math id="M106"><mml:msub><mml:mi>h</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq50.gif"/></alternatives></inline-formula> is shown in formula (<xref rid="Equ4" ref-type="disp-formula">4</xref>).<disp-formula id="Equ4"><label>4</label><alternatives><tex-math id="M107">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\left\{ \begin{gathered} C\tilde{L}_{t} = \tanh \left( {\omega_{CL} \cdot \left[ {h_{t - 1} ,u_{t} } \right] + d_{CL} } \right) \hfill \\ CL_{t} = f_{t} \cdot CL_{t - 1} + \left( {1 - f_{t} } \right) \cdot C\tilde{L}_{t} \hfill \\ h_{t} = o_{t} \cdot \tanh \left( {CL_{t} } \right) \hfill \\ \end{gathered} \right.$$\end{document}</tex-math><mml:math id="M108" display="block"><mml:mfenced open="{"><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mrow><mml:mi>C</mml:mi><mml:msub><mml:mover accent="true"><mml:mi>L</mml:mi><mml:mo stretchy="false">~</mml:mo></mml:mover><mml:mi>t</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mo>tanh</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>&#x003c9;</mml:mi><mml:mrow><mml:mi mathvariant="italic">CL</mml:mi></mml:mrow></mml:msub><mml:mo>&#x000b7;</mml:mo><mml:mfenced close="]" open="["><mml:mrow><mml:msub><mml:mi>h</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>u</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow></mml:mfenced><mml:mo>+</mml:mo><mml:msub><mml:mi>d</mml:mi><mml:mrow><mml:mi mathvariant="italic">CL</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mrow/><mml:mi>C</mml:mi><mml:msub><mml:mi>L</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>&#x000b7;</mml:mo><mml:mi>C</mml:mi><mml:msub><mml:mi>L</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow></mml:mfenced><mml:mo>&#x000b7;</mml:mo><mml:mi>C</mml:mi><mml:msub><mml:mover accent="true"><mml:mi>L</mml:mi><mml:mo stretchy="false">~</mml:mo></mml:mover><mml:mi>t</mml:mi></mml:msub></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mrow/><mml:msub><mml:mi>h</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>o</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>&#x000b7;</mml:mo><mml:mo>tanh</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:mi>C</mml:mi><mml:msub><mml:mi>L</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow/></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced></mml:math><graphic xlink:href="41598_2024_57419_Article_Equ4.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par13">The deep learning or machine learning is mainly driven by supervised learning. Supervised learning needs to rely on abundant labeled data to train a successful model, which also reflects the shortcomings of deep learning and machine learning. TL can solve the contradiction between big data and few labels, as well as between general models and personalized needs. TL can be divided into TL methods based on features, instances, relationships and models according to learning methods. The model-based TL method trains the model in the source domain through a large number of data. It is used for the process prediction in the target domain. Written text is separated into meaningful units through TS. According to the granularity of segmentation, there are basic discourse unit segmentation tasks and topic segmentation tasks. Among them, topic segmentation is to divide a section of text through topic semantic information, with each topic being continuous.</p></sec><sec id="Sec5"><title>Calculation method of TRSR and design of DLIECG</title><p id="Par14">At present, the automatic analysis system for English composition in the education application market has the following problems, such as the imperfect feedback mechanism and the lack of feedback on relevance and other dimensions. Nowadays, the mainstream correlation methods in English composition include deep learning and unsupervised feature extraction. These two methods lack the fine-grained analysis of content and face difficulties in extracting semantic features. However, the unsupervised method can effectively avoid the defect of relying on annotation data. The corresponding semantic information can be extracted by deep learning method. Unsupervised feature extraction methods often treat the task as a semantic similarity problem. Firstly, feature selection methods are used to extract text features of an essay, such as keywords and topic features. Then, based on the extracted features, each text is transformed into a vector. Finally, the relevance of the essay is determined by calculating the similarity between the text vector and the essay topic vector. At present, the NLP is conducted in a pre-trained model environment, which makes it possible to obtain better sentence semantic vector representation through the pre-training model. The study combines the advantages of feature extraction methods with the pre-trained model in semantic vectorization representation. A TRSR calculation method is proposed to optimize the feedback mechanism of an intelligent English essay scoring system. Among them, topic richness is the correlation between the number of topics and the requirements of an English essay. The correlation is semantic similarity. The TRSR calculation method is shown in Fig.&#x000a0;<xref rid="Fig3" ref-type="fig">3</xref>.<fig id="Fig3"><label>Figure 3</label><caption><p>TRSR calculation method flow.</p></caption><graphic xlink:href="41598_2024_57419_Fig3_HTML" id="MO3"/></fig></p><p id="Par15">In Fig.&#x000a0;<xref rid="Fig3" ref-type="fig">3</xref>, the specific flow of TRSR calculation method is as follows. The first step is to code the acquired English composition data and input it into the model. The second step is to obtain relevant data with topic granularity through the model. The third step is to quantify the theme and its semantics in English composition. The fourth step adopts <inline-formula id="IEq51"><alternatives><tex-math id="M109">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\zeta - AV$$\end{document}</tex-math><mml:math id="M110"><mml:mrow><mml:mi>&#x003b6;</mml:mi><mml:mo>-</mml:mo><mml:mi>A</mml:mi><mml:mi>V</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq51.gif"/></alternatives></inline-formula> to calculation and get the final score of the the English composition correlation. The bidirectional coding BERT model based on transformer can learn semantic features at high level, which can make the text data obtain better representation. Therefore, the input of Topic Decision model (TD) uses the bidirectional coding method of BERT model. The sentence is expressed as <inline-formula id="IEq52"><alternatives><tex-math id="M111">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$SE = \left( {l_{1} ,l_{2} , \ldots ,l_{n} } \right)$$\end{document}</tex-math><mml:math id="M112"><mml:mrow><mml:mi>S</mml:mi><mml:mi>E</mml:mi><mml:mo>=</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>l</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>l</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x02026;</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mi>l</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq52.gif"/></alternatives></inline-formula>. <inline-formula id="IEq53"><alternatives><tex-math id="M113">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$l_{j} ,1 \le j \le n$$\end{document}</tex-math><mml:math id="M114"><mml:mrow><mml:msub><mml:mi>l</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mo>&#x02264;</mml:mo><mml:mi>j</mml:mi><mml:mo>&#x02264;</mml:mo><mml:mi>n</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq53.gif"/></alternatives></inline-formula> is the <inline-formula id="IEq54"><alternatives><tex-math id="M115">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$j$$\end{document}</tex-math><mml:math id="M116"><mml:mi>j</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq54.gif"/></alternatives></inline-formula> word of the current sentence. The word vector <inline-formula id="IEq55"><alternatives><tex-math id="M117">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_{j}$$\end{document}</tex-math><mml:math id="M118"><mml:msub><mml:mi>v</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq55.gif"/></alternatives></inline-formula> is obtained through the BERT pre-training model for all words. The sentence coding method uses the average value of 9&#x02013;12 layers of coding in the model to represent <inline-formula id="IEq56"><alternatives><tex-math id="M119">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_{j}$$\end{document}</tex-math><mml:math id="M120"><mml:msub><mml:mi>v</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq56.gif"/></alternatives></inline-formula>, as shown in formula (<xref rid="Equ5" ref-type="disp-formula">5</xref>).<disp-formula id="Equ5"><label>5</label><alternatives><tex-math id="M121">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_{j} = BERT^{RT} \left( {l_{j} } \right)$$\end{document}</tex-math><mml:math id="M122" display="block"><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi>B</mml:mi><mml:mi>E</mml:mi><mml:mi>R</mml:mi><mml:msup><mml:mi>T</mml:mi><mml:mrow><mml:mi mathvariant="italic">RT</mml:mi></mml:mrow></mml:msup><mml:mfenced close=")" open="("><mml:msub><mml:mi>l</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="41598_2024_57419_Article_Equ5.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par16">In formula (<xref rid="Equ5" ref-type="disp-formula">5</xref>), <inline-formula id="IEq57"><alternatives><tex-math id="M123">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$RT$$\end{document}</tex-math><mml:math id="M124"><mml:mrow><mml:mi mathvariant="italic">RT</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq57.gif"/></alternatives></inline-formula> represents the specific coding method of <inline-formula id="IEq58"><alternatives><tex-math id="M125">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_{j}$$\end{document}</tex-math><mml:math id="M126"><mml:msub><mml:mi>v</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq58.gif"/></alternatives></inline-formula>. The <inline-formula id="IEq59"><alternatives><tex-math id="M127">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$RT$$\end{document}</tex-math><mml:math id="M128"><mml:mrow><mml:mi mathvariant="italic">RT</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq59.gif"/></alternatives></inline-formula> is shown in formula (<xref rid="Equ6" ref-type="disp-formula">6</xref>).<disp-formula id="Equ6"><label>6</label><alternatives><tex-math id="M129">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$RT = \frac{{\sum\limits_{m} {layer_{m} } }}{3}$$\end{document}</tex-math><mml:math id="M130" display="block"><mml:mrow><mml:mi>R</mml:mi><mml:mi>T</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:munder><mml:mo movablelimits="false">&#x02211;</mml:mo><mml:mi>m</mml:mi></mml:munder><mml:mrow><mml:mi>l</mml:mi><mml:mi>a</mml:mi><mml:mi>y</mml:mi><mml:mi>e</mml:mi><mml:msub><mml:mi>r</mml:mi><mml:mi>m</mml:mi></mml:msub></mml:mrow></mml:mrow><mml:mn>3</mml:mn></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="41598_2024_57419_Article_Equ6.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par17">In formula (<xref rid="Equ6" ref-type="disp-formula">6</xref>), <inline-formula id="IEq60"><alternatives><tex-math id="M131">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$layer_{m}$$\end{document}</tex-math><mml:math id="M132"><mml:mrow><mml:mi>l</mml:mi><mml:mi>a</mml:mi><mml:mi>y</mml:mi><mml:mi>e</mml:mi><mml:msub><mml:mi>r</mml:mi><mml:mi>m</mml:mi></mml:msub></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq60.gif"/></alternatives></inline-formula> is the BERT code of layer <inline-formula id="IEq61"><alternatives><tex-math id="M133">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$m$$\end{document}</tex-math><mml:math id="M134"><mml:mi>m</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq61.gif"/></alternatives></inline-formula>. The research uses TD model to segment the topic granularity of English composition data. The last sentence of each topic in the text is taken as the stop point, and the input sentence is determined using the structure of BILSTM-Attention model. In the TD model, the first step is to input the word granularity. Then the AM is used to give the input data weight, and a fully connected layer with dimensionality reduction is input. Finally, the SoftMax function is used to classify. Sentences <inline-formula id="IEq62"><alternatives><tex-math id="M135">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$SE_{j} ,SE_{j + 1} = \left[ {v_{1} ,v_{2} , \cdots ,v_{q} } \right]$$\end{document}</tex-math><mml:math id="M136"><mml:mrow><mml:mi>S</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mi>S</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfenced close="]" open="["><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>v</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x022ef;</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mi>v</mml:mi><mml:mi>q</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq62.gif"/></alternatives></inline-formula> are entered. The BiLSTM model codes input data, as shown in formula (<xref rid="Equ6" ref-type="disp-formula">7</xref>).<disp-formula id="Equ7"><label>7</label><alternatives><tex-math id="M137">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$b_{t} = BiLSTM\left( {v_{t} } \right)$$\end{document}</tex-math><mml:math id="M138" display="block"><mml:mrow><mml:msub><mml:mi>b</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi>B</mml:mi><mml:mi>i</mml:mi><mml:mi>L</mml:mi><mml:mi>S</mml:mi><mml:mi>T</mml:mi><mml:mi>M</mml:mi><mml:mfenced close=")" open="("><mml:msub><mml:mi>v</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="41598_2024_57419_Article_Equ7.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par18">In formula (<xref rid="Equ6" ref-type="disp-formula">7</xref>), <inline-formula id="IEq63"><alternatives><tex-math id="M139">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$b_{t} \left( {1 \le t \le q} \right)$$\end{document}</tex-math><mml:math id="M140"><mml:mrow><mml:msub><mml:mi>b</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mfenced close=")" open="("><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#x02264;</mml:mo><mml:mi>t</mml:mi><mml:mo>&#x02264;</mml:mo><mml:mi>q</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq63.gif"/></alternatives></inline-formula> represents the encoding of <inline-formula id="IEq64"><alternatives><tex-math id="M141">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_{t}$$\end{document}</tex-math><mml:math id="M142"><mml:msub><mml:mi>v</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq64.gif"/></alternatives></inline-formula> by BiLSTM at <inline-formula id="IEq65"><alternatives><tex-math id="M143">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t$$\end{document}</tex-math><mml:math id="M144"><mml:mi>t</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq65.gif"/></alternatives></inline-formula>. Then AM is used to calculate the output weight of BiLSTM at each time point. Formula (<xref rid="Equ7" ref-type="disp-formula">8</xref>) displays the process.<disp-formula id="Equ8"><label>8</label><alternatives><tex-math id="M145">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\left\{ \begin{gathered} x_{t} = \tanh \left( {\omega_{v} \cdot b_{t} + d_{v} } \right) \hfill \\ e_{t} = \frac{{\exp \left( {x_{t}^{T} \cdot x_{v} } \right)}}{{\sum\limits_{t} {\exp \left( {x_{t}^{T} \cdot x_{v} } \right)} }} \hfill \\ \end{gathered} \right.$$\end{document}</tex-math><mml:math id="M146" display="block"><mml:mfenced open="{"><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mrow><mml:msub><mml:mi>x</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mo>tanh</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>&#x003c9;</mml:mi><mml:mi>v</mml:mi></mml:msub><mml:mo>&#x000b7;</mml:mo><mml:msub><mml:mi>b</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>d</mml:mi><mml:mi>v</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mrow/><mml:msub><mml:mi>e</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mo>exp</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:msubsup><mml:mi>x</mml:mi><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mi>T</mml:mi></mml:msubsup><mml:mo>&#x000b7;</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mi>v</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:munder><mml:mo movablelimits="false">&#x02211;</mml:mo><mml:mi>t</mml:mi></mml:munder><mml:mrow><mml:mo>exp</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:msubsup><mml:mi>x</mml:mi><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mi>T</mml:mi></mml:msubsup><mml:mo>&#x000b7;</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mi>v</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:mfrac></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow/></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced></mml:math><graphic xlink:href="41598_2024_57419_Article_Equ8.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par19">In formula (<xref rid="Equ7" ref-type="disp-formula">8</xref>), <inline-formula id="IEq66"><alternatives><tex-math id="M147">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$x_{t}$$\end{document}</tex-math><mml:math id="M148"><mml:msub><mml:mi>x</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq66.gif"/></alternatives></inline-formula>, <inline-formula id="IEq67"><alternatives><tex-math id="M149">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\omega_{v}$$\end{document}</tex-math><mml:math id="M150"><mml:msub><mml:mi>&#x003c9;</mml:mi><mml:mi>v</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq67.gif"/></alternatives></inline-formula> and <inline-formula id="IEq68"><alternatives><tex-math id="M151">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$d_{v}$$\end{document}</tex-math><mml:math id="M152"><mml:msub><mml:mi>d</mml:mi><mml:mi>v</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq68.gif"/></alternatives></inline-formula> represent the number of layers of AM. <inline-formula id="IEq69"><alternatives><tex-math id="M153">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$e_{t}$$\end{document}</tex-math><mml:math id="M154"><mml:msub><mml:mi>e</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq69.gif"/></alternatives></inline-formula> means that the input sequence of the <inline-formula id="IEq70"><alternatives><tex-math id="M155">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t$$\end{document}</tex-math><mml:math id="M156"><mml:mi>t</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq70.gif"/></alternatives></inline-formula> time point accounts for the weight of all inputs. The input vector <inline-formula id="IEq71"><alternatives><tex-math id="M157">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$y_{t}$$\end{document}</tex-math><mml:math id="M158"><mml:msub><mml:mi>y</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq71.gif"/></alternatives></inline-formula> with weight expression can be obtained in the AM layer, as shown in formula (<xref rid="Equ8" ref-type="disp-formula">9</xref>).<disp-formula id="Equ9"><label>9</label><alternatives><tex-math id="M159">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$y_{t} = e_{t} \cdot b_{t}$$\end{document}</tex-math><mml:math id="M160" display="block"><mml:mrow><mml:msub><mml:mi>y</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>e</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>&#x000b7;</mml:mo><mml:msub><mml:mi>b</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow></mml:math><graphic xlink:href="41598_2024_57419_Article_Equ9.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par20">The vector representation with vocabulary weight is calculated by AM. It is entered into the full connection layer. To realize classification, the SoftMax function is adopted. The vector after splicing is <inline-formula id="IEq72"><alternatives><tex-math id="M161">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$y^{\prime}$$\end{document}</tex-math><mml:math id="M162"><mml:msup><mml:mi>y</mml:mi><mml:mo>&#x02032;</mml:mo></mml:msup></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq72.gif"/></alternatives></inline-formula>, as shown in formula (<xref rid="Equ9" ref-type="disp-formula">10</xref>).<disp-formula id="Equ10"><label>10</label><alternatives><tex-math id="M163">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\left\{ \begin{gathered} y = con\left( {y_{1} ,y_{2} , \ldots ,y_{q} } \right) \hfill \\ y^{\prime} = fc\left( y \right) \hfill \\ \tilde{z} = soft\max \left( {W_{s} \cdot y^{\prime} + d_{s} } \right) \hfill \\ \end{gathered} \right.$$\end{document}</tex-math><mml:math id="M164" display="block"><mml:mfenced open="{"><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mrow><mml:mi>y</mml:mi><mml:mo>=</mml:mo><mml:mi>c</mml:mi><mml:mi>o</mml:mi><mml:mi>n</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>y</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x02026;</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mi>q</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mrow/><mml:msup><mml:mi>y</mml:mi><mml:mo>&#x02032;</mml:mo></mml:msup><mml:mo>=</mml:mo><mml:mi>f</mml:mi><mml:mi>c</mml:mi><mml:mfenced close=")" open="("><mml:mi>y</mml:mi></mml:mfenced></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mrow/><mml:mover accent="true"><mml:mi>z</mml:mi><mml:mo stretchy="false">~</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mi>s</mml:mi><mml:mi>o</mml:mi><mml:mi>f</mml:mi><mml:mi>t</mml:mi><mml:mo movablelimits="true">max</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>W</mml:mi><mml:mi>s</mml:mi></mml:msub><mml:mo>&#x000b7;</mml:mo><mml:msup><mml:mi>y</mml:mi><mml:mo>&#x02032;</mml:mo></mml:msup><mml:mo>+</mml:mo><mml:msub><mml:mi>d</mml:mi><mml:mi>s</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow/></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced></mml:math><graphic xlink:href="41598_2024_57419_Article_Equ10.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par21">In formula (<xref rid="Equ9" ref-type="disp-formula">10</xref>), <inline-formula id="IEq73"><alternatives><tex-math id="M165">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$con$$\end{document}</tex-math><mml:math id="M166"><mml:mrow><mml:mi mathvariant="italic">con</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq73.gif"/></alternatives></inline-formula> represents the splicing of vectors. <inline-formula id="IEq74"><alternatives><tex-math id="M167">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$W$$\end{document}</tex-math><mml:math id="M168"><mml:mi>W</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq74.gif"/></alternatives></inline-formula> and <inline-formula id="IEq75"><alternatives><tex-math id="M169">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$d_{s}$$\end{document}</tex-math><mml:math id="M170"><mml:msub><mml:mi>d</mml:mi><mml:mi>s</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq75.gif"/></alternatives></inline-formula> are network parameters of the current classification layer. <inline-formula id="IEq76"><alternatives><tex-math id="M171">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\tilde{z}$$\end{document}</tex-math><mml:math id="M172"><mml:mover accent="true"><mml:mi>z</mml:mi><mml:mo stretchy="false">~</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq76.gif"/></alternatives></inline-formula> is the final classification outcome. The cross entropy loss function is the loss function of TD model. The current training batch <inline-formula id="IEq77"><alternatives><tex-math id="M173">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$G = \left( {g_{1} ,g_{2} , \ldots ,g_{n} } \right)$$\end{document}</tex-math><mml:math id="M174"><mml:mrow><mml:mi>G</mml:mi><mml:mo>=</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>g</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>g</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x02026;</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mi>g</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq77.gif"/></alternatives></inline-formula> of <inline-formula id="IEq78"><alternatives><tex-math id="M175">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n$$\end{document}</tex-math><mml:math id="M176"><mml:mi>n</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq78.gif"/></alternatives></inline-formula> training samples is added. The Mean Square Error (MSE) function is shown in formula (<xref rid="Equ10" ref-type="disp-formula">11</xref>).<disp-formula id="Equ11"><label>11</label><alternatives><tex-math id="M177">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$loss\left( {Z_{G} ,Z_{{\tilde{G}}} } \right) = - \frac{1}{N}\sum\limits_{j = 1}^{n} {\left( {z_{j} \cdot \log \left( {\tilde{z}_{j} } \right) + \left( {1 - z_{j} } \right) \cdot \log \left( {1 - \tilde{z}_{j} } \right)} \right)}$$\end{document}</tex-math><mml:math id="M178" display="block"><mml:mrow><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:mi>s</mml:mi><mml:mi>s</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>Z</mml:mi><mml:mi>G</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>Z</mml:mi><mml:mover accent="true"><mml:mi>G</mml:mi><mml:mo stretchy="false">~</mml:mo></mml:mover></mml:msub></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:mo>-</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mi>N</mml:mi></mml:mfrac><mml:munderover><mml:mo movablelimits="false">&#x02211;</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>n</mml:mi></mml:munderover><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>z</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>&#x000b7;</mml:mo><mml:mo>log</mml:mo><mml:mfenced close=")" open="("><mml:msub><mml:mover accent="true"><mml:mi>z</mml:mi><mml:mo stretchy="false">~</mml:mo></mml:mover><mml:mi>j</mml:mi></mml:msub></mml:mfenced><mml:mo>+</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msub><mml:mi>z</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow></mml:mfenced><mml:mo>&#x000b7;</mml:mo><mml:mo>log</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msub><mml:mover accent="true"><mml:mi>z</mml:mi><mml:mo stretchy="false">~</mml:mo></mml:mover><mml:mi>j</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="41598_2024_57419_Article_Equ11.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par22">In formula (<xref rid="Equ10" ref-type="disp-formula">11</xref>), <inline-formula id="IEq79"><alternatives><tex-math id="M179">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Z_{G}$$\end{document}</tex-math><mml:math id="M180"><mml:msub><mml:mi>Z</mml:mi><mml:mi>G</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq79.gif"/></alternatives></inline-formula> and <inline-formula id="IEq80"><alternatives><tex-math id="M181">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Z_{{\tilde{G}}}$$\end{document}</tex-math><mml:math id="M182"><mml:msub><mml:mi>Z</mml:mi><mml:mover accent="true"><mml:mi>G</mml:mi><mml:mo stretchy="false">~</mml:mo></mml:mover></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq80.gif"/></alternatives></inline-formula> represent the data batches of actual category and forecast category, respectively. The key is to obtain the similarity between topics and semantic vectorization of English compositions. The BERT-Sentence model solves the problem that the traditional BERT model takes a large part in calculating the semantic similarity of sentences. BERT-Flow model presents non-smooth anisotropy to BERT's semantic space, which optimizes the semantic space distribution. Therefore, BERT-Sentence model and BERT-Flow model are selected for data semantic vectorization. Semantic expression ability <inline-formula id="IEq81"><alternatives><tex-math id="M183">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\zeta$$\end{document}</tex-math><mml:math id="M184"><mml:mi>&#x003b6;</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq81.gif"/></alternatives></inline-formula> of BERY model and Fast-Text are tested. When calculating the <inline-formula id="IEq82"><alternatives><tex-math id="M185">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\zeta - AV$$\end{document}</tex-math><mml:math id="M186"><mml:mrow><mml:mi>&#x003b6;</mml:mi><mml:mo>-</mml:mo><mml:mi>A</mml:mi><mml:mi>V</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq82.gif"/></alternatives></inline-formula> score, <inline-formula id="IEq83"><alternatives><tex-math id="M187">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\zeta$$\end{document}</tex-math><mml:math id="M188"><mml:mi>&#x003b6;</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq83.gif"/></alternatives></inline-formula> is the reward factor. <inline-formula id="IEq84"><alternatives><tex-math id="M189">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$AV$$\end{document}</tex-math><mml:math id="M190"><mml:mrow><mml:mi mathvariant="italic">AV</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq84.gif"/></alternatives></inline-formula> is the mean value idea. The split English composition data is <inline-formula id="IEq85"><alternatives><tex-math id="M191">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$EE = \left\{ {tc_{1} ,tc_{2} , \ldots ,tc_{n} } \right\}$$\end{document}</tex-math><mml:math id="M192"><mml:mrow><mml:mi>E</mml:mi><mml:mi>E</mml:mi><mml:mo>=</mml:mo><mml:mfenced close="}" open="{"><mml:mrow><mml:mi>t</mml:mi><mml:msub><mml:mi>c</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mi>t</mml:mi><mml:msub><mml:mi>c</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x02026;</mml:mo><mml:mo>,</mml:mo><mml:mi>t</mml:mi><mml:msub><mml:mi>c</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq85.gif"/></alternatives></inline-formula>, which includes <inline-formula id="IEq86"><alternatives><tex-math id="M193">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n$$\end{document}</tex-math><mml:math id="M194"><mml:mi>n</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq86.gif"/></alternatives></inline-formula> topics. <inline-formula id="IEq87"><alternatives><tex-math id="M195">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$tc_{j} \left( {1 \le j \le n} \right)$$\end{document}</tex-math><mml:math id="M196"><mml:mrow><mml:mi>t</mml:mi><mml:msub><mml:mi>c</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mfenced close=")" open="("><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#x02264;</mml:mo><mml:mi>j</mml:mi><mml:mo>&#x02264;</mml:mo><mml:mi>n</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq87.gif"/></alternatives></inline-formula> stands for the <inline-formula id="IEq88"><alternatives><tex-math id="M197">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$j$$\end{document}</tex-math><mml:math id="M198"><mml:mi>j</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq88.gif"/></alternatives></inline-formula> topic in the composition. Semantic vectorization and English composition theme are <inline-formula id="IEq89"><alternatives><tex-math id="M199">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$tc$$\end{document}</tex-math><mml:math id="M200"><mml:mrow><mml:mi mathvariant="italic">tc</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq89.gif"/></alternatives></inline-formula> and <inline-formula id="IEq90"><alternatives><tex-math id="M201">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$te$$\end{document}</tex-math><mml:math id="M202"><mml:mrow><mml:mi mathvariant="italic">te</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq90.gif"/></alternatives></inline-formula>. The semantic similarity of each <inline-formula id="IEq91"><alternatives><tex-math id="M203">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$tc$$\end{document}</tex-math><mml:math id="M204"><mml:mrow><mml:mi mathvariant="italic">tc</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq91.gif"/></alternatives></inline-formula> vector and <inline-formula id="IEq92"><alternatives><tex-math id="M205">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$te$$\end{document}</tex-math><mml:math id="M206"><mml:mrow><mml:mi mathvariant="italic">te</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq92.gif"/></alternatives></inline-formula> vector are calculated to get the relevance degree <inline-formula id="IEq93"><alternatives><tex-math id="M207">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$S$$\end{document}</tex-math><mml:math id="M208"><mml:mi>S</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq93.gif"/></alternatives></inline-formula>, as shown in formula (<xref rid="Equ11" ref-type="disp-formula">12</xref>).<disp-formula id="Equ12"><label>12</label><alternatives><tex-math id="M209">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$S = \frac{1}{n + 2}\left( {\left( {\sum\limits_{j = 1}^{n} {SI^{j} } } \right) + \zeta + SI^{EE} } \right)$$\end{document}</tex-math><mml:math id="M210" display="block"><mml:mrow><mml:mi>S</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:mi>n</mml:mi><mml:mo>+</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:mfrac><mml:mfenced close=")" open="("><mml:mrow><mml:mfenced close=")" open="("><mml:mrow><mml:munderover><mml:mo movablelimits="false">&#x02211;</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>n</mml:mi></mml:munderover><mml:mrow><mml:mi>S</mml:mi><mml:msup><mml:mi>I</mml:mi><mml:mi>j</mml:mi></mml:msup></mml:mrow></mml:mrow></mml:mfenced><mml:mo>+</mml:mo><mml:mi>&#x003b6;</mml:mi><mml:mo>+</mml:mo><mml:mi>S</mml:mi><mml:msup><mml:mi>I</mml:mi><mml:mrow><mml:mi mathvariant="italic">EE</mml:mi></mml:mrow></mml:msup></mml:mrow></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="41598_2024_57419_Article_Equ12.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par23">In formula (<xref rid="Equ11" ref-type="disp-formula">12</xref>), <inline-formula id="IEq94"><alternatives><tex-math id="M211">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$SI^{j}$$\end{document}</tex-math><mml:math id="M212"><mml:mrow><mml:mi>S</mml:mi><mml:msup><mml:mi>I</mml:mi><mml:mi>j</mml:mi></mml:msup></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq94.gif"/></alternatives></inline-formula> is the similarity between <inline-formula id="IEq95"><alternatives><tex-math id="M213">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$tc$$\end{document}</tex-math><mml:math id="M214"><mml:mrow><mml:mi mathvariant="italic">tc</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq95.gif"/></alternatives></inline-formula> and <inline-formula id="IEq96"><alternatives><tex-math id="M215">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$te$$\end{document}</tex-math><mml:math id="M216"><mml:mrow><mml:mi mathvariant="italic">te</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq96.gif"/></alternatives></inline-formula>. <inline-formula id="IEq97"><alternatives><tex-math id="M217">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$SI^{EE}$$\end{document}</tex-math><mml:math id="M218"><mml:mrow><mml:mi>S</mml:mi><mml:msup><mml:mi>I</mml:mi><mml:mrow><mml:mi mathvariant="italic">EE</mml:mi></mml:mrow></mml:msup></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq97.gif"/></alternatives></inline-formula> represents the similarity between the whole English composition and <inline-formula id="IEq98"><alternatives><tex-math id="M219">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$te$$\end{document}</tex-math><mml:math id="M220"><mml:mrow><mml:mi mathvariant="italic">te</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq98.gif"/></alternatives></inline-formula>. A higher <inline-formula id="IEq99"><alternatives><tex-math id="M221">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\zeta$$\end{document}</tex-math><mml:math id="M222"><mml:mi>&#x003b6;</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq99.gif"/></alternatives></inline-formula> value indicates more <inline-formula id="IEq100"><alternatives><tex-math id="M223">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$tc$$\end{document}</tex-math><mml:math id="M224"><mml:mrow><mml:mi mathvariant="italic">tc</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq100.gif"/></alternatives></inline-formula> in English composition. <inline-formula id="IEq101"><alternatives><tex-math id="M225">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\zeta$$\end{document}</tex-math><mml:math id="M226"><mml:mi>&#x003b6;</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq101.gif"/></alternatives></inline-formula> will gradually approach 1 with the growth of <inline-formula id="IEq102"><alternatives><tex-math id="M227">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$tc$$\end{document}</tex-math><mml:math id="M228"><mml:mrow><mml:mi mathvariant="italic">tc</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq102.gif"/></alternatives></inline-formula> to reduce the influence of extreme topics in English composition. By combining the advantages of artificial features and semantic scoring models to extract feature points, as well as the TRSR calculation method, an enhanced deep learning IECG method can be obtained. Figure&#x000a0;<xref rid="Fig4" ref-type="fig">4</xref> presents the specific process.<fig id="Fig4"><label>Figure 4</label><caption><p>DLIECG method flow.</p></caption><graphic xlink:href="41598_2024_57419_Fig4_HTML" id="MO4"/></fig></p><p id="Par24">The artificial feature method is applied to extract shallow features. Feature extraction is performed on students' vocabulary and sentence abilities. Table <xref rid="Tab2" ref-type="table">2</xref> shows the details.<table-wrap id="Tab2"><label>Table 2</label><caption><p>Features at word and sentence level.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Characteristic level</th><th align="left">Characteristic name</th><th align="left">Characteristic description</th></tr></thead><tbody><tr><td align="left" rowspan="7">Word</td><td align="left">Word length variance</td><td align="left">Word length variance</td></tr><tr><td align="left">The ratio of the number of sentences to the number of words</td><td align="left">The ratio of the number of sentences to the number of words</td></tr><tr><td align="left">Number of words</td><td align="left">Total number of words in the whole composition</td></tr><tr><td align="left">Average word length</td><td align="left">Average number of characters per word</td></tr><tr><td align="left">Proportion of vocabulary in CET4 and CET6</td><td align="left">The ratio of words in CET-4 and CET-6 to the total number of words</td></tr><tr><td align="left">The ratio between the number of connectives and the use of prepositions</td><td align="left">The ratio of the number of conjunctions and prepositions to the total number of words</td></tr><tr><td align="left">Misspelled words</td><td align="left">Number of misspelled words</td></tr><tr><td align="left" rowspan="4">Sentence</td><td align="left">Sentence readability</td><td align="left">The weighted sum of the average number of characters in a word and the average length of a sentence</td></tr><tr><td align="left">Average sentence length</td><td align="left">Average sentence length</td></tr><tr><td align="left">Composition length</td><td align="left">Total number of sentences in the composition</td></tr><tr><td align="left">Number of sentence grammatical errors</td><td align="left">Number of grammatical errors with sentence granularity</td></tr></tbody></table></table-wrap></p><p id="Par25">The research uses the Bi-directional LSTM model (BiLSTM) to build a model for the semantic score <inline-formula id="IEq103"><alternatives><tex-math id="M229">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$EE$$\end{document}</tex-math><mml:math id="M230"><mml:mrow><mml:mi mathvariant="italic">EE</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq103.gif"/></alternatives></inline-formula> of English compositions. The first is the vector representation of model input. The current English composition is <inline-formula id="IEq104"><alternatives><tex-math id="M231">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$EE = \left\{ {SE_{1} ,SE_{2} , \ldots ,SE_{n} } \right\}$$\end{document}</tex-math><mml:math id="M232"><mml:mrow><mml:mi>E</mml:mi><mml:mi>E</mml:mi><mml:mo>=</mml:mo><mml:mfenced close="}" open="{"><mml:mrow><mml:mi>S</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mi>S</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x02026;</mml:mo><mml:mo>,</mml:mo><mml:mi>S</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq104.gif"/></alternatives></inline-formula>. <inline-formula id="IEq105"><alternatives><tex-math id="M233">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$EE$$\end{document}</tex-math><mml:math id="M234"><mml:mrow><mml:mi mathvariant="italic">EE</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq105.gif"/></alternatives></inline-formula> is composed of <inline-formula id="IEq106"><alternatives><tex-math id="M235">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n$$\end{document}</tex-math><mml:math id="M236"><mml:mi>n</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq106.gif"/></alternatives></inline-formula> sentences <inline-formula id="IEq107"><alternatives><tex-math id="M237">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$SE$$\end{document}</tex-math><mml:math id="M238"><mml:mrow><mml:mi mathvariant="italic">SE</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq107.gif"/></alternatives></inline-formula>. The specific code of <inline-formula id="IEq108"><alternatives><tex-math id="M239">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$SE$$\end{document}</tex-math><mml:math id="M240"><mml:mrow><mml:mi mathvariant="italic">SE</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq108.gif"/></alternatives></inline-formula> is shown in formula (<xref rid="Equ12" ref-type="disp-formula">13</xref>).<disp-formula id="Equ13"><label>13</label><alternatives><tex-math id="M241">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$SE = \frac{1}{n}\sum\limits_{i}^{n} {l_{i} }$$\end{document}</tex-math><mml:math id="M242" display="block"><mml:mrow><mml:mi>S</mml:mi><mml:mi>E</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mi>n</mml:mi></mml:mfrac><mml:munderover><mml:mo movablelimits="false">&#x02211;</mml:mo><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mi>n</mml:mi></mml:munderover><mml:msub><mml:mi>l</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:math><graphic xlink:href="41598_2024_57419_Article_Equ13.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par26">To gain the context semantic information, the research uses the BiLSTM model. Compared with the traditional LSTM, the output information of the BiLSTM model at <inline-formula id="IEq109"><alternatives><tex-math id="M243">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t$$\end{document}</tex-math><mml:math id="M244"><mml:mi>t</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq109.gif"/></alternatives></inline-formula> is <inline-formula id="IEq110"><alternatives><tex-math id="M245">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$h_{t}$$\end{document}</tex-math><mml:math id="M246"><mml:msub><mml:mi>h</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq110.gif"/></alternatives></inline-formula>. This model not only extracts the information of the first <inline-formula id="IEq111"><alternatives><tex-math id="M247">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t - 1$$\end{document}</tex-math><mml:math id="M248"><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq111.gif"/></alternatives></inline-formula> time, but also fuses the information after the <inline-formula id="IEq112"><alternatives><tex-math id="M249">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t$$\end{document}</tex-math><mml:math id="M250"><mml:mi>t</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq112.gif"/></alternatives></inline-formula> time. If <inline-formula id="IEq113"><alternatives><tex-math id="M251">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$EE = \left\{ {SE_{1} , \ldots ,SE_{t - 1} ,SE_{t} ,SE_{t + 1} , \ldots ,SE_{n} } \right\}$$\end{document}</tex-math><mml:math id="M252"><mml:mrow><mml:mi>E</mml:mi><mml:mi>E</mml:mi><mml:mo>=</mml:mo><mml:mfenced close="}" open="{"><mml:mrow><mml:mi>S</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x02026;</mml:mo><mml:mo>,</mml:mo><mml:mi>S</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mi>S</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mi>S</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x02026;</mml:mo><mml:mo>,</mml:mo><mml:mi>S</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq113.gif"/></alternatives></inline-formula>, the encoded representation of BiLSTM can be obtained, as shown in formula (<xref rid="Equ13" ref-type="disp-formula">14</xref>).<disp-formula id="Equ14"><label>14</label><alternatives><tex-math id="M253">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\left\{ \begin{gathered} \mathop{h}\limits^{\leftarrow} _{t} = LSTM\left( {SE_{1} , \ldots ,SE_{t - 1} ,SE_{t} ,SE_{t + 1} , \ldots ,SE_{n} } \right) \hfill \\ \vec{h}_{t} = LSTM\left( {SE_{1} , \ldots ,SE_{t - 1} ,SE_{t} ,SE_{t + 1} , \ldots ,SE_{n} } \right) \hfill \\ \end{gathered} \right.$$\end{document}</tex-math><mml:math id="M254" display="block"><mml:mfenced open="{"><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mrow><mml:munderover><mml:mi>h</mml:mi><mml:mi>t</mml:mi><mml:mo stretchy="false">&#x02190;</mml:mo></mml:munderover><mml:mo>=</mml:mo><mml:mi>L</mml:mi><mml:mi>S</mml:mi><mml:mi>T</mml:mi><mml:mi>M</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mi>S</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x02026;</mml:mo><mml:mo>,</mml:mo><mml:mi>S</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mi>S</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mi>S</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x02026;</mml:mo><mml:mo>,</mml:mo><mml:mi>S</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mrow/><mml:msub><mml:mover accent="true"><mml:mi>h</mml:mi><mml:mo stretchy="false">&#x02192;</mml:mo></mml:mover><mml:mi>t</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi>L</mml:mi><mml:mi>S</mml:mi><mml:mi>T</mml:mi><mml:mi>M</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mi>S</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x02026;</mml:mo><mml:mo>,</mml:mo><mml:mi>S</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mi>S</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mi>S</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x02026;</mml:mo><mml:mo>,</mml:mo><mml:mi>S</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow/></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced></mml:math><graphic xlink:href="41598_2024_57419_Article_Equ14.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par27">In formula (<xref rid="Equ13" ref-type="disp-formula">14</xref>), <inline-formula id="IEq114"><alternatives><tex-math id="M255">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mathop{h}\limits^{\leftarrow} _{t}$$\end{document}</tex-math><mml:math id="M256"><mml:munderover><mml:mi>h</mml:mi><mml:mi>t</mml:mi><mml:mo stretchy="false">&#x02190;</mml:mo></mml:munderover></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq114.gif"/></alternatives></inline-formula> and <inline-formula id="IEq115"><alternatives><tex-math id="M257">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\vec{h}_{t}$$\end{document}</tex-math><mml:math id="M258"><mml:msub><mml:mover accent="true"><mml:mi>h</mml:mi><mml:mo stretchy="false">&#x02192;</mml:mo></mml:mover><mml:mi>t</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq115.gif"/></alternatives></inline-formula> represent the forward and reverse outputs of the BiLSTM model, respectively. The final output is the forward and reverse output vector splicing to represent <inline-formula id="IEq116"><alternatives><tex-math id="M259">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$H$$\end{document}</tex-math><mml:math id="M260"><mml:mi>H</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq116.gif"/></alternatives></inline-formula>. The dimension of <inline-formula id="IEq117"><alternatives><tex-math id="M261">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$H$$\end{document}</tex-math><mml:math id="M262"><mml:mi>H</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq117.gif"/></alternatives></inline-formula> is reduced by full connection layer. The vector after dimension reduction is expressed as <inline-formula id="IEq118"><alternatives><tex-math id="M263">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$H^{\prime}$$\end{document}</tex-math><mml:math id="M264"><mml:msup><mml:mi>H</mml:mi><mml:mo>&#x02032;</mml:mo></mml:msup></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq118.gif"/></alternatives></inline-formula>. The activation function sigmoid obtains the score of [0,1] by formula (<xref rid="Equ14" ref-type="disp-formula">15</xref>).<disp-formula id="Equ15"><label>15</label><alternatives><tex-math id="M265">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Z^{\prime}_{G} = \delta \left( {H^{\prime}} \right)$$\end{document}</tex-math><mml:math id="M266" display="block"><mml:mrow><mml:msubsup><mml:mi>Z</mml:mi><mml:mi>G</mml:mi><mml:mo>&#x02032;</mml:mo></mml:msubsup><mml:mo>=</mml:mo><mml:mi>&#x003b4;</mml:mi><mml:mfenced close=")" open="("><mml:msup><mml:mi>H</mml:mi><mml:mo>&#x02032;</mml:mo></mml:msup></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="41598_2024_57419_Article_Equ15.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par28">In formula (<xref rid="Equ14" ref-type="disp-formula">15</xref>), <inline-formula id="IEq119"><alternatives><tex-math id="M267">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Z^{\prime}_{G}$$\end{document}</tex-math><mml:math id="M268"><mml:msubsup><mml:mi>Z</mml:mi><mml:mi>G</mml:mi><mml:mo>&#x02032;</mml:mo></mml:msubsup></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq119.gif"/></alternatives></inline-formula> is the semantic score of current <inline-formula id="IEq120"><alternatives><tex-math id="M269">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Z^{\prime}_{G}$$\end{document}</tex-math><mml:math id="M270"><mml:msubsup><mml:mi>Z</mml:mi><mml:mi>G</mml:mi><mml:mo>&#x02032;</mml:mo></mml:msubsup></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq120.gif"/></alternatives></inline-formula>. Another loss function of the model is MSE function. If there are <inline-formula id="IEq121"><alternatives><tex-math id="M271">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n$$\end{document}</tex-math><mml:math id="M272"><mml:mi>n</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq121.gif"/></alternatives></inline-formula> training samples and the training batch is <inline-formula id="IEq122"><alternatives><tex-math id="M273">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R = \left\{ {EE_{1} ,EE_{2} , \ldots ,EE_{n} } \right\}$$\end{document}</tex-math><mml:math id="M274"><mml:mrow><mml:mi>R</mml:mi><mml:mo>=</mml:mo><mml:mfenced close="}" open="{"><mml:mrow><mml:mi>E</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mi>E</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x02026;</mml:mo><mml:mo>,</mml:mo><mml:mi>E</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq122.gif"/></alternatives></inline-formula>, the loss function is calculated, as shown in formula (<xref rid="Equ15" ref-type="disp-formula">16</xref>).<disp-formula id="Equ16"><label>16</label><alternatives><tex-math id="M275">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Loss\left( {Z_{G} ,Z^{\prime}_{G} } \right) = \frac{1}{N}\left( {Z_{G} - Z^{\prime}_{G} } \right)^{2}$$\end{document}</tex-math><mml:math id="M276" display="block"><mml:mrow><mml:mi>L</mml:mi><mml:mi>o</mml:mi><mml:mi>s</mml:mi><mml:mi>s</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>Z</mml:mi><mml:mi>G</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msubsup><mml:mi>Z</mml:mi><mml:mi>G</mml:mi><mml:mo>&#x02032;</mml:mo></mml:msubsup></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mi>N</mml:mi></mml:mfrac><mml:msup><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>Z</mml:mi><mml:mi>G</mml:mi></mml:msub><mml:mo>-</mml:mo><mml:msubsup><mml:mi>Z</mml:mi><mml:mi>G</mml:mi><mml:mo>&#x02032;</mml:mo></mml:msubsup></mml:mrow></mml:mfenced><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:math><graphic xlink:href="41598_2024_57419_Article_Equ16.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par29">In formula (<xref rid="Equ15" ref-type="disp-formula">16</xref>), <inline-formula id="IEq123"><alternatives><tex-math id="M277">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Z_{G}$$\end{document}</tex-math><mml:math id="M278"><mml:msub><mml:mi>Z</mml:mi><mml:mi>G</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq123.gif"/></alternatives></inline-formula> represents the total score of English composition in the real dataset. <inline-formula id="IEq124"><alternatives><tex-math id="M279">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Z^{\prime}_{G}$$\end{document}</tex-math><mml:math id="M280"><mml:msubsup><mml:mi>Z</mml:mi><mml:mi>G</mml:mi><mml:mo>&#x02032;</mml:mo></mml:msubsup></mml:math><inline-graphic xlink:href="41598_2024_57419_Article_IEq124.gif"/></alternatives></inline-formula> represents the predicted semantic score.</p></sec></sec><sec id="Sec6"><title>Performance analysis of intelligent English composition scoring method integrated with deep learning</title><p id="Par30">To prove the classification effect of the TD proposed in the study, the accuracy rate, recall rate and F1 value are used as evaluation indicators. The study uses data from datasets P and W. There are five groups of compositions in dataset P, each of which contains one topic, all of which are completed by students in the same year of higher vocational colleges. Each composition has a corresponding score. Dataset W contains 700,000 documents from the English Wikipedia and filters data with a data size of 25 sentences. The data of dataset P and dataset W are divided. The ratio of training, testing and verification is 8:1:1. The training set is used to better learn the features and patterns of the task. The verification set is used to adjust the hyper-parameters of the model and monitor whether the model is over fitting or under fitting. The testing set is used to evaluate the performance of the trained model on the dataset. The input dimension parameters, hidden layer size and model depth of TD model are 768, 64 and 2, respectively. The random number seed is 42.</p><p id="Par31">After the TD model is trained, the iterative change curves of model loss, accuracy, recall rate and F1 value on the test set are shown in Fig.&#x000a0;<xref rid="Fig5" ref-type="fig">5</xref>. From Fig.&#x000a0;<xref rid="Fig5" ref-type="fig">5</xref>, the best effect was achieved when the model was iterated to 80 times. The accuracy, recall and F1 value were 0.97, 0.93, and 0.95. The model training loss value started to stabilize and finally stabilized at 0.03. The research results show that TD algorithm can well learn the irrelevant information between the truncation point and the first sentence of the new topic. It can determine whether the sentence is the segmentation point of the composition topic and whether the two sentences belong to the same topic.<fig id="Fig5"><label>Figure 5</label><caption><p>Training results of TD model.</p></caption><graphic xlink:href="41598_2024_57419_Fig5_HTML" id="MO5"/></fig></p><p id="Par32">To further scientifically verify the performance of TD model, RNN model is selected for comparison. The accuracy of different models is compared with the F1 value training results. From Fig.&#x000a0;<xref rid="Fig6" ref-type="fig">6</xref>, the accuracy and F1 value proposed in the study were the highest, with 97.83% and 95.36% respectively. The curve fluctuated slightly. The accuracy and F1 value of RNN model were low, with 92.16% and 90.67% respectively, and the curve fluctuated greatly. It indicates that the performance of RNN model is unstable, while the TD has higher accuracy.<fig id="Fig6"><label>Figure 6</label><caption><p>Accuracy and F1 value results of different models.</p></caption><graphic xlink:href="41598_2024_57419_Fig6_HTML" id="MO6"/></fig></p><p id="Par33">To prove the validity of the TRSR proposed in the study, the study conducts an experiment on dataset P. Then the Pearson Coefficient (Per) is used to evaluate the correlation between the relevance score and the total score of English composition. A high Per value indicates a strong correlation between the correlation score and the total score of English composition. After testing the dataset P, the Per results under different vectorization methods can be obtained, as shown in Table <xref rid="Tab3" ref-type="table">3</xref>. The Per value was affected by the students&#x02019; grade, the difficulty of the composition theme and other variables. Students&#x02019; grades and compositions were integrated. Therefore, the control variable method is used to analyze the results in Table <xref rid="Tab3" ref-type="table">3</xref>. From Table <xref rid="Tab3" ref-type="table">3</xref>, under the same composition collection, the Per value and relevance score obtained by different semantic vectorization methods were different. The Per value under the BERT and Fast-Text vector methods did not conform to the results under the influence of the interaction between variables. The theme difficulty of composition collections 1 and 2 is the same. The academic year is the first and third year of higher vocational education. In theory, the writing ability of the third grade students in higher vocational colleges should be better than that of the first grade students, but the Per value performance of BERT method was contrary to the other three methods. BERT-Sentence and BERT-Flow methods could comprehensively reflect the accurate Per value. For composition collection 3 with a difficult topic, it showed a low Per value. To sum up, experiments on dataset P using different semantic vectorization methods have verified that the TRSR calculation method proposed in the study conforms to the results under the comprehensive influence of multiple variables.<table-wrap id="Tab3"><label>Table 3</label><caption><p>Per value results under different vectorization methods.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Composition collection</th><th align="left">1</th><th align="left">2</th><th align="left">3</th><th align="left">4</th><th align="left">5</th></tr></thead><tbody><tr><td align="left">BERT</td><td char="." align="char">0.156</td><td char="." align="char">0.132</td><td char="." align="char">0.413</td><td char="." align="char">0.151</td><td char="." align="char">0.561</td></tr><tr><td align="left">BERT-Sentence</td><td char="." align="char">0.540</td><td char="." align="char">0.561</td><td char="." align="char">0.160</td><td char="." align="char">0.256</td><td char="." align="char">0.304</td></tr><tr><td align="left">Fast-Text</td><td char="." align="char">0.133</td><td char="." align="char">0.242</td><td char="." align="char">0.406</td><td char="." align="char">0.107</td><td char="." align="char">0.521</td></tr><tr><td align="left">BERT-Flow</td><td char="." align="char">0.553</td><td char="." align="char">0.572</td><td char="." align="char">0.233</td><td char="." align="char">0.285</td><td char="." align="char">0.342</td></tr></tbody></table></table-wrap></p><p id="Par34">To measure the effectiveness of feature extraction results, the study conducts a correlation analysis between word features and English composition scores. The third group of dataset P is tested. Figure&#x000a0;<xref rid="Fig7" ref-type="fig">7</xref>a presents the correlation between the ratio of the number of sentences to the number of words and the total score of the composition. Figure&#x000a0;<xref rid="Fig7" ref-type="fig">7</xref>b indicates the correlation between the number of spelling errors and the total score of the composition. Figure&#x000a0;<xref rid="Fig7" ref-type="fig">7</xref>c displays the correlation between the total number of words and the total score of the composition. From Fig.&#x000a0;<xref rid="Fig7" ref-type="fig">7</xref>, the three features had certain correlation with the composition score. However, a single feature couldn&#x02019;t determine the composition total score, and the composition score presented a normal distribution as a whole. The ratio of the number of sentences to the number of words is a measure of the sentence complexity mastered by the writer. A low proportion indicates that the author has a high ability to organize long and difficult sentences. The change in word length is another measure of word mastery.<fig id="Fig7"><label>Figure 7</label><caption><p>Results of correlation analysis between word characteristics and the total score of English composition.</p></caption><graphic xlink:href="41598_2024_57419_Fig7_HTML" id="MO7"/></fig></p><p id="Par35">Figure&#x000a0;<xref rid="Fig8" ref-type="fig">8</xref> displays the correlation between the number of grammatical errors in sentences and the total score. The data from the third group of compositions in dataset P is selected for testing. From Fig.&#x000a0;<xref rid="Fig8" ref-type="fig">8</xref>, the total score of composition presented a normal distribution, and the distribution points were relatively concentrated. They have obvious correlation between the number of grammatical errors in sentences and the score of compositions. The sentence readability metric is the weighted sum of the average number of characters in a word and the average length of a sentence. This feature can be modified in different scoring scenarios. The specific setting is 0.47*. The average number of characters per word and the average length of a sentence are &#x02212;&#x000a0;21.43.<fig id="Fig8"><label>Figure 8</label><caption><p>Correlation between the number of grammatical errors.</p></caption><graphic xlink:href="41598_2024_57419_Fig8_HTML" id="MO8"/></fig></p><p id="Par36">To study the effectiveness of the proposed DLIECG method, dataset P and the machine evaluation dataset of the correction network are used as experimental data. It is also combined with BiLSTM model, RNN model and Intelligent Scoring Algorithm for English Writing Quality Based on Machine Learning (MLIS) <sup><xref ref-type="bibr" rid="CR22">22</xref></sup>. The results are shown in Table <xref rid="Tab4" ref-type="table">4</xref>. Among them, the training process of the RNN model is as follows. Firstly, the dynamic state of an NN is considered as a short-term memory. Secondly, a special module is created to extend the short-term memory to the long-term memory by allowing the information to be enclosed in it. Then the information is released when needed. In this process, the door is closed, so the information arriving during this period will not affect the memory state. The training process of BiLSTM model is as follows. Firstly, the English essay text is represented by an essay vector in the form of sentence granularity through the BERT pre-training model. Then it is sequentially input into the model. Secondly, two terminal output vectors of BiLSTM are extracted, which obtain the pretext information and the post-text information respectively. Then the two vectors are concatenated to get a new vector. Finally, through the full connection layer, the Sigmoid function is used to obtain the score value in the range of 0&#x02013;1. The essay score of manual evaluation is based on multi-dimension consideration. Experts in each dimension will give different score values. Finally, a total score is provided, so the score of each dimension has a certain correlation with the total score value. Therefore, the evaluation method of RNN model and BiLSTM model uses Per to evaluate the correlation between the two variables: the correlation score and total essay score. Compared with BiLSTM and RNN, Table <xref rid="Tab4" ref-type="table">4</xref> presents the findings. The function of DLIECG exceeded of RNN and BiLSTM. The performance of DLIECG method on dataset P was significantly better than that of the online machine evaluation, with a maximum of 0.980.<table-wrap id="Tab4"><label>Table 4</label><caption><p>Comparison of experimental results of different methods of correcting English compositions.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Data set</th><th align="left">DLIECG method</th><th align="left">RNN</th><th align="left">BiLSTM</th><th align="left">MLIS</th></tr></thead><tbody><tr><td align="left">P-1</td><td char="." align="char">0.980</td><td char="." align="char">0.680</td><td char="." align="char">0.820</td><td char="." align="char">0.870</td></tr><tr><td align="left">P-2</td><td char="." align="char">0.890</td><td char="." align="char">0.600</td><td char="." align="char">0.750</td><td char="." align="char">0.810</td></tr><tr><td align="left">P-3</td><td char="." align="char">0.710</td><td char="." align="char">0.650</td><td char="." align="char">0.690</td><td char="." align="char">0.680</td></tr><tr><td align="left">P-4</td><td char="." align="char">0.920</td><td char="." align="char">0.650</td><td char="." align="char">0.770</td><td char="." align="char">0.790</td></tr><tr><td align="left">P-5</td><td char="." align="char">0.900</td><td char="." align="char">0.720</td><td char="." align="char">0.780</td><td char="." align="char">0.820</td></tr><tr><td align="left">Correct online machine evaluation data</td><td char="." align="char">0.850</td><td char="." align="char">0.680</td><td char="." align="char">0.760</td><td char="." align="char">0.800</td></tr></tbody></table></table-wrap></p></sec><sec id="Sec7"><title>Conclusion</title><p id="Par37">In recent years, artificial intelligence technology has been adopted in various aspects. The automatic grading of English compositions has also received great attention. However, the representation of text content has not made much progress. To better represent the text content and build a reliable scoring system, a TRSR calculation method based on topic richness is proposed. A DLIECG feature extraction combining artificial features and deep learning is designed. From the findings, the TD achieved the best effect when it was iterated to 80 times. The accuracy, recall and F1 value were 0.97, 0.93 and 0.95 respectively. The loss value of model training began to stabilize and finally stabilized at 0.03. The accuracy and F1 value proposed in the study were the highest, at 97.83% and 95.36% respectively. Compared with RNN model, the accuracy and F1 value were 5.67% and 4.69% higher respectively. The overall performance of DLIECG was significantly higher than that of RNN and BiLSTM. The function of DLIECG method on dataset P exceeded the online machine evaluation, with a maximum of 0.980. In summary, the DLIECG method satisfies the results under the combined influence of multiple variables, confirming its effectiveness. The feasibility of this method has been demonstrated by combining the advantages of interpretability and portability based on deep learning essay scoring methods with the generalization advantages of manually designed features. However, this method still has some drawbacks. It provides general semantic information by using pre-trained models, but its output short text vector cannot be directly applied to downstream tasks. The feature extraction methods used in the research are the third-party tools, most of which are based on rules. Therefore, grammar and syntax errors cannot be effectively detected in complex and diverse English expressions. In the future, the tasks of grammar and syntax checking can be further studied.</p></sec></body><back><fn-group><fn><p><bold>Publisher's note</bold></p><p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p></fn></fn-group><notes notes-type="author-contribution"><title>Author contributions</title><p>All authors contributed in writting, conception, modeling, and analysis.</p></notes><notes notes-type="funding-information"><title>Funding</title><p>The research is supported by: A Key research project on the Construction of Foreign Language Courses and Majors in Vocational Education in 2022 by the Teaching Steering Committee of Foreign Language Majors in Vocational Colleges of the Ministry of Education. Project name: Countermeasures on the Ideological and Political Construction of Public English Courses in Vocational Colleges. Project Number: (No. WYJZW-2022-20-0123).</p></notes><notes notes-type="data-availability"><title>Data availability</title><p>The datasets used and/or analyzed during the current study available from the corresponding author on reasonable request.</p></notes><notes id="FPar1" notes-type="COI-statement"><title>Competing interests</title><p id="Par38">The authors declare no competing interests.</p></notes><ref-list id="Bib1"><title>References</title><ref id="CR1"><label>1.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Urraca</surname><given-names>CN</given-names></name><name><surname>L&#x000f3;pez</surname><given-names>AEO</given-names></name></person-group><article-title>Productivity and graduality in the Layered Structure of the Word: Opaque word-formation in Old English</article-title><source>Spanish J. Appl. Linguist.</source><year>2020</year><volume>33</volume><issue>1</issue><fpage>202</fpage><lpage>226</lpage></element-citation></ref><ref id="CR2"><label>2.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Liu</surname><given-names>H</given-names></name><name><surname>Zhang</surname><given-names>C</given-names></name><name><surname>Deng</surname><given-names>Y</given-names></name><etal/></person-group><article-title>Orientation cues-aware facial relationship representation for head pose estimation via transformer</article-title><source>IEEE Trans. Image Process.</source><year>2023</year><volume>32</volume><fpage>6289</fpage><lpage>6302</lpage><pub-id pub-id-type="doi">10.1109/TIP.2023.3331309</pub-id><?supplied-pmid 37963008?><pub-id pub-id-type="pmid">37963008</pub-id>
+</element-citation></ref><ref id="CR3"><label>3.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Liu</surname><given-names>H</given-names></name><name><surname>Liu</surname><given-names>T</given-names></name><name><surname>Chen</surname><given-names>Y</given-names></name><name><surname>Zhang</surname><given-names>Z</given-names></name><name><surname>Li</surname><given-names>F</given-names></name></person-group><article-title>EHPE: Skeleton cues-based Gaussian coordinate encoding for efficient human pose estimation</article-title><source>IEEE Trans. Multimedia</source><year>2022</year><volume>2022</volume><fpage>859</fpage></element-citation></ref><ref id="CR4"><label>4.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Liu</surname><given-names>H</given-names></name><name><surname>Zheng</surname><given-names>C</given-names></name><name><surname>Li</surname><given-names>D</given-names></name><name><surname>Shen</surname><given-names>X</given-names></name><name><surname>Lin</surname><given-names>K</given-names></name><name><surname>Wang</surname><given-names>J</given-names></name><name><surname>Zhang</surname><given-names>Z</given-names></name><name><surname>Zhang</surname><given-names>Z</given-names></name><name><surname>Xiong</surname><given-names>NN</given-names></name></person-group><article-title>EDMF: Efficient deep matrix factorization with review feature learning for industrial recommender system</article-title><source>IEEE Trans. Ind. Inf.</source><year>2021</year><volume>18</volume><issue>7</issue><fpage>4361</fpage><lpage>4371</lpage><pub-id pub-id-type="doi">10.1109/TII.2021.3128240</pub-id></element-citation></ref><ref id="CR5"><label>5.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Liu</surname><given-names>T</given-names></name><name><surname>Wang</surname><given-names>J</given-names></name><name><surname>Yang</surname><given-names>B</given-names></name><name><surname>Wang</surname><given-names>X</given-names></name></person-group><article-title>NGDNet: Nonuniform Gaussian-label distribution learning for infrared head pose estimation and on-task behavior understanding in the classroom</article-title><source>Neurocomputing</source><year>2021</year><volume>436</volume><fpage>210</fpage><lpage>220</lpage><pub-id pub-id-type="doi">10.1016/j.neucom.2020.12.090</pub-id></element-citation></ref><ref id="CR6"><label>6.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Liu</surname><given-names>H</given-names></name><name><surname>Zhang</surname><given-names>C</given-names></name><name><surname>Deng</surname><given-names>Y</given-names></name><name><surname>Xie</surname><given-names>B</given-names></name><name><surname>Liu</surname><given-names>T</given-names></name><name><surname>Zhang</surname><given-names>Z</given-names></name><name><surname>Li</surname><given-names>Y</given-names></name></person-group><article-title>TransIFC: Invariant cues-aware feature concentration learning for efficient fine-grained bird image classification</article-title><source>IEEE Trans. Multimedia</source><year>2023</year><volume>2023</volume><fpage>1</fpage><lpage>4</lpage></element-citation></ref><ref id="CR7"><label>7.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Liu</surname><given-names>H</given-names></name><name><surname>Liu</surname><given-names>T</given-names></name><name><surname>Zhang</surname><given-names>Z</given-names></name><name><surname>Sangaiah</surname><given-names>AK</given-names></name><name><surname>Yang</surname><given-names>B</given-names></name><name><surname>Li</surname><given-names>Y</given-names></name></person-group><article-title>Arhpe: Asymmetric relation-aware representation learning for head pose estimation in industrial human&#x02013;computer interaction</article-title><source>IEEE Trans. Ind. Inf.</source><year>2022</year><volume>18</volume><issue>10</issue><fpage>7107</fpage><lpage>7117</lpage><pub-id pub-id-type="doi">10.1109/TII.2022.3143605</pub-id></element-citation></ref><ref id="CR8"><label>8.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Yuan</surname><given-names>Z</given-names></name></person-group><article-title>Interactive intelligent teaching and automatic composition scoring system based on linear regression machine learning algorithm</article-title><source>J. Intell. Fuzzy Syst.: Appl. Eng. Technol.</source><year>2021</year><volume>40</volume><issue>2</issue><fpage>52069</fpage><lpage>52081</lpage></element-citation></ref><ref id="CR9"><label>9.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Zhao</surname><given-names>Y</given-names></name></person-group><article-title>Research and design of automatic scoring algorithm for English composition based on machine learning</article-title><source>Sci. Program.</source><year>2021</year><volume>2021</volume><issue>14</issue><fpage>34294631</fpage><lpage>342946310</lpage></element-citation></ref><ref id="CR10"><label>10.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Rajagede</surname><given-names>RA</given-names></name></person-group><article-title>Improving automatic essay scoring for Indonesian language using simpler model and richer feature</article-title><source>Kinetik Game Technol. Inf. Syst. Comput. Netw. Comput. Electron. Control</source><year>2021</year><volume>6</volume><issue>1</issue><fpage>11</fpage><lpage>18</lpage></element-citation></ref><ref id="CR11"><label>11.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Yi</surname><given-names>B</given-names></name></person-group><article-title>English teaching practice based on artificial intelligence technology</article-title><source>J. Intell. Fuzzy Syst. Appl. Eng. Technol.</source><year>2019</year><volume>37</volume><issue>3</issue><fpage>3381</fpage><lpage>3391</lpage></element-citation></ref><ref id="CR12"><label>12.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Ince</surname><given-names>E</given-names></name><name><surname>Nar</surname><given-names>A</given-names></name><name><surname>Gezer</surname><given-names>M</given-names></name></person-group><article-title>Machine learning algorithm for grading open-ended physics questions in Turkish</article-title><source>Educ. Inf. Technol.</source><year>2020</year><volume>25</volume><issue>12</issue><fpage>3821</fpage><lpage>3844</lpage></element-citation></ref><ref id="CR13"><label>13.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hawashin</surname><given-names>B</given-names></name><name><surname>Alzubi</surname><given-names>S</given-names></name><name><surname>Kanan</surname><given-names>T</given-names></name><name><surname>Mansour</surname><given-names>A</given-names></name></person-group><article-title>An efficient semantic recommender method forArabic text</article-title><source>Electron. Libr.</source><year>2019</year><volume>37</volume><issue>2</issue><fpage>263</fpage><lpage>280</lpage><pub-id pub-id-type="doi">10.1108/EL-12-2018-0245</pub-id></element-citation></ref><ref id="CR14"><label>14.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Yu</surname><given-names>J</given-names></name></person-group><article-title>Analysis of task degree of English learning based on deep learning framework and image target recognition</article-title><source>J. Intell. Fuzzy Syst. Appl. Eng. Technol.</source><year>2020</year><volume>39</volume><issue>2</issue><fpage>1903</fpage><lpage>1914</lpage></element-citation></ref><ref id="CR15"><label>15.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wang</surname><given-names>D</given-names></name><name><surname>Su</surname><given-names>J</given-names></name><name><surname>Yu</surname><given-names>H</given-names></name></person-group><article-title>Feature extraction and analysis of natural language processing for deep learning English language</article-title><source>IEEE Access</source><year>2020</year><volume>8</volume><fpage>46335</fpage><lpage>46345</lpage><pub-id pub-id-type="doi">10.1109/ACCESS.2020.2974101</pub-id></element-citation></ref><ref id="CR16"><label>16.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Cui</surname><given-names>J</given-names></name></person-group><article-title>Application of deep learning and target visual detection in English vocabulary online teaching</article-title><source>J. Intell. Fuzzy Syst. Appl. Eng. Technol.</source><year>2020</year><volume>39</volume><issue>4</issue><fpage>5535</fpage><lpage>5545</lpage></element-citation></ref><ref id="CR17"><label>17.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hao</surname><given-names>K</given-names></name></person-group><article-title>Multimedia English teaching analysis based on deep learning speech enhancement algorithm and robust expression positioning</article-title><source>J. Intell. Fuzzy Syst. Appl. Eng. Technol.</source><year>2020</year><volume>39</volume><issue>2</issue><fpage>1779</fpage><lpage>1791</lpage></element-citation></ref><ref id="CR18"><label>18.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Pan</surname><given-names>S</given-names></name><name><surname>Yan</surname><given-names>K</given-names></name><name><surname>Yang</surname><given-names>H</given-names></name><name><surname>Jiang</surname><given-names>C</given-names></name><name><surname>Qin</surname><given-names>Z</given-names></name></person-group><article-title>A sparse spike deconvolution method based on Recurrent Neural Network like improved Iterative Shrinkage Thresholding Algorithm</article-title><source>Geophys. Prospect. Pet.</source><year>2022</year><volume>58</volume><issue>4</issue><fpage>533</fpage><lpage>540</lpage></element-citation></ref><ref id="CR19"><label>19.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Song</surname><given-names>D</given-names></name><name><surname>Lu</surname><given-names>T</given-names></name><name><surname>Jeudy</surname><given-names>J</given-names></name><name><surname>Dreizin</surname><given-names>D</given-names></name><name><surname>Zhang</surname><given-names>L</given-names></name><name><surname>Xie</surname><given-names>D</given-names></name><name><surname>Li</surname><given-names>Y</given-names></name><name><surname>Camargo</surname><given-names>A</given-names></name><name><surname>Melhem</surname><given-names>ER</given-names></name><name><surname>Wang</surname><given-names>Z</given-names></name></person-group><article-title>Improving sensitivity of arterial spin labeling perfusion MRI in alzheimer&#x02019;s disease using transfer learning of deep learning-based ASL denoising</article-title><source>J. Magn. Reson. Imaging</source><year>2022</year><volume>55</volume><issue>6</issue><fpage>1710</fpage><lpage>1722</lpage><pub-id pub-id-type="doi">10.1002/jmri.27984</pub-id><?supplied-pmid 34741576?><pub-id pub-id-type="pmid">34741576</pub-id>
+</element-citation></ref><ref id="CR20"><label>20.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Jo</surname><given-names>J</given-names></name><name><surname>Koo</surname><given-names>HI</given-names></name><name><surname>Soh</surname><given-names>JW</given-names></name><name><surname>Cho</surname><given-names>NI</given-names></name></person-group><article-title>Handwritten text segmentation via end-to-end learning of convolutional neural networks</article-title><source>Multimedia Tools Appl.</source><year>2020</year><volume>79</volume><issue>3</issue><fpage>32137</fpage><lpage>32150</lpage><pub-id pub-id-type="doi">10.1007/s11042-020-09624-9</pub-id></element-citation></ref><ref id="CR21"><label>21.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kota</surname><given-names>VR</given-names></name><name><surname>Munisamy</surname><given-names>SD</given-names></name></person-group><article-title>High accuracy offering attention mechanisms based deep learning approach using CNN/bi-LSTM for sentiment analysis</article-title><source>Int. J. Intell. Comput. Cybern.</source><year>2022</year><volume>15</volume><issue>1</issue><fpage>61</fpage><lpage>74</lpage><pub-id pub-id-type="doi">10.1108/IJICC-06-2021-0109</pub-id></element-citation></ref><ref id="CR22"><label>22.</label><mixed-citation publication-type="other">Yu, M. Research on intelligent scoring algorithm for English writing quality based on machine learning. In <italic>2023 IEEE 3rd International Conference on Electronic Communications, Internet of Things and Big Data (ICEIB), IEEE</italic> 404&#x02013;407 (2023).</mixed-citation></ref></ref-list></back></article>

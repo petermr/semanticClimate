@@ -1,0 +1,135 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>downloaded</th>
+      <th>htmlmade</th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>authorIdList</th>
+      <th>dataLinksTagsList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>affiliation</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>meshHeadingList</th>
+      <th>subsetList</th>
+      <th>fullTextUrlList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>license</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>tmAccessionTypeList</th>
+      <th>dateOfCompletion</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>electronicPublicationDate</th>
+      <th>firstPublicationDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC11069517</th>
+      <td>True</td>
+      <td>False</td>
+      <td>38704422</td>
+      <td>MED</td>
+      <td>38704422</td>
+      <td>PMC11069517</td>
+      <td>{'fullTextId': 'PMC11069517'}</td>
+      <td>10.1038/s41597-024-03317-w</td>
+      <td>A Dataset for Evaluating Contextualized Representation of Biomedical Concepts in Language Models.</td>
+      <td>Rouhizadeh H, Nikishina I, Yazdani A, Bornet A, Zhang B, Ehrsam J, Gaudet-Blavignac C, Naderi N, Teodoro D.</td>
+      <td>{'author': [{'fullName': 'Rouhizadeh H', 'firstName': 'Hossein', 'lastName': 'Rouhizadeh', 'initials': 'H', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Radiology and Medical Informatics, Faculty of Medicine, University of Geneva, Geneva, Switzerland. hossein.rouhizadeh@unige.ch.')]))])}, {'fullName': 'Nikishina I', 'firstName': 'Irina', 'lastName': 'Nikishina', 'initials': 'I', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Informatics, University of Hamburg, Hamburg, Germany.')]))])}, {'fullName': 'Yazdani A', 'firstName': 'Anthony', 'lastName': 'Yazdani', 'initials': 'A', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-3309-6128')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Radiology and Medical Informatics, Faculty of Medicine, University of Geneva, Geneva, Switzerland.')]))])}, {'fullName': 'Bornet A', 'firstName': 'Alban', 'lastName': 'Bornet', 'initials': 'A', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Radiology and Medical Informatics, Faculty of Medicine, University of Geneva, Geneva, Switzerland.')]))])}, {'fullName': 'Zhang B', 'firstName': 'Boya', 'lastName': 'Zhang', 'initials': 'B', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Radiology and Medical Informatics, Faculty of Medicine, University of Geneva, Geneva, Switzerland.')]))])}, {'fullName': 'Ehrsam J', 'firstName': 'Julien', 'lastName': 'Ehrsam', 'initials': 'J', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Department of Radiology and Medical Informatics, Faculty of Medicine, University of Geneva, Geneva, Switzerland.')]), OrderedDict([('affiliation', 'Division of Medical Information Sciences, Diagnostic Department, Geneva University Hospitals, Geneva, Switzerland.')])])])}, {'fullName': 'Gaudet-Blavignac C', 'firstName': 'Christophe', 'lastName': 'Gaudet-Blavignac', 'initials': 'C', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-6527-5898')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Department of Radiology and Medical Informatics, Faculty of Medicine, University of Geneva, Geneva, Switzerland.')]), OrderedDict([('affiliation', 'Division of Medical Information Sciences, Diagnostic Department, Geneva University Hospitals, Geneva, Switzerland.')])])])}, {'fullName': 'Naderi N', 'firstName': 'Nona', 'lastName': 'Naderi', 'initials': 'N', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Laboratoire Interdisciplinaire des Sciences du Numerique, CNRS, Paris-Saclay University, Orsay, France.')]))])}, {'fullName': 'Teodoro D', 'firstName': 'Douglas', 'lastName': 'Teodoro', 'initials': 'D', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-6238-4503')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Radiology and Medical Informatics, Faculty of Medicine, University of Geneva, Geneva, Switzerland. douglas.teodoro@unige.ch.')]))])}]}</td>
+      <td>{'authorId': [{'@type': 'ORCID', '#text': '0000-0001-6238-4503'}, {'@type': 'ORCID', '#text': '0000-0001-6527-5898'}, {'@type': 'ORCID', '#text': '0000-0003-3309-6128'}]}</td>
+      <td>{'dataLinkstag': 'supporting_data'}</td>
+      <td>{'issue': '1', 'volume': '11', 'journalIssueId': '3763652', 'dateOfPublication': '2024 May', 'monthOfPublication': '5', 'yearOfPublication': '2024', 'printPublicationDate': '2024-05-01', 'journal': {'title': 'Scientific data', 'ISOAbbreviation': 'Sci Data', 'medlineAbbreviation': 'Sci Data', 'NLMid': '101640192', 'ISSN': '2052-4463', 'ESSN': '2052-4463'}}</td>
+      <td>2024</td>
+      <td>455</td>
+      <td>Due to the complexity of the biomedical domain, the ability to capture semantically meaningful representations of terms in context is a long-standing challenge. Despite important progress in the past years, no evaluation benchmark has been developed to evaluate how well language models represent biomedical concepts according to their corresponding context. Inspired by the Word-in-Context (WiC) benchmark, in which word sense disambiguation is reformulated as a binary classification task, we propose a novel dataset, BioWiC, to evaluate the ability of language models to encode biomedical terms in context. BioWiC comprises 20'156 instances, covering over 7'400 unique biomedical terms, making it the largest WiC dataset in the biomedical domain. We evaluate BioWiC both intrinsically and extrinsically and show that it could be used as a reliable benchmark for evaluating context-dependent embeddings in biomedical corpora. In addition, we conduct several experiments using a variety of discriminative and generative large language models to establish robust baselines that can serve as a foundation for future research.</td>
+      <td>Department of Radiology and Medical Informatics, Faculty of Medicine, University of Geneva, Geneva, Switzerland. hossein.rouhizadeh@unige.ch.</td>
+      <td>epublish</td>
+      <td>eng</td>
+      <td>Electronic</td>
+      <td>{'pubType': ['Research Support, Non-U.S. Gov't', 'Dataset', 'data-paper', 'Journal Article', 'Research Support, N.I.H., Extramural']}</td>
+      <td>{'meshHeading': [{'majorTopic_YN': 'N', 'descriptorName': 'Language'}, {'majorTopic_YN': 'N', 'descriptorName': 'Semantics'}, {'majorTopic_YN': 'Y', 'descriptorName': 'Natural Language Processing'}]}</td>
+      <td>{'subset': {'code': 'IM', 'name': 'Index Medicus'}}</td>
+      <td>{'fullTextUrl': [{'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Unpaywall', 'url': 'https://www.nature.com/articles/s41597-024-03317-w.pdf'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1038/s41597-024-03317-w'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC11069517'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC11069517?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>1</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>{'accessionType': 'doi'}</td>
+      <td>2024-05-04</td>
+      <td>2024-05-04</td>
+      <td>2024-05-05</td>
+      <td>2024-05-08</td>
+      <td>2024-05-13</td>
+      <td>2024-05-04</td>
+      <td>2024-05-04</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    

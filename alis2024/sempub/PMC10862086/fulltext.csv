@@ -1,0 +1,49 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,38357382
+source,MED
+pmid,38357382
+pmcid,PMC10862086
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC10862086')])"
+doi,10.1093/nsr/nwad317
+title,Emergence of machine language: towards symbolic intelligence with neural networks.
+authorString,"Wang Y, Zhang XY, Liu CL, Tan T, Zhang Z."
+authorList,"OrderedDict([('author', [OrderedDict([('fullName', 'Wang Y'), ('firstName', 'Yuqi'), ('lastName', 'Wang'), ('initials', 'Y'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-6360-1431')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'State Key Laboratory of Multimodal Artificial Intelligence Systems, Institute of Automation, Chinese Academy of Sciences, China.')]))]))]), OrderedDict([('fullName', 'Zhang XY'), ('firstName', 'Xu-Yao'), ('lastName', 'Zhang'), ('initials', 'XY'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'State Key Laboratory of Multimodal Artificial Intelligence Systems, Institute of Automation, Chinese Academy of Sciences, China.')]))]))]), OrderedDict([('fullName', 'Liu CL'), ('firstName', 'Cheng-Lin'), ('lastName', 'Liu'), ('initials', 'CL'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'State Key Laboratory of Multimodal Artificial Intelligence Systems, Institute of Automation, Chinese Academy of Sciences, China.')]))]))]), OrderedDict([('fullName', 'Tan T'), ('firstName', 'Tieniu'), ('lastName', 'Tan'), ('initials', 'T'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'State Key Laboratory of Multimodal Artificial Intelligence Systems, Institute of Automation, Chinese Academy of Sciences, China.')]))]))]), OrderedDict([('fullName', 'Zhang Z'), ('firstName', 'Zhaoxiang'), ('lastName', 'Zhang'), ('initials', 'Z'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'State Key Laboratory of Multimodal Artificial Intelligence Systems, Institute of Automation, Chinese Academy of Sciences, China.')]))]))])])])"
+authorIdList,"OrderedDict([('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-6360-1431')]))])"
+dataLinksTagsList,"OrderedDict([('dataLinkstag', 'altmetrics')])"
+journalInfo,"OrderedDict([('issue', '4'), ('volume', '11'), ('journalIssueId', '3724824'), ('dateOfPublication', '2024 Apr'), ('monthOfPublication', '4'), ('yearOfPublication', '2024'), ('printPublicationDate', '2024-04-01'), ('journal', OrderedDict([('title', 'National science review'), ('ISOAbbreviation', 'Natl Sci Rev'), ('medlineAbbreviation', 'Natl Sci Rev'), ('NLMid', '101633095'), ('ISSN', '2095-5138'), ('ESSN', '2053-714X')]))])"
+pubYear,2024
+pageInfo,nwad317
+abstractText,"Inspired by human language, machine language is a novel discrete representation learned from visual data only through playing the speak, guess, and draw game."
+affiliation,"State Key Laboratory of Multimodal Artificial Intelligence Systems, Institute of Automation, Chinese Academy of Sciences, China."
+publicationStatus,epublish
+language,eng
+pubModel,Electronic-eCollection
+pubTypeList,"OrderedDict([('pubType', ['research-article', 'Journal Article'])])"
+grantsList,"OrderedDict([('grant', [OrderedDict([('grantId', 'U21B2042'), ('agency', 'National Natural Science Foundation of China'), ('orderIn', '0')]), OrderedDict([('grantId', '2022ZD0160102'), ('agency', 'National Key Research and Development Program of China'), ('orderIn', '0')]), OrderedDict([('grantId', '62072457'), ('agency', 'National Natural Science Foundation of China'), ('orderIn', '0')]), OrderedDict([('grantId', '61836014'), ('agency', 'National Natural Science Foundation of China'), ('orderIn', '0')]), OrderedDict([('grantId', '62006231'), ('agency', 'National Natural Science Foundation of China'), ('orderIn', '0')])])])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Unpaywall'), ('url', 'https://academic.oup.com/nsr/advance-article-pdf/doi/10.1093/nsr/nwad317/54942874/nwad317.pdf')]), OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.1093/nsr/nwad317')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10862086')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10862086?pdf=render')])])])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,Y
+citedByCount,0
+hasData,Y
+hasReferences,Y
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,Y
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCreation,2024-02-15
+firstIndexDate,2024-02-15
+fullTextReceivedDate,2024-02-15
+dateOfRevision,2024-02-16
+electronicPublicationDate,2024-01-02
+firstPublicationDate,2024-01-02

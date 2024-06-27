@@ -1,0 +1,47 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,38075091
+source,MED
+pmid,38075091
+pmcid,PMC10701029
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC10701029')])"
+doi,10.1155/2023/9784387
+title,Retracted: Location-Dependent Query Processing: Semantic Cache for Real-Time Smart City Analytics.
+authorString,And Biomechanics AB.
+authorList,"OrderedDict([('author', OrderedDict([('fullName', 'And Biomechanics AB'), ('firstName', 'Applied Bionics'), ('lastName', 'And Biomechanics'), ('initials', 'AB')]))])"
+authorIdList,"OrderedDict([('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-8198-9265')]))])"
+journalInfo,"OrderedDict([('volume', '2023'), ('journalIssueId', '3490325'), ('dateOfPublication', '2023'), ('monthOfPublication', '0'), ('yearOfPublication', '2023'), ('printPublicationDate', '2023-01-01'), ('journal', OrderedDict([('title', 'Applied bionics and biomechanics'), ('ISOAbbreviation', 'Appl Bionics Biomech'), ('medlineAbbreviation', 'Appl Bionics Biomech'), ('NLMid', '101208624'), ('ISSN', '1176-2322'), ('ESSN', '1754-2103')]))])"
+pubYear,2023
+pageInfo,9784387
+abstractText,[This retracts the article DOI: 10.1155/2021/9958647.].
+publicationStatus,epublish
+language,eng
+pubModel,Electronic-eCollection
+pubTypeList,"OrderedDict([('pubType', 'Retraction of Publication')])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.1155/2023/9784387')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10701029')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10701029?pdf=render')])])])"
+commentCorrectionList,"OrderedDict([('commentCorrection', OrderedDict([('id', '34970332'), ('source', 'MED'), ('reference', 'Appl Bionics Biomech. 2021 Dec 21;2021:9958647'), ('type', 'Retraction of'), ('orderIn', '1')]))])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,N
+citedByCount,0
+hasData,N
+hasReferences,Y
+hasTextMinedTerms,N
+hasDbCrossReferences,N
+hasLabsLinks,N
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCreation,2023-12-11
+firstIndexDate,2023-12-22
+fullTextReceivedDate,2023-12-09
+dateOfRevision,2023-12-11
+electronicPublicationDate,2023-11-29
+firstPublicationDate,2023-11-29

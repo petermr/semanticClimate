@@ -1,0 +1,129 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>downloaded</th>
+      <th>htmlmade</th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>dataLinksTagsList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>affiliation</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>keywordList</th>
+      <th>fullTextUrlList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>license</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>tmAccessionTypeList</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>electronicPublicationDate</th>
+      <th>firstPublicationDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC10987776</th>
+      <td>True</td>
+      <td>False</td>
+      <td>38571713</td>
+      <td>MED</td>
+      <td>38571713</td>
+      <td>PMC10987776</td>
+      <td>{'fullTextId': 'PMC10987776'}</td>
+      <td>10.3389/fpls.2024.1361716</td>
+      <td>A new model construction based on the knowledge graph for mining elite polyphenotype genes in crops.</td>
+      <td>Zhang D, Zhao R, Xian G, Kou Y, Ma W.</td>
+      <td>{'author': [{'fullName': 'Zhang D', 'firstName': 'Dandan', 'lastName': 'Zhang', 'initials': 'D', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Agricultural Information Institute of Chinese Academy of Agricultural Sciences, Beijing, China.')]))])}, {'fullName': 'Zhao R', 'firstName': 'Ruixue', 'lastName': 'Zhao', 'initials': 'R', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Agricultural Information Institute of Chinese Academy of Agricultural Sciences, Beijing, China.')]), OrderedDict([('affiliation', 'Key Laboratory of Agricultural Integration Publishing Knowledge Mining and Knowledge Service, National Press and Publication Administration, Beijing, China.')])])])}, {'fullName': 'Xian G', 'firstName': 'Guojian', 'lastName': 'Xian', 'initials': 'G', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Agricultural Information Institute of Chinese Academy of Agricultural Sciences, Beijing, China.')]), OrderedDict([('affiliation', 'Key Laboratory of Agricultural Big Data, Ministry of Agriculture and Rural Affairs, Beijing, China.')])])])}, {'fullName': 'Kou Y', 'firstName': 'Yuantao', 'lastName': 'Kou', 'initials': 'Y', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Agricultural Information Institute of Chinese Academy of Agricultural Sciences, Beijing, China.')]), OrderedDict([('affiliation', 'Key Laboratory of Agricultural Integration Publishing Knowledge Mining and Knowledge Service, National Press and Publication Administration, Beijing, China.')])])])}, {'fullName': 'Ma W', 'firstName': 'Weilu', 'lastName': 'Ma', 'initials': 'W', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Agricultural Information Institute of Chinese Academy of Agricultural Sciences, Beijing, China.')]))])}]}</td>
+      <td>{'dataLinkstag': ['altmetrics', 'supporting_data']}</td>
+      <td>{'volume': '15', 'journalIssueId': '3703733', 'dateOfPublication': '2024', 'monthOfPublication': '0', 'yearOfPublication': '2024', 'printPublicationDate': '2024-01-01', 'journal': {'title': 'Frontiers in plant science', 'ISOAbbreviation': 'Front Plant Sci', 'medlineAbbreviation': 'Front Plant Sci', 'NLMid': '101568200', 'ISSN': '1664-462X', 'ESSN': '1664-462X'}}</td>
+      <td>2024</td>
+      <td>1361716</td>
+      <td>Identifying polyphenotype genes that simultaneously regulate important agronomic traits (e.g., plant height, yield, and disease resistance) is critical for developing novel high-quality crop varieties. Predicting the associations between genes and traits requires the organization and analysis of multi-dimensional scientific data. The existing methods for establishing the relationships between genomic data and phenotypic data can only elucidate the associations between genes and individual traits. However, there are relatively few methods for detecting elite polyphenotype genes. In this study, a knowledge graph for traits regulating-genes was constructed by collecting data from the PubMed database and eight other databases related to the staple food crops rice, maize, and wheat as well as the model plant <i>Arabidopsis thaliana</i>. On the basis of the knowledge graph, a model for predicting traits regulating-genes was constructed by combining the data attributes of the gene nodes and the topological relationship attributes of the gene nodes. Additionally, a scoring method for predicting the genes regulating specific traits was developed to screen for elite polyphenotype genes. A total of 125,591 nodes and 547,224 semantic relationships were included in the knowledge graph. The accuracy of the knowledge graph-based model for predicting traits regulating-genes was 0.89, the precision rate was 0.91, the recall rate was 0.96, and the F1 value was 0.94. Moreover, 4,447 polyphenotype genes for 31 trait combinations were identified, among which the rice polyphenotype gene <i>IPA1</i> and the <i>A. thaliana</i> polyphenotype gene <i>CUC2</i> were verified via a literature search. Furthermore, the wheat gene <i>TraesCS5A02G275900</i> was revealed as a potential polyphenotype gene that will need to be further characterized. Meanwhile, the result of venn diagram analysis between the polyphenotype gene datasets (consists of genes that are predicted by our model) and the transcriptome gene datasets (consists of genes that were differential expression in response to disease, drought or salt) showed approximately 70% and 54% polyphenotype genes were identified in the transcriptome datasets of Arabidopsis and rice, respectively. The application of the model driven by knowledge graph for predicting traits regulating-genes represents a novel method for detecting elite polyphenotype genes.</td>
+      <td>Agricultural Information Institute of Chinese Academy of Agricultural Sciences, Beijing, China.</td>
+      <td>epublish</td>
+      <td>eng</td>
+      <td>Electronic-eCollection</td>
+      <td>{'pubType': ['methods-article', 'Journal Article']}</td>
+      <td>{'keyword': ['Crop', 'Cross-species', 'Knowledge Graph', 'Polyphenotype Gene', 'Traits Regulating-genes']}</td>
+      <td>{'fullTextUrl': [{'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.3389/fpls.2024.1361716'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC10987776'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC10987776?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>0</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>{'accessionType': 'uniprot'}</td>
+      <td>2024-04-04</td>
+      <td>2024-04-04</td>
+      <td>2024-04-09</td>
+      <td>2024-04-05</td>
+      <td>2024-03-20</td>
+      <td>2024-03-20</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    

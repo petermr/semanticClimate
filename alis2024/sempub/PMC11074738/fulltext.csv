@@ -1,0 +1,48 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,38720865
+source,MED
+pmid,38720865
+pmcid,PMC11074738
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC11074738')])"
+doi,10.21037/qims-23-1384
+title,Semi-supervised learning in diagnosis of infant hip dysplasia towards multisource ultrasound images.
+authorString,"Li X, Zhang R, Wang Z, Wang J."
+authorList,"OrderedDict([('author', [OrderedDict([('fullName', 'Li X'), ('firstName', 'Xuanpeng'), ('lastName', 'Li'), ('initials', 'X'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-9320-0658')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'School of Instrument Science and Engineering, Southeast University, Nanjing, China.')]))]))]), OrderedDict([('fullName', 'Zhang R'), ('firstName', 'Ruixiang'), ('lastName', 'Zhang'), ('initials', 'R'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'School of Instrument Science and Engineering, Southeast University, Nanjing, China.')]))]))]), OrderedDict([('fullName', 'Wang Z'), ('firstName', 'Zhibo'), ('lastName', 'Wang'), ('initials', 'Z'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'School of Instrument Science and Engineering, Southeast University, Nanjing, China.')]))]))]), OrderedDict([('fullName', 'Wang J'), ('firstName', 'Jiakuan'), ('lastName', 'Wang'), ('initials', 'J'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Orthopedics, Yangzhou Maternal and Child Health Care Service Centre, Yangzhou, China.')]))]))])])])"
+authorIdList,"OrderedDict([('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-9320-0658')]))])"
+journalInfo,"OrderedDict([('issue', '5'), ('volume', '14'), ('journalIssueId', '3768402'), ('dateOfPublication', '2024 May'), ('monthOfPublication', '5'), ('yearOfPublication', '2024'), ('printPublicationDate', '2024-05-01'), ('journal', OrderedDict([('title', 'Quantitative imaging in medicine and surgery'), ('ISOAbbreviation', 'Quant Imaging Med Surg'), ('medlineAbbreviation', 'Quant Imaging Med Surg'), ('NLMid', '101577942'), ('ISSN', '2223-4292'), ('ESSN', '2223-4306')]))])"
+pubYear,2024
+pageInfo,3707-3716
+abstractText,"<h4>Background</h4>Automated diagnosis of infant hip dysplasia is heavily affected by the individual differences among infants and ultrasound machines.<h4>Methods</h4>Hip sonographic images of 493 infants from various ultrasound machines were collected in the Department of Orthopedics in Yangzhou Maternal and Child Health Care Service Centre. Herein, we propose a semi-supervised learning method based on a feature pyramid network (FPN) and a contrastive learning scheme based on a Siamese architecture. A large amount of unlabeled data of ultrasound images was used via the Siamese network in the pre-training step, and then a small amount of annotated data for anatomical structures was adopted to train the model for landmark identification and standard plane recognition. The method was evaluated on our collected dataset.<h4>Results</h4>The method achieved a mean Dice similarity coefficient (DSC) of 0.7873 and a mean Hausdorff distance (HD) of 5.0102 in landmark identification, compared to the model without contrastive learning, which had a mean DSC of 0.7734 and a mean HD of 6.1586. The accuracy, precision, and recall of standard plane recognition were 95.4%, 91.64%, and 94.86%, respectively. The corresponding area under the curve (AUC) was 0.982.<h4>Conclusions</h4>This study proposes a semi-supervised deep learning method following Graf's principle, which can better utilize a large volume of ultrasound images from various devices and infants. This method can identify the landmarks of infant hips more accurately than manual operators, thereby improving the efficiency of diagnosis of infant hip dysplasia."
+affiliation,"School of Instrument Science and Engineering, Southeast University, Nanjing, China."
+publicationStatus,ppublish
+language,eng
+pubModel,Print-Electronic
+pubTypeList,"OrderedDict([('pubType', ['research-article', 'Journal Article'])])"
+keywordList,"OrderedDict([('keyword', ['Sonographic Image', 'Landmark Identification', 'Semantic Segmentation', 'Contrast Learning', 'Infants Hip Dysplasia'])])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.21037/qims-23-1384')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC11074738')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC11074738?pdf=render')])])])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,Y
+citedByCount,0
+hasData,Y
+hasReferences,Y
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,N
+license,cc by-nc-nd
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCreation,2024-05-09
+firstIndexDate,2024-05-09
+fullTextReceivedDate,2024-05-10
+dateOfRevision,2024-05-10
+electronicPublicationDate,2024-04-18
+firstPublicationDate,2024-04-18

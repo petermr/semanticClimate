@@ -1,0 +1,818 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" id="dad212577" xml:lang="en" article-type="research-article"><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jats-oasis2jats3.xsl?><?ConverterInfo.Version 1?><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Alzheimers Dement (Amst)</journal-id><journal-id journal-id-type="iso-abbrev">Alzheimers Dement (Amst)</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)2352-8729</journal-id><journal-id journal-id-type="publisher-id">DAD2</journal-id><journal-title-group><journal-title>Alzheimer's &#x00026; Dementia : Diagnosis, Assessment &#x00026; Disease Monitoring</journal-title></journal-title-group><issn pub-type="epub">2352-8729</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmcid">11007792</article-id><article-id pub-id-type="doi">10.1002/dad2.12577</article-id><article-id pub-id-type="publisher-id">DAD212577</article-id><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Articles</subject></subj-group></article-categories><title-group><article-title>Examining the propensity and nature of criminal risk behaviours in frontotemporal dementia syndromes and Alzheimer's disease</article-title><alt-title alt-title-type="left-running-head">KUMFOR <sc>et&#x000a0;al</sc>.</alt-title></title-group><contrib-group><contrib id="dad212577-cr-0001" contrib-type="author" corresp="yes"><name><surname>Kumfor</surname><given-names>Fiona</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-3208-075X</contrib-id><xref rid="dad212577-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="dad212577-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><address><email>fiona.kumfor@sydney.edu.au</email></address></contrib><contrib id="dad212577-cr-0002" contrib-type="author"><name><surname>Wei</surname><given-names>Grace</given-names></name><xref rid="dad212577-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="dad212577-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="dad212577-cr-0003" contrib-type="author"><name><surname>Ries</surname><given-names>Nola</given-names></name><xref rid="dad212577-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="dad212577-cr-0004" contrib-type="author"><name><surname>Bennett</surname><given-names>Hayley</given-names></name><xref rid="dad212577-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="dad212577-cr-0005" contrib-type="author"><name><surname>D'Mello</surname><given-names>Mirelle</given-names></name><xref rid="dad212577-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="dad212577-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="dad212577-cr-0006" contrib-type="author"><name><surname>Kaizik</surname><given-names>Cassandra</given-names></name><xref rid="dad212577-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="dad212577-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="dad212577-cr-0007" contrib-type="author"><name><surname>Piguet</surname><given-names>Olivier</given-names></name><xref rid="dad212577-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="dad212577-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="dad212577-cr-0008" contrib-type="author"><name><surname>Hodges</surname><given-names>John R.</given-names></name><xref rid="dad212577-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="dad212577-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib></contrib-group><aff id="dad212577-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">School of Psychology</named-content>
+<institution>University of Sydney</institution>
+<city>Sydney</city>
+<named-content content-type="country-part">New South Wales</named-content>
+<country country="AU">Australia</country>
+</aff><aff id="dad212577-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Brain and Mind Centre</named-content>
+<institution>University of Sydney</institution>
+<city>Sydney</city>
+<named-content content-type="country-part">New South Wales</named-content>
+<country country="AU">Australia</country>
+</aff><aff id="dad212577-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Law Health Justice Research Centre</named-content>
+<institution>University of Technology Sydney</institution>
+<city>Ultimo</city>
+<named-content content-type="country-part">New South Wales</named-content>
+<country country="AU">Australia</country>
+</aff><aff id="dad212577-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<institution>Neuroscience Research Australia</institution>
+<city>Randwick</city>
+<named-content content-type="country-part">New South Wales</named-content>
+<country country="AU">Australia</country>
+</aff><aff id="dad212577-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Central Clinical School</named-content>
+<institution>University of Sydney</institution>
+<city>Sydney</city>
+<named-content content-type="country-part">New South Wales</named-content>
+<country country="AU">Australia</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break/>Fiona Kumfor, School of Psychology, Brain and Mind Centre, The University of Sydney, 94 Mallett St, Camperdown, Sydney, NSW 2006, Australia.<break/> Email: <email>fiona.kumfor@sydney.edu.au</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>11</day><month>4</month><year>2024</year></pub-date><pub-date pub-type="collection"><season>Apr-Jun</season><year>2024</year></pub-date><volume>16</volume><issue seq="70">2</issue><issue-id pub-id-type="doi">10.1002/dad2.v16.2</issue-id><elocation-id>e12577</elocation-id><history>
+<date date-type="rev-recd"><day>14</day><month>2</month><year>2024</year></date>
+<date date-type="received"><day>29</day><month>8</month><year>2023</year></date>
+<date date-type="accepted"><day>18</day><month>2</month><year>2024</year></date>
+</history><permissions><!--&#x000a9; 2024 the Alzheimer's Association.--><copyright-statement content-type="article-copyright">&#x000a9; 2024 The Authors. Alzheimer's &#x00026; Dementia: Diagnosis, Assessment &#x00026; Disease Monitoring published by Wiley Periodicals LLC on behalf of Alzheimer's Association.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non&#x02010;commercial and no modifications or adaptations are made.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:DAD2-16-e12577.pdf"/><abstract><title>Abstract</title><sec id="dad212577-sec-0010"><title>INTRODUCTION</title><p>Some people with dementia develop changes in behaviour and cognition that may lead to interactions with police or the legal system. However, large, prospective case&#x02013;control studies examining these behaviours are lacking.</p></sec><sec id="dad212577-sec-0020"><title>METHODS</title><p>One hundred and forty&#x02010;four people with dementia and 53 controls completed the Misdemeanours and Transgressions Screener.</p></sec><sec id="dad212577-sec-0030"><title>RESULTS</title><p>Criminal risk behaviours were reported in: 65.6% of behavioural&#x02010;variant frontotemporal dementia, 46.2% of right&#x02010;lateralised semantic dementia, and 27.0% of Alzheimer's disease patients. In 19.1% of patients these behaviours led to contact with police or authority figures. Compared to controls, people with dementia showed higher rates of physical assault (<italic toggle="yes">p&#x000a0;</italic>=&#x000a0;0.024), financial/professional recklessness (<italic toggle="yes">p&#x000a0;</italic>=&#x000a0;0.009), and inappropriate behaviours (<italic toggle="yes">p</italic>
+<italic toggle="yes">&#x000a0;</italic>=&#x000a0;0.052).</p></sec><sec id="dad212577-sec-0040"><title>DISCUSSION</title><p>Criminal risk behaviours are common across dementia subtypes and may be one of the first clinical signs of frontotemporal dementia. Further research to understand how to balance risk minimisation with an individual's liberties as well as the inappropriate criminalisation of people with dementia is needed.</p></sec><sec id="dad212577-sec-0050"><title>Highlights</title><p>
+<list list-type="bullet" id="dad212577-list-0001"><list-item><p>The Misdemeanours and Transgressions Screener is a new tool to assess criminal risk behaviours.</p></list-item><list-item><p>Forty&#x02010;seven percent of patients with dementia show criminal risk behaviour after dementia onset.</p></list-item><list-item><p>Behaviours included verbal abuse, traffic violations, physical assault.</p></list-item><list-item><p>New onset of criminal risk behaviours&#x000a0;&#x0003e;50 years is a clinical sign for frontotemporal dementia.</p></list-item></list>
+</p></sec></abstract><kwd-group kwd-group-type="author-generated"><kwd id="dad212577-kwd-0001">Alzheimer's disease</kwd><kwd id="dad212577-kwd-0002">antisocial behaviour</kwd><kwd id="dad212577-kwd-0003">criminal behaviour</kwd><kwd id="dad212577-kwd-0004">frontotemporal dementia</kwd><kwd id="dad212577-kwd-0005">law</kwd><kwd id="dad212577-kwd-0006">legal</kwd><kwd id="dad212577-kwd-0007">misdemeanours</kwd><kwd id="dad212577-kwd-0008">right temporal variant frontotemporal dementia</kwd><kwd id="dad212577-kwd-0009">semantic dementia</kwd><kwd id="dad212577-kwd-0010">transgressions</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>National Health and Medical Research Council
+</institution><institution-id institution-id-type="doi">10.13039/501100000925</institution-id></institution-wrap></funding-source><award-id>#1132524</award-id><award-id>GNT1158762</award-id><award-id>GNT2008020</award-id></award-group><award-group id="funding-0002"><funding-source>Dementia Research Team</funding-source><award-id>#1095127</award-id></award-group><award-group id="funding-0003"><funding-source><institution-wrap><institution>ARC Centre of Excellence in Cognition and its Disorders
+</institution><institution-id institution-id-type="doi">10.13039/501100009294</institution-id></institution-wrap></funding-source><award-id>CE11000102</award-id></award-group></funding-group><counts><fig-count count="2"/><table-count count="4"/><page-count count="10"/><word-count count="6354"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>April&#x02010;June 2024</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.4.0 mode:remove_FC converted:11.04.2024</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="dad212577-cit-0041">
+<string-name>
+<surname>Kumfor</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Wei</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Ries</surname>
+<given-names>N</given-names>
+</string-name>, et&#x000a0;al. <article-title>Examining the propensity and nature of criminal risk behaviours in frontotemporal dementia syndromes and Alzheimer's disease</article-title>. <source>Alzheimer's Dement</source>. <year>2024</year>;<volume>16</volume>:<elocation-id>e12577</elocation-id>. <pub-id pub-id-type="doi">10.1002/dad2.12577</pub-id>
+</mixed-citation>
+</p></notes></front><body><sec id="dad212577-sec-0060"><label>1</label><title>BACKGROUND</title><p>Changes in behaviour are one of the earliest and can be the most prominent symptoms in people with dementia. Because of their insidious nature, these changes are often downplayed until a serious incident occurs. People with dementia may experience reduced judgment, impaired reasoning ability, and increased disinhibition, which can lead to situations involving contact with police and allegations of criminal offending, such as physical and verbal aggression, theft, traffic violations, and inappropriate sexual behaviour.<xref rid="dad212577-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref>, <xref rid="dad212577-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref>, <xref rid="dad212577-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref> Of relevance here, these changed behaviours place individuals at risk of interactions with police or security guards, which may lead to being &#x0201c;manhandled,&#x0201d; detained, arrested, charged, and prosecuted for offenses.<xref rid="dad212577-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>, <xref rid="dad212577-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref> Other potentially coercive responses may include being transported to emergency departments and involuntary admission to mental health units. These situations and outcomes are highly distressing for people with dementia and their families and place an unnecessary and inappropriate burden on police and the criminal justice and health systems.</p><p>Retrospective case reviews<xref rid="dad212577-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref>, <xref rid="dad212577-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref>, <xref rid="dad212577-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref>, <xref rid="dad212577-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref> have suggested that criminal risk behaviours are more common in behavioural&#x02010;variant frontotemporal dementia (bvFTD) than other dementia subtypes, although the actual prevalence is likely underestimated, due to the reliance on clinical records in which information on criminal behaviour and instances of police contact may not be comprehensively captured. To date, a few small studies have interviewed caregivers,<xref rid="dad212577-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref>, <xref rid="dad212577-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref> but findings are difficult to replicate across centers due to the lack of consistent measurement approach. Thus, while there has been a degree of interest in this phenomenon for many years, large, prospective studies with validated measures are lacking, and to date no study has included a healthy older control group for comparison.</p><p>This study aimed to systematically investigate the prevalence and nature of criminal risk behaviour using a novel, purposefully designed measure&#x02014;the Misdemeanours and Transgressions Screener (MATS). We hypothesized that criminal risk behaviours would be more common in frontotemporal dementia (FTD) syndromes than in Alzheimer's disease (AD). Our second aim was to examine predictors of criminal risk behaviour (i.e., demographic and disease variables). Finally, we aimed to establish the validity of the MATS for assessing criminal risk behaviours in dementia.</p><boxed-text position="float" content-type="box"><sec id="dad212577-sec-0070"><title>RESEARCH IN CONTEXT</title><p>
+<list list-type="order" id="dad212577-list-0002"><list-item><p>
+<bold>Systematic review</bold>: The authors reviewed the literature using traditional (e.g., PubMed) sources. While several case studies of serious criminal risk behaviours have been published, prospective studies using purposely designed tools are lacking, and studies have not compared the rate or prevalence of criminal risk behaviours to healthy older controls.</p></list-item><list-item><p>
+<bold>Interpretation</bold>: Data from the Misdemeanours and Transgressions Screener show more severe criminal risk behaviours in frontotemporal dementia syndromes (i.e., behavioural&#x02010;variant and right&#x02010;lateralised semantic dementia) than Alzheimer's disease and left&#x02010;lateralised semantic dementia.</p></list-item><list-item><p>
+<bold>Future directions</bold>: Examination of the psychosocial, cognitive, and neurobiological factors which predispose an individual to criminal risk behaviours may help in early diagnosis of dementia and management of these behaviours. Public education as well as targeted liaison with legal professionals and the police force is important to ensure that people with dementia can be diverted out of the legal system and into appropriate medical care.</p></list-item></list>
+</p></sec></boxed-text></sec><sec id="dad212577-sec-0080"><label>2</label><title>METHODS</title><sec id="dad212577-sec-0090"><label>2.1</label><title>Participants</title><p>One hundred and ninety&#x02010;seven participants were consecutively recruited from FRONTIER, the Frontotemporal Dementia Research clinic in Sydney, between 2017 and 2022. Participants with dementia were diagnosed by a multidisciplinary team according to current consensus diagnostic criteria, with the group including 64 people with bvFTD, (42 probable, 22 possible),<xref rid="dad212577-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref> 30 left&#x02010;lateralised semantic dementia (SD&#x02010;left)<xref rid="dad212577-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref>, 13 right&#x02010;lateralised SD (SD&#x02010;right),<xref rid="dad212577-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref>, <xref rid="dad212577-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref>, <xref rid="dad212577-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref> and 37 AD,<xref rid="dad212577-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref> who were compared to 53 healthy controls. Individuals with atypical presentations (e.g., for whom there was a question of a primary psychiatric disorder) were excluded. Disease severity was indicated by disease duration (years since symptom onset) and the Clinical Dementia Rating Scale for Frontotemporal Lobar Degeneration (CDR&#x02010;FTLD) sum of boxes.<xref rid="dad212577-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref>
+</p><p>Controls were recruited from the community via local community clubs (e.g., lawn bowls, golf clubs), community activities for older adults (e.g., social clubs for retirees), websites, and word of mouth. All controls scored &#x0003e; 88/100 on the Addenbrooke's Cognitive Examination III (ACE&#x02010;III). Controls were screened for pre&#x02010;existing medical conditions and had similar demographics as the people with dementia (i.e., age, sex, education). In addition to participants meeting relevant diagnostic criteria based on their neurological assessment, neuropsychological performance, and brain magnetic resonance imaging scan, a sufficient level of English proficiency was also required for all participants.</p><p>Informed consent was obtained in accordance with the Declaration of Helsinki. Ethics approval was granted by the South Eastern Sydney Local Health District and University of Sydney ethics committees.</p></sec><sec id="dad212577-sec-0100"><label>2.2</label><title>Misdemeanours and Transgressions Screener</title><p>The rate and nature of criminal risk behaviour was determined using the MATS (see <xref rid="dad212577-supitem-0001" ref-type="supplementary-material">Supplementary Material</xref> in supporting information). The MATS was developed by FK, CK, and JRH. First, the literature was screened for any case studies or retrospective studies that reported criminal risk behaviours in dementia (e.g., Kim et&#x000a0;al.,<xref rid="dad212577-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref> Liljegren et&#x000a0;al.,<xref rid="dad212577-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref> Diehl&#x02010;Schmid et&#x000a0;al.,<xref rid="dad212577-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref> and Mendez<xref rid="dad212577-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref>). Reported behaviours were compiled and additional criminal risk behaviours reported in our clinic were added to the list. These were then categorised into 10 broad domains: (1) traffic violations (e.g., speeding, driving without a license), (2) stealing (e.g., stolen money, stolen car), (3 avoiding payments, (4) verbal abuse, (5) physical assault (another person or animal), (6) inappropriate behaviours (e.g., inappropriate sexual advances, hugged or kissed a stranger), (7) public indecency (e.g., urinated in public, masturbated in public), (8) property trespassing or damage, (9) illegal drug use or supply, (10) financial or professional recklessness (e.g., behaved unethically at work, developed a gambling problem). This questionnaire was completed by an informant (e.g., spouse, child, sibling), who spends a minimum of 5&#x000a0;hours/week with the person with dementia (see <xref rid="dad212577-supitem-0001" ref-type="supplementary-material">Supplementary Material</xref>). First, any history of antisocial or unlawful behaviour prior to the onset of their current condition was screened for. Then, the presence of criminal risk behaviours across the 10 domains was established. When an item was endorsed, the informant was probed for further details about the incident (e.g., the nature of the incident and when it occurred). Finally, a question about whether the behaviour led to involvement of the police or authority figures (e.g., security guards), what the person's attitude to that situation was, and what the outcome of this interaction with the criminal justice system was included. Informants completed the MATS prior to their in&#x02010;person appointment. During their appointment, the MATS responses were reviewed with the caregiver and the research assistant (MD, CK) and any possible misunderstanding or misinterpretation was discussed. Controls completed a modified self&#x02010;report version reporting behaviour in the past 5 years (see <xref rid="dad212577-supitem-0001" ref-type="supplementary-material">Supplementary Material</xref>).</p></sec><sec id="dad212577-sec-0110"><label>2.3</label><title>Neuropsychological assessment</title><p>Participants underwent a detailed cognitive neuropsychological assessment, and an informant was interviewed to establish symptom onset and presence of behavioural changes. The Neuropsychiatric Inventory (NPI<xref rid="dad212577-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref>) was used to assess convergent validity. In addition, measures of inhibitory control (Hayling Sentence Completion task<xref rid="dad212577-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref>) and emotion processing (Facial Affect Selection Test<xref rid="dad212577-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref>, <xref rid="dad212577-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref>) were used to assess convergent validity. Divergent validity was established via measures of global cognitive function (ACE&#x02010;III<xref rid="dad212577-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref>) and visuo&#x02010;constructional skills (Rey Complex Figure<xref rid="dad212577-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref>).</p></sec><sec id="dad212577-sec-0120"><label>2.4</label><title>Data reduction and statistical analysis</title><p>The following scores on the MATS were calculated: (1) MATS&#x02010;Yes response (i.e., if any of the 10 domains were endorsed the participant had a score of 1, if all MATS domains were not endorsed the participant was given a score of 0); (2) MATS total domains endorsed (i.e., a score/10 denoting the total number of domains endorsed). To account for the severity of the behaviours reported on the MATS, each behaviour was assigned a Median Sentence Rank (MSR). The MSR is the offence seriousness ranking used by the Bureau of Crime Statistics and Research and is based on penalties issued by courts in New South Wales, Australia (<ext-link xlink:href="https://www.bocsar.nsw.gov.au/Pages/bocsar_publication/Pub_Summary/CJB/cjb142-Measuring-offence-seriousness.aspx" ext-link-type="uri">https://www.bocsar.nsw.gov.au/Pages/bocsar_publication/Pub_Summary/CJB/cjb142&#x02010;Measuring&#x02010;offence&#x02010;seriousness.aspx</ext-link>). The MSR rank uses a lower number to denote the most serious (i.e., murder has a lower MSR than speeding). Here we reversed the ranks so that a lower score indicated less severe criminal risk behaviours. These values were used to compute (3) MATS total MSR adjusted score (i.e., sum of all behaviours endorsed on the MATS x MSR reverse rank). The following items do not have an MSR and were therefore all given a rank of 1: given away large sums of money to strangers; donated large sums of money; developed a gambling problem; behaved unethically at work; touched, hugged, or kissed a stranger; approached children they did not know; approached strangers they did not know; falling for scams; excessive or reckless spending; poor investment decisions; financial errors (e.g., errors in paying bills).</p><p>Groups were compared using analysis of variance with Sidak correction for post hoc comparisons, or when assumptions were violated, the non&#x02010;parametric equivalent was used (i.e., Kruskall&#x02013;Wallis, Dunn's correction). A logistic regression analysis was conducted to determine demographic and disease variables that predicted the presence of criminal risk behaviours in people with dementia. A second logistic regression was conducted to examine whether NPI subscales (frequency &#x000d7; severity) predicted the presence of criminal risk behaviours in people with dementia. Divergent and convergent validity was examined using Pearson correlations between MATS scores and scores on the NPI, the Hayling Sentence Completion Test, the Facial Affect Selection Test, ACE&#x02010;III, and the Rey Complex Figure.</p></sec></sec><sec id="dad212577-sec-0130"><label>3</label><title>RESULTS</title><p>Demographics are reported in Table&#x000a0;<xref rid="dad212577-tbl-0001" ref-type="table">1</xref>. No difference was observed between groups in age (<italic toggle="yes">F</italic>[4,196]&#x000a0;=&#x000a0;1.034; <italic toggle="yes">p</italic>&#x000a0;=&#x000a0;0.391), or years of education (<italic toggle="yes">F</italic>[4,196]&#x000a0;=&#x000a0;2.036; <italic toggle="yes">p&#x000a0;</italic>=&#x000a0;0.078), although sex distribution differed (<mml:math id="jats-math-1" display="inline"><mml:mrow><mml:mrow><mml:msup><mml:mi>&#x003c7;</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mspace width="0.33em"/></mml:mrow></mml:mrow></mml:math>=&#x000a0;14.063, <italic toggle="yes">p&#x000a0;</italic>=&#x000a0;0.007), with the bvFTD group having a higher male:female ratio than the control group. Disease duration (<italic toggle="yes">F</italic>[3,135]&#x000a0;=&#x000a0;.645, <italic toggle="yes">p&#x000a0;</italic>=&#x000a0;0.597) and the CDR&#x02010;FTLD sum of boxes (<italic toggle="yes">F</italic>[3,117]&#x000a0;=&#x000a0;1.267, <italic toggle="yes">p</italic>
+<italic toggle="yes">&#x000a0;</italic>=&#x000a0;0.289) did not differ between groups.</p><table-wrap position="float" id="dad212577-tbl-0001" content-type="TABLE"><label>TABLE 1</label><caption><p>Demographics and clinical characteristics according to diagnostic group.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1">
+<p>bvFTD</p>
+<p>
+<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;64</p>
+</th><th align="left" rowspan="1" colspan="1">
+<p>SD&#x02010;right</p>
+<p>
+<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;13</p>
+</th><th align="left" rowspan="1" colspan="1">
+<p>SD&#x02010;left</p>
+<p>
+<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;30</p>
+</th><th align="left" rowspan="1" colspan="1">
+<p>AD</p>
+<p>
+<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;37</p>
+</th><th align="left" rowspan="1" colspan="1">
+<p>Controls</p>
+<p>
+<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;53</p>
+</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Sex (M:F)</td><td align="left" rowspan="1" colspan="1">51:13</td><td align="left" rowspan="1" colspan="1">6:7</td><td align="left" rowspan="1" colspan="1">17:13</td><td align="left" rowspan="1" colspan="1">23:14</td><td align="left" rowspan="1" colspan="1">26:27</td></tr><tr><td align="left" rowspan="1" colspan="1">Age (years)</td><td align="left" rowspan="1" colspan="1">65.29&#x000a0;&#x000b1;&#x000a0;7.67</td><td align="left" rowspan="1" colspan="1">65.02&#x000a0;&#x000b1;&#x000a0;6.52</td><td align="left" rowspan="1" colspan="1">67.60&#x000a0;&#x000b1;&#x000a0;5.95</td><td align="left" rowspan="1" colspan="1">65.57&#x000a0;&#x000b1;&#x000a0;7.75</td><td align="left" rowspan="1" colspan="1">67.34&#x000a0;&#x000b1;&#x000a0;7.05</td></tr><tr><td align="left" rowspan="1" colspan="1">Education (years)</td><td align="left" rowspan="1" colspan="1">12.70&#x000a0;&#x000b1;&#x000a0;3.38</td><td align="left" rowspan="1" colspan="1">13.46&#x000a0;&#x000b1;&#x000a0;3.36</td><td align="left" rowspan="1" colspan="1">12.78&#x000a0;&#x000b1;&#x000a0;3.41</td><td align="left" rowspan="1" colspan="1">13.23&#x000a0;&#x000b1;&#x000a0;2.87</td><td align="left" rowspan="1" colspan="1">14.32&#x000a0;&#x000b1;&#x000a0;2.99</td></tr><tr><td align="left" rowspan="1" colspan="1">Disease duration (years)</td><td align="left" rowspan="1" colspan="1">6.47&#x000a0;&#x000b1;&#x000a0;4.61</td><td align="left" rowspan="1" colspan="1">7.47&#x000a0;&#x000b1;&#x000a0;3.46</td><td align="left" rowspan="1" colspan="1">6.38&#x000a0;&#x000b1;&#x000a0;4.00</td><td align="left" rowspan="1" colspan="1">5.67&#x000a0;&#x000b1;&#x000a0;3.50</td><td align="left" rowspan="1" colspan="1">&#x02013;</td></tr><tr><td align="left" rowspan="1" colspan="1">CDR&#x02010;FTLD sum of boxes (max 24)<xref rid="dad212577-tbl1-note-0003" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">7.69&#x000a0;&#x000b1;&#x000a0;4.33</td><td align="left" rowspan="1" colspan="1">5.19&#x000a0;&#x000b1;&#x000a0;3.17</td><td align="left" rowspan="1" colspan="1">6.05&#x000a0;&#x000b1;&#x000a0;5.76</td><td align="left" rowspan="1" colspan="1">7.82&#x000a0;&#x000b1;&#x000a0;4.97</td><td align="left" rowspan="1" colspan="1">&#x02013;</td></tr><tr><td align="left" rowspan="1" colspan="1">History of criminal risk behaviours (yes:no; % yes)</td><td align="left" rowspan="1" colspan="1">
+<p>9:55</p>
+<p>14.1%</p>
+</td><td align="left" rowspan="1" colspan="1">
+<p>1:12</p>
+<p>7.7%</p>
+</td><td align="left" rowspan="1" colspan="1">
+<p>1:29</p>
+<p>3.3%</p>
+</td><td align="left" rowspan="1" colspan="1">
+<p>2:35</p>
+<p>5.4%</p>
+</td><td align="left" rowspan="1" colspan="1">
+<p>3:49</p>
+<p>5.8%</p>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Current criminal risk behaviours (yes:no; % yes)</td><td align="left" rowspan="1" colspan="1">
+<p>42:22</p>
+<p>65.6%</p>
+</td><td align="left" rowspan="1" colspan="1">
+<p>6:7</p>
+<p>46.2%</p>
+</td><td align="left" rowspan="1" colspan="1">
+<p>10:20</p>
+<p>33.3%</p>
+</td><td align="left" rowspan="1" colspan="1">
+<p>10:27</p>
+<p>27.0%</p>
+</td><td align="left" rowspan="1" colspan="1">
+<p>26:27</p>
+<p>49.1%</p>
+</td></tr></tbody></table><table-wrap-foot><fn id="dad212577-tbl1-note-0001"><p>
+<italic toggle="yes">Note</italic>: Unless noted, values are mean&#x000a0;&#x000b1;&#x000a0;standard deviation.</p></fn><fn id="dad212577-tbl1-note-0002"><p>Abbreviations: AD, Alzheimer's disease; bvFTD, behavioural&#x02010;variant frontotemporal dementia; CDR&#x02010;FTLD, Clinical Dementia Rating Scale for Frontotemporal Lobar Degeneration; SD&#x02010;left, left&#x02010;lateralised semantic dementia; SD&#x02010;right, right&#x02010;lateralised semantic dementia.</p></fn><fn id="dad212577-tbl1-note-0003"><label>
+<sup>a</sup>
+</label><p>Data available for 60 bvFTD, 8 SD&#x02010;right, 20 SD&#x02010;left, 30 AD.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd.</copyright-holder></permissions></table-wrap><sec id="dad212577-sec-0140"><label>3.1</label><title>Misdemeanours and Transgressions Screener</title><p>No difference in reports of history of antisocial or unlawful behaviour in early life was observed between groups (<mml:math id="jats-math-2" display="inline"><mml:mrow><mml:mrow><mml:msup><mml:mi>&#x003c7;</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mspace width="0.33em"/></mml:mrow></mml:mrow></mml:math>=&#x000a0;4.681, <italic toggle="yes">p&#x000a0;</italic>=&#x000a0;0.322), with 13/144 people with dementia and 3/52 controls endorsing this item. Examination of the types of criminal risk behaviours that were reported historically included the following in patients: Constantly in trouble at school and outside with police involvement as a juvenile, a single incident of drug&#x02010;induced behaviour, a pollution conviction for inappropriate disposal of sewage waste, petty theft as a teenager and speeding tickets in their 20s, student protest, driving under the influence of alcohol, road rage incident, fights on nights out in early 20s, speeding. In controls, the incidents were shoplifting, driving under the influence, and indecent exposure (swimming nude, public urination).</p><p>After disease onset, the rate of criminal risk behaviour significantly differed between groups (<mml:math id="jats-math-3" display="inline"><mml:mrow><mml:mrow><mml:msup><mml:mi>&#x003c7;</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mspace width="0.33em"/></mml:mrow></mml:mrow></mml:math>=&#x000a0;17.114, <italic toggle="yes">p&#x000a0;</italic>=&#x000a0;0.002). Sixty&#x02010;eight of 144 patients reported at least one criminal risk behaviour, while 26/53 controls reported a criminal risk behaviour in the last 5 years.</p><p>Importantly, of those participants who showed criminal risk behaviours, this had led to contact with the police or authority figures in 19.1% of patients. This was compared to 0% of controls reporting contact with police or authority figures, who self&#x02010;reported innocuous incidents (e.g., forgetting to scan an item at a grocery store, or noticing they were speeding and then slowing down; <mml:math id="jats-math-4" display="inline"><mml:mrow><mml:mrow><mml:msup><mml:mi>&#x003c7;</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mspace width="0.33em"/></mml:mrow></mml:mrow></mml:math>=&#x000a0;5.768, <italic toggle="yes">p&#x000a0;</italic>=&#x000a0;0.016). The reasons for contact with police and authority figures were varied and included allegations or reports of domestic violence, altercations with strangers, holding family members hostage, shoplifting, road rage, receiving stolen goods, absconding from residential care, and being missing/lost/wandering. These incidents had led to patients being apprehended, charges being placed (although in most cases they were dropped due to the dementia diagnosis), hospital admissions (including being scheduled in psychiatric wards), police warnings, domestic violence orders being issued, and being banned from public places (e.g., sports clubs, shopping centers). Qualitative data from free text responses indicated the patients&#x02019; attitude included being unaware, unconcerned, or in denial, although instances of anger, agitation, and confusion were also reported.</p></sec><sec id="dad212577-sec-0150"><label>3.2</label><title>Profiles according to dementia subtype</title><p>The number of criminal risk behaviours according to diagnostic group is shown in the violin plots in Figure&#x000a0;<xref rid="dad212577-fig-0001" ref-type="fig">1</xref>. The main effect of group was significant (<italic toggle="yes">H</italic>[3]&#x000a0;=&#x000a0;15.833, <italic toggle="yes">p</italic>&#x000a0;=&#x000a0;0.001), with the bvFTD group showing more criminal risk behaviours than the AD (<italic toggle="yes">p&#x000a0;</italic>&#x0003c;&#x000a0;0.001), and SD&#x02010;left (<italic toggle="yes">p&#x000a0;</italic>=&#x000a0;0.006) groups (Figure&#x000a0;<xref rid="dad212577-fig-0001" ref-type="fig">1</xref>). Analysis of behaviour severity (MATS total MSR adjusted score, depicted by the blue line in Figure&#x000a0;<xref rid="dad212577-fig-0001" ref-type="fig">1</xref>) also revealed a main effect of diagnostic group (<italic toggle="yes">H</italic>[3]&#x000a0;=&#x000a0;15.257, <italic toggle="yes">p</italic>&#x000a0;=&#x000a0;0.002), with the bvFTD group having a higher severity rating than the AD (<italic toggle="yes">p&#x000a0;</italic>=&#x000a0;0.001) and SD&#x02010;left (<italic toggle="yes">p</italic>&#x000a0;=&#x000a0;0.002) groups, with a trend for SD&#x02010;right to show more severe behaviours than SD&#x02010;left (<italic toggle="yes">p&#x000a0;</italic>=&#x000a0;0.078) and AD (<italic toggle="yes">p&#x000a0;</italic>=&#x000a0;0.078) groups.</p><fig position="float" fig-type="FIGURE" id="dad212577-fig-0001"><label>FIGURE 1</label><caption><p>The violin plot shows the number of criminal risk behaviours endorsed on the Misdemeanours and Transgressions Screener. The blue line shows the mean score of behaviours adjusted for Median Sentence Ranking (MSR) as an index of severity. Greater separation between the number of behaviours and the MSR suggests more severe behaviours. AD, Alzheimer's disease; bvFTD, behavioural&#x02010;variant frontotemporal dementia; SD&#x02010;left, left&#x02010;lateralised semantic dementia; SD&#x02010;right, right&#x02010;lateralised semantic dementia.</p></caption><graphic xlink:href="DAD2-16-e12577-g001" position="anchor" id="jats-graphic-1"/></fig></sec><sec id="dad212577-sec-0160"><label>3.3</label><title>Nature of criminal risk behaviours</title><p>The types of criminal risk behaviour in people with dementia and controls are shown in Figure&#x000a0;<xref rid="dad212577-fig-0002" ref-type="fig">2</xref>. Comparisons between people with dementia and controls revealed more instances of physical assault (<mml:math id="jats-math-5" display="inline"><mml:mrow><mml:mrow><mml:msup><mml:mi>&#x003c7;</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mspace width="0.33em"/></mml:mrow></mml:mrow></mml:math>=&#x000a0;5.123, <italic toggle="yes">p&#x000a0;</italic>=&#x000a0;0.024) and financial/professional recklessness (<mml:math id="jats-math-6" display="inline"><mml:mrow><mml:mrow><mml:msup><mml:mi>&#x003c7;</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mspace width="0.33em"/></mml:mrow></mml:mrow></mml:math>=&#x000a0;6.830, <italic toggle="yes">p&#x000a0;</italic>=&#x000a0;0.009), with inappropriate behaviour approaching significance (<mml:math id="jats-math-7" display="inline"><mml:mrow><mml:mrow><mml:msup><mml:mi>&#x003c7;</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mspace width="0.33em"/></mml:mrow></mml:mrow></mml:math>=&#x000a0;3.777, <italic toggle="yes">p&#x000a0;</italic>=&#x000a0;0.052). Controls were more likely to report traffic violations (<mml:math id="jats-math-8" display="inline"><mml:mrow><mml:mrow><mml:msup><mml:mi>&#x003c7;</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mspace width="0.33em"/></mml:mrow></mml:mrow></mml:math>=&#x000a0;6.192, <italic toggle="yes">p&#x000a0;</italic>=&#x000a0;0.013) than patients. No other differences were seen between the groups.</p><fig position="float" fig-type="FIGURE" id="dad212577-fig-0002"><label>FIGURE 2</label><caption><p>Types of criminal risk behaviours reported in people with dementia and controls. Bars represent the percentage of cases per criminal behaviour subtype.</p></caption><graphic xlink:href="DAD2-16-e12577-g002" position="anchor" id="jats-graphic-3"/></fig><p>The nature of criminal risk behaviours according to diagnosis is shown in Table&#x000a0;<xref rid="dad212577-tbl-0002" ref-type="table">2</xref> and examples of behaviours are shown in Table&#x000a0;<xref rid="dad212577-tbl-0003" ref-type="table">3</xref>. Post hoc analyses showing groups with significantly elevated group proportions compared to the other groups are in bold.</p><table-wrap position="float" id="dad212577-tbl-0002" content-type="TABLE"><label>TABLE 2</label><caption><p>Types of criminal risk behaviours according to diagnosis.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1">bvFTD</th><th align="left" rowspan="1" colspan="1">SD&#x02010;right</th><th align="left" rowspan="1" colspan="1">SD&#x02010;left</th><th align="left" rowspan="1" colspan="1">AD</th><th align="left" rowspan="1" colspan="1">Controls</th><th align="left" rowspan="1" colspan="1">Chi&#x02010;square</th><th align="left" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>
+</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Traffic violations</td><td align="char" rowspan="1" colspan="1">17.2</td><td align="char" rowspan="1" colspan="1">23.1</td><td align="char" rowspan="1" colspan="1">10.0</td><td align="char" rowspan="1" colspan="1">5.4</td><td align="char" rowspan="1" colspan="1">28.3</td><td align="char" rowspan="1" colspan="1">9.582</td><td align="char" rowspan="1" colspan="1">0.048</td></tr><tr><td align="left" rowspan="1" colspan="1">Theft</td><td align="char" rowspan="1" colspan="1">6.3</td><td align="char" rowspan="1" colspan="1">15.4</td><td align="char" rowspan="1" colspan="1">6.7</td><td align="char" rowspan="1" colspan="1">0.0</td><td align="char" rowspan="1" colspan="1">5.7</td><td align="char" rowspan="1" colspan="1">4.678</td><td align="char" rowspan="1" colspan="1">0.322</td></tr><tr><td align="left" rowspan="1" colspan="1">Not paid service/fee</td><td align="char" rowspan="1" colspan="1">1.6</td><td align="char" rowspan="1" colspan="1">
+<bold>15.4</bold>
+</td><td align="char" rowspan="1" colspan="1">0.0</td><td align="char" rowspan="1" colspan="1">0.0</td><td align="char" rowspan="1" colspan="1">0.0</td><td align="char" rowspan="1" colspan="1">18.513</td><td align="char" rowspan="1" colspan="1">&#x0003c;0.001</td></tr><tr><td align="left" rowspan="1" colspan="1">Verbal abuse</td><td align="char" rowspan="1" colspan="1">35.9</td><td align="char" rowspan="1" colspan="1">30.8</td><td align="char" rowspan="1" colspan="1">13.3</td><td align="char" rowspan="1" colspan="1">18.9</td><td align="char" rowspan="1" colspan="1">22.6</td><td align="char" rowspan="1" colspan="1">7.290</td><td align="char" rowspan="1" colspan="1">0.121</td></tr><tr><td align="left" rowspan="1" colspan="1">Physical abuse</td><td align="char" rowspan="1" colspan="1">10.9</td><td align="char" rowspan="1" colspan="1">7.7</td><td align="char" rowspan="1" colspan="1">10.0</td><td align="char" rowspan="1" colspan="1">5.4</td><td align="char" rowspan="1" colspan="1">0.0</td><td align="char" rowspan="1" colspan="1">6.373</td><td align="char" rowspan="1" colspan="1">0.173</td></tr><tr><td align="left" rowspan="1" colspan="1">Inappropriate behaviour</td><td align="char" rowspan="1" colspan="1">14.1</td><td align="char" rowspan="1" colspan="1">15.4</td><td align="char" rowspan="1" colspan="1">13.3</td><td align="char" rowspan="1" colspan="1">0.0</td><td align="char" rowspan="1" colspan="1">1.9</td><td align="char" rowspan="1" colspan="1">11.069</td><td align="char" rowspan="1" colspan="1">0.026</td></tr><tr><td align="left" rowspan="1" colspan="1">Public indecency</td><td align="char" rowspan="1" colspan="1">4.7</td><td align="char" rowspan="1" colspan="1">0.0</td><td align="char" rowspan="1" colspan="1">3.3</td><td align="char" rowspan="1" colspan="1">2.7</td><td align="char" rowspan="1" colspan="1">3.8</td><td align="char" rowspan="1" colspan="1">0.809</td><td align="char" rowspan="1" colspan="1">0.937</td></tr><tr><td align="left" rowspan="1" colspan="1">Trespass/property damage</td><td align="char" rowspan="1" colspan="1">9.4</td><td align="char" rowspan="1" colspan="1">0.0</td><td align="char" rowspan="1" colspan="1">6.7</td><td align="char" rowspan="1" colspan="1">5.4</td><td align="char" rowspan="1" colspan="1">9.4</td><td align="char" rowspan="1" colspan="1">1.898</td><td align="char" rowspan="1" colspan="1">0.755</td></tr><tr><td align="left" rowspan="1" colspan="1">Illegal drug use</td><td align="char" rowspan="1" colspan="1">4.7</td><td align="char" rowspan="1" colspan="1">0.0</td><td align="char" rowspan="1" colspan="1">0.0</td><td align="char" rowspan="1" colspan="1">0.0</td><td align="char" rowspan="1" colspan="1">5.7</td><td align="char" rowspan="1" colspan="1">4.324</td><td align="char" rowspan="1" colspan="1">0.364</td></tr><tr><td align="left" rowspan="1" colspan="1">Financial/professional</td><td align="char" rowspan="1" colspan="1">
+<bold>34.4</bold>
+</td><td align="char" rowspan="1" colspan="1">7.7</td><td align="char" rowspan="1" colspan="1">13.3</td><td align="char" rowspan="1" colspan="1">10.8</td><td align="char" rowspan="1" colspan="1">5.7</td><td align="char" rowspan="1" colspan="1">20.357</td><td align="char" rowspan="1" colspan="1">&#x0003c;0.001</td></tr></tbody></table><table-wrap-foot><fn id="dad212577-tbl2-note-0001"><p>
+<italic toggle="yes">Note</italic>: Values are percentage of cases who reported the behaviour per group.</p></fn><fn id="dad212577-tbl2-note-0002"><p>Abbreviations: AD, Alzheimer's disease; bvFTD, behavioural variant frontotemporal dementia; SD&#x02010;left, left&#x02010;lateralised semantic dementia; SD&#x02010;right, right&#x02010;lateralised semantic dementia.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd.</copyright-holder></permissions></table-wrap><table-wrap position="float" id="dad212577-tbl-0003" content-type="TABLE"><label>TABLE 3</label><caption><p>Types of behaviours reported on the Misdemeanours and Transgressions Screener (MATS) in patients and controls.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1">Patients</th><th align="left" rowspan="1" colspan="1">Controls</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Verbal abuse</td><td align="left" rowspan="1" colspan="1">
+<p>Using offensive language (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;34)</p>
+<p>Threatened to physically assault another person (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;7)</p>
+<p>Made inappropriate or offensive comments to strangers (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;12)</p>
+<p>Argumentative (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;1)</p>
+<p>Demanded money from people (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;1)</p>
+</td><td align="left" rowspan="1" colspan="1">Used offensive language (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;12)</td></tr><tr><td align="left" rowspan="1" colspan="1">Financial/professional</td><td align="left" rowspan="1" colspan="1">
+<p>Excessive spending (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;10)</p>
+<p>Developed gambling problem (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;8)</p>
+<p>Fallen for scams (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;5)</p>
+<p>Donated large sums of money (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;5)</p>
+<p>Behaved unethically at work (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;1)</p>
+<p>Other: cancelling insurance policies, online spending and making impulsive large purchases (&#x0003e;&#x000a0;$1000 without the spouse's knowledge/consent)</p>
+</td><td align="left" rowspan="1" colspan="1">Bad investment decisions (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;3)</td></tr><tr><td align="left" rowspan="1" colspan="1">Traffic violations</td><td align="left" rowspan="1" colspan="1">
+<p>Speeding (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;10)</p>
+<p>Driven under the influence of alcohol (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;4)</p>
+<p>Driven without a license (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;4)</p>
+<p>Driven an unregistered vehicle (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;1)</p>
+<p>Broken license restrictions (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;1)</p>
+<p>Running a red light (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;3)</p>
+<p>Driven in the emergency lane (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;1)</p>
+<p>Not secured load (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;1)</p>
+<p>Small accidents with car (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;1)</p>
+</td><td align="left" rowspan="1" colspan="1">
+<p>Speeding (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;13)</p>
+<p>Driven unregistered vehicle (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;1)</p>
+<p>Used mobile phone while driving (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;1)</p>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Physical assault</td><td align="left" rowspan="1" colspan="1">
+<p>Physical assault (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;1)</p>
+<p>Intentionally hurt or were cruel to animals (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;4)</p>
+<p>Barge people out of way (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;1)</p>
+</td><td align="left" rowspan="1" colspan="1">n/a</td></tr><tr><td align="left" rowspan="1" colspan="1">Inappropriate behaviour</td><td align="left" rowspan="1" colspan="1">
+<p>Inappropriate sexual advances (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;3)</p>
+<p>Touched, hugged, or kissed a stranger (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;5)</p>
+<p>Approached children they did not know (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;6)</p>
+<p>Been overly friendly with strangers (e.g., offering massages, talking to random strangers) (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;4)</p>
+<p>Asked inappropriate questions (e.g., telling a screaming child to shut up, or asking questions about a person's virginity) (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;2)</p>
+</td><td align="left" rowspan="1" colspan="1">Complained about a neighbor's dog which had caused offense (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;1)</td></tr><tr><td align="left" rowspan="1" colspan="1">Trespass/property damage</td><td align="left" rowspan="1" colspan="1">Trespassing (e.g., entering a neighbor's house to take property and leaving rubbish on neighbor's property) (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;8)</td><td align="left" rowspan="1" colspan="1">
+<p>Trespassing (e.g., entering onto private property on bushwalks to save time, or to pick up a ball that went over the fence) (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;4)</p>
+<p>Property damage due to car accident (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;1)</p>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Theft</td><td align="left" rowspan="1" colspan="1">
+<p>Shoplifting (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;5)</p>
+<p>Taking money from another person (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;1)</p>
+<p>Stealing from another person (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;3)</p>
+<p>Giving items away from their workplace without payment (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;1)</p>
+<p>Concealing withdrawals from a joint bank account (n&#x000a0;=&#x000a0;2)</p>
+</td><td align="left" rowspan="1" colspan="1">Taking small items from their workplace such as pens or failing to scan items at self&#x02010;service supermarkets (e.g., a chili) (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;3)</td></tr><tr><td align="left" rowspan="1" colspan="1">Public indecency</td><td align="left" rowspan="1" colspan="1">
+<p>Public urination (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;4)</p>
+<p>Undressing in public place (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;1)</p>
+</td><td align="left" rowspan="1" colspan="1">Public urination (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;2)</td></tr><tr><td align="left" rowspan="1" colspan="1">Not paid service/fee</td><td align="left" rowspan="1" colspan="1">
+<p>Not paid for entrance fees (e.g., to the cinema) (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;1)</p>
+<p>Not paid for a restaurant bill (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;1)</p>
+</td><td align="left" rowspan="1" colspan="1">n/a</td></tr><tr><td align="left" rowspan="1" colspan="1">Drug use</td><td align="left" rowspan="1" colspan="1">Recreational drug use (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;3)</td><td align="left" rowspan="1" colspan="1">Recreational drug use (<italic toggle="yes">n</italic>&#x000a0;=&#x000a0;3)</td></tr></tbody></table><table-wrap-foot><fn id="dad212577-tbl3-note-0001"><p>
+<italic toggle="yes">Note</italic>: A single individual could have reported more than one type of incident.</p></fn><fn id="dad212577-tbl3-note-0002"><p>Abbreviation: <italic toggle="yes">n</italic>, the number of times this was reported.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd.</copyright-holder></permissions></table-wrap></sec><sec id="dad212577-sec-0170"><label>3.4</label><title>Predictors of criminal risk behaviours in people with dementia</title><p>Next, we conducted a logistic regression analysis to examine demographic factors which predicted the presence of criminal risk behaviours in people with dementia (i.e., excluding controls). The final model was significant (<mml:math id="jats-math-9" display="inline"><mml:mrow><mml:msup><mml:mi>&#x003c7;</mml:mi><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:math>&#x000a0;=&#x000a0;26.216, <italic toggle="yes">p&#x000a0;</italic>&#x0003c;&#x000a0;0.001), and explained 23.4% (Nagelkerke <italic toggle="yes">R</italic>
+<sup>2</sup>) variance in criminal risk behaviours and correctly classified 71.3% of cases. People with a diagnosis of bvFTD were more than seven times more likely to show criminal risk behaviours (odds ratio [OR]&#x000a0;=&#x000a0;7.327, <italic toggle="yes">p&#x000a0;</italic>&#x0003c;&#x000a0;0.001) than the other dementia subtypes. Longer disease duration was also associated with more criminal risk behaviours (OR&#x000a0;=&#x000a0;1.122, <italic toggle="yes">p&#x000a0;</italic>=&#x000a0;0.030). Age, education, and sex, as well as diagnosis of another dementia syndrome were not significant predictors of the presence of criminal risk behaviours.</p><p>We also explored whether subscales of the NPI predicted the presence of criminal risk behaviours in people with dementia. The model was significant <mml:math id="jats-math-10" display="inline"><mml:mrow><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msup><mml:mi>&#x003c7;</mml:mi><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mrow></mml:math>&#x000a0;=&#x000a0;28.864, <italic toggle="yes">p&#x000a0;</italic>=&#x000a0;0.004), explaining 24.2% of variance (Nagelkerke <italic toggle="yes">R</italic>
+<sup>2</sup>), and correctly classifying 66.7% of cases. The two subscales that were significant contributors to the model were the agitation/aggression subscale, which was associated with increased likelihood of criminal risk behaviours (<italic toggle="yes">B</italic>&#x000a0;=&#x000a0;0.366, <italic toggle="yes">p&#x000a0;</italic>=&#x000a0;0.019) and depression (<italic toggle="yes">B</italic>&#x000a0;=&#x000a0;&#x02212;0.434, <italic toggle="yes">p</italic>&#x000a0;=&#x000a0;0.017), which was associated with a decreased likelihood of criminal risk behaviours.</p><p>Finally, correlations in all participants combined were examined to establish convergent and divergent validity and are reported in Table&#x000a0;<xref rid="dad212577-tbl-0004" ref-type="table">4</xref>. MATS scores were positively correlated with total scores on the NPI, indicating that higher criminal risk behaviours were associated with higher neuropsychiatric symptoms. Correlations with neuropsychological test performance were not significant, except for a small positive association with ACE&#x02010;III total score.</p><table-wrap position="float" id="dad212577-tbl-0004" content-type="TABLE"><label>TABLE 4</label><caption><p>Correlations between MATS responses and neuropsychological and behavioural assessments in all participants combined.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1"/><th align="left" rowspan="1" colspan="1">NPI Total</th><th align="left" rowspan="1" colspan="1">Hayling Category B Errors</th><th align="left" rowspan="1" colspan="1">Facial Affect Selection Test&#x000a0;Total&#x02010;short</th><th align="left" rowspan="1" colspan="1">ACE&#x02010;III Total</th><th align="left" rowspan="1" colspan="1">RCF&#x02010;Copy</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">MATS Total number of behaviours</td><td align="left" rowspan="1" colspan="1">0.367<xref rid="dad212577-tbl4-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">&#x02212;0.070</td><td align="left" rowspan="1" colspan="1">0.053</td><td align="left" rowspan="1" colspan="1">0.123</td><td align="left" rowspan="1" colspan="1">&#x02212;0.004</td></tr><tr><td align="left" rowspan="1" colspan="1">MATS Behaviour Severity (MSR Total)</td><td align="left" rowspan="1" colspan="1">0.422<xref rid="dad212577-tbl4-note-0003" ref-type="table-fn">
+<sup>***</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">&#x02212;0.047</td><td align="left" rowspan="1" colspan="1">0.122</td><td align="left" rowspan="1" colspan="1">0.177<xref rid="dad212577-tbl4-note-0003" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">&#x02212;0.013</td></tr></tbody></table><table-wrap-foot><fn id="dad212577-tbl4-note-0001"><p>
+<italic toggle="yes">Note</italic>: Values are Pearson <italic toggle="yes">r</italic> values.</p></fn><fn id="dad212577-tbl4-note-0002"><p>Abbreviations: ACE&#x02010;III, Addenbrooke's Cognitive Examination III; MATS, Misdemeanours and Transgressions Screener; MSR, Median Sentence Ranking; NPI, Neuropsychiatric Inventory; RCF, Rey Complex Figure.</p></fn><fn id="dad212577-tbl4-note-0003"><p>
+<sup>*</sup>
+<italic toggle="yes">p&#x000a0;</italic>&#x0003c;&#x000a0;0.05; <sup>**</sup>
+<italic toggle="yes">p&#x000a0;</italic>&#x0003c;&#x000a0;0.01; <sup>***</sup>
+<italic toggle="yes">p</italic>&#x000a0;&#x0003c;&#x000a0;0.001.</p></fn><fn id="dad212577-tbl4-note-0004"><p>Data available: NPI: <italic toggle="yes">n</italic>&#x000a0;=&#x000a0;79; Hayling Sentence Completion Test: <italic toggle="yes">n</italic>&#x000a0;=&#x000a0;102; Facial Affect Selection Test: <italic toggle="yes">n</italic>&#x000a0;=&#x000a0;116; ACE&#x02010;III: <italic toggle="yes">n</italic>&#x000a0;=&#x000a0;157; RCF: <italic toggle="yes">n</italic>&#x000a0;=&#x000a0;139.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd.</copyright-holder></permissions></table-wrap></sec></sec><sec id="dad212577-sec-0180"><label>4</label><title>DISCUSSION</title><p>This systematic, prospective study aimed to comprehensively examine the nature and prevalence of criminal risk behaviours in FTD and AD compared to healthy older controls, using a new, purposefully designed questionnaire. We found that criminal risk behaviours are remarkably common and were reported in almost half of our 144 participants with dementia. Importantly, of those who showed criminal risk behaviours, almost 20% of people with dementia had contact with police or authority figures. This was not seen in healthy older controls. People with dementia were more likely to have incidents of physical assault, financial/professional transgressions, and inappropriate behaviour (e.g., inappropriate sexual advances) than controls. These criminal risk behaviours were more common and more severe in bvFTD and SD&#x02010;right. In the following we consider how our findings expand knowledge of the clinical profile of FTD, how this knowledge should be incorporated into clinical practice, and how these findings can inform responses to criminal risk behaviours in the community, especially when police contact or interactions with the legal system occur.</p><p>We found the highest prevalence of criminal risk behaviour in patients with bvFTD, which converges with the previous retrospective case review<xref rid="dad212577-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref> and caregiver interviews.<xref rid="dad212577-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref>, <xref rid="dad212577-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref> Here, we also found that criminal risk behaviours are elevated in patients with SD&#x02010;right, a group that has not been examined in studies of criminal risk behaviours previously. What predisposes bvFTD and SD&#x02010;right patients toward criminal risk behaviours is unclear; however, both neurobiological and cognitive mechanisms are worth consideration. Adjacent literature underscores the potential role of the orbitofrontal cortex, ventromedial prefrontal cortex, and anterior temporal lobes.<xref rid="dad212577-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref>, <xref rid="dad212577-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref> These brain regions overlap with the recognised patterns of atrophy in bvFTD and have been implicated in the manifestation of criminal risk behaviours due to their role in assigning emotional value to experiences, aspects of theory of mind including moral decision making, inhibition, interoceptive awareness, emotion perception, and regulation of emotions such as fear and anger.<xref rid="dad212577-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref> In addition, whether specific diagnostic features of bvFTD (e.g., loss of empathy, disinhibition)<xref rid="dad212577-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref> predilect an individual toward criminal risk behaviours is an important consideration. Future studies are needed to more comprehensively assess the hypothesised relationship between criminal risk behaviours, patterns of neurodegeneration, as well as possible neurocognitive profiles including social cognition, executive functioning, and emotional experience.</p><p>The most common criminal risk behaviours were physical assault, inappropriate behaviours, and financial/professional recklessness, while traffic violations and verbal abuse were common in both people with dementia and healthy older controls. Notably, unlike previous studies,<xref rid="dad212577-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>, <xref rid="dad212577-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref> theft and indecent exposure were relatively uncommon. It has previously been proposed that the behavioural change in bvFTD is &#x0201c;antisocial&#x0201d; or &#x0201c;sociopathic&#x0201d; in nature,<xref rid="dad212577-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref>, <xref rid="dad212577-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>, <xref rid="dad212577-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref>, <xref rid="dad212577-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref> which implies a disregard for social rules or norms, and a violation of others&#x02019; rights.<xref rid="dad212577-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref> An alternative characterisation is that the more commonly observed criminal risk behaviours are &#x0201c;reactive&#x0201d; in nature, whereas the less common behaviours (e.g., not paying service/fee, illegal drug use, property damage) may require an additional &#x0201c;planning&#x0201d; or &#x0201c;proactive&#x0201d; dimension. This interpretation concords with earlier work suggesting that criminal risk behaviours can result from two broad mechanisms: (1) disinhibition and (2) agitation/paranoia, with the former more common in frontotemporal dementia.<xref rid="dad212577-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref> Interestingly, individual interviews suggest that patients are largely unperturbed by their actions and tend not to show remorse, shame, or a need to provide an explanation.<xref rid="dad212577-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref> This concords with our findings in which patients were reportedly unaware, unconcerned, or in denial about their behaviour. Together, the evidence to date may suggest a lack of criminal intent or &#x0201c;guilty mind&#x0201d; in patients with dementia who show these types of criminal risk behaviours, and a reduced moral culpability which might well have relevance to how these people are dealt with in the criminal justice system. There is some evidence that police and the broader criminal justice system have some awareness of the significance of cognitive impairment on risk behaviours for people with intellectual disability; however, the extent of that awareness, and whether it extends to people with dementia, is a pressing issue and requires further investigation (e.g., Howard and Westmore<xref rid="dad212577-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref>). Where these behaviours result in contact with police and the criminal justice system, the responses may be anti&#x02010;therapeutic for people with dementia. They may experience further stigma and harm when symptoms of illness are inappropriately criminalised.<xref rid="dad212577-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref> Timely referral for health assessment should be a priority to support access to care and services that promote the person's health, safety, and well&#x02010;being.<xref rid="dad212577-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref>
+</p><p>As can be seen this is an emerging area of research and there are likely to be multifactorial contributors that lead to the manifestation of criminal risk behaviours. While research has been limited by a lack of appropriate measures, the MATS appears to be a simple, valid assessment tool to comprehensively capture the range of criminal risk behaviours in dementia, although more comprehensive psychometric evaluation including construct validity is needed. Nevertheless, some limitations should be considered. Although we found a remarkably high prevalence of criminal risk behaviours, it is also plausible that variations in how carers and family members respond to these behaviours can impact their frequency. For example, some evidence suggests that some caregivers tend to monitor or supervise the person with dementia and intervene to prevent criminal risk behaviour occurring.<xref rid="dad212577-bib-0032" ref-type="bibr">
+<sup>32</sup>
+</xref> Whether pre&#x02010;morbid factors such as personality, demographics (e.g., socioeconomic status, sex), and history of trauma are unique contributors also warrants investigation, given their known role in the wider prison population, and potential differences among clinical syndromes.<xref rid="dad212577-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref>, <xref rid="dad212577-bib-0034" ref-type="bibr">
+<sup>34</sup>
+</xref> Our controls also reported risk behaviours that are common in the Australian population (e.g., verbal driver aggression) or other innocuous behaviours that did not result in contact with the police or authority figures. Previous studies have not included a control group and knowledge about &#x0201c;typical&#x0201d; behaviour in community&#x02010;dwelling older adults is surprisingly difficult to access. Having a self&#x02010;report version for controls and an informant&#x02010;report version for the participants was a pragmatic methodological choice; however, it is a limitation of the current study. We therefore urge future studies to use the same questionnaire for patients and controls.</p><p>Finally, terming behaviours as criminal or offending in nature may vary across jurisdictions, depending on formal laws as well as community and police attitudes and tolerances. The MATS items that relate to theft, verbal and physical assault, public indecency, driving violations, property damage, and illicit drug possession/trade are acts that are formally unlawful across jurisdictions<xref rid="dad212577-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref>, <xref rid="dad212577-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref>, <xref rid="dad212577-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>, <xref rid="dad212577-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref> and would constitute breaches of local laws. Financially or professionally reckless behaviour were included in the MATS as they may be implicated in illegal conduct (e.g., allegations of fraud, stealing money to gamble).<xref rid="dad212577-bib-0035" ref-type="bibr">
+<sup>35</sup>
+</xref> The MATS item of inappropriately approaching others encompasses transgressions that create perceived or actual risks of harm to others. For example, an adult approaching a child they do not know is a feared behaviour in Australia, although such behaviour may be viewed with less suspicion in other countries. On a related note, the median sentence ranking used here is based on data from Australia. We are collaborating with international partners to translate the MATS. Establishing its validity in other jurisdictions will be essential to advance knowledge on behaviours in the context of dementia and the risk of criminal or other legal responses.</p><p>With respect to clinical management, criminal risk behaviour appears to be much more common than anticipated. One of the implications is that the emergence of criminal risk behaviour in an older adult (e.g.,&#x000a0;&#x0003e;50 years old) without a history of criminal behaviour should be assessed for cognitive impairment and dementia. Communicating this finding with not only health, but also legal, professionals may help to identify people with bvFTD early and divert them from the criminal legal system and this aligns with recommendations that detainees over the age of 50 undergo a health assessment including cognitive assessment as routine procedure.<xref rid="dad212577-bib-0036" ref-type="bibr">
+<sup>36</sup>
+</xref> A second important implication is improving education for frontline workers such as police, security personnel, and other first responders as well as legal professionals. The literature on policing and dementia has largely focused on the risks of older people being victims of crime, rather than potential perpetrators. However, some research suggests that people over the age of 60 are as likely to be suspected perpetrators/disputants as they are to be alleged victims.<xref rid="dad212577-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref> Some efforts have been made to examine police officers&#x02019; knowledge about dementia,<xref rid="dad212577-bib-0038" ref-type="bibr">
+<sup>38</sup>
+</xref> and develop training on aging and dementia for police.<xref rid="dad212577-bib-0039" ref-type="bibr">
+<sup>39</sup>
+</xref> These types of initiatives are particularly important in the context of an aging population and increasing dementia prevalence.</p><p>Recommendations for how to manage these behaviours from a clinical perspective are limited, and how these behaviours may wax and wane with disease progression is also unclear. Routine assessment of criminal risk behaviour is an important first step (e.g., via the MATS), as in our experience these behaviours are often not reported by caregivers unless directly asked. It is also prudent to minimise potential safety concerns such as access to firearms and driving, particularly where criminal risk behaviours are identified, or if the person has a diagnosis of bvFTD or SD&#x02010;right.<xref rid="dad212577-bib-0040" ref-type="bibr">
+<sup>40</sup>
+</xref> Beyond that, a need for balance between personal liberties and community safety should be front of mind. Working closely with family members, as well as frontline workers such as police to educate them on the issues at hand,<xref rid="dad212577-bib-0039" ref-type="bibr">
+<sup>39</sup>
+</xref> is essential. Future work that sheds light on the cognitive and neurobiological mechanisms will be important for the development of strategies to identify individuals who are likely to need great support, with the ultimate goal of preventing criminal risk behaviours before they occur.</p></sec><sec sec-type="COI-statement" id="dad212577-sec-0200"><title>CONFLICT OF INTEREST STATEMENT</title><p>None of the authors have any disclosures. Author disclosures are available in the <xref rid="dad212577-supitem-0002" ref-type="supplementary-material">supporting information</xref>.</p></sec><sec id="dad212577-sec-0210"><title>CONSENT STATEMENT</title><p>Informed consent was obtained from all participants or their person responsible in accordance with the Declaration of Helsinki.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="dad212577-supitem-0001" position="float" content-type="local-data"><caption><p>Supporting Information</p></caption><media xlink:href="DAD2-16-e12577-s002.docx"/></supplementary-material><supplementary-material id="dad212577-supitem-0002" position="float" content-type="local-data"><caption><p>Supporting Information</p></caption><media xlink:href="DAD2-16-e12577-s001.pdf"/></supplementary-material></sec></body><back><ack id="dad212577-sec-0190"><title>ACKNOWLEDGMENTS</title><p>The authors would like to thank all the participants and their families for supporting our research. This study was supported by ForeFront, a large collaborative research group dedicated to the study of neurodegenerative diseases and funded by the National Health and Medical Research Council (NHMRC) of Australia Program Grant (#1132524), Dementia Research Team Grant (#1095127), and the ARC Centre of Excellence in Cognition and its Disorders (CE11000102). FK is supported by a NHMRC Career Development Fellowship (GNT1158762). OP is supported by a NHMRC Leadership Fellowship (GNT2008020).</p><p>Open access publishing facilitated by The University of Sydney, as part of the Wiley &#x02010; The University of Sydney agreement via the Council of Australian University Librarians.</p></ack><ref-list id="dad212577-bibl-0001"><title>REFERENCES</title><ref id="dad212577-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="dad212577-cit-0001">
+<string-name>
+<surname>Mendez</surname>
+<given-names>MF</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>
+<given-names>AK</given-names>
+</string-name>, <string-name>
+<surname>Shapira</surname>
+<given-names>JS</given-names>
+</string-name>, <string-name>
+<surname>Miller</surname>
+<given-names>BL</given-names>
+</string-name>. <article-title>Acquired sociopathy and frontotemporal dementia</article-title>. <source>Dement Geriatr Cogn Disord</source>. <year>2005</year>;<volume>20</volume>:<fpage>99</fpage>&#x02010;<lpage>104</lpage>.<pub-id pub-id-type="pmid">15980631</pub-id>
+</mixed-citation></ref><ref id="dad212577-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="dad212577-cit-0002">
+<string-name>
+<surname>Kim</surname>
+<given-names>JM</given-names>
+</string-name>, <string-name>
+<surname>Chu</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Jung</surname>
+<given-names>KH</given-names>
+</string-name>, <string-name>
+<surname>Lee</surname>
+<given-names>ST</given-names>
+</string-name>, <string-name>
+<surname>Choi</surname>
+<given-names>SS</given-names>
+</string-name>, <string-name>
+<surname>Lee</surname>
+<given-names>SK</given-names>
+</string-name>. <article-title>Criminal manifestations of dementia Patients: report from the National Forensic Hospital</article-title>. <source>Dement Geriatr Cogn Dis Extra</source>. <year>2011</year>;<volume>1</volume>:<fpage>433</fpage>&#x02010;<lpage>438</lpage>.<pub-id pub-id-type="pmid">22279449</pub-id>
+</mixed-citation></ref><ref id="dad212577-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="dad212577-cit-0003">
+<string-name>
+<surname>Richard&#x02010;Devantoy</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Gallarda</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Annweiler</surname>
+<given-names>C</given-names>
+</string-name>, et&#x000a0;al. <article-title>Homicide and dementia in older adults: the key role of dysexecutive function</article-title>. <source>J Clin Psychiatry</source>. <year>2010</year>;<volume>71</volume>:<fpage>1402</fpage>.<pub-id pub-id-type="pmid">21062620</pub-id>
+</mixed-citation></ref><ref id="dad212577-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="dad212577-cit-0004">
+<string-name>
+<surname>Kuffel</surname>
+<given-names>RL</given-names>
+</string-name>, <string-name>
+<surname>Byers</surname>
+<given-names>AL</given-names>
+</string-name>, <string-name>
+<surname>Williams</surname>
+<given-names>B</given-names>
+</string-name>, et&#x000a0;al. <article-title>Prevalence of dementia and mild cognitive impairment before incarceration</article-title>. <source>J Am Geriatr Soc</source>. <year>2022</year>;<volume>70</volume>:<fpage>1792</fpage>&#x02010;<lpage>1799</lpage>.<pub-id pub-id-type="pmid">35212389</pub-id>
+</mixed-citation></ref><ref id="dad212577-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="dad212577-cit-0005">
+<string-name>
+<surname>Liljegren</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Landqvist Wald&#x000f6;</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Rydbeck</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Englund</surname>
+<given-names>E</given-names>
+</string-name>. <article-title>Police interactions among neuropathologically confirmed dementia patients</article-title>. <source>Alzheimer Dis Assoc Disord</source>. <year>2018</year>;<volume>32</volume>:<fpage>346</fpage>&#x02010;<lpage>350</lpage>.<pub-id pub-id-type="pmid">30095442</pub-id>
+</mixed-citation></ref><ref id="dad212577-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="dad212577-cit-0006">
+<string-name>
+<surname>Liljegren</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Wald&#x000f6;</surname>
+<given-names>ML</given-names>
+</string-name>, <string-name>
+<surname>Santillo</surname>
+<given-names>AF</given-names>
+</string-name>, et&#x000a0;al. <article-title>Association of neuropathologically confirmed frontotemporal dementia and Alzheimer disease with criminal and socially inappropriate behavior in a Swedish cohort</article-title>. <source>JAMA Netw Open</source>. <year>2019</year>;<volume>2</volume>:<fpage>e190261</fpage>&#x02010;<lpage>e190261</lpage>.<pub-id pub-id-type="pmid">30924889</pub-id>
+</mixed-citation></ref><ref id="dad212577-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="dad212577-cit-0007">
+<string-name>
+<surname>Shinagawa</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Shigenobu</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Tagai</surname>
+<given-names>K</given-names>
+</string-name>, et&#x000a0;al. <article-title>Violation of laws in frontotemporal dementia: a multicenter study in Japan</article-title>. <source>J Alzheimers Dis</source>. <year>2017</year>;<volume>57</volume>:<fpage>1221</fpage>&#x02010;<lpage>1227</lpage>.<pub-id pub-id-type="pmid">28304308</pub-id>
+</mixed-citation></ref><ref id="dad212577-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="dad212577-cit-0008">
+<string-name>
+<surname>Liljegren</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Naasan</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Temlett</surname>
+<given-names>J</given-names>
+</string-name>, et&#x000a0;al. <article-title>Criminal behavior in frontotemporal dementia and Alzheimer disease</article-title>. <source>JAMA Neurol</source>. <year>2015</year>;<volume>72</volume>:<fpage>295</fpage>&#x02010;<lpage>300</lpage>.<pub-id pub-id-type="pmid">25559744</pub-id>
+</mixed-citation></ref><ref id="dad212577-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="dad212577-cit-0009">
+<string-name>
+<surname>Diehl&#x02010;Schmid</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Perneczky</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Koch</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Nedopil</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Kurz</surname>
+<given-names>A</given-names>
+</string-name>. <article-title>Guilty by suspicion? Criminal behavior in frontotemporal lobar degeneration</article-title>. <source>Cogn Behav Neurol</source>. <year>2013</year>;<volume>26</volume>:<fpage>73</fpage>&#x02010;<lpage>77</lpage>.<pub-id pub-id-type="pmid">23812170</pub-id>
+</mixed-citation></ref><ref id="dad212577-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="dad212577-cit-0010">
+<string-name>
+<surname>Rascovsky</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Hodges</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name>
+<surname>Knopman</surname>
+<given-names>D</given-names>
+</string-name>, et&#x000a0;al. <article-title>Sensitivity of revised diagnostic criteria for the behavioural variant of frontotemporal dementia</article-title>. <source>Brain</source>. <year>2011</year>;<volume>134</volume>:<fpage>2456</fpage>&#x02010;<lpage>2477</lpage>.<pub-id pub-id-type="pmid">21810890</pub-id>
+</mixed-citation></ref><ref id="dad212577-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="dad212577-cit-0011">
+<string-name>
+<surname>Gorno&#x02010;Tempini</surname>
+<given-names>ML</given-names>
+</string-name>, <string-name>
+<surname>Hillis</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Weintraub</surname>
+<given-names>S</given-names>
+</string-name>, et&#x000a0;al. <article-title>Classification of primary progressive aphasia and its variants</article-title>. <source>Neurology</source>. <year>2011</year>;<volume>76</volume>:<fpage>1006</fpage>&#x02010;<lpage>1014</lpage>.<pub-id pub-id-type="pmid">21325651</pub-id>
+</mixed-citation></ref><ref id="dad212577-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="dad212577-cit-0012">
+<string-name>
+<surname>Kumfor</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Landin&#x02010;Romero</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Devenney</surname>
+<given-names>E</given-names>
+</string-name>, et&#x000a0;al. <article-title>On the right side? A longitudinal study of left&#x02010; versus right&#x02010;lateralized semantic dementia</article-title>. <source>Brain</source>. <year>2016</year>;<volume>139</volume>:<fpage>986</fpage>&#x02010;<lpage>998</lpage>.<pub-id pub-id-type="pmid">26811253</pub-id>
+</mixed-citation></ref><ref id="dad212577-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="dad212577-cit-0013">
+<string-name>
+<surname>Younes</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Borghesani</surname>
+<given-names>V</given-names>
+</string-name>, <string-name>
+<surname>Montembeault</surname>
+<given-names>M</given-names>
+</string-name>, et&#x000a0;al. <article-title>Right temporal lobe and socioemotional semantics: semantic behavioural variant frontotemporal dementia</article-title>. <source>Brain</source>. <year>2022</year>.</mixed-citation></ref><ref id="dad212577-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="dad212577-cit-0014">
+<string-name>
+<surname>Ulugut Erkoyun</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Groot</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Heilbron</surname>
+<given-names>R</given-names>
+</string-name>, et&#x000a0;al. <article-title>A clinical&#x02010;radiological framework of the right temporal variant of frontotemporal dementia</article-title>. <source>Brain</source>. <year>2020</year>;<volume>143</volume>:<fpage>2831</fpage>&#x02010;<lpage>2843</lpage>.<pub-id pub-id-type="pmid">32830218</pub-id>
+</mixed-citation></ref><ref id="dad212577-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="dad212577-cit-0015">
+<string-name>
+<surname>McKhann</surname>
+<given-names>GM</given-names>
+</string-name>, <string-name>
+<surname>Knopman</surname>
+<given-names>DS</given-names>
+</string-name>, <string-name>
+<surname>Chertkow</surname>
+<given-names>H</given-names>
+</string-name>, et&#x000a0;al. <article-title>The diagnosis of dementia due to Alzheimer's disease: recommendations from the National Institute on Aging&#x02010;Alzheimer's Association workgroups on diagnostic guidelines for Alzheimer's disease</article-title>. <source>Alzheimer's Dement</source>. <year>2011</year>;<volume>7</volume>:<fpage>263</fpage>&#x02010;<lpage>269</lpage>.<pub-id pub-id-type="pmid">21514250</pub-id>
+</mixed-citation></ref><ref id="dad212577-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="dad212577-cit-0016">
+<string-name>
+<surname>Knopman</surname>
+<given-names>DS</given-names>
+</string-name>, <string-name>
+<surname>Weintraub</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Pankratz</surname>
+<given-names>VS</given-names>
+</string-name>. <article-title>Language and behavior domains enhance the value of the clinical dementia rating scale</article-title>. <source>Alzheimer's Dement</source>. <year>2011</year>;<volume>7</volume>:<fpage>293</fpage>&#x02010;<lpage>299</lpage>.<pub-id pub-id-type="pmid">21575870</pub-id>
+</mixed-citation></ref><ref id="dad212577-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="dad212577-cit-0017">
+<string-name>
+<surname>Mendez</surname>
+<given-names>MF</given-names>
+</string-name>. <article-title>The unique predisposition to criminal violations in frontotemporal dementia</article-title>. <source>J Am Acad Psychiatry Law</source>. <year>2010</year>;<volume>38</volume>:<fpage>318</fpage>&#x02010;<lpage>323</lpage>.<pub-id pub-id-type="pmid">20852216</pub-id>
+</mixed-citation></ref><ref id="dad212577-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="dad212577-cit-0018">
+<string-name>
+<surname>Cummings</surname>
+<given-names>JL</given-names>
+</string-name>. <article-title>The Neuropsychiatric Inventory Assessing psychopathology in dementia patients</article-title>. <source>Neurology</source>. <year>1997</year>;<volume>48</volume>:<fpage>S10</fpage>&#x02010;<lpage>S16</lpage>.</mixed-citation></ref><ref id="dad212577-bib-0019"><label>19</label><mixed-citation publication-type="book" id="dad212577-cit-0019">
+<string-name>
+<surname>Burgess</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Shallice</surname>
+<given-names>T</given-names>
+</string-name>. <source>The Hayling and Brixton tests</source>. <publisher-name>Thames Valley Test Company</publisher-name>; <year>1997</year>.</mixed-citation></ref><ref id="dad212577-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="dad212577-cit-0020">
+<string-name>
+<surname>Miller</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Hsieh</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Lah</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Savage</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Hodges</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name>
+<surname>Piguet</surname>
+<given-names>O</given-names>
+</string-name>. <article-title>One size does not fit all: face emotion processing impairments in semantic dementia, behavioural&#x02010;variant frontotemporal dementia and Alzheimer's disease are mediated by distinct cognitive deficits</article-title>. <source>Behav Neurol</source>. <year>2012</year>;<volume>25</volume>:<fpage>53</fpage>&#x02010;<lpage>60</lpage>.<pub-id pub-id-type="pmid">22207423</pub-id>
+</mixed-citation></ref><ref id="dad212577-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="dad212577-cit-0021">
+<string-name>
+<surname>Kumfor</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Sapey&#x02010;Triomphe</surname>
+<given-names>L&#x02010;A</given-names>
+</string-name>, <string-name>
+<surname>Leyton</surname>
+<given-names>CE</given-names>
+</string-name>, <string-name>
+<surname>Burrell</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name>
+<surname>Hodges</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name>
+<surname>Piguet</surname>
+<given-names>O</given-names>
+</string-name>. <article-title>Degradation of emotion processing ability in corticobasal syndrome and Alzheimer's disease</article-title>. <source>Brain</source>. <year>2014</year>;<volume>137</volume>:<fpage>3061</fpage>&#x02010;<lpage>3072</lpage>.<pub-id pub-id-type="pmid">25227744</pub-id>
+</mixed-citation></ref><ref id="dad212577-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="dad212577-cit-0022">
+<string-name>
+<surname>Hsieh</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Schubert</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Hoon</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Mioshi</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Hodges</surname>
+<given-names>JR</given-names>
+</string-name>. <article-title>Validation of the Addenbrooke's Cognitive Examination III in frontotemporal dementia and Alzheimer's disease</article-title>. <source>Dement Geriatr Cogn Disord</source>. <year>2013</year>;<volume>36</volume>:<fpage>242</fpage>&#x02010;<lpage>250</lpage>.<pub-id pub-id-type="pmid">23949210</pub-id>
+</mixed-citation></ref><ref id="dad212577-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="dad212577-cit-0023">
+<string-name>
+<surname>Rey</surname>
+<given-names>A</given-names>
+</string-name>. <article-title>L'examen psychologique dans les cas d'enc&#x000e9;phalopathie traumatique. (Les problems.). [The psychological examination in cases of traumatic encepholopathy (the problems)</article-title>. <source>Arch S Psychol</source>. <year>1941</year>;<volume>28</volume>:<fpage>215</fpage>&#x02010;<lpage>285</lpage>.</mixed-citation></ref><ref id="dad212577-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="dad212577-cit-0024">
+<string-name>
+<surname>Darby</surname>
+<given-names>RR</given-names>
+</string-name>, <string-name>
+<surname>Horn</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Cushman</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Fox</surname>
+<given-names>MD</given-names>
+</string-name>. <article-title>Lesion network localization of criminal behavior</article-title>. <source>Proc Natl Acad Sci</source>. <year>2018</year>;<volume>115</volume>:<fpage>601</fpage>&#x02010;<lpage>606</lpage>.<pub-id pub-id-type="pmid">29255017</pub-id>
+</mixed-citation></ref><ref id="dad212577-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="dad212577-cit-0025">
+<string-name>
+<surname>Mendez</surname>
+<given-names>MF</given-names>
+</string-name>. <article-title>The implications of frontotemporal dementia for brain dysfunction in psychopathy</article-title>. <source>Biol Psychol</source>. <year>2022</year>;<volume>171</volume>:<elocation-id>108342</elocation-id>.<pub-id pub-id-type="pmid">35487297</pub-id>
+</mixed-citation></ref><ref id="dad212577-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="dad212577-cit-0026">
+<string-name>
+<surname>Ghosh</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Dutt</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Ghosh</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Bhargava</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Rao</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>Using the revised diagnostic criteria for frontotemporal dementia in India: evidence of an advanced and florid disease</article-title>. <source>PLoS One</source>. <year>2013</year>;<volume>8</volume>:<elocation-id>e60999</elocation-id>.<pub-id pub-id-type="pmid">23596513</pub-id>
+</mixed-citation></ref><ref id="dad212577-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="dad212577-cit-0027">
+<string-name>
+<surname>Mendez</surname>
+<given-names>MF</given-names>
+</string-name>, <string-name>
+<surname>Shapira</surname>
+<given-names>JS</given-names>
+</string-name>, <string-name>
+<surname>Saul</surname>
+<given-names>RE</given-names>
+</string-name>. <article-title>The spectrum of sociopathy in dementia</article-title>. <source>J Neuropsychiatry Clin Neurosci</source>. <year>2011</year>;<volume>23</volume>:<fpage>132</fpage>&#x02010;<lpage>140</lpage>.<pub-id pub-id-type="pmid">21677240</pub-id>
+</mixed-citation></ref><ref id="dad212577-bib-0028"><label>28</label><mixed-citation publication-type="book" id="dad212577-cit-0028">
+<collab collab-type="authors">American Psychiatric Association</collab>
+. <source>Diagnostic and Statistical Manual of Mental Disorders (DSM&#x02010;5&#x000ae;)</source>. <publisher-name>American Psychiatric Publishing</publisher-name>; <year>2013</year>.</mixed-citation></ref><ref id="dad212577-bib-0029"><label>29</label><mixed-citation publication-type="book" id="dad212577-cit-0029">
+<string-name>
+<surname>Howard</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Westmore</surname>
+<given-names>B</given-names>
+</string-name>. <source>Crime and Mental Health Law in New South Wales: A practical guide for lawyers and health care professionals</source>. <publisher-name>LexisNexis Butterworths</publisher-name>; <year>2018</year>.</mixed-citation></ref><ref id="dad212577-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="dad212577-cit-0030">
+<string-name>
+<surname>Arias</surname>
+<given-names>JJ</given-names>
+</string-name>, <string-name>
+<surname>Flicker</surname>
+<given-names>LS</given-names>
+</string-name>. <article-title>A matter of intent: a social obligation to improve criminal procedures for individuals with dementia</article-title>. <source>J Law Med Ethics</source>. <year>2020</year>;<volume>48</volume>:<fpage>318</fpage>&#x02010;<lpage>327</lpage>.<pub-id pub-id-type="pmid">32631193</pub-id>
+</mixed-citation></ref><ref id="dad212577-bib-0031"><label>31</label><mixed-citation publication-type="miscellaneous" id="dad212577-cit-0031">
+<collab collab-type="authors">American Bar Association CoLaA</collab>
+. <article-title>Persons living with dementia in the criminal legal system</article-title>. <italic toggle="yes">American Bar Association CoLaA</italic>; <year>2022</year>.</mixed-citation></ref><ref id="dad212577-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="dad212577-cit-0032">
+<string-name>
+<surname>H&#x000e4;iki&#x000f6;</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Sagbakken</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Rugk&#x000e5;sa</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>Dementia and patient safety in the community: a qualitative study of family carers&#x02019; protective practices and implications for services</article-title>. <source>BMC Health Serv Res</source>. <year>2019</year>;<volume>19</volume>:<fpage>635</fpage>.<pub-id pub-id-type="pmid">31488131</pub-id>
+</mixed-citation></ref><ref id="dad212577-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="dad212577-cit-0033">
+<string-name>
+<surname>Ill&#x000e1;n&#x02010;Gala</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Casaletto</surname>
+<given-names>KB</given-names>
+</string-name>, <string-name>
+<surname>Borrego&#x02010;&#x000c9;cija</surname>
+<given-names>S</given-names>
+</string-name>, et&#x000a0;al. <article-title>Sex differences in the behavioral variant of frontotemporal dementia: a new window to executive and behavioral reserve</article-title>. <source>Alzheimer's Dement</source>. <year>2021</year>;<volume>17</volume>:<fpage>1329</fpage>&#x02010;<lpage>1341</lpage>.<pub-id pub-id-type="pmid">33590953</pub-id>
+</mixed-citation></ref><ref id="dad212577-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="dad212577-cit-0034">
+<string-name>
+<surname>de Boer</surname>
+<given-names>SCM</given-names>
+</string-name>, <string-name>
+<surname>Riedl</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>van der Lee</surname>
+<given-names>SJ</given-names>
+</string-name>, et&#x000a0;al. <article-title>Differences in sex distribution between genetic and sporadic frontotemporal dementia</article-title>. <source>J Alzheimers Dis</source>. <year>2021</year>;<volume>84</volume>:<fpage>1153</fpage>&#x02010;<lpage>1161</lpage>.<pub-id pub-id-type="pmid">34633319</pub-id>
+</mixed-citation></ref><ref id="dad212577-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="dad212577-cit-0035">
+<string-name>
+<surname>Adolphe</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Khatib</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>van Golde</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Gainsbury</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name>
+<surname>Blaszczynski</surname>
+<given-names>A</given-names>
+</string-name>. <article-title>Crime and gambling disorders: a systematic review</article-title>. <source>J Gambl Stud</source>. <year>2019</year>;<volume>35</volume>:<fpage>395</fpage>&#x02010;<lpage>414</lpage>.<pub-id pub-id-type="pmid">30039276</pub-id>
+</mixed-citation></ref><ref id="dad212577-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="dad212577-cit-0036">
+<string-name>
+<surname>McKinnon</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Hayes</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Grubin</surname>
+<given-names>D</given-names>
+</string-name>. <article-title>Health characteristics of older police custody detainees in London</article-title>. <source>J Forens Psychiatry Psychol</source>. <year>2017</year>;<volume>28</volume>:<fpage>331</fpage>&#x02010;<lpage>340</lpage>.</mixed-citation></ref><ref id="dad212577-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="dad212577-cit-0037">
+<string-name>
+<surname>Liederbach</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Stelle</surname>
+<given-names>CD</given-names>
+</string-name>. <article-title>Policing a graying population: a study of police contacts with older adults</article-title>. <source>J Crim Justice</source>. <year>2010</year>;<volume>33</volume>:<fpage>37</fpage>&#x02010;<lpage>68</lpage>.</mixed-citation></ref><ref id="dad212577-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="dad212577-cit-0038">
+<string-name>
+<surname>Sun</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Gao</surname>
+<given-names>X</given-names>
+</string-name>, <string-name>
+<surname>Brown</surname>
+<given-names>H</given-names>
+</string-name>. <article-title>Police officer competence in handling Alzheimer's cases: the roles of AD knowledge, beliefs, and exposure</article-title>. <source>Dementia</source>. <year>2019</year>;<volume>18</volume>:<fpage>674</fpage>&#x02010;<lpage>684</lpage>.<pub-id pub-id-type="pmid">28084808</pub-id>
+</mixed-citation></ref><ref id="dad212577-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="dad212577-cit-0039">
+<string-name>
+<surname>Brown</surname>
+<given-names>RT</given-names>
+</string-name>, <string-name>
+<surname>Ahalt</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Rivera</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Stijacic Cenzer</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Wilhelm</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Williams</surname>
+<given-names>BA</given-names>
+</string-name>. <article-title>Good cop, better cop: evaluation of a geriatrics training program for police</article-title>. <source>J Am Geriatr Soc</source>. <year>2017</year>;<volume>65</volume>:<fpage>1842</fpage>&#x02010;<lpage>1847</lpage>.<pub-id pub-id-type="pmid">28436006</pub-id>
+</mixed-citation></ref><ref id="dad212577-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="dad212577-cit-0040">
+<string-name>
+<surname>Boeve</surname>
+<given-names>BF</given-names>
+</string-name>, <string-name>
+<surname>Boxer</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Kumfor</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Pijnenburg</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Rohrer</surname>
+<given-names>JD</given-names>
+</string-name>. <article-title>Advances and controversies in frontotemporal dementia: characterization, diagnosis and therapeutic considerations</article-title>. <source>Lancet Neurol</source>. <year>2022</year>;<volume>21</volume>(<issue>3</issue>):<fpage>258</fpage>&#x02010;<lpage>272</lpage>.<pub-id pub-id-type="pmid">35182511</pub-id>
+</mixed-citation></ref></ref-list></back></article>

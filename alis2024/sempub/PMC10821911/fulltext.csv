@@ -1,0 +1,49 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,38280933
+source,MED
+pmid,38280933
+pmcid,PMC10821911
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC10821911')])"
+doi,10.1038/s41598-024-52873-z
+title,Effects of workbook training using editorials and newspaper articles in adults with preclinical stage of dementia.
+authorString,"Jin S, Yoon JH, Na DL."
+authorList,"OrderedDict([('author', [OrderedDict([('fullName', 'Jin S'), ('firstName', 'Sora'), ('lastName', 'Jin'), ('initials', 'S'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Speech Pathology and Audiology, Graduate School at Hallym University, Chuncheon, South Korea.')]))]))]), OrderedDict([('fullName', 'Yoon JH'), ('firstName', 'Ji Hye'), ('lastName', 'Yoon'), ('initials', 'JH'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Division of Speech Pathology and Audiology, Research Institute of Audiology and Speech Pathology, Hallym University, Chuncheon, South Korea. j.yoon@hallym.ac.kr.')]))]))]), OrderedDict([('fullName', 'Na DL'), ('firstName', 'Duk L'), ('lastName', 'Na'), ('initials', 'DL'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Neurology, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, South Korea.')]))]))])])])"
+journalInfo,"OrderedDict([('issue', '1'), ('volume', '14'), ('journalIssueId', '3689431'), ('dateOfPublication', '2024 Jan'), ('monthOfPublication', '1'), ('yearOfPublication', '2024'), ('printPublicationDate', '2024-01-01'), ('journal', OrderedDict([('title', 'Scientific reports'), ('ISOAbbreviation', 'Sci Rep'), ('medlineAbbreviation', 'Sci Rep'), ('NLMid', '101563288'), ('ISSN', '2045-2322'), ('ESSN', '2045-2322')]))])"
+pubYear,2024
+pageInfo,2302
+abstractText,"Early detection and intervention in individuals in the pre-clinical stage of dementia are crucial. This study aimed to examine whether there are significant differences in (1) word retrieval, (2) subjective communication ability, (3) intervention satisfaction through the 'Fill-in-the-blanks in editorial and newspaper articles' training in patients with subjective cognitive decline and mild cognitive impairment corresponding to the pre-clinical stage of dementia. Ninety-nine patients (50 in the intervention group and 49 in the control group) aged 50-84 years were administered pre- and post-test after 6 weeks of intervention (30 sessions). Regarding word retrieval, there were significant intervention effects on confrontation naming, semantic fluency, and phonemic fluency. The majority of participants in the intervention group were highly satisfied with the training. In terms of intervention satisfaction, the majority of the participants in the intervention group showed high satisfaction with all the questions. This result confirmed the improvement of word retrieval ability through mass communication content-based 'Fill-in-the-blanks' training, and ultimately helps to provide a clinical basis for applying this intervention to prevent dementia."
+affiliation,"Department of Speech Pathology and Audiology, Graduate School at Hallym University, Chuncheon, South Korea."
+publicationStatus,epublish
+language,eng
+pubModel,Electronic
+pubTypeList,"OrderedDict([('pubType', ['research-article', 'Journal Article'])])"
+meshHeadingList,"OrderedDict([('meshHeading', [OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Humans')]), OrderedDict([('majorTopic_YN', 'Y'), ('descriptorName', 'Dementia'), ('meshQualifierList', OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'TH'), ('qualifierName', 'therapy'), ('majorTopic_YN', 'N')]))]))]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Communication')]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Cognition')]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Neuropsychological Tests')]), OrderedDict([('majorTopic_YN', 'Y'), ('descriptorName', 'Cognitive Dysfunction'), ('meshQualifierList', OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'DI'), ('qualifierName', 'diagnosis'), ('majorTopic_YN', 'N')]))]))])])])"
+subsetList,"OrderedDict([('subset', OrderedDict([('code', 'IM'), ('name', 'Index Medicus')]))])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Unpaywall'), ('url', 'https://www.nature.com/articles/s41598-024-52873-z.pdf')]), OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.1038/s41598-024-52873-z')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10821911')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10821911?pdf=render')])])])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,Y
+citedByCount,0
+hasData,Y
+hasReferences,Y
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,N
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCompletion,2024-01-29
+dateOfCreation,2024-01-27
+firstIndexDate,2024-01-28
+fullTextReceivedDate,2024-02-01
+dateOfRevision,2024-01-30
+electronicPublicationDate,2024-01-27
+firstPublicationDate,2024-01-27

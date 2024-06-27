@@ -1,0 +1,133 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>downloaded</th>
+      <th>htmlmade</th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>authorIdList</th>
+      <th>dataLinksTagsList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>affiliation</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>meshHeadingList</th>
+      <th>subsetList</th>
+      <th>fullTextUrlList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>license</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>dateOfCompletion</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>electronicPublicationDate</th>
+      <th>firstPublicationDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC11086904</th>
+      <td>True</td>
+      <td>False</td>
+      <td>38728285</td>
+      <td>MED</td>
+      <td>38728285</td>
+      <td>PMC11086904</td>
+      <td>{'fullTextId': 'PMC11086904'}</td>
+      <td>10.1371/journal.pone.0302333</td>
+      <td>A novel code representation for detecting Java code clones using high-level and abstract compiled code representations.</td>
+      <td>Quradaa FH, Shahzad S, Saeed R, Sufyan MM.</td>
+      <td>{'author': [{'fullName': 'Quradaa FH', 'firstName': 'Fahmi H', 'lastName': 'Quradaa', 'initials': 'FH', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-7872-1877')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Department of Computer Science, University of Peshawar, Peshawar, Pakistan.')]), OrderedDict([('affiliation', 'Department of Computer Science, Aden Community College, Aden, Yemen.')])])])}, {'fullName': 'Shahzad S', 'firstName': 'Sara', 'lastName': 'Shahzad', 'initials': 'S', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Computer Science, University of Peshawar, Peshawar, Pakistan.')]))])}, {'fullName': 'Saeed R', 'firstName': 'Rashad', 'lastName': 'Saeed', 'initials': 'R', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-2732-1352')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Department of Computer Science, University of Peshawar, Peshawar, Pakistan.')]), OrderedDict([('affiliation', 'Department of Computer Science, Aden Community College, Aden, Yemen.')])])])}, {'fullName': 'Sufyan MM', 'firstName': 'Mubarak M', 'lastName': 'Sufyan', 'initials': 'MM', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-0443-6819')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Department of Computer Science, University of Peshawar, Peshawar, Pakistan.')]), OrderedDict([('affiliation', 'Department of Networks and Cyber Security, AlJanad University Of Science and Technology, Taiz, Yemen.')])])])}]}</td>
+      <td>{'authorId': [{'@type': 'ORCID', '#text': '0000-0001-7872-1877'}, {'@type': 'ORCID', '#text': '0000-0002-0443-6819'}, {'@type': 'ORCID', '#text': '0000-0002-2732-1352'}]}</td>
+      <td>{'dataLinkstag': 'plain_english'}</td>
+      <td>{'issue': '5', 'volume': '19', 'journalIssueId': '3763110', 'dateOfPublication': '2024', 'monthOfPublication': '0', 'yearOfPublication': '2024', 'printPublicationDate': '2024-01-01', 'journal': {'title': 'PloS one', 'ISOAbbreviation': 'PLoS One', 'medlineAbbreviation': 'PLoS One', 'NLMid': '101285081', 'ISSN': '1932-6203', 'ESSN': '1932-6203'}}</td>
+      <td>2024</td>
+      <td>e0302333</td>
+      <td>In software development, it's common to reuse existing source code by copying and pasting, resulting in the proliferation of numerous code clones-similar or identical code fragments-that detrimentally affect software quality and maintainability. Although several techniques for code clone detection exist, many encounter challenges in effectively identifying semantic clones due to their inability to extract syntax and semantics information. Fewer techniques leverage low-level source code representations like bytecode or assembly for clone detection. This work introduces a novel code representation for identifying syntactic and semantic clones in Java source code. It integrates high-level features extracted from the Abstract Syntax Tree with low-level features derived from intermediate representations generated by static analysis tools, like the Soot framework. Leveraging this combined representation, fifteen machine-learning models are trained to effectively detect code clones. Evaluation on a large dataset demonstrates the models' efficacy in accurately identifying semantic clones. Among these classifiers, ensemble classifiers, such as the LightGBM classifier, exhibit exceptional accuracy. Linearly combining features enhances the effectiveness of the models compared to multiplication and distance combination techniques. The experimental findings indicate that the proposed method can outperform the current clone detection techniques in detecting semantic clones.</td>
+      <td>Department of Computer Science, University of Peshawar, Peshawar, Pakistan.</td>
+      <td>epublish</td>
+      <td>eng</td>
+      <td>Electronic-eCollection</td>
+      <td>{'pubType': ['Research Support, Non-U.S. Gov't', 'research-article', 'Journal Article']}</td>
+      <td>{'meshHeading': [{'majorTopic_YN': 'N', 'descriptorName': 'Algorithms'}, {'majorTopic_YN': 'Y', 'descriptorName': 'Semantics'}, {'majorTopic_YN': 'Y', 'descriptorName': 'Software'}, {'majorTopic_YN': 'N', 'descriptorName': 'Programming Languages'}, {'majorTopic_YN': 'N', 'descriptorName': 'Machine Learning'}]}</td>
+      <td>{'subset': {'code': 'IM', 'name': 'Index Medicus'}}</td>
+      <td>{'fullTextUrl': [{'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Unpaywall', 'url': 'https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0302333&type=printable'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1371/journal.pone.0302333'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC11086904'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC11086904?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>0</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>2024-05-10</td>
+      <td>2024-05-10</td>
+      <td>2024-05-11</td>
+      <td>2024-05-13</td>
+      <td>2024-05-12</td>
+      <td>2024-05-10</td>
+      <td>2024-05-10</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    

@@ -1,0 +1,52 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,38530811
+source,MED
+pmid,38530811
+pmcid,PMC10965085
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC10965085')])"
+doi,10.1371/journal.pone.0298650
+title,Anomalous diffusion analysis of semantic evolution in major Indo-European languages.
+authorString,"Asztalos B, Palla G, Czégel D."
+authorList,"OrderedDict([('author', [OrderedDict([('fullName', 'Asztalos B'), ('firstName', 'Bogdán'), ('lastName', 'Asztalos'), ('initials', 'B'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-1085-1939')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Deptartment of Biological Physics, Eötvös University, Budapest, Hungary.')]))]))]), OrderedDict([('fullName', 'Palla G'), ('firstName', 'Gergely'), ('lastName', 'Palla'), ('initials', 'G'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Deptartment of Biological Physics, Eötvös University, Budapest, Hungary.')]), OrderedDict([('affiliation', 'Health Services Management Training Centre, Semmelweis University, Budapest, Hungary.')])])]))]), OrderedDict([('fullName', 'Czégel D'), ('firstName', 'Dániel'), ('lastName', 'Czégel'), ('initials', 'D'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-5722-1598')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Institute of Evolution, Centre for Ecological Research, Budapest, Hungary.')]), OrderedDict([('affiliation', 'Parmenides Center for the Conceptual Foundations of Science, Pöcking, Germany.')])])]))])])])"
+authorIdList,"OrderedDict([('authorId', [OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-1085-1939')]), OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-5722-1598')])])])"
+dataLinksTagsList,"OrderedDict([('dataLinkstag', 'altmetrics')])"
+journalInfo,"OrderedDict([('issue', '3'), ('volume', '19'), ('journalIssueId', '3732067'), ('dateOfPublication', '2024'), ('monthOfPublication', '0'), ('yearOfPublication', '2024'), ('printPublicationDate', '2024-01-01'), ('journal', OrderedDict([('title', 'PloS one'), ('ISOAbbreviation', 'PLoS One'), ('medlineAbbreviation', 'PLoS One'), ('NLMid', '101285081'), ('ISSN', '1932-6203'), ('ESSN', '1932-6203')]))])"
+pubYear,2024
+pageInfo,e0298650
+abstractText,"How do words change their meaning? Although semantic evolution is driven by a variety of distinct factors, including linguistic, societal, and technological ones, we find that there is one law that holds universally across five major Indo-European languages: that semantic evolution is subdiffusive. Using an automated pipeline of diachronic distributional semantic embedding that controls for underlying symmetries, we show that words follow stochastic trajectories in meaning space with an anomalous diffusion exponent α = 0.45 ± 0.05 across languages, in contrast with diffusing particles that follow α = 1. Randomization methods indicate that preserving temporal correlations in semantic change directions is necessary to recover strongly subdiffusive behavior; however, correlations in change sizes play an important role too. We furthermore show that strong subdiffusion is a robust phenomenon under a wide variety of choices in data analysis and interpretation, such as the choice of fitting an ensemble average of displacements or averaging best-fit exponents of individual word trajectories."
+affiliation,"Deptartment of Biological Physics, Eötvös University, Budapest, Hungary."
+publicationStatus,epublish
+language,eng
+pubModel,Electronic-eCollection
+pubTypeList,"OrderedDict([('pubType', ['research-article', 'Journal Article'])])"
+grantsList,"OrderedDict([('grant', [OrderedDict([('grantId', 'K128780'), ('agency', 'Nemzeti Kutatási és Technológiai Hivatal'), ('orderIn', '0')]), OrderedDict([('grantId', '101021607'), ('agency', 'Horizon 2020 Framework Programme'), ('orderIn', '0')]), OrderedDict([('grantId', 'RRF-2.3.1-21-2022-00004'), ('agency', 'Mesterséges Intelligencia Nemzeti Laboratórium'), ('orderIn', '0')])])])"
+meshHeadingList,"OrderedDict([('meshHeading', [OrderedDict([('majorTopic_YN', 'Y'), ('descriptorName', 'Language')]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Diffusion')]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Technology')]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Linguistics')]), OrderedDict([('majorTopic_YN', 'Y'), ('descriptorName', 'Semantics')])])])"
+subsetList,"OrderedDict([('subset', OrderedDict([('code', 'IM'), ('name', 'Index Medicus')]))])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Unpaywall'), ('url', 'https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0298650&type=printable')]), OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.1371/journal.pone.0298650')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10965085')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10965085?pdf=render')])])])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,Y
+citedByCount,0
+hasData,Y
+hasReferences,Y
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,Y
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCompletion,2024-03-28
+dateOfCreation,2024-03-26
+firstIndexDate,2024-03-27
+fullTextReceivedDate,2024-03-28
+dateOfRevision,2024-03-28
+electronicPublicationDate,2024-03-26
+firstPublicationDate,2024-03-26

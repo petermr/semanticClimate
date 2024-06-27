@@ -1,0 +1,50 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,38834620
+source,MED
+pmid,38834620
+pmcid,PMC11150377
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC11150377')])"
+doi,10.1038/s41598-024-63623-6
+title,RA-Net: reverse attention for generalizing residual learning.
+authorString,"Wang Z, Xie X, Yang J, Song X."
+authorList,"OrderedDict([('author', [OrderedDict([('fullName', 'Wang Z'), ('firstName', 'Zhenyuan'), ('lastName', 'Wang'), ('initials', 'Z'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', ""School of Artificial Intelligence, Xidian University, Xi'an, 710071, China."")]), OrderedDict([('affiliation', 'Pazhou Lab, Huangpu, 510555, Guangzhou, China.')])])]))]), OrderedDict([('fullName', 'Xie X'), ('firstName', 'Xuemei'), ('lastName', 'Xie'), ('initials', 'X'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Guangzhou Institute of Technology, Xidian University, Guangzhou, 510555, China. xmxie@mail.xidian.edu.cn.')]), OrderedDict([('affiliation', 'Pazhou Lab, Huangpu, 510555, Guangzhou, China. xmxie@mail.xidian.edu.cn.')])])]))]), OrderedDict([('fullName', 'Yang J'), ('firstName', 'Jianxiu'), ('lastName', 'Yang'), ('initials', 'J'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Pazhou Lab, Huangpu, 510555, Guangzhou, China.')]))]))]), OrderedDict([('fullName', 'Song X'), ('firstName', 'Xiaodan'), ('lastName', 'Song'), ('initials', 'X'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Guangzhou Institute of Technology, Xidian University, Guangzhou, 510555, China.')]))]))])])])"
+dataLinksTagsList,"OrderedDict([('dataLinkstag', 'altmetrics')])"
+journalInfo,"OrderedDict([('issue', '1'), ('volume', '14'), ('journalIssueId', '3778079'), ('dateOfPublication', '2024 Jun'), ('monthOfPublication', '6'), ('yearOfPublication', '2024'), ('printPublicationDate', '2024-06-01'), ('journal', OrderedDict([('title', 'Scientific reports'), ('ISOAbbreviation', 'Sci Rep'), ('medlineAbbreviation', 'Sci Rep'), ('NLMid', '101563288'), ('ISSN', '2045-2322'), ('ESSN', '2045-2322')]))])"
+pubYear,2024
+pageInfo,12771
+abstractText,"Since residual learning was proposed, identity mapping has been widely utilized in various neural networks. The method enables information transfer without any attenuation, which plays a significant role in training deeper networks. However, interference with unhindered transmission also affects the network's performance. Accordingly, we propose a generalized residual learning architecture called reverse attention (RA), which applies high-level semantic features to supervise low-level information in the identity mapping branch. It means that higher semantic features selectively transmit low-level information to deeper layers. In addition, we propose a Modified Global Response Normalization(M-GRN) to implement reverse attention. RA-Net is derived by embedding M-GRN in the residual learning framework. The experiments show that the RA-Net brings significant improvements over residual networks on typical computer vision tasks. For classification on ImageNet-1K, compared with resnet101, RA-Net improves the Top-1 accuracy by 1.7% with comparable parameters and computational cost. For COCO detection, on Faster R-CNN, reverse attention improves box AP by 1.9%. Meanwhile, reverse attention improves UpperNet's mIoU by 0.7% on ADE20K segmentation."
+affiliation,"School of Artificial Intelligence, Xidian University, Xi'an, 710071, China."
+publicationStatus,epublish
+language,eng
+pubModel,Electronic
+pubTypeList,"OrderedDict([('pubType', ['research-article', 'Journal Article'])])"
+grantsList,"OrderedDict([('grant', [OrderedDict([('grantId', '202201000001'), ('agency', 'Guangzhou Key Laboratory of Scene Understanding and Intelligent Interaction'), ('orderIn', '0')]), OrderedDict([('grantId', '202206030003'), ('agency', 'Guangzhou Key Research and Development Program'), ('orderIn', '0')]), OrderedDict([('grantId', '62293483'), ('agency', 'National Natural Science Foundation of China'), ('orderIn', '0')])])])"
+keywordList,"OrderedDict([('keyword', ['Identity Mapping', 'Reverse Attention', 'Generalized Residual Learning', 'Modified Global Response Normalization'])])"
+subsetList,"OrderedDict([('subset', OrderedDict([('code', 'IM'), ('name', 'Index Medicus')]))])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'doi'), ('site', 'Unpaywall'), ('url', 'https://doi.org/10.1038/s41598-024-63623-6')]), OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.1038/s41598-024-63623-6')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC11150377')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC11150377?pdf=render')])])])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,N
+citedByCount,0
+hasData,N
+hasReferences,Y
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,Y
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCreation,2024-06-04
+firstIndexDate,2024-06-05
+fullTextReceivedDate,2024-06-10
+dateOfRevision,2024-06-07
+electronicPublicationDate,2024-06-04
+firstPublicationDate,2024-06-04

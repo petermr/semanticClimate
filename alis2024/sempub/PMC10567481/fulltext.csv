@@ -1,0 +1,47 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,37828967
+source,MED
+pmid,37828967
+pmcid,PMC10567481
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC10567481')])"
+doi,10.1155/2023/9837126
+title,Retracted: Emotional Intervention and Education System Construction for Rural Children Based on Semantic Analysis.
+authorString,International OT.
+authorList,"OrderedDict([('author', OrderedDict([('fullName', 'International OT'), ('firstName', 'Occupational Therapy'), ('lastName', 'International'), ('initials', 'OT')]))])"
+journalInfo,"OrderedDict([('volume', '2023'), ('journalIssueId', '3497065'), ('dateOfPublication', '2023'), ('monthOfPublication', '0'), ('yearOfPublication', '2023'), ('printPublicationDate', '2023-01-01'), ('journal', OrderedDict([('title', 'Occupational therapy international'), ('ISOAbbreviation', 'Occup Ther Int'), ('medlineAbbreviation', 'Occup Ther Int'), ('NLMid', '9433361'), ('ISSN', '0966-7903'), ('ESSN', '1557-0703')]))])"
+pubYear,2023
+pageInfo,9837126
+abstractText,[This retracts the article DOI: 10.1155/2022/1073717.].
+publicationStatus,epublish
+language,eng
+pubModel,Electronic-eCollection
+pubTypeList,"OrderedDict([('pubType', 'Retraction of Publication')])"
+subsetList,"OrderedDict([('subset', OrderedDict([('code', 'IM'), ('name', 'Index Medicus')]))])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Unpaywall'), ('url', 'https://downloads.hindawi.com/journals/oti/2023/9837126.pdf')]), OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.1155/2023/9837126')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10567481')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10567481?pdf=render')])])])"
+commentCorrectionList,"OrderedDict([('commentCorrection', OrderedDict([('id', '35874601'), ('source', 'MED'), ('reference', 'Occup Ther Int. 2022 Jul 4;2022:1073717'), ('type', 'Retraction of'), ('orderIn', '1')]))])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,N
+citedByCount,0
+hasData,N
+hasReferences,Y
+hasTextMinedTerms,N
+hasDbCrossReferences,N
+hasLabsLinks,N
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCreation,2023-10-13
+firstIndexDate,2023-10-13
+fullTextReceivedDate,2023-10-14
+dateOfRevision,2023-10-31
+electronicPublicationDate,2023-10-04
+firstPublicationDate,2023-10-04

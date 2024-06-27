@@ -1,0 +1,131 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>downloaded</th>
+      <th>htmlmade</th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>authorIdList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>affiliation</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>grantsList</th>
+      <th>keywordList</th>
+      <th>subsetList</th>
+      <th>fullTextUrlList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>license</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>electronicPublicationDate</th>
+      <th>firstPublicationDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC10995171</th>
+      <td>True</td>
+      <td>False</td>
+      <td>38575650</td>
+      <td>MED</td>
+      <td>38575650</td>
+      <td>PMC10995171</td>
+      <td>{'fullTextId': 'PMC10995171'}</td>
+      <td>10.1038/s41598-024-58585-8</td>
+      <td>Typhoon disaster state information extraction for Chinese texts.</td>
+      <td>Ye P, Zhang C, Chen M, Li S.</td>
+      <td>{'author': [{'fullName': 'Ye P', 'firstName': 'Peng', 'lastName': 'Ye', 'initials': 'P', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-2149-8269')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Urban Planning and Development Institute, Yangzhou University, Yangzhou, 225127, China.')]), OrderedDict([('affiliation', 'College of Architectural Science and Engineering, Yangzhou University, Yangzhou, 225127, China.')])])])}, {'fullName': 'Zhang C', 'firstName': 'Chunju', 'lastName': 'Zhang', 'initials': 'C', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'School of Civil Engineering, Hefei University of Technology, Hefei, 230009, China.')]))])}, {'fullName': 'Chen M', 'firstName': 'Mingzhu', 'lastName': 'Chen', 'initials': 'M', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Key Laboratory of Virtual Geographic Environment, Ministry of Education, Nanjing Normal University, Nanjing, 210023, China.')]), OrderedDict([('affiliation', 'Jiangsu Center for Collaborative Innovation in Geographical Information Resource Development and Application, Nanjing, 210023, China.')])])])}, {'fullName': 'Li S', 'firstName': 'Shengcai', 'lastName': 'Li', 'initials': 'S', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'College of Architectural Science and Engineering, Yangzhou University, Yangzhou, 225127, China. lisc@yzu.edu.cn.')]))])}]}</td>
+      <td>{'authorId': {'@type': 'ORCID', '#text': '0000-0003-2149-8269'}}</td>
+      <td>{'issue': '1', 'volume': '14', 'journalIssueId': '3747240', 'dateOfPublication': '2024 Apr', 'monthOfPublication': '4', 'yearOfPublication': '2024', 'printPublicationDate': '2024-04-01', 'journal': {'title': 'Scientific reports', 'ISOAbbreviation': 'Sci Rep', 'medlineAbbreviation': 'Sci Rep', 'NLMid': '101563288', 'ISSN': '2045-2322', 'ESSN': '2045-2322'}}</td>
+      <td>2024</td>
+      <td>7925</td>
+      <td>Typhoon disasters undergo a complex evolutionary process influenced by temporal changes, and investigating this process constitutes the central focus of geographical research. As a key node within the typhoon disaster process, the state serves as the foundation for gauging the dynamics of the disaster. The majority of current approaches to disaster information extraction rely on event extraction methods to acquire fundamental elements, including disaster-causing factors, disaster-bearing bodies, disaster-pregnant environment and the extent of damage. Due to the dispersion of various disaster information and the diversity of time and space, it is a challenge for supporting the analysis of the typhoon disaster process. In this paper, a typhoon disaster state information extraction (TDSIE) method for Chinese texts is proposed, which aims to facilitate the systematic integration of fragmented typhoon disaster information. First, the integration of part-of-speech tagging with spatio-temporal information extraction is employed to achieve the tagging of typhoon disaster texts. Second, within the framework of spatio-temporal semantic units, the typhoon disaster semantic vector is constructed to facilitate the identification of information elements of typhoon disaster states. Third, co-referential state information fusion is performed based on spatio-temporal cues. Experimental analysis, conducted using online news as the data source, reveals that the TDSIE achieves precision and recall rates consistently surpassing 85%. The typhoon disaster state information derived from the TDSIE allows for the analysis of spatio-temporal patterns, evolutionary characteristics, and activity modes of typhoon disasters across various scales. Therefore, TDSIE serves as valuable support for investigating the inherent process properties of typhoon disasters.</td>
+      <td>Urban Planning and Development Institute, Yangzhou University, Yangzhou, 225127, China.</td>
+      <td>epublish</td>
+      <td>eng</td>
+      <td>Electronic</td>
+      <td>{'pubType': ['research-article', 'Journal Article']}</td>
+      <td>{'grant': [{'grantId': '42301522', 'agency': 'National Natural Science Foundation of China', 'orderIn': '0'}, {'grantId': '42171453', 'agency': 'National Natural Science Foundation of China', 'orderIn': '0'}, {'grantId': '2022SJYB2128', 'agency': 'Key Project of Philosophy and Social Science Research in Colleges and Universities in Jiangsu Province', 'orderIn': '0'}]}</td>
+      <td>{'keyword': ['Typhoon Disaster', 'Spatio-temporal Semantic Unit', 'State Information Extraction', 'State Information Fusion', 'Typhoon Disaster Semantic Vector']}</td>
+      <td>{'subset': {'code': 'IM', 'name': 'Index Medicus'}}</td>
+      <td>{'fullTextUrl': [{'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Unpaywall', 'url': 'https://www.nature.com/articles/s41598-024-58585-8.pdf'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1038/s41598-024-58585-8'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC10995171'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC10995171?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+      <td>0</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>2024-04-04</td>
+      <td>2024-04-05</td>
+      <td>2024-04-09</td>
+      <td>2024-04-07</td>
+      <td>2024-04-04</td>
+      <td>2024-04-04</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    

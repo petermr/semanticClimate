@@ -1,0 +1,137 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>downloaded</th>
+      <th>htmlmade</th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>authorIdList</th>
+      <th>dataLinksTagsList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>affiliation</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>grantsList</th>
+      <th>meshHeadingList</th>
+      <th>subsetList</th>
+      <th>fullTextUrlList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>license</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>tmAccessionTypeList</th>
+      <th>dateOfCompletion</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>electronicPublicationDate</th>
+      <th>firstPublicationDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC11014927</th>
+      <td>True</td>
+      <td>False</td>
+      <td>38609405</td>
+      <td>MED</td>
+      <td>38609405</td>
+      <td>PMC11014927</td>
+      <td>{'fullTextId': 'PMC11014927'}</td>
+      <td>10.1038/s41597-024-03193-4</td>
+      <td>Cataract-1K Dataset for Deep-Learning-Assisted Analysis of Cataract Surgery Videos.</td>
+      <td>Ghamsarian N, El-Shabrawi Y, Nasirihaghighi S, Putzgruber-Adamitsch D, Zinkernagel M, Wolf S, Schoeffmann K, Sznitman R.</td>
+      <td>{'author': [{'fullName': 'Ghamsarian N', 'firstName': 'Negin', 'lastName': 'Ghamsarian', 'initials': 'N', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Center for Artificial Intelligence in Medicine (CAIM), Department of Medicine, University of Bern, Bern, Switzerland.')]))])}, {'fullName': 'El-Shabrawi Y', 'firstName': 'Yosuf', 'lastName': 'El-Shabrawi', 'initials': 'Y', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Ophthalmology, Klinikum Klagenfurt, Klagenfurt, Austria.')]))])}, {'fullName': 'Nasirihaghighi S', 'firstName': 'Sahar', 'lastName': 'Nasirihaghighi', 'initials': 'S', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Information Technology, University of Klagenfurt, Klagenfurt, Austria.')]))])}, {'fullName': 'Putzgruber-Adamitsch D', 'firstName': 'Doris', 'lastName': 'Putzgruber-Adamitsch', 'initials': 'D', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Ophthalmology, Klinikum Klagenfurt, Klagenfurt, Austria.')]))])}, {'fullName': 'Zinkernagel M', 'firstName': 'Martin', 'lastName': 'Zinkernagel', 'initials': 'M', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-3447-2359')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Ophthalmology, Inselspital, Bern, Switzerland.')]))])}, {'fullName': 'Wolf S', 'firstName': 'Sebastian', 'lastName': 'Wolf', 'initials': 'S', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-7467-7028')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Ophthalmology, Inselspital, Bern, Switzerland.')]))])}, {'fullName': 'Schoeffmann K', 'firstName': 'Klaus', 'lastName': 'Schoeffmann', 'initials': 'K', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-9218-1704')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Information Technology, University of Klagenfurt, Klagenfurt, Austria. ks@itec.aau.at.')]))])}, {'fullName': 'Sznitman R', 'firstName': 'Raphael', 'lastName': 'Sznitman', 'initials': 'R', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Center for Artificial Intelligence in Medicine (CAIM), Department of Medicine, University of Bern, Bern, Switzerland.')]))])}]}</td>
+      <td>{'authorId': [{'@type': 'ORCID', '#text': '0000-0002-7467-7028'}, {'@type': 'ORCID', '#text': '0000-0002-9218-1704'}, {'@type': 'ORCID', '#text': '0000-0003-3447-2359'}]}</td>
+      <td>{'dataLinkstag': ['altmetrics', 'supporting_data']}</td>
+      <td>{'issue': '1', 'volume': '11', 'journalIssueId': '3749411', 'dateOfPublication': '2024 Apr', 'monthOfPublication': '4', 'yearOfPublication': '2024', 'printPublicationDate': '2024-04-01', 'journal': {'title': 'Scientific data', 'ISOAbbreviation': 'Sci Data', 'medlineAbbreviation': 'Sci Data', 'NLMid': '101640192', 'ISSN': '2052-4463', 'ESSN': '2052-4463'}}</td>
+      <td>2024</td>
+      <td>373</td>
+      <td>In recent years, the landscape of computer-assisted interventions and post-operative surgical video analysis has been dramatically reshaped by deep-learning techniques, resulting in significant advancements in surgeons' skills, operation room management, and overall surgical outcomes. However, the progression of deep-learning-powered surgical technologies is profoundly reliant on large-scale datasets and annotations. In particular, surgical scene understanding and phase recognition stand as pivotal pillars within the realm of computer-assisted surgery and post-operative assessment of cataract surgery videos. In this context, we present the largest cataract surgery video dataset that addresses diverse requisites for constructing computerized surgical workflow analysis and detecting post-operative irregularities in cataract surgery. We validate the quality of annotations by benchmarking the performance of several state-of-the-art neural network architectures for phase recognition and surgical scene segmentation. Besides, we initiate the research on domain adaptation for instrument segmentation in cataract surgery by evaluating cross-domain instrument segmentation performance in cataract surgery videos. The dataset and annotations are publicly available in Synapse.</td>
+      <td>Center for Artificial Intelligence in Medicine (CAIM), Department of Medicine, University of Bern, Bern, Switzerland.</td>
+      <td>epublish</td>
+      <td>eng</td>
+      <td>Electronic</td>
+      <td>{'pubType': ['Dataset', 'data-paper', 'Journal Article']}</td>
+      <td>{'grant': {'grantId': 'P 32010-N38', 'agency': 'Austrian Science Fund FWF', 'orderIn': '0'}}</td>
+      <td>{'meshHeading': [{'majorTopic_YN': 'N', 'descriptorName': 'Humans'}, {'majorTopic_YN': 'Y', 'descriptorName': 'Cataract'}, {'majorTopic_YN': 'Y', 'descriptorName': 'Cataract Extraction', 'meshQualifierList': OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'MT'), ('qualifierName', 'methods'), ('majorTopic_YN', 'N')]))])}, {'majorTopic_YN': 'Y', 'descriptorName': 'Video Recording'}, {'majorTopic_YN': 'N', 'descriptorName': 'Benchmarking'}, {'majorTopic_YN': 'Y', 'descriptorName': 'Deep Learning'}, {'majorTopic_YN': 'N', 'descriptorName': 'Neural Networks, Computer'}]}</td>
+      <td>{'subset': {'code': 'IM', 'name': 'Index Medicus'}}</td>
+      <td>{'fullTextUrl': [{'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Unpaywall', 'url': 'https://www.nature.com/articles/s41597-024-03193-4.pdf'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1038/s41597-024-03193-4'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC11014927'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC11014927?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+      <td>1</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>{'accessionType': 'doi'}</td>
+      <td>2024-04-15</td>
+      <td>2024-04-12</td>
+      <td>2024-04-13</td>
+      <td>2024-04-18</td>
+      <td>2024-04-25</td>
+      <td>2024-04-12</td>
+      <td>2024-04-12</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    

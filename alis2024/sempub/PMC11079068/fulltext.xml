@@ -1,0 +1,1227 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd"> 
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.3"><?properties open_access?><?DTDIdentifier.IdentifierValue -//Springer-Verlag//DTD A++ V2.4//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName A++V2.4.dtd?><?SourceDTD.Version 2.4?><?ConverterInfo.XSLTName springer2nlmx2.xsl?><?ConverterInfo.Version 1?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Nat Commun</journal-id><journal-id journal-id-type="iso-abbrev">Nat Commun</journal-id><journal-title-group><journal-title>Nature Communications</journal-title></journal-title-group><issn pub-type="epub">2041-1723</issn><publisher><publisher-name>Nature Publishing Group UK</publisher-name><publisher-loc>London</publisher-loc></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmcid">11079068</article-id><article-id pub-id-type="pmid">38719933</article-id>
+<article-id pub-id-type="publisher-id">48115</article-id><article-id pub-id-type="doi">10.1038/s41467-024-48115-5</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>Semantic regularization of electromagnetic inverse problems</article-title></title-group><contrib-group><contrib contrib-type="author" equal-contrib="yes"><name><surname>Zhang</surname><given-names>Hongrui</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author" equal-contrib="yes"><name><surname>Chen</surname><given-names>Yanjin</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author"><name><surname>Wang</surname><given-names>Zhuo</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5862-1497</contrib-id><name><surname>Cui</surname><given-names>Tie Jun</given-names></name><address><email>tjcui@seu.edu.cn</email></address><xref ref-type="aff" rid="Aff2">2</xref><xref ref-type="aff" rid="Aff3">3</xref></contrib><contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4821-3924</contrib-id><name><surname>del Hougne</surname><given-names>Philipp</given-names></name><address><email>philipp.del-hougne@univ-rennes1.fr</email></address><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-9394-3638</contrib-id><name><surname>Li</surname><given-names>Lianlin</given-names></name><address><email>lianlin.li@pku.edu.cn</email></address><xref ref-type="aff" rid="Aff1">1</xref><xref ref-type="aff" rid="Aff3">3</xref></contrib><aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.11135.37</institution-id><institution-id institution-id-type="ISNI">0000 0001 2256 9319</institution-id><institution>State Key Laboratory of Advanced Optical Communication Systems and Networks, School of Electronics, </institution><institution>Peking University, </institution></institution-wrap>Beijing, 100871 China </aff><aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.263826.b</institution-id><institution-id institution-id-type="ISNI">0000 0004 1761 0489</institution-id><institution>State Key Laboratory of Millimeter Waves, </institution><institution>Southeast University, </institution></institution-wrap>Nanjing, 210096 China </aff><aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.513189.7</institution-id><institution>Pazhou Laboratory (Huangpu), </institution><institution>Guangzhou, </institution></institution-wrap>Guangdong, 510555 China </aff><aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="ROR">https://ror.org/015m7wh34</institution-id><institution-id institution-id-type="GRID">grid.410368.8</institution-id><institution-id institution-id-type="ISNI">0000 0001 2191 9284</institution-id><institution>Univ Rennes, CNRS, </institution><institution>IETR - UMR 6164, </institution></institution-wrap>F-35000 Rennes, France </aff></contrib-group><pub-date pub-type="epub"><day>8</day><month>5</month><year>2024</year></pub-date><pub-date pub-type="pmc-release"><day>8</day><month>5</month><year>2024</year></pub-date><pub-date pub-type="collection"><year>2024</year></pub-date><volume>15</volume><elocation-id>3869</elocation-id><history><date date-type="received"><day>5</day><month>1</month><year>2024</year></date><date date-type="accepted"><day>19</day><month>4</month><year>2024</year></date></history><permissions><copyright-statement>&#x000a9; The Author(s) 2024</copyright-statement><license><ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article&#x02019;s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article&#x02019;s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p></license></permissions><abstract id="Abs1"><p id="Par1">Solving ill-posed inverse problems typically requires regularization based on prior knowledge. To date, only prior knowledge that is formulated mathematically (e.g., sparsity of the unknown) or implicitly learned from quantitative data can be used for regularization. Thereby, semantically formulated prior knowledge derived from human reasoning and recognition is excluded. Here, we introduce and demonstrate the concept of semantic regularization based on a pre-trained large language model to overcome this vexing limitation. We study the approach, first, numerically in a prototypical 2D inverse scattering problem, and, second, experimentally in 3D and 4D compressive microwave imaging problems based on programmable metasurfaces. We highlight that semantic regularization enables new forms of highly-sought privacy protection for applications like smart homes, touchless human-machine interaction and security screening: selected subjects in the scene can be concealed, or their actions and postures can be altered in the reconstruction by manipulating the semantic prior with suitable language-based control commands.</p></abstract><abstract id="Abs2" abstract-type="web-summary"><p id="Par2">Solving ill-posed inverse problems require regularisation based on prior knowledge, which is formulated mathematically or learned from data. Here, the authors demonstrated the concept of semantic regularisation based on large language model to circumvent the current limitation.</p></abstract><kwd-group kwd-group-type="npg-subject"><title>Subject terms</title><kwd>Electrical and electronic engineering</kwd><kwd>Imaging techniques</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>issue-copyright-statement</meta-name><meta-value>&#x000a9; Springer Nature Limited 2024</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="Sec1" sec-type="introduction"><title>Introduction</title><p id="Par3">Inverse problems, omnipresent in most areas of science and engineering, are notoriously difficult to solve due to their ill-posed nature<sup><xref ref-type="bibr" rid="CR1">1</xref>&#x02013;<xref ref-type="bibr" rid="CR7">7</xref></sup>. Generally speaking, an inverse problem seeks to find the &#x0201c;cause&#x0201d; that gave rise to an observed (or desired) &#x0201c;effect&#x0201d;<sup><xref ref-type="bibr" rid="CR8">8</xref></sup>. For instance, wave-based imaging seeks to reconstruct the material properties of a scene based on observations of how the scene scatters known impinging waves<sup><xref ref-type="bibr" rid="CR9">9</xref></sup>. The ill-posedness of an inverse problem originates from the low-dimensional and noisy nature of the available measurements: multiple distinct causes can plausibly explain the observed measurements. To solve the inverse problem, prior knowledge about the sought-after cause must be introduced to supplement the insufficient measurements. The construction of a modified, approximately well-posed version of the originally ill-posed inverse problem based on prior knowledge is known as regularization. The regularization process can be understood in light of Bayes&#x02019; theorem<sup><xref ref-type="bibr" rid="CR10">10</xref>,<xref ref-type="bibr" rid="CR11">11</xref></sup>: our prior knowledge is updated with the new information from the measurements. Pioneered by Tikhonov<sup><xref ref-type="bibr" rid="CR12">12</xref></sup>, a wide range of regularization techniques<sup><xref ref-type="bibr" rid="CR2">2</xref>,<xref ref-type="bibr" rid="CR12">12</xref>&#x02013;<xref ref-type="bibr" rid="CR14">14</xref></sup> has been explored that mathematically formulate their prior knowledge about the unknown. Examples of prior knowledge about the unknown include the fact that it is smooth<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>, piece-wise smooth<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>, or sparse<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>, or that it has a tree-like pattern<sup><xref ref-type="bibr" rid="CR18">18</xref></sup>. More recently, alternative data-driven regularization methods implicitly learned from quantitative calibration data emerged<sup><xref ref-type="bibr" rid="CR19">19</xref>&#x02013;<xref ref-type="bibr" rid="CR22">22</xref></sup>. Despite the huge success of both mathematically-formulated and quantitative-data-driven regularizers in mitigating the ill-posedness of inverse problems, these methods struggle or fail to handle prior information originating from human recognition or reasoning because the latter priors are typically formulated semantically rather than mathematically or quantitatively.</p><p id="Par4">Indeed, human natural language is an indispensable means of characterizing, understanding, and reasoning about the world around us and the phenomena we observe as humans. Complex reasoning can be formulated semantically with human natural language, but it would be difficult to convert it to mathematical language. Recent years have witnessed a revolution in natural language processing driven by large language models (LLMs) trained on vast web-scale datasets. This revolution has not only transformed natural language processing itself<sup><xref ref-type="bibr" rid="CR23">23</xref>&#x02013;<xref ref-type="bibr" rid="CR29">29</xref></sup> but has also stimulated unprecedented interests in other reasoning-related domains, such as robotics<sup><xref ref-type="bibr" rid="CR30">30</xref>&#x02013;<xref ref-type="bibr" rid="CR33">33</xref></sup>, computer vision<sup><xref ref-type="bibr" rid="CR34">34</xref>&#x02013;<xref ref-type="bibr" rid="CR36">36</xref></sup>, code writing<sup><xref ref-type="bibr" rid="CR37">37</xref>,<xref ref-type="bibr" rid="CR38">38</xref></sup>, or material design<sup><xref ref-type="bibr" rid="CR39">39</xref>,<xref ref-type="bibr" rid="CR40">40</xref></sup>. Interestingly, modern LLMs have powerful zero-shot generalization capabilities<sup><xref ref-type="bibr" rid="CR25">25</xref>&#x02013;<xref ref-type="bibr" rid="CR27">27</xref>,<xref ref-type="bibr" rid="CR41">41</xref>&#x02013;<xref ref-type="bibr" rid="CR44">44</xref></sup> and can align text with other modalities (e.g., images and voices). LLMs embed closely related concepts near to each other, i.e., they map distinct texts about the same concept to similar low-dimensional real-valued vectors; for instance, the embedding of the word &#x0201c;peach&#x0201d; is closer to that of &#x0201c;fruit&#x0201d; than to that of &#x0201c;knife&#x0201d;. Therefore, LLMs work surprisingly well for unseen samples without any fine tuning<sup><xref ref-type="bibr" rid="CR41">41</xref>&#x02013;<xref ref-type="bibr" rid="CR44">44</xref></sup>. Of course, as shown by empirical trends, the zero-shot generalization improves with the model scale, dataset size, and the computational resource dedicated to training<sup><xref ref-type="bibr" rid="CR44">44</xref></sup>. These capabilities of modern LLMs allow us to envision the LLM as powerful tool for capturing and representing human knowledge in order to serve as efficient regularization tool for ill-posed inverse problems when priors are formulated semantically.</p><p id="Par5">In this paper, we propose and demonstrate the concept of LLM-based semantic regularization of ill-posed electromagnetic (EM) inverse problems. We tackle the resulting multi-modal inverse problem with an encoder-decoder deep neural network architecture that we train with the so-called contrastive language-image pre-training method<sup><xref ref-type="bibr" rid="CR44">44</xref></sup>. The encoder embeds the measurements in two outputs, of which one is a semantic embedding that describes the scene in human natural language and carries high-level information about the unknown scene. Based on the two embeddings, the decoder reconstructs the scene in remarkable detail without infringing the visual privacy of subjects in the scene. Importantly, the semantic embedding enables new types of security and privacy-preservation for smart home appliances that require some degree of indoor surveillance. For instance, suppose that encoder and decoder are integrated at the transmitter and receiver, respectively; then, by redacting the semantic embedding before transmission, the sensed information about the subjects is safely encoded and can only be extracted by the intended appliance&#x02019;s receiver. Other possibilities to enhance the privacy-preservation that we explore include the purposeful modification of the semantic embedding with language-based control commands that conceal or alter the appearance of subjects in the reconstruction. Thereby, if, for instance, a smart appliance only needs to monitor an elderly person, the privacy of other inhabitants can be fully protected by concealing them from the reconstructions or by adjusting their posture/action in the reconstructions into a default one that does not reveal their true action/posture. We demonstrate the feasibility of semantic regularization for two important ill-posed EM inverse problems. First, we numerically study a prototypical 2D inverse scattering problem. Second, we experimentally consider compressive programmable-metasurface-based microwave imaging in 3D and 4D (where the fourth dimension represents time) that is envisioned to be a key enabler of smart home appliances. We faithfully expect that our proposed semantic regularization method provides fundamentally new perspectives on ill-posed inverse problems and relevant applications in communications, imaging and beyond.</p></sec><sec id="Sec2" sec-type="results"><title>Results</title><sec id="Sec3"><title>Problem statement</title><p id="Par6">We seek to retrieve a high-dimensional unknown <inline-formula id="IEq1"><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{\bf{x}}}}}}\in {{\mathbb{R}}}^{N}$$\end{document}</tex-math><mml:math id="M2"><mml:mi mathvariant="bold">x</mml:mi><mml:mo>&#x02208;</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="double-struck">R</mml:mi></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:msup></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq1.gif"/></alternatives></inline-formula> from noisy low-dimensional measurements <inline-formula id="IEq2"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{\bf{y}}}}}}\in {{\mathbb{R}}}^{n}$$\end{document}</tex-math><mml:math id="M4"><mml:mi mathvariant="bold">y</mml:mi><mml:mo>&#x02208;</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="double-struck">R</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:msup></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq2.gif"/></alternatives></inline-formula> which are related to the unknown <inline-formula id="IEq3"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\bf{x}}}}$$\end{document}</tex-math><mml:math id="M6"><mml:mi mathvariant="bold">x</mml:mi></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq3.gif"/></alternatives></inline-formula> through a mapping operator <inline-formula id="IEq4"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{\rm{f}}}}}}$$\end{document}</tex-math><mml:math id="M8"><mml:mi mathvariant="normal">f</mml:mi></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq4.gif"/></alternatives></inline-formula>, i.e., <inline-formula id="IEq5"><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{\bf{y}}}}}}={{{{{\rm{f}}}}}}\left({{{{{\bf{x}}}}}}\right)+{{{{{\boldsymbol{\epsilon }}}}}}$$\end{document}</tex-math><mml:math id="M10"><mml:mi mathvariant="bold">y</mml:mi><mml:mo>=</mml:mo><mml:mi mathvariant="normal">f</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow></mml:mfenced><mml:mo>+</mml:mo><mml:mi mathvariant="bold-italic">&#x003f5;</mml:mi></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq5.gif"/></alternatives></inline-formula>, where <inline-formula id="IEq6"><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{\boldsymbol{\epsilon }}}}}}\in {{\mathbb{R}}}^{n}$$\end{document}</tex-math><mml:math id="M12"><mml:mi mathvariant="bold-italic">&#x003f5;</mml:mi><mml:mo>&#x02208;</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="double-struck">R</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:msup></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq6.gif"/></alternatives></inline-formula> accounts for noise, modeling error and other possible uncertainties. This inverse problem is ill-posed due to the lack of a unique solution: an infinite number of solutions <inline-formula id="IEq7"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{{{{{{\bf{x}}}}}}}$$\end{document}</tex-math><mml:math id="M14"><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x0005e;</mml:mo></mml:mrow></mml:mover></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq7.gif"/></alternatives></inline-formula> can &#x0201c;explain&#x0201d; the measurements <inline-formula id="IEq8"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\bf{y}}}}$$\end{document}</tex-math><mml:math id="M16"><mml:mi mathvariant="bold">y</mml:mi></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq8.gif"/></alternatives></inline-formula> well but most of these solutions are not meaningful. Hence, regularization methods are necessary which modify the problem and introduce prior knowledge to overcome the ill-posedness. In particular, the solution space of <inline-formula id="IEq9"><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{\bf{x}}}}}}$$\end{document}</tex-math><mml:math id="M18"><mml:mi mathvariant="bold">x</mml:mi></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq9.gif"/></alternatives></inline-formula> can be narrowed down to an <italic>m</italic>-dimensional (<italic>m</italic>&#x02009;&#x0003c;&#x02009;<italic>n</italic>) manifold <italic>S</italic> via a transforming operator d that maps a solution <inline-formula id="IEq10"><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\widehat{{{{{{\boldsymbol{\alpha }}}}}}}$$\end{document}</tex-math><mml:math id="M20"><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mo>&#x0005e;</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq10.gif"/></alternatives></inline-formula> in the reduced <italic>m</italic>-dimensional space to a solution <inline-formula id="IEq11"><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{{{{{{\bf{x}}}}}}}$$\end{document}</tex-math><mml:math id="M22"><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x0005e;</mml:mo></mml:mrow></mml:mover></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq11.gif"/></alternatives></inline-formula> in the original <italic>N</italic>-dimensional space. Moreover, we generally have a prior <inline-formula id="IEq12"><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}$$\end{document}</tex-math><mml:math id="M24"><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq12.gif"/></alternatives></inline-formula> on <bold>x</bold> in <italic>S</italic> and hence wish to ensure that <inline-formula id="IEq13"><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\widehat{{{{{{\boldsymbol{\alpha }}}}}}}$$\end{document}</tex-math><mml:math id="M26"><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mo>&#x0005e;</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq13.gif"/></alternatives></inline-formula> is reasonably close to <inline-formula id="IEq14"><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}$$\end{document}</tex-math><mml:math id="M28"><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq14.gif"/></alternatives></inline-formula>. Following the standard regularization procedure, the inverse problem can then be cast into the following optimization problem:<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\widehat{{{{{{\boldsymbol{\alpha }}}}}}}={{{{{\rm{argmin}}}}}}_{{{{{{\boldsymbol{\alpha }}}}}}\in {{{{{\mathcal{S}}}}}}}\Big[{\left\Vert{{{{{\bf{y}}}}}}-{{{{{\rm{f}}}}}}\left({{{{{\rm{d}}}}}}\left({{{{{\boldsymbol{\alpha }}}}}}\right)\right)\right\Vert}_{2}^{2}+\gamma {\left\Vert{{{{{\boldsymbol{\alpha }}}}}}-{{{{{{\boldsymbol{\alpha }}}}}}}_{0}\right\Vert}_{2}^{2}\Big].$$\end{document}</tex-math><mml:math id="M30"><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mo>&#x0005e;</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="normal">argmin</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi><mml:mo>&#x02208;</mml:mo><mml:mi class="MJX-tex-caligraphic" mathvariant="script">S</mml:mi></mml:mrow></mml:msub><mml:mstyle mathsize="1.61em"><mml:mfenced open="["><mml:mrow/></mml:mfenced></mml:mstyle><mml:msubsup><mml:mrow><mml:mfenced close="&#x02225;" open="&#x02225;"><mml:mrow><mml:mi mathvariant="bold">y</mml:mi><mml:mo>&#x02212;</mml:mo><mml:mi mathvariant="normal">f</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup><mml:mo>+</mml:mo><mml:mi>&#x003b3;</mml:mi><mml:msubsup><mml:mrow><mml:mfenced close="&#x02225;" open="&#x02225;"><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi><mml:mo>&#x02212;</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup><mml:mstyle mathsize="1.61em"><mml:mfenced open="]"><mml:mrow/></mml:mfenced></mml:mstyle><mml:mo>.</mml:mo></mml:math><graphic xlink:href="41467_2024_48115_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula>Herein, the first term is the data misfit (measuring the distance between the actual measurements <bold>y</bold> and those predicted by <inline-formula id="IEq15"><alternatives><tex-math id="M31">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{\boldsymbol{\alpha }}}}}}{{{{{\mathscr{\in }}}}}}{{{{{\mathcal{S}}}}}}$$\end{document}</tex-math><mml:math id="M32"><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi><mml:mi mathvariant="script">\in</mml:mi><mml:mi class="MJX-tex-caligraphic" mathvariant="script">S</mml:mi></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq15.gif"/></alternatives></inline-formula>), the second term serves as the regularizer (measuring the distance between <bold>&#x003b1;</bold> and <inline-formula id="IEq16"><alternatives><tex-math id="M33">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}$$\end{document}</tex-math><mml:math id="M34"><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq16.gif"/></alternatives></inline-formula>), and <italic>&#x003b3;</italic> is a regularization parameter controlling the influence of the prior <inline-formula id="IEq17"><alternatives><tex-math id="M35">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}$$\end{document}</tex-math><mml:math id="M36"><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq17.gif"/></alternatives></inline-formula> on the solution. For simplicity, the regularizer is taken as the square of the l<sub>2</sub>-norm, however, it could be extended to <inline-formula id="IEq18"><alternatives><tex-math id="M37">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{||}{{{{{\boldsymbol{\alpha }}}}}}-{{{{{{\boldsymbol{\alpha }}}}}}}_{0}{||}}_{p}^{q}$$\end{document}</tex-math><mml:math id="M38"><mml:msubsup><mml:mrow><mml:mo>&#x02223;</mml:mo><mml:mo>&#x02223;</mml:mo><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi><mml:mo>&#x02212;</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>&#x02223;</mml:mo><mml:mo>&#x02223;</mml:mo></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mi>q</mml:mi></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq18.gif"/></alternatives></inline-formula> (<inline-formula id="IEq19"><alternatives><tex-math id="M39">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$0\le p,q &#x0003c; \propto$$\end{document}</tex-math><mml:math id="M40"><mml:mn>0</mml:mn><mml:mo>&#x02264;</mml:mo><mml:mi>p</mml:mi><mml:mo>,</mml:mo><mml:mi>q</mml:mi><mml:mo>&#x0003c;</mml:mo><mml:mo>&#x0221d;</mml:mo></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq19.gif"/></alternatives></inline-formula>) for more general cases. We can interpret the transforming operator d as a decoder since it decodes the solution <inline-formula id="IEq20"><alternatives><tex-math id="M41">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\widehat{{{{{{\boldsymbol{\alpha }}}}}}}$$\end{document}</tex-math><mml:math id="M42"><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mo>&#x0005e;</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq20.gif"/></alternatives></inline-formula> from the reduced space: <inline-formula id="IEq21"><alternatives><tex-math id="M43">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{{{{{{\bf{x}}}}}}}={{{{{\rm{d}}}}}}(\widehat{{{{{{\boldsymbol{\alpha }}}}}}})$$\end{document}</tex-math><mml:math id="M44"><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x0005e;</mml:mo></mml:mrow></mml:mover><mml:mo>=</mml:mo><mml:mi mathvariant="normal">d</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mo>&#x0005e;</mml:mo></mml:mover></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq21.gif"/></alternatives></inline-formula>. In addition, we can view Eq.&#x000a0;<xref rid="Equ1" ref-type="disp-formula">1</xref> as the definition of an encoding function e that outputs <inline-formula id="IEq22"><alternatives><tex-math id="M45">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\widehat{{{{{{\boldsymbol{\alpha }}}}}}}$$\end{document}</tex-math><mml:math id="M46"><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mo>&#x0005e;</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq22.gif"/></alternatives></inline-formula> given <bold>y</bold> and <inline-formula id="IEq23"><alternatives><tex-math id="M47">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}$$\end{document}</tex-math><mml:math id="M48"><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq23.gif"/></alternatives></inline-formula> as inputs: <inline-formula id="IEq24"><alternatives><tex-math id="M49">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\widehat{{{{{{\boldsymbol{\alpha }}}}}}}={{{{{\rm{e}}}}}}({{{{{\bf{y}}}}}},{{{{{{\boldsymbol{\alpha }}}}}}}_{0})$$\end{document}</tex-math><mml:math id="M50"><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mo>&#x0005e;</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mi mathvariant="normal">e</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi mathvariant="bold">y</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq24.gif"/></alternatives></inline-formula>. Thus, the solution of the original inverse problem can be expressed as <inline-formula id="IEq25"><alternatives><tex-math id="M51">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{{{{{{\bf{x}}}}}}}={{{{{\rm{d}}}}}}({{{{{\rm{e}}}}}}({{{{{\bf{y}}}}}},{{{{{{\boldsymbol{\alpha }}}}}}}_{0}))$$\end{document}</tex-math><mml:math id="M52"><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x0005e;</mml:mo></mml:mrow></mml:mover><mml:mo>=</mml:mo><mml:mi mathvariant="normal">d</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi mathvariant="normal">e</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi mathvariant="bold">y</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq25.gif"/></alternatives></inline-formula>.</p><p id="Par7">In practice, a critical challenge in solving the inverse problem lies in representing the prior <inline-formula id="IEq26"><alternatives><tex-math id="M53">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}$$\end{document}</tex-math><mml:math id="M54"><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq26.gif"/></alternatives></inline-formula>. Besides mathematical language that is routinely used in the context of inverse problems as well as more recently developed priors learned implicitly from quantitative calibration data, human natural language is an indispensable medium for humans to understand and reason about diverse complex phenomena. Hence, we hypothesize that human natural language can flexibly formulate priors that are difficult or impossible to be taken into account by conventional mathematical-model-based regularization methods. This motivates our exploration of semantic regularization in the present paper. Within the realm of semantic regularization, we treat <italic>S</italic> and <bold>&#x003b1;</bold> as the semantic manifold and the semantically encoded unknown <bold>x</bold>, respectively. To represent the semantic prior<inline-formula id="IEq27"><alternatives><tex-math id="M55">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\,{{{{{{\boldsymbol{\alpha }}}}}}}_{0}$$\end{document}</tex-math><mml:math id="M56"><mml:mspace width="0.25em"/><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq27.gif"/></alternatives></inline-formula>, we leverage a pretrained LLM: <inline-formula id="IEq28"><alternatives><tex-math id="M57">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}={{{{{\rm{LLM}}}}}}({{{{\boldsymbol{{\ell}}}}}})$$\end{document}</tex-math><mml:math id="M58"><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi mathvariant="normal">LLM</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi mathvariant="bold-italic">&#x02113;</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq28.gif"/></alternatives></inline-formula>, where <bold><italic>l</italic></bold> denotes the semantic description of the prior on the unknown <bold>x</bold>. Examples of semantic priors are: &#x0201c;it is a piece-wise smooth object&#x0201d;, &#x0201c;it is a low-contrast digit-like object&#x0201d;, &#x0201c;the subject is raising his arm&#x0201d;. As sketched in Fig.&#x000a0;<xref rid="Fig1" ref-type="fig">1a</xref>, <bold>&#x003b1;</bold> can be decomposed into two components in the semantic manifold <italic>S</italic>: <inline-formula id="IEq29"><alternatives><tex-math id="M59">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{\boldsymbol{\alpha }}}}}}={{{{{{\boldsymbol{\alpha }}}}}}}_{0}+\Delta {{{{{\boldsymbol{\alpha }}}}}}$$\end{document}</tex-math><mml:math id="M60"><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq29.gif"/></alternatives></inline-formula>, where the residual term &#x02206;<bold>&#x003b1;</bold> represents the deviation from the prior to match the measurements. As a matter of fact, the semantic prior<inline-formula id="IEq30"><alternatives><tex-math id="M61">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\,{{{{{{\boldsymbol{\alpha }}}}}}}_{0}$$\end{document}</tex-math><mml:math id="M62"><mml:mspace width="0.25em"/><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq30.gif"/></alternatives></inline-formula> can be automatically estimated from the measurements <bold>y</bold>, which is helpful when the prior <inline-formula id="IEq31"><alternatives><tex-math id="M63">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}$$\end{document}</tex-math><mml:math id="M64"><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq31.gif"/></alternatives></inline-formula> is not otherwise available. Accordingly, the definitions of encoder and decoder can be modified: <inline-formula id="IEq32"><alternatives><tex-math id="M65">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$({\widehat{{{{{{\boldsymbol{\alpha }}}}}}}}_{0},\Delta \widehat{{{{{{\boldsymbol{\alpha }}}}}}})={{{{{\rm{e}}}}}}({{{{{\bf{y}}}}}})$$\end{document}</tex-math><mml:math id="M66"><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mo>&#x0005e;</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mo>&#x0005e;</mml:mo></mml:mover></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi mathvariant="normal">e</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi mathvariant="bold">y</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq32.gif"/></alternatives></inline-formula> and <inline-formula id="IEq33"><alternatives><tex-math id="M67">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{{{{{{\bf{x}}}}}}}={{{{{\rm{d}}}}}}({\widehat{{{{{{\boldsymbol{\alpha }}}}}}}}_{0},\Delta \widehat{{{{{{\boldsymbol{\alpha }}}}}}})$$\end{document}</tex-math><mml:math id="M68"><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x0005e;</mml:mo></mml:mrow></mml:mover><mml:mo>=</mml:mo><mml:mi mathvariant="normal">d</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mo>&#x0005e;</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mo>&#x0005e;</mml:mo></mml:mover></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq33.gif"/></alternatives></inline-formula>, as depicted in Fig.&#x000a0;<xref rid="Fig1" ref-type="fig">1b</xref> where neural networks implement the encoder and the decoder.<fig id="Fig1"><label>Fig. 1</label><caption><title>Working principle of semantic regularization based on a pre-trained LLM.</title><p><bold>a</bold> Illustration of solving Eq. (<xref rid="Equ1" ref-type="disp-formula">1</xref>) with semantic regularization. The gradient blue graph represents the solution space in the semantic manifold <inline-formula id="IEq34"><alternatives><tex-math id="M69">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{\mathscr{S}}}}}}$$\end{document}</tex-math><mml:math id="M70"><mml:mi mathvariant="script">S</mml:mi></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq34.gif"/></alternatives></inline-formula>. Measurements determine the white isolines which represent the data misfit, i.e., the first term on the right-hand side in Eq. (<xref rid="Equ1" ref-type="disp-formula">1</xref>). The green graph represents the semantic regularizer which is determined mainly by the semantic prior <inline-formula id="IEq35"><alternatives><tex-math id="M71">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}$$\end{document}</tex-math><mml:math id="M72"><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq35.gif"/></alternatives></inline-formula>, i.e., the second term on the right-hand side in Eq. (<xref rid="Equ1" ref-type="disp-formula">1</xref>). The optimal solution <bold>&#x003b1;</bold> is found at the intersection of the data misfit isoline and the semantic regularizer. <bold>b</bold> &#x0201c;Encoder-decoder&#x0201d; neural network architecture for reconstructing the unknown <bold>x</bold> with semantic regularization. The encoder maps the measurements <bold>y</bold> to a pair <inline-formula id="IEq36"><alternatives><tex-math id="M73">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$(\Delta {{{{{\boldsymbol{\alpha }}}}}},{{{{{{\boldsymbol{\alpha }}}}}}}_{0})$$\end{document}</tex-math><mml:math id="M74"><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq36.gif"/></alternatives></inline-formula>, where <inline-formula id="IEq37"><alternatives><tex-math id="M75">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}$$\end{document}</tex-math><mml:math id="M76"><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq37.gif"/></alternatives></inline-formula> is the semantic prior and <inline-formula id="IEq38"><alternatives><tex-math id="M77">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{\boldsymbol{\alpha }}}}}}={{{{{{\boldsymbol{\alpha }}}}}}}_{0}+\Delta {{{{{\boldsymbol{\alpha }}}}}}$$\end{document}</tex-math><mml:math id="M78"><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq38.gif"/></alternatives></inline-formula> is the semantically embedded reconstructed unknown, as illustrated in (<bold>a</bold>). The decoder maps a pair <inline-formula id="IEq39"><alternatives><tex-math id="M79">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$(\Delta {{{{{\boldsymbol{\alpha }}}}}},{{{{{{\boldsymbol{\alpha }}}}}}}_{0})$$\end{document}</tex-math><mml:math id="M80"><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq39.gif"/></alternatives></inline-formula> to the reconstructed unknown in the original space. To train the encoder-decoder network, a multi-step procedure as outlined in Supplementary Note&#x000a0;<xref rid="MOESM1" ref-type="media">1</xref> is used. During the first step, the loss function defined in Eq. (<xref rid="Equ2" ref-type="disp-formula">2</xref>) that is composed of the three terms highlighted in red is minimized. A subsequent GAN-based training step refines the encoder to ensure that it outputs reasonable semantic priors. Once trained, the encoder directly outputs a recommended semantic embedding for a given measurement, which, importantly, can be manually changed into <inline-formula id="IEq40"><alternatives><tex-math id="M81">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}^{{\prime} }$$\end{document}</tex-math><mml:math id="M82"><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mo>&#x02032;</mml:mo></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq40.gif"/></alternatives></inline-formula> as required in different contexts explored in this work, before the decoder maps <inline-formula id="IEq41"><alternatives><tex-math id="M83">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$(\Delta {{{{{\boldsymbol{\alpha }}}}}},{{{{{{\boldsymbol{\alpha }}}}}}}_{0}^{{\prime} })$$\end{document}</tex-math><mml:math id="M84"><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi><mml:mo>,</mml:mo><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mo>&#x02032;</mml:mo></mml:mrow></mml:msubsup></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq41.gif"/></alternatives></inline-formula> to a reconstructed unknown in the original space.</p></caption><graphic xlink:href="41467_2024_48115_Fig1_HTML" id="d33e1283"/></fig></p><p id="Par8">We now elaborate on how to train the decoder and encoder for semantic regularization. Our starting point is a labeled training dataset <inline-formula id="IEq42"><alternatives><tex-math id="M85">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{\mathcal{D}}}}}}=\{{{{{{{\bf{x}}}}}}}_{i},{{{{{{\bf{y}}}}}}}_{i},{{{{{\boldsymbol{\ell}}}}}}_{i}{;i}={{{{\mathrm{1,2}}}}},\ldots,M \}$$\end{document}</tex-math><mml:math id="M86"><mml:mi class="MJX-tex-caligraphic" mathvariant="script">D</mml:mi><mml:mo>=</mml:mo><mml:mrow><mml:mo>{</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold">y</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x02113;</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>;</mml:mo><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mi mathvariant="normal">1, 2</mml:mi><mml:mo>,</mml:mo><mml:mo>&#x02026;</mml:mo><mml:mo>,</mml:mo><mml:mi>M</mml:mi></mml:mrow><mml:mo>}</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq42.gif"/></alternatives></inline-formula> which includes triplets of <italic>M</italic> realizations of the unknown <bold>x</bold>, the corresponding measurements <bold>y</bold>, and the corresponding semantic priors <bold><italic>l</italic></bold>. We use the contrastive learning method to tackle training with this multi-modality dataset given its track record in pairing text with other modalities and its strong zero-shot reasoning capability. We train the encoder and decoder in a supervised manner by minimizing the following loss function:<disp-formula id="Equ2"><label>2</label><alternatives><tex-math id="M87">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{\mathcal{L}}}}}}({{{{{\rm{e}}}}}},{{{{{\rm{d}}}}}})=\frac{1}{2}{\sum }_{i=1}^{M}\left({\left\Vert{d}\left({{{{{\rm{e}}}}}}({{{{{{\bf{y}}}}}}}_{i}),{{{{{{\boldsymbol{\alpha }}}}}}}_{0,i}\right)-{{{{{{\bf{x}}}}}}}_{i}\right\Vert}_{2}^{2}+\gamma {\left\Vert{{{{{{\boldsymbol{\alpha }}}}}}}_{0,i}-{{{{{\rm{LLM}}}}}}({{{{{\boldsymbol{{\ell}}}}}}}_{i})\right\Vert}_{2}^{2}+{\left\Vert{\Delta {{{{{\boldsymbol{\alpha }}}}}}}_{i}\right\Vert}_{2}^{2}\right).$$\end{document}</tex-math><mml:math id="M88"><mml:mi class="MJX-tex-caligraphic" mathvariant="script">L</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi mathvariant="normal">e</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="normal">d</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:mfrac><mml:msubsup><mml:mrow><mml:mo mathsize="big">&#x02211;</mml:mo></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>M</mml:mi></mml:mrow></mml:msubsup><mml:mfenced close=")" open="("><mml:mrow><mml:msubsup><mml:mrow><mml:mfenced close="&#x02225;" open="&#x02225;"><mml:mrow><mml:mi>d</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mi mathvariant="normal">e</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">y</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mo>&#x02212;</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup><mml:mo>+</mml:mo><mml:mi>&#x003b3;</mml:mi><mml:msubsup><mml:mrow><mml:mfenced close="&#x02225;" open="&#x02225;"><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>&#x02212;</mml:mo><mml:mi mathvariant="normal">LLM</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x02113;</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup><mml:mo>+</mml:mo><mml:msubsup><mml:mrow><mml:mfenced close="&#x02225;" open="&#x02225;"><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:mrow></mml:mfenced><mml:mo>.</mml:mo></mml:math><graphic xlink:href="41467_2024_48115_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula>The first term in Eq.&#x000a0;<xref rid="Equ2" ref-type="disp-formula">2</xref> encourages the encoder-decoder network to explain the observation <inline-formula id="IEq43"><alternatives><tex-math id="M89">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{\bf{y}}}}}}_{i}$$\end{document}</tex-math><mml:math id="M90"><mml:msub><mml:mrow><mml:mi mathvariant="bold">y</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq43.gif"/></alternatives></inline-formula> by its ground truth <inline-formula id="IEq44"><alternatives><tex-math id="M91">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\bf{x}}}}}}}_{i}$$\end{document}</tex-math><mml:math id="M92"><mml:msub><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq44.gif"/></alternatives></inline-formula> and associated prior <inline-formula id="IEq45"><alternatives><tex-math id="M93">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0,i}$$\end{document}</tex-math><mml:math id="M94"><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq45.gif"/></alternatives></inline-formula>, the second term aligns the prior <inline-formula id="IEq46"><alternatives><tex-math id="M95">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0,i}$$\end{document}</tex-math><mml:math id="M96"><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq46.gif"/></alternatives></inline-formula> with its semantic embedding <inline-formula id="IEq47"><alternatives><tex-math id="M97">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{\ell}}_{i}$$\end{document}</tex-math><mml:math id="M98"><mml:msub><mml:mrow><mml:mi>&#x02113;</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq47.gif"/></alternatives></inline-formula> via the frozen pretrained LLM, and the last term seeks to ensure that <inline-formula id="IEq48"><alternatives><tex-math id="M99">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\Delta {{{{{\boldsymbol{\alpha }}}}}}}_{i}$$\end{document}</tex-math><mml:math id="M100"><mml:msub><mml:mrow><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq48.gif"/></alternatives></inline-formula> obeys the standard normal distribution as much as possible in a probabilistic sense.</p><p id="Par9">To ensure that the encoder outputs a reasonable semantic prior<inline-formula id="IEq49"><alternatives><tex-math id="M101">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\,{{{{{{\boldsymbol{\alpha }}}}}}}_{0}$$\end{document}</tex-math><mml:math id="M102"><mml:mspace width="0.25em"/><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq49.gif"/></alternatives></inline-formula>, we interpret the encoder <inline-formula id="IEq50"><alternatives><tex-math id="M103">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$({\widehat{{{{{{\boldsymbol{\alpha }}}}}}}}_{0},\Delta \widehat{{{{{{\boldsymbol{\alpha }}}}}}})={{{{{\rm{e}}}}}}({{{{{\bf{y}}}}}})$$\end{document}</tex-math><mml:math id="M104"><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mo>&#x0005e;</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mo>&#x0005e;</mml:mo></mml:mover></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi mathvariant="normal">e</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi mathvariant="bold">y</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq50.gif"/></alternatives></inline-formula> as a part of&#x000a0;generator that maps measurements <bold>y</bold> to pairs of semantic priors <inline-formula id="IEq51"><alternatives><tex-math id="M105">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\widehat{{{{{{\boldsymbol{\alpha }}}}}}}}_{0}$$\end{document}</tex-math><mml:math id="M106"><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mo>&#x0005e;</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq51.gif"/></alternatives></inline-formula> and estimates <inline-formula id="IEq52"><alternatives><tex-math id="M107">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{{{{{{\bf{x}}}}}}}={{{{{\rm{d}}}}}}({\widehat{{{{{{\boldsymbol{\alpha }}}}}}}}_{0},\Delta \widehat{{{{{{\boldsymbol{\alpha }}}}}}})$$\end{document}</tex-math><mml:math id="M108"><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x0005e;</mml:mo></mml:mrow></mml:mover><mml:mo>=</mml:mo><mml:mi mathvariant="normal">d</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mo>&#x0005e;</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mo>&#x0005e;</mml:mo></mml:mover></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq52.gif"/></alternatives></inline-formula> of the unknown <bold>x</bold>. Then, as detailed in Supplementary Note&#x000a0;<xref rid="MOESM1" ref-type="media">1</xref>, we train a dedicated discriminator that assesses whether the pairs of <inline-formula id="IEq53"><alternatives><tex-math id="M109">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\widehat{{{{{{\boldsymbol{\alpha }}}}}}}}_{0}$$\end{document}</tex-math><mml:math id="M110"><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mo>&#x0005e;</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq53.gif"/></alternatives></inline-formula> and <inline-formula id="IEq54"><alternatives><tex-math id="M111">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{{{{{{\bf{x}}}}}}}$$\end{document}</tex-math><mml:math id="M112"><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x0005e;</mml:mo></mml:mrow></mml:mover></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq54.gif"/></alternatives></inline-formula> are meaningful or not. Finally, we compose a generative adversarial network (GAN)<sup><xref ref-type="bibr" rid="CR45">45</xref></sup> of our generator and discriminator in order to fine-tune the generator. More details about the network are provided in Methods and Supplementary Note&#x000a0;<xref rid="MOESM1" ref-type="media">1</xref>.</p><p id="Par10">At this stage, it is instructive to elaborate on the relation of our work to previously reported quantitative-data-driven regularization techniques such as those from Refs. <sup><xref ref-type="bibr" rid="CR19">19</xref>&#x02013;<xref ref-type="bibr" rid="CR22">22</xref></sup>. Our proposed semantic regularization is also data driven; however, it is driven by both quantitative and semantic data. Specifically, it uses triplet training data <inline-formula id="IEq55"><alternatives><tex-math id="M113">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{\mathcal{D}}}}}}=\{{{{{{{\bf{x}}}}}}}_{i},{{{{{{\bf{y}}}}}}}_{i},{{{{{\boldsymbol{{\ell}}}}}}}_{i}{{{{{\rm{;}}}}}}i=1,2,\ldots,M\}$$\end{document}</tex-math><mml:math id="M114"><mml:mi class="MJX-tex-caligraphic" mathvariant="script">D</mml:mi><mml:mo>=</mml:mo><mml:mrow><mml:mo>{</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold">y</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x02113;</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mi mathvariant="normal">;</mml:mi><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mo>&#x02026;</mml:mo><mml:mo>,</mml:mo><mml:mi>M</mml:mi></mml:mrow><mml:mo>}</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq55.gif"/></alternatives></inline-formula>, where <inline-formula id="IEq56"><alternatives><tex-math id="M115">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\bf{x}}}}}}}_{i}$$\end{document}</tex-math><mml:math id="M116"><mml:msub><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq56.gif"/></alternatives></inline-formula> and <inline-formula id="IEq57"><alternatives><tex-math id="M117">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{\boldsymbol{{\ell}}}}}}}_{i}$$\end{document}</tex-math><mml:math id="M118"><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x02113;</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq57.gif"/></alternatives></inline-formula> are the quantitative and semantic input data, respectively. Thanks to <inline-formula id="IEq58"><alternatives><tex-math id="M119">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{\boldsymbol{{\ell}}}}}}}_{i}$$\end{document}</tex-math><mml:math id="M120"><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x02113;</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq58.gif"/></alternatives></inline-formula>, our semantic regularization learns not only the mapping from <inline-formula id="IEq59"><alternatives><tex-math id="M121">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\bf{x}}}}}}}_{i}$$\end{document}</tex-math><mml:math id="M122"><mml:msub><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq59.gif"/></alternatives></inline-formula> to <inline-formula id="IEq60"><alternatives><tex-math id="M123">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\bf{y}}}}}}}_{i}$$\end{document}</tex-math><mml:math id="M124"><mml:msub><mml:mrow><mml:mi mathvariant="bold">y</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq60.gif"/></alternatives></inline-formula> but also the underlying &#x02018;semantic&#x02019;. In contrast, conventional quantitative-data-driven regularization uses doublet training data <inline-formula id="IEq61"><alternatives><tex-math id="M125">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\widetilde{{{{{{\mathcal{D}}}}}}}=\{{{{{{{\bf{x}}}}}}}_{i},{{{{{{\bf{y}}}}}}}_{i}{{{{{\rm{;}}}}}}i=1,2,\ldots,M\}$$\end{document}</tex-math><mml:math id="M126"><mml:mover accent="true"><mml:mrow><mml:mi class="MJX-tex-caligraphic" mathvariant="script">D</mml:mi></mml:mrow><mml:mo>&#x0007e;</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mrow><mml:mo>{</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold">y</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mi mathvariant="normal">;</mml:mi><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mo>&#x02026;</mml:mo><mml:mo>,</mml:mo><mml:mi>M</mml:mi></mml:mrow><mml:mo>}</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq61.gif"/></alternatives></inline-formula>. Therefore, conventional quantitative-data-driven regularization is agnostic to semantic information (e.g., originating from human recognition and reasoning). It is apparent that conventional quantitative-data-driven regularization is in fact a special case of our semantic regularization: if <inline-formula id="IEq62"><alternatives><tex-math id="M127">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{\boldsymbol{{\ell}}}}}}}_{i}$$\end{document}</tex-math><mml:math id="M128"><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x02113;</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq62.gif"/></alternatives></inline-formula> is not included in <italic>D</italic>, <italic>D</italic> collapses to <inline-formula id="IEq63"><alternatives><tex-math id="M129">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\widetilde{{{{{{\mathcal{D}}}}}}}$$\end{document}</tex-math><mml:math id="M130"><mml:mover accent="true"><mml:mrow><mml:mi class="MJX-tex-caligraphic" mathvariant="script">D</mml:mi></mml:mrow><mml:mo>&#x0007e;</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq63.gif"/></alternatives></inline-formula> and the semantic regularization specializes to the conventional quantitative-data-driven regularization. A detailed comparison between semantic regularization and quantitative-data-only-driven regularization is provided in Supplementary Note&#x000a0;<xref rid="MOESM1" ref-type="media">2</xref>, where we simply switch off the semantics to consider the quantitative-data-only-driven approach. As detailed in Supplementary Note&#x000a0;<xref rid="MOESM1" ref-type="media">2</xref>, besides the ability to effectively leverage human reasoning and recognition for regularization, we also observe that the semantic regularization outperforms quantitative-data-only-driven regularization in terms of both generalization capabilities and its robustness to noise. Seemingly, forcing the network during training to represent information in high-level abstracted semantics helps to avoid over-training and being sensitive to noise.</p></sec><sec id="Sec4"><title>Numerical results for 2D EM inverse scattering problem</title><p id="Par11">We begin by examining the feasibility of the proposed semantic regularization for a prototypical EM inverse scattering problem<sup><xref ref-type="bibr" rid="CR1">1</xref>,<xref ref-type="bibr" rid="CR5">5</xref>,<xref ref-type="bibr" rid="CR46">46</xref>&#x02013;<xref ref-type="bibr" rid="CR48">48</xref></sup>. The goal of an EM inverse scattering problem is to determine the scattering properties within a domain of interest (DoI), e.g., the permittivity distribution, based on measurements of scattered fields originating from known excitations. In our numerical study, we consider the 2D setup shown in Fig.&#x000a0;<xref rid="Fig2" ref-type="fig">2a</xref>. The DoI has a size of 1.28&#x02009;m&#x02009;&#x000d7;&#x02009;1.28&#x02009;m and contains digit-like or/and geometric-shape-like objects with permittivity values in the range of [2, 5]. We use a full-wave solver of Maxwell&#x02019;s equations to generate the data of the scattered fields, as detailed in Methods and Supplementary Note&#x000a0;<xref rid="MOESM1" ref-type="media">3</xref>. Four transmitters and eight receivers are uniformly placed on a circle of radius 2&#x02009;m that encloses the DoI, and all 32 possible transmission measurements are determined at the operating frequency of 300&#x02009;MHz.<fig id="Fig2"><label>Fig. 2</label><caption><title>Representative results with semantic regularization for prototypical EM inverse scattering problems.</title><p><bold>a</bold> Considered configuration of an ill-posed 2D EM inverse scattering problem. <bold>b</bold> Illustration of two-step solution to the inverse scattering problem in the framework of the proposed method showing the measurements, the two embeddings obtained with the encoder (of which <inline-formula id="IEq64"><alternatives><tex-math id="M131">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}$$\end{document}</tex-math><mml:math id="M132"><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq64.gif"/></alternatives></inline-formula> is the semantic embedding), and the reconstructed permittivity distributions obtained from the embeddings with the decoder. <bold>c</bold> T-SNE visualization of different <inline-formula id="IEq65"><alternatives><tex-math id="M133">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Delta {{{{{\boldsymbol{\alpha }}}}}}$$\end{document}</tex-math><mml:math id="M134"><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq65.gif"/></alternatives></inline-formula> for a fixed semantic prior. The red star indicates <inline-formula id="IEq66"><alternatives><tex-math id="M135">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Delta {{{{{\boldsymbol{\alpha }}}}}}=0$$\end{document}</tex-math><mml:math id="M136"><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq66.gif"/></alternatives></inline-formula>. The insets show example reconstructions with different <inline-formula id="IEq67"><alternatives><tex-math id="M137">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Delta {{{{{\boldsymbol{\alpha }}}}}}$$\end{document}</tex-math><mml:math id="M138"><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq67.gif"/></alternatives></inline-formula> for a few selected semantic priors. <bold>d</bold> Illustration of the ability to manipulate the reconstruction with the semantic embedding in order to conceal or change a vulnerable object. The ground-truth semantic priors for the ground truth DoIs shown in the first row are: &#x0201c;high-contrast digit-3 and middle-contrast cycle&#x0201d;, &#x0201c;low-contrast digit-0 and low-contrast triangle&#x0201d;, &#x0201c;low-contrast digit-9 and high-contrast triangle&#x0201d;, &#x0201c;high-contrast digit-3 and middle-contrast square&#x0201d;. The second row shows the reconstructions obtained with these semantic priors, i.e., without any protection. To partially conceal the DoI in the reconstruction, the following phrases are integrated into the modified semantic priors in the third row: &#x0201c;conceal digit&#x0201d;, &#x0201c;conceal digit&#x0201d;, &#x0201c;conceal digit&#x0201d;, &#x0201c;conceal shape&#x0201d;. To alter the appearance of an object, the following phrases are integrated into the modified semantic priors in the fourth row: &#x0201c;change the digit as middle-contrast digit-3&#x0201d;, &#x0201c;change the digit as low-contrast digit-8&#x0201d;, &#x0201c;change the digit as low-contrast digit-3 and change the shape as middle-contrast triangle&#x0201d;, &#x0201c;change the digit as middle-contrast digit-2 and change the shape as low-contrast square&#x0201d;. Details about the MSE evaluation can be found in Supplementary Note&#x000a0;<xref rid="MOESM1" ref-type="media">13</xref>.</p></caption><graphic xlink:href="41467_2024_48115_Fig2_HTML" id="d33e2029"/></fig></p><p id="Par12">Having trained the encoder-decoder network with <italic>M</italic>&#x02009;=&#x02009;60,000 examples (including the fine-tuning with the discriminator which was trained with 120,000 examples), the solution of the inverse scattering problem consists of two steps, as illustrated in Fig.&#x000a0;<xref rid="Fig2" ref-type="fig">2b</xref>. First, the encoder maps the measurements (real and imaginary parts are stacked) to the two embeddings <inline-formula id="IEq68"><alternatives><tex-math id="M139">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}$$\end{document}</tex-math><mml:math id="M140"><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq68.gif"/></alternatives></inline-formula> and <inline-formula id="IEq69"><alternatives><tex-math id="M141">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Delta {{{{{\boldsymbol{\alpha }}}}}}$$\end{document}</tex-math><mml:math id="M142"><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq69.gif"/></alternatives></inline-formula>. Then, the decoder maps the two embeddings <inline-formula id="IEq70"><alternatives><tex-math id="M143">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}$$\end{document}</tex-math><mml:math id="M144"><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq70.gif"/></alternatives></inline-formula> and <inline-formula id="IEq71"><alternatives><tex-math id="M145">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Delta {{{{{\boldsymbol{\alpha }}}}}}$$\end{document}</tex-math><mml:math id="M146"><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq71.gif"/></alternatives></inline-formula> to the reconstructed DoI. When semantic prior information about the unknown DoI is known, <inline-formula id="IEq72"><alternatives><tex-math id="M147">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}$$\end{document}</tex-math><mml:math id="M148"><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq72.gif"/></alternatives></inline-formula> can be predetermined through the pretrained frozen LLM.</p><p id="Par13">Next, we analyze the impact of <inline-formula id="IEq73"><alternatives><tex-math id="M149">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Delta {{{{{\boldsymbol{\alpha }}}}}}$$\end{document}</tex-math><mml:math id="M150"><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq73.gif"/></alternatives></inline-formula> on the reconstruction. A t-distributed stochastic neighbor embedding (t-SNE<sup><xref ref-type="bibr" rid="CR49">49</xref></sup>) visualization of <inline-formula id="IEq74"><alternatives><tex-math id="M151">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Delta {{{{{\boldsymbol{\alpha }}}}}}$$\end{document}</tex-math><mml:math id="M152"><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq74.gif"/></alternatives></inline-formula> for a fixed <inline-formula id="IEq75"><alternatives><tex-math id="M153">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}$$\end{document}</tex-math><mml:math id="M154"><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq75.gif"/></alternatives></inline-formula> is displayed in Fig.&#x000a0;<xref rid="Fig2" ref-type="fig">2c</xref> and the red cross indicates <inline-formula id="IEq76"><alternatives><tex-math id="M155">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Delta {{{{{\boldsymbol{\alpha }}}}}}={{{{{\bf{0}}}}}}$$\end{document}</tex-math><mml:math id="M156"><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi><mml:mo>=</mml:mo><mml:mi mathvariant="bold">0</mml:mi></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq76.gif"/></alternatives></inline-formula>. The reconstructions <inline-formula id="IEq77"><alternatives><tex-math id="M157">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Delta {{{{{\boldsymbol{\alpha }}}}}}={{{{{\bf{0}}}}}}$$\end{document}</tex-math><mml:math id="M158"><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi><mml:mo>=</mml:mo><mml:mi mathvariant="bold">0</mml:mi></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq77.gif"/></alternatives></inline-formula> combined with various realizations of <inline-formula id="IEq78"><alternatives><tex-math id="M159">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}^{i}$$\end{document}</tex-math><mml:math id="M160"><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq78.gif"/></alternatives></inline-formula> yield blurry reconstructions, as seen in the corresponding inset in Fig.&#x000a0;<xref rid="Fig2" ref-type="fig">2c</xref>. This observation makes sense because using <inline-formula id="IEq79"><alternatives><tex-math id="M161">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Delta {{{{{\boldsymbol{\alpha }}}}}}={{{{{\bf{0}}}}}}$$\end{document}</tex-math><mml:math id="M162"><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi><mml:mo>=</mml:mo><mml:mi mathvariant="bold">0</mml:mi></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq79.gif"/></alternatives></inline-formula> is equivalent to averaging the reconstruction for a given <inline-formula id="IEq80"><alternatives><tex-math id="M163">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}^{i}$$\end{document}</tex-math><mml:math id="M164"><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq80.gif"/></alternatives></inline-formula> over many non-zero realizations of &#x00394;<bold>&#x003b1;</bold>. The remaining insets in Fig.&#x000a0;<xref rid="Fig2" ref-type="fig">2c</xref> reveal that &#x00394;<bold>&#x003b1;</bold> has important effects on the fine-scale details of the reconstruction, i.e., the geometrical style, the physical permittivity values, and so on. For instance, the reconstructions with <inline-formula id="IEq81"><alternatives><tex-math id="M165">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\Delta {{{{{\boldsymbol{\alpha }}}}}}}_{1}$$\end{document}</tex-math><mml:math id="M166"><mml:msub><mml:mrow><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq81.gif"/></alternatives></inline-formula> feature round shapes, the reconstructions with <inline-formula id="IEq82"><alternatives><tex-math id="M167">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\Delta {{{{{\boldsymbol{\alpha }}}}}}}_{3}$$\end{document}</tex-math><mml:math id="M168"><mml:msub><mml:mrow><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq82.gif"/></alternatives></inline-formula> yield notably low permittivity values, the reconstructions with <inline-formula id="IEq83"><alternatives><tex-math id="M169">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\Delta {{{{{\boldsymbol{\alpha }}}}}}}_{2}$$\end{document}</tex-math><mml:math id="M170"><mml:msub><mml:mrow><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq83.gif"/></alternatives></inline-formula> are lathy and inclined to the right, the reconstructions with <inline-formula id="IEq84"><alternatives><tex-math id="M171">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\Delta {{{{{\boldsymbol{\alpha }}}}}}}_{4}$$\end{document}</tex-math><mml:math id="M172"><mml:msub><mml:mrow><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>4</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq84.gif"/></alternatives></inline-formula> have low permittivity values and wide square shapes, and the reconstructions with <inline-formula id="IEq85"><alternatives><tex-math id="M173">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\Delta {{{{{\boldsymbol{\alpha }}}}}}}_{5}$$\end{document}</tex-math><mml:math id="M174"><mml:msub><mml:mrow><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>5</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq85.gif"/></alternatives></inline-formula> yield bold-font digit shapes. We conclude that &#x00394;<bold>&#x003b1;</bold> governs the low-level structural details of the reconstruction whereas the semantic embedding <inline-formula id="IEq86"><alternatives><tex-math id="M175">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}$$\end{document}</tex-math><mml:math id="M176"><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq86.gif"/></alternatives></inline-formula> is decisive for the high-level features of the reconstruction.</p><p id="Par14">The observed dependence of the reconstruction on the semantic embedding<inline-formula id="IEq87"><alternatives><tex-math id="M177">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\,{{{{{{\boldsymbol{\alpha }}}}}}}_{0}$$\end{document}</tex-math><mml:math id="M178"><mml:mspace width="0.25em"/><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq87.gif"/></alternatives></inline-formula> is particularly valuable in applications with security concerns, e.g., the need to preserve privacy. For instance, by suitably altering the semantic embedding <inline-formula id="IEq88"><alternatives><tex-math id="M179">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}$$\end{document}</tex-math><mml:math id="M180"><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq88.gif"/></alternatives></inline-formula>, the reconstruction can be manipulated to conceal vulnerable objects/subjects or to change their appearance. In such a scenario, the reconstruction is purposefully manipulated to no longer yield the full objective &#x0201c;truth&#x0201d; about the DoI. Indeed, the reconstruction is constrained into the semantic-defined object space imposed during training and hence only yields (a good approximation of) the objective &#x0201c;truth&#x0201d; if the correct control semantic is provided. However, it is now precisely our goal to obtain a reconstruction in which semantically selected aspects of the DoI are purposefully misrepresented, i.e., &#x0201c;untrue&#x0201d;. Representative results are displayed in Fig.&#x000a0;<xref rid="Fig2" ref-type="fig">2d</xref>, where the DoI contains a composition of a digit-like object and geometric-shape-like object. Compared to the second row in Fig.&#x000a0;<xref rid="Fig2" ref-type="fig">2d</xref> which shows the reconstruction with the unaltered semantic embedding<inline-formula id="IEq89"><alternatives><tex-math id="M181">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\,{{{{{{\boldsymbol{\alpha }}}}}}}_{0}$$\end{document}</tex-math><mml:math id="M182"><mml:mspace width="0.25em"/><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq89.gif"/></alternatives></inline-formula>, the ability of a modified semantic embedding to conceal one of the objects or to change its appearance is apparent in the third and fourth rows in Fig.&#x000a0;<xref rid="Fig2" ref-type="fig">2d</xref>, respectively. For instance, we can conceal the digit in the DoI by changing the semantic embedding, i.e., &#x0201c;It is a composite object: digit-9 and triangle. But, conceal digit.&#x0201d; In addition, we can also alter specific parts of the reconstruction by adjusting the control language, e.g., &#x0201c;It is a composite object: low-contrast digit-0 and low-contrast triangle. But, change the digit as low-contrast digit-8.&#x0201d;&#x000a0;To illustrate the benefits of semantic regularization, for a given DoI the reconstruction results with seven increasingly detailed semantic priors are shown in Fig.&#x000a0;<xref rid="Fig3" ref-type="fig">3a</xref>. As visually apparent and quantified by the mean square error (MSE), the more detailed the semantic prior is, the higher is the reconstruction quality. To study the influence of the semantic prior on the data misfit and reconstruction quality more systematically, we considered 10,000 pairs of measurements and semantic priors. For a given prior, we quantify how close it is to the ground truth semantic prior <inline-formula id="IEq90"><alternatives><tex-math id="M183">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}$$\end{document}</tex-math><mml:math id="M184"><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq90.gif"/></alternatives></inline-formula> by computing <inline-formula id="IEq91"><alternatives><tex-math id="M185">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{||}{{{{{{\boldsymbol{\alpha }}}}}}}_{0}-{{{{{\rm{LLM}}}}}}({\ell}){||}}_{2}/{{||}{{{{{{\boldsymbol{\alpha }}}}}}}_{0}{||}}_{2}$$\end{document}</tex-math><mml:math id="M186"><mml:msub><mml:mrow><mml:mo>&#x02223;</mml:mo><mml:mo>&#x02223;</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>&#x02212;</mml:mo><mml:mi mathvariant="normal">LLM</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>&#x02113;</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x02223;</mml:mo><mml:mo>&#x02223;</mml:mo></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mrow><mml:mo>&#x02223;</mml:mo><mml:mo>&#x02223;</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>&#x02223;</mml:mo><mml:mo>&#x02223;</mml:mo></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq91.gif"/></alternatives></inline-formula>. The data misfit is quantified as <inline-formula id="IEq92"><alternatives><tex-math id="M187">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{||}{{{{{{\bf{y}}}}}}}-{{{{{\rm{f}}}}}}({\hat{{{{{{\bf{x}}}}}}}}){||}}_{2}/{{||}{{{{{{\bf{y}}}}}}}{||}}_{2}$$\end{document}</tex-math><mml:math id="M188"><mml:msub><mml:mrow><mml:mo>&#x02223;</mml:mo><mml:mo>&#x02223;</mml:mo><mml:mi mathvariant="bold">y</mml:mi><mml:mo>&#x02212;</mml:mo><mml:mi mathvariant="normal">f</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x0005e;</mml:mo></mml:mrow></mml:mover></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x02223;</mml:mo><mml:mo>&#x02223;</mml:mo></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mrow><mml:mo>&#x02223;</mml:mo><mml:mo>&#x02223;</mml:mo><mml:mi mathvariant="bold">y</mml:mi><mml:mo>&#x02223;</mml:mo><mml:mo>&#x02223;</mml:mo></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq92.gif"/></alternatives></inline-formula>. The reconstruction quality is quantified by the MSE comparing the ground truth <bold>x</bold> to the reconstructed <inline-formula id="IEq93"><alternatives><tex-math id="M189">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{{{{{{\bf{x}}}}}}}$$\end{document}</tex-math><mml:math id="M190"><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x0005e;</mml:mo></mml:mrow></mml:mover></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq93.gif"/></alternatives></inline-formula>. Some reconstruction examples are shown in Fig.&#x000a0;<xref rid="Fig3" ref-type="fig">3c</xref>. It is apparent that the reconstruction quality rapidly increases with increasing discrepancy between the applied semantic prior and the ground truth semantic prior. Only an accurate semantic prior facilitates the solution of the inverse scattering problem. The general dependence of data misfit and reconstruction quality on the accuracy of the semantic prior is plotted in Fig.&#x000a0;<xref rid="Fig3" ref-type="fig">3b</xref> (the dots display only 100 from the 10,000 considered pairs of measurements and semantic priors).<fig id="Fig3"><label>Fig. 3</label><caption><title>Representative results specifically on the incluence of semantics for prototypical EM inverse scattering problems.</title><p><bold>a</bold> Impact of increasingly detailed semantic priors on the reconstruction. Each semantic prior is printed in the box and the corresponding MSE values are indicated as bar plot. <bold>b</bold> Assessment of the dependence of data misfit (blue, left vertical axis) and reconstruction quality (red, quantified by MSE, right vertical axis) on how similar the utilized semantic prior <inline-formula id="IEq94"><alternatives><tex-math id="M191">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{\rm{LLM}}}}}}({{{{\boldsymbol{{\ell}}}}}})$$\end{document}</tex-math><mml:math id="M192"><mml:mi mathvariant="normal">LLM</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi mathvariant="bold-italic">&#x02113;</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq94.gif"/></alternatives></inline-formula> is to the ground-truth semantic prior <inline-formula id="IEq95"><alternatives><tex-math id="M193">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}$$\end{document}</tex-math><mml:math id="M194"><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq95.gif"/></alternatives></inline-formula> (horizontal axis). <bold>c</bold> 16 selected examples from the analysis underlying (<bold>b</bold>) are displayed. The top row displays the microwave measurements and the second row shows&#x000a0;the corresponding ground-truth permittivity distributions. The subsequent four rows display the reconstructions with different semantic priors. The examples highlighted with red dashed boxes correspond to the use of the ground-truth semantic prior.</p></caption><graphic xlink:href="41467_2024_48115_Fig3_HTML" id="d33e2574"/></fig></p><p id="Par15">We also conducted two additional sets of important numerical experiments regarding the immunity to noise and the generalization capabilities of our method which are detailed in Supplementary Notes&#x000a0;<xref rid="MOESM1" ref-type="media">4</xref>&#x02013;<xref rid="MOESM1" ref-type="media">7</xref>. We found that the proposed method is remarkably robust against unseen noise (i.e., noise that appears during testing that was not present during training): Upon visual inspection the output appears unperturbed for SNR&#x02009;=&#x02009;20&#x02009;dB, and for SNR&#x02009;=&#x02009;5&#x02009;dB the original basic outline and meaning can still be recognized even though the output is degraded. Moreover, the semantic regularization displays good generalization capabilities. We hypothesize that the semantic regularization in the training process enables the network to more easily grasp the semantically related information, while ignoring the noisy misleading information in the data, resulting in the impact of noise being reduced. In addition, we also provide in Supplementary Note&#x000a0;<xref rid="MOESM1" ref-type="media">8</xref> more discussion about the effects of different choices of semantic regularizer settings on the reconstruction quality, for instance, optimizer, learning rate, network architecture, and so on.</p></sec><sec id="Sec5"><title>Experimental results for 3D compressive microwave meta-imaging</title><p id="Par16">Having studied the essential properties of semantic regularization with a prototypical numerical inverse scattering problem in the previous section, we now apply semantic regularization experimentally in the context of compressive microwave meta-imaging. The goal of imaging is to determine the scattering properties, e.g., the reflectivity map, of a scene based on measurements of how the scene scatters waves originating from known excitations. To alleviate the transceiver hardware cost, over the last decade the idea of leveraging metamaterial-based hardware for imaging, coined &#x0201c;meta-imaging&#x0201d;, has received significant attention. A meta-imager multiplexes scene information across diverse measurement modes offered by the metamaterial&#x02019;s degrees of freedom onto a single (or few) detector(s)<sup><xref ref-type="bibr" rid="CR9">9</xref></sup>. Initially, spectral degrees of freedom were explored<sup><xref ref-type="bibr" rid="CR50">50</xref></sup> but more recently the research focus shifted to configurational degrees of freedom in programmable metamaterials<sup><xref ref-type="bibr" rid="CR51">51</xref></sup>, especially because they enable the tailoring of the illuminations to specific types of scenes<sup><xref ref-type="bibr" rid="CR52">52</xref></sup> and even to specific imaging task<sup><xref ref-type="bibr" rid="CR9">9</xref>,<xref ref-type="bibr" rid="CR53">53</xref>&#x02013;<xref ref-type="bibr" rid="CR56">56</xref></sup> and noise types<sup><xref ref-type="bibr" rid="CR57">57</xref></sup>. In meta-imagers, the mapping from scene to measurements is not a one-to-one mapping, requiring a non-trivial computational reconstruction of the scene from the measured data. Often, the dimensionality of the measurements can be remarkably lower than that of the scene because the inherent multiplexing compresses the sparse scene information. Typical compressive imaging problems are ill-posed due to this dimensionality mismatch and the reconstruction relies on sparse regularization. However, in many practical applications, the required transform to obtain a sparse scene representation is unknown.</p><p id="Par17">In this section, we demonstrate experimentally that semantic regularization can simplify the representation of the prior without harsh requirements on knowing the sparse transformation. Moreover, the semantic regularizer has language-controllable properties that can be explored to conceal or alter parts of the reconstructed images. Our experimental measurements are based on a compressive metasurface camera operating around 2.4&#x02009;GHz (see Methods and Supplementary Note&#x000a0;<xref rid="MOESM1" ref-type="media">9</xref> for details). The underlying programmable metasurface is depicted in Fig.&#x000a0;<xref rid="Fig4" ref-type="fig">4a</xref>. Our goal is to image the posture of two human subjects, Jack (the first author in this article) and Sam (the third author), in our laboratory environment. We train our encoder-decoder network with the same approach as before. Our training dataset includes <italic>M</italic>&#x02009;=&#x02009;25,000 examples; the ground-truth scenes are obtained based on a stereo optical camera, as detailed in Supplementary Note&#x000a0;<xref rid="MOESM1" ref-type="media">9</xref>. Furthermore, to train the discriminator, 50,000 training examples are created and used. Our training and testing data are collected under the same experimental conditions and include hence the same level of noise. Therefore, the network can optimally adapt to the type and level of noise<sup><xref ref-type="bibr" rid="CR57">57</xref></sup>.<fig id="Fig4"><label>Fig. 4</label><caption><title>Selected experimental results of semantically regularized 3D compressive microwave meta-imaging.</title><p><bold>a</bold> Front-view and back-view of the programmable metasurface (1.3&#x02009;&#x000d7;&#x02009;1.7&#x02009;m<sup>2</sup>). The insets show the programmable meta-atom design and the FPGA-based micro control unit (MCU). <bold>b</bold> Imaging results for a 3&#x02009;&#x000d7;&#x02009;2&#x02009;m<sup>2</sup> scene containing two freely moving human subjects in a laboratory environment. Optical images of five representative scenes are shown in the first row. The semantic embeddings proposed by the encoder network are used for the reconstructions shown in the second row and indicated there. Different colors represent 24 different body parts. The third and fourth rows show reconstructed images based on altered semantic embeddings that seek to conceal one subject (third row) or alter the subjects&#x02019; postures/actions (fourth row).</p></caption><graphic xlink:href="41467_2024_48115_Fig4_HTML" id="d33e2657"/></fig></p><p id="Par18">Optical images of five representative scenes are displayed in the first row of Fig.&#x000a0;<xref rid="Fig4" ref-type="fig">4b</xref>. The second row shows the corresponding &#x0201c;protection-less&#x0201d; reconstructions for which the utilized semantic embedding <inline-formula id="IEq96"><alternatives><tex-math id="M195">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}$$\end{document}</tex-math><mml:math id="M196"><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq96.gif"/></alternatives></inline-formula> (printed above the reconstructions) is the one automatically proposed by the encoder network based on the microwave measurements. It is apparent that the proposed method not only reconstructs high-fidelity images from the compressive measurements, but it also simultaneously outputs high-level semantic descriptions of the scenes, e.g., &#x0201c;Jack is waving his left hand, and Sam is sitting on the chair&#x0201d;. Remarkably, the identities and status of the subjects have been correctly recognized by the algorithm despite the fact that the two subjects have very similar body profiles. Whereas it would be almost impossible to distinguish the two subjects based on optical binarized images or skeletons, the necessary information appears to be encoded in the raw compressive microwave measurements and our semantically regularized compressive metasurface camera is apparently capable of extracting this information from the raw microwave data. Therefore, the proposed method is a promising tool to enable paradigms such as smart homes without infringing the inhabitants&#x02019; privacy by monitoring the environment with optical cameras. To summarize, the semantically regularized compressive meta-imager is capable of reconstructing the scene in a privacy-preserving manner and simultaneously provides a semantic description of the scene.</p><p id="Par19">Next, we explore the ability of language-controllable imaging to conceal or alter vulnerable parts of the scene. First, we seek to image the posture of one subject while entirely preserving the privacy of the other subject by concealing it via a suitable manipulation of the semantic embedding so that the concealed subject does not appear in the reconstructed image. Corresponding results are displayed in the third row of Fig.&#x000a0;<xref rid="Fig4" ref-type="fig">4b</xref>. Irrespective of which subject we aim to conceal and what the subjects&#x02019; postures are, a suitable control command in the manipulated semantic embedding can faithfully identify the subject whose privacy we seek to protect and conceal it, without impacting the imaging of the posture of the subject of interest. It is also possible to manipulate the semantic embedding with a language-based control command that purposefully alters the reconstructed image. For instance, the examples displayed in the fourth row of Fig.&#x000a0;<xref rid="Fig4" ref-type="fig">4b</xref> show that we can change the postures/actions of the subjects. We can also swap the positions of the two subjects without altering their postures (second column).</p><p id="Par20">Finally, we examine the zero-shot generalization capability of the semantically regularized compressive image reconstruction. We alter the semantic embedding with language-based control commands that were not seen during the training of the encoder-decoder network. The obtained results are satisfactory, as displayed in Fig.&#x000a0;<xref rid="Fig5" ref-type="fig">5a</xref>. The use of unseen semantic commands resembling the one proposed by the encoder network (such as &#x0201c;put up his right hand&#x0201d; instead of &#x0201c;raise right arm&#x0201d;) yields almost identical reconstructed images. We also investigate the use of three similar semantic commands that are clearly distinct from the semantic embedding proposed by the encoder network, and only the first of the three was included in the training dataset. All three yield very similar reconstructed images in line with the semantically requested modification. The relation between the ground-truth and the unseen new semantic embeddings is visualized on a t-SNE scatter plot in Fig.&#x000a0;<xref rid="Fig5" ref-type="fig">5b</xref>. The generalization capabilities evidenced in Fig.&#x000a0;<xref rid="Fig5" ref-type="fig">5a</xref> are very important in sight of the cost of annotating microwave measurements to create sufficient labeled training data&#x02014;a task that is extremely labor intensive and whose complexity rises significantly as the number of labels increases.<fig id="Fig5"><label>Fig. 5</label><caption><title>Selected experimental results specifically aimed at the zero-shot generalization capability of the semantically regularized 3D compressive microwave meta-imaging.</title><p><bold>a</bold> Reconstructions based on semantic embeddings including unseen language-based control commands to manipulate the reconstruction. <inline-formula id="IEq97"><alternatives><tex-math id="M197">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{\boldsymbol{{\ell}}}}}}}^{0}$$\end{document}</tex-math><mml:math id="M198"><mml:msup><mml:mrow><mml:mi mathvariant="bold-italic">&#x02113;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msup></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq97.gif"/></alternatives></inline-formula> corresponds to the original semantic embedding <inline-formula id="IEq98"><alternatives><tex-math id="M199">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}^{0}$$\end{document}</tex-math><mml:math id="M200"><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq98.gif"/></alternatives></inline-formula> proposed by the encoder network; <inline-formula id="IEq99"><alternatives><tex-math id="M201">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{\boldsymbol{{\ell}}}}}}}^{1}$$\end{document}</tex-math><mml:math id="M202"><mml:msup><mml:mrow><mml:mi mathvariant="bold-italic">&#x02113;</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq99.gif"/></alternatives></inline-formula>-<inline-formula id="IEq100"><alternatives><tex-math id="M203">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{\boldsymbol{{\ell}}}}}}}^{3}$$\end{document}</tex-math><mml:math id="M204"><mml:msup><mml:mrow><mml:mi mathvariant="bold-italic">&#x02113;</mml:mi></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msup></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq100.gif"/></alternatives></inline-formula> correspond to the changed semantic embeddings <inline-formula id="IEq101"><alternatives><tex-math id="M205">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}^{1}$$\end{document}</tex-math><mml:math id="M206"><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq101.gif"/></alternatives></inline-formula>-<inline-formula id="IEq102"><alternatives><tex-math id="M207">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}^{3}$$\end{document}</tex-math><mml:math id="M208"><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq102.gif"/></alternatives></inline-formula> which have similar meanings as <inline-formula id="IEq103"><alternatives><tex-math id="M209">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}^{0}$$\end{document}</tex-math><mml:math id="M210"><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq103.gif"/></alternatives></inline-formula> but are not included in the training dataset; <inline-formula id="IEq104"><alternatives><tex-math id="M211">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{\boldsymbol{{\ell}}}}}}}^{4}$$\end{document}</tex-math><mml:math id="M212"><mml:msup><mml:mrow><mml:mi mathvariant="bold-italic">&#x02113;</mml:mi></mml:mrow><mml:mrow><mml:mn>4</mml:mn></mml:mrow></mml:msup></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq104.gif"/></alternatives></inline-formula>-<inline-formula id="IEq105"><alternatives><tex-math id="M213">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{\boldsymbol{{\ell}}}}}}}^{6}$$\end{document}</tex-math><mml:math id="M214"><mml:msup><mml:mrow><mml:mi mathvariant="bold-italic">&#x02113;</mml:mi></mml:mrow><mml:mrow><mml:mn>6</mml:mn></mml:mrow></mml:msup></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq105.gif"/></alternatives></inline-formula> corresponds to the changed semantic embeddings <inline-formula id="IEq106"><alternatives><tex-math id="M215">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}^{4}$$\end{document}</tex-math><mml:math id="M216"><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mn>4</mml:mn></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq106.gif"/></alternatives></inline-formula>-<inline-formula id="IEq107"><alternatives><tex-math id="M217">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}^{6}$$\end{document}</tex-math><mml:math id="M218"><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mn>6</mml:mn></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq107.gif"/></alternatives></inline-formula> which are semantically similar but different from <inline-formula id="IEq108"><alternatives><tex-math id="M219">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}^{0}$$\end{document}</tex-math><mml:math id="M220"><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq108.gif"/></alternatives></inline-formula>, and only <inline-formula id="IEq109"><alternatives><tex-math id="M221">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}^{4}$$\end{document}</tex-math><mml:math id="M222"><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mn>4</mml:mn></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq109.gif"/></alternatives></inline-formula> is included in the training dataset. <bold>b</bold> T-SNE scatter plot visualizing the resemblance of the semantic embeddings considered in (<bold>a</bold>), <inline-formula id="IEq110"><alternatives><tex-math id="M223">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{\rm{i}}}}}}.{{{{{\rm{e}}}}}}.,{{{{{{\boldsymbol{\alpha }}}}}}}_{0}^{0}-{{{{{{\boldsymbol{\alpha }}}}}}}_{0}^{6}$$\end{document}</tex-math><mml:math id="M224"><mml:mi mathvariant="normal">i</mml:mi><mml:mo>.</mml:mo><mml:mi mathvariant="normal">e</mml:mi><mml:mo>.</mml:mo><mml:mo>,</mml:mo><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msubsup><mml:mo>&#x02212;</mml:mo><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mn>6</mml:mn></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq110.gif"/></alternatives></inline-formula>.</p></caption><graphic xlink:href="41467_2024_48115_Fig5_HTML" id="d33e2944"/></fig></p></sec><sec id="Sec6"><title>Experimental results for 4D compressive microwave meta-imaging</title><p id="Par21">We now apply our semantic regularization strategy to a yet more challenging 4D compressive meta-imaging problem in which we seek to monitor the spatial-temporal behavior of Sam and Jack in our laboratory environment. The two subjects act continuously and freely in this realistic indoor environment, including actions like hugging, shaking hands, stretching, opening and/or closing drawers, moving objects, etc. In contrast to the 3D imaging problem considered in the previous section, the inputs and outputs are sequences of microwave measurements and 3D images, respectively, in the 4D case. The semantic embedding <inline-formula id="IEq111"><alternatives><tex-math id="M225">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}$$\end{document}</tex-math><mml:math id="M226"><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq111.gif"/></alternatives></inline-formula> needs to be consistent with the dynamic action. Correspondingly, the encoder-decoder network needs to be modified such that it is suitable for dealing with these modified inputs and outputs (see details in Supplementary Note&#x000a0;<xref rid="MOESM1" ref-type="media">1</xref>). We represent the subjects with 19-point 3D skeletons and model the indoor environment with a 3D visual-semantic map such that a given coordinate (e.g., (1.3&#x02009;m, 1.2&#x02009;m, 0.8&#x02009;m)) can be associated with a semantic coordinate (e.g., &#x0201c;at the left side of the chair&#x0201d;)<sup><xref ref-type="bibr" rid="CR58">58</xref></sup> (see Fig.&#x000a0;<xref rid="Fig6" ref-type="fig">6a</xref> and Supplementary Note&#x000a0;<xref rid="MOESM1" ref-type="media">10</xref>).<fig id="Fig6"><label>Fig. 6</label><caption><title>Selected experimental results of semantically regularized 4D compressive microwave meta-imaging.</title><p><bold>a</bold> 3D visual-semantic map of the indoor environment. <bold>b</bold> Snapshots of 4D imaging results for different laboratory scenes involving two freely acting human subjects. The corresponding optical images are shown in the first row and the reconstructions based on the semantic embedding proposed by the encoder network are shown in the second row. The text in parentheses describes the body language meaning of the action. The third row shows snapshots of semantically altered reconstructions, and the corresponding modified semantic controls are indicated. <bold>c</bold> Histogram of the RMSE distribution comparing the reconstructed 4D skeletons to the corresponding ground truths, based on 10,000 samples for testing.</p></caption><graphic xlink:href="41467_2024_48115_Fig6_HTML" id="d33e2993"/></fig></p><p id="Par22">Representative results for the case of a single subject (i.e., Jack) are provided in Supplementary Video&#x000a0;<xref rid="MOESM4" ref-type="media">1</xref>. For the more complex scenarios involving two interacting subjects, representative results are provided in Supplementary Video&#x000a0;<xref rid="MOESM5" ref-type="media">2</xref> and corresponding snapshots are also displayed in the second row of Fig.&#x000a0;<xref rid="Fig6" ref-type="fig">6b</xref>. We distinguish the two subjects by displaying the skeletons in different colors. The high-fidelity reconstruction of our proposed method is apparent and more rigorously quantified by the histogram of the root&#x000a0;mean squared errors (RMSEs) of the reconstructed skeletons in Fig.&#x000a0;<xref rid="Fig6" ref-type="fig">6c</xref>. The RMSE values do not exceed 10&#x02009;cm. Moreover, the algorithm simultaneously produces accurate high-level semantic recognition results (see also the confusion matrix of semantic recognitions in Supplementary Note&#x000a0;<xref rid="MOESM1" ref-type="media">11</xref>). Importantly, the semantic descriptions of the scene include details about subjects&#x02019; identities, actions, and locations, for instance, &#x0201c;Sam and Jack are shaking hands in front of computer&#x0201d;. Recall that this detailed information was retrieved without infringing the subject&#x02019;s visual privacy in contrast to what would be possible with optical sensing. Similar to the previous section, we can further protect the subjects&#x02019; privacy by controlling the semantic component <inline-formula id="IEq112"><alternatives><tex-math id="M227">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}$$\end{document}</tex-math><mml:math id="M228"><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq112.gif"/></alternatives></inline-formula>. Corresponding reconstruction snapshots results are displayed in the third row in Fig.&#x000a0;<xref rid="Fig6" ref-type="fig">6b</xref> which are based on purposefully modified semantic embeddings. In particular, for the same set of raw microwave signals, by altering <inline-formula id="IEq113"><alternatives><tex-math id="M229">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\alpha }}}}}}}_{0}$$\end{document}</tex-math><mml:math id="M230"><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq113.gif"/></alternatives></inline-formula> we can change the action or position of any subject in the reconstruction. The same observations and conclusions as in the previous section follow also in this more challenging 4D imaging context.</p></sec></sec><sec id="Sec7" sec-type="discussion"><title>Discussion</title><p id="Par23">To summarize, we introduced and demonstrated the semantic regularization of ill-posed EM inverse problems with the help of pre-trained LLMs. We reported the implementation of regularization that makes use of priors formulated in human natural language rather than mathematical language. On the one hand, this semantic regularization extends the scope of priors that can be considered to those semantically formulated based on human reasoning and recognition for which no simple mathematical formulation exists. On the other hand, semantic regularization enables new forms of privacy protection, for instance, for smart home appliances requiring some level of indoor surveillance. We evidenced that suitable manipulations of the semantic prior can conceal subjects from the reconstruction or alter their appearance in the reconstruction. These capabilities of semantic regularization enable the flexible protection of privacy, e.g., when subjects other than that of interest to the smart home appliance are present. We have implemented the proposed semantic regularization with an encoder-decoder network and applied it to a numerical prototypical 2D inverse scattering problem as well as experimental 3D and 4D compressive imaging problems based on microwave programmable metasurfaces. Our experiments are of direct technological relevance to emerging concepts for smart homes, touchless human-machine interaction, and security screening. Moreover, our work provides new conceptual perspectives on the regularization of inverse problems that can be explored even beyond the considered EM context, as shown in Supplementary Note&#x000a0;<xref rid="MOESM1" ref-type="media">14</xref> for an illustrative example in the area of reservoir fluid mechanics.</p></sec><sec id="Sec8"><title>Methods</title><sec id="Sec9"><title>Training the encoder-decoder network</title><p id="Par24">The architecture of the encoder-decoder network is summarized in Fig.&#x000a0;<xref rid="Fig1" ref-type="fig">1b</xref> and further detailed in Supplementary Note&#x000a0;<xref rid="MOESM1" ref-type="media">1</xref>. To train the encoder-decoder network, we proceed in three steps. In the first step, a large-scale labeled triplet dataset <inline-formula id="IEq114"><alternatives><tex-math id="M231">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\{{{{{{{\bf{x}}}}}}}_{i},{{{{{{\bf{y}}}}}}}_{i},{{\ell}}_{i}{;i}={{{{\mathrm{1,2}}}}},\ldots,M\}$$\end{document}</tex-math><mml:math id="M232"><mml:mrow><mml:mo>{</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold">y</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>&#x02113;</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>;</mml:mo><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mi mathvariant="normal">1, 2</mml:mi><mml:mo>,</mml:mo><mml:mo>&#x02026;</mml:mo><mml:mo>,</mml:mo><mml:mi>M</mml:mi></mml:mrow><mml:mo>}</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq114.gif"/></alternatives></inline-formula> is collected and subsequently used to train the encoder-decoder network. Considering that the ill-posed inverse problem has an infinite number of non-meaningful solutions, i.e., the encoder most likely yields unsuitable semantic embeddings, we integrate the encoder-decoder network as generator together with a discriminator into a GAN in order to fine-tune the semantic embedding produced by the encoder. To this end, in the second step, we collect on-line a large sample of semantic embeddings generated by the encoder network and manually evaluate their meaningfulness, assigning &#x0201c;1&#x0201d; and &#x0201c;0&#x0201d; for correct and incorrect labels, respectively. Then, in the second step, we leverage this new labeled dataset to train the GAN&#x02019;s discriminator that serves as a reward model: it is responsible for scoring the similarity between the semantic embedding output from the GAN&#x02019;s generator (i.e., the encoder-decoder network) and the intended semantics. In the third step, inspired by reinforcement learning<sup><xref ref-type="bibr" rid="CR53">53</xref></sup> or embodied intelligence<sup><xref ref-type="bibr" rid="CR23">23</xref>&#x02013;<xref ref-type="bibr" rid="CR26">26</xref></sup>, we continuously fine-tune the GAN&#x02019; generator and discriminator.</p></sec><sec id="Sec10"><title>Inverse scattering modeling</title><p id="Par25">We consider a prototypical 2D inverse scattering problem with TM-polarized monochromatic illumination <inline-formula id="IEq115"><alternatives><tex-math id="M233">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\bf{E}}}}}}}_{{{{{{\rm{in}}}}}}}$$\end{document}</tex-math><mml:math id="M234"><mml:msub><mml:mrow><mml:mi mathvariant="bold">E</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">in</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq115.gif"/></alternatives></inline-formula>. As displayed in Fig.&#x000a0;<xref rid="Fig2" ref-type="fig">2a</xref>, a nonmagnetic scattering object with relative permittivity distribution <inline-formula id="IEq116"><alternatives><tex-math id="M235">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\boldsymbol{\varepsilon }}}}}}}_{{{{{{\rm{r}}}}}}}({{{{{\bf{r}}}}}})$$\end{document}</tex-math><mml:math id="M236"><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b5;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">r</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi mathvariant="bold">r</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq116.gif"/></alternatives></inline-formula> lies inside the DoI, while<inline-formula id="IEq117"><alternatives><tex-math id="M237">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\,{N}_{{in}}$$\end{document}</tex-math><mml:math id="M238"><mml:mspace width="0.25em"/><mml:msub><mml:mrow><mml:mi>N</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mi>n</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq117.gif"/></alternatives></inline-formula> transmitters and <inline-formula id="IEq118"><alternatives><tex-math id="M239">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${N}_{s}$$\end{document}</tex-math><mml:math id="M240"><mml:msub><mml:mrow><mml:mi>N</mml:mi></mml:mrow><mml:mrow><mml:mi>s</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq118.gif"/></alternatives></inline-formula> receivers are uniformly distributed along the circle <inline-formula id="IEq119"><alternatives><tex-math id="M241">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\varGamma$$\end{document}</tex-math><mml:math id="M242"><mml:mi>&#x00393;</mml:mi></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq119.gif"/></alternatives></inline-formula> surrounding the DoI. The object is successively illuminated by <inline-formula id="IEq120"><alternatives><tex-math id="M243">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${N}_{{in}}$$\end{document}</tex-math><mml:math id="M244"><mml:msub><mml:mrow><mml:mi>N</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mi>n</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq120.gif"/></alternatives></inline-formula> transmitters, and the scattered fields <inline-formula id="IEq121"><alternatives><tex-math id="M245">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\bf{E}}}}}}}_{{{{{{\rm{s}}}}}}}$$\end{document}</tex-math><mml:math id="M246"><mml:msub><mml:mrow><mml:mi mathvariant="bold">E</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">s</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq121.gif"/></alternatives></inline-formula> are acquired by <inline-formula id="IEq122"><alternatives><tex-math id="M247">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${N}_{s}$$\end{document}</tex-math><mml:math id="M248"><mml:msub><mml:mrow><mml:mi>N</mml:mi></mml:mrow><mml:mrow><mml:mi>s</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq122.gif"/></alternatives></inline-formula> receivers for each illumination. The relevant equations read<sup><xref ref-type="bibr" rid="CR2">2</xref>,<xref ref-type="bibr" rid="CR3">3</xref>,<xref ref-type="bibr" rid="CR38">38</xref></sup>:<disp-formula id="Equ3"><label>3</label><alternatives><tex-math id="M249">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\,{{{{{{\bf{E}}}}}}}_{{{{{{\rm{s}}}}}}}\left({{{{{\bf{r}}}}}}\right)=j\omega {\varepsilon }_{0}{\int }_{{{{{{\rm{DoI}}}}}}}g({{{{{\bf{r}}}}}},{{{{{\bf{r}}}}}}{\prime} ){{{{{\boldsymbol{\chi }}}}}}({{{{{\bf{r}}}}}}{\prime} ){{{{{{\bf{E}}}}}}}_{{{{{{\rm{t}}}}}}}\left({{{{{\bf{r}}}}}}{\prime} \right)d{{{{{{\bf{r}}}}}}}^{{\prime} },{{{{{\bf{r}}}}}}\in \varGamma .$$\end{document}</tex-math><mml:math id="M250"><mml:mspace width="0.25em"/><mml:msub><mml:mrow><mml:mi mathvariant="bold">E</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">s</mml:mi></mml:mrow></mml:msub><mml:mfenced close=")" open="("><mml:mrow><mml:mi mathvariant="bold">r</mml:mi></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:mi>j</mml:mi><mml:mi>&#x003c9;</mml:mi><mml:msub><mml:mrow><mml:mi>&#x003b5;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mo>&#x0222b;</mml:mo></mml:mrow><mml:mrow><mml:mi mathvariant="normal">DoI</mml:mi></mml:mrow></mml:msub><mml:mi>g</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi mathvariant="bold">r</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold">r</mml:mi><mml:mo>&#x02032;</mml:mo></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mi mathvariant="bold-italic">&#x003c7;</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi mathvariant="bold">r</mml:mi><mml:mo>&#x02032;</mml:mo></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">E</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">t</mml:mi></mml:mrow></mml:msub><mml:mfenced close=")" open="("><mml:mrow><mml:mi mathvariant="bold">r</mml:mi><mml:mo>&#x02032;</mml:mo></mml:mrow></mml:mfenced><mml:mi>d</mml:mi><mml:msup><mml:mrow><mml:mi mathvariant="bold">r</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x02032;</mml:mo></mml:mrow></mml:msup><mml:mo>,</mml:mo><mml:mi mathvariant="bold">r</mml:mi><mml:mo>&#x02208;</mml:mo><mml:mi>&#x00393;</mml:mi><mml:mo>.</mml:mo></mml:math><graphic xlink:href="41467_2024_48115_Article_Equ3.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ4"><label>4</label><alternatives><tex-math id="M251">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\bf{E}}}}}}}_{{{{{{\rm{t}}}}}}}\left({{{{{\bf{r}}}}}}\right)={{{{{{\bf{E}}}}}}}_{{{{{{\rm{in}}}}}}}\left({{{{{\bf{r}}}}}}\right)+j\omega {\varepsilon }_{0}{\int }_{{{{{{\rm{DoI}}}}}}}g({{{{{\bf{r}}}}}},{{{{{\bf{r}}}}}}{\prime} ){{{{{\boldsymbol{\chi }}}}}}({{{{{\bf{r}}}}}}{\prime} ){{{{{{\bf{E}}}}}}}_{{{{{{\rm{t}}}}}}}\left({{{{{\bf{r}}}}}}{\prime} \right)d{{{{{{\bf{r}}}}}}}^{{\prime} },{{{{{\bf{r}}}}}}\in {{{{{\rm{DoI}}}}}}.$$\end{document}</tex-math><mml:math id="M252"><mml:msub><mml:mrow><mml:mi mathvariant="bold">E</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">t</mml:mi></mml:mrow></mml:msub><mml:mfenced close=")" open="("><mml:mrow><mml:mi mathvariant="bold">r</mml:mi></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold">E</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">in</mml:mi></mml:mrow></mml:msub><mml:mfenced close=")" open="("><mml:mrow><mml:mi mathvariant="bold">r</mml:mi></mml:mrow></mml:mfenced><mml:mo>+</mml:mo><mml:mi>j</mml:mi><mml:mi>&#x003c9;</mml:mi><mml:msub><mml:mrow><mml:mi>&#x003b5;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mo>&#x0222b;</mml:mo></mml:mrow><mml:mrow><mml:mi mathvariant="normal">DoI</mml:mi></mml:mrow></mml:msub><mml:mi>g</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi mathvariant="bold">r</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold">r</mml:mi><mml:mo>&#x02032;</mml:mo></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mi mathvariant="bold-italic">&#x003c7;</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi mathvariant="bold">r</mml:mi><mml:mo>&#x02032;</mml:mo></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">E</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">t</mml:mi></mml:mrow></mml:msub><mml:mfenced close=")" open="("><mml:mrow><mml:mi mathvariant="bold">r</mml:mi><mml:mo>&#x02032;</mml:mo></mml:mrow></mml:mfenced><mml:mi>d</mml:mi><mml:msup><mml:mrow><mml:mi mathvariant="bold">r</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x02032;</mml:mo></mml:mrow></mml:msup><mml:mo>,</mml:mo><mml:mi mathvariant="bold">r</mml:mi><mml:mo>&#x02208;</mml:mo><mml:mi mathvariant="normal">DoI</mml:mi><mml:mo>.</mml:mo></mml:math><graphic xlink:href="41467_2024_48115_Article_Equ4.gif" position="anchor"/></alternatives></disp-formula>Herein, <inline-formula id="IEq123"><alternatives><tex-math id="M253">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$g\left({{{{{\bf{r}}}}}},{{{{{{\bf{r}}}}}}}^{{\prime} }\right)=-\frac{\omega {\mu }_{0}}{4}{{{{{{\rm{H}}}}}}}_{0}^{\left(2\right)}({{{{{{\bf{k}}}}}}}_{0}\left|{{{{{\bf{r}}}}}}-{{{{{\bf{r}}}}}}{\prime} \right|)$$\end{document}</tex-math><mml:math id="M254"><mml:mi>g</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mi mathvariant="bold">r</mml:mi><mml:mo>,</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="bold">r</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x02032;</mml:mo></mml:mrow></mml:msup></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:mo>&#x02212;</mml:mo><mml:mfrac><mml:mrow><mml:mi>&#x003c9;</mml:mi><mml:msub><mml:mrow><mml:mi>&#x003bc;</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mn>4</mml:mn></mml:mrow></mml:mfrac><mml:msubsup><mml:mrow><mml:mi mathvariant="normal">H</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mfenced close=")" open="("><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:mfenced></mml:mrow></mml:msubsup><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">k</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mfenced close="&#x02223;" open="&#x02223;"><mml:mrow><mml:mi mathvariant="bold">r</mml:mi><mml:mo>&#x02212;</mml:mo><mml:mi mathvariant="bold">r</mml:mi><mml:mo>&#x02032;</mml:mo></mml:mrow></mml:mfenced></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq123.gif"/></alternatives></inline-formula> is the 2D Green&#x02019;s function in free space, <inline-formula id="IEq124"><alternatives><tex-math id="M255">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\rm{H}}}}}}}_{0}^{\left(2\right)}$$\end{document}</tex-math><mml:math id="M256"><mml:msubsup><mml:mrow><mml:mi mathvariant="normal">H</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mfenced close=")" open="("><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:mfenced></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq124.gif"/></alternatives></inline-formula> is the second-kind zeroth-order Hankel function, <inline-formula id="IEq125"><alternatives><tex-math id="M257">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{\boldsymbol{\chi }}}}}}({{{{{\bf{r}}}}}}{\prime} )={{{{{{\boldsymbol{\varepsilon }}}}}}}_{{{{{{\rm{r}}}}}}}({{{{{\bf{r}}}}}}{\prime} )-1$$\end{document}</tex-math><mml:math id="M258"><mml:mi mathvariant="bold-italic">&#x003c7;</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi mathvariant="bold">r</mml:mi><mml:mo>&#x02032;</mml:mo></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">&#x003b5;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">r</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi mathvariant="bold">r</mml:mi><mml:mo>&#x02032;</mml:mo></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x02212;</mml:mo><mml:mn>1</mml:mn></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq125.gif"/></alternatives></inline-formula>, and <inline-formula id="IEq126"><alternatives><tex-math id="M259">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\omega$$\end{document}</tex-math><mml:math id="M260"><mml:mi>&#x003c9;</mml:mi></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq126.gif"/></alternatives></inline-formula> is the angular frequency. The primary purpose of the inverse scattering problem is to reconstruct the distribution of <inline-formula id="IEq127"><alternatives><tex-math id="M261">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{\boldsymbol{\chi }}}}}}$$\end{document}</tex-math><mml:math id="M262"><mml:mi mathvariant="bold-italic">&#x003c7;</mml:mi></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq127.gif"/></alternatives></inline-formula> within the DoI from the measurements <inline-formula id="IEq128"><alternatives><tex-math id="M263">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\bf{E}}}}}}}_{{{{{{\rm{s}}}}}}}$$\end{document}</tex-math><mml:math id="M264"><mml:msub><mml:mrow><mml:mi mathvariant="bold">E</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">s</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq128.gif"/></alternatives></inline-formula> along with the corresponding illumination information <inline-formula id="IEq129"><alternatives><tex-math id="M265">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{{{\bf{E}}}}}}}_{{{{{{\rm{in}}}}}}}$$\end{document}</tex-math><mml:math id="M266"><mml:msub><mml:mrow><mml:mi mathvariant="bold">E</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">in</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq129.gif"/></alternatives></inline-formula>. For our numerical implementation, the DoI is evenly divided into a <inline-formula id="IEq130"><alternatives><tex-math id="M267">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${N}_{x}\times {N}_{y}$$\end{document}</tex-math><mml:math id="M268"><mml:msub><mml:mrow><mml:mi>N</mml:mi></mml:mrow><mml:mrow><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:mo>&#x000d7;</mml:mo><mml:msub><mml:mrow><mml:mi>N</mml:mi></mml:mrow><mml:mrow><mml:mi>y</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41467_2024_48115_Article_IEq130.gif"/></alternatives></inline-formula> square grid. Further details are provided in Supplementary Note&#x000a0;<xref rid="MOESM1" ref-type="media">3</xref>. Besides, we here would like to highlight that the proposed semantic regularization strategy could be readily integrated into conventional iterative inverse scattering approaches to remarkably improve the latter&#x02019;s performance. For instance, we developed the semantic-integrated Born iterative method (BIM) to improve the BIM&#x02019;s performance in terms of the reconstruction quality and the convergence behavior, as shown in Supplementary Note&#x000a0;<xref rid="MOESM1" ref-type="media">12</xref>.</p></sec><sec id="Sec11"><title>Compressive metasurface camera</title><p id="Par26">The compressive metasurface camera is a software-defined system enabling high-frame-rate EM sensing. It consists of a programmable metasurface, a low-cost commercial software-defined radio device (Ettus USRP X310), a transmitting antenna, a three-antenna receiver and a host computer. Both the USRP and metasurface communicate with the host computer via an Ethernet connection with a transmission control protocol (TCP); meanwhile, the USRP communicates with the metasurface via I/O series communication. The host computer is responsible for selecting the control patterns and communicates them to the metasurface through the FPGA module; at the same time, it sends a command signal to the USRP in order to synchronize its transmitting and receiving channels.</p><p id="Par27">The programmable metasurface is an ultrathin 2D array composed of meta-atoms with individually controllable reflection properties. In our implementation, the programmable metasurface is composed of 3&#x02009;&#x000d7;&#x02009;3 identical metasurface panels, and each panel consists of 8&#x02009;&#x000d7;&#x02009;8 meta-atoms. The size of the designed programmable meta-atom is 54&#x02009;&#x000d7;&#x02009;54&#x02009;mm<sup>2</sup>. Each meta-atom contains one PIN diode which enables the meta-atom to switch between two distinct EM response states. Specifically, the reflection phase response changes by roughly 180&#x000b0; around 2.4&#x02009;GHz when the PIN diode is switched from OFF (ON) to ON (OFF), while the reflection amplitude remains almost unaltered. The bias voltages of the PIN diodes are controlled by a FPGA-based micro-control-unit with clock of 50&#x02009;MHz. More details are provided in Supplementary Note&#x000a0;<xref rid="MOESM1" ref-type="media">9</xref>.</p></sec></sec><sec sec-type="supplementary-material"><sec id="Sec12"><title>Supplementary information</title><p>
+<supplementary-material content-type="local-data" id="MOESM1"><media xlink:href="41467_2024_48115_MOESM1_ESM.pdf"><caption><p>Supplementary Information</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM2"><media xlink:href="41467_2024_48115_MOESM2_ESM.pdf"><caption><p>Peer Review File</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM3"><media xlink:href="41467_2024_48115_MOESM3_ESM.pdf"><caption><p>Description of Additional Supplementary Files</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM4"><media xlink:href="41467_2024_48115_MOESM4_ESM.mp4"><caption><p>Supplementary Video 1</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM5"><media xlink:href="41467_2024_48115_MOESM5_ESM.mp4"><caption><p>Supplementary Video 2</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM6"><media xlink:href="41467_2024_48115_MOESM6_ESM.zip"><caption><p>Supplementary Software 1</p></caption></media></supplementary-material>
+</p></sec></sec></body><back><fn-group><fn><p><bold>Publisher&#x02019;s note</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p></fn><fn><p>These authors contributed equally: Hongrui Zhang, Yanjin Chen.</p></fn></fn-group><sec><title>Supplementary information</title><p>The online version contains supplementary material available at 10.1038/s41467-024-48115-5.</p></sec><ack><title>Acknowledgements</title><p>This work was supported by the National Key Research and Development Program of China under Grant Nos. 2023YFB3811502,&#x000a0;2021YFA1401002. T.J.C. acknowledges the support from the National Natural Science Foundation of China under Grant No. 62288101.&#x000a0;L.L. acknowledges the support from&#x000a0;State Grid Corporation of China&#x02019;s headquarters technology project &#x0201c;Research on non-contact wireless sensing mechanism and state identification method for distribution network&#x0201d; (5400-202355545A-3-2-ZN).</p></ack><notes notes-type="author-contribution"><title>Author contributions</title><p>L.L. and T.J.C. conceived the idea, and wrote the manuscript. P.d.H. contributed to conceptualization and writing. H.Z. and Y.C. designed and developed the system and conducted the experiments. Z.W. contributed to the experiments. All authors participated in the data analysis and interpretation, and read the manuscript.</p></notes><notes notes-type="peer-review"><title>Peer review</title><sec id="FPar1"><title>Peer review information</title><p id="Par28">: <italic>Nature Communications</italic> thanks the anonymous reviewers for their contribution to the peer review of this work. A peer review file is available.</p></sec></notes><notes notes-type="data-availability"><title>Data availability</title><p>The data that support the findings of this study are available within the supplementary files.</p></notes><notes notes-type="data-availability"><title>Code availability</title><p>Code that supports the findings of this study is available within the supplementary files.</p></notes><notes id="FPar2" notes-type="COI-statement"><title>Competing interests</title><p id="Par29">The authors declare no competing interests.</p></notes><ref-list id="Bib1"><title>References</title><ref id="CR1"><label>1.</label><mixed-citation publication-type="other">Colton, D. L. &#x00026; Kress, R. <italic>Inverse Acoustic and Electromagnetic Scattering Theory</italic> Vol. 93, 3rd edn, 95&#x02013;118 (Springer, 1998).</mixed-citation></ref><ref id="CR2"><label>2.</label><mixed-citation publication-type="other">Engl, H. W., Hanke, M. &#x00026; Neubauer, A. <italic>Regularization of Inverse Problems</italic> Vol. 375, 1996th edn, 3&#x02013;25 (Springer, 1996).</mixed-citation></ref><ref id="CR3"><label>3.</label><mixed-citation publication-type="other">Tarantola, A. <italic>Inverse Problem Theory and Methods for Model Parameter Estimation</italic> 1st edn, 1&#x02013;40 (SIAM, 2005).</mixed-citation></ref><ref id="CR4"><label>4.</label><mixed-citation publication-type="other">Biegler, L. et al. <italic>Large&#x02010;Scale Inverse Problems and Quantification of Uncertainty</italic> 1st edn, 9&#x02013;32 (Wiley, 2011).</mixed-citation></ref><ref id="CR5"><label>5.</label><mixed-citation publication-type="other">Devaney, A. J. <italic>Mathematical Foundation of Imaging, Tomography and Wavefield Inversion</italic><italic>Illustrated</italic> 1st edn, 169&#x02013;283 (Cambridge University Press, 2012).</mixed-citation></ref><ref id="CR6"><label>6.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Garnier</surname><given-names>J</given-names></name><name><surname>Kalimeris</surname><given-names>K</given-names></name></person-group><article-title>Inverse scattering perturbation theory for the nonlinear schr&#x000f6;dinger equation with non-vanishing background</article-title><source>J. Phys. Math. Theor.</source><year>2012</year><volume>45</volume><fpage>035202</fpage><pub-id pub-id-type="doi">10.1088/1751-8113/45/3/035202</pub-id></element-citation></ref><ref id="CR7"><label>7.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Willcox</surname><given-names>KE</given-names></name><name><surname>Ghattas</surname><given-names>O</given-names></name><name><surname>Heimbach</surname><given-names>P</given-names></name></person-group><article-title>The imperative of physics-based modeling and inverse theory in computational science</article-title><source>Nat. Comput. Sci.</source><year>2021</year><volume>1</volume><fpage>166</fpage><lpage>168</lpage><pub-id pub-id-type="doi">10.1038/s43588-021-00040-z</pub-id><?supplied-pmid 38183195?><pub-id pub-id-type="pmid">38183195</pub-id>
+</element-citation></ref><ref id="CR8"><label>8.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Khatib</surname><given-names>O</given-names></name><name><surname>Ren</surname><given-names>S</given-names></name><name><surname>Malof</surname><given-names>J</given-names></name><name><surname>Padilla</surname><given-names>WJ</given-names></name></person-group><article-title>Deep learning the electromagnetic properties of metamaterials&#x02014;a comprehensive review</article-title><source>Adv. Funct. Mater.</source><year>2021</year><volume>31</volume><fpage>2101748</fpage><pub-id pub-id-type="doi">10.1002/adfm.202101748</pub-id></element-citation></ref><ref id="CR9"><label>9.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Saigre-Tardif</surname><given-names>C</given-names></name><name><surname>Faqiri</surname><given-names>R</given-names></name><name><surname>Zhao</surname><given-names>H</given-names></name><name><surname>Li</surname><given-names>L</given-names></name><name><surname>del Hougne</surname><given-names>P</given-names></name></person-group><article-title>Intelligent meta-imagers: from compressed to learned sensing</article-title><source>Appl. Phys. Rev.</source><year>2022</year><volume>9</volume><fpage>011314</fpage><pub-id pub-id-type="doi">10.1063/5.0076022</pub-id></element-citation></ref><ref id="CR10"><label>10.</label><mixed-citation publication-type="other">Jayes, E. T. <italic>Probability Theory: The Logic of Science</italic> Annotated edn, 3&#x02013;338 (Cambridge University Press, 2003).</mixed-citation></ref><ref id="CR11"><label>11.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Puga</surname><given-names>JL</given-names></name><name><surname>Krzywinski</surname><given-names>M</given-names></name><name><surname>Altman</surname><given-names>N</given-names></name></person-group><article-title>Bayes&#x02019; theorem</article-title><source>Nat. Methods</source><year>2015</year><volume>12</volume><fpage>277</fpage><lpage>278</lpage><pub-id pub-id-type="doi">10.1038/nmeth.3335</pub-id><pub-id pub-id-type="pmid">26005726</pub-id>
+</element-citation></ref><ref id="CR12"><label>12.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Tikhonov</surname><given-names>AN</given-names></name></person-group><article-title>On the solution of ill-posed problems and the method of regularization</article-title><source>Soviet Math. Dokl.</source><year>1963</year><volume>4</volume><fpage>1035</fpage><lpage>1038</lpage></element-citation></ref><ref id="CR13"><label>13.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Tibshirani</surname><given-names>R</given-names></name></person-group><article-title>Regression shrinkage and selection via the lasso</article-title><source>J. R. Stat. Soc. Ser. B Methodol.</source><year>1996</year><volume>58</volume><fpage>267</fpage><lpage>288</lpage><pub-id pub-id-type="doi">10.1111/j.2517-6161.1996.tb02080.x</pub-id></element-citation></ref><ref id="CR14"><label>14.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Rudin</surname><given-names>LI</given-names></name><name><surname>Osher</surname><given-names>S</given-names></name><name><surname>Fatemi</surname><given-names>E</given-names></name></person-group><article-title>Nonlinear total variation based noise removal algorithms</article-title><source>Phys. Nonlinear Phenom.</source><year>1992</year><volume>60</volume><fpage>259</fpage><lpage>268</lpage><pub-id pub-id-type="doi">10.1016/0167-2789(92)90242-F</pub-id></element-citation></ref><ref id="CR15"><label>15.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>VanDecar</surname><given-names>JC</given-names></name><name><surname>Snieder</surname><given-names>R</given-names></name></person-group><article-title>Obtaining smooth solutions to large, linear, inverse problems</article-title><source>Geophys.</source><year>1994</year><volume>59</volume><fpage>818</fpage><lpage>829</lpage><pub-id pub-id-type="doi">10.1190/1.1443640</pub-id></element-citation></ref><ref id="CR16"><label>16.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hidalgo</surname><given-names>H</given-names></name><name><surname>Marroquin</surname><given-names>JL</given-names></name><name><surname>Gomez-Trevino</surname><given-names>E</given-names></name></person-group><article-title>Piecewise smooth models for electromagnetic inverse problems</article-title><source>IEEE Trans. Geosci. Remote Sens.</source><year>1998</year><volume>36</volume><fpage>556</fpage><lpage>561</lpage><pub-id pub-id-type="doi">10.1109/36.662738</pub-id></element-citation></ref><ref id="CR17"><label>17.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Tropp</surname><given-names>JA</given-names></name><name><surname>Wright</surname><given-names>SJ</given-names></name></person-group><article-title>Computational methods for sparse solution of linear inverse problems</article-title><source>Proc. IEEE</source><year>2010</year><volume>98</volume><fpage>948</fpage><lpage>958</lpage><pub-id pub-id-type="doi">10.1109/JPROC.2010.2044010</pub-id></element-citation></ref><ref id="CR18"><label>18.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Estrada</surname><given-names>R</given-names></name><name><surname>Tomasi</surname><given-names>C</given-names></name><name><surname>Schmidler</surname><given-names>SC</given-names></name><name><surname>Farsiu</surname><given-names>S</given-names></name></person-group><article-title>Tree topology estimation</article-title><source>IEEE Trans. Pattern Anal. Mach. Intell.</source><year>2015</year><volume>37</volume><fpage>1688</fpage><lpage>1701</lpage><pub-id pub-id-type="doi">10.1109/TPAMI.2014.2382116</pub-id><?supplied-pmid 26353004?><pub-id pub-id-type="pmid">26353004</pub-id>
+</element-citation></ref><ref id="CR19"><label>19.</label><mixed-citation publication-type="other">Bora, A., Jalal, A., Price, E. &#x00026; Dimakis, A. Compressed sensing using generative models. <italic>Proc. PMLR</italic><bold>70</bold>, 537&#x02013;546 (2017).</mixed-citation></ref><ref id="CR20"><label>20.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Arridge</surname><given-names>S</given-names></name><name><surname>Maass</surname><given-names>P</given-names></name><name><surname>&#x000d6;ktem</surname><given-names>O</given-names></name><name><surname>Sch&#x000f6;nlieb</surname><given-names>C-B</given-names></name></person-group><article-title>Solving inverse problems using data-driven models</article-title><source>Acta Numer.</source><year>2019</year><volume>28</volume><fpage>1</fpage><lpage>174</lpage><pub-id pub-id-type="doi">10.1017/S0962492919000059</pub-id></element-citation></ref><ref id="CR21"><label>21.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Ongie</surname><given-names>G</given-names></name><etal/></person-group><article-title>Deep learning techniques for inverse problems in imaging</article-title><source>IEEE J. Sel. Areas Inf. Theory</source><year>2020</year><volume>1</volume><fpage>39</fpage><lpage>56</lpage><pub-id pub-id-type="doi">10.1109/JSAIT.2020.2991563</pub-id></element-citation></ref><ref id="CR22"><label>22.</label><mixed-citation publication-type="other">Jalal, A., Arvinte, M. &#x00026; Daras, G. Robust compressed sensing MRI with deep generative priors. <italic>arXiv</italic>10.48550/arXiv.2108.01368 (2021).</mixed-citation></ref><ref id="CR23"><label>23.</label><mixed-citation publication-type="other">Vaswani, A. et al. Attention is All you Need. <italic>Proc. NIPS</italic> 6000&#x02013;6010 10.48550/arXiv.1706.03762 (2017).</mixed-citation></ref><ref id="CR24"><label>24.</label><mixed-citation publication-type="other">Devlin, J., Chang, M.-W., Lee, K. &#x00026; Toutanova, K. BERT: Pre-training of deep bidirectional transformers for language understanding. <italic>arXiv</italic>10.48550/arXiv.1810.04805 (2019).</mixed-citation></ref><ref id="CR25"><label>25.</label><mixed-citation publication-type="other">Radford, A., Narasimhan, K., Salimans, T. &#x00026; Sutskever, I. <italic>Improving Language Understanding by Generative Pre-Training</italic>. <ext-link ext-link-type="uri" xlink:href="https://openai.com/research/language-unsupervised">https://openai.com/research/language-unsupervised</ext-link>.</mixed-citation></ref><ref id="CR26"><label>26.</label><mixed-citation publication-type="other">Radford, A. <italic>Language Models are Unsupervised Multitask Learners.</italic><bold>1</bold>, 9 (2019).</mixed-citation></ref><ref id="CR27"><label>27.</label><mixed-citation publication-type="other">Brown, T. B. et al. Language models are few-shot learners. <italic>Proc. Adv. Neural Inf. Process Syst</italic>. <bold>33</bold>, 1877&#x02013;1701 (2019).</mixed-citation></ref><ref id="CR28"><label>28.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Chowdhery</surname><given-names>A</given-names></name><etal/></person-group><article-title>PaLM: Scaling language modeling with pathways</article-title><source>J. Mach. Learn. Res.</source><year>2023</year><volume>24</volume><fpage>1</fpage><lpage>113</lpage></element-citation></ref><ref id="CR29"><label>29.</label><mixed-citation publication-type="other">Touvron, H. et al. LLaMA: Open and efficient foundation language models. <italic>arXiv</italic>10.48550/arXiv.2302.13971 (2023).</mixed-citation></ref><ref id="CR30"><label>30.</label><mixed-citation publication-type="other">Ahn, M. et al. Do as i can, not as i say: grounding language in robotic affordances. <italic>arXiv</italic>10.48550/arXiv.2204.01691 (2022).</mixed-citation></ref><ref id="CR31"><label>31.</label><mixed-citation publication-type="other">Vemprala, S. H., Bonatti, R., Bucker, A., &#x00026; Kapoor, A. ChatGPT for Robotics: Design Principles and Model Abilities. <italic>IEEE Access</italic><bold>12</bold>, 55682&#x02013;55696 (2024).</mixed-citation></ref><ref id="CR32"><label>32.</label><mixed-citation publication-type="other">Driess, D. et al. PaLM-E: An embodied multimodal language model. <italic>arXiv</italic>10.48550/arXiv.2303.03378 (2023).</mixed-citation></ref><ref id="CR33"><label>33.</label><mixed-citation publication-type="other">Huang, W., Abbeel, P., Pathak, D. &#x00026; Mordatch, I. Language models as zero-shot planners: extracting actionable knowledge for embodied agents. <italic>Proc. Int. Conf. Mach. Learn</italic>. <bold>162</bold>, 9118&#x02013;9147 (2022).</mixed-citation></ref><ref id="CR34"><label>34.</label><mixed-citation publication-type="other">Rombach, R., Blattmann, A., Lorenz, D., Esser, P. &#x00026; Ommer, B. High-resolution image synthesis with latent diffusion models. <italic>Proc. CVPR</italic> 10684&#x02013;10695 10.48550/arXiv.2112.10752 (2022).</mixed-citation></ref><ref id="CR35"><label>35.</label><mixed-citation publication-type="other">Dosovitskiy, A. et al. An image is worth 16x16 words: transformers for image recognition at scale. <italic>arXiv</italic>10.48550/arXiv.2010.11929 (2021).</mixed-citation></ref><ref id="CR36"><label>36.</label><mixed-citation publication-type="other">Ramesh, A., Dhariwal, P., Nichol, A., Chu, C. &#x00026; Chen, M. Hierarchical text-conditional image generation with CLIP latents. <italic>arXiv</italic>10.48550/arXiv.2204.06125 (2022).</mixed-citation></ref><ref id="CR37"><label>37.</label><mixed-citation publication-type="other">Nijkamp, E. et al. CodeGen: An open large language model for code with multi-turnprogram synthesis. <italic>arXiv</italic>10.48550/arXiv.2203.13474 (2023).</mixed-citation></ref><ref id="CR38"><label>38.</label><mixed-citation publication-type="other">Chen, M. et al. Evaluating large language models trained on code. <italic>arXiv</italic>10.48550/arXiv.2107.03374 (2021).</mixed-citation></ref><ref id="CR39"><label>39.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kalinin</surname><given-names>SV</given-names></name><name><surname>Sumpter</surname><given-names>BG</given-names></name><name><surname>Archibald</surname><given-names>RK</given-names></name></person-group><article-title>Big&#x02013;deep&#x02013;smart data in imaging for guiding materials design</article-title><source>Nat. Mater.</source><year>2015</year><volume>14</volume><fpage>973</fpage><lpage>980</lpage><pub-id pub-id-type="doi">10.1038/nmat4395</pub-id><?supplied-pmid 26395941?><pub-id pub-id-type="pmid">26395941</pub-id>
+</element-citation></ref><ref id="CR40"><label>40.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Malkiel</surname><given-names>I</given-names></name><etal/></person-group><article-title>Plasmonic nanostructure design and characterization via deep learning</article-title><source>Light Sci. Appl.</source><year>2018</year><volume>7</volume><fpage>60</fpage><pub-id pub-id-type="doi">10.1038/s41377-018-0060-7</pub-id><?supplied-pmid 30863544?><pub-id pub-id-type="pmid">30863544</pub-id>
+</element-citation></ref><ref id="CR41"><label>41.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Webb</surname><given-names>T</given-names></name><name><surname>Fu</surname><given-names>S</given-names></name><name><surname>Bihl</surname><given-names>T</given-names></name><name><surname>Holyoak</surname><given-names>KJ</given-names></name><name><surname>Lu</surname><given-names>H</given-names></name></person-group><article-title>Zero-shot visual reasoning through probabilistic analogical mapping</article-title><source>Nat. Commun.</source><year>2023</year><volume>14</volume><fpage>5144</fpage><pub-id pub-id-type="doi">10.1038/s41467-023-40804-x</pub-id><?supplied-pmid 37620313?><pub-id pub-id-type="pmid">37620313</pub-id>
+</element-citation></ref><ref id="CR42"><label>42.</label><mixed-citation publication-type="other">Palatucci, M., Pomerleau, D., Hinton, G. E. &#x00026; Mitchell, T. M. Zero-shot learning with semantic output codes. <italic>Proc. Adv. Neural Inf. Process. Syst</italic>. 1410&#x02013;1418 (2009).</mixed-citation></ref><ref id="CR43"><label>43.</label><mixed-citation publication-type="other">Wei, J. et al. Finetuned language models are zero-shot learners. <italic>arXiv</italic>10.48550/arXiv.2109.01652 (2022).</mixed-citation></ref><ref id="CR44"><label>44.</label><mixed-citation publication-type="other">Radford, A. et al. Learning transferable visual models from natural language supervision. <italic>Proc. Int. Conf. Mach. Learn</italic>. <bold>139</bold>, 8748&#x02013;8763 (2021).</mixed-citation></ref><ref id="CR45"><label>45.</label><mixed-citation publication-type="other">Goodfellow, I. et al. Generative adversarial nets. <italic>Proc. Adv. Neural Inf. Process. Syst</italic>. <bold>2</bold>, 2672&#x02013;2680 (2014).</mixed-citation></ref><ref id="CR46"><label>46.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Li</surname><given-names>L</given-names></name><etal/></person-group><article-title>DeepNIS: deep neural network for nonlinear electromagnetic inverse scattering</article-title><source>IEEE Trans. Antennas Propag.</source><year>2019</year><volume>67</volume><fpage>1819</fpage><lpage>1825</lpage><pub-id pub-id-type="doi">10.1109/TAP.2018.2885437</pub-id></element-citation></ref><ref id="CR47"><label>47.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Fedeli</surname><given-names>A</given-names></name><etal/></person-group><article-title>Nonlinear S-parameters inversion for stroke imaging</article-title><source>IEEE Trans. Microw. Theory Tech.</source><year>2021</year><volume>69</volume><fpage>1760</fpage><lpage>1771</lpage><pub-id pub-id-type="doi">10.1109/TMTT.2020.3040483</pub-id></element-citation></ref><ref id="CR48"><label>48.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Borcea</surname><given-names>L</given-names></name><name><surname>Garnier</surname><given-names>J</given-names></name><name><surname>Mamonov</surname><given-names>AV</given-names></name><name><surname>Zimmerling</surname><given-names>J</given-names></name></person-group><article-title>Waveform inversion with a data driven estimate of the internal wave</article-title><source>SIAM J. Imaging Sci.</source><year>2023</year><volume>16</volume><fpage>280</fpage><lpage>312</lpage><pub-id pub-id-type="doi">10.1137/22M1517342</pub-id></element-citation></ref><ref id="CR49"><label>49.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>van der Maaten</surname><given-names>L</given-names></name><name><surname>Hinton</surname><given-names>G</given-names></name></person-group><article-title>Visualizing data using t-SNE</article-title><source>J. Mach. Learn. Res.</source><year>2008</year><volume>9</volume><fpage>2579</fpage><lpage>2605</lpage></element-citation></ref><ref id="CR50"><label>50.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hunt</surname><given-names>J</given-names></name><etal/></person-group><article-title>Metamaterial apertures for computational imaging</article-title><source>Science</source><year>2013</year><volume>339</volume><fpage>310</fpage><lpage>313</lpage><pub-id pub-id-type="doi">10.1126/science.1230054</pub-id><?supplied-pmid 23329043?><pub-id pub-id-type="pmid">23329043</pub-id>
+</element-citation></ref><ref id="CR51"><label>51.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Sleasman</surname><given-names>T</given-names></name><name><surname>Imani</surname><given-names>F</given-names></name><name><surname>Gollub</surname><given-names>JNM</given-names></name><name><surname>Smith</surname><given-names>DR</given-names></name></person-group><article-title>Dynamic metamaterial aperture for microwave imaging</article-title><source>Appl. Phys. Lett.</source><year>2015</year><volume>107</volume><fpage>204104</fpage><pub-id pub-id-type="doi">10.1063/1.4935941</pub-id></element-citation></ref><ref id="CR52"><label>52.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Li</surname><given-names>L</given-names></name><etal/></person-group><article-title>Machine-learning reprogrammable metasurface imager</article-title><source>Nat. Commun.</source><year>2019</year><volume>10</volume><fpage>1082</fpage><pub-id pub-id-type="doi">10.1038/s41467-019-09103-2</pub-id><?supplied-pmid 30842417?><pub-id pub-id-type="pmid">30842417</pub-id>
+</element-citation></ref><ref id="CR53"><label>53.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>del Hougne</surname><given-names>P</given-names></name><name><surname>Imani</surname><given-names>MF</given-names></name><name><surname>Diebold</surname><given-names>AV</given-names></name><name><surname>Horstmeyer</surname><given-names>R</given-names></name><name><surname>Smith</surname><given-names>DR</given-names></name></person-group><article-title>Learned integrated sensing pipeline: reconfigurable metasurface transceivers as trainable physical layer in an artificial neural network</article-title><source>Adv. Sci.</source><year>2019</year><volume>7</volume><fpage>1901913</fpage><pub-id pub-id-type="doi">10.1002/advs.201901913</pub-id></element-citation></ref><ref id="CR54"><label>54.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Li</surname><given-names>L</given-names></name><etal/></person-group><article-title>Intelligent metasurface imager and recognizer</article-title><source>Light Sci. Appl.</source><year>2019</year><volume>8</volume><fpage>97</fpage><pub-id pub-id-type="doi">10.1038/s41377-019-0209-z</pub-id><?supplied-pmid 31645938?><pub-id pub-id-type="pmid">31645938</pub-id>
+</element-citation></ref><ref id="CR55"><label>55.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Li</surname><given-names>H-Y</given-names></name><etal/></person-group><article-title>Intelligent electromagnetic sensing with learnable data acquisition and processing</article-title><source>Patterns</source><year>2020</year><volume>1</volume><fpage>100006</fpage><pub-id pub-id-type="doi">10.1016/j.patter.2020.100006</pub-id><?supplied-pmid 33205083?><pub-id pub-id-type="pmid">33205083</pub-id>
+</element-citation></ref><ref id="CR56"><label>56.</label><mixed-citation publication-type="other">Wang, Z., Zhang, H., Zhao, H., Cui, T. J. &#x00026; Li, L. Intelligent electromagnetic metasurface camera: system design and experimental results. <italic>Nanophotonics</italic><bold>11</bold>, 2011&#x02013;2024 (2022).</mixed-citation></ref><ref id="CR57"><label>57.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Qian</surname><given-names>C</given-names></name><name><surname>del Hougne</surname><given-names>P</given-names></name></person-group><article-title>Noise-adaptive intelligent programmable meta-imager</article-title><source>Intell. Comput.</source><year>2022</year><volume>2022</volume><fpage>2022/9825738</fpage><pub-id pub-id-type="doi">10.34133/2022/9825738</pub-id></element-citation></ref><ref id="CR58"><label>58.</label><mixed-citation publication-type="other">Huang, C., Mees, O., Zeng, A. &#x00026; Burgard, W. Visual language maps for robot navigation. <italic>Proc. ICRA</italic> 10608&#x02013;10615 10.48550/arXiv.2210.05714 (2023).</mixed-citation></ref></ref-list></back></article>

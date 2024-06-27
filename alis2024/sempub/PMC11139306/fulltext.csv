@@ -1,0 +1,53 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,38814982
+source,MED
+pmid,38814982
+pmcid,PMC11139306
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC11139306')])"
+doi,10.1371/journal.pbio.3002622
+title,Negation mitigates rather than inverts the neural representations of adjectives.
+authorString,"Zuanazzi A, Ripollés P, Lin WM, Gwilliams L, King JR, Poeppel D."
+authorList,"OrderedDict([('author', [OrderedDict([('fullName', 'Zuanazzi A'), ('firstName', 'Arianna'), ('lastName', 'Zuanazzi'), ('initials', 'A'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-8330-4450')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Psychology, New York University, New York, New York, United States of America.')]))]))]), OrderedDict([('fullName', 'Ripollés P'), ('firstName', 'Pablo'), ('lastName', 'Ripollés'), ('initials', 'P'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Department of Psychology, New York University, New York, New York, United States of America.')]), OrderedDict([('affiliation', 'Music and Audio Research Lab (MARL), New York University, New York, New York, United States of America.')]), OrderedDict([('affiliation', 'Center for Language, Music and Emotion (ClaME), New York University, New York, New York, United States of America.')])])]))]), OrderedDict([('fullName', 'Lin WM'), ('firstName', 'Wy Ming'), ('lastName', 'Lin'), ('initials', 'WM'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Hector Research Institute for Education Sciences and Psychology, University of Tübingen, Tübingen, Germany.')]))]))]), OrderedDict([('fullName', 'Gwilliams L'), ('firstName', 'Laura'), ('lastName', 'Gwilliams'), ('initials', 'L'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Psychology, Stanford University, Stanford, California, United States of America.')]))]))]), OrderedDict([('fullName', 'King JR'), ('firstName', 'Jean-Rémi'), ('lastName', 'King'), ('initials', 'JR'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Department of Psychology, New York University, New York, New York, United States of America.')]), OrderedDict([('affiliation', 'Ecole Normale Supérieure, PSL University, Paris, France.')])])]))]), OrderedDict([('fullName', 'Poeppel D'), ('firstName', 'David'), ('lastName', 'Poeppel'), ('initials', 'D'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Department of Psychology, New York University, New York, New York, United States of America.')]), OrderedDict([('affiliation', 'Center for Language, Music and Emotion (ClaME), New York University, New York, New York, United States of America.')]), OrderedDict([('affiliation', 'Ernst Strüngmann Institute for Neuroscience, Frankfurt, Germany.')])])]))])])])"
+authorIdList,"OrderedDict([('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-8330-4450')]))])"
+dataLinksTagsList,"OrderedDict([('dataLinkstag', 'altmetrics')])"
+journalInfo,"OrderedDict([('issue', '5'), ('volume', '22'), ('journalIssueId', '3763116'), ('dateOfPublication', '2024 May'), ('monthOfPublication', '5'), ('yearOfPublication', '2024'), ('printPublicationDate', '2024-05-01'), ('journal', OrderedDict([('title', 'PLoS biology'), ('ISOAbbreviation', 'PLoS Biol'), ('medlineAbbreviation', 'PLoS Biol'), ('NLMid', '101183755'), ('ISSN', '1544-9173'), ('ESSN', '1545-7885')]))])"
+pubYear,2024
+pageInfo,e3002622
+abstractText,"Combinatoric linguistic operations underpin human language processes, but how meaning is composed and refined in the mind of the reader is not well understood. We address this puzzle by exploiting the ubiquitous function of negation. We track the online effects of negation (""not"") and intensifiers (""really"") on the representation of scalar adjectives (e.g., ""good"") in parametrically designed behavioral and neurophysiological (MEG) experiments. The behavioral data show that participants first interpret negated adjectives as affirmative and later modify their interpretation towards, but never exactly as, the opposite meaning. Decoding analyses of neural activity further reveal significant above chance decoding accuracy for negated adjectives within 600 ms from adjective onset, suggesting that negation does not invert the representation of adjectives (i.e., ""not bad"" represented as ""good""); furthermore, decoding accuracy for negated adjectives is found to be significantly lower than that for affirmative adjectives. Overall, these results suggest that negation mitigates rather than inverts the neural representations of adjectives. This putative suppression mechanism of negation is supported by increased synchronization of beta-band neural activity in sensorimotor areas. The analysis of negation provides a steppingstone to understand how the human brain represents changes of meaning over time."
+affiliation,"Department of Psychology, New York University, New York, New York, United States of America."
+publicationStatus,epublish
+language,eng
+pubModel,Electronic-eCollection
+pubTypeList,"OrderedDict([('pubType', ['research-article', 'Journal Article'])])"
+grantsList,"OrderedDict([('grant', [OrderedDict([('grantId', '2043717'), ('agency', 'National Science Foundation'), ('orderIn', '0')]), OrderedDict([('agency', 'Fondation Bettencourt Schueller'), ('orderIn', '0')]), OrderedDict([('agency', 'Philippe Foundation'), ('orderIn', '0')]), OrderedDict([('agency', 'Ernst Struengmann Foundation'), ('orderIn', '0')]), OrderedDict([('agency', 'Leon Levy Foundation'), ('orderIn', '0')]), OrderedDict([('grantId', 'ANR-17-EURE-0017'), ('agency', 'FrontCog grant'), ('orderIn', '0')]), OrderedDict([('grantId', '660086'), ('agency', 'Horizon 2020'), ('orderIn', '0')])])])"
+meshHeadingList,"OrderedDict([('meshHeading', [OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Brain'), ('meshQualifierList', OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'PH'), ('qualifierName', 'physiology'), ('majorTopic_YN', 'N')]))]))]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Humans')]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Magnetoencephalography'), ('meshQualifierList', OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'MT'), ('qualifierName', 'methods'), ('majorTopic_YN', 'N')]))]))]), OrderedDict([('majorTopic_YN', 'Y'), ('descriptorName', 'Language')]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Linguistics'), ('meshQualifierList', OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'MT'), ('qualifierName', 'methods'), ('majorTopic_YN', 'N')]))]))]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Semantics')]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Adult')]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Female')]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Male')]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Young Adult')])])])"
+subsetList,"OrderedDict([('subset', OrderedDict([('code', 'IM'), ('name', 'Index Medicus')]))])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.1371/journal.pbio.3002622')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC11139306')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC11139306?pdf=render')])])])"
+commentCorrectionList,"OrderedDict([('commentCorrection', OrderedDict([('id', '38820496'), ('source', 'MED'), ('reference', 'PLoS Biol. 2024 May 31;22(5):e3002656'), ('type', 'Comment in'), ('orderIn', '1')]))])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,Y
+citedByCount,1
+hasData,Y
+hasReferences,Y
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,Y
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCompletion,2024-05-30
+dateOfCreation,2024-05-30
+firstIndexDate,2024-05-31
+fullTextReceivedDate,2024-06-03
+dateOfRevision,2024-06-01
+electronicPublicationDate,2024-05-30
+firstPublicationDate,2024-05-30

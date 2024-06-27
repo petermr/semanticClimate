@@ -1,0 +1,52 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,38783770
+source,MED
+pmid,38783770
+pmcid,PMC11116941
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC11116941')])"
+doi,10.1111/hex.14082
+title,'No matter what time of day': The value of joining Facebook groups supporting women's self-management of gestational diabetes mellitus.
+authorString,"Pham S, Churruca K, Ellis LA, Braithwaite J."
+authorList,"OrderedDict([('author', [OrderedDict([('fullName', 'Pham S'), ('firstName', 'Sheila'), ('lastName', 'Pham'), ('initials', 'S'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-1844-2873')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Faculty of Medicine and Health Sciences, Centre for Healthcare Resilience and Implementation Science, Australian Institute of Health Innovation, Macquarie University, Sydney, New South Wales, Australia.')]))]))]), OrderedDict([('fullName', 'Churruca K'), ('firstName', 'Kate'), ('lastName', 'Churruca'), ('initials', 'K'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-9923-3116')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Faculty of Medicine and Health Sciences, Centre for Healthcare Resilience and Implementation Science, Australian Institute of Health Innovation, Macquarie University, Sydney, New South Wales, Australia.')]))]))]), OrderedDict([('fullName', 'Ellis LA'), ('firstName', 'Louise A'), ('lastName', 'Ellis'), ('initials', 'LA'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-6902-4578')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Faculty of Medicine and Health Sciences, Centre for Healthcare Resilience and Implementation Science, Australian Institute of Health Innovation, Macquarie University, Sydney, New South Wales, Australia.')]))]))]), OrderedDict([('fullName', 'Braithwaite J'), ('firstName', 'Jeffrey'), ('lastName', 'Braithwaite'), ('initials', 'J'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-0296-4957')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Faculty of Medicine and Health Sciences, Centre for Healthcare Resilience and Implementation Science, Australian Institute of Health Innovation, Macquarie University, Sydney, New South Wales, Australia.')]))]))])])])"
+authorIdList,"OrderedDict([('authorId', [OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-6902-4578')]), OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-1844-2873')]), OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-9923-3116')]), OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-0296-4957')])])])"
+dataLinksTagsList,"OrderedDict([('dataLinkstag', 'altmetrics')])"
+journalInfo,"OrderedDict([('issue', '3'), ('volume', '27'), ('journalIssueId', '3761086'), ('dateOfPublication', '2024 Jun'), ('monthOfPublication', '6'), ('yearOfPublication', '2024'), ('printPublicationDate', '2024-06-01'), ('journal', OrderedDict([('title', 'Health expectations : an international journal of public participation in health care and health policy'), ('ISOAbbreviation', 'Health Expect'), ('medlineAbbreviation', 'Health Expect'), ('NLMid', '9815926'), ('ISSN', '1369-6513'), ('ESSN', '1369-7625')]))])"
+pubYear,2024
+pageInfo,e14082
+abstractText,"<h4>Background</h4>Gestational diabetes mellitus (GDM) affects a significant and growing proportion of pregnant women each year. The condition entails additional monitoring, self-management and healthcare use during pregnancy, and some women also join GDM support groups on Facebook. Little is known about the practices inside these groups, but examining them may elucidate support needs, women's experience of healthcare and improve overall outcomes. The aims of this study were to explore motivations for joining GDM Facebook groups and the perceived value and benefits of such spaces.<h4>Design</h4>A cross-sectional design using a web-based survey collected data from two peer-led GDM Facebook groups; relevant quantitative and qualitative data were extracted from open and closed questions, and analysed using descriptive statistics and content analysis.<h4>Results</h4>A total of 340 women responded to the survey, with 306 (90%) tendering their motivations to join a GDM Facebook group. Their answers were classified into six categories: peer support; information and practical advice; lived experiences; community; a safe place to ask questions and being recommended. The most commonly reported benefits of membership were 'reading about food ideas' and 'finding helpful information and tips'. Respondents reported finding their group strongly sympathetic, sincere, compassionate, heart-felt, tolerant, sensitive, warm and supportive.<h4>Discussion and conclusions</h4>GDM Facebook groups are valuable for informational and emotional support, and the sharing and perusal of lived experiences; another key benefit for women is feeling belonging to a community. GDM Facebook groups provide women with access to more tailored and readily available support, filling gaps not addressed by healthcare providers.<h4>Patient contribution</h4>This study was led by a person with lived experience of GDM, and the survey was pilot tested with women who had also experienced GDM, which contributed to its development."
+affiliation,"Faculty of Medicine and Health Sciences, Centre for Healthcare Resilience and Implementation Science, Australian Institute of Health Innovation, Macquarie University, Sydney, New South Wales, Australia."
+publicationStatus,ppublish
+language,eng
+pubModel,Print
+pubTypeList,"OrderedDict([('pubType', ['research-article', 'Journal Article'])])"
+grantsList,"OrderedDict([('grant', OrderedDict([('agency', ""Macquarie Research Excellence Scholarship, funded by both Macquarie University and the Australian Government's Research Training Program""), ('orderIn', '0')]))])"
+meshHeadingList,"OrderedDict([('meshHeading', [OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Humans')]), OrderedDict([('majorTopic_YN', 'Y'), ('descriptorName', 'Diabetes, Gestational'), ('meshQualifierList', OrderedDict([('meshQualifier', [OrderedDict([('abbreviation', 'PX'), ('qualifierName', 'psychology'), ('majorTopic_YN', 'N')]), OrderedDict([('abbreviation', 'TH'), ('qualifierName', 'therapy'), ('majorTopic_YN', 'N')])])]))]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Cross-Sectional Studies')]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Motivation')]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Pregnancy')]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Social Support')]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Adult')]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Self-Help Groups')]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Female')]), OrderedDict([('majorTopic_YN', 'Y'), ('descriptorName', 'Social Media')]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Surveys and Questionnaires')]), OrderedDict([('majorTopic_YN', 'Y'), ('descriptorName', 'Self-Management')])])])"
+keywordList,"OrderedDict([('keyword', ['Survey', 'Internet', 'Gestational Diabetes Mellitus', 'Social Networking', 'Peer Group', 'Self‐help Groups'])])"
+subsetList,"OrderedDict([('subset', OrderedDict([('code', 'IM'), ('name', 'Index Medicus')]))])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.1111/hex.14082')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC11116941')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC11116941?pdf=render')])])])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,Y
+citedByCount,1
+hasData,Y
+hasReferences,Y
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,Y
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCompletion,2024-05-24
+dateOfCreation,2024-05-24
+firstIndexDate,2024-05-24
+fullTextReceivedDate,2024-05-27
+dateOfRevision,2024-05-26
+firstPublicationDate,2024-06-01

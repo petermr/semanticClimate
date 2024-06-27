@@ -1,0 +1,43 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,PMC11151246
+source,PMC
+pmcid,PMC11151246
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC11151246')])"
+title,Prediction of the stage shift growth of early-stage lung adenocarcinomas by volume-doubling time
+authorString,"Tang E, Wu Y, Chen C, Wu F."
+authorList,"OrderedDict([('author', [OrderedDict([('fullName', 'Tang E'), ('firstName', 'En-Kuei'), ('lastName', 'Tang'), ('initials', 'E'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Department of Surgery , Kaohsiung Veterans General Hospital , Kaohsiung ;')]), OrderedDict([('affiliation', 'Department of Medical Imaging and Radiology , Shu-Zen Junior College of Medicine and Management , Kaohsiung ;')])])]))]), OrderedDict([('fullName', 'Wu Y'), ('firstName', 'Yun-Ju'), ('lastName', 'Wu'), ('initials', 'Y'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Department of Radiology , Kaohsiung Veterans General Hospital , Kaohsiung ;')]), OrderedDict([('affiliation', 'Department of Software Engineering and Management , National Kaohsiung Normal University , Kaohsiung ;')])])]))]), OrderedDict([('fullName', 'Chen C'), ('firstName', 'Chi-Shen'), ('lastName', 'Chen'), ('initials', 'C'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Physical Examination Center , Kaohsiung Veterans General Hospital , Kaohsiung ;')]))]))]), OrderedDict([('fullName', 'Wu F'), ('firstName', 'Fu-Zong'), ('lastName', 'Wu'), ('initials', 'F'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Department of Radiology , Kaohsiung Veterans General Hospital , Kaohsiung ;')]), OrderedDict([('affiliation', 'Faculty of Medicine, School of Medicine , National Yang Ming Chiao Tung University , Taipei ;')]), OrderedDict([('affiliation', 'School of Medicine, College of Medicine , National Sun Yat-sen University , Kaohsiung')])])]))])])])"
+journalInfo,"OrderedDict([('issue', '6'), ('volume', '14'), ('journalIssueId', '3783802'), ('dateOfPublication', '2024 May'), ('monthOfPublication', '5'), ('yearOfPublication', '2024'), ('printPublicationDate', '2024-05-01'), ('journal', OrderedDict([('title', 'Quantitative imaging in medicine and surgery'), ('ISOAbbreviation', 'Quant Imaging Med Surg'), ('medlineAbbreviation', 'Quant Imaging Med Surg'), ('NLMid', '101577942'), ('ISSN', '2223-4292'), ('ESSN', '2223-4306')]))])"
+pubYear,2024
+pageInfo,3983-3996
+language,eng
+pubModel,Undetermined
+pubTypeList,"OrderedDict([('pubType', ['research-article', 'Journal Article'])])"
+grantsList,"OrderedDict([('grant', OrderedDict([('grantId', 'Nos. KSVGH 112-109, KSVGH-113-053, MOST 110-2314-B-075B-008, and NSTC112-2740-B-400-002'), ('agency', 'Kaohsiung Veterans General Hospital'), ('orderIn', '0')]))])"
+keywordList,"OrderedDict([('keyword', ['Adenocarcinoma', 'Natural history', 'Lung Neoplasms', 'Disease Progression'])])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Free'), ('availabilityCode', 'F'), ('documentStyle', 'html'), ('site', 'PubMedCentral'), ('url', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11151246/?tool=EBI')]), OrderedDict([('availability', 'Free'), ('availabilityCode', 'F'), ('documentStyle', 'pdf'), ('site', 'PubMedCentral'), ('url', 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11151246/pdf/?tool=EBI')]), OrderedDict([('availability', 'Free'), ('availabilityCode', 'F'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC11151246')]), OrderedDict([('availability', 'Free'), ('availabilityCode', 'F'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC11151246?pdf=render')])])])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,Y
+hasPDF,Y
+hasBook,N
+hasSuppl,Y
+citedByCount,0
+hasData,Y
+hasReferences,N
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,N
+license,cc by-nc-nd
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCreation,2024-06-10
+firstIndexDate,2024-06-10
+fullTextReceivedDate,2024-06-10
+dateOfRevision,2024-06-14
+electronicPublicationDate,2024-05-24
+firstPublicationDate,2024-05-24

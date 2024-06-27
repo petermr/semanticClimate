@@ -1,0 +1,50 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,38263387
+source,MED
+pmid,38263387
+pmcid,PMC10806051
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC10806051')])"
+doi,10.1038/s41598-024-52562-x
+title,Verbal fluency patterns associated with the amnestic conversion from mild cognitive impairment to dementia.
+authorString,"Cintoli S, Favilli L, Morganti R, Siciliano G, Ceravolo R, Tognoni G."
+authorList,"OrderedDict([('author', [OrderedDict([('fullName', 'Cintoli S'), ('firstName', 'Simona'), ('lastName', 'Cintoli'), ('initials', 'S'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Medical Specialties - Neurology Unit, AOUP, 56126, Pisa, Italy. s.cintoli@gmail.com.')]))]))]), OrderedDict([('fullName', 'Favilli L'), ('firstName', 'Laura'), ('lastName', 'Favilli'), ('initials', 'L'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of NEUROFARBA- Section of Psychology, University of Florence, 50135, Florence, Italy.')]))]))]), OrderedDict([('fullName', 'Morganti R'), ('firstName', 'Riccardo'), ('lastName', 'Morganti'), ('initials', 'R'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Clinical and Experimental Medicine, Section of Statistics, University of Pisa, 56126, Pisa, Italy.')]))]))]), OrderedDict([('fullName', 'Siciliano G'), ('firstName', 'Gabriele'), ('lastName', 'Siciliano'), ('initials', 'G'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Medical Specialties - Neurology Unit, AOUP, 56126, Pisa, Italy.')]))]))]), OrderedDict([('fullName', 'Ceravolo R'), ('firstName', 'Roberto'), ('lastName', 'Ceravolo'), ('initials', 'R'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Medical Specialties - Neurology Unit, AOUP, 56126, Pisa, Italy.')]))]))]), OrderedDict([('fullName', 'Tognoni G'), ('firstName', 'Gloria'), ('lastName', 'Tognoni'), ('initials', 'G'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Medical Specialties - Neurology Unit, AOUP, 56126, Pisa, Italy.')]))]))])])])"
+dataLinksTagsList,"OrderedDict([('dataLinkstag', 'altmetrics')])"
+journalInfo,"OrderedDict([('issue', '1'), ('volume', '14'), ('journalIssueId', '3689431'), ('dateOfPublication', '2024 Jan'), ('monthOfPublication', '1'), ('yearOfPublication', '2024'), ('printPublicationDate', '2024-01-01'), ('journal', OrderedDict([('title', 'Scientific reports'), ('ISOAbbreviation', 'Sci Rep'), ('medlineAbbreviation', 'Sci Rep'), ('NLMid', '101563288'), ('ISSN', '2045-2322'), ('ESSN', '2045-2322')]))])"
+pubYear,2024
+pageInfo,2029
+abstractText,"Patients with amnestic mild cognitive impairment (aMCI) are at a higher risk of converting to Alzheimer's disease. The aim of this study was to examine the potential use of Verbal Fluency (VF) measures as markers for predicting the conversion to dementia. At baseline, 61 aMCI, aged 65 to 80 years, underwent a comprehensive neuropsychological assessment, including phonemic (PVF) and semantic verbal fluency (SVF) tasks. After 18 months, 14 individuals with aMCI had progressed to a diagnosis of dementia. The findings revealed that aMCI-converter group had lower Mini Mental State Examination and Rey Auditory Verbal Learning Task scores than aMCI-no converter and produced fewer clusters in both VF tasks and a lower number of switches in PVF at baseline (p < 0.05). According to receiver operating characteristic curve analysis, the number of clusters in PVF had the highest predictive value (AUC = 0.80) with a threshold of 5.510 for identifying aMCI-converter at baseline. Additionally, participants with higher levels of education exhibited more clusters and switches in VF tasks (p < 0.05). These results suggest that qualitative measures of VF could serve as neuropsychological markers for predicting cognitive decline in individuals with aMCI. Furthermore, the study highlights the potential influence of the education level on cognitive performance in neuropsychological tasks."
+affiliation,"Department of Medical Specialties - Neurology Unit, AOUP, 56126, Pisa, Italy. s.cintoli@gmail.com."
+publicationStatus,epublish
+language,eng
+pubModel,Electronic
+pubTypeList,"OrderedDict([('pubType', ['research-article', 'Journal Article'])])"
+meshHeadingList,"OrderedDict([('meshHeading', [OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Humans')]), OrderedDict([('majorTopic_YN', 'Y'), ('descriptorName', 'Alzheimer Disease')]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'ROC Curve')]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Neuropsychological Tests')]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Educational Status')]), OrderedDict([('majorTopic_YN', 'Y'), ('descriptorName', 'Cognitive Dysfunction')])])])"
+subsetList,"OrderedDict([('subset', OrderedDict([('code', 'IM'), ('name', 'Index Medicus')]))])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Unpaywall'), ('url', 'https://www.nature.com/articles/s41598-024-52562-x.pdf')]), OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.1038/s41598-024-52562-x')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10806051')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10806051?pdf=render')])])])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,Y
+citedByCount,1
+hasData,Y
+hasReferences,Y
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,Y
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCompletion,2024-01-25
+dateOfCreation,2024-01-23
+firstIndexDate,2024-01-25
+fullTextReceivedDate,2024-01-26
+dateOfRevision,2024-01-26
+electronicPublicationDate,2024-01-23
+firstPublicationDate,2024-01-23

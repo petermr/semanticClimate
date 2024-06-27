@@ -1,0 +1,125 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>downloaded</th>
+      <th>htmlmade</th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>authorIdList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>fullTextUrlList</th>
+      <th>commentCorrectionList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>license</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>electronicPublicationDate</th>
+      <th>firstPublicationDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC10701029</th>
+      <td>True</td>
+      <td>False</td>
+      <td>38075091</td>
+      <td>MED</td>
+      <td>38075091</td>
+      <td>PMC10701029</td>
+      <td>{'fullTextId': 'PMC10701029'}</td>
+      <td>10.1155/2023/9784387</td>
+      <td>Retracted: Location-Dependent Query Processing: Semantic Cache for Real-Time Smart City Analytics.</td>
+      <td>And Biomechanics AB.</td>
+      <td>{'author': {'fullName': 'And Biomechanics AB', 'firstName': 'Applied Bionics', 'lastName': 'And Biomechanics', 'initials': 'AB'}}</td>
+      <td>{'authorId': {'@type': 'ORCID', '#text': '0000-0002-8198-9265'}}</td>
+      <td>{'volume': '2023', 'journalIssueId': '3490325', 'dateOfPublication': '2023', 'monthOfPublication': '0', 'yearOfPublication': '2023', 'printPublicationDate': '2023-01-01', 'journal': {'title': 'Applied bionics and biomechanics', 'ISOAbbreviation': 'Appl Bionics Biomech', 'medlineAbbreviation': 'Appl Bionics Biomech', 'NLMid': '101208624', 'ISSN': '1176-2322', 'ESSN': '1754-2103'}}</td>
+      <td>2023</td>
+      <td>9784387</td>
+      <td>[This retracts the article DOI: 10.1155/2021/9958647.].</td>
+      <td>epublish</td>
+      <td>eng</td>
+      <td>Electronic-eCollection</td>
+      <td>{'pubType': 'Retraction of Publication'}</td>
+      <td>{'fullTextUrl': [{'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1155/2023/9784387'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC10701029'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC10701029?pdf=render'}]}</td>
+      <td>{'commentCorrection': {'id': '34970332', 'source': 'MED', 'reference': 'Appl Bionics Biomech. 2021 Dec 21;2021:9958647', 'type': 'Retraction of', 'orderIn': '1'}}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+      <td>0</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>2023-12-11</td>
+      <td>2023-12-22</td>
+      <td>2023-12-09</td>
+      <td>2023-12-11</td>
+      <td>2023-11-29</td>
+      <td>2023-11-29</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    
