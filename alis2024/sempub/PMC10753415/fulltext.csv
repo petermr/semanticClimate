@@ -1,0 +1,49 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,38090795
+source,MED
+pmid,38090795
+pmcid,PMC10753415
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC10753415')])"
+doi,10.2196/50797
+title,Transformation and Articulation of Clinical Data to Understand Students' and Health Professionals' Clinical Reasoning: Protocol for a Scoping Review.
+authorString,"Deschênes MF, Fernandez N, Lechasseur K, Caty MÈ, Azimzadeh D, Mai TC, Lavoie P."
+authorList,"OrderedDict([('author', [OrderedDict([('fullName', 'Deschênes MF'), ('firstName', 'Marie-France'), ('lastName', 'Deschênes'), ('initials', 'MF'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-7949-4466')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Faculté des sciences infirmières, Université de Montréal, Montréal, QC, Canada.')]))]))]), OrderedDict([('fullName', 'Fernandez N'), ('firstName', 'Nicolas'), ('lastName', 'Fernandez'), ('initials', 'N'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-3840-2641')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Faculté de Médecine, Université de Montréal, Montréal, QC, Canada.')]))]))]), OrderedDict([('fullName', 'Lechasseur K'), ('firstName', 'Kathleen'), ('lastName', 'Lechasseur'), ('initials', 'K'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-1906-5870')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Faculté des sciences infirmières, Université Laval, Québec, QC, Canada.')]))]))]), OrderedDict([('fullName', 'Caty MÈ'), ('firstName', 'Marie-Ève'), ('lastName', 'Caty'), ('initials', 'MÈ'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-3909-6639')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', ""Département d'orthophonie, Université du Québec à Trois-Rivières, Trois-Rivières, QC, Canada."")]))]))]), OrderedDict([('fullName', 'Azimzadeh D'), ('firstName', 'Dina'), ('lastName', 'Azimzadeh'), ('initials', 'D'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0009-0008-2434-8411')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Faculté des sciences infirmières, Université de Montréal, Montréal, QC, Canada.')]))]))]), OrderedDict([('fullName', 'Mai TC'), ('firstName', 'Tue-Chieu'), ('lastName', 'Mai'), ('initials', 'TC'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0009-0002-7188-423X')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Faculté des sciences infirmières, Université de Montréal, Montréal, QC, Canada.')]))]))]), OrderedDict([('fullName', 'Lavoie P'), ('firstName', 'Patrick'), ('lastName', 'Lavoie'), ('initials', 'P'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-8244-6484')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Faculté des sciences infirmières, Université de Montréal, Montreal, QC, QC, Canada.')]))]))])])])"
+authorIdList,"OrderedDict([('authorId', [OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-8244-6484')]), OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-1906-5870')]), OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-3840-2641')]), OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-7949-4466')]), OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-3909-6639')]), OrderedDict([('@type', 'ORCID'), ('#text', '0009-0002-7188-423X')]), OrderedDict([('@type', 'ORCID'), ('#text', '0009-0008-2434-8411')])])])"
+dataLinksTagsList,"OrderedDict([('dataLinkstag', 'altmetrics')])"
+journalInfo,"OrderedDict([('volume', '12'), ('journalIssueId', '3672143'), ('dateOfPublication', '2023 Dec'), ('monthOfPublication', '12'), ('yearOfPublication', '2023'), ('printPublicationDate', '2023-12-01'), ('journal', OrderedDict([('title', 'JMIR research protocols'), ('ISOAbbreviation', 'JMIR Res Protoc'), ('medlineAbbreviation', 'JMIR Res Protoc'), ('NLMid', '101599504'), ('ISSN', '1929-0748'), ('ESSN', '1929-0748')]))])"
+pubYear,2023
+pageInfo,e50797
+abstractText,"<h4>Background</h4>There are still unanswered questions regarding effective educational strategies to promote the transformation and articulation of clinical data while teaching and learning clinical reasoning. Additionally, understanding how this process can be analyzed and assessed is crucial, particularly considering the rapid growth of natural language processing in artificial intelligence.<h4>Objective</h4>The aim of this study is to map educational strategies to promote the transformation and articulation of clinical data among students and health care professionals and to explore the methods used to assess these individuals' transformation and articulation of clinical data.<h4>Methods</h4>This scoping review follows the Joanna Briggs Institute framework for scoping reviews and the PRISMA-ScR (Preferred Reporting Items for Systematic Reviews and Meta-Analyses Extension for Scoping Reviews) checklist for the analysis. A literature search was performed in November 2022 using 5 databases: CINAHL (EBSCOhost), MEDLINE (Ovid), Embase (Ovid), PsycINFO (Ovid), and Web of Science (Clarivate). The protocol was registered on the Open Science Framework in November 2023. The scoping review will follow the 9-step framework proposed by Peters and colleagues of the Joanna Briggs Institute. A data extraction form has been developed using key themes from the research questions.<h4>Results</h4>After removing duplicates, the initial search yielded 6656 results, and study selection is underway. The extracted data will be qualitatively analyzed and presented in a diagrammatic or tabular form alongside a narrative summary. The review will be completed by February 2024.<h4>Conclusions</h4>By synthesizing the evidence on semantic transformation and articulation of clinical data during clinical reasoning education, this review aims to contribute to the refinement of educational strategies and assessment methods used in academic and continuing education programs. The insights gained from this review will help educators develop more effective semantic approaches for teaching or learning clinical reasoning, as opposed to fragmented, purely symptom-based or probabilistic approaches. Besides, the results may suggest some ways to address challenges related to the assessment of clinical reasoning and ensure that the assessment tasks accurately reflect learners' developing competencies and educational progress.<h4>International registered report identifier (irrid)</h4>DERR1-10.2196/50797."
+affiliation,"Faculté des sciences infirmières, Université de Montréal, Montréal, QC, Canada."
+publicationStatus,epublish
+language,eng
+pubModel,Electronic
+pubTypeList,"OrderedDict([('pubType', ['research-article', 'Journal Article'])])"
+keywordList,"OrderedDict([('keyword', ['Student', 'Education', 'Linguistics', 'Clinical Reasoning', 'Discourse', 'Natural Language Processing', 'Clinical Data', 'Health Care Professional', 'Scoping Review', 'Semantic Transformation', 'Educational Strategy', 'Semantic Qualifiers'])])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'doi'), ('site', 'Unpaywall'), ('url', 'https://doi.org/10.2196/50797')]), OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.2196/50797')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10753415')])])])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,N
+hasPDF,N
+hasBook,N
+hasSuppl,Y
+citedByCount,0
+hasData,Y
+hasReferences,Y
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,Y
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCreation,2023-12-13
+firstIndexDate,2023-12-22
+fullTextReceivedDate,2024-01-03
+dateOfRevision,2023-12-30
+electronicPublicationDate,2023-12-13
+firstPublicationDate,2023-12-13

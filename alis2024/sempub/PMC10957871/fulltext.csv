@@ -1,0 +1,49 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,38514702
+source,MED
+pmid,38514702
+pmcid,PMC10957871
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC10957871')])"
+doi,10.1038/s41539-024-00232-y
+title,The neural and cognitive basis of expository text comprehension.
+authorString,"Keller TA, Mason RA, Legg AE, Just MA."
+authorList,"OrderedDict([('author', [OrderedDict([('fullName', 'Keller TA'), ('firstName', 'Timothy A'), ('lastName', 'Keller'), ('initials', 'TA'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-2345-8626')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Center for Cognitive Brain Imaging, Department of Psychology, Carnegie Mellon University, Pittsburgh, PA, 15213, USA. tk37@andrew.cmu.edu.')]))]))]), OrderedDict([('fullName', 'Mason RA'), ('firstName', 'Robert A'), ('lastName', 'Mason'), ('initials', 'RA'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-0589-2629')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Center for Cognitive Brain Imaging, Department of Psychology, Carnegie Mellon University, Pittsburgh, PA, 15213, USA.')]))]))]), OrderedDict([('fullName', 'Legg AE'), ('firstName', 'Aliza E'), ('lastName', 'Legg'), ('initials', 'AE'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Center for Cognitive Brain Imaging, Department of Psychology, Carnegie Mellon University, Pittsburgh, PA, 15213, USA.')]))]))]), OrderedDict([('fullName', 'Just MA'), ('firstName', 'Marcel Adam'), ('lastName', 'Just'), ('initials', 'MA'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-1245-3050')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Center for Cognitive Brain Imaging, Department of Psychology, Carnegie Mellon University, Pittsburgh, PA, 15213, USA.')]))]))])])])"
+authorIdList,"OrderedDict([('authorId', [OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-2345-8626')]), OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-0589-2629')]), OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-1245-3050')])])])"
+dataLinksTagsList,"OrderedDict([('dataLinkstag', 'altmetrics')])"
+journalInfo,"OrderedDict([('issue', '1'), ('volume', '9'), ('journalIssueId', '3732544'), ('dateOfPublication', '2024 Mar'), ('monthOfPublication', '3'), ('yearOfPublication', '2024'), ('printPublicationDate', '2024-03-01'), ('journal', OrderedDict([('title', 'NPJ science of learning'), ('ISOAbbreviation', 'NPJ Sci Learn'), ('medlineAbbreviation', 'NPJ Sci Learn'), ('NLMid', '101689142'), ('ISSN', '2056-7936'), ('ESSN', '2056-7936')]))])"
+pubYear,2024
+pageInfo,21
+abstractText,"As science and technology rapidly progress, it becomes increasingly important to understand how individuals comprehend expository technical texts that explain these advances. This study examined differences in individual readers' technical comprehension performance and differences among texts, using functional brain imaging to measure regional brain activity while students read passages on technical topics and then took a comprehension test. Better comprehension of the technical passages was related to higher activation in regions of the left inferior frontal gyrus, left superior parietal lobe, bilateral dorsolateral prefrontal cortex, and bilateral hippocampus. These areas are associated with the construction of a mental model of the passage and with the integration of new and prior knowledge in memory. Poorer comprehension of the passages was related to greater activation of the ventromedial prefrontal cortex and the precuneus, areas involved in autobiographical and episodic memory retrieval. More comprehensible passages elicited more brain activation associated with establishing links among different types of information in the text and activation associated with establishing conceptual coherence within the text representation. These findings converge with previous behavioral research in their implications for teaching technical learners to become better comprehenders and for improving the structure of instructional texts, to facilitate scientific and technological comprehension."
+affiliation,"Center for Cognitive Brain Imaging, Department of Psychology, Carnegie Mellon University, Pittsburgh, PA, 15213, USA. tk37@andrew.cmu.edu."
+publicationStatus,epublish
+language,eng
+pubModel,Electronic
+pubTypeList,"OrderedDict([('pubType', ['research-article', 'Journal Article'])])"
+grantsList,"OrderedDict([('grant', [OrderedDict([('grantId', 'BCS-1748897'), ('agency', 'National Science Foundation (NSF)'), ('orderIn', '0')]), OrderedDict([('grantId', 'BCS-2215741'), ('agency', 'National Science Foundation (NSF)'), ('orderIn', '0')]), OrderedDict([('grantId', 'N00014-20-1-2625'), ('agency', 'United States Department of Defense | United States Navy | Office of Naval Research (ONR)'), ('orderIn', '0')]), OrderedDict([('grantId', 'N00014-20-1-2625'), ('agency', 'United States Department of Defense | United States Navy | ONR | Office of Naval Research Global'), ('orderIn', '0')]), OrderedDict([('grantId', 'BCS-1748897'), ('agency', 'National Science Foundation'), ('orderIn', '0')]), OrderedDict([('grantId', 'N00014-20-1-2625'), ('agency', 'United States Department of Defense | United States Navy | Office of Naval Research'), ('orderIn', '0')]), OrderedDict([('grantId', 'BCS-2215741'), ('agency', 'National Science Foundation'), ('orderIn', '0')]), OrderedDict([('grantId', 'N00014-20-1-2625'), ('agency', 'United States Department of Defense | United States Navy | ONR | Office of Naval Research Global (ONR Global)'), ('orderIn', '0')])])])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Unpaywall'), ('url', 'https://www.nature.com/articles/s41539-024-00232-y.pdf')]), OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.1038/s41539-024-00232-y')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10957871')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10957871?pdf=render')])])])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,Y
+citedByCount,0
+hasData,Y
+hasReferences,Y
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,Y
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCreation,2024-03-22
+firstIndexDate,2024-03-22
+fullTextReceivedDate,2024-03-25
+dateOfRevision,2024-03-24
+electronicPublicationDate,2024-03-21
+firstPublicationDate,2024-03-21

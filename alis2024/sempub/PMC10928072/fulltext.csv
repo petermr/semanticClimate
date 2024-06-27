@@ -1,0 +1,52 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,38467782
+source,MED
+pmid,38467782
+pmcid,PMC10928072
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC10928072')])"
+doi,10.1038/s41598-024-56571-8
+title,Shared structure of fundamental human experience revealed by polysemy network of basic vocabularies across languages.
+authorString,"Liang Y, Xu K, Ran Q."
+authorList,"OrderedDict([('author', [OrderedDict([('fullName', 'Liang Y'), ('firstName', 'Yuzhu'), ('lastName', 'Liang'), ('initials', 'Y'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'School of Liberal Arts, Nankai University, Tianjin, 300071, China.')]))]))]), OrderedDict([('fullName', 'Xu K'), ('firstName', 'Ke'), ('lastName', 'Xu'), ('initials', 'K'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'School of Liberal Arts, Nankai University, Tianjin, 300071, China.')]))]))]), OrderedDict([('fullName', 'Ran Q'), ('firstName', 'Qibin'), ('lastName', 'Ran'), ('initials', 'Q'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-9601-9181')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'School of Liberal Arts, Nankai University, Tianjin, 300071, China. ranqibin@126.com.')]), OrderedDict([('affiliation', 'Tianjin Social Science Laboratary, Nankai University, Tianjin, 300071, China. ranqibin@126.com.')])])]))])])])"
+authorIdList,"OrderedDict([('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-9601-9181')]))])"
+dataLinksTagsList,"OrderedDict([('dataLinkstag', 'altmetrics')])"
+journalInfo,"OrderedDict([('issue', '1'), ('volume', '14'), ('journalIssueId', '3724758'), ('dateOfPublication', '2024 Mar'), ('monthOfPublication', '3'), ('yearOfPublication', '2024'), ('printPublicationDate', '2024-03-01'), ('journal', OrderedDict([('title', 'Scientific reports'), ('ISOAbbreviation', 'Sci Rep'), ('medlineAbbreviation', 'Sci Rep'), ('NLMid', '101563288'), ('ISSN', '2045-2322'), ('ESSN', '2045-2322')]))])"
+pubYear,2024
+pageInfo,5877
+abstractText,"How are concepts related to fundamental human experiences organized within the human mind? Our insights are drawn from a semantic network created using the Cross-Linguistic Database of Polysemous Basic Vocabulary, which focuses on a broad range of senses extracted from dictionary entries. The database covers 60 basic vocabularies in 61 languages, providing 11,841 senses from 3736 entries, revealing cross-linguistic semantic connections through automatically generated weighted semantic maps. The network comprises 2941 nodes connected by 3573 edges. The nodes representing body parts, motions, and features closely related to human experience occupy wide fields or serve as crucial bridges across semantic domains in the network. The polysemous network of basic vocabularies across languages represents a shared cognitive network of fundamental human experiences, as these semantic connections should be conceived as generally independent of any specific language and are driven by universal characteristics of the real world as perceived by the human mind. The database holds the potential to contribute to research aimed at unraveling the nature of cognitive proximity."
+affiliation,"School of Liberal Arts, Nankai University, Tianjin, 300071, China."
+publicationStatus,epublish
+language,eng
+pubModel,Electronic
+pubTypeList,"OrderedDict([('pubType', ['research-article', 'Journal Article'])])"
+grantsList,"OrderedDict([('grant', OrderedDict([('agency', 'National Social Science Fund of China'), ('orderIn', '0')]))])"
+meshHeadingList,"OrderedDict([('meshHeading', [OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Humans')]), OrderedDict([('majorTopic_YN', 'Y'), ('descriptorName', 'Language')]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Sensation')]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Linguistics')]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Semantics')]), OrderedDict([('majorTopic_YN', 'Y'), ('descriptorName', 'Vocabulary')])])])"
+subsetList,"OrderedDict([('subset', OrderedDict([('code', 'IM'), ('name', 'Index Medicus')]))])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Unpaywall'), ('url', 'https://www.nature.com/articles/s41598-024-56571-8.pdf')]), OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.1038/s41598-024-56571-8')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10928072')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10928072?pdf=render')])])])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,Y
+citedByCount,0
+hasData,Y
+hasReferences,Y
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,Y
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCompletion,2024-03-13
+dateOfCreation,2024-03-12
+firstIndexDate,2024-03-13
+fullTextReceivedDate,2024-03-15
+dateOfRevision,2024-03-15
+electronicPublicationDate,2024-03-11
+firstPublicationDate,2024-03-11

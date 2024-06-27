@@ -1,0 +1,49 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,38374398
+source,MED
+pmid,38374398
+pmcid,PMC10876958
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC10876958')])"
+doi,10.1038/s41598-024-54809-z
+title,SEGCN: a subgraph encoding based graph convolutional network model for social bot detection.
+authorString,"Liu F, Li Z, Yang C, Gong D, Lu H, Liu F."
+authorList,"OrderedDict([('author', [OrderedDict([('fullName', 'Liu F'), ('firstName', 'Feng'), ('lastName', 'Liu'), ('initials', 'F'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'School of Cyber Science and Engineering, Zhengzhou University, Zhengzhou, 450002, China.')]), OrderedDict([('affiliation', 'Henan Provincial Key Laboratory of Cyberspace Situational Awareness, Zhenzhou, 450001, China.')])])]))]), OrderedDict([('fullName', 'Li Z'), ('firstName', 'Zhenyu'), ('lastName', 'Li'), ('initials', 'Z'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Henan Provincial Key Laboratory of Cyberspace Situational Awareness, Zhenzhou, 450001, China. li1989zhenyu@126.com.')]))]))]), OrderedDict([('fullName', 'Yang C'), ('firstName', 'Chunfang'), ('lastName', 'Yang'), ('initials', 'C'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Henan Provincial Key Laboratory of Cyberspace Situational Awareness, Zhenzhou, 450001, China. chunfangyang@126.com.')]))]))]), OrderedDict([('fullName', 'Gong D'), ('firstName', 'Daofu'), ('lastName', 'Gong'), ('initials', 'D'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Henan Provincial Key Laboratory of Cyberspace Situational Awareness, Zhenzhou, 450001, China.')]))]))]), OrderedDict([('fullName', 'Lu H'), ('firstName', 'Haoyu'), ('lastName', 'Lu'), ('initials', 'H'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Henan Provincial Key Laboratory of Cyberspace Situational Awareness, Zhenzhou, 450001, China.')]))]))]), OrderedDict([('fullName', 'Liu F'), ('firstName', 'Fenlin'), ('lastName', 'Liu'), ('initials', 'F'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Henan Provincial Key Laboratory of Cyberspace Situational Awareness, Zhenzhou, 450001, China.')]))]))])])])"
+authorIdList,"OrderedDict([('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-7711-0617')]))])"
+journalInfo,"OrderedDict([('issue', '1'), ('volume', '14'), ('journalIssueId', '3704658'), ('dateOfPublication', '2024 Feb'), ('monthOfPublication', '2'), ('yearOfPublication', '2024'), ('printPublicationDate', '2024-02-01'), ('journal', OrderedDict([('title', 'Scientific reports'), ('ISOAbbreviation', 'Sci Rep'), ('medlineAbbreviation', 'Sci Rep'), ('NLMid', '101563288'), ('ISSN', '2045-2322'), ('ESSN', '2045-2322')]))])"
+pubYear,2024
+pageInfo,4122
+abstractText,"Message passing neural networks such as graph convolutional networks (GCN) can jointly consider various types of features for social bot detection. However, the expressive power of GCN is upper-bounded by the 1st-order Weisfeiler-Leman isomorphism test, which limits the detection performance for the social bots. In this paper, we propose a subgraph encoding based GCN model, SEGCN, with stronger expressive power for social bot detection. Each node representation of this model is computed as the encoding of a surrounding induced subgraph rather than encoding of immediate neighbors only. Extensive experimental results on two publicly available datasets, Twibot-20 and Twibot-22, showed that the proposed model improves the accuracy of the state-of-the-art social bot detection models by around 2.4%, 3.1%, respectively."
+affiliation,"School of Cyber Science and Engineering, Zhengzhou University, Zhengzhou, 450002, China."
+publicationStatus,epublish
+language,eng
+pubModel,Electronic
+pubTypeList,"OrderedDict([('pubType', ['research-article', 'Journal Article'])])"
+grantsList,"OrderedDict([('grant', [OrderedDict([('grantId', '61772549'), ('agency', 'National Natural Science Foundation of China'), ('orderIn', '0')]), OrderedDict([('grantId', 'No. 222102210075'), ('agency', 'the Science and Technology Research Project of Henan Province'), ('orderIn', '0')]), OrderedDict([('grantId', 'No. 221111321200'), ('agency', 'the Key Research and Development Project of Henan Province, China'), ('orderIn', '0')]), OrderedDict([('grantId', 'U1804263'), ('agency', 'National Natural Science Foundation of China'), ('orderIn', '0')]), OrderedDict([('grantId', '62002386'), ('agency', 'National Natural Science Foundation of China'), ('orderIn', '0')]), OrderedDict([('grantId', '62002387'), ('agency', 'National Natural Science Foundation of China'), ('orderIn', '0')]), OrderedDict([('grantId', '61872448'), ('agency', 'National Natural Science Foundation of China'), ('orderIn', '0')])])])"
+subsetList,"OrderedDict([('subset', OrderedDict([('code', 'IM'), ('name', 'Index Medicus')]))])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Unpaywall'), ('url', 'https://www.nature.com/articles/s41598-024-54809-z.pdf')]), OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.1038/s41598-024-54809-z')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10876958')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10876958?pdf=render')])])])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,N
+citedByCount,0
+hasData,N
+hasReferences,Y
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,N
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCreation,2024-02-20
+firstIndexDate,2024-02-21
+fullTextReceivedDate,2024-02-23
+dateOfRevision,2024-02-22
+electronicPublicationDate,2024-02-19
+firstPublicationDate,2024-02-19

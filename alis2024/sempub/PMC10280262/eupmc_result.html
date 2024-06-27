@@ -1,0 +1,133 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>downloaded</th>
+      <th>htmlmade</th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>authorIdList</th>
+      <th>dataLinksTagsList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>affiliation</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>grantsList</th>
+      <th>keywordList</th>
+      <th>fullTextUrlList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>license</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>tmAccessionTypeList</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>electronicPublicationDate</th>
+      <th>firstPublicationDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC10280262</th>
+      <td>True</td>
+      <td>False</td>
+      <td>37346675</td>
+      <td>MED</td>
+      <td>37346675</td>
+      <td>PMC10280262</td>
+      <td>{'fullTextId': 'PMC10280262'}</td>
+      <td>10.7717/peerj-cs.1159</td>
+      <td>Nanopublication-based semantic publishing and reviewing: a field study with formalization papers.</td>
+      <td>Bucur CI, Kuhn T, Ceolin D, van Ossenbruggen J.</td>
+      <td>{'author': [{'fullName': 'Bucur CI', 'firstName': 'Cristina-Iulia', 'lastName': 'Bucur', 'initials': 'CI', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Computer Science Department, Vrije Universiteit Amsterdam, Amsterdam, The Netherlands.')]))])}, {'fullName': 'Kuhn T', 'firstName': 'Tobias', 'lastName': 'Kuhn', 'initials': 'T', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-1267-0234')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Computer Science Department, Vrije Universiteit Amsterdam, Amsterdam, The Netherlands.')]))])}, {'fullName': 'Ceolin D', 'firstName': 'Davide', 'lastName': 'Ceolin', 'initials': 'D', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Human-Centered Data Analytics Group, Centrum Wiskunde & Informatica, Amsterdam, The Netherlands.')]))])}, {'fullName': 'van Ossenbruggen J', 'firstName': 'Jacco', 'lastName': 'van Ossenbruggen', 'initials': 'J', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-7748-4715')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Computer Science Department, Vrije Universiteit Amsterdam, Amsterdam, The Netherlands.')]))])}]}</td>
+      <td>{'authorId': [{'@type': 'ORCID', '#text': '0000-0002-1267-0234'}, {'@type': 'ORCID', '#text': '0000-0002-7748-4715'}]}</td>
+      <td>{'dataLinkstag': ['altmetrics', 'supporting_data']}</td>
+      <td>{'volume': '9', 'journalIssueId': '3560901', 'dateOfPublication': '2023', 'monthOfPublication': '0', 'yearOfPublication': '2023', 'printPublicationDate': '2023-01-01', 'journal': {'title': 'PeerJ. Computer science', 'ISOAbbreviation': 'PeerJ Comput Sci', 'medlineAbbreviation': 'PeerJ Comput Sci', 'NLMid': '101660598', 'ISSN': '2167-9843', 'ESSN': '2376-5992'}}</td>
+      <td>2023</td>
+      <td>e1159</td>
+      <td>With the rapidly increasing amount of scientific literature, it is getting continuously more difficult for researchers in different disciplines to keep up-to-date with the recent findings in their field of study. Processing scientific articles in an automated fashion has been proposed as a solution to this problem, but the accuracy of such processing remains very poor for extraction tasks beyond the most basic ones (like locating and identifying entities and simple classification based on predefined categories). Few approaches have tried to change how we publish scientific results in the first place, such as by making articles machine-interpretable by expressing them with formal semantics from the start. In the work presented here, we propose a first step in this direction by setting out to demonstrate that we can formally publish high-level scientific claims in formal logic, and publish the results in a special issue of an existing journal. We use the concept and technology of nanopublications for this endeavor, and represent not just the submissions and final papers in this RDF-based format, but also the whole process in between, including reviews, responses, and decisions. We do this by performing a field study with what we call formalization papers, which contribute a novel formalization of a previously published claim. We received 15 submissions from 18 authors, who then went through the whole publication process leading to the publication of their contributions in the special issue. Our evaluation shows the technical and practical feasibility of our approach. The participating authors mostly showed high levels of interest and confidence, and mostly experienced the process as not very difficult, despite the technical nature of the current user interfaces. We believe that these results indicate that it is possible to publish scientific results from different fields with machine-interpretable semantics from the start, which in turn opens countless possibilities to radically improve in the future the effectiveness and efficiency of the scientific endeavor as a whole.</td>
+      <td>Computer Science Department, Vrije Universiteit Amsterdam, Amsterdam, The Netherlands.</td>
+      <td>epublish</td>
+      <td>eng</td>
+      <td>Electronic-eCollection</td>
+      <td>{'pubType': ['research-article', 'Journal Article']}</td>
+      <td>{'grant': [{'agency': 'IOS Press', 'orderIn': '0'}, {'agency': 'Vrije Universiteit Amsterdam', 'orderIn': '0'}, {'agency': 'The Netherlands Institute for Sound and Vision', 'orderIn': '0'}]}</td>
+      <td>{'keyword': ['Semantic Publishing', 'Nanopublications', 'Structured Peer-Reviewing', 'Super-Pattern']}</td>
+      <td>{'fullTextUrl': [{'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.7717/peerj-cs.1159'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC10280262'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC10280262?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>1</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>{'accessionType': 'uniprot'}</td>
+      <td>2023-06-22</td>
+      <td>2023-06-22</td>
+      <td>2023-06-22</td>
+      <td>2023-11-06</td>
+      <td>2023-02-21</td>
+      <td>2023-02-21</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    

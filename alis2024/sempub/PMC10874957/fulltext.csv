@@ -1,0 +1,49 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,38369571
+source,MED
+pmid,38369571
+pmcid,PMC10874957
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC10874957')])"
+doi,10.1038/s41598-024-54640-6
+title,Transductive meta-learning with enhanced feature ensemble for few-shot semantic segmentation.
+authorString,"Karimi A, Poullis C."
+authorList,"OrderedDict([('author', [OrderedDict([('fullName', 'Karimi A'), ('firstName', 'Amin'), ('lastName', 'Karimi'), ('initials', 'A'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Immersive and Creative Technologies Lab, Department of Computer Science and Software Engineering, Concordia University, Montreal, Canada.')]))]))]), OrderedDict([('fullName', 'Poullis C'), ('firstName', 'Charalambos'), ('lastName', 'Poullis'), ('initials', 'C'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Immersive and Creative Technologies Lab, Department of Computer Science and Software Engineering, Concordia University, Montreal, Canada. charalambos@poullis.org.')]))]))])])])"
+journalInfo,"OrderedDict([('issue', '1'), ('volume', '14'), ('journalIssueId', '3704658'), ('dateOfPublication', '2024 Feb'), ('monthOfPublication', '2'), ('yearOfPublication', '2024'), ('printPublicationDate', '2024-02-01'), ('journal', OrderedDict([('title', 'Scientific reports'), ('ISOAbbreviation', 'Sci Rep'), ('medlineAbbreviation', 'Sci Rep'), ('NLMid', '101563288'), ('ISSN', '2045-2322'), ('ESSN', '2045-2322')]))])"
+pubYear,2024
+pageInfo,4028
+abstractText,"This paper addresses few-shot semantic segmentation and proposes a novel transductive end-to-end method that overcomes three key problems affecting performance. First, we present a novel ensemble of visual features learned from pretrained classification and semantic segmentation networks with the same architecture. Our approach leverages the varying discriminative power of these networks, resulting in rich and diverse visual features that are more informative than a pretrained classification backbone that is not optimized for dense pixel-wise classification tasks used in most state-of-the-art methods. Secondly, the pretrained semantic segmentation network serves as a base class extractor, which effectively mitigates false positives that occur during inference time and are caused by base objects other than the object of interest. Thirdly, a two-step segmentation approach using transductive meta-learning is presented to address the episodes with poor similarity between the support and query images. The proposed transductive meta-learning method addresses the prediction by first learning the relationship between labeled and unlabeled data points with matching support foreground to query features (intra-class similarity) and then applying this knowledge to predict on the unlabeled query image (intra-object similarity), which simultaneously learns propagation and false positive suppression. To evaluate our method, we performed experiments on benchmark datasets, and the results demonstrate significant improvement with minimal trainable parameters of 2.98M. Specifically, using Resnet-101, we achieve state-of-the-art performance for both 1-shot and 5-shot Pascal-[Formula: see text], as well as for 1-shot and 5-shot COCO-[Formula: see text]."
+affiliation,"Immersive and Creative Technologies Lab, Department of Computer Science and Software Engineering, Concordia University, Montreal, Canada."
+publicationStatus,epublish
+language,eng
+pubModel,Electronic
+pubTypeList,"OrderedDict([('pubType', ['research-article', 'Journal Article'])])"
+grantsList,"OrderedDict([('grant', OrderedDict([('grantId', 'RGPIN-2021-03479'), ('agency', 'Natural Sciences and Engineering Research Council of Canada'), ('orderIn', '0')]))])"
+subsetList,"OrderedDict([('subset', OrderedDict([('code', 'IM'), ('name', 'Index Medicus')]))])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.1038/s41598-024-54640-6')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10874957')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10874957?pdf=render')])])])"
+commentCorrectionList,"OrderedDict([('commentCorrection', OrderedDict([('id', 'PPR757288'), ('source', 'PPR'), ('type', 'Preprint in'), ('note', 'CrossRef Pre-print loader'), ('orderIn', '10002')]))])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,Y
+citedByCount,0
+hasData,Y
+hasReferences,Y
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,N
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCreation,2024-02-18
+firstIndexDate,2024-02-19
+fullTextReceivedDate,2024-02-23
+dateOfRevision,2024-02-21
+electronicPublicationDate,2024-02-18
+firstPublicationDate,2024-02-18

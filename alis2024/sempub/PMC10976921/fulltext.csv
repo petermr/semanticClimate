@@ -1,0 +1,49 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,38343259
+source,MED
+pmid,38343259
+pmcid,PMC10976921
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC10976921')])"
+doi,10.1007/s10278-023-00931-9
+title,The Segmentation of Multiple Types of Uterine Lesions in Magnetic Resonance Images Using a Sequential Deep Learning Method with Image-Level Annotations.
+authorString,"Cui YM, Wang HL, Cao R, Bai H, Sun D, Feng JX, Lu XF."
+authorList,"OrderedDict([('author', [OrderedDict([('fullName', 'Cui YM'), ('firstName', 'Yu-Meng'), ('lastName', 'Cui'), ('initials', 'YM'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', ""Department of Gynecology, Dalian Women and Children's Medical Group, Dalian, 116033, China."")]))]))]), OrderedDict([('fullName', 'Wang HL'), ('firstName', 'Hua-Li'), ('lastName', 'Wang'), ('initials', 'HL'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', ""Department of Gynecology, Dalian Women and Children's Medical Group, Dalian, 116033, China."")]))]))]), OrderedDict([('fullName', 'Cao R'), ('firstName', 'Rui'), ('lastName', 'Cao'), ('initials', 'R'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', ""Department of Gynecology, Dalian Women and Children's Medical Group, Dalian, 116033, China."")]))]))]), OrderedDict([('fullName', 'Bai H'), ('firstName', 'Hong'), ('lastName', 'Bai'), ('initials', 'H'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', ""Department of Gynecology, Dalian Women and Children's Medical Group, Dalian, 116033, China."")]))]))]), OrderedDict([('fullName', 'Sun D'), ('firstName', 'Dan'), ('lastName', 'Sun'), ('initials', 'D'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', ""Department of Gynecology, Dalian Women and Children's Medical Group, Dalian, 116033, China."")]))]))]), OrderedDict([('fullName', 'Feng JX'), ('firstName', 'Jiu-Xiang'), ('lastName', 'Feng'), ('initials', 'JX'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', ""Department of Gynecology, Dalian Women and Children's Medical Group, Dalian, 116033, China."")]))]))]), OrderedDict([('fullName', 'Lu XF'), ('firstName', 'Xue-Feng'), ('lastName', 'Lu'), ('initials', 'XF'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'School of Food Science and Engineering, Dalian Ocean University, Dalian, 116023, China. lux28040109@163.com.')]))]))])])])"
+journalInfo,"OrderedDict([('issue', '1'), ('volume', '37'), ('journalIssueId', '3731692'), ('dateOfPublication', '2024 Feb'), ('monthOfPublication', '2'), ('yearOfPublication', '2024'), ('printPublicationDate', '2024-02-01'), ('journal', OrderedDict([('title', 'Journal of imaging informatics in medicine'), ('ISOAbbreviation', 'J Imaging Inform Med'), ('medlineAbbreviation', 'J Imaging Inform Med'), ('NLMid', '9918663679206676'), ('ISSN', '2948-2933'), ('ESSN', '2948-2933')]))])"
+pubYear,2024
+pageInfo,374-385
+abstractText,"Fully supervised medical image segmentation methods use pixel-level labels to achieve good results, but obtaining such large-scale, high-quality labels is cumbersome and time consuming. This study aimed to develop a weakly supervised model that only used image-level labels to achieve automatic segmentation of four types of uterine lesions and three types of normal tissues on magnetic resonance images. The MRI data of the patients were retrospectively collected from the database of our institution, and the T2-weighted sequence images were selected and only image-level annotations were made. The proposed two-stage model can be divided into four sequential parts: the pixel correlation module, the class re-activation map module, the inter-pixel relation network module, and the Deeplab v3 + module. The dice similarity coefficient (DSC), the Hausdorff distance (HD), and the average symmetric surface distance (ASSD) were employed to evaluate the performance of the model. The original dataset consisted of 85,730 images from 316 patients with four different types of lesions (i.e., endometrial cancer, uterine leiomyoma, endometrial polyps, and atypical hyperplasia of endometrium). A total number of 196, 57, and 63 patients were randomly selected for model training, validation, and testing. After being trained from scratch, the proposed model showed a good segmentation performance with an average DSC of 83.5%, HD of 29.3 mm, and ASSD of 8.83 mm, respectively. As far as the weakly supervised methods using only image-level labels are concerned, the performance of the proposed model is equivalent to the state-of-the-art weakly supervised methods."
+affiliation,"Department of Gynecology, Dalian Women and Children's Medical Group, Dalian, 116033, China."
+publicationStatus,ppublish
+language,eng
+pubModel,Print-Electronic
+pubTypeList,"OrderedDict([('pubType', ['research-article', 'Journal Article'])])"
+grantsList,"OrderedDict([('grant', [OrderedDict([('grantId', '2020-BS-221'), ('agency', 'Natural Science Foundation of Liaoning Province'), ('orderIn', '0')]), OrderedDict([('grantId', '2211023'), ('agency', 'Dalian Medical Science Research Program'), ('orderIn', '0')]), OrderedDict([('grantId', '82003843'), ('agency', 'National Natural Science Foundation of China'), ('orderIn', '0')])])])"
+keywordList,"OrderedDict([('keyword', ['Magnetic Resonance Imaging', 'Deep Learning', 'Uterine Lesions', 'Weakly Supervised Semantic Segmentation'])])"
+subsetList,"OrderedDict([('subset', OrderedDict([('code', 'IM'), ('name', 'Index Medicus')]))])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.1007/s10278-023-00931-9')]), OrderedDict([('availability', 'Free'), ('availabilityCode', 'F'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10976921')]), OrderedDict([('availability', 'Free'), ('availabilityCode', 'F'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10976921?pdf=render')]), OrderedDict([('availability', 'Free'), ('availabilityCode', 'F'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.1007/s10278-023-00931-9')])])])"
+isOpenAccess,N
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,Y
+citedByCount,0
+hasData,Y
+hasReferences,Y
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,N
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCompletion,2024-03-04
+dateOfCreation,2024-02-12
+firstIndexDate,2024-02-12
+fullTextReceivedDate,2024-04-02
+dateOfRevision,2024-03-29
+electronicPublicationDate,2024-01-16
+firstPublicationDate,2024-01-16

@@ -1,0 +1,129 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>downloaded</th>
+      <th>htmlmade</th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>affiliation</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>grantsList</th>
+      <th>keywordList</th>
+      <th>subsetList</th>
+      <th>fullTextUrlList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>dateOfCompletion</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>electronicPublicationDate</th>
+      <th>firstPublicationDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC10976921</th>
+      <td>True</td>
+      <td>False</td>
+      <td>38343259</td>
+      <td>MED</td>
+      <td>38343259</td>
+      <td>PMC10976921</td>
+      <td>{'fullTextId': 'PMC10976921'}</td>
+      <td>10.1007/s10278-023-00931-9</td>
+      <td>The Segmentation of Multiple Types of Uterine Lesions in Magnetic Resonance Images Using a Sequential Deep Learning Method with Image-Level Annotations.</td>
+      <td>Cui YM, Wang HL, Cao R, Bai H, Sun D, Feng JX, Lu XF.</td>
+      <td>{'author': [{'fullName': 'Cui YM', 'firstName': 'Yu-Meng', 'lastName': 'Cui', 'initials': 'YM', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', "Department of Gynecology, Dalian Women and Children's Medical Group, Dalian, 116033, China.")]))])}, {'fullName': 'Wang HL', 'firstName': 'Hua-Li', 'lastName': 'Wang', 'initials': 'HL', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', "Department of Gynecology, Dalian Women and Children's Medical Group, Dalian, 116033, China.")]))])}, {'fullName': 'Cao R', 'firstName': 'Rui', 'lastName': 'Cao', 'initials': 'R', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', "Department of Gynecology, Dalian Women and Children's Medical Group, Dalian, 116033, China.")]))])}, {'fullName': 'Bai H', 'firstName': 'Hong', 'lastName': 'Bai', 'initials': 'H', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', "Department of Gynecology, Dalian Women and Children's Medical Group, Dalian, 116033, China.")]))])}, {'fullName': 'Sun D', 'firstName': 'Dan', 'lastName': 'Sun', 'initials': 'D', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', "Department of Gynecology, Dalian Women and Children's Medical Group, Dalian, 116033, China.")]))])}, {'fullName': 'Feng JX', 'firstName': 'Jiu-Xiang', 'lastName': 'Feng', 'initials': 'JX', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', "Department of Gynecology, Dalian Women and Children's Medical Group, Dalian, 116033, China.")]))])}, {'fullName': 'Lu XF', 'firstName': 'Xue-Feng', 'lastName': 'Lu', 'initials': 'XF', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'School of Food Science and Engineering, Dalian Ocean University, Dalian, 116023, China. lux28040109@163.com.')]))])}]}</td>
+      <td>{'issue': '1', 'volume': '37', 'journalIssueId': '3731692', 'dateOfPublication': '2024 Feb', 'monthOfPublication': '2', 'yearOfPublication': '2024', 'printPublicationDate': '2024-02-01', 'journal': {'title': 'Journal of imaging informatics in medicine', 'ISOAbbreviation': 'J Imaging Inform Med', 'medlineAbbreviation': 'J Imaging Inform Med', 'NLMid': '9918663679206676', 'ISSN': '2948-2933', 'ESSN': '2948-2933'}}</td>
+      <td>2024</td>
+      <td>374-385</td>
+      <td>Fully supervised medical image segmentation methods use pixel-level labels to achieve good results, but obtaining such large-scale, high-quality labels is cumbersome and time consuming. This study aimed to develop a weakly supervised model that only used image-level labels to achieve automatic segmentation of four types of uterine lesions and three types of normal tissues on magnetic resonance images. The MRI data of the patients were retrospectively collected from the database of our institution, and the T2-weighted sequence images were selected and only image-level annotations were made. The proposed two-stage model can be divided into four sequential parts: the pixel correlation module, the class re-activation map module, the inter-pixel relation network module, and the Deeplab v3 + module. The dice similarity coefficient (DSC), the Hausdorff distance (HD), and the average symmetric surface distance (ASSD) were employed to evaluate the performance of the model. The original dataset consisted of 85,730 images from 316 patients with four different types of lesions (i.e., endometrial cancer, uterine leiomyoma, endometrial polyps, and atypical hyperplasia of endometrium). A total number of 196, 57, and 63 patients were randomly selected for model training, validation, and testing. After being trained from scratch, the proposed model showed a good segmentation performance with an average DSC of 83.5%, HD of 29.3 mm, and ASSD of 8.83 mm, respectively. As far as the weakly supervised methods using only image-level labels are concerned, the performance of the proposed model is equivalent to the state-of-the-art weakly supervised methods.</td>
+      <td>Department of Gynecology, Dalian Women and Children's Medical Group, Dalian, 116033, China.</td>
+      <td>ppublish</td>
+      <td>eng</td>
+      <td>Print-Electronic</td>
+      <td>{'pubType': ['research-article', 'Journal Article']}</td>
+      <td>{'grant': [{'grantId': '2020-BS-221', 'agency': 'Natural Science Foundation of Liaoning Province', 'orderIn': '0'}, {'grantId': '2211023', 'agency': 'Dalian Medical Science Research Program', 'orderIn': '0'}, {'grantId': '82003843', 'agency': 'National Natural Science Foundation of China', 'orderIn': '0'}]}</td>
+      <td>{'keyword': ['Magnetic Resonance Imaging', 'Deep Learning', 'Uterine Lesions', 'Weakly Supervised Semantic Segmentation']}</td>
+      <td>{'subset': {'code': 'IM', 'name': 'Index Medicus'}}</td>
+      <td>{'fullTextUrl': [{'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1007/s10278-023-00931-9'}, {'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC10976921'}, {'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC10976921?pdf=render'}, {'availability': 'Free', 'availabilityCode': 'F', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1007/s10278-023-00931-9'}]}</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>0</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>2024-03-04</td>
+      <td>2024-02-12</td>
+      <td>2024-02-12</td>
+      <td>2024-04-02</td>
+      <td>2024-03-29</td>
+      <td>2024-01-16</td>
+      <td>2024-01-16</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    

@@ -1,0 +1,1308 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20031101//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS Comput Biol</journal-id><journal-id journal-id-type="iso-abbrev">PLoS Comput. Biol</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">ploscomp</journal-id><journal-title-group><journal-title>PLoS Computational Biology</journal-title></journal-title-group><issn pub-type="ppub">1553-734X</issn><issn pub-type="epub">1553-7358</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">2663789</article-id><article-id pub-id-type="pmid">19381256</article-id><article-id pub-id-type="publisher-id">08-PLCB-RV-0916R3</article-id><article-id pub-id-type="doi">10.1371/journal.pcbi.1000361</article-id><article-categories><subj-group subj-group-type="heading"><subject>Review</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Computer Science/Information Technology</subject></subj-group></article-categories><title-group><article-title>Adventures in Semantic Publishing: Exemplar Semantic Enhancements of a
+Research Article</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Shotton</surname><given-names>David</given-names></name><xref ref-type="aff" rid="aff1"/><xref ref-type="corresp" rid="cor1">
+<sup>&#x0002a;</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Portwin</surname><given-names>Katie</given-names></name><xref ref-type="aff" rid="aff1"/></contrib><contrib contrib-type="author"><name><surname>Klyne</surname><given-names>Graham</given-names></name><xref ref-type="aff" rid="aff1"/></contrib><contrib contrib-type="author"><name><surname>Miles</surname><given-names>Alistair</given-names></name><xref ref-type="aff" rid="aff1"/></contrib></contrib-group><aff id="aff1"><addr-line>Image Bioinformatics Research Group, Department of Zoology, University of
+Oxford, Oxford, United Kingdom</addr-line></aff><contrib-group><contrib contrib-type="editor"><name><surname>Bourne</surname><given-names>Philip E.</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">University of California San Diego, United States of America</aff><author-notes><corresp id="cor1">&#x0002a; E-mail: <email>david.shotton@zoo.ox.ac.uk</email></corresp></author-notes><pub-date pub-type="collection"><month>4</month><year>2009</year></pub-date><pub-date pub-type="epub"><day>17</day><month>4</month><year>2009</year></pub-date><volume>5</volume><issue>4</issue><elocation-id>e1000361</elocation-id><permissions><copyright-statement>Shotton et al.</copyright-statement><copyright-year>2009</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p>Scientific innovation depends on finding, integrating, and re-using the products of
+previous research. Here we explore how recent developments in Web technology,
+particularly those related to the publication of data and metadata, might assist that
+process by providing semantic enhancements to journal articles within the mainstream
+process of scholarly journal publishing. We exemplify this by describing semantic
+enhancements we have made to a recent biomedical research article taken from
+<italic>PLoS Neglected Tropical Diseases</italic>, providing enrichment to its
+content and increased access to datasets within it. These semantic enhancements
+include provision of live DOIs and hyperlinks; semantic markup of textual terms, with
+links to relevant third-party information resources; interactive figures; a
+re-orderable reference list; a document summary containing a study summary, a tag
+cloud, and a citation analysis; and two novel types of semantic enrichment: the
+first, a Supporting Claims Tooltip to permit &#x0201c;Citations in
+Context&#x0201d;, and the second, Tag Trees that bring together semantically
+related terms. In addition, we have published downloadable spreadsheets containing
+data from within tables and figures, have enriched these with provenance information,
+and have demonstrated various types of data fusion (mashups) with results from other
+research articles and with Google Maps. We have also published machine-readable RDF
+metadata both about the article and about the references it cites, for which we
+developed a Citation Typing Ontology, CiTO (<ext-link ext-link-type="uri" xlink:href="http://purl.org/net/cito/">http://purl.org/net/cito/</ext-link>). The
+enhanced article, which is available at <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pntd.0000228.x001">http://dx.doi.org/10.1371/journal.pntd.0000228.x001</ext-link>, presents a
+compelling existence proof of the possibilities of semantic publication. We hope the
+showcase of examples and ideas it contains, described in this paper, will excite the
+imaginations of researchers and publishers, stimulating them to explore the
+possibilities of semantic publishing for their own research articles, and thereby
+break down present barriers to the discovery and re-use of information within
+traditional modes of scholarly communication.</p></abstract><counts><page-count count="17"/></counts></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Online versions of journal articles are conventionally presented either as HTML Web
+pages or as static PDF documents, with the Web used primarily as a convenient
+distribution medium for traditional text. As the electronic embodiment of the printed
+page, the PDF document is both familiar and easy for humans to read, but it is
+antithetical to the spirit of the Web, lacking user interactivity and being difficult
+for machines to read, thus inhibiting the development of services that can automatically
+link information between articles.</p><p>Recent developments in Web technology can be used for semantic enhancement of scholarly
+journals articles, providing better linking to other resources, adding descriptive
+metadata that assist article discovery and specify the meaning of concepts and terms
+within the article, and allowing users access to &#x0201c;lively&#x0201d; content in
+the form of interactive figures, re-orderable reference lists, document summaries, and
+downloadable numerical datasets in which the data are both accessible and actionable.</p><p>In this paper we describe semantic enhancements made to a recently published biomedical
+research article from the journal <italic>PLoS Neglected Tropical Diseases</italic>
+(<italic>PLoS NTDs</italic>), using this single exemplar research article to create a
+compelling proof of the possibilities of semantic publication.</p><p>We define the term <italic>semantic publication</italic> to include anything that
+enhances the meaning of a published journal article, facilitates its automated
+discovery, enables its linking to semantically related articles, provides access to data
+within the article in actionable form, or facilitates integration of data between
+articles.</p><p>We undertook this exercise in semantic publishing to demonstrate some of the different
+types of semantic enhancement that we consider desirable for improving the usefulness of
+online research articles, and to show the benefits that ensue from publishing the data
+they contain to the Web, thus facilitating the integration of information from different
+publications.</p><sec id="s1a"><title>The Unique Role of the Journal Article</title><p>Since our contention is that biomedical journal articles should become better
+conduits for the publication of research data than they are at present, it is
+important to relate them to bioinformatics databases, whose primary role is clearly
+data publication. In 2005, Philip E. Bourne, Editor-in Chief of <italic>PLoS
+Computational Biology</italic> and Co-Director of the Protein Data Bank (PDB;
+<ext-link ext-link-type="uri" xlink:href="http://www.rcsb.org/pdb/">http://www.rcsb.org/pdb/</ext-link>), wrote a stimulating article <xref rid="pcbi.1000361-Bourne1" ref-type="bibr">[1]</xref> in which
+he pointed out that the distinction between an online paper and a database was
+diminishing and called for &#x0201c;seamless integration&#x0201d; between papers
+reporting results and the datasets used to compute those results.</p><p>While we agree with his central analysis that in the electronic age the processes
+involved in submitting papers to journals and data to bioinformatics databases are
+essentially similar, we contend that similarity of process should not blind us to
+essential differences in purpose. Anita de Waard <xref rid="pcbi.1000361-deWaard1" ref-type="bibr">[2]</xref> has argued persuasively
+that the scientific journal article is an exercise in rhetoric, with the primary
+purpose of persuading readers of the truth of a particular hypothesis, and that the
+data it contains are carefully selected to prove that hypothesis as clearly as
+possible. In contrast, the function of a bioinformatics database is to provide
+impartial access to complete datasets. We thus believe that a clear distinction needs
+to be maintained between these two forms of scientific communication. The journal
+publication provides a peer-reviewed dated record of the authors' views at
+the time of publication, and as such becomes an immutable part of the scientific
+record, while the research database should contain the most reliable up-to-date
+information. Seamless integration between the two is <italic>not</italic> desirable.
+One needs to approach research publications and research datasets with different
+presuppositional spectacles&#x02014;the first rhetorical, the other
+analytical&#x02014;and for this reason researchers need the
+&#x0201c;seams&#x0201d; between the two to be very clearly visible. Nevertheless,
+reciprocal citation between papers and datasets is essential, and
+<italic>frictionless interoperability</italic> between papers and datasets is
+highly desirable.</p><p>We believe that much more can be done to make the data that <italic>are</italic>
+contained within research articles more readily accessible in machine-readable form,
+a sentiment that has the backing of the international scientific, technical, and
+medical (STM) publishing community. The 2007 Brussels declaration (<ext-link ext-link-type="uri" xlink:href="http://www.stm-assoc.org/brussels-declaration/">http://www.stm-assoc.org/brussels-declaration/</ext-link>) states, inter alia,
+that STM publishers are committed to change and innovation that will make science
+more effective, and believe that raw research data, and datasets submitted with a
+paper to a journal, should wherever possible be made freely accessible to other
+scholars.</p></sec><sec id="s1b"><title>Others' Activities in Semantic Publishing</title><p>Of course, we are not the first to suggest or implement semantic enhancements of
+journal articles. For example, Seringhaus and Gerstein <xref rid="pcbi.1000361-Seringhaus1" ref-type="bibr">[3]</xref> have provided a
+compelling vision statement concerning the optimal information architecture for
+biosciences publications, involving closer integration of journal text and database
+resources, provision of intelligent markup, and the creation of Structured Digital
+Abstracts (SDAs), which are machine-readable documents summarizing all the key data
+and conclusions of articles, including (for molecular biology articles): (a) a list
+of all named entities in the article (genes, proteins, metabolites, etc.), with
+precise database identifiers; (b) a list of the main results, described using
+controlled vocabularies; and (c) standard evidence codes defining the methodology by
+which the results were obtained <xref rid="pcbi.1000361-Gerstein1" ref-type="bibr">[4]</xref>.</p><p>This has led the editors of the Elsevier journal <italic>FEBS Letters</italic> to
+collaborate with their authors and with the curators of MINT, the Molecular
+INTeraction Database (<ext-link ext-link-type="uri" xlink:href="http://mint.bio.uniroma2.it/">http://mint.bio.uniroma2.it/</ext-link>), which records experimentally verified
+protein&#x02013;protein interactions mined from the scientific literature by expert
+curators, to implement Structured Digital Abstracts for <italic>FEBS Letters</italic>
+papers describing protein&#x02013;protein interactions <xref rid="pcbi.1000361-Ceol1" ref-type="bibr">[5]</xref>. These SDAs are both in the
+form of human readable supplements to the articles' conventional abstracts,
+and machine-readable XML additions to the HTML articles, containing unique protein
+identifiers with links to MINT and to Uniprot, the Universal Protein Resource
+(<ext-link ext-link-type="uri" xlink:href="http://www.uniprot.org/">http://www.uniprot.org/</ext-link>), while drawing definitions of the types of
+protein&#x02013;protein interaction from the HUPO Proteomics Standards
+Initiative's Molecular Interaction (MI) Controlled Vocabulary (<ext-link ext-link-type="uri" xlink:href="http://www.psidev.info/index.php?q=node/31">http://www.psidev.info/index.php?q=node/31</ext-link>). Between the start of this
+experiment on April 9, 2008, and February 18, 2009, 90 papers were published in
+<italic>FEBS Letters</italic> with SDAs. However, while it is intended that these
+SDAs should be hosted along with the conventional abstracts of <italic>FEBS
+Letters</italic> by the abstracting services MedLine (<ext-link ext-link-type="uri" xlink:href="http://medline.cos.com/">http://medline.cos.com/</ext-link>) and
+PubMed (<ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/">http://www.ncbi.nlm.nih.gov/pubmed/</ext-link>) <xref rid="pcbi.1000361-Ceol1" ref-type="bibr">[5]</xref>, this has yet to happen.</p><p>Some publishers, notably the Royal Society of Chemistry, have taken the lead in
+pioneering other aspects of semantic publishing as part of their routine production
+schedule. Certain of their journals, for example, <italic>Molecular
+Biosystems</italic> (e.g., <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1039/b613673g">http://dx.doi.org/10.1039/b613673g</ext-link>), provide an enhanced HTML version for
+which semantic markup of textual terms is undertaken during the standard journal
+production process by skilled domain-specialist editors. This enhanced HTML version
+provides markup of chemical names, of terms from the International Union of Pure and
+Applied Chemistry (IUPAC) Compendium of Chemical Terminology&#x02014;the Gold Book
+(<ext-link ext-link-type="uri" xlink:href="http://goldbook.iupac.org/">http://goldbook.iupac.org/</ext-link>), and of semantically significant terms
+defined by the Gene Ontology, Cell Ontology, and Sequence Ontology. Clicking on
+marked-up instances links these to authoritative Web resources. For example, a
+chemical name links to its structural formula, a list of synonyms, its IUPAC
+International Chemical Identifier (InChI), an XML description in Chemical Markup
+Language, and patents involving use of that chemical. Similarly, a Gene Ontology term
+links to its definition, its GO ID number, a list of synonyms, and a list of other
+RSC articles referencing the term. This development, known as the RSC Project
+Prospect, won the 2007 ALPSP/Charlesworth Award for Publishing Innovation <xref rid="pcbi.1000361-Editorial1" ref-type="bibr">[6]</xref>, and is
+thought to be the first major application of Semantic Web technologies in science
+publishing.</p><p>Similarly, as exemplified at <ext-link ext-link-type="uri" xlink:href="http://journals.iucr.org/a/issues/2003/01/00/au0308/index.html">http://journals.iucr.org/a/issues/2003/01/00/au0308/index.html</ext-link>, the
+subscription-access journal <italic>Acta Crystallographica A: Foundations of
+Crystallography</italic>, published by the International Union of Crystallography
+(IUCr), has for several years supported markup of text with terms from the Gold Book
+and the IUCr Online Dictionary of Crystallography (<ext-link ext-link-type="uri" xlink:href="http://reference.iucr.org/dictionary/">http://reference.iucr.org/dictionary/</ext-link>), with links to definitions.</p><p>While the importance of linking publications to research data has recently been
+stressed by Seringhaus and Gerstein <xref rid="pcbi.1000361-Seringhaus1" ref-type="bibr">[3]</xref> and by Borgman <xref rid="pcbi.1000361-Borgman1" ref-type="bibr">[7]</xref>, few
+scholarly journals link to downloadable actionable datasets. However, there are some
+excellent examples of this from other sources, for example SourceOECD (<ext-link ext-link-type="uri" xlink:href="http://www.sourceoecd.org/">http://www.sourceoecd.org/</ext-link>), the Online Library of Statistical
+Databases, Books and Periodicals of the Organisation for Economic Co-operation and
+Development (OECD; <ext-link ext-link-type="uri" xlink:href="http://www.oecd.org/">http://www.oecd.org/</ext-link>). Their online statistical tables have an
+&#x0201c;Export Excel&#x0201d; tab that creates and downloads an Excel
+spreadsheet from data currently being viewed. Users can also create dynamic graphics,
+bringing the data alive visually.</p><p>Despite these laudable examples, the general situation is clearly far from being
+resolved in terms of semantic publishing best practice, and there is considerable
+scope for innovative developments. For this reason, Elsevier recently launched the
+Elsevier Grand Challenge: Knowledge Enhancement in the Life Sciences (<ext-link ext-link-type="uri" xlink:href="http://www.elseviergrandchallenge.com/">http://www.elseviergrandchallenge.com/</ext-link>), seeking proposals
+&#x0201c;to improve the interpretation and identification of meaning in online
+journals and text databases relating to the life sciences&#x0201d;, and offering
+substantial cash prizes for the best ideas that they could then optionally put into
+practice under exclusive licences. At the time of writing (February 2009), this
+competition is still ongoing, with four finalists, whose details are given on the
+Grand Challenge Web site, having been selected from the &#x0223c;70 original
+applicants. The Finals will be held at a scientific session at the
+<italic>Experimental Biology</italic> conference (April 18&#x02013;22, New
+Orleans; <ext-link ext-link-type="uri" xlink:href="http://www.eb2009.org/">http://www.eb2009.org/</ext-link>) as well as via a live free webinar on April
+21, 2009, 3:00&#x02013;3:30 p.m. U.S. Central Time.</p></sec><sec id="s1c"><title>The Relevance of Our Work to <italic>PLoS Computational Biology</italic>
+</title><p>While the subject area for the work reported in this paper&#x02014;infectious
+disease epidemiology&#x02014;may not be familiar to many readers of this journal,
+our work of semantic enhancement to promote access to biological data within a
+scholarly publication by the application of computer technology falls squarely within
+the remit of <italic>PLoS Computational Biology</italic>, which has been a leader in
+the areas of semantic publishing and the intersection of the literature and curated
+databases as repositories of scientific knowledge. Furthermore, the approaches
+adopted in our work are of general applicability. To appreciate this, consider the
+case of mashups of research data with Google Maps or Google Earth, which we describe
+for the <italic>PLoS NTDs</italic> article below. While at first glance such data
+representations might seem far removed from molecular biology and bioinformatics, a
+moment's thought will show that this is not the case, as the following four
+examples illustrate.</p><list list-type="order"><list-item><p>Multi-locus sequence typing (MLST) databases established at Oxford University,
+Imperial College in London, and the Max-Planck-Institut f&#x000fc;r
+Infektionsbiologie in Berlin, record regional variants of some fifty pathogenic
+bacterial and yeast species, including <italic>Helicobacter pylori</italic>,
+<italic>Escherichia coli</italic>, <italic>Yersinia pestis</italic>,
+<italic>Candida albicans</italic>, and various
+<italic>Campylobacter</italic>, <italic>Pseudomonas</italic>,
+<italic>Salmonella</italic>, and <italic>Streptococcus</italic> species,
+responsible for a variety of serious diseases up to and including plague, and
+permit the locations of these variants using data mashups with Google Maps and
+Google Earth (e.g., <ext-link ext-link-type="uri" xlink:href="http://maps.mlst.net/">http://maps.mlst.net/</ext-link>).</p></list-item><list-item><p>Current genome-wide association (GWA) studies involve scanning the genotypes of
+thousands of individuals to determine variation within half a million or more
+single nucleotide polymorphisms (SNPs), both of human patients from across the
+world and of their local pathogens, thereby seeking to discover correlations
+with disease susceptibility <xref rid="pcbi.1000361-Donnelly1" ref-type="bibr">[8]</xref>,<xref rid="pcbi.1000361-Kwiatkowski1" ref-type="bibr">[9]</xref>. Many of these
+correlations show regional localization that it would be appropriate to display
+using geospatial mapping.</p></list-item><list-item><p>The well-publicized Global Ocean Sampling Expedition of the J. Craig Venter
+Institute <xref rid="pcbi.1000361-Venter1" ref-type="bibr">[10]</xref> (<ext-link ext-link-type="uri" xlink:href="http://collections.plos.org/plosbiology/gos-2007.php">http://collections.plos.org/plosbiology/gos-2007.php</ext-link>) and other
+metagenomics projects that analyse biodiversity in various marine, freshwater,
+and terrestrial ecosystems across the world, are entirely dependent on
+geospatial metadata for organizing their results.</p></list-item><list-item><p>In a most elegant illustration of the interaction between genetics and
+biogeography (<ext-link ext-link-type="uri" xlink:href="http://iphylo.blogspot.com/2007/06/google-earth-phylogenies.html">http://iphylo.blogspot.com/2007/06/google-earth-phylogenies.html</ext-link>),
+Rod Page has used Google Earth as a phylogeny viewer, displaying a phylogenetic
+tree for <italic>Banza</italic> katydids <xref rid="pcbi.1000361-Shapiro1" ref-type="bibr">[11]</xref> as an aerial
+phylogram hovering over the Hawaiian Archipelago. This shows how the evolution
+of the insects, determined from sequence comparisons, correlates with the
+sequential appearance of new habitats, as volcanic islands in the chain emerged
+from the ocean.</p></list-item></list></sec></sec><sec id="s2"><title>The Target for Our Semantic Enhancements</title><p>Our chosen target for semantic enhancement is the article by Reis et al. (2008)
+published on April 23, 2008, in <italic>PLoS Neglected Tropical Diseases</italic>
+<xref rid="pcbi.1000361-Reis1" ref-type="bibr">[12]</xref> (<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pntd.0000228">http://dx.doi.org/10.1371/journal.pntd.0000228</ext-link>). The article reports
+studies undertaken in 2003 and 2004 of the risk of contracting leptospirosis among
+inhabitants of a <italic>favela</italic> (an urban slum settlement) called Pau da Lima,
+in the Brazilian city of Salvador, as determined by correlating the presence of
+antibodies against <italic>Leptospira</italic> sp. in their blood with the proximity of
+their homes to potential sources of infection, and with various sociological factors
+including income and race.</p><p>The <italic>PLoS NTDs</italic> article in question was an appropriate choice for our
+enhancement activities for a number of reasons: a) It was current, having been selected
+on April 30, just one week after publication, in the hope that our enhanced version of
+the article would be available in time to be viewed alongside the original by many
+readers coming to the original for the first time. b) It was in the field of infectious
+disease epidemiology, in which the timely availability of reliable disease incidence
+data that permit predictions of the severity and spread of epidemics is important, and
+in which we intend to invest further semantic publishing effort. c) It contained a rich
+variety of data types&#x02014;geospatial data, disease incidence data, serological
+assay results, and sociological questionnaire results&#x02014;presented in an
+interesting variety of formats&#x02014;maps, bar charts, tables, graphs, and scatter
+plots&#x02014;potentially amenable to semantic enrichments of different sorts. d) The
+raw data underlying these observations were not readily accessible from the original
+online article in actionable form. e) The article was published under a Creative Commons
+attribution license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/">http://creativecommons.org/</ext-link>),
+which meant that we were free to modify it, provided we gave appropriate attribution. f)
+The article was available in XML, a form that could easily be modified and republished.</p><p>The publisher and editor of the original article kindly supported our work of semantic
+enhancement by licensing on our behalf the additional digital object identifiers
+required (DOIs, administered by the International DOI Foundation <ext-link ext-link-type="uri" xlink:href="http://www.doi.org/">http://www.doi.org/</ext-link>
+and CrossRef <ext-link ext-link-type="uri" xlink:href="http://www.crossref.org/">http://www.crossref.org/</ext-link>), and by offering to provide a link to the
+enhanced version from the original online version of the article, and to comment on our
+work in the PLoS Blog (<ext-link ext-link-type="uri" xlink:href="http://www.plos.org/cms/blog">http://www.plos.org/cms/blog</ext-link>).
+Similarly, the original article's authors helped us by providing the raw data
+for some of their figures, by validating our citation typing, and by assisting us with
+Portuguese translations.</p></sec><sec id="s3"><title>Functional Enhancements to the <italic>PLoS NTDs</italic> Article</title><p>Our semantic enhancements were developed and are best seen using the tabbed Web browser
+Firefox v3 (<ext-link ext-link-type="uri" xlink:href="http://www.mozilla.com/en-US/firefox/">http://www.mozilla.com/en-US/firefox/</ext-link>) running on a Windows platform.
+This paper will be best appreciated if the reader has both the original article
+(<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pntd.0000228">http://dx.doi.org/10.1371/journal.pntd.0000228</ext-link>) and our enhanced version
+of that article (<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pntd.0000228.x001">http://dx.doi.org/10.1371/journal.pntd.0000228.x001</ext-link>) open simultaneously
+under two browser tabs, so that details can be checked, comparisons made, and enhanced
+interactive figures and data fusions visualized.</p><p>What we did to enhance this <italic>PLoS NTDs</italic> paper was not rocket science. It
+involved application of standard HTML markup for hyperlinks, standard use of CSS
+(Cascading Style Sheets) for format styling, use of simple JavaScript to provide
+interactivity (for example, for reference list re-ordering), use of the Yahoo! User
+Interface (YUI) Library of utilities and controls for building richly interactive Web
+applications (<ext-link ext-link-type="uri" xlink:href="http://developer.yahoo.com/yui/">http://developer.yahoo.com/yui/</ext-link>), and use of the Google Maps API to
+create data fusions (<ext-link ext-link-type="uri" xlink:href="http://code.google.com/apis/maps/index.html">http://code.google.com/apis/maps/index.html</ext-link>). The technical details of
+these enhancements are described by Shotton and Portwin in <xref ref-type="supplementary-material" rid="pcbi.1000361.s001">Text S1</xref>.</p><sec id="s3a"><title>Things We Did Not Alter (Much)</title><sec id="s3a1"><title>Within-document navigation</title><p>We retained all the sectional navigation links used in the original article, but
+moved the tabs required to activate these from the original right-hand sidebar
+position, where they occupied quite a lot of screen real estate, into a
+non-scrolling link set at the top of the document, so that they are always visible
+to the reader. To these navigation links we added one additional link that takes
+the reader to an additional Data Fusion Supplements section at the end of the
+article. Similarly, we retained the other pre-existing internal links: from
+authors' names to their institutional addresses; from in-text citations
+of the figures, table, and references to the corresponding items; from the figure
+and table thumbnails to their original full-size versions in the original
+article's slideshow; and from the titles of Figure S1 and Figure S2 in
+the main text to their original downloadable versions.</p></sec><sec id="s3a2"><title>Reader comments</title><p>We did not duplicate the PLoS system that permits readers to record their
+comments, but instead encourage readers to make comments, about both the original
+article and our enhanced version, using the original <italic>PLoS NTDs</italic>
+system at <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pntd.0000228">http://dx.doi.org/10.1371/journal.pntd.0000228</ext-link> and on the PLoS
+Blog.</p></sec></sec><sec id="s3b"><title>Providing Access to Actionable Data</title><p>One of the most significant aspects of semantic publication is that of making the raw
+numerical data contained within an article available to readers as <bold>actionable
+data</bold> that they can manipulate. A peculiar irony of the original
+<italic>PLoS NTDs</italic> article is that, while the publisher has gone to the
+trouble of assigning DOIs to the individual figures and the table, and has made these
+downloadable, they can only be downloaded as <italic>images</italic> (TIFF or
+PowerPoint format), so that the numerical data contained within them are no more
+accessible than in the original article, requiring manual re-keying into a
+spreadsheet if the reader wishes to do anything further with them.</p><p>Upon request, Dr. Albert Ko, the senior author of the <italic>PLoS NTDs</italic>
+article, and his colleagues Drs. Renato Barbosa Reis and Guilherme de Sousa Ribeiro,
+kindly sent us the raw data for Table 1, Figure 2, and Figure S2 in the form of Excel
+spreadsheets. To these we added suitable headers to identify their provenance, but
+otherwise left their contents unchanged. With the cooperation of PLoS who registered
+new DOIs for us, we then made these spreadsheets downloadable, from the
+&#x0201c;raw data&#x0201d; links adjacent to the thumbnails for Table 1 and
+Figure 2 in the enhanced article, and in the supporting information section for
+Figure S2, each with its individual DOI: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pntd.0000228.t001.x001">http://dx.doi.org/10.1371/journal.pntd.0000228.t001.x001</ext-link> for the raw
+data for Table 1, <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pntd.0000228.g002.x001">http://dx.doi.org/10.1371/journal.pntd.0000228.g002.x001</ext-link> for the raw
+data for Figure 2, and <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pntd.0000228.s002.x001">http://dx.doi.org/10.1371/journal.pntd.0000228.s002.x001</ext-link> for the raw
+data for Figure S2.</p><p>An additional advantage that we discovered of publishing the raw numerical datasets
+in this way is that they are in fact richer in information than the figures
+originally published in the journal article. While Figure 2 in the original article
+presents serological data in histogram form in terms of three categories of
+cross-reacting <italic>Leptospira</italic> serovar categories&#x02014;Copenhageni,
+Mixed, and Other&#x02014;the numerical data contained in the spreadsheet have a
+higher granularity, splitting the Other category into three specific
+serovars&#x02014; Autumnalis, Canicola, and Grippotyphosa.</p></sec><sec id="s3c"><title>Data Fusion with Information from Other Sources</title><p>We present five examples of data enrichment made possible when data from our selected
+<italic>PLoS NTDs</italic> article are combined with information from elsewhere on
+the Web. Although such examples are usually termed <italic>mashups</italic>
+(Wikipedia: &#x0201c;In Web development, a mashup is a Web application that
+combines data from more than one source into a single integrated tool, thereby
+creating a new and distinct Web service that was not originally provided by either
+source.&#x0201d;), we prefer the term <bold><italic>data fusion</italic></bold> to describe this type of semantic enhancement.</p><sec id="s3c1"><title>Simple geospatial data fusion</title><p>Panel (C) in Figure 3 in the original article is a &#x0201c;heatmap&#x0201d;
+showing the spatial distribution of subjects with <italic>Leptospira</italic>
+antibodies within the study area, where red corresponds to a high incidence of the
+leptospirosis disease. Although this is spatial information, no longitude and
+latitude coordinates were attached to the figure, the study location being
+described within the body of the article simply as &#x0201c;Pau da Lima,
+Salvador&#x0201d;, and shown only as a small red dot in the map inset to the
+article's Figure 1.</p><p>By obtaining and publishing machine-readable latitude and longitude coordinates
+for the study site, we were able to enhance the figure by using the Google Maps
+API to overlay it onto the street plan of Salvador, as shown in <xref ref-type="fig" rid="pcbi-1000361-g001">Figure 1</xref> of this paper (see also
+the interactive zoomable version of this data fusion at <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pntd.0000228.g003.x002">http://dx.doi.org/10.1371/journal.pntd.0000228.g003.x002</ext-link>).</p><p>A reader viewing this enhanced version of Figure 3C has the benefit of context.
+For example, it is now clear that the study site is bounded by a road to the
+south, Rio Sao Marcos, and that there is a large building on the east side of Rio
+Djalma Sanches, both of which partially explain the shape of the study site.
+Additionally, the largest red area in the heatmap, indicating high incidence of
+leptospirosis, appears green with vegetation on the underlying satellite image in
+Google Maps (visible in the online interactive version of the figure after
+unchecking the check box for the heatmap overlay). This extra level of contextual
+information helps the reader to more quickly understand and evaluate the data
+being presented. Since the Google Maps mapping software is interactive, the user
+can zoom in and out, thereby gaining a better idea of the location of Pau da Lima
+within Salvador, and also the distance of the <italic>favela</italic> from the
+city centre, the coast, and other geographical features.</p><fig id="pcbi-1000361-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pcbi.1000361.g001</object-id><label>Figure 1</label><caption><title>A superposition of Figure 3C of the <italic>PLoS NTDs</italic> article
+<xref rid="pcbi.1000361-Reis1" ref-type="bibr">[12]</xref> onto a satellite photo of Salvador with
+superimposed street plan.</title></caption><graphic xlink:href="pcbi.1000361.g001"/></fig></sec><sec id="s3c2"><title>Geospatial data fusion across multiple publications</title><p>In 1999, in the <italic>Lancet</italic> article <xref rid="pcbi.1000361-Ko1" ref-type="bibr">[13]</xref> cited as reference 6 in
+Reis et al. <xref rid="pcbi.1000361-Reis1" ref-type="bibr">[12]</xref>, Ko and his colleagues published a map of the
+incidence of the disease leptospirosis across the whole of the city of Salvador,
+by census district. Inclusion of that 1999 map in the data fusion with Figure 3C
+of the 2008 <italic>PLoS NTDs</italic> article shows the study site in the context
+of the larger leptospirosis distribution in the whole of Salvador, adding value to
+the original figure, as shown in <xref ref-type="fig" rid="pcbi-1000361-g002">Figure 2</xref> of this paper (see also <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pntd.0000228.g003.x003">http://dx.doi.org/10.1371/journal.pntd.0000228.g003.x003</ext-link> for the
+interactive version of this data fusion).</p><fig id="pcbi-1000361-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pcbi.1000361.g002</object-id><label>Figure 2</label><caption><title>Superposition of Figure 3C of the 2008 <italic>PLoS NTDs</italic>
+article <xref rid="pcbi.1000361-Reis1" ref-type="bibr">[12]</xref> and a modified version of Figure 1 from Ko
+et al. <xref rid="pcbi.1000361-Ko1" ref-type="bibr">[13]</xref> (copyright &#x000a9; Albert Ko, 2008, used
+with permission) onto a street plan of Salvador.</title><p>The study site in <xref rid="pcbi.1000361-Reis1" ref-type="bibr">[12]</xref> is indicated by the small yellow-orange
+region in the centre of the figure.</p></caption><graphic xlink:href="pcbi.1000361.g002"/></fig><p>Despite the slight misalignment of the 1999 map with Google Maps, it is clear that
+the small yellow-orange study site of the 2008 article in the centre of the figure
+lies in a census district that was reported to have a high incidence of
+leptospirosis, as indicated by the dark shading on the 1999 map. This suggests,
+for example, that the results obtained in Pau da Lima and reported by Reis et al.
+<xref rid="pcbi.1000361-Reis1" ref-type="bibr">[12]</xref>
+are likely to be of relevance for other high-incidence census districts of
+Salvador.</p></sec><sec id="s3c3"><title>Mapping leptospirosis study locations in space and time</title><p>Researchers studying particular neglected tropical diseases are likely to be
+interested in the geospatial locations and dates of others' studies on
+the same disease in different countries. Such information is also of vital
+interest to epidemiologists trying to build global models of disease prevalence
+and spread. To demonstrate how geo&#x02013;temporal mapping might assist in this
+process, we determined the geospatial coordinates of a handful of recent studies
+on leptospirosis from different parts of the world, and indicated their relative
+positions on a world map by a simple data fusion with Google Maps, in a similar
+manner to the mappings described above. There are two variations of this data
+fusion, designated Data Fusions D1 and D2, referenced in the Data Fusion
+Supplements section at the end of our enhanced <italic>PLoS NTDs</italic> article.</p><p>Data Fusion D1 (<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pntd.0000228.x006">http://dx.doi.org/10.1371/journal.pntd.0000228.x006</ext-link>) is a
+conventional Google Maps global mashup, in which the locations of different
+leptospirosis field studies in Brazil, Peru, and Thailand are displayed on a world
+map. The study location of Reis et al. <xref rid="pcbi.1000361-Reis1" ref-type="bibr">[12]</xref> is indicated by the
+square red location marker. The bibliographic citations are displayed down the
+left side of the screen, and the location pointers of their global locations can
+be turned on and off at will, by selecting or deselecting the check boxes adjacent
+to the citations. Clicking on any one of the location pointers on the map opens an
+information box that gives both the location and the citation data for that study.</p><p>In Data Fusion D2 (<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pntd.0000228.x007">http://dx.doi.org/10.1371/journal.pntd.0000228.x007</ext-link>), we added a
+time scale to the right margin of the map, such that the locations of studies are
+only displayed if their publication dates fall within the temporal range set by
+the two red sliders. At present, this second prototype has several limitations: it
+uses article publication dates rather than the dates when the reported field
+studies were actually undertaken, and the temporal resolution is at present only
+to the nearest year. Nevertheless, it serves to show the potential power of
+spatio&#x02013;<italic>temporal</italic> mapping.</p></sec><sec id="s3c4"><title>Serological data fusion across publications</title><p>We give one example, at <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pntd.0000228.x008">http://dx.doi.org/10.1371/journal.pntd.0000228.x008</ext-link>, of data fusion
+that does <italic>not</italic> involve maps, in which we compare serological data
+from Table 1 of our selected <italic>PLoS NTDs</italic> article with similar data
+from Table 3 of the same research group's earlier 2008 article by Maciel
+et al. <xref rid="pcbi.1000361-Maciel1" ref-type="bibr">[14]</xref> (reference 40 in Reis et al. <xref rid="pcbi.1000361-Reis1" ref-type="bibr">[12]</xref>). Both papers use a
+microagglutination test to detect anti-<italic>Leptospira </italic>sp. antibodies
+in the blood of subjects. This data fusion specifically concerns the age
+distribution of subjects showing immune responses to <italic>Leptospira
+</italic>sp. of any type. While Reis et al. (2008) <xref rid="pcbi.1000361-Reis1" ref-type="bibr">[12]</xref> looked at the occurrence
+of <italic>Leptospira</italic> antibodies in a large representative population
+from a single slum community in Salvador, Brazil, Maciel et al. (2008) <xref rid="pcbi.1000361-Maciel1" ref-type="bibr">[14]</xref> looked
+at their occurrence among healthy members of a few &#x0201c;index&#x0201d;
+households of patients hospitalized with acute leptospirosis scattered across
+nineteen Salvador slums, and in neighbouring control households. The data fusion
+is presented in graphical form in the downloadable spreadsheet, as well as in the
+tabular form of the original sources, with explanatory text added. Since many
+epidemiological investigations, including the featured one by Reis et al. <xref rid="pcbi.1000361-Reis1" ref-type="bibr">[12]</xref>, involve
+long-term prospective studies or intervention trials at selected field sites or
+with particular cohorts of patients, this approach should also prove useful for
+comparing sequential studies on the same population groups.</p></sec></sec><sec id="s3d"><title>Adding Value to the Text</title><sec id="s3d1"><title>Highlighting of textual terms</title><p>Scholars are today faced with an avalanche of new articles that they ought to
+read, in excess of their available reading time. Semantic annotation of text
+highlights key concepts, and facilitates skimming a document in order to decide
+whether or not it is worth investing additional time to read it fully. We provided
+such semantic enhancements to the title, text, and reference titles of our
+selected <italic>PLoS NTDs</italic> article, in the form of optional colored
+highlighting for textual instances of nine classes of textual entities:
+<bold>date</bold>, <bold>disease</bold>, <bold>habitat</bold>,
+<bold>institution</bold>, <bold>organism</bold> (English name),
+<bold>person</bold> (Proper name), <bold>place</bold>, <bold>protein</bold>, and
+<bold>taxon</bold> (Latin Linnaean genus or species name), each class being
+associated with a particular color. In so doing, we consciously chose not to
+highlight terms referring to other topics, such as experimental methods.</p><p>The default setting is to have no highlighting shown, with the options either of
+having all the highlighting turned on, or of having one or more selected classes
+of terms highlighted, these options being chosen by the reader using colored
+selection buttons located in a non-scrolling button set at the top of the
+document. <xref ref-type="fig" rid="pcbi-1000361-g003">Figure 3</xref> shows the
+beginning of the Introduction from the enhanced paper, with all the highlighting
+turned on. The non-scrolling navigation linkset is also visible.</p><fig id="pcbi-1000361-g003" position="float"><object-id pub-id-type="doi">10.1371/journal.pcbi.1000361.g003</object-id><label>Figure 3</label><caption><title>The first three paragraphs of the Introduction from the enhanced version
+of Reis et al. (2008) <xref rid="pcbi.1000361-Reis1" ref-type="bibr">[12]</xref>, with instances of all the semantic
+classes highlighted.</title><p>The non-scrolling highlighting button set can be seen at the top of the
+figure, and below it the non-scrolling navigation bar.</p></caption><graphic xlink:href="pcbi.1000361.g003"/></fig><p>Our experience in marking up the <italic>PLoS NTDs</italic> article clearly showed
+the requirement for human intervention in a process that has the potential to be
+automated. For example, we wished to record <italic>slums</italic> and
+<italic>slum environments</italic> as types of habitat in which leptospirosis
+was likely to occur. However, blindly marking up every occurance of phrases in
+which the word <italic>slum</italic> appeared was not appropriate, since a
+<italic>slum dweller</italic> is clearly an individual, not a habitat. To guide
+our markup, we developed a set of simple heuristics that may be of assistance to
+others undertaking similar work. These are described by Portwin and Shotton in the
+annotation guidelines given in <xref ref-type="supplementary-material" rid="pcbi.1000361.s002">Text S2</xref>.</p></sec><sec id="s3d2"><title>Links from named entities to external information sources</title><p>In our enhanced document, most of these highlighted terms were given no external
+links. However, to exemplify what is possible, each instance of an
+<bold>organism</bold> in the text (i.e., <italic>Leptospira</italic> spirochete,
+rat, dog, cat, chicken, and the plural forms of these names) was given a live
+hyperlink to the hierarchical Linnaean classification of that species provided by
+the uBio taxonomic classification service (<ext-link ext-link-type="uri" xlink:href="http://www.ubio.org/">http://www.ubio.org/</ext-link>) (see
+<italic>Leptospira</italic> spirochete in <xref ref-type="fig" rid="pcbi-1000361-g003">Figure 3</xref>). This illustrates the potential power
+of this semantic tagging approach, whereby named entities can be linked to
+relevant ontological definitions or to further information, particularly valuable
+for readers unfamiliar with the subject matter under discussion. Linking the
+occurrence of named entities within the paper to resources within established
+controlled vocabularies is also the foundation for more precise searching over
+sets of papers, and for linking papers together based on commonalities in their
+subject matter. However, these advantages have to be balanced against the document
+clutter that would occur if every instance of every chosen semantic class was
+linked in this way. In the work we report, we avoided this tricky issue by
+manually linking only a single class.</p></sec><sec id="s3d3"><title>The Supporting Claims Tooltip to permit &#x0201c;Citations in
+Context&#x0201d;</title><p>One reason an author cites a bibliographic reference is to provide evidence in
+support of his statements. In classical scholarship, thanks to the commentary
+tradition, citations were made to individual sections or paragraphs of referenced
+works, which were usually cited verbatim, since the referenced works might not be
+readily available to all readers. However, modern scientific references are made
+to the cited work as a complete entity, with no textual citation. Thus, in order
+to substantiate a claim, a scientific reader would normally have to leave the
+article currently being read and navigate to and peruse the cited reference
+containing the relevant evidence, leading to a significant break in concentration.
+To permit the key evidence to be presented to the reader in the context of the
+initial in-text bibliographic citation, we thus implemented a <bold>Supporting
+Claims Tooltip</bold> that permits key supporting statements from the cited
+reference to be displayed in a small &#x0201c;hover box&#x0201d; that appears
+when the reader hovers the mouse pointer over the relevant in-text reference
+citation. We have named this service <bold>Citations in Context</bold>.</p><p>Within a single article, one reference might be cited several times for different
+purposes. Such is the case for reference 6 in our selected <italic>PLoS
+NTDs</italic> article, which refers to the key <italic>Lancet</italic> article
+<xref rid="pcbi.1000361-Ko1" ref-type="bibr">[13]</xref> that
+provides much of the rationale and methodological background for the subsequent
+<italic>PLoS NTDs</italic> study. That <italic>Lancet</italic> article is cited
+no less than ten times in all: five times in the Introduction, twice in the
+Methods, and three times in the Discussion section of the <italic>PLoS
+NTDs</italic> article. For demonstration purposes, we chose to provide Supporting
+Claims Tooltips for just two citations of reference 6 in Reis et al. <xref rid="pcbi.1000361-Reis1" ref-type="bibr">[12]</xref> that
+occur in the second paragraph of the Introduction, both highlighted in red bold
+font in the enhanced <italic>PLoS NTDs</italic> article (<xref ref-type="fig" rid="pcbi-1000361-g003">Figure 3</xref>).</p><p>The first claim, &#x0201c;Leptospirosis is a paradigm for an urban health
+problem that has emerged due to recent growth of slums [6],[7]&#x0201d;, is of a general character, and the
+corresponding Supporting Claims Tooltip, shown in <xref ref-type="fig" rid="pcbi-1000361-g004">Figure 4</xref> of this paper, provides two similarly
+general statements from the cited <italic>Lancet</italic> article about the
+relationship of leptospirosis to slum conditions and poor sanitation. However, the
+second claim that cites reference 6 is much more specific: &#x0201c;Urban
+epidemics of leptospirosis now occur in cities throughout the developing world
+during seasonal heavy rainfall and flooding [6], [11]&#x02013;[18]&#x0201d;. Here,
+hovering over reference 6 in the enhanced <italic>PLoS NTDs</italic> article
+brings up a quite different Supporting Claims Tooltip containing the information
+shown in <xref ref-type="fig" rid="pcbi-1000361-g005">Figure 5</xref> of this
+paper.</p><fig id="pcbi-1000361-g004" position="float"><object-id pub-id-type="doi">10.1371/journal.pcbi.1000361.g004</object-id><label>Figure 4</label><caption><title>The Supporting Claims Tooltip for the first &#x0201c;Citations in
+Context&#x0201d; instance of the citation of reference 6 in Reis et al.
+<xref rid="pcbi.1000361-Reis1" ref-type="bibr">[12]</xref>.</title></caption><graphic xlink:href="pcbi.1000361.g004"/></fig><fig id="pcbi-1000361-g005" position="float"><object-id pub-id-type="doi">10.1371/journal.pcbi.1000361.g005</object-id><label>Figure 5</label><caption><title>The Supporting Claims Tooltip for the second &#x0201c;Citations in
+Context&#x0201d; instance of the citation of reference 6 in Reis et al.
+<xref rid="pcbi.1000361-Reis1" ref-type="bibr">[12]</xref>.</title></caption><graphic xlink:href="pcbi.1000361.g005"/></fig><p>In this second case, the evidence in the Supporting Claims Tooltip is taken from
+the Results section of the cited reference, providing real data in support of the
+claim in the citing article, both in terms of a textual statement relating
+observed rainfall and flooding to disease incidence, and by means of the caption
+and thumbnail image of a cited figure, showing that numerical research data exist
+in the cited article to back up the claim. Our Citation in Context service thus
+provides the reader with instant access to supporting information drawn directly
+from the cited work, enabling her to make an informed decision as to whether it
+would be worthwhile to break off from the article currently being read to peruse
+the cited article, to make a note to read it later, or simply to assume that the
+cited article does in fact support the claim made, without further need to refer
+to it. Since, for some readers, access to the full text of cited articles might
+require payment of a fee, such information, if provided for all references, would
+permit better use of financial resources, and might encourage fee payment for
+articles of proven relevance that would otherwise not have been accessed, to the
+benefit of publishers.</p><p>The concept of displaying a summary of the cited document, and thus giving the
+reader a preview of what she will see if she clicks on a link, is not new, and is
+often used for contextual advertising&#x02014;see, for example, the Kawa
+demonstration at <ext-link ext-link-type="uri" xlink:href="http://www.kawa.net/works/js/tips/yui-tooltips-e.html">http://www.kawa.net/works/js/tips/yui-tooltips-e.html</ext-link>. The novel
+feature in our work is that the linking occurs at the level of claims, the two
+Supporting Claims Tooltips we implemented for separate citations of the same
+referenced article returning distinctly different information relevant to the
+context of each citation.</p></sec></sec><sec id="s3e"><title>Making Information More Accessible</title><sec id="s3e1"><title>Provision of a document summary</title><p>How often has a reader said &#x0201c;I wish I could see at a glance the most
+important themes and topics in this paper&#x0201d;, or &#x0201c;I wonder
+whether this article mentions <italic>XXX</italic>&#x0201d; (where
+<italic>XXX</italic> is a particular place, person, animal, disease, etc.)? To
+meet such needs, we provide a human-readable document summary (<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pntd.0000228.x002">http://dx.doi.org/10.1371/journal.pntd.0000228.x002</ext-link>), accessed by
+clicking the Document Summary button immediately following the title of the
+article, that contains the following six sections.</p><p>
+<bold><italic>Study summary</italic></bold>. A simple table, specifying the disease studied, its pathogenic causative
+agent, principal vector, and pathogen host; the number of subjects and controls
+involved in the study; the indicator of infection and the assay used to detect it;
+the name and location of the study site, and the start and end dates of the study;
+and the purpose of the study and the study's principal findings. The
+relevance of this to the Structured Digital Abstract proposed by Seringhaus and
+Gerstein <xref rid="pcbi.1000361-Seringhaus1" ref-type="bibr">[3]</xref> and Gerstein et al. <xref rid="pcbi.1000361-Gerstein1" ref-type="bibr">[4]</xref> and implemented by
+<italic>FEBS Letters</italic>
+<xref rid="pcbi.1000361-Ceol1" ref-type="bibr">[5]</xref> is
+discussed below.</p><p>
+<bold><italic>Tag cloud</italic></bold>. The tag cloud shows, in alphabetical order, the terms highlighted in the
+text of the article (with the exception of institutional and personal names),
+displayed in their appropriate highlighting colors and with sizes proportional to
+their frequency of occurance in the text. Simply by running one's eye
+over this tag cloud, one is able immediately to see the principal topics dealt
+with in this article (<xref ref-type="fig" rid="pcbi-1000361-g006">Figure
+6</xref>).</p><fig id="pcbi-1000361-g006" position="float"><object-id pub-id-type="doi">10.1371/journal.pcbi.1000361.g006</object-id><label>Figure 6</label><caption><title>The Tag Cloud for the terms highlighted in the enhanced version of Reis
+et al. <xref rid="pcbi.1000361-Reis1" ref-type="bibr">[12]</xref>.</title></caption><graphic xlink:href="pcbi.1000361.g006"/></fig><p>
+<bold><italic>Tag trees</italic></bold>. Below the tag cloud, these same terms are segregated into the nine
+semantic classes used for highlighting the text (date, disease, habitat,
+institution, organism, person, place, protein, and taxon). The persons list
+includes both people mentioned in the text and the authors of the article, whose
+names are shown in bold font, but excludes the authors of cited references. In
+these lists, we maintained the colors and relative sizes of the terms from the tag
+cloud, and ordered them, where appropriate, into informal
+hierarchies&#x02014;particularly noticeable for places and organisms. We call
+these displays <bold>tag trees</bold> (<xref ref-type="fig" rid="pcbi-1000361-g007">Figure 7</xref>). Tag trees provide a novel way of
+combining the benefits of a tag cloud with the semantic order of a hierarchy. To
+make the tag cloud and tag trees work effectively, we combined similar terms
+manually. For example, the terms &#x0201c;refuse&#x0201d;,
+&#x0201c;accumulated refuse&#x0201d;, &#x0201c;open accumulated
+refuse&#x0201d;, &#x0201c;refuse deposit&#x0201d;, &#x0201c;refuse
+deposits&#x0201d;, &#x0201c;open refuse deposit&#x0201d;, and
+&#x0201c;open refuse deposits&#x0201d; appearing in the article were
+amalgamated into a single term, &#x0201c;refuse deposit&#x0201d;, with an
+appropriate weighting.</p><fig id="pcbi-1000361-g007" position="float"><object-id pub-id-type="doi">10.1371/journal.pcbi.1000361.g007</object-id><label>Figure 7</label><caption><title>The Tag Tree for instances of the semantic concept Habitat.</title></caption><graphic xlink:href="pcbi.1000361.g007"/></fig><p>
+<bold><italic>Infectious disease ontology terms</italic></bold>. Those terms relevant to the subject matter of the study by Reis et al.
+(2008) <xref rid="pcbi.1000361-Reis1" ref-type="bibr">[12]</xref> that are present in the Infectious Disease Ontology
+(<ext-link ext-link-type="uri" xlink:href="http://www.infectiousdiseaseontology.org">http://www.infectiousdiseaseontology.org</ext-link>) are presented as a simple
+list, in numerical order of their identifiers. This ontology is discussed further
+below.</p><p>
+<bold><italic>Document statistics</italic></bold>. A simple set of document statistics, summarizing the number of authors,
+cited references, figures, supplementary figures, and tables in the article.</p><p>
+<bold><italic>Citation analysis</italic></bold>. We provide a simple numerical analysis of the citations within the
+article, in terms of the frequency of their citation from within different parts
+of the document (Introduction, Methods, and Discussion). The raw actionable
+numerical data of this citation analysis are made available as a downloadable
+Excel spreadsheet from the Document Summary via a link to <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pntd.0000228.x005">http://dx.doi.org/10.1371/journal.pntd.0000228.x005</ext-link>. This
+spreadsheet also contains the citation counts for the 52 cited references
+determined on March 11, 2009, from Google Scholar (<ext-link ext-link-type="uri" xlink:href="http://scholar.google.com">http://scholar.google.com</ext-link>)
+and from ISI Web of Knowledge (<ext-link ext-link-type="uri" xlink:href="http://apps.isiknowledge.com/">http://apps.isiknowledge.com/</ext-link>).</p><p>Separate from the human-readable Document Summary, we also provide a
+machine-readable document information file, described below, that contains basic
+citation information about the chosen article.</p></sec><sec id="s3e2"><title>Citation typing using CiTO, the Citation Typing Ontology</title><p>Conventionally, references cited in the text are simply listed in the reference
+list at the end of an article, without further distinction. However, added value
+can be given to the cited references by categorizing or <italic>typing</italic>
+both the citation itself and the cited reference. For this purpose, we developed
+<bold>CiTO</bold>, <bold>the Citation Typing Ontology</bold>, which provides a
+controlled vocabulary for the typing of citations and references. The ontology
+itself is available from <ext-link ext-link-type="uri" xlink:href="http://purl.org/net/cito/">http://purl.org/net/cito/</ext-link>,
+using content negotiation to deliver to the user either an OWLDoc Web version of
+the ontology when accessed via a Web browser, or the OWL ontology itself when
+accessed from an ontology management tool such as Prot&#x000e9;g&#x000e9;
+(<ext-link ext-link-type="uri" xlink:href="http://protege.stanford.edu/">http://protege.stanford.edu/</ext-link>). The ontology and its uses are
+further described in <ext-link ext-link-type="uri" xlink:href="http://purl.org/NET/cito/Citation_typing_using_CiTO.doc">http://purl.org/NET/cito/Citation_typing_using_CiTO.doc</ext-link>.</p><p>In developing CiTO, we have created an ontology that should be sufficient in scope
+for most types of bibliographic citation encountered in scientific research
+articles. Authors should be able to use it to type their own citations, although
+there is clearly scope for the development of an ontology-backed tool to assist
+that process. We solicit feedback as to CiTO&#x02019;s usefulness, and whether,
+and if so how, it should be extended.</p><p>In collaboration with the original article&#x02019;s authors, we used CiTO to
+type the references in the selected <italic>PLoS NTDs</italic> article in five
+ways:</p><list list-type="order"><list-item><p>In terms of <bold>the nature or type of the citation relationship</bold>
+between a citing work and a cited work, e.g., <italic>refutes</italic> or
+<italic>usesMethodIn</italic>. These relationships are <italic>Object
+Properties</italic> in CiTO, and are not mutually exclusive&#x02014;a
+single citation can have several different relationships, both factual and
+rhetorical.</p></list-item><list-item><p>In terms of <bold>the nature or type of the work</bold>: e.g.,
+<italic>Research Paper</italic> or <italic>Review</italic>. These are
+<italic>sub-classes of Work</italic> in CiTO. A work should be assigned
+to one of these sub-classes.</p></list-item><list-item><p>In terms of <bold>the nature or type of the expression</bold> of a work:
+e.g., <italic>Journal Article</italic> or <italic>Book</italic>. These are
+disjoint <italic>sub-classes of Expression</italic> in CiTO. An expression
+should be assigned to one of these sub-classes.</p></list-item><list-item><p>In terms of <bold>the nature or type of the manifestation</bold> of an
+expression of a work: e.g., <italic>PrintDocument</italic> or
+<italic>WebPage</italic>. These are <italic>sub-classes of
+Manifestation</italic> in CiTO, and are not mutually exclusive&#x02014;a
+single expression can have several different manifestations.</p></list-item><list-item><p>In terms of <bold>the peer-review status of the expression</bold> of a work:
+either <italic>PeerReviewed</italic> or <italic>NotPeerReviewed</italic>.
+These are disjoint <italic>sub-classes of Status</italic> in CiTO.</p></list-item></list><p>In the enhanced article's reference list, these citation typings are not
+displayed by default, but may be revealed by clicking the &#x0201c;Turn citation
+typing on&#x0201d; button that precedes the reference list. <xref ref-type="fig" rid="pcbi-1000361-g008">Figure 8</xref> shows the first three references from
+the enhanced <italic>PLoS NTDs</italic> article with citation typing turned on.
+The terms used in these human-readable annotations correspond to the labels of the
+object properties and classes within CiTO.</p><fig id="pcbi-1000361-g008" position="float"><object-id pub-id-type="doi">10.1371/journal.pcbi.1000361.g008</object-id><label>Figure 8</label><caption><title>The first three references from the reference list of the enhanced
+version of Reis et al. (2008) <xref rid="pcbi.1000361-Reis1" ref-type="bibr">[12]</xref>, with the citation typing display turned
+on.</title><p>Above the references are buttons to re-order the references, and to turn off
+the citation typing display.</p></caption><graphic xlink:href="pcbi.1000361.g008"/></fig><p>CiTO also permits one to record the number of times a reference has been cited by
+others, as determined from Google Scholar (<ext-link ext-link-type="uri" xlink:href="http://scholar.google.com/">http://scholar.google.com/</ext-link>)
+and/or from the ISI Web of Knowledge (<ext-link ext-link-type="uri" xlink:href="http://www.isiwebofknowledge.com/">http://www.isiwebofknowledge.com/</ext-link>), on a particular date, these
+citation counts providing proxy estimates of the global importance of each cited
+paper. As discussed below, we have published a separate machine-readable reference
+list of all the references cited by Reis et al. <xref rid="pcbi.1000361-Reis1" ref-type="bibr">[12]</xref>, marked up with these
+citation typings, and with their Google Scholar and ISI Web of Knowledge citation
+counts recorded.</p></sec><sec id="s3e3"><title>Alternative language abstract</title><p>The 2008 <italic>PLoS NTDs</italic> article by Reis et al. <xref rid="pcbi.1000361-Reis1" ref-type="bibr">[12]</xref> reports studies
+undertaken in Brazil with Brazilian authors, and was published with a Portuguese
+version of the abstract that is available within the Supplementary Information of
+the original article as a downloadable Word document. We converted this into a Web
+document, and added buttons to permit the highlighting of named entities within
+it, as in the main enhanced article, e.g., &#x0201c;ratos&#x0201d; and
+&#x0201c;galinhas&#x0201d; (rats and chickens) as organisms, and
+&#x0201c;anticorpos contra <italic>Leptospira</italic>&#x0201d;
+(<italic>Leptospira</italic> antibodies) as proteins. Furthermore, we added
+appropriate provenance information, including the full citation of the parent
+article and a Portuguese translation of its title. We assigned a DOI to this
+enhanced Alternative Language Abstract (<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pntd.0000228.s003.x001">http://dx.doi.org/10.1371/journal.pntd.0000228.s003.x001</ext-link>) and moved
+the link to it to a more prominent position immediately following the English
+language abstract, near the beginning of the article.</p></sec><sec id="s3e4"><title>Provenance information</title><p>Frequently, Web documents contain no information concerning their origin and
+provenance, except for the title and authors' names, making them
+difficult to relocate or cite correctly. While this is not the case for journal
+articles, it is frequently the situation for their supplementary information
+files, as in the case of our chosen <italic>PLoS NTDs</italic> article. Here, the
+downloadable figures, table, and alternative language abstract all lacked any
+internal reference to their article of origin. Those elements of the original
+article that we did <italic>not</italic> modify, namely the article's
+downloadable figures and table accessed using the original PLoS DOIs, still suffer
+from this problem. However, to each item we modified in some manner&#x02014;the
+interactive versions of figures, the enhanced Portuguese abstract, the
+downloadable spreadsheets, etc.&#x02014;we added a provenance statement
+detailing the document to which it relates.</p></sec></sec><sec id="s3f"><title>User Interactivity&#x02014;The &#x0201c;Lively&#x0201d; Journal Article</title><sec id="s3f1"><title>Interactive figures</title><p>One scientific conclusion of the <italic>PLoS NTDs</italic> article is that the
+risk of leptospirosis increases with increasing proximity of people's
+slum homes to open sewers in the bottoms of the valleys that are prone to seasonal
+flooding, and to open refuse deposits inhabited by rats, since these animals are
+the primary disease vectors, excreting the infectious spirochetes in their urine.
+Figure 3 of the original article (<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pntd.0000228.g003">http://dx.doi.org/10.1371/journal.pntd.0000228.g003</ext-link>) communicates
+these results visually: panels (A), (B), and (C) are &#x0201c;heatmap&#x0201d;
+diagrams related to leptospirosis incidence, in which hotter colors indicated
+higher incidence; panel (D) is a topographic map; panel (E) reveals the locations
+of open sewers and rainwater ditches; and panel (F) highlights the sizes and
+locations of refuse deposits. Each panel corresponds to the same spatial
+area&#x02014;the study site. However, it is left to the reader to overlay these
+maps mentally in order to obtain the visual correlations the article describes, a
+non-trivial task. Our enhanced version of Figure 3 (<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pntd.0000228.g003.x001">http://dx.doi.org/10.1371/journal.pntd.0000228.g003.x001</ext-link>) is
+interactive, permitting the user to drag the individual panels of the figure and
+superimpose them on one another at will. This greatly assists the reader in
+quickly obtaining a fuller understanding of the results presented, and for us this
+actually raised new research questions.</p><p>For example, superimposing the locations of the sewers and ditches (Figure 3E of
+the <italic>PLoS NTDs</italic> article) on the disease incidence heatmap (Figure
+3C of the <italic>PLoS NTDs</italic> article) clearly shows the perimeter of the
+study site, within which the expected relationship between high rates of disease
+and proximity to flood-prone open sewers in valley bottoms can be observed, as
+shown in <xref ref-type="fig" rid="pcbi-1000361-g009">Figure 9A</xref> of this
+paper. However, superposition of the locations of the refuse deposits (Figure 3F
+of the <italic>PLoS NTDs</italic> article) on <italic>both</italic> the disease
+incidence heatmap (Figure 3C) <italic>and</italic> the topographical map (Figure
+3D) reveals something that was not immediately apparent when we first viewed these
+images side by side, although now quite obvious in hindsight. As shown in <xref ref-type="fig" rid="pcbi-1000361-g009">Figure 9B</xref>, this superposition
+shows that there is a row of medium-sized refuse deposits (yellow circles) along
+the light-grey crest of the hill in the left centre of the composite figure. One
+is immediately drawn to ask about the incidence of leptospirosis among inhabitants
+of that region, far from open sewers, close to refuse deposits, and outside the
+study area.</p><fig id="pcbi-1000361-g009" position="float"><object-id pub-id-type="doi">10.1371/journal.pcbi.1000361.g009</object-id><label>Figure 9</label><caption><title>An overlay (a) of panels (C) and (E), and (b) of panels (C), (D), and
+(F) from the interactive version of Figure 3 of the <italic>PLoS
+NTDs</italic> article by Reis et al. <xref rid="pcbi.1000361-Reis1" ref-type="bibr">[12]</xref>.</title></caption><graphic xlink:href="pcbi.1000361.g009"/></fig></sec><sec id="s3f2"><title>Optional re-ordering of the reference list</title><p>The original reference list in the <italic>PLoS NTDs</italic> article is given in
+numerical order, the order of citation throughout the text of the document.
+However, it might sometimes be useful for the reader to be able to view the
+reference list in other ways, of which the most obvious is alphabetical order. We
+added an array of buttons immediately before the reference list that gives the
+reader the ability to re-order the references in four ways: in <bold>alphabetical
+order</bold>, by <bold>publication year</bold>, by <bold>frequency of in-text
+citation</bold>, and by <bold>reference number</bold> (i.e., reversion to the
+original order) (<xref ref-type="fig" rid="pcbi-1000361-g008">Figure 8</xref>).
+When the third option is selected, the references are displayed with a font size
+proportional to their frequency of citations within the text, as in a tag cloud,
+with reference 6 in Reis et al. <xref rid="pcbi.1000361-Reis1" ref-type="bibr">[12]</xref> (the 1999 <italic>Lancet</italic> article by Ko
+et al. <xref rid="pcbi.1000361-Ko1" ref-type="bibr">[13]</xref>), which is cited ten times in the text of the
+<italic>PLoS NTDs</italic> article, topping the list in large font.</p><p>One additional aspect of Citations in Context, discussed above, also involves
+reference re-ordering. Clicking on the selected reference 6 in each instance in
+which the Supporting Claims Tooltip was implemented (&#x0201c;[6],[7]&#x0201d; in the first instance;
+&#x0201c;[6], [11]&#x02013;[18]&#x0201d; in the second) takes the reader, as
+expected, to reference 6 in the reference list at the end of the document.
+However, in these particular cases the displayed references are, for the
+reader's convenience, slightly re-ordered. In the first instance,
+references 6 and 7, which are cited together, are slightly separated from the
+preceding and subsequent references, while in the second, reference 6 is
+immediately followed by the other references cited in this context, i.e.,
+references 11&#x02013;18, so that the reader might more easily check their
+relevance, these again being slightly separated from the preceding and subsequent
+references.</p></sec></sec><sec id="s3g"><title>Provision of New Hyperlinks</title><p>Fundamental to the Web is the ability of the reader to move from one Web page to
+another using hyperlinks. However, the original version of our selected <italic>PLoS
+NTDs</italic> article is sadly devoid of such external hyperlinks, severely
+limiting the reader's ability to discover more about items referred to in
+the text. We therefore added conventional Web hyperlinks wherever these are likely to
+be of interest or help to readers:</p><sec id="s3g1"><title>Links to cited references</title><p>If there is one thing that a reader expects from an online journal article, it is
+direct links to the references cited by that article. To us, the most surprising
+aspect of the original <italic>PLoS NTDs</italic> article was that its reference
+list failed to provide these. Despite the fact that 28 of the 52 references cited
+by the authors had been assigned digital object identifiers (DOIs), only two were
+given in the reference list (for references 10 and 40), and neither of these were
+in the form of active hyperlinks. Instead, PLoS provides a generic link from each
+reference, labelled &#x0201c;FIND THIS ARTICLE ONLINE&#x0201d;, that takes the
+reader to a page stating &#x0201c;The article may exist at PubMed/NCBI or Google
+Scholar&#x0201d;, permitting her to try searching either! The reader of the
+original <italic>PLoS NTDs</italic> article is thus at least two clicks away from
+the abstract or full text version of any referenced article, <italic>and</italic>
+faced with a cognitive decision of whether to use PubMed or Google Scholar to find
+it, making this a highly inefficient system and a significant barrier to
+scholarship.</p><p>We rectified this situation in the enhanced article by providing the 28 journal
+article references to which DOIs has been assigned with hyperlinked DOIs that
+resolve directly to the referenced articles (e.g., for reference 2 in Reis et al.
+<xref rid="pcbi.1000361-Reis1" ref-type="bibr">[12]</xref>:
+<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/1472-698X-7-2">http://dx.doi.org/10.1186/1472-698X-7-2</ext-link> resolving to <ext-link ext-link-type="uri" xlink:href="http://www.biomedcentral.com/1472-698X/7/2">http://www.biomedcentral.com/1472-698X/7/2</ext-link>), allowing the reader
+direct access to this article (provided it is Open Access or her institution has a
+subscription). For the first few journal references, as a demonstration of
+principle, we also provided direct links to their abstracts in PubMed using the
+references' PubMed IDs and to open access full-text copies in PubMed
+Central (e.g., for reference 2 in Reis et al. <xref rid="pcbi.1000361-Reis1" ref-type="bibr">[12]</xref>: PubMed <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/17343758">http://www.ncbi.nlm.nih.gov/pubmed/17343758</ext-link>; PubMedCentral
+<ext-link ext-link-type="uri" xlink:href="http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pubmed&#x00026;pubmedid=17343758">http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pubmed&#x00026;pubmedid=17343758</ext-link>).
+Three references (references 12, 47, and 49) were to journals that do not use
+DOIs, and for these we provided PubMed or direct Web links. For the three book
+references (references 41, 42, and 51), we provided links to the appropriate
+publishers' book pages. Eighteen of the references cited in our chosen
+article were to official reports from various Brazilian or international agencies
+that lacked DOIs: for the fourteen that were available online we provided direct
+Web hyperlinks.</p></sec><sec id="s3g2"><title>Hyperlinks to external sites</title><p>We also added links to the home pages of the authors' academic
+institutions, of their funding agencies and software suppliers, and of the various
+infectious disease research centres and government agencies cited in the article.
+In our new document header, we added links to the original article and to the home
+page of <italic>PLoS NTDs</italic>; in the document footer we added links to
+Nature's citation bookmarking service Connotea, to the Web 2.0 social
+bookmarking service Delicious, to our own Creative Commons license for the
+enhanced work, and to the XHTML/RDFa Web page validation service of the World Wide
+Web Consortium (W3C) that shows that our enhanced work meets these standards for
+Web interoperability. In the article's citation box below the Author
+Summary, we added a link from the pre-existing PLoS copyright statement to the
+Creative Commons Attribution License under which the original article was
+published. We also added an enhancement citation box directly following the
+article's own citation box, which contains a similar link to the Creative
+Commons Attribution License for the enhanced work, and a link to our own Image
+Bioinformatics Research Group (IBRG) home page (<ext-link ext-link-type="uri" xlink:href="http://ibrg.zoo.ox.ac.uk/">http://ibrg.zoo.ox.ac.uk/</ext-link>).</p></sec></sec><sec id="s3h"><title>Machine-Readable Citation Metadata</title><p>Machine-readable metadata are central to the creation of a Semantic Web of
+interoperable linked data <xref rid="pcbi.1000361-BernersLee1" ref-type="bibr">[15]</xref>. We addressed the issue of machine-readable
+citation metadata for our enhanced version of Reis et al. <xref rid="pcbi.1000361-Reis1" ref-type="bibr">[12]</xref> in three ways: by embedding
+the article's self-referencing and provenance metadata within the document
+itself, by publishing a separate file giving this information in more detail, and by
+publishing a second file giving the article's annotated reference list and
+citation typings. While the first two of these involves considerable duplication, we
+wished to illustrate both methods as a guide to others.</p><sec id="s3h1"><title>Embedded machine-readable metadata&#x02014;Use of RDFa</title><p>RDF, the Resource Description Framework (<ext-link ext-link-type="uri" xlink:href="http://www.w3.org/RDF/">http://www.w3.org/RDF/</ext-link>), is the
+standard Semantic Web knowledge representation language used to conveys meaning
+about the relationships between Web resources, and forms the basis for the Web
+Ontology Language OWL (<ext-link ext-link-type="uri" xlink:href="http://www.w3.org/2004/OWL/">http://www.w3.org/2004/OWL/</ext-link>). The RDFa standard (<ext-link ext-link-type="uri" xlink:href="http://en.wikipedia.org/wiki/RDFa">http://en.wikipedia.org/wiki/RDFa</ext-link>; <ext-link ext-link-type="uri" xlink:href="http://www.w3.org/TR/xhtml-rdfa-primer/">http://www.w3.org/TR/xhtml-rdfa-primer/</ext-link>; <ext-link ext-link-type="uri" xlink:href="http://www.w3.org/TR/rdfa-syntax">http://www.w3.org/TR/rdfa-syntax</ext-link>) provides a method for embedding
+RDF metadata statements into conventional HTML Web pages. Using RDFa, we embedded
+into the enhanced <italic>PLoS NTDs</italic> article metadata concerning the
+article's citation, the authors, the languages used (English and
+Portuguese), the DOI, the Creative Commons Licence under which it was published,
+and the geo-coordinates and dates of the study. While primarily intended for
+automated processing, the RDFa can be downloaded for human inspection using the
+&#x0201c;Extract RDFa&#x0201d; link in the enhanced document's
+footer.</p></sec><sec id="s3h2"><title>Machine-readable self-referencing metadata&#x02014;The Notation 3 document
+information file</title><p>Self-referencing details are also given in a separate RDF document, available from
+<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pntd.0000228.x003">http://dx.doi.org/10.1371/journal.pntd.0000228.x003</ext-link>, in Notation3
+format (N3; <ext-link ext-link-type="uri" xlink:href="http://www.w3.org/DesignIssues/Notation3.html">http://www.w3.org/DesignIssues/Notation3.html</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://www.w3.org/2000/10/swap/Primer.html">http://www.w3.org/2000/10/swap/Primer.html</ext-link>). This contains the same
+information as the embedded RDFa, plus the citation typing of the article itself,
+and the article's abstract. The relevance of this to the Structured
+Digital Abstract proposed by Seringhaus and Gerstein <xref rid="pcbi.1000361-Seringhaus1" ref-type="bibr">[3]</xref> and Gerstein et al.
+<xref rid="pcbi.1000361-Gerstein1" ref-type="bibr">[4]</xref>
+and implemented by <italic>FEBS Letters</italic>
+<xref rid="pcbi.1000361-Ceol1" ref-type="bibr">[5]</xref> is
+discussed below.</p></sec><sec id="s3h3"><title>Machine-readable reference list</title><p>A separate machine-readable RDF document containing all the information from the
+typed reference list of the enhanced <italic>PLoS NTDs</italic> article, together
+with the citation counts for the cited articles, is available from <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pntd.0000228.x004">http://dx.doi.org/10.1371/journal.pntd.0000228.x004</ext-link>. This also uses
+Notation3 format.</p><p>In creating these machine-readable metadata, we used namespaces that are simple,
+relevant, and widely used within the metadata community: Dublin Core (DC;
+<ext-link ext-link-type="uri" xlink:href="http://dublincore.org/">http://dublincore.org/</ext-link>) and DC Terms (<ext-link ext-link-type="uri" xlink:href="http://dublincore.org/documents/dcmi-terms/">http://dublincore.org/documents/dcmi-terms/</ext-link>) for basic metadata,
+Friend of a Friend (FOAF; <ext-link ext-link-type="uri" xlink:href="http://www.foaf-project.org/">http://www.foaf-project.org/</ext-link>) for personal information, PRISM
+(<ext-link ext-link-type="uri" xlink:href="http://www.prismstandard.org/">http://www.prismstandard.org/</ext-link>) and Functional Requirements for
+Bibliographic Records (FRBR; <ext-link ext-link-type="uri" xlink:href="http://www.ifla.org/VII/s13/frbr/frbr.htm">http://www.ifla.org/VII/s13/frbr/frbr.htm</ext-link>) for selected publishing
+and bibliographic terms, and standard time tags (<ext-link ext-link-type="uri" xlink:href="http://www.w3schools.com/tags/html5_time.asp">http://www.w3schools.com/tags/html5_time.asp</ext-link>) and geo tags
+(<ext-link ext-link-type="uri" xlink:href="http://geotags.com/geo/geotags2.html">http://geotags.com/geo/geotags2.html</ext-link>) for temporal and geographical
+data. Where we could find no appropriate external ontology, as was the case for
+citation typing, we created one, namely the Citation Typing Ontology (<ext-link ext-link-type="uri" xlink:href="http://purl.org/net/cito/">http://purl.org/net/cito/</ext-link>) described above.</p></sec></sec><sec id="s3i"><title>Enhancements We Did <italic>Not</italic> Implement</title><p>In undertaking the work described in this paper, we first scoped possible
+enhancements, identifying those that were easy, moderately difficult, or hard to
+implement, and those that were essential, desirable, or peripheral to our primary
+purpose of providing a compelling &#x0201c;existence proof&#x0201d; of the
+possibilities of a semantically enriched publication. Within the limited resources
+available for this unfunded project, we then implemented all those enhancements that
+were easy, all those that we judged to be essential whatever their difficulty, and
+most of those that were desirable but moderately difficult. Features we wished to
+implement, but for which we did not have time and resources, or that were impossible
+for technical or ethical reasons, are noted here.</p><sec id="s3i1"><title>Datasets</title><p>Publication of numerical data was not undertaken for Figure 1 (maps and
+photographs), Figure 3 (spatial distribution diagrams and topographic map), Figure
+4 (graphical output from a modelling program), or Figure S1 (further spatial
+distribution diagrams) of the <italic>PLoS NTDs</italic> article, either because
+these figures did not contain numerical data or because such publication would not
+help readers lacking access to the specialist geospatial and modelling software
+the authors used to manipulate these ArcView and R data files. For reasons of
+subject privacy and patient confidentiality, it would not have been appropriate to
+publish the entire database of sociological, geospatial, and serological
+information collected by the authors of the <italic>PLoS NTDs</italic> article
+during their extensive studies, since mining of that database could disclose the
+identity of individuals. Nevertheless, our publication of the three spreadsheets
+for Table 1 and Figure 2 and Figure S2 illustrates the principle of providing
+<bold>actionable data on the Web</bold>.</p></sec><sec id="s3i2"><title>Semantic lenses</title><p>Ideally, mousing over one or other of the diagrams in the article would permit
+various semantic lenses to return numerical data to the user: for example, for the
+histograms of serological data in Figure 2 of Reis et al. <xref rid="pcbi.1000361-Reis1" ref-type="bibr">[12]</xref>, the numbers underlying
+each histogram bar; or for the spatial distribution diagrams in Figure 3, the
+distance of a household from the nearest refuse deposit or open sewer, and its
+spatial coordinates (latitude and longitude). Other types of semantic lens, for
+example, showing images of the same region before and after a tsunami (<ext-link ext-link-type="uri" xlink:href="http://gis.esri.com/library/userconf/proc05/papers/pap1628.pdf">http://gis.esri.com/library/userconf/proc05/papers/pap1628.pdf</ext-link>),
+have been demonstrated elsewhere but are not relevant to our selected <italic>PLoS
+NTDs</italic> article.</p></sec><sec id="s3i3"><title>Highlighting of semantic concepts in hues suitable for color-blind people</title><p>For this published demonstration, we did not implement alternative color palettes
+that would better suit readers with differing forms of color blindness (<ext-link ext-link-type="uri" xlink:href="http://en.wikipedia.org/wiki/Colorblind#Types">http://en.wikipedia.org/wiki/Colorblind#Types</ext-link>), although that would
+be possible, ideally as a customizable option.</p></sec><sec id="s3i4"><title>Structural markup of greater granularity</title><p>We retained but did not extend the existing <italic>PLoS NTDs</italic> practice of
+providing structural markup of and links to different sections of the article
+(e.g., <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pntd.0000228#s4">http://dx.doi.org/10.1371/journal.pntd.0000228#s4</ext-link> for the
+Discussion section). However, citing particular claims from other articles, as for
+our Citations in Context service, would be facilitated if text was structurally
+marked up with machine-readable code to the level of the paragraph, the sentence,
+or even the individual word (all perfectly feasible in the hidden XML code behind
+the displayed human-readable document), or if particular rhetorical elements
+(hypotheses, claims, supporting statements, refutations, etc.) were marked up as
+such, following the suggestions of de Waard et al. <xref rid="pcbi.1000361-deWaard1" ref-type="bibr">[2]</xref>. Ideally, such
+structural markup should conform to the National Library of Medicine Document Type
+Definition (NLM DTD; <ext-link ext-link-type="uri" xlink:href="http://dtd.nlm.nih.gov/publishing/">http://dtd.nlm.nih.gov/publishing/</ext-link>), as defined by the NLM Journal
+Publishing Tag Set Tag Library version 3.0 at <ext-link ext-link-type="uri" xlink:href="http://dtd.nlm.nih.gov/publishing/tag-library/3.0/index.html">http://dtd.nlm.nih.gov/publishing/tag-library/3.0/index.html</ext-link>, since
+this is becoming the de facto standard for in-house journal production, such that
+NLM DTD structural markup is already a component of the pre-publication XML
+versions of many journal articles.</p></sec><sec id="s3i5"><title>Citation network analysis</title><p>While our limited data fusion examples demonstrate the potential of integrating
+information between publications, and the value of imparting geo-coordinates to
+articles and their spatial figures so that they can be mashed up with Google maps,
+much more is possible. One area we are keen to explore, but in which we are
+frustrated by the lack of freely available metadata, is that of <bold>citation
+network analysis</bold>, for which the prerequisite is free access to
+machine-readable reference lists, of the type provided for our own enhanced
+article at <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pntd.0000228.x004">http://dx.doi.org/10.1371/journal.pntd.0000228.x004</ext-link>. There have
+been numerous theoretical studies of citation networks using computer science
+citation data available in CiteSeer (<ext-link ext-link-type="uri" xlink:href="http://citeseerx.ist.psu.edu/">http://citeseerx.ist.psu.edu/</ext-link>). However, there are no citation network
+analysis or visualization tools that research biologists actually use in their
+day-to-day research to assist them, in this age of information overload, more
+quickly to overview or navigate their literature, or to find key papers in new
+areas of interest. Such tools would enable readers to see the degree of
+connectedness of one article with others, and to assess its significance in the
+whole ecosystem of publications in the particular domain. They would also permit
+differing semantic views to be generated through the citation network, for
+example, showing only other studies on the same disease, in the same geographical
+location, or using the same analytical techniques.</p></sec></sec></sec><sec id="s4"><title>Ontologies and Metadata Standards for Infectious Disease Epidemiology</title><sec id="s4a"><title>The Need for Standards</title><p>Descriptive metadata in the form of controlled vocabularies or ontologies that can be
+used to describe accurately biological entities and experimental findings are widely
+recognised as key for effective resource discovery and data integration. The
+molecular biology community has led the way in this area, with the development and
+widespread adoption of the Gene Ontology (<ext-link ext-link-type="uri" xlink:href="http://www.geneontology.org/">http://www.geneontology.org/</ext-link>). In a related more recent development, the
+Genomic Standards Consortium (<ext-link ext-link-type="uri" xlink:href="http://gensc.org/gsc/gcat">http://gensc.org/gsc/gcat</ext-link>) is
+working toward the development of controlled vocabularies for describing complete
+genomes and metagenomic datasets, of great relevance to the computational biology
+community.</p><p>There are immense semantic challenges in capturing metadata in such principled ways:
+first in developing terminologies that are sufficiently comprehensive, usable, and
+stable that people will actually employ them to annotate their research data; and
+second (and more difficult) in keeping them up to date in the face of evolving
+biological knowledge, in ways that permit provenance records and interpretation of
+legacy metadata. This requires the involvement both of ordinary
+&#x0201c;bench&#x0201d; practitioners in each particular research area, to ensure
+that the artefacts developed meet real user needs, and of specialists skilled in
+knowledge management technologies, to ensure that the ontologies are well-formed and
+interface gracefully with other pre-existing ontologies without duplication of
+concepts. In this work, the coordinating work of OBO, the Open Biomedical Ontologies
+movement (<ext-link ext-link-type="uri" xlink:href="http://www.obofoundry.org/">http://www.obofoundry.org/</ext-link>), is of vital importance.</p><p>Within the biomedical community, this issue of metadata standards is particularly
+being addressed by the Semantic Web Health Care and Life Sciences (HCLS) Interest
+Group of the World Wide Web Consortium (<ext-link ext-link-type="uri" xlink:href="http://www.w3.org/2001/sw/hcls/">http://www.w3.org/2001/sw/hcls/</ext-link>), of which our research group, IBRG, is a
+participating member. Significant advances in making bioinformatics data available as
+linked data has been made by the Bio2RDF Project (<ext-link ext-link-type="uri" xlink:href="http://bio2rdf.org">http://bio2rdf.org</ext-link>) <xref rid="pcbi.1000361-Belleau1" ref-type="bibr">[16]</xref>&#x02013;<xref rid="pcbi.1000361-Nolin1" ref-type="bibr">[19]</xref>. IBRG is also
+participating in the development of VoiD (Vocabulary of Interlinked Datasets), an
+RDF-based schema to describe linked datasets (<ext-link ext-link-type="uri" xlink:href="http://semanticweb.org/wiki/VoiD">http://semanticweb.org/wiki/VoiD</ext-link>). Separately, we have proposed the use
+of RDF Named Graphs for provenance tracking in linked data <xref rid="pcbi.1000361-Zhao1" ref-type="bibr">[20]</xref>,<xref rid="pcbi.1000361-Zhao2" ref-type="bibr">[21]</xref>.</p></sec><sec id="s4b"><title>The Infectious Disease Ontology</title><p>To date, there has been relative lack of effort in developing metadata standards in
+the infectious disease domain, which is a major stumbling block for epidemiology
+research and biosurveillance data collection activities. To address this problem, the
+Infectious Disease Ontology (IDO) consortium (<ext-link ext-link-type="uri" xlink:href="http://www.infectiousdiseaseontology.org/">http://www.infectiousdiseaseontology.org/</ext-link>) is working to develop both
+a core ontology for infectious disease in general, and more specialist ontologies for
+different subdomains of the infectious disease field, including specific diseases
+such as influenza, malaria, and tuberculosis, and specific research areas such as
+vaccine development. Terms from the IDO core ontology relevant to the work described
+by Reis et al. in their <italic>PLoS NTDs</italic> article have been included in our
+Document Summary of that publication, described above. Separately, Biocaster
+(<ext-link ext-link-type="uri" xlink:href="http://www.biocaster.org">http://www.biocaster.org</ext-link>), a global health monitoring service based in
+Tokyo, has developed a multilingual ontology suitable for describing epidemics <xref rid="pcbi.1000361-Collier1" ref-type="bibr">[22]</xref> that it
+uses as the basis for its text-mining system for detecting and tracking the
+distribution of infectious disease outbreaks from information on the Web harvested
+from &#x0003e;1700 multilingual RSS news feeds <xref rid="pcbi.1000361-Collier2" ref-type="bibr">[23]</xref>. Here, new text-mining
+methods involving role-based filtering of disease outbreak reports are proving highly
+effective in distinguishing reports relevant to disease outbreaks from those that are
+not, prior to more detailed semantic analysis, with F-scores (combining precision and
+recall values) in excess of 90&#x00025; <xref rid="pcbi.1000361-Doan1" ref-type="bibr">[24]</xref>. However, leptospirosis is
+not among the diseases so far addressed by either of these developments.</p></sec><sec id="s4c"><title>Developing a MIIDI Standard&#x02014;Minimal Information Required for Reporting
+an Infectious Disease Investigation</title><p>Conducting systematic reviews of medical research findings requires the ability to
+search for research articles matching precise criteria, for example, studies in which
+the number of patients was in excess of 1,000, in which age- and sex-matched controls
+were included, in which the studies were conducted between certain dates, or where
+the assay for the disease involved positive identification of the infectious organism
+in the blood of the patient, rather than simply the presence of antibodies against
+that organism. Such systematic reviews are currently conducted manually by experts,
+such as those working within the Cochrane Collaboration (<ext-link ext-link-type="uri" xlink:href="http://www.cochrane.org/">http://www.cochrane.org/</ext-link>; <ext-link ext-link-type="uri" xlink:href="http://www.thecochranelibrary.com">http://www.thecochranelibrary.com</ext-link>). Clearly their work, and similar data
+integration activities, could be greatly facilitated if articles reporting field
+studies of infectious diseases were accompanied by machine-readable metadata files
+specifically defining the criteria used in the investigation and the main findings,
+along the lines of the human-readable Study Summary information contained in our
+enhanced article's Document Summary (<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pntd.0000228.x002">http://dx.doi.org/10.1371/journal.pntd.0000228.x002</ext-link>).</p><p>Several minimal information standards have recently been developed as part of the
+MIBBI Project (Minimum Information for Biological and Biomedical Investigations;
+<ext-link ext-link-type="uri" xlink:href="http://www.mibbi.org/">http://www.mibbi.org/</ext-link>) <xref rid="pcbi.1000361-Taylor1" ref-type="bibr">[25]</xref>, each for a different
+type of investigation. The Structured Digital Abstracts currently used by
+<italic>FEBS Letters</italic> are based on one of these, the MIMIx standard
+(minimum information required for reporting a molecular interaction experiment;
+<ext-link ext-link-type="uri" xlink:href="http://www.mibbi.org/index.php/Projects/MIMIx">http://www.mibbi.org/index.php/Projects/MIMIx</ext-link>), which was developed by
+a large community of experts in the protein interaction field <xref rid="pcbi.1000361-Ceol1" ref-type="bibr">[5]</xref>.</p><p>The Study Summary that forms part of our Document Summary described above has much in
+common with such minimal information standards, although it relates only to the
+single <italic>PLoS NTDs</italic> article we chose to enhance and is not presently in
+a machine-readable format. What is now required is for the community of infectious
+disease researchers collectively to develop a <bold>MIIDI Standard&#x02014;minimal
+information required for reporting an infectious disease investigation</bold>.
+Although almost all the existing minimal information standards registered with MIBBI
+relate to laboratory-based bioscience investigations, it is to be hoped that MIIDI
+could become one of the MIBBI Standards, thereby benefiting from the considerable
+work this standards community has already undertaken. The MIIDI Standard, once
+developed, could then form the basis for the development, in collaboration with
+publishers, of machine-readable Structured Digital Abstracts for infectious disease
+journal articles, that would be of enormous value to those wishing to integrate
+information across such publications for systematic reviews and other purposes. We
+propose to host a meeting for the purpose of developing the MIIDI Standard in
+September 2009, and to invite interested parties to contact the senior author of this
+paper (<email>david.shotton@zoo.ox.ac.uk</email>) for further information.</p></sec></sec><sec id="s5"><title>Cost-Benefit Analysis of Semantic Enhancements</title><p>The semantic enhancements applied to our selected <italic>PLoS NTDs</italic> article
+required about ten person-weeks of effort, most of which was taken in understanding,
+deciding, and prototyping exactly what to do and how best to do it, since this was a new
+area of endeavour for us. Were we to repeat the exercise with our present experience, it
+could be accomplished in a small fraction of that time.</p><p>While, for the purpose of this demonstration, we undertook the work manually and
+post-publication, the key questions this work raised are whether the added value
+achieved was worth the effort invested, how fast these enhancements could be brought
+into mainstream STM journal publishing in an affordable manner, and the degree to which
+semantic enrichment could be automated. We are neither publishers nor economists, and
+must leave it to others better qualified to judge the practicalities of implementing the
+proposed enhancements in an affordable and sustainable manner across a
+publisher's suite of journal titles.</p><p>However, we are encouraged to note that two of the finalists in the Elsevier Grand
+Challenge are developing automated systems that closely resemble two aspects of what we
+independently implemented manually. One team from the European Molecular Biology
+Laboratory in Heidelberg has developed a free service called <bold>Reflect</bold>
+(<ext-link ext-link-type="uri" xlink:href="http://www.elseviergrandchallenge.com/team1.html">http://www.elseviergrandchallenge.com/team1.html</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://reflect.ws">http://reflect.ws</ext-link>) that
+can be installed as a plug-in to Firefox or Internet Explorer. With a single mouse
+click, Reflect will tag the names of genes, proteins, and small molecules contained in
+any Web page, usually within a few seconds. Clicking on a tagged item will then open a
+pop-up window showing a concise summary of important features, such as sequence (for
+proteins) or 2D structure (for small molecules), and allowing navigation to commonly
+used source databases such as Uniprot. Another team, from Macquarie University and the
+CSIRO ICT Centre in Sydney, have developed a service that they call
+<bold>citation-sensitive in-browser summarisation of cited documents</bold>
+(<ext-link ext-link-type="uri" xlink:href="http://www.elseviergrandchallenge.com/team5.html">http://www.elseviergrandchallenge.com/team5.html</ext-link>), that uses text
+matching between the context of a literature citation in an online paper and related
+sentences within the cited paper to achieve an on-the-fly automated version of the
+Citations in Context service described above.</p><sec id="s5a"><title>Publishers' and Editors' Roles in Semantic Publishing</title><p>In a separate paper <xref rid="pcbi.1000361-Shotton1" ref-type="bibr">[26]</xref>, we reviewed the status of semantic publishing in
+the autumn of 2008, and the prospect for such semantic enhancements becoming routine.
+In brief, we see publishers, editors, and authors all playing important roles.</p><p>In subscribing to the Brussels Declaration, STM publishers have already aligned
+themselves with the aims of semantic publishing, and are seeking ways to implement
+these commitments in an affordable manner. So what data should the publishers make
+freely available? Minimally, they should provide machine-readable provenance
+information about the article itself, and ideally a fully featured domain-specific
+Structured Digital Abstract. The datasets that underlie the figures and tables in
+their articles should be made accessible in actionable form, and machine-readable
+reference lists should be made available so that citation networks can be created,
+analysed, and used to promote reader traffic to both citing and cited articles, to
+the mutual benefit of the publishers concerned. The Royal Society of
+Chemistry's Project Prospect described above, which relies heavily upon the
+domain expertise of its editors for the creation of textual semantic markup, provides
+a paradigm for using the skills of specialist editors to provide semantic enrichment
+to journal articles.</p></sec><sec id="s5b"><title>Authors' Roles in Semantic Publishing</title><p>Authors know better than anyone else their domains of discourse, and the position of
+their articles within them. Only the authors really know why they cite particular
+papers in preference to others, and the nature of both the citations and the cited
+articles. If that tacit knowledge could be captured using a reference annotation
+tool, employing terms from the Citation Typing Ontology, the work of developing typed
+reference lists would essentially be done.</p><p>The Microsoft Corporation has recently released Version 1.0 of a plug-in for MS-Word
+2007 (<ext-link ext-link-type="uri" xlink:href="http://tinyurl.com/5szjly">http://tinyurl.com/5szjly</ext-link>) for the creation of
+<italic>structural</italic> markup that supports the National Library of
+Medicine's document format used by many publishers and by PubMed Central.
+Additionally, Microsoft has just published a second plug-in permitting ontology-based
+<italic>semantic</italic> markup of named entities (<ext-link ext-link-type="uri" xlink:href="http://ucsdbiolit.codeplex.com/">http://ucsdbiolit.codeplex.com/</ext-link>). Routine use of these applications would
+enable authors to add both structural and semantic markup to articles with minimal
+effort.</p><p>Authors' raw numerical datasets are almost always held in spreadsheets. If
+requested to do so by journals, authors could easily submit these spreadsheets with
+manuscripts, for publication as downloadable Supporting Information files. Thus,
+given the correct tools and incentives, authors could contribute most of the data and
+create much of the metadata required for semantic publishing during the course of
+article writing, with marginal additional effort.</p></sec><sec id="s5c"><title>Automated Named Entity Recognition: The Role of Text Mining</title><p>To enable textual semantic markup to be undertaken cost-effectively across the
+publishing world, an alternative to author markup at the time of writing is automated
+text mining applied to the submitted manuscript. In the biological domain, the
+BioCreAtIvE Challenge (Critical Assessment of Information Extraction systems in
+Biology) (<ext-link ext-link-type="uri" xlink:href="http://biocreative.sourceforge.net/">http://biocreative.sourceforge.net/</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://www.biocreative.org/">http://www.biocreative.org/</ext-link>),
+now in its sixth year, has been very effective in catalysing a critical comparative
+evaluation of the capabilities of text mining and information extraction systems
+applied to the biological literature. A special issue of Genome Biology (<ext-link ext-link-type="uri" xlink:href="http://genomebiology.com/supplements/9/S2">http://genomebiology.com/supplements/9/S2</ext-link>), which contains 14 papers
+arising from BioCreAtIvE II, presents the state of the art.</p><p>There has already been considerable discussion in the literature concerning the
+potential role of text mining in extracting from full-text articles the information
+required to describe protein&#x02013;protein interactions in Structured Digital
+Abstracts, and reciprocally for SDAs to assist full-text text mining <xref rid="pcbi.1000361-Gerstein1" ref-type="bibr">[4]</xref>, <xref rid="pcbi.1000361-Ceol1" ref-type="bibr">[5]</xref>, <xref rid="pcbi.1000361-Smith1" ref-type="bibr">[27]</xref>&#x02013;<xref rid="pcbi.1000361-Leitner1" ref-type="bibr">[30]</xref>. Indeed, the current
+round of BioCreAtIvE, BioCreAtIvE II.5 (<ext-link ext-link-type="uri" xlink:href="http://www.biocreative.org/news/chapter/biocreative-ii5/">http://www.biocreative.org/news/chapter/biocreative-ii5/</ext-link>), is focusing
+on automated tools to replicate manual production of structured digital abstracts,
+using <italic>FEBS Letters</italic> as the dataset, blurring the distinction between
+authoring tools and post-submission analysis. It has been concluded that while
+current text-mining techniques are adequate for recognition of named entities (e.g.,
+gene names), the extraction of relationships is a task for which information
+extraction tools still require additional development <xref rid="pcbi.1000361-Leitner1" ref-type="bibr">[30]</xref>. Our own experience in
+marking up the <italic>PLoS NTDs</italic> article shows that a measure of expert
+human supervision is likely to be required to avoid ambiguities.</p><p>In our testing of freely available semantic categorization services, we found the
+uBio Taxon Finder Web service for automatically finding taxonomic names within text
+(<ext-link ext-link-type="uri" xlink:href="http://www.ubio.org/index.php?pagename=xml_services">http://www.ubio.org/index.php?pagename=xml_services</ext-link>) to be highly
+accurate when applied to the text of our selected <italic>PLoS NTDs</italic> article,
+while the free Reuters OpenCalais automated text-mining service (<ext-link ext-link-type="uri" xlink:href="http://www.opencalais.com/">http://www.opencalais.com/</ext-link>) was excellent at recognising persons,
+place names, and institutions, as might be expected, but performed very poorly for
+domain-specific biological terms.</p><p>Other more sophisticated text-mining and natural language processing tools are
+currently being developed to recognise textual instances and to link them
+automatically to domain-specific ontologies, and it is to be hoped that such
+developments at the interface between text mining and semantic technologies will in
+future facilitate automated markup of journal articles.</p></sec></sec><sec id="s6"><title>Conclusions</title><p>The UK Government's 2006 Foresight Report (<ext-link ext-link-type="uri" xlink:href="http://www.foresight.gov.uk/Infectious%20Diseases/E1_ID_Executive_Summary.pdf">http://www.foresight.gov.uk/Infectious&#x00025;20Diseases/E1_ID_Executive_Summary.pdf</ext-link>)
+concluded that the future threats from infectious diseases are at least as great as in
+the past century, with an undiminished rate of emergence of new diseases and increasing
+resistance being shown by many disease agents to antimicrobial drugs. Malaria and TB
+continue to be major global health problems; SARS, HIV-AIDS, West Nile fever,
+bluetongue, and avian influenza have recently presented new hazards; and bioterrorism
+presents potential threats.</p><p>Our motivation for undertaking this work was to demonstrate that it is possible to
+change the world in terms of semantic enhancements of research
+publications&#x02014;both of papers and datasets&#x02014;by simple application of
+existing Web technology. We have been particularly keen to demonstrate this for a paper
+relevant to infectious disease epidemiology, since it is clear that lives may depend
+upon the timely availability of reliable disease incidence data that permit predictions
+of the severity and spread of epidemics.</p><p>Our semantic enhancements of the single article by Reis et al. (2008) <xref rid="pcbi.1000361-Reis1" ref-type="bibr">[12]</xref> have led to
+the creation of a whole &#x0201c;ecosystem&#x0201d; of articles, documents,
+spreadsheets, data fusions, and RDF files related to that original work, considerably
+more numerous than we anticipated when we started, in addition to the enhancement
+features contained within the <italic>PLoS NTDs</italic> article itself. <xref ref-type="fig" rid="pcbi-1000361-g010">Figure 10</xref> presents a visual summary of
+these various outputs, including this <italic>PLoS Computational Biology</italic> paper,
+which we hope will be useful to readers in clarifying the different types of semantic
+enrichment created.</p><fig id="pcbi-1000361-g010" position="float"><object-id pub-id-type="doi">10.1371/journal.pcbi.1000361.g010</object-id><label>Figure 10</label><caption><title>The ecosystem of published articles, documents, spreadsheets, data fusions,
+and machine-readable RDF data files resulting from our decision to apply semantic
+enhancements to the <italic>PLoS NTDs</italic> article by Reis et al. <xref rid="pcbi.1000361-Reis1" ref-type="bibr">[12]</xref>.</title></caption><graphic xlink:href="pcbi.1000361.g010"/></fig><p>We solicit feedback from readers (by e-mail to <email>david.shotton@zoo.ox.ac.uk</email>) about the added value they perceive in these
+various enhancements and outputs, relative to the originally published version of the
+<italic>PLoS NTDs</italic> article; about ways in which our work could be improved,
+and additional enhancements readers would wish to see; and about how such semantic
+publishing can be moved from bespoke manual crafting to mainstream journal production.
+We hope this work will encourage authors, data producers, publishers, and information
+consumers to use the Web to its full potential for scientific publications.</p></sec><sec sec-type="supplementary-material" id="s7"><title>Supporting Information</title><supplementary-material content-type="local-data" id="pcbi.1000361.s001"><label>Text S1</label><caption><p>Shotton D, Portwin K (2009). Technical implementation of the semantic enhancements
+applied to Reis et al. (2008) Impact of environment and social gradient on
+Leptospira infection in urban slums. PLoS Neglected Tropical Diseases 2(4): e228.</p><p>(0.16 MB DOC)</p></caption><media xlink:href="pcbi.1000361.s001.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pcbi.1000361.s002"><label>Text S2</label><caption><p>Portwin K, Shotton D (2009). Annotation guidelines: Heuristics applied while
+selecting terms for semantic markup from the text of Reis et al. (2008) Impact of
+Environment and Social Gradient on Leptospira Infection in Urban slums. PLoS
+Neglected Tropical Diseases 2(4): e228.</p><p>(0.05 MB DOC)</p></caption><media xlink:href="pcbi.1000361.s002.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack><p>The authors thank the authors, editor, and publisher of the article by Reis et al.
+(2008) in <italic>PLoS Neglected Tropical Diseases</italic>
+<xref rid="pcbi.1000361-Reis1" ref-type="bibr">[12]</xref> for their
+support in undertaking the enhancement embodied in <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pntd.0000228.x001">http://dx.doi.org/10.1371/journal.pntd.0000228.x001</ext-link> and described in this
+paper, particularly Ms. Susanne DeRisi, Senior Web Producer of the Public Library of
+Science, for creating DOIs for our enhanced works; the authors Drs. Albert Ko, Renato
+Barbosa Reis, and Guilherme de Sousa Ribeiro for their helpful feedback on these
+enhancements and for making available the numerical datasets underlying Table 1, Figure
+2, and Figure S2; and Dr. Guilherme de Sousa Ribeiro for assisting with Portuguese
+translations. The authors also thank the reviewers of this paper for their excellent
+constructive criticisms, which have led to substantial improvements to the text.</p></ack><fn-group><fn fn-type="COI-statement"><p>David Shotton is a judge for the Elsevier Grand Challenge, but the enhancements for
+this paper were conceived and executed independently from that competition and in
+advance of his access to competitors' EGC entries. The other authors of the
+enhancements have declared that no competing interests exist.</p></fn><fn fn-type="financial-disclosure"><p>The authors received no specific funding for this article.</p></fn></fn-group><ref-list><title>References</title><ref id="pcbi.1000361-Bourne1"><label>1</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bourne</surname><given-names>P</given-names></name></person-group>
+<year>2005</year>
+<article-title>Will a biological database be different from a biological journal?</article-title>
+<source>PLoS Comput Biol</source>
+<volume>1</volume>
+<fpage>e34</fpage>
+<comment><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pcbi.0010034">http://dx.doi.org/10.1371/journal.pcbi.0010034</ext-link></comment>
+</element-citation></ref><ref id="pcbi.1000361-deWaard1"><label>2</label><element-citation publication-type="other">
+<person-group person-group-type="author"><name><surname>de Waard</surname><given-names>A</given-names></name><name><surname>Breure</surname><given-names>L</given-names></name><name><surname>Kircz</surname><given-names>JG</given-names></name><name><surname>van Oostendorp</surname><given-names>H</given-names></name></person-group>
+<year>2006</year>
+<article-title>Modeling rhetoric in scientific publications.</article-title>
+<fpage>1</fpage>
+<lpage>5</lpage>
+<comment>Proceedings of the International Conference on Multidisciplinary Information
+Sciences and Technologies, InSciT2006; 25&#x02013;28 October 2006; Merida, Spain</comment>
+<comment><ext-link ext-link-type="uri" xlink:href="http://www.instac.es/inscit2006/papers/pdf/133.pdf">http://www.instac.es/inscit2006/papers/pdf/133.pdf</ext-link></comment>
+</element-citation></ref><ref id="pcbi.1000361-Seringhaus1"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Seringhaus</surname><given-names>MR</given-names></name><name><surname>Gerstein</surname><given-names>MB</given-names></name></person-group>
+<year>2007</year>
+<article-title>Publishing perishing? Towards tomorrow's information
+architecture.</article-title>
+<source>BMC Bioinformatics</source>
+<volume>8</volume>
+<fpage>17</fpage>
+<comment>Five pages. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/1471-2105-8-17">http://dx.doi.org/10.1186/1471-2105-8-17</ext-link></comment>
+<pub-id pub-id-type="pmid">17239245</pub-id></element-citation></ref><ref id="pcbi.1000361-Gerstein1"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gerstein</surname><given-names>M</given-names></name><name><surname>Seringhaus</surname><given-names>M</given-names></name><name><surname>Fields</surname><given-names>S</given-names></name></person-group>
+<year>2007</year>
+<article-title>Structured digital abstract makes text mining easy.</article-title>
+<source>Nature</source>
+<volume>447</volume>
+<fpage>142</fpage>
+</element-citation></ref><ref id="pcbi.1000361-Ceol1"><label>5</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ceol</surname><given-names>A</given-names></name><name><surname>Chatr-Aryamontri</surname><given-names>A</given-names></name><name><surname>Licata</surname><given-names>L</given-names></name><name><surname>Cesareni</surname><given-names>G</given-names></name></person-group>
+<year>2008</year>
+<article-title>Linking entries in protein interaction database to structured text:
+The FEBS Letters experiment.</article-title>
+<source>FEBS Lett</source>
+<volume>582</volume>
+<fpage>1171</fpage>
+<lpage>1177</lpage>
+<comment><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.febslet.2008.02.071">http://dx.doi.org/10.1016/j.febslet.2008.02.071</ext-link></comment>
+<pub-id pub-id-type="pmid">18328820</pub-id></element-citation></ref><ref id="pcbi.1000361-Editorial1"><label>6</label><element-citation publication-type="journal">
+<collab>Editorial</collab>
+<year>2007</year>
+<article-title>ALPSP/Charlesworth Awards 2007.</article-title>
+<source>Learned Publishing</source>
+<volume>20</volume>
+<fpage>317</fpage>
+<lpage>318</lpage>
+<comment><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1087/095315107X243884">http://dx.doi.org/10.1087/095315107X243884</ext-link></comment>
+</element-citation></ref><ref id="pcbi.1000361-Borgman1"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Borgman</surname><given-names>CL</given-names></name></person-group>
+<year>2008</year>
+<article-title>Data, disciplines, and scholarly publishing.</article-title>
+<source>Learned Publishing</source>
+<volume>21</volume>
+<fpage>29</fpage>
+<lpage>38</lpage>
+<comment><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1087/095315108X254476">http://dx.doi.org/10.1087/095315108X254476</ext-link></comment>
+</element-citation></ref><ref id="pcbi.1000361-Donnelly1"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Donnelly</surname><given-names>P</given-names></name></person-group>
+<year>2008</year>
+<article-title>Progress and challenges in genome-wide association studies in humans.</article-title>
+<source>Nature</source>
+<volume>456</volume>
+<fpage>728</fpage>
+<lpage>731</lpage>
+<comment><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nature07631">http://dx.doi.org/10.1038/nature07631</ext-link></comment>
+<pub-id pub-id-type="pmid">19079049</pub-id></element-citation></ref><ref id="pcbi.1000361-Kwiatkowski1"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kwiatkowski</surname><given-names>D</given-names></name><name><surname>Network</surname><given-names>TMGE</given-names></name></person-group>
+<year>2008</year>
+<article-title>A global network for investigating the genomic epidemiology of
+malaria.</article-title>
+<source>Nature</source>
+<volume>456</volume>
+<fpage>732</fpage>
+<lpage>738</lpage>
+<comment><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nature07632">http://dx.doi.org/10.1038/nature07632</ext-link></comment>
+<pub-id pub-id-type="pmid">19079050</pub-id></element-citation></ref><ref id="pcbi.1000361-Venter1"><label>10</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Venter</surname><given-names>J</given-names></name><name><surname>Remington</surname><given-names>K</given-names></name><name><surname>Heidelberg</surname><given-names>J</given-names></name><name><surname>Halpern</surname><given-names>A</given-names></name><name><surname>Rusch</surname><given-names>D</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Environmental genome shotgun sequencing of the Sargasso Sea.</article-title>
+<source>Science</source>
+<volume>304</volume>
+<fpage>66</fpage>
+<lpage>74</lpage>
+<comment><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1126/science.1093857">http://dx.doi.org/10.1126/science.1093857</ext-link></comment>
+<pub-id pub-id-type="pmid">15001713</pub-id></element-citation></ref><ref id="pcbi.1000361-Shapiro1"><label>11</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shapiro</surname><given-names>LH</given-names></name><name><surname>Strazanac</surname><given-names>JS</given-names></name><name><surname>Roderick</surname><given-names>GK</given-names></name></person-group>
+<year>2006</year>
+<article-title>Molecular phylogeny of <italic>Banza</italic> (Orthoptera:
+Tettigoniidae), the endemic katydids of the Hawaiian Archipelago.</article-title>
+<source>Mol Phylogenet Evol</source>
+<volume>41</volume>
+<fpage>53</fpage>
+<lpage>63</lpage>
+<comment><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.ympev.2006.04.006">http://dx.doi.org/10.1016/j.ympev.2006.04.006</ext-link></comment>
+<pub-id pub-id-type="pmid">16781170</pub-id></element-citation></ref><ref id="pcbi.1000361-Reis1"><label>12</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Reis</surname><given-names>RB</given-names></name><name><surname>Ribeiro</surname><given-names>GS</given-names></name><name><surname>Felzemburgh</surname><given-names>RDM</given-names></name><name><surname>Santana</surname><given-names>FS</given-names></name><name><surname>Mohr</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Impact of environment and social gradient on
+<italic>Leptospira</italic> infection in urban slums.</article-title>
+<source>PLoS Negl Trop Dis</source>
+<volume>2</volume>
+<fpage>e228</fpage>
+<comment><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pntd.0000228">http://dx.doi.org/10.1371/journal.pntd.0000228</ext-link></comment>
+<pub-id pub-id-type="pmid">18431445</pub-id></element-citation></ref><ref id="pcbi.1000361-Ko1"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ko</surname><given-names>AI</given-names></name><name><surname>Reis</surname><given-names>MG</given-names></name><name><surname>Ribeiro Dourado</surname><given-names>CM</given-names></name><name><surname>Johnson</surname><given-names>WDJ</given-names></name><name><surname>Riley</surname><given-names>LW</given-names></name></person-group>
+<year>1999</year>
+<article-title>Urban epidemic of severe leptospirosis in Brazil. Salvador
+Leptospirosis Study Group.</article-title>
+<source>Lancet</source>
+<volume>354</volume>
+<fpage>820</fpage>
+<lpage>825</lpage>
+<comment><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0140-6736(99)80012-9">http://dx.doi.org/10.1016/S0140-6736(99)80012-9</ext-link></comment>
+<pub-id pub-id-type="pmid">10485724</pub-id></element-citation></ref><ref id="pcbi.1000361-Maciel1"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Maciel</surname><given-names>EAP</given-names></name><name><surname>Carvalho</surname><given-names>ALF</given-names></name><name><surname>Nascimento</surname><given-names>SF</given-names></name><name><surname>Matos</surname><given-names>RB</given-names></name><name><surname>Gouveia</surname><given-names>EL</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Household transmission of <italic>Leptospira</italic> infection in
+urban slum communities.</article-title>
+<source>PLoS Negl Trop Dis</source>
+<volume>2</volume>
+<fpage>e154</fpage>
+<comment><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pntd.0000154">http://dx.doi.org/10.1371/journal.pntd.0000154</ext-link></comment>
+<pub-id pub-id-type="pmid">18357340</pub-id></element-citation></ref><ref id="pcbi.1000361-BernersLee1"><label>15</label><element-citation publication-type="other">
+<person-group person-group-type="author"><name><surname>Berners-Lee</surname><given-names>T</given-names></name></person-group>
+<year>2007</year>
+<article-title>Linked data.</article-title>
+<comment><ext-link ext-link-type="uri" xlink:href="http://www.w3.org/DesignIssues/LinkedData.html">http://www.w3.org/DesignIssues/LinkedData.html</ext-link></comment>
+</element-citation></ref><ref id="pcbi.1000361-Belleau1"><label>16</label><element-citation publication-type="other">
+<person-group person-group-type="author"><name><surname>Belleau</surname><given-names>F</given-names></name><name><surname>Nolin</surname><given-names>M-A</given-names></name><name><surname>Tourigny</surname><given-names>N</given-names></name><name><surname>Rigault</surname><given-names>P</given-names></name><name><surname>Morissette</surname><given-names>J</given-names></name></person-group>
+<year>2007</year>
+<article-title>Bio2RDF: Towards a mashup to build bioinformatics knowledge systems.</article-title>
+<comment>Proceedings of the WWW 2007; May 8&#x02013;12, 2007; Banff, Canada.
+<ext-link ext-link-type="uri" xlink:href="http://www2007.org/workshops/paper_143.pdf">http://www2007.org/workshops/paper_143.pdf</ext-link></comment>
+</element-citation></ref><ref id="pcbi.1000361-Belleau2"><label>17</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Belleau</surname><given-names>F</given-names></name><name><surname>Nolin</surname><given-names>M-A</given-names></name><name><surname>Tourigny</surname><given-names>N</given-names></name><name><surname>Rigault</surname><given-names>P</given-names></name><name><surname>Morissette</surname><given-names>J</given-names></name></person-group>
+<year>2008</year>
+<article-title>Bio2RDF: Towards a mashup to build bioinformatics knowledge systems.</article-title>
+<source>J Biomed Inform</source>
+<volume>41</volume>
+<fpage>706</fpage>
+<lpage>716</lpage>
+<comment>In press. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.jbi.2008.03.004">http://dx.doi.org/10.1016/j.jbi.2008.03.004</ext-link></comment>
+<pub-id pub-id-type="pmid">18472304</pub-id></element-citation></ref><ref id="pcbi.1000361-Belleau3"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Belleau</surname><given-names>F</given-names></name><name><surname>Tourigny</surname><given-names>N</given-names></name><name><surname>Good</surname><given-names>B</given-names></name><name><surname>Morissette</surname><given-names>J</given-names></name></person-group>
+<year>2008</year>
+<article-title>Bio2RDF: A Semantic Web atlas of post genomic knowledge about human
+and mouse.</article-title>
+<source>Lect Notes Comp Sci</source>
+<volume>5109</volume>
+<fpage>153</fpage>
+<lpage>160</lpage>
+<comment>In: Proceedings of the 5<sup>th</sup> International Workshop on Data
+Integration in the Life Sciences (DILS); June 25&#x02013;27, 2008; Evry, France.</comment>
+<comment><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/978-3-540-69828-9">http://dx.doi.org/10.1007/978-3-540-69828-9</ext-link></comment>
+</element-citation></ref><ref id="pcbi.1000361-Nolin1"><label>19</label><element-citation publication-type="other">
+<person-group person-group-type="author"><name><surname>Nolin</surname><given-names>M-A</given-names></name><name><surname>Ansell</surname><given-names>P</given-names></name><name><surname>Belleau</surname><given-names>F</given-names></name><name><surname>Idehen</surname><given-names>K</given-names></name><name><surname>Rigault</surname><given-names>P</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Bio2RDF network of linked data.</article-title>
+<comment>Preprint at <ext-link ext-link-type="uri" xlink:href="http://www.cs.vu.nl/~pmika/swc-2008/Bio2RDF-Bio2RDF_submission.pdf">http://www.cs.vu.nl/&#x002dc;pmika/swc-2008/Bio2RDF-Bio2RDF_submission.pdf</ext-link></comment>
+</element-citation></ref><ref id="pcbi.1000361-Zhao1"><label>20</label><element-citation publication-type="other">
+<person-group person-group-type="author"><name><surname>Zhao</surname><given-names>J</given-names></name><name><surname>Klyne</surname><given-names>G</given-names></name><name><surname>Shotton</surname><given-names>D</given-names></name></person-group>
+<year>2008</year>
+<article-title>Provenance and linked data in biological data webs.</article-title>
+<comment>In: Proceedings of the 17th International World Wide Web Conference WWW2008
+(Workshop: Linked Data on the Web LDOW2008); April 22, 2008; Beijing, China.
+<ext-link ext-link-type="uri" xlink:href="http://events.linkeddata.org/ldow2008/papers/07-zhao-klyne-provenance-linked-data.pdf">http://events.linkeddata.org/ldow2008/papers/07-zhao-klyne-provenance-linked-data.pdf</ext-link></comment>
+</element-citation></ref><ref id="pcbi.1000361-Zhao2"><label>21</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhao</surname><given-names>J</given-names></name><name><surname>Miles</surname><given-names>A</given-names></name><name><surname>Klyne</surname><given-names>G</given-names></name><name><surname>Shotton</surname><given-names>D</given-names></name></person-group>
+<year>2008</year>
+<article-title>Linked data and provenance in biological data webs.</article-title>
+<source>Brief Bioinform</source>
+<comment>(Special Issue on Semantic Web for Health Care and Life Sciences, edited by
+Kei Cheung). In press. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/bib/bbn044">http://dx.doi.org/10.1093/bib/bbn044</ext-link></comment>
+</element-citation></ref><ref id="pcbi.1000361-Collier1"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Collier</surname><given-names>N</given-names></name><name><surname>Kawazoe</surname><given-names>A</given-names></name><name><surname>Jin</surname><given-names>L</given-names></name><name><surname>Shigematsu</surname><given-names>M</given-names></name><name><surname>Dien</surname><given-names>D</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>The BioCaster Ontology: A multilingual ontology for infectious disease
+outbreak surveillance: Rationale, design and challenges.</article-title>
+<source>J Lang Resources Eval</source>
+<volume>40</volume>
+<fpage>405</fpage>
+<lpage>413</lpage>
+<comment><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s10579-007-9019-7">http://dx.doi.org/10.1007/s10579-007-9019-7</ext-link></comment>
+</element-citation></ref><ref id="pcbi.1000361-Collier2"><label>23</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Collier</surname><given-names>N</given-names></name><name><surname>Doan</surname><given-names>S</given-names></name><name><surname>Kawazoe</surname><given-names>A</given-names></name><name><surname>Goodwin</surname><given-names>RM</given-names></name><name><surname>Conway</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>BioCaster: Detecting public health rumors with a Web-based text mining
+system.</article-title>
+<source>Bioinformatics</source>
+<volume>24</volume>
+<fpage>2940</fpage>
+<lpage>2941</lpage>
+<comment><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/bioinformatics/btn534">http://dx.doi.org/10.1093/bioinformatics/btn534</ext-link></comment>
+<pub-id pub-id-type="pmid">18922806</pub-id></element-citation></ref><ref id="pcbi.1000361-Doan1"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Doan</surname><given-names>S</given-names></name><name><surname>Kawazoe</surname><given-names>A</given-names></name><name><surname>Conway</surname><given-names>M</given-names></name><name><surname>Collier</surname><given-names>N</given-names></name></person-group>
+<year>2009</year>
+<article-title>Towards role-based filtering of disease outbreak reports.</article-title>
+<source>J Biomed Inform</source>
+<comment>In press. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.jbi.2008.12.009">http://dx.doi.org/10.1016/j.jbi.2008.12.009</ext-link></comment>
+</element-citation></ref><ref id="pcbi.1000361-Taylor1"><label>25</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Taylor</surname><given-names>CF</given-names></name><name><surname>Field</surname><given-names>D</given-names></name><name><surname>Sansone</surname><given-names>S-A</given-names></name><name><surname>Aerts</surname><given-names>J</given-names></name><name><surname>Apweiler</surname><given-names>R</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Promoting coherent minimum reporting guidelines for biological and
+biomedical investigations: The MIBBI project.</article-title>
+<source>Nat Biotechnol</source>
+<volume>26</volume>
+<fpage>889</fpage>
+<lpage>896</lpage>
+<comment><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nbt.1411">http://dx.doi.org/10.1038/nbt.1411</ext-link></comment>
+<pub-id pub-id-type="pmid">18688244</pub-id></element-citation></ref><ref id="pcbi.1000361-Shotton1"><label>26</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shotton</surname><given-names>D</given-names></name></person-group>
+<year>2009</year>
+<article-title>Semantic Publishing: The coming revolution in scientific journal
+publishing.</article-title>
+<source>Learned Publishing</source>
+<volume>22</volume>
+<fpage>85</fpage>
+<lpage>94</lpage>
+<comment><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1087/2009202">http://dx.doi.org/10.1087/2009202</ext-link></comment>
+</element-citation></ref><ref id="pcbi.1000361-Smith1"><label>27</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Smith</surname><given-names>A</given-names></name><name><surname>Gerstein</surname><given-names>M</given-names></name></person-group>
+<year>2006</year>
+<article-title>Data mining on the Web.</article-title>
+<source>Science</source>
+<volume>314</volume>
+<fpage>1682</fpage>
+<comment><ext-link ext-link-type="uri" xlink:href="http://papers.gersteinlab.org/e-print/webmining-letter/preprint.pdf">http://papers.gersteinlab.org/e-print/webmining-letter/preprint.pdf</ext-link></comment>
+</element-citation></ref><ref id="pcbi.1000361-Hahn1"><label>28</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hahn</surname><given-names>U</given-names></name><name><surname>Wermter</surname><given-names>J</given-names></name><name><surname>Blasczyk</surname><given-names>R</given-names></name><name><surname>Horn</surname><given-names>PA</given-names></name></person-group>
+<year>2007</year>
+<article-title>Text mining: Powering the database revolution.</article-title>
+<source>Nature</source>
+<volume>448</volume>
+<fpage>130</fpage>
+<comment><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/448130b">http://dx.doi.org/10.1038/448130b</ext-link></comment>
+</element-citation></ref><ref id="pcbi.1000361-Seringhaus2"><label>29</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Seringhaus</surname><given-names>M</given-names></name><name><surname>Gerstein</surname><given-names>M</given-names></name></person-group>
+<year>2008</year>
+<article-title>Manually structured digital abstracts: A scaffold for automatic text
+mining.</article-title>
+<source>FEBS Lett</source>
+<volume>582</volume>
+<fpage>1170</fpage>
+<comment><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.febslet.2008.02.073">http://dx.doi.org/10.1016/j.febslet.2008.02.073</ext-link></comment>
+<pub-id pub-id-type="pmid">18328823</pub-id></element-citation></ref><ref id="pcbi.1000361-Leitner1"><label>30</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Leitner</surname><given-names>F</given-names></name><name><surname>Valencia</surname><given-names>A</given-names></name></person-group>
+<year>2008</year>
+<article-title>A text-mining perspective on the requirements for electronically
+annotated abstracts.</article-title>
+<source>FEBS Lett</source>
+<volume>582</volume>
+<fpage>1178</fpage>
+<lpage>1181</lpage>
+<comment><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.febslet.2008.02.072">http://dx.doi.org/10.1016/j.febslet.2008.02.072</ext-link></comment>
+<pub-id pub-id-type="pmid">18328824</pub-id></element-citation></ref></ref-list></back></article>

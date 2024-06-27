@@ -1,0 +1,48 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,37868080
+source,MED
+pmid,37868080
+pmcid,PMC10586498
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC10586498')])"
+doi,10.3389/frai.2023.1209507
+title,CowMesh: a data-mesh architecture to unify dairy industry data for prediction and monitoring.
+authorString,"Pakrashi A, Wallace D, Mac Namee B, Greene D, Guéret C."
+authorList,"OrderedDict([('author', [OrderedDict([('fullName', 'Pakrashi A'), ('firstName', 'Arjun'), ('lastName', 'Pakrashi'), ('initials', 'A'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'School of Computer Science, University College Dublin, Dublin, Ireland.')]), OrderedDict([('affiliation', 'Insight Centre for Data Analytics, Dublin, Ireland.')]), OrderedDict([('affiliation', 'VistaMilk SFI Research Centre, Teagasc Moorepark, Fermoy, Ireland.')])])]))]), OrderedDict([('fullName', 'Wallace D'), ('firstName', 'Duncan'), ('lastName', 'Wallace'), ('initials', 'D'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'School of Computer Science, University College Dublin, Dublin, Ireland.')]), OrderedDict([('affiliation', 'Insight Centre for Data Analytics, Dublin, Ireland.')]), OrderedDict([('affiliation', 'VistaMilk SFI Research Centre, Teagasc Moorepark, Fermoy, Ireland.')])])]))]), OrderedDict([('fullName', 'Mac Namee B'), ('firstName', 'Brian'), ('lastName', 'Mac Namee'), ('initials', 'B'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'School of Computer Science, University College Dublin, Dublin, Ireland.')]), OrderedDict([('affiliation', 'Insight Centre for Data Analytics, Dublin, Ireland.')]), OrderedDict([('affiliation', 'VistaMilk SFI Research Centre, Teagasc Moorepark, Fermoy, Ireland.')])])]))]), OrderedDict([('fullName', 'Greene D'), ('firstName', 'Derek'), ('lastName', 'Greene'), ('initials', 'D'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'School of Computer Science, University College Dublin, Dublin, Ireland.')]), OrderedDict([('affiliation', 'Insight Centre for Data Analytics, Dublin, Ireland.')]), OrderedDict([('affiliation', 'VistaMilk SFI Research Centre, Teagasc Moorepark, Fermoy, Ireland.')])])]))]), OrderedDict([('fullName', 'Guéret C'), ('firstName', 'Christophe'), ('lastName', 'Guéret'), ('initials', 'C'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Accenture Labs, Dublin, Ireland.')]))]))])])])"
+dataLinksTagsList,"OrderedDict([('dataLinkstag', 'altmetrics')])"
+journalInfo,"OrderedDict([('volume', '6'), ('journalIssueId', '3505756'), ('dateOfPublication', '2023'), ('monthOfPublication', '0'), ('yearOfPublication', '2023'), ('printPublicationDate', '2023-01-01'), ('journal', OrderedDict([('title', 'Frontiers in artificial intelligence'), ('ISOAbbreviation', 'Front Artif Intell'), ('medlineAbbreviation', 'Front Artif Intell'), ('NLMid', '101770551'), ('ISSN', '2624-8212'), ('ESSN', '2624-8212')]))])"
+pubYear,2023
+pageInfo,1209507
+abstractText,"Dairy is an economically significant industry that caters to the huge demand for food products in people's lives. To remain profitable, farmers need to manage their farms and the health of the dairy cows in their herds. There are, however, many risks to cow health that can lead to significant challenges to dairy farm management and have the potential to lead to significant losses. Such risks include cow udder infections (i.e., mastitis) and cow lameness. As automation and data recording become more common in the agricultural sector, dairy farms are generating increasing amounts of data. Recently, these data are being used to generate insights into farm and cow health, where the objective is to help farmers manage the health and welfare of dairy cows and reduce losses from cow health issues. Despite the level of data generation on dairy farms, this information is often difficult to access due to a lack of a single, central organization to collect data from individual farms. The prospect of such an organization, however, raises questions about data ownership, with some farmers reluctant to share their farm data for privacy reasons. In this study, we describe a new <i>data mesh</i> architecture designed for the dairy industry that focuses on facilitating access to data from farms in a decentralized fashion. This has the benefit of keeping the ownership of data with dairy farmers while bringing data together by providing a common and uniform set of protocols. Furthermore, this architecture will allow secure access to the data by research groups and product development groups, who can plug in new projects and applications built across the data. No similar framework currently exists in the dairy industry, and such a data mesh can help industry stakeholders by bringing the dairy farms of a country together in a decentralized fashion. This not only helps farmers, dairy researchers, and product builders but also facilitates an overview of all dairy farms which can help governments to decide on regulations to improve the dairy industry at a national level."
+affiliation,"School of Computer Science, University College Dublin, Dublin, Ireland."
+publicationStatus,epublish
+language,eng
+pubModel,Electronic-eCollection
+pubTypeList,"OrderedDict([('pubType', ['methods-article', 'Journal Article'])])"
+keywordList,"OrderedDict([('keyword', ['Digital agriculture', 'Dairy Industry', 'Decentralized Data', 'Data Mesh', 'Data Fabric'])])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Unpaywall'), ('url', 'https://www.frontiersin.org/articles/10.3389/frai.2023.1209507/pdf?isPublishedV2=False')]), OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.3389/frai.2023.1209507')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10586498')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10586498?pdf=render')])])])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,N
+citedByCount,0
+hasData,N
+hasReferences,Y
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,Y
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCreation,2023-10-23
+firstIndexDate,2023-10-24
+fullTextReceivedDate,2023-10-26
+dateOfRevision,2023-10-31
+electronicPublicationDate,2023-10-04
+firstPublicationDate,2023-10-04

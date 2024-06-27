@@ -1,0 +1,48 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,38577112
+source,MED
+pmid,38577112
+pmcid,PMC10991757
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC10991757')])"
+doi,10.3389/fpsyg.2024.1308098
+title,"Measuring the menu, not the food: ""psychometric"" data may instead measure ""lingometrics"" (and miss its greatest potential)."
+authorString,"Arnulf JK, Olsson UH, Nimon K."
+authorList,"OrderedDict([('author', [OrderedDict([('fullName', 'Arnulf JK'), ('firstName', 'Jan Ketil'), ('lastName', 'Arnulf'), ('initials', 'JK'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'BI Norwegian Business School, Oslo, Norway.')]))]))]), OrderedDict([('fullName', 'Olsson UH'), ('firstName', 'Ulf Henning'), ('lastName', 'Olsson'), ('initials', 'UH'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'BI Norwegian Business School, Oslo, Norway.')]))]))]), OrderedDict([('fullName', 'Nimon K'), ('firstName', 'Kim'), ('lastName', 'Nimon'), ('initials', 'K'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Human Resource Development, University of Texas at Tyler, Tyler, TX, United States.')]))]))])])])"
+dataLinksTagsList,"OrderedDict([('dataLinkstag', 'altmetrics')])"
+journalInfo,"OrderedDict([('volume', '15'), ('journalIssueId', '3703776'), ('dateOfPublication', '2024'), ('monthOfPublication', '0'), ('yearOfPublication', '2024'), ('printPublicationDate', '2024-01-01'), ('journal', OrderedDict([('title', 'Frontiers in psychology'), ('ISOAbbreviation', 'Front Psychol'), ('medlineAbbreviation', 'Front Psychol'), ('NLMid', '101550902'), ('ISSN', '1664-1078'), ('ESSN', '1664-1078')]))])"
+pubYear,2024
+pageInfo,1308098
+abstractText,"This is a review of a range of empirical studies that use digital text algorithms to predict and model response patterns from humans to Likert-scale items, using texts only as inputs. The studies show that statistics used in construct validation is predictable on sample and individual levels, that this happens across languages and cultures, and that the relationship between variables are often semantic instead of empirical. That is, the relationships among variables are given a priori and evidently computable as such. We explain this by replacing the idea of ""nomological networks"" with ""semantic networks"" to designate computable relationships between abstract concepts. Understanding constructs as nodes in semantic networks makes it clear why psychological research has produced constant average explained variance at 42% since 1956. Together, these findings shed new light on the formidable capability of human minds to operate with fast and intersubjectively similar semantic processing. Our review identifies a categorical error present in much psychological research, measuring representations instead of the purportedly represented. We discuss how this has grave consequences for the empirical truth in research using traditional psychometric methods."
+affiliation,"BI Norwegian Business School, Oslo, Norway."
+publicationStatus,epublish
+language,eng
+pubModel,Electronic-eCollection
+pubTypeList,"OrderedDict([('pubType', ['review-article', 'Review', 'Journal Article'])])"
+keywordList,"OrderedDict([('keyword', ['Measurement', 'Organizational Behavior', 'Natural Language Processing', 'Cross-cultural Psychology', 'Semantic Networks', 'Latent Constructs', 'Nomological Networks', 'Semantic Algorithms'])])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.3389/fpsyg.2024.1308098')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10991757')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10991757?pdf=render')])])])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,N
+citedByCount,0
+hasData,N
+hasReferences,Y
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,Y
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCreation,2024-04-05
+firstIndexDate,2024-04-05
+fullTextReceivedDate,2024-04-09
+dateOfRevision,2024-04-06
+electronicPublicationDate,2024-03-21
+firstPublicationDate,2024-03-21

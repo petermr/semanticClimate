@@ -1,0 +1,137 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>downloaded</th>
+      <th>htmlmade</th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>authorIdList</th>
+      <th>dataLinksTagsList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>affiliation</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>grantsList</th>
+      <th>meshHeadingList</th>
+      <th>keywordList</th>
+      <th>subsetList</th>
+      <th>fullTextUrlList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>license</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>dateOfCompletion</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>electronicPublicationDate</th>
+      <th>firstPublicationDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC11178556</th>
+      <td>True</td>
+      <td>False</td>
+      <td>38570373</td>
+      <td>MED</td>
+      <td>38570373</td>
+      <td>PMC11178556</td>
+      <td>{'fullTextId': 'PMC11178556'}</td>
+      <td>10.1007/s11548-024-03091-5</td>
+      <td>EndoViT: pretraining vision transformers on a large collection of endoscopic images.</td>
+      <td>Batić D, Holm F, Özsoy E, Czempiel T, Navab N.</td>
+      <td>{'author': [{'fullName': 'Batić D', 'firstName': 'Dominik', 'lastName': 'Batić', 'initials': 'D', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Chair for Computer Aided Medical Procedures, Technical University Munich, Munich, Germany.')]))])}, {'fullName': 'Holm F', 'firstName': 'Felix', 'lastName': 'Holm', 'initials': 'F', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-8493-9941')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Chair for Computer Aided Medical Procedures, Technical University Munich, Munich, Germany. felix.holm@tum.de.')]), OrderedDict([('affiliation', 'Carl Zeiss AG, Munich, Germany. felix.holm@tum.de.')])])])}, {'fullName': 'Özsoy E', 'firstName': 'Ege', 'lastName': 'Özsoy', 'initials': 'E', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Chair for Computer Aided Medical Procedures, Technical University Munich, Munich, Germany.')]))])}, {'fullName': 'Czempiel T', 'firstName': 'Tobias', 'lastName': 'Czempiel', 'initials': 'T', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Chair for Computer Aided Medical Procedures, Technical University Munich, Munich, Germany.')]))])}, {'fullName': 'Navab N', 'firstName': 'Nassir', 'lastName': 'Navab', 'initials': 'N', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Chair for Computer Aided Medical Procedures, Technical University Munich, Munich, Germany.')]))])}]}</td>
+      <td>{'authorId': {'@type': 'ORCID', '#text': '0000-0002-8493-9941'}}</td>
+      <td>{'dataLinkstag': 'altmetrics'}</td>
+      <td>{'issue': '6', 'volume': '19', 'journalIssueId': '3786219', 'dateOfPublication': '2024 Jun', 'monthOfPublication': '6', 'yearOfPublication': '2024', 'printPublicationDate': '2024-06-01', 'journal': {'title': 'International journal of computer assisted radiology and surgery', 'ISOAbbreviation': 'Int J Comput Assist Radiol Surg', 'medlineAbbreviation': 'Int J Comput Assist Radiol Surg', 'NLMid': '101499225', 'ISSN': '1861-6410', 'ESSN': '1861-6429'}}</td>
+      <td>2024</td>
+      <td>1085-1091</td>
+      <td><h4>Purpose</h4>Automated endoscopy video analysis is essential for assisting surgeons during medical procedures, but it faces challenges due to complex surgical scenes and limited annotated data. Large-scale pretraining has shown great success in natural language processing and computer vision communities in recent years. These approaches reduce the need for annotated data, which is of great interest in the medical domain. In this work, we investigate endoscopy domain-specific self-supervised pretraining on large collections of data.<h4>Methods</h4>To this end, we first collect Endo700k, the largest publicly available corpus of endoscopic images, extracted from nine public Minimally Invasive Surgery (MIS) datasets. Endo700k comprises more than 700,000 images. Next, we introduce EndoViT, an endoscopy-pretrained Vision Transformer (ViT), and evaluate it on a diverse set of surgical downstream tasks.<h4>Results</h4>Our findings indicate that domain-specific pretraining with EndoViT yields notable advantages in complex downstream tasks. In the case of action triplet recognition, our approach outperforms ImageNet pretraining. In semantic segmentation, we surpass the state-of-the-art (SOTA) performance. These results demonstrate the effectiveness of our domain-specific pretraining approach in addressing the challenges of automated endoscopy video analysis.<h4>Conclusion</h4>Our study contributes to the field of medical computer vision by showcasing the benefits of domain-specific large-scale self-supervised pretraining for vision transformers. We release both our code and pretrained models to facilitate further research in this direction: https://github.com/DominikBatic/EndoViT .</td>
+      <td>Chair for Computer Aided Medical Procedures, Technical University Munich, Munich, Germany.</td>
+      <td>ppublish</td>
+      <td>eng</td>
+      <td>Print-Electronic</td>
+      <td>{'pubType': ['research-article', 'Journal Article']}</td>
+      <td>{'grant': [{'agency': 'Carl Zeiss AG', 'orderIn': '0'}, {'agency': 'Stryker', 'orderIn': '0'}]}</td>
+      <td>{'meshHeading': [{'majorTopic_YN': 'N', 'descriptorName': 'Humans'}, {'majorTopic_YN': 'Y', 'descriptorName': 'Endoscopy', 'meshQualifierList': OrderedDict([('meshQualifier', [OrderedDict([('abbreviation', 'ED'), ('qualifierName', 'education'), ('majorTopic_YN', 'N')]), OrderedDict([('abbreviation', 'MT'), ('qualifierName', 'methods'), ('majorTopic_YN', 'N')])])])}, {'majorTopic_YN': 'N', 'descriptorName': 'Image Processing, Computer-Assisted', 'meshQualifierList': OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'MT'), ('qualifierName', 'methods'), ('majorTopic_YN', 'N')]))])}, {'majorTopic_YN': 'N', 'descriptorName': 'Video Recording'}, {'majorTopic_YN': 'N', 'descriptorName': 'Minimally Invasive Surgical Procedures', 'meshQualifierList': OrderedDict([('meshQualifier', [OrderedDict([('abbreviation', 'ED'), ('qualifierName', 'education'), ('majorTopic_YN', 'N')]), OrderedDict([('abbreviation', 'MT'), ('qualifierName', 'methods'), ('majorTopic_YN', 'N')])])])}]}</td>
+      <td>{'keyword': ['Pretraining', 'Vision Transformer', 'Endoscopy Video Analysis']}</td>
+      <td>{'subset': {'code': 'IM', 'name': 'Index Medicus'}}</td>
+      <td>{'fullTextUrl': [{'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Unpaywall', 'url': 'https://link.springer.com/content/pdf/10.1007/s11548-024-03091-5.pdf'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1007/s11548-024-03091-5'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC11178556'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC11178556?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+      <td>0</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>2024-06-14</td>
+      <td>2024-04-03</td>
+      <td>2024-04-04</td>
+      <td>2024-06-18</td>
+      <td>2024-06-18</td>
+      <td>2024-04-03</td>
+      <td>2024-04-03</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    

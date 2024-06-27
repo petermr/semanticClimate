@@ -1,0 +1,51 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,37346675
+source,MED
+pmid,37346675
+pmcid,PMC10280262
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC10280262')])"
+doi,10.7717/peerj-cs.1159
+title,Nanopublication-based semantic publishing and reviewing: a field study with formalization papers.
+authorString,"Bucur CI, Kuhn T, Ceolin D, van Ossenbruggen J."
+authorList,"OrderedDict([('author', [OrderedDict([('fullName', 'Bucur CI'), ('firstName', 'Cristina-Iulia'), ('lastName', 'Bucur'), ('initials', 'CI'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Computer Science Department, Vrije Universiteit Amsterdam, Amsterdam, The Netherlands.')]))]))]), OrderedDict([('fullName', 'Kuhn T'), ('firstName', 'Tobias'), ('lastName', 'Kuhn'), ('initials', 'T'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-1267-0234')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Computer Science Department, Vrije Universiteit Amsterdam, Amsterdam, The Netherlands.')]))]))]), OrderedDict([('fullName', 'Ceolin D'), ('firstName', 'Davide'), ('lastName', 'Ceolin'), ('initials', 'D'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Human-Centered Data Analytics Group, Centrum Wiskunde & Informatica, Amsterdam, The Netherlands.')]))]))]), OrderedDict([('fullName', 'van Ossenbruggen J'), ('firstName', 'Jacco'), ('lastName', 'van Ossenbruggen'), ('initials', 'J'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-7748-4715')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Computer Science Department, Vrije Universiteit Amsterdam, Amsterdam, The Netherlands.')]))]))])])])"
+authorIdList,"OrderedDict([('authorId', [OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-1267-0234')]), OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-7748-4715')])])])"
+dataLinksTagsList,"OrderedDict([('dataLinkstag', ['altmetrics', 'supporting_data'])])"
+journalInfo,"OrderedDict([('volume', '9'), ('journalIssueId', '3560901'), ('dateOfPublication', '2023'), ('monthOfPublication', '0'), ('yearOfPublication', '2023'), ('printPublicationDate', '2023-01-01'), ('journal', OrderedDict([('title', 'PeerJ. Computer science'), ('ISOAbbreviation', 'PeerJ Comput Sci'), ('medlineAbbreviation', 'PeerJ Comput Sci'), ('NLMid', '101660598'), ('ISSN', '2167-9843'), ('ESSN', '2376-5992')]))])"
+pubYear,2023
+pageInfo,e1159
+abstractText,"With the rapidly increasing amount of scientific literature, it is getting continuously more difficult for researchers in different disciplines to keep up-to-date with the recent findings in their field of study. Processing scientific articles in an automated fashion has been proposed as a solution to this problem, but the accuracy of such processing remains very poor for extraction tasks beyond the most basic ones (like locating and identifying entities and simple classification based on predefined categories). Few approaches have tried to change how we publish scientific results in the first place, such as by making articles machine-interpretable by expressing them with formal semantics from the start. In the work presented here, we propose a first step in this direction by setting out to demonstrate that we can formally publish high-level scientific claims in formal logic, and publish the results in a special issue of an existing journal. We use the concept and technology of nanopublications for this endeavor, and represent not just the submissions and final papers in this RDF-based format, but also the whole process in between, including reviews, responses, and decisions. We do this by performing a field study with what we call formalization papers, which contribute a novel formalization of a previously published claim. We received 15 submissions from 18 authors, who then went through the whole publication process leading to the publication of their contributions in the special issue. Our evaluation shows the technical and practical feasibility of our approach. The participating authors mostly showed high levels of interest and confidence, and mostly experienced the process as not very difficult, despite the technical nature of the current user interfaces. We believe that these results indicate that it is possible to publish scientific results from different fields with machine-interpretable semantics from the start, which in turn opens countless possibilities to radically improve in the future the effectiveness and efficiency of the scientific endeavor as a whole."
+affiliation,"Computer Science Department, Vrije Universiteit Amsterdam, Amsterdam, The Netherlands."
+publicationStatus,epublish
+language,eng
+pubModel,Electronic-eCollection
+pubTypeList,"OrderedDict([('pubType', ['research-article', 'Journal Article'])])"
+grantsList,"OrderedDict([('grant', [OrderedDict([('agency', 'IOS Press'), ('orderIn', '0')]), OrderedDict([('agency', 'Vrije Universiteit Amsterdam'), ('orderIn', '0')]), OrderedDict([('agency', 'The Netherlands Institute for Sound and Vision'), ('orderIn', '0')])])])"
+keywordList,"OrderedDict([('keyword', ['Semantic Publishing', 'Nanopublications', 'Structured Peer-Reviewing', 'Super-Pattern'])])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.7717/peerj-cs.1159')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10280262')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10280262?pdf=render')])])])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,Y
+citedByCount,1
+hasData,Y
+hasReferences,Y
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,Y
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,Y
+tmAccessionTypeList,"OrderedDict([('accessionType', 'uniprot')])"
+dateOfCreation,2023-06-22
+firstIndexDate,2023-06-22
+fullTextReceivedDate,2023-06-22
+dateOfRevision,2023-11-06
+electronicPublicationDate,2023-02-21
+firstPublicationDate,2023-02-21

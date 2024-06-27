@@ -1,0 +1,47 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,38662633
+source,MED
+pmid,38662633
+pmcid,PMC11045089
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC11045089')])"
+doi,10.1371/journal.pdig.0000501
+title,PLOS-LLM: Can and should AI enable a new paradigm of scientific knowledge sharing?
+authorString,"Hughes RC, van Heerden A."
+authorList,"OrderedDict([('author', [OrderedDict([('fullName', 'Hughes RC'), ('firstName', 'Robert C'), ('lastName', 'Hughes'), ('initials', 'RC'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-1345-3063')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Maternal and Child Health Intervention Research Group, London School of Hygiene and Tropical Medicine, London, United Kingdom.')]))]))]), OrderedDict([('fullName', 'van Heerden A'), ('firstName', 'Alastair'), ('lastName', 'van Heerden'), ('initials', 'A'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Centre for Community Based Research, Human Sciences Research Council, Pietermaritzburg, South Africa.')]), OrderedDict([('affiliation', 'SAMRC/Wits Developmental Pathways for Health Research Unit, University of the Witwatersrand, Johannesburg, South Africa.')])])]))])])])"
+authorIdList,"OrderedDict([('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-1345-3063')]))])"
+dataLinksTagsList,"OrderedDict([('dataLinkstag', 'altmetrics')])"
+journalInfo,"OrderedDict([('issue', '4'), ('volume', '3'), ('journalIssueId', '3747535'), ('dateOfPublication', '2024 Apr'), ('monthOfPublication', '4'), ('yearOfPublication', '2024'), ('printPublicationDate', '2024-04-01'), ('journal', OrderedDict([('title', 'PLOS digital health'), ('ISOAbbreviation', 'PLOS Digit Health'), ('medlineAbbreviation', 'PLOS Digit Health'), ('NLMid', '9918335064206676'), ('ISSN', '2767-3170'), ('ESSN', '2767-3170')]))])"
+pubYear,2024
+pageInfo,e0000501
+affiliation,"Maternal and Child Health Intervention Research Group, London School of Hygiene and Tropical Medicine, London, United Kingdom."
+publicationStatus,epublish
+language,eng
+pubModel,Electronic-eCollection
+pubTypeList,"OrderedDict([('pubType', ['other', 'Journal Article'])])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.1371/journal.pdig.0000501')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC11045089')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC11045089?pdf=render')])])])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,N
+citedByCount,0
+hasData,N
+hasReferences,Y
+hasTextMinedTerms,N
+hasDbCrossReferences,N
+hasLabsLinks,Y
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCreation,2024-04-25
+firstIndexDate,2024-04-26
+fullTextReceivedDate,2024-04-29
+dateOfRevision,2024-04-27
+electronicPublicationDate,2024-04-25
+firstPublicationDate,2024-04-25

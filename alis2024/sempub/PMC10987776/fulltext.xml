@@ -1,0 +1,675 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="methods-article"><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Archiving and Interchange DTD v2.3 20070202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName archivearticle.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName nlm2jats3.xsl?><?ConverterInfo.Version 1?><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Front Plant Sci</journal-id><journal-id journal-id-type="iso-abbrev">Front Plant Sci</journal-id><journal-id journal-id-type="publisher-id">Front. Plant Sci.</journal-id><journal-title-group><journal-title>Frontiers in Plant Science</journal-title></journal-title-group><issn pub-type="epub">1664-462X</issn><publisher><publisher-name>Frontiers Media S.A.</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmcid">10987776</article-id><article-id pub-id-type="doi">10.3389/fpls.2024.1361716</article-id><article-categories><subj-group subj-group-type="heading"><subject>Plant Science</subject><subj-group><subject>Methods</subject></subj-group></subj-group></article-categories><title-group><article-title>A new model construction based on the knowledge graph for mining elite polyphenotype genes in crops</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Zhang</surname><given-names>Dandan</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><uri xlink:href="https://loop.frontiersin.org/people/2610870"/><role content-type="https://credit.niso.org/contributor-roles/data-curation/"/><role content-type="https://credit.niso.org/contributor-roles/formal-analysis/"/><role content-type="https://credit.niso.org/contributor-roles/investigation/"/><role content-type="https://credit.niso.org/contributor-roles/methodology/"/><role content-type="https://credit.niso.org/contributor-roles/resources/"/><role content-type="https://credit.niso.org/contributor-roles/writing-original-draft/"/><role content-type="https://credit.niso.org/contributor-roles/writing-review-editing/"/></contrib><contrib contrib-type="author" corresp="yes"><name><surname>Zhao</surname><given-names>Ruixue</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="fn001" ref-type="author-notes">
+<sup>*</sup>
+</xref><role content-type="https://credit.niso.org/contributor-roles/funding-acquisition/"/><role content-type="https://credit.niso.org/contributor-roles/project-administration/"/><role content-type="https://credit.niso.org/contributor-roles/supervision/"/><role content-type="https://credit.niso.org/contributor-roles/writing-review-editing/"/></contrib><contrib contrib-type="author"><name><surname>Xian</surname><given-names>Guojian</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff3" ref-type="aff">
+<sup>3</sup>
+</xref><role content-type="https://credit.niso.org/contributor-roles/supervision/"/><role content-type="https://credit.niso.org/contributor-roles/writing-review-editing/"/></contrib><contrib contrib-type="author"><name><surname>Kou</surname><given-names>Yuantao</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref><role content-type="https://credit.niso.org/contributor-roles/project-administration/"/><role content-type="https://credit.niso.org/contributor-roles/supervision/"/><role content-type="https://credit.niso.org/contributor-roles/writing-review-editing/"/></contrib><contrib contrib-type="author"><name><surname>Ma</surname><given-names>Weilu</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><role content-type="https://credit.niso.org/contributor-roles/data-curation/"/><role content-type="https://credit.niso.org/contributor-roles/writing-review-editing/"/></contrib></contrib-group><aff id="aff1">
+<sup>1</sup>
+<institution>Agricultural Information Institute of Chinese Academy of Agricultural Sciences</institution>, <addr-line>Beijing</addr-line>, <country>China</country>
+</aff><aff id="aff2">
+<sup>2</sup>
+<institution>Key Laboratory of Agricultural Integration Publishing Knowledge Mining and Knowledge Service, National Press and Publication Administration</institution>, <addr-line>Beijing</addr-line>, <country>China</country>
+</aff><aff id="aff3">
+<sup>3</sup>
+<institution>Key Laboratory of Agricultural Big Data, Ministry of Agriculture and Rural Affairs</institution>, <addr-line>Beijing</addr-line>, <country>China</country>
+</aff><author-notes><fn fn-type="edited-by"><p>Edited by: Ling-Ling Chen, Guangxi University, China</p></fn><fn fn-type="edited-by"><p>Reviewed by: Jianxiao Liu, Huazhong Agricultural University, China</p><p>Jing Li, Integrated DNA Technologies, United States</p></fn><corresp id="fn001">*Correspondence: Ruixue Zhao, <email xlink:href="mailto:zhaoruixue@caas.cn">zhaoruixue@caas.cn</email>
+</corresp></author-notes><pub-date pub-type="epub"><day>20</day><month>3</month><year>2024</year></pub-date><pub-date pub-type="collection"><year>2024</year></pub-date><volume>15</volume><elocation-id>1361716</elocation-id><history>
+<date date-type="received"><day>26</day><month>12</month><year>2023</year></date>
+<date date-type="accepted"><day>04</day><month>3</month><year>2024</year></date>
+</history><permissions><copyright-statement>Copyright &#x000a9; 2024 Zhang, Zhao, Xian, Kou and Ma</copyright-statement><copyright-year>2024</copyright-year><copyright-holder>Zhang, Zhao, Xian, Kou and Ma</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</license-p></license></permissions><abstract><p>Identifying polyphenotype genes that simultaneously regulate important agronomic traits (e.g., plant height, yield, and disease resistance) is critical for developing novel high-quality crop varieties. Predicting the associations between genes and traits requires the organization and analysis of multi-dimensional scientific data. The existing methods for establishing the relationships between genomic data and phenotypic data can only elucidate the associations between genes and individual traits. However, there are relatively few methods for detecting elite polyphenotype genes. In this study, a knowledge graph for traits regulating-genes was constructed by collecting data from the PubMed database and eight other databases related to the staple food crops rice, maize, and wheat as well as the model plant <italic>Arabidopsis thaliana</italic>. On the basis of the knowledge graph, a model for predicting traits regulating-genes was constructed by combining the data attributes of the gene nodes and the topological relationship attributes of the gene nodes. Additionally, a scoring method for predicting the genes regulating specific traits was developed to screen for elite polyphenotype genes. A total of 125,591 nodes and 547,224 semantic relationships were included in the knowledge graph. The accuracy of the knowledge graph-based model for predicting traits regulating-genes was 0.89, the precision rate was 0.91, the recall rate was 0.96, and the F1 value was 0.94. Moreover, 4,447 polyphenotype genes for 31 trait combinations were identified, among which the rice polyphenotype gene <italic>IPA1</italic> and the <italic>A. thaliana</italic> polyphenotype gene <italic>CUC2</italic> were verified via a literature search. Furthermore, the wheat gene <italic>TraesCS5A02G275900</italic> was revealed as a potential polyphenotype gene that will need to be further characterized. Meanwhile, the result of venn diagram analysis between the polyphenotype gene datasets (consists of genes that are predicted by our model) and the transcriptome gene datasets (consists of genes that were differential expression in response to disease, drought or salt) showed approximately 70% and 54% polyphenotype genes were identified in the transcriptome datasets of Arabidopsis and rice, respectively. The application of the model driven by knowledge graph for predicting traits regulating-genes represents a novel method for detecting elite polyphenotype genes.</p></abstract><kwd-group><kwd>polyphenotype gene</kwd><kwd>cross-species</kwd><kwd>traits regulating-genes</kwd><kwd>knowledge graph</kwd><kwd>crop</kwd></kwd-group><funding-group><funding-statement>The author(s) declare financial support was received for the research, authorship, and/or publication of this article. We are very grateful for financial support of the National Science and Technology Major Project (2021ZD0113705).</funding-statement></funding-group><counts><fig-count count="5"/><table-count count="4"/><equation-count count="6"/><ref-count count="53"/><page-count count="12"/><word-count count="6376"/></counts><custom-meta-group><custom-meta><meta-name>section-in-acceptance</meta-name><meta-value>Plant Bioinformatics</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec sec-type="intro" id="s1"><label>1</label><title>Introduction</title><p>The development of the seed industry, which is critical for ensuring food security and maintaining the supply of important agricultural products, is largely dependent on high-quality crop gene resources. In terms of crop breeding, there is often a trade-off between traits. For example, there are negative correlations between high yield and disease resistance as well as between high yield and high quality. Thus, it may be difficult to simultaneously optimize two elite traits, which is one of the bottlenecks in crop breeding programs. Thus, mining for polyphenotype genes associated with elite traits may eliminate the trade-off effect during the development of new high-quality crop varieties. The &#x0201c;Breeding 4.0&#x0201d; concept is highlight the integration of life science, information science, and breeding science, which helps the identification of elite polyphenotype genes on the basis of hypothesis-driven passive exploration transition to data-driven active knowledge discovery (<xref rid="B44" ref-type="bibr">Wallace et&#x000a0;al., 2018</xref>). In addition, the methods of genome-wide association study (<xref rid="B28" ref-type="bibr">Liu et&#x000a0;al., 2023b</xref>), quantitative trait locus analysis (<xref rid="B18" ref-type="bibr">Jiang et&#x000a0;al., 2023</xref>), and bulk segregant analysis (<xref rid="B47" ref-type="bibr">Yu et&#x000a0;al., 2023</xref>) were conducted to establish the associations between genes and individual traits, but they were not conducive to mining for polyphenotype genes (<xref rid="B33" ref-type="bibr">Polderman et&#x000a0;al., 2015</xref>; <xref rid="B38" ref-type="bibr">Sonah et&#x000a0;al., 2015</xref>).</p><p>The rapid development and application of high-throughput sequencing technology has resulted in an exponential increase in the amount of multi-dimensional scientific data relevant to breeding. Moreover, several data platforms have emerged to support crop breeding research, including the genome annotation data platform Phytozome (<xref rid="B13" ref-type="bibr">Goodstein et&#x000a0;al., 2012</xref>), the protein sequence and functional analysis platform UniProt (Unified Protein Database) (<xref rid="B8" ref-type="bibr">Consortium, 2007</xref>), the pathway annotation data platform KEGG (Kyoto Encyclopedia of Genes and Genomes) (<xref rid="B5" ref-type="bibr">Chen et&#x000a0;al., 2017</xref>), the rice genomic variation and functional annotation platform RiceVarMap (Rice Variation Map) (<xref rid="B50" ref-type="bibr">Zhao et&#x000a0;al., 2021</xref>), the wheat genome platform IWGSC (International Wheat Genome Sequencing Consortium) (<xref rid="B2" ref-type="bibr">Appels et&#x000a0;al., 2018</xref>), and MaizeGDB (Maize Genetics and Genomics Database) (<xref rid="B34" ref-type="bibr">Portwood et&#x000a0;al., 2019</xref>). These data platforms are useful for analyzing the molecular mechanism regulating traits, but typically only in a single dimension. However, the characteristics of multi-source heterogeneous data make it extremely difficult to integrate multi-dimensional scientific data, which is problematic when mining for elite polyphenotype genes. Hence, a new method for integrating multi-dimensional scientific data for genes and related traits is urgently needed to facilitate the mining and application of elite polyphenotype genes.</p><p>Knowledge graphs are constructed to organize knowledge using graphical representations for associated data and integrate diverse scientific data from multiple sources. The intrinsic relevance of the knowledge can be inferred by predicting relationships between entities in the knowledge graph (<xref rid="B16" ref-type="bibr">Himmelstein et&#x000a0;al., 2017</xref>). Therefore, knowledge graphs have the ability to correlate and integrate multi-dimensional scientific data, thus enabling more effective exploration of subject knowledge discovery (<xref rid="B23" ref-type="bibr">Lan et&#x000a0;al., 2021</xref>; <xref rid="B46" ref-type="bibr">Yang et&#x000a0;al., 2022</xref>). Consideration of the data complex in life sciences, recently, a larger number of studies have focused on the application of knowledge graphs in medical sciences. Firstly, knowledge graphs applied in analysis of disease genes. Alshahrani et&#x000a0;al. developed Semantic Disease Gene Embeddings (SmuDGE) to rank disease-related genes, this model was constructed based on the knowledge graph with using feature learning-embedding entity vectors (<xref rid="B1" ref-type="bibr">Alshahrani and Hoehndorf, 2018</xref>). In addition, a disease knowledge graph CADA (i.e., case annotations and disorder annotations) was constructed by Peng et&#x000a0;al., which prioritizes the pathogenicity-related genes by combing the methods of network representation learning and link predictions (<xref rid="B32" ref-type="bibr">Peng et&#x000a0;al., 2021</xref>). To mine the highly correlated cancer genes, Choi et&#x000a0;al. proposed a knowledge graph-embedding model (KGED) based on convolutional neural networks, which used the gene-gene relationships inferred by KGED to generate gene interaction networks for specific cancer types (<xref rid="B6" ref-type="bibr">Choi and Lee, 2021</xref>). Secondly, knowledge graphs also applied in the discovery of knowledge paths in medical sciences. For instance, Dharmavaram et&#x000a0;al. revealed the hidden knowledge discovery by using a random walk algorithm, which extracts contextual information from the knowledge graph and generates knowledge paths closely related to the input knowledge (<xref rid="B10" ref-type="bibr">Dharmavaram et&#x000a0;al., 2019</xref>). Additionally, Pyysalo et&#x000a0;al. delved the knowledge discovery in pathogenic mechanisms underlying tumor formation by combing the methods of machine learning and natural language processing, to analyze the strength of entity associations according to the knowledge discovery method involving the co-occurrence of concepts (<xref rid="B36" ref-type="bibr">Pyysalo et&#x000a0;al., 2019</xref>). Thirdly, knowledge graphs were applied to the proposition of new research directions in medical sciences. Mohamed et&#x000a0;al. constructed a knowledge graph-embedding semantic model for predicting new drug-target interactions, which exploited the existing drug-target knowledge graph DrugBank (<xref rid="B31" ref-type="bibr">Mohamed et&#x000a0;al., 2020</xref>). In addition, Zhang et&#x000a0;al. proposed a knowledge graph to support the discovery of new Parkinson&#x02019;s drug candidates, which integrates knowledge from a local medical knowledge database and medical literature (<xref rid="B48" ref-type="bibr">Zhang and Che, 2021</xref>). Furthermore, Yang et&#x000a0;al. constructed a stroke-related knowledge graph by applying biomedical text mining methods, this model was target to the prediction of new directions in stroke research or the reusing of related drugs (<xref rid="B46" ref-type="bibr">Yang et&#x000a0;al., 2022</xref>). However, few of studies were applied the knowledge graphs in agricultural sciences. The Rothamsted Research Institute constructed the domain knowledge graph which is named KnetMiner, this model is focus on the knowledge system query of gene regulatory networks (<xref rid="B15" ref-type="bibr">Hassani-Pak et&#x000a0;al., 2021</xref>). In addition, The French Agricultural Research Centre for International Development (CIRAD) constructed the knowledge graph of Agronomic Linked Data (AgroLD), which integrates multiple plant datasets to support the development of scientific hypotheses related to complex plant traits (<xref rid="B24" ref-type="bibr">Larmande et&#x000a0;al., 2022</xref>). Hence, how to develop gene mining model based on knowledge graph, especially for mining elite polyphenotype genes remains largely unknown.</p><p>It is currently difficult to identify and determine the genomic locations of unknown genes using existing bioinformatics methods. Additionally, candidate genes must be individually verified via molecular biology experiments, which is often an expensive and time-consuming process. Furthermore, the proven methods for genome-wide association analyses, quantitative trait locus mapping, and mixed pool group analyses can establish the relationships between genes and single traits, but there are not appropriate for identifying elite polyphenotype genes. Thus, in this study, we constructed a model for predicting traits regulating-genes using a knowledge graph that combined the data attribute information of the gene nodes and the related topological relationship attribute information. Our objective was to predict traits regulating-genes on the basis of a multi-dimensional scientific data analysis, ultimately leading to the identification of elite polyphenotype genes.</p></sec><sec id="s2"><label>2</label><title>Data and methods</title><sec id="s2_1"><label>2.1</label><title>Data sources</title><p>In our previous study, PubMed database was used as the literature data source, and 8 other domain knowledge bases were selected as data sources, including Phytozome, Ensemble (European molecular biology laboratory&#x02019;s European bioinformatics institute), RGAP (rice genome annotation project), UniProt (universal protein resource), STRING (search tool for recurring instances of neighboring genes), Pfam (protein family), KEGG (Kyoto encyclopedia of genes and genomes) and GO (gene ontology) (<xref rid="B49" ref-type="bibr">Zhang et&#x000a0;al., 2024</xref>).</p><p>All the transcriptome datasets were obtained from the PubMed database according the phenotypes. To obtain transcriptome datasets related to disease, we obtained 589 differentially expressed genes (DEGs) resistance to Verticillium dahlia in <italic>Arabidopsis</italic> (<xref rid="B37" ref-type="bibr">Scholz et&#x000a0;al., 2018</xref>) and 4471 DEGs resistance to P kururiensisin in rice (<xref rid="B22" ref-type="bibr">King et&#x000a0;al., 2019</xref>). In addition, we obtained 14165 and 9751 DEGs in response to salt in <italic>Arabidopsis</italic> and rice, respectively (<xref rid="B53" ref-type="bibr">Zhou et&#x000a0;al., 2016</xref>; <xref rid="B9" ref-type="bibr">Crawford et&#x000a0;al., 2020</xref>). And we also obtained 3341 and 3003 DEGs in response to drought in <italic>Arabidopsis</italic> and rice, respectively (<xref rid="B11" ref-type="bibr">Fu et&#x000a0;al., 2017</xref>; <xref rid="B40" ref-type="bibr">Sura et&#x000a0;al., 2017</xref>). All those DEGs (|log(Fold change)|&#x02265;1) were selected by comparison of the stress treatment groups and control groups in the wild type.</p></sec><sec id="s2_2"><label>2.2</label><title>Construction of a knowledge graph for traits regulating-genes</title><p>Knowledge graph is a graph-based data structure consisting of multiple triples (entity-object attribute-entity) with nodes and edges, each node representing an &#x0201c;entity&#x0201d;, each edge representing an &#x0201c;object attributes&#x0201d;. Entity object attributes can reveal the semantic relationship between two entities.</p><p>In our previous studies, the knowledge graph for traits regulating-genes describes the relational hierarchy of knowledge organization between genes and traits. Its construction steps include the construction of ontology semantic model and triplet extraction based on ontology semantic model. Firstly, taking trait, gene and protein as the central entity, 13 entities are organized and associated through 14 object attributes to form an ontology semantic model. Secondly, based on the ontology semantic model, the corresponding entities are extracted from the above multiple data source knowledge base to form multiple triples. Finally, the constructed multi-type triplets was stored in the Neo4j graph database to form the knowledge graph for traits regulating-genes (<xref rid="B49" ref-type="bibr">Zhang et&#x000a0;al., 2024</xref>).</p></sec><sec id="s2_3"><label>2.3</label><title>Construction of a model for predicting traits regulating-genes</title><p>In knowledge graph, knowledge mining method of link prediction is that the likelihood of a &#x0201c;new link&#x0201d; between entities may be predicted by calculating the closeness between two entities. The study have shown that link prediction can be applied in knowledge graph to realize the subject knowledge discovery (<xref rid="B32" ref-type="bibr">Peng et&#x000a0;al., 2021</xref>). Based on the knowledge mining principle of link prediction, we constructed a model for predicting traits regulating-genes.</p><p>Considering the unknown relationships between genes and traits, this study adopted the knowledge mining method based on predicted links to determine the similarity between the entities of unknown genes (unknown relationships between the genes and traits) and known genes (known relationships between the genes and traits). Potential &#x0201c;new links&#x0201d; between unknown genes and traits were predicted according to the traits regulated by known genes. The characteristics of the multi-dimensional scientific data associations between the genes and traits in the knowledge graph were used to construct a model for predicting traits regulating-genes. The model calculates the similarity between known gene and unknown gene entities to predict the traits regulated by the unknown genes.</p><p>The formula for assessing the similarity between two gene entities in the model consists of three parts (<xref rid="f1" ref-type="fig">
+<bold>Figure&#x000a0;1</bold>
+</xref>). First, the number of co-connected entities between genes represents the co-occurrence frequency of unknown genes and known genes. Second, the number of co-connected entity categories between genes represents the structural characteristics shared by unknown genes and known genes at different molecular levels. Third, the similarity score between the proteins obtained by calculating protein sequence similarity. The similarity score represents the genes similarity in conserved functions. Therefore, we predicted the traits regulating-genes using the following formula for calculating the similarity score:</p><fig position="float" id="f1"><label>Figure&#x000a0;1</label><caption><p>Schematic diagram of the model for predicting traits regulating-genes. Different colored lines represent different relationships between entities.</p></caption><graphic xlink:href="fpls-15-1361716-g001" position="float"/></fig><disp-formula>
+<mml:math id="M1" display="block" overflow="scroll"><mml:mrow><mml:mi>S</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:mtext>g</mml:mtext><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mtext>&#x000a0;g</mml:mtext><mml:mn>2</mml:mn></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mtext>C</mml:mtext><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mtext>k</mml:mtext><mml:mo stretchy="false">)</mml:mo><mml:mo>&#x000b7;</mml:mo></mml:mrow><mml:mtext>D</mml:mtext><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mtext>k</mml:mtext><mml:mo stretchy="false">)</mml:mo><mml:mo>&#x000b7;</mml:mo></mml:mrow><mml:mtext>S</mml:mtext><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:mtext>p</mml:mtext><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mtext>&#x000a0;p</mml:mtext><mml:mn>2</mml:mn></mml:mrow><mml:mo stretchy="false">)</mml:mo><mml:mo>.</mml:mo></mml:mrow></mml:mrow></mml:math>
+</disp-formula><p>where S(g1, g2) indicates the degree of similarity between two gene entities; g1 is a known trait regulating-gene; g2 is an unknown trait regulating- gene; S(p1, p2) indicates the degree of similarity between two protein entities; p1 and p2 respectively are the proteins encoded by g1 and g2; N(x) represents a collection of nodes adjacent to the node gene x; <italic>k</italic>=N(g1)&#x02229;N(g2); C(<italic>k</italic>) is the number of entities in the node collection <italic>k</italic>; and D(<italic>k</italic>) is the number of entity categories for the node collection <italic>k</italic>. In the formula, C(k) and D(k) represent topological relationship attributes of the gene nodes in the knowledge graph, whereas S(p1, p2) represents data attribute of the gene nodes in the knowledge graph.</p></sec><sec id="s2_4"><label>2.4</label><title>Determination of the threshold for the model for predicting traits regulating-genes</title><p>The model for predicting traits regulating-genes was used to quantify the similarity between unknown genes and known genes. A high similarity score indicates that the unknown gene is closely related to a known gene. Moreover, the genes may regulate the same trait. We assumed that when the similarity score exceeded a certain threshold, the unknown gene and the known gene regulate the same trait. To determine the threshold, the gene-trait association datasets published from 1988 to 2023 were selected to make the gene-gene association datasets, which to calculate the similarity to all known trait regulating- genes. Based on the time when genes were first discovered, gene-gene association datasets were divided into training sets and validation sets in a ratio about 8:2. The gene-gene association datasets compiled from 1988 to 2017 of a total of 728 served as the training set, whereas the gene-gene association datasets compiled from 2018 to 2023 of a total of 157 served as the validation set. The threshold was determined by training the datasets, with the F1 value used as the threshold filtering index. More specifically, the similarity score corresponding to the maximum F1 value was set as the threshold (<xref rid="B35" ref-type="bibr">Powers, 2020</xref>).</p></sec><sec id="s2_5"><label>2.5</label><title>Evaluation of the utility of the model for predicting traits regulating-genes</title><p>On the basis of the selected threshold, the time-slicing method was used to predict the regulatory genes for traits in the test set. Four commonly used evaluation indices (i.e., accuracy, precision, recall, and F1 value) were used to evaluate the screening results in the validation set to verify the utility of the model. The formulae for the selected indices were as follows:</p><disp-formula>
+<mml:math id="M2" display="block" overflow="scroll"><mml:mrow><mml:mtext>Accuracy</mml:mtext><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mtext>TP</mml:mtext><mml:mo>+</mml:mo><mml:mtext>TN</mml:mtext></mml:mrow><mml:mrow><mml:mtext>TP</mml:mtext><mml:mo>+</mml:mo><mml:mtext>TN</mml:mtext><mml:mo>+</mml:mo><mml:mtext>FP</mml:mtext><mml:mo>+</mml:mo><mml:mtext>FN</mml:mtext></mml:mrow></mml:mfrac><mml:mo>,</mml:mo></mml:mrow></mml:math>
+</disp-formula><disp-formula>
+<mml:math id="M3" display="block" overflow="scroll"><mml:mrow><mml:mtext>Precision</mml:mtext><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mtext>TP</mml:mtext></mml:mrow><mml:mrow><mml:mtext>TP</mml:mtext><mml:mo>+</mml:mo><mml:mtext>FP</mml:mtext></mml:mrow></mml:mfrac><mml:mo>,</mml:mo></mml:mrow></mml:math>
+</disp-formula><disp-formula id="eqand">
+<mml:math id="M4" display="block" overflow="scroll"><mml:mrow><mml:mtext>Recall</mml:mtext><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mtext>TP</mml:mtext></mml:mrow><mml:mrow><mml:mtext>TP</mml:mtext><mml:mo>+</mml:mo><mml:mtext>FN</mml:mtext></mml:mrow></mml:mfrac><mml:mo>&#x000a0;</mml:mo><mml:mtext>and</mml:mtext></mml:mrow></mml:math>
+</disp-formula><disp-formula>
+<mml:math id="M5" display="block" overflow="scroll"><mml:mrow><mml:mtext>F</mml:mtext><mml:mn>1</mml:mn><mml:mo>&#x02212;</mml:mo><mml:mtext>score</mml:mtext><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>2</mml:mn><mml:mo>&#x000d7;</mml:mo><mml:mtext>Precision</mml:mtext><mml:mo>&#x000d7;</mml:mo><mml:mtext>Recall</mml:mtext></mml:mrow><mml:mrow><mml:mtext>Precision</mml:mtext><mml:mo>+</mml:mo><mml:mtext>Recall</mml:mtext></mml:mrow></mml:mfrac><mml:mo>,</mml:mo></mml:mrow></mml:math>
+</disp-formula><p>where True Positive (TP) is an outcome where the model correctly predicts the positive class; True Negative (TN) is an outcome where the model correctly predicts the negative class; False Positive (FP) is an outcome where the model incorrectly predicts the positive class; False Negative (FN) is an outcome where the model incorrectly predicts the negative class.</p></sec><sec id="s2_6"><label>2.6</label><title>Mining for polyphenotype genes affecting the target traits</title><p>The model for predicting traits regulating-genes was used to examine the similarity between the unknown genes and the known genes regulating the target traits. The known genes that satisfied the threshold were selected to predict the traits regulated by the unknown genes. Finally, the associations between the unknown genes and multiple traits were established to identify the polyphenotype genes regulating the target traits. Increases in the similarity score reflected increases in the likelihood the unknown gene and known gene regulate the same trait. Considering the differences in the distribution of the similarity scores, we propose a comprehensive ranking method of elite polyphenotype genes. We comprehensively ranked the elite polyphenotype genes by ranking the unknown gene similarity scores for each regulated trait and then ranking the polyphenotype genes by counting their average ranking in each regulated trait. The following formula was used for this ranking:</p><disp-formula>
+<mml:math id="M6" display="block" overflow="scroll"><mml:mrow><mml:msub><mml:mi>S</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>u</mml:mi><mml:mi>m</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:munderover><mml:mo>&#x02211;</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>n</mml:mi></mml:munderover><mml:mfrac><mml:mrow><mml:mi>R</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:msub><mml:mi>g</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow><mml:mi>n</mml:mi></mml:mfrac><mml:mo>.</mml:mo></mml:mrow></mml:math>
+</disp-formula><p>where <italic>i</italic> represents the traits; <italic>n</italic> represents the number of traits; and <italic>R</italic>(<italic>g<sub>i</sub>
+</italic>) represents the similarity score ranking for the gene for the <italic>i</italic> trait.</p></sec></sec><sec sec-type="results" id="s3"><label>3</label><title>Results</title><sec id="s3_1"><label>3.1</label><title>Knowledge graph for traits regulating-genes</title><p>Data for the model plant <italic>Arabidopsis thaliana</italic> and the staple crops rice, maize, and wheat were used to construct a knowledge graph comprising 13 entities, 16 data attributes, and 14 object attributes, with a total of 125,591 nodes and 547,224 semantic relationships. Specific details regarding the triplet semantic relationships are provided in <xref rid="T1" ref-type="table">
+<bold>Table&#x000a0;1</bold>
+</xref>.</p><table-wrap position="float" id="T1"><label>Table&#x000a0;1</label><caption><p>Statistics of triples in knowledge graph for traits regulating-genes.</p></caption><table frame="hsides" rules="groups"><thead><tr><th valign="middle" align="left" rowspan="1" colspan="1">head entity; relation; tail entity</th><th valign="middle" align="left" rowspan="1" colspan="1">head entity</th><th valign="middle" align="left" rowspan="1" colspan="1">triples</th><th valign="middle" align="left" rowspan="1" colspan="1">tail entity</th><th valign="middle" align="left" rowspan="1" colspan="1">data source</th></tr></thead><tbody><tr><td valign="top" align="left" rowspan="1" colspan="1">(protein; associates with; trait)</td><td valign="top" align="left" rowspan="1" colspan="1">1060</td><td valign="top" align="left" rowspan="1" colspan="1">1235</td><td valign="top" align="left" rowspan="1" colspan="1">6</td><td valign="top" align="left" rowspan="1" colspan="1">PubMed</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">(protein; homologous to; protein)</td><td valign="top" align="left" rowspan="1" colspan="1">1060</td><td valign="top" align="left" rowspan="1" colspan="1">191221</td><td valign="top" align="left" rowspan="1" colspan="1">75863</td><td valign="top" align="left" rowspan="1" colspan="1">UniProt</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">(protein; interacts with; protein)</td><td valign="top" align="left" rowspan="1" colspan="1">351</td><td valign="top" align="left" rowspan="1" colspan="1">1150</td><td valign="top" align="left" rowspan="1" colspan="1">351</td><td valign="top" align="left" rowspan="1" colspan="1">STRING</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">(protein; corresponding to; gene)</td><td valign="top" align="left" rowspan="1" colspan="1">76427</td><td valign="top" align="left" rowspan="1" colspan="1">76427</td><td valign="top" align="left" rowspan="1" colspan="1">28761</td><td valign="top" align="left" rowspan="1" colspan="1">Phytozome; RAPdb</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">(protein; identify with; gene symbol)</td><td valign="top" align="left" rowspan="1" colspan="1">18761</td><td valign="top" align="left" rowspan="1" colspan="1">18761</td><td valign="top" align="left" rowspan="1" colspan="1">12613</td><td valign="top" align="left" rowspan="1" colspan="1">UniProt</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">(protein; involves in; signal pathway)</td><td valign="top" align="left" rowspan="1" colspan="1">3345</td><td valign="top" align="left" rowspan="1" colspan="1">3486</td><td valign="top" align="left" rowspan="1" colspan="1">235</td><td valign="top" align="left" rowspan="1" colspan="1">UniProt</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">(protein; located in; subcellular localization)</td><td valign="top" align="left" rowspan="1" colspan="1">24317</td><td valign="top" align="left" rowspan="1" colspan="1">41099</td><td valign="top" align="left" rowspan="1" colspan="1">1885</td><td valign="top" align="left" rowspan="1" colspan="1">UniProt</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">(protein; has protein domain; domain)</td><td valign="top" align="left" rowspan="1" colspan="1">2211</td><td valign="top" align="left" rowspan="1" colspan="1">2424</td><td valign="top" align="left" rowspan="1" colspan="1">322</td><td valign="top" align="left" rowspan="1" colspan="1">UniProt</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">(protein; belongs to; protein family)</td><td valign="top" align="left" rowspan="1" colspan="1">41422</td><td valign="top" align="left" rowspan="1" colspan="1">57582</td><td valign="top" align="left" rowspan="1" colspan="1">642</td><td valign="top" align="left" rowspan="1" colspan="1">Pfam</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">(gene; located in; cellular component)</td><td valign="top" align="left" rowspan="1" colspan="1">20673</td><td valign="top" align="left" rowspan="1" colspan="1">32897</td><td valign="top" align="left" rowspan="1" colspan="1">389</td><td valign="top" align="left" rowspan="1" colspan="1">Ensembl plants; GO</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">(gene; performs; molecular function)</td><td valign="top" align="left" rowspan="1" colspan="1">25990</td><td valign="top" align="left" rowspan="1" colspan="1">63750</td><td valign="top" align="left" rowspan="1" colspan="1">1176</td><td valign="top" align="left" rowspan="1" colspan="1">Ensembl plants; GO</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">(gene; involves in; biological process)</td><td valign="top" align="left" rowspan="1" colspan="1">21794</td><td valign="top" align="left" rowspan="1" colspan="1">46905</td><td valign="top" align="left" rowspan="1" colspan="1">2105</td><td valign="top" align="left" rowspan="1" colspan="1">Ensembl plants; GO</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">(gene; involves in; metabolic pathway)</td><td valign="top" align="left" rowspan="1" colspan="1">4765</td><td valign="top" align="left" rowspan="1" colspan="1">4777</td><td valign="top" align="left" rowspan="1" colspan="1">604</td><td valign="top" align="left" rowspan="1" colspan="1">Ensembl plants; KEGG</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">(gene; encodes the enzyme type; enzyme)</td><td valign="top" align="left" rowspan="1" colspan="1">5094</td><td valign="top" align="left" rowspan="1" colspan="1">5510</td><td valign="top" align="left" rowspan="1" colspan="1">423</td><td valign="top" align="left" rowspan="1" colspan="1">Ensembl plants; KEGG</td></tr></tbody></table><table-wrap-foot><fn><p>UniProt, Universal Protein Resource; KEGG, Kyoto Encyclopedia of Genes and Genomes; Ensemble, European Molecular Biology Laboratory&#x02019;s European Bioinformatics Institute; RAPdb, Rice Genome Annotation Project; GO, Gene Ontology.</p></fn></table-wrap-foot></table-wrap></sec><sec id="s3_2"><label>3.2</label><title>Prediction of genes regulating-traits</title><p>To predict the genes regulating specific traits, we obtained 885 gene-trait association datasets published from 1988 to 2023 and divided them into training set and validation set. In the training set, F1 value used as the threshold filtering index. When F1 peaked, the corresponding gene node similarity score was 502.36 (<xref rid="f2" ref-type="fig">
+<bold>Figure&#x000a0;2</bold>
+</xref>).</p><fig position="float" id="f2"><label>Figure&#x000a0;2</label><caption><p>Select threshold of the model for traits regulating-genes. The abscissa is the gene similarity score, the ordinate is the F1 value, and the model has the best effect when the F1 value reaches the peak, and the corresponding abscissa similarity score is the threshold.</p></caption><graphic xlink:href="fpls-15-1361716-g002" position="float"/></fig><p>On the basis of the model for predicting traits regulating-genes proposed in this study, the rice gene <italic>LOC_Os05g12260</italic> (<xref rid="f3" ref-type="fig">
+<bold>Figure&#x000a0;3</bold>
+</xref>) was revealed to be associated with drought resistance traits in 2014 (<xref rid="B20" ref-type="bibr">Kim et&#x000a0;al., 2014</xref>). This model was also used to calculate the similarity between the gene entities <italic>LOC_Os05g12260</italic> and <italic>LOC_Os02g15640</italic>. There were 13 coincident nodes between the two gene entities. Additionally, there were four coincident node categories. The similarity score for the proteins (Q6I5C3 and Q6EN42, respectively) encoded by <italic>LOC_Os05g12260</italic> and <italic>LOC_Os02g15640</italic> was 79.191. The similarity score for the two gene entities (3,801.17; i.e., 12 &#x000d7; 4 &#x000d7; 79.191) exceeded the gene similarity threshold (502.36). We speculated that <italic>LOC_Os02g15640</italic> is likely associated with drought resistance. A previous study indicated that the overexpression of this gene significantly improves the drought and cold tolerance of rice (<xref rid="B41" ref-type="bibr">Tian et&#x000a0;al., 2015</xref>). Accordingly, the findings of the current study reflect the utility of the model for predicting traits regulating-genes.</p><fig position="float" id="f3"><label>Figure&#x000a0;3</label><caption><p>Prediction of <italic>LOC_Os02g15640</italic>&#x02019;s regulatory traits. The different-colored circles and arrow lines in the legend in the upper right corner represent different entity types and relationship types, respectively, and the numbers in parentheses indicate the number of nodes and relationships of different types. For example, the red circle represents the &#x0201c;trait&#x0201d; node, and the number is 1; The light blue circle represents the &#x0201c;protein&#x0201d; node, which has a quantity of 2; The orange circle represents the &#x0201c;gene&#x0201d; node, which has several 2. Taking the relationship type as an example, the brown arrow line represents the &#x0201c;homologous to&#x0201d; relationship type, and the number is 1; The light blue arrow line represents the exercise &#x0201c;(performs)&#x0201d; relationship type, with a quantity of 4; The number of co-connected coincident nodes between the gene entity <italic>LOC_Os05g12260</italic> and the gene entity <italic>LOC_Os02g15640</italic> was 12, the number of coincident node classes was 4, and the corresponding proteins were Q6I5C3 and Q6EN42, and the similarity between them was 79.191.</p></caption><graphic xlink:href="fpls-15-1361716-g003" position="float"/></fig></sec><sec id="s3_3"><label>3.3</label><title>Mining the elite polyphenotype genes</title><p>To identify elite polyphenotype genes, the knowledge mining method for predicting links was used to establish the implicit associations between gene entities and multiple trait entities on the basis of the model for predicting traits regulating-genes. A total of 4,447 polyphenotype genes for 31 trait combinations were mined (<xref rid="T2" ref-type="table">
+<bold>Table&#x000a0;2</bold>
+</xref>), including 1,925 functional known genes (<xref rid="SM1" ref-type="supplementary-material">
+<bold>Supplementary Table&#x000a0;1</bold>
+</xref>) and 2,522 functional unknown genes (<xref rid="SM1" ref-type="supplementary-material">
+<bold>Supplementary Table&#x000a0;2</bold>
+</xref>).</p><table-wrap position="float" id="T2"><label>Table&#x000a0;2</label><caption><p>The number of polyphenotype genes related to different combination traits.</p></caption><table frame="hsides" rules="groups"><thead><tr><th valign="top" align="left" rowspan="1" colspan="1">Traits</th><th valign="top" align="left" rowspan="1" colspan="1">Numbers</th></tr></thead><tbody><tr><td valign="top" align="left" rowspan="1" colspan="1">salt_resistance, drought_resistance</td><td valign="top" align="left" rowspan="1" colspan="1">962</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">disease_resistance, salt_resistance</td><td valign="top" align="left" rowspan="1" colspan="1">800</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">disease_resistance, drought_resistance</td><td valign="top" align="left" rowspan="1" colspan="1">378</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">disease_resistance, plant_height_reduce</td><td valign="top" align="left" rowspan="1" colspan="1">168</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">salt_resistance, plant_height_reduce</td><td valign="top" align="left" rowspan="1" colspan="1">156</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">disease_resistance, insect_resistance</td><td valign="top" align="left" rowspan="1" colspan="1">142</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">disease_resistance, grain_weight_increase</td><td valign="top" align="left" rowspan="1" colspan="1">108</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">salt_resistance, insect_resistance</td><td valign="top" align="left" rowspan="1" colspan="1">98</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">grain_weight_increase, plant_height_reduce</td><td valign="top" align="left" rowspan="1" colspan="1">43</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">plant_height_reduce, insect_resistance</td><td valign="top" align="left" rowspan="1" colspan="1">6</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">grain_weight_increase, insect_resistance</td><td valign="top" align="left" rowspan="1" colspan="1">2</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">insect_resistance, drought_resistance</td><td valign="top" align="left" rowspan="1" colspan="1">2</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">plant_height_reduce, drought_resistance</td><td valign="top" align="left" rowspan="1" colspan="1">1</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">grain_weight_increase, salt_resistance</td><td valign="top" align="left" rowspan="1" colspan="1">12</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">disease_resistance, salt_resistance, drought_resistance</td><td valign="top" align="left" rowspan="1" colspan="1">1173</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">disease_resistance, salt_resistance, plant_height_reduce</td><td valign="top" align="left" rowspan="1" colspan="1">78</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">disease_resistance, grain_weight_increase, plant_height_reduce</td><td valign="top" align="left" rowspan="1" colspan="1">74</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">salt_resistance, insect_resistance, drought_resistance</td><td valign="top" align="left" rowspan="1" colspan="1">39</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">disease_resistance, salt_resistance, insect_resistance</td><td valign="top" align="left" rowspan="1" colspan="1">27</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">grain_weight_increase, salt_resistance, plant_height_reduce</td><td valign="top" align="left" rowspan="1" colspan="1">19</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">disease_resistance, plant_height_reduce, insect_resistance</td><td valign="top" align="left" rowspan="1" colspan="1">8</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">disease_resistance, grain_weight_increase, insect_resistance</td><td valign="top" align="left" rowspan="1" colspan="1">3</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">grain_weight_increase, salt_resistance, drought_resistance</td><td valign="top" align="left" rowspan="1" colspan="1">2</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">disease_resistance, grain_weight_increase, drought_resistance</td><td valign="top" align="left" rowspan="1" colspan="1">1</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">disease_resistance, insect_resistance, drought_resistance</td><td valign="top" align="left" rowspan="1" colspan="1">1</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">disease_resistance, grain_weight_increase, salt_resistance, drought_resistance</td><td valign="top" align="left" rowspan="1" colspan="1">52</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">disease_resistance, salt_resistance, insect_resistance, drought_resistance</td><td valign="top" align="left" rowspan="1" colspan="1">41</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">disease_resistance, salt_resistance, plant_height_reduce, drought_resistance</td><td valign="top" align="left" rowspan="1" colspan="1">11</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">disease_resistance, grain_weight_increase, salt_resistance, plant_height_reduce</td><td valign="top" align="left" rowspan="1" colspan="1">6</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">disease_resistance, grain_weight_increase, plant_height_reduce, insect_resistance</td><td valign="top" align="left" rowspan="1" colspan="1">1</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">grain_weight_increase, disease_resistance, drought_resistance, plant_height_reduce, salt_resistance</td><td valign="top" align="left" rowspan="1" colspan="1">34</td></tr></tbody></table></table-wrap><p>To further illustrate this model, we selected functional known genes and functional unknown genes as examples respectively. For instance, we identified the functional known gene <italic>CUC2</italic> (<italic>AT5G53950</italic>) which is an elite polyphenotype gene (<xref rid="f4" ref-type="fig">
+<bold>Figure&#x000a0;4A</bold>
+</xref>). In <italic>A. thaliana</italic>, <italic>AT5G39610</italic> is associated with salt resistance (<xref rid="B51" ref-type="bibr">Zhao et&#x000a0;al., 2022</xref>), <italic>AT3G49530</italic> is associated with drought resistance (<xref rid="B21" ref-type="bibr">Kim et&#x000a0;al., 2012</xref>), and <italic>AT5G08790</italic> is associated with disease resistance (<xref rid="B43" ref-type="bibr">Viswanath et&#x000a0;al., 2023</xref>). In rice, <italic>LOC_OS04G38720</italic> influences plant height and grain weight (<xref rid="B3" ref-type="bibr">Chen et&#x000a0;al., 2015</xref>; <xref rid="B17" ref-type="bibr">Jiang et&#x000a0;al., 2018</xref>). The similarity scores between <italic>AT5G53950</italic> and the above-mentioned four genes (1,156.86, 671.88, 653.84, and 645.00, respectively) were higher than the threshold (502.36), implying <italic>AT5G53950</italic> may regulate salt resistance, drought resistance, disease resistance, plant height, and grain weight. Recent studies confirmed that the <italic>A. thaliana</italic> gene <italic>AT5G53950</italic> contributes to drought resistance (<xref rid="B30" ref-type="bibr">Meng et&#x000a0;al., 2023</xref>), salt resistance (<xref rid="B26" ref-type="bibr">Li et&#x000a0;al., 2023</xref>), grain weight (<xref rid="B27" ref-type="bibr">Liu et&#x000a0;al., 2023a</xref>), and disease resistance (<xref rid="B39" ref-type="bibr">Su et&#x000a0;al., 2023</xref>), providing further evidence of the utility of our model for predicting traits regulating-genes.</p><fig position="float" id="f4"><label>Figure&#x000a0;4</label><caption><p>Mining polyphenotype gene. <bold>(A)</bold> Mining of functional known genes <italic>AT5G53950</italic>; <bold>(B)</bold> Mining of functional unknown genes <italic>TraesCS5A02G275900</italic>. The differently colored circles and arrow lines in the legend represent different entity types and relationship types respectively, the numbers in parentheses indicate the number of nodes and relationships of different types. Taking <bold>(A)</bold> as an example, the red circle represents the &#x0201c;trait&#x0201d; node, and the number is 5. The light blue circle represents the &#x0201c;protein&#x0201d; node, which is in number 5. The orange circle represents the &#x0201c;gene&#x0201d; node, which has several 5. The brown arrow line represents the &#x0201c;homologous to&#x0201d; relationship type, and the number is 10.</p></caption><graphic xlink:href="fpls-15-1361716-g004" position="float"/></fig><p>Among the functional unknown genes, <italic>TraesCS5A02G275900</italic> was selected as a representative example (<xref rid="f4" ref-type="fig">
+<bold>Figure&#x000a0;4B</bold>
+</xref>). The <italic>A. thaliana</italic> gene <italic>AT5G39610</italic> is associated with salt resistance (<xref rid="B51" ref-type="bibr">Zhao et&#x000a0;al., 2022</xref>). In rice, <italic>LOC_Os11g03370</italic> is associated with drought resistance and salt resistance (<xref rid="B52" ref-type="bibr">Zheng et&#x000a0;al., 2009</xref>), whereas <italic>LOC_Os12g03050</italic> is associated with disease resistance (<xref rid="B7" ref-type="bibr">Chromosomes and Consortia, 2005</xref>) and <italic>LOC_Os04g38720</italic> is correlated with plant height and grain weight (<xref rid="B3" ref-type="bibr">Chen et&#x000a0;al., 2015</xref>; <xref rid="B17" ref-type="bibr">Jiang et&#x000a0;al., 2018</xref>). The similarity scores between the wheat gene <italic>TraesCS5A02G275900</italic> and the above-mentioned four genes were 689.52, 602.25, 580.00, and 675.00, respectively, which exceeded the threshold (502.36). Hence, <italic>TraesCS5A02G275900</italic> may regulate salt resistance, drought resistance, disease resistance, plant height, and grain weight, but the possibility <italic>TraesCS5A02G275900</italic> is an elite polyphenotype gene remains to be experimentally verified.</p></sec><sec id="s3_4"><label>3.4</label><title>Identification of ideal polyphenotype genes for target traits</title><p>In response to the demand for mining suitable polyphenotype genes affecting target traits, we comprehensively ranked the elite polyphenotype genes according to the similarities between unknown and known genes. Specifically, the similarity scores of&#x000a0;the unknown genes for each regulated trait were ranked, after which the polyphenotype genes were comprehensively ranked in terms of the target traits. For example, during the cultivation of new high-quality crop varieties, dwarfism-related traits suitable for mechanized harvesting as well as high yields and disease resistance are ideal. Thus, we selected the top 10 genes (10 functional known genes and two functional unknown genes) for the regulated traits (<xref rid="T3" ref-type="table">
+<bold>Table&#x000a0;3</bold>
+</xref>).</p><table-wrap position="float" id="T3"><label>Table&#x000a0;3</label><caption><p>Top10 polyphenotype genes related to plant height, grain weight, and disease resistance.</p></caption><table frame="hsides" rules="groups"><thead><tr><th valign="middle" align="left" rowspan="1" colspan="1">Gene_ID</th><th valign="middle" align="left" rowspan="1" colspan="1">R_PH</th><th valign="middle" align="left" rowspan="1" colspan="1">R_GW</th><th valign="middle" align="left" rowspan="1" colspan="1">R_DiR</th><th valign="middle" align="left" rowspan="1" colspan="1">R_M</th><th valign="middle" align="left" rowspan="1" colspan="1">R_C</th><th valign="middle" align="left" rowspan="1" colspan="1">V_T</th></tr></thead><tbody><tr><td valign="middle" align="left" rowspan="1" colspan="1">
+<italic>LOC_Os08g39890</italic>
+</td><td valign="middle" align="left" rowspan="1" colspan="1">1</td><td valign="middle" align="left" rowspan="1" colspan="1">1</td><td valign="middle" align="left" rowspan="1" colspan="1">1</td><td valign="middle" align="left" rowspan="1" colspan="1">1.0</td><td valign="middle" align="left" rowspan="1" colspan="1">1</td><td valign="middle" align="left" rowspan="1" colspan="1">known</td></tr><tr><td valign="middle" align="left" rowspan="1" colspan="1">
+<italic>Zm00001d031451</italic>
+</td><td valign="middle" align="left" rowspan="1" colspan="1">8</td><td valign="middle" align="left" rowspan="1" colspan="1">5</td><td valign="middle" align="left" rowspan="1" colspan="1">4</td><td valign="middle" align="left" rowspan="1" colspan="1">5.7</td><td valign="middle" align="left" rowspan="1" colspan="1">2</td><td valign="middle" align="left" rowspan="1" colspan="1">known</td></tr><tr><td valign="middle" align="left" rowspan="1" colspan="1">
+<italic>Zm00001d052890</italic>
+</td><td valign="middle" align="left" rowspan="1" colspan="1">10</td><td valign="middle" align="left" rowspan="1" colspan="1">6</td><td valign="middle" align="left" rowspan="1" colspan="1">5</td><td valign="middle" align="left" rowspan="1" colspan="1">7.0</td><td valign="middle" align="left" rowspan="1" colspan="1">3</td><td valign="middle" align="left" rowspan="1" colspan="1">known</td></tr><tr><td valign="middle" align="left" rowspan="1" colspan="1">
+<italic>Zm00001d017742</italic>
+</td><td valign="middle" align="left" rowspan="1" colspan="1">1</td><td valign="middle" align="left" rowspan="1" colspan="1">2</td><td valign="middle" align="left" rowspan="1" colspan="1">24</td><td valign="middle" align="left" rowspan="1" colspan="1">9.0</td><td valign="middle" align="left" rowspan="1" colspan="1">4</td><td valign="middle" align="left" rowspan="1" colspan="1">known</td></tr><tr><td valign="middle" align="left" rowspan="1" colspan="1">
+<italic>LOC_Os02g47280</italic>
+</td><td valign="middle" align="left" rowspan="1" colspan="1">2</td><td valign="middle" align="left" rowspan="1" colspan="1">1</td><td valign="middle" align="left" rowspan="1" colspan="1">29</td><td valign="middle" align="left" rowspan="1" colspan="1">10.7</td><td valign="middle" align="left" rowspan="1" colspan="1">5</td><td valign="middle" align="left" rowspan="1" colspan="1">known</td></tr><tr><td valign="middle" align="left" rowspan="1" colspan="1">
+<italic>AT2G22840</italic>
+</td><td valign="middle" align="left" rowspan="1" colspan="1">15</td><td valign="middle" align="left" rowspan="1" colspan="1">15</td><td valign="middle" align="left" rowspan="1" colspan="1">6</td><td valign="middle" align="left" rowspan="1" colspan="1">12.0</td><td valign="middle" align="left" rowspan="1" colspan="1">6</td><td valign="middle" align="left" rowspan="1" colspan="1">known</td></tr><tr><td valign="middle" align="left" rowspan="1" colspan="1">
+<italic>Zm00001d018260</italic>
+</td><td valign="middle" align="left" rowspan="1" colspan="1">7</td><td valign="middle" align="left" rowspan="1" colspan="1">4</td><td valign="middle" align="left" rowspan="1" colspan="1">30</td><td valign="middle" align="left" rowspan="1" colspan="1">13.7</td><td valign="middle" align="left" rowspan="1" colspan="1">7</td><td valign="middle" align="left" rowspan="1" colspan="1">unknown</td></tr><tr><td valign="middle" align="left" rowspan="1" colspan="1">
+<italic>TraesCS6D02G245300</italic>
+</td><td valign="middle" align="left" rowspan="1" colspan="1">16</td><td valign="middle" align="left" rowspan="1" colspan="1">11</td><td valign="middle" align="left" rowspan="1" colspan="1">27</td><td valign="middle" align="left" rowspan="1" colspan="1">18.0</td><td valign="middle" align="left" rowspan="1" colspan="1">8</td><td valign="middle" align="left" rowspan="1" colspan="1">unknown</td></tr><tr><td valign="middle" align="left" rowspan="1" colspan="1">
+<italic>LOC_Os04g51190</italic>
+</td><td valign="middle" align="left" rowspan="1" colspan="1">24</td><td valign="middle" align="left" rowspan="1" colspan="1">13</td><td valign="middle" align="left" rowspan="1" colspan="1">18</td><td valign="middle" align="left" rowspan="1" colspan="1">18.3</td><td valign="middle" align="left" rowspan="1" colspan="1">9</td><td valign="middle" align="left" rowspan="1" colspan="1">known</td></tr><tr><td valign="middle" align="left" rowspan="1" colspan="1">
+<italic>AT1G27370</italic>
+</td><td valign="middle" align="left" rowspan="1" colspan="1">21</td><td valign="middle" align="left" rowspan="1" colspan="1">18</td><td valign="middle" align="left" rowspan="1" colspan="1">16</td><td valign="middle" align="left" rowspan="1" colspan="1">18.3</td><td valign="middle" align="left" rowspan="1" colspan="1">9</td><td valign="middle" align="left" rowspan="1" colspan="1">known</td></tr><tr><td valign="middle" align="left" rowspan="1" colspan="1">
+<italic>AT2G36400</italic>
+</td><td valign="middle" align="left" rowspan="1" colspan="1">11</td><td valign="middle" align="left" rowspan="1" colspan="1">7</td><td valign="middle" align="left" rowspan="1" colspan="1">38</td><td valign="middle" align="left" rowspan="1" colspan="1">18.7</td><td valign="middle" align="left" rowspan="1" colspan="1">10</td><td valign="middle" align="left" rowspan="1" colspan="1">known</td></tr><tr><td valign="middle" align="left" rowspan="1" colspan="1">
+<italic>AT4G37740</italic>
+</td><td valign="middle" align="left" rowspan="1" colspan="1">31</td><td valign="middle" align="left" rowspan="1" colspan="1">8</td><td valign="middle" align="left" rowspan="1" colspan="1">17</td><td valign="middle" align="left" rowspan="1" colspan="1">18.7</td><td valign="middle" align="left" rowspan="1" colspan="1">10</td><td valign="middle" align="left" rowspan="1" colspan="1">known</td></tr></tbody></table><table-wrap-foot><fn><p>R_PH, rank in plant height; R_GW, rank in grain weight; R_DiR, rank in disease resistance; R_M, mean rank in plant height, grain weight, and disease resistance; R_C, comprehensive rank according to R_M; V_T, verified trait, The term &#x0201c;known&#x0201d; indicates that this gene has been verified with at least one of the three traits in the literature, while the term &#x0201c;unknown&#x0201d; indicates that this gene has not been verified in the literature.</p></fn></table-wrap-foot></table-wrap><p>Among the selected genes, the functional known gene <italic>IPA1</italic> (<italic>LOC_Os08g39890</italic>) (<xref rid="T3" ref-type="table">
+<bold>Table&#x000a0;3</bold>
+</xref>) may be an ideal polyphenotype gene that likely regulates plant height, grain weight, and disease resistance. This gene reportedly encodes a plant-specific SBP-box domain-containing transcription factor that functions as a major regulator of the rice plant type (<xref rid="B19" ref-type="bibr">Jiao et&#x000a0;al., 2010</xref>). The <italic>ipa1-1D</italic> and <italic>ipa1-2D</italic> alleles can increase the number of panicles, decrease the number of ineffective tillers, thicken stems, enhance root system development, and ultimately significantly increase the yield; thus, they have been widely used for breeding elite rice varieties (<xref rid="B45" ref-type="bibr">Wang et&#x000a0;al., 2018</xref>). In addition, <italic>IPA1</italic> also plays an important regulatory role influencing disease resistance and environmental adaptations (<xref rid="B29" ref-type="bibr">Liu et&#x000a0;al., 2019</xref>; <xref rid="B4" ref-type="bibr">Chen et&#x000a0;al., 2023</xref>). Hence, our prediction results were supported by the published literature, which further illustrates the reliability of our model for predicting traits regulating-genes. We also predicted that the functional unknown genes <italic>Zm00001d018260</italic> and <italic>TraesCS6D02G245300</italic> are associated with plant height, grain weight, and disease resistance.</p><p>We also mined for the polyphenotype genes that simultaneously regulate salt resistance, plant height, grain weight, drought resistance, and disease resistance. The top 10 genes associated with these traits consisted of seven functional known genes and four functional unknown genes. Of the genes predicted to affect salt resistance, plant height, grain weight, drought resistance, and disease resistance, <italic>AT5G53950</italic> was ranked first (<xref rid="T4" ref-type="table">
+<bold>Table&#x000a0;4</bold>
+</xref>). Recent research revealed that this gene is important for regulating leaf development and salt resistance (<xref rid="B26" ref-type="bibr">Li et&#x000a0;al., 2023</xref>), while also contributing to the response to drought stress via the ubiquitin pathway (<xref rid="B30" ref-type="bibr">Meng et&#x000a0;al., 2023</xref>). Another recent study confirmed that this gene modulates fruit yield and quality by regulating shoot apical meristem inflorescence development and fruit ripening (<xref rid="B27" ref-type="bibr">Liu et&#x000a0;al., 2023a</xref>). Moreover, this gene belongs to the <italic>EIL</italic> family, which can effectively protect against disease-related plant decay and is widely used to enhance crop disease resistance (<xref rid="B39" ref-type="bibr">Su et&#x000a0;al., 2023</xref>). Hence, according to published research, this gene is indeed related to salt resistance, drought resistance, disease resistance, and grain weight. In addition, this gene may also regulate plant height, which is a potential subject discovery.</p><table-wrap position="float" id="T4"><label>Table&#x000a0;4</label><caption><p>Top10 polyphenotype genes related to salt resistance, plant height, grain weight, drought resistance, and disease resistance.</p></caption><table frame="hsides" rules="groups"><thead><tr><th valign="middle" align="left" rowspan="1" colspan="1">Gene_ID</th><th valign="middle" align="left" rowspan="1" colspan="1">R_SR</th><th valign="middle" align="left" rowspan="1" colspan="1">R_PH</th><th valign="middle" align="left" rowspan="1" colspan="1">R_GW</th><th valign="middle" align="left" rowspan="1" colspan="1">R_DR</th><th valign="middle" align="left" rowspan="1" colspan="1">R_DiR</th><th valign="middle" align="left" rowspan="1" colspan="1">R_M</th><th valign="middle" align="left" rowspan="1" colspan="1">R_C</th><th valign="middle" align="left" rowspan="1" colspan="1">V_T</th></tr></thead><tbody><tr><td valign="middle" align="left" rowspan="1" colspan="1">
+<italic>AT5G53950</italic>
+</td><td valign="middle" align="left" rowspan="1" colspan="1">4</td><td valign="middle" align="left" rowspan="1" colspan="1">7</td><td valign="middle" align="left" rowspan="1" colspan="1">5</td><td valign="middle" align="left" rowspan="1" colspan="1">6</td><td valign="middle" align="left" rowspan="1" colspan="1">8</td><td valign="middle" align="left" rowspan="1" colspan="1">6.0</td><td valign="middle" align="left" rowspan="1" colspan="1">1</td><td valign="middle" align="left" rowspan="1" colspan="1">known</td></tr><tr><td valign="middle" align="left" rowspan="1" colspan="1">
+<italic>AT3G29035</italic>
+</td><td valign="middle" align="left" rowspan="1" colspan="1">1</td><td valign="middle" align="left" rowspan="1" colspan="1">13</td><td valign="middle" align="left" rowspan="1" colspan="1">8</td><td valign="middle" align="left" rowspan="1" colspan="1">4</td><td valign="middle" align="left" rowspan="1" colspan="1">4</td><td valign="middle" align="left" rowspan="1" colspan="1">6.0</td><td valign="middle" align="left" rowspan="1" colspan="1">2</td><td valign="middle" align="left" rowspan="1" colspan="1">known</td></tr><tr><td valign="middle" align="left" rowspan="1" colspan="1">
+<italic>TraesCS5A02G275900</italic>
+</td><td valign="middle" align="left" rowspan="1" colspan="1">10</td><td valign="middle" align="left" rowspan="1" colspan="1">4</td><td valign="middle" align="left" rowspan="1" colspan="1">4</td><td valign="middle" align="left" rowspan="1" colspan="1">9</td><td valign="middle" align="left" rowspan="1" colspan="1">10</td><td valign="middle" align="left" rowspan="1" colspan="1">7.4</td><td valign="middle" align="left" rowspan="1" colspan="1">2</td><td valign="middle" align="left" rowspan="1" colspan="1">unknown</td></tr><tr><td valign="middle" align="left" rowspan="1" colspan="1">
+<italic>TraesCS2D02G324700</italic>
+</td><td valign="middle" align="left" rowspan="1" colspan="1">11</td><td valign="middle" align="left" rowspan="1" colspan="1">1</td><td valign="middle" align="left" rowspan="1" colspan="1">2</td><td valign="middle" align="left" rowspan="1" colspan="1">18</td><td valign="middle" align="left" rowspan="1" colspan="1">12</td><td valign="middle" align="left" rowspan="1" colspan="1">8.8</td><td valign="middle" align="left" rowspan="1" colspan="1">3</td><td valign="middle" align="left" rowspan="1" colspan="1">known</td></tr><tr><td valign="middle" align="left" rowspan="1" colspan="1">
+<italic>LOC_Os04g38720</italic>
+</td><td valign="middle" align="left" rowspan="1" colspan="1">12</td><td valign="middle" align="left" rowspan="1" colspan="1">3</td><td valign="middle" align="left" rowspan="1" colspan="1">10</td><td valign="middle" align="left" rowspan="1" colspan="1">10</td><td valign="middle" align="left" rowspan="1" colspan="1">11</td><td valign="middle" align="left" rowspan="1" colspan="1">9.2</td><td valign="middle" align="left" rowspan="1" colspan="1">4</td><td valign="middle" align="left" rowspan="1" colspan="1">known</td></tr><tr><td valign="middle" align="left" rowspan="1" colspan="1">
+<italic>AT3G15510</italic>
+</td><td valign="middle" align="left" rowspan="1" colspan="1">7</td><td valign="middle" align="left" rowspan="1" colspan="1">16</td><td valign="middle" align="left" rowspan="1" colspan="1">14</td><td valign="middle" align="left" rowspan="1" colspan="1">5</td><td valign="middle" align="left" rowspan="1" colspan="1">5</td><td valign="middle" align="left" rowspan="1" colspan="1">9.4</td><td valign="middle" align="left" rowspan="1" colspan="1">5</td><td valign="middle" align="left" rowspan="1" colspan="1">known</td></tr><tr><td valign="middle" align="left" rowspan="1" colspan="1">
+<italic>AT1G01720</italic>
+</td><td valign="middle" align="left" rowspan="1" colspan="1">3</td><td valign="middle" align="left" rowspan="1" colspan="1">15</td><td valign="middle" align="left" rowspan="1" colspan="1">26</td><td valign="middle" align="left" rowspan="1" colspan="1">2</td><td valign="middle" align="left" rowspan="1" colspan="1">2</td><td valign="middle" align="left" rowspan="1" colspan="1">9.6</td><td valign="middle" align="left" rowspan="1" colspan="1">6</td><td valign="middle" align="left" rowspan="1" colspan="1">known</td></tr><tr><td valign="middle" align="left" rowspan="1" colspan="1">
+<italic>TraesCS2A02G338300</italic>
+</td><td valign="middle" align="left" rowspan="1" colspan="1">13</td><td valign="middle" align="left" rowspan="1" colspan="1">1</td><td valign="middle" align="left" rowspan="1" colspan="1">3</td><td valign="middle" align="left" rowspan="1" colspan="1">19</td><td valign="middle" align="left" rowspan="1" colspan="1">15</td><td valign="middle" align="left" rowspan="1" colspan="1">10.2</td><td valign="middle" align="left" rowspan="1" colspan="1">7</td><td valign="middle" align="left" rowspan="1" colspan="1">unknown</td></tr><tr><td valign="middle" align="left" rowspan="1" colspan="1">
+<italic>AT1G77450</italic>
+</td><td valign="middle" align="left" rowspan="1" colspan="1">2</td><td valign="middle" align="left" rowspan="1" colspan="1">30</td><td valign="middle" align="left" rowspan="1" colspan="1">19</td><td valign="middle" align="left" rowspan="1" colspan="1">1</td><td valign="middle" align="left" rowspan="1" colspan="1">1</td><td valign="middle" align="left" rowspan="1" colspan="1">10.6</td><td valign="middle" align="left" rowspan="1" colspan="1">8</td><td valign="middle" align="left" rowspan="1" colspan="1">known</td></tr><tr><td valign="middle" align="left" rowspan="1" colspan="1">
+<italic>TraesCS4D02G071200</italic>
+</td><td valign="middle" align="left" rowspan="1" colspan="1">14</td><td valign="middle" align="left" rowspan="1" colspan="1">9</td><td valign="middle" align="left" rowspan="1" colspan="1">7</td><td valign="middle" align="left" rowspan="1" colspan="1">12</td><td valign="middle" align="left" rowspan="1" colspan="1">13</td><td valign="middle" align="left" rowspan="1" colspan="1">11.0</td><td valign="middle" align="left" rowspan="1" colspan="1">9</td><td valign="middle" align="left" rowspan="1" colspan="1">unknown</td></tr><tr><td valign="middle" align="left" rowspan="1" colspan="1">
+<italic>TraesCS4A02G242700</italic>
+</td><td valign="middle" align="left" rowspan="1" colspan="1">15</td><td valign="middle" align="left" rowspan="1" colspan="1">8</td><td valign="middle" align="left" rowspan="1" colspan="1">6</td><td valign="middle" align="left" rowspan="1" colspan="1">14</td><td valign="middle" align="left" rowspan="1" colspan="1">16</td><td valign="middle" align="left" rowspan="1" colspan="1">11.8</td><td valign="middle" align="left" rowspan="1" colspan="1">10</td><td valign="middle" align="left" rowspan="1" colspan="1">unknown</td></tr></tbody></table><table-wrap-foot><fn><p>R_SR, rank in salt resistance, R_PH, rank in plant height; R_GW, rank in grain weight; R_DR, rank in drought resistance; R_DiR, rank in disease resistance; R_M, mean rank in plant height, grain weight, and disease resistance; R_C, comprehensive rank according to R_M; V_T, verified trait, The term &#x0201c;known&#x0201d; indicates that this gene has been verified with at least one of the five traits in the literature, while the term &#x0201c;unknown&#x0201d; indicates that this gene has not been verified in the literature.</p></fn></table-wrap-foot></table-wrap></sec><sec id="s3_5"><label>3.5</label><title>Verification of the polyphenotype gene mining results</title><p>To confirm the utility of the knowledge graph-based model for predicting traits regulating-genes, a time-slicing method was used to examine the published literature to screen the validation set for gene pairs with a similarity score greater than or equal to the threshold (502.36). Several indices (accuracy, precision, recall, and F1 value) were used to evaluate the prediction results. For the test set, the model accuracy was 0.89, the precision rate was 0.91, the recall rate was 0.96, and the F1 value was 0.94. These results reflect the utility of the knowledge graph-based model for predicting traits regulating-genes. Moreover, the rice polyphenotype gene <italic>IPA1</italic> (<italic>LOC_Os08g39890</italic>) and the <italic>A. thaliana</italic> polyphenotype gene <italic>CUC2</italic> (<italic>AT5G53950</italic>) were also verified by published research findings. However, the wheat gene <italic>TraesCS5A02G275900</italic> is a potential polyphenotype gene that has not been reported. These results are indicative of the reliability of the method used for identifying elite polyphenotype genes. In addition, to verify the reliability of polyphenotype genes predicted in our model, we performed Venn diagram analysis between the polyphenotype gene datasets (consists of genes that are predicted to have multiple phenotypes by our model) and the transcriptome gene datasets (consists of genes that were differential expression in response to disease, drought or salt). For example, by using our model, we identified 489 and 297 polyphenotype genes associated with both disease and salt tolerance in <italic>Arabidopsis</italic> and rice, respectively. Venn diagram analysis suggested that 292 and 116 polyphenotype genes were associated with a single phenotype (disease or salt) in transcriptome datasets of <italic>Arabidopsis</italic> and rice, respectively (<xref rid="f5" ref-type="fig">
+<bold>Figures&#x000a0;5A, B</bold>
+</xref>). In addition, 31 and 20 polyphenotype genes were associated with both disease and salt in transcriptome datasets of <italic>Arabidopsis</italic> and rice, respectively (<xref rid="f5" ref-type="fig">
+<bold>Figures&#x000a0;5A, B</bold>
+</xref>). Our results suggested that approximately 66% and 46% of polyphenotype genes were verified by transcriptome data in <italic>Arabidopsis</italic> and rice, respectively. Furthermore, our model predicted 314 and 170 polyphenotype genes associated with disease, salt and drought in <italic>Arabidopsis</italic> and rice, respectively. We found that approximately 70% and 54% polyphenotype genes were identified in the transcriptome datasets of <italic>Arabidopsis</italic> and rice, respectively (<xref rid="f5" ref-type="fig">
+<bold>Figures&#x000a0;5C, D</bold>
+</xref>). Taking together, most of the polyphenotype genes were verified in transcriptome analysis, our model provides a new method for researchers to narrow down candidate genes.</p><fig position="float" id="f5"><label>Figure&#x000a0;5</label><caption><p>Venn diagram analysis of polyphenotype genes and differentially expressed genes (DEGs) in response to different phenotypes. <bold>(A)</bold> Venn diagram analysis of the polyphenotype genes and transcriptome genes related to disease and salt in <italic>Arabidopsis</italic>. <bold>(B)</bold> Venn diagram analysis of polyphenotype genes and transcriptome genes related to disease and salt in rice. <bold>(C)</bold> Venn diagram analysis of polyphenotype genes and transcriptome genes related to disease, salt and drought in <italic>Arabidopsis</italic>. <bold>(D)</bold> Venn diagram analysis of polyphenotype genes and transcriptome genes related to disease, salt, and drought in rice. The orange boxes represent polyphenotype genes associated with a single phenotype in transcriptome datasets, the blue boxes represent polyphenotype genes associated with two phenotypes in transcriptome datasets, and the red boxes represent polyphenotype genes associated with three phenotypes in transcriptome datasets.</p></caption><graphic xlink:href="fpls-15-1361716-g005" position="float"/></fig></sec></sec><sec sec-type="discussion" id="s4"><label>4</label><title>Discussion</title><p>In this study, we constructed a knowledge graph for traits regulating-genes, this knowledge graph described the knowledge organization system for multi-dimensional scientific data association of cross-species genes and traits. In addition, based on the knowledge graph, we generate a new model for identification of elite polyphenotype genes. Furthermore, we tested this model by using gene-trait association datasets from 4 species, including Arabidopsis, wheat, rice, and maize. Our results suggested that the model is applicable for detecting ideal functional known and functional unknown polyphenotype genes. The existing methods for genome-wide association analysis (<xref rid="B12" ref-type="bibr">Garcia et&#x000a0;al., 2019</xref>), quantitative trait locus mapping (<xref rid="B18" ref-type="bibr">Jiang et&#x000a0;al., 2023</xref>), and mixed pool group analyses (<xref rid="B28" ref-type="bibr">Liu et&#x000a0;al., 2023b</xref>) establish the association between genomic data and phenotypic data. These methods only can localize candidate genes in one segment and clarify the associations between genes and individual traits, but they are less than ideal for identifying elite polyphenotype genes. Hence, our study proposed a new method to identify elite polyphenotype genes for the development of new crop varieties with enhanced yield and superior quality.</p><p>In fact, knowledge graphs have been applied in crop sciences in previous studies. The Rothamsted Research institute constructed KnetMiner, which is a gene network discovery platform for agricultural researchers to explore and clarify the complex crop traits in different plant species (<xref rid="B15" ref-type="bibr">Hassani-Pak et&#x000a0;al., 2021</xref>). In addition, the CIRAD (French Agricultural Research Centre for International Development) use the Semantic Web technology to develop a knowledge graph named AgroLD, which integrates scientific data on different plant species to provide new scientific hypotheses about functional genes (<xref rid="B24" ref-type="bibr">Larmande et&#x000a0;al., 2022</xref>). However, both of them only analyze the correlation between genes and individual traits, so it is difficult to realize the mining of polyphenotype genes. In our study, we constructed a knowledge graph for traits regulating-genes comprising 13 entities, 16 entity data attributes, and 14 entity object attributes, with a total of 125,591 nodes and 547,224 semantic relationships across 4 species (Arabidopsis, wheat, rice, and maize). The key in our knowledge graph is the establishment of homologous protein object attributes, the association and fusion of scientific data in cross-species is realized. In addition, our knowledge graph provides data support to illustrate the relationships among the multi-dimensional scientific data in cross-species genes and traits (<xref rid="f4" ref-type="fig">
+<bold>Figure&#x000a0;4</bold>
+</xref>). Our knowledge graph for traits regulating-genes can provide hypotheses about the association between genes and multiple traits based on multi-dimensional scientific data. Our study drives the mining of elite polyphenotype genes from hypothesis-driven passive exploration to data-driven active knowledge discovery.</p><p>Meanwhile, there are some methods about gene mining. For example, whole genome association analyses to locate gene loci related to plant height (<xref rid="B14" ref-type="bibr">Guo et&#x000a0;al., 2022</xref>), yield (<xref rid="B25" ref-type="bibr">Li et&#x000a0;al., 2021</xref>), and disease resistance (<xref rid="B42" ref-type="bibr">Tsai et&#x000a0;al., 2020</xref>). They only localize the relevant gene loci into a segment containing many candidate genes. In our study, we developed a model for predicting traits regulating-genes. This model can give the probability score of trait regulating-genes on the basis of a multi-dimensional scientific data analysis (<xref rid="f3" ref-type="fig">
+<bold>Figure&#x000a0;3</bold>
+</xref>). For example, by combining elite traits (e.g., plant height, grain weight, and disease resistance) as search terms, a comprehensive score of the probability of the genes regulating specific traits can be calculated using multi-dimensional scientific data for cross-species genes and traits, with the top candidate polyphenotype genes identified according to the scores. The key in our model is that combines the entity semantic association characteristics and graph structure characteristics about multi-dimensional scientific data between genes and traits. That is to say, in order to achieve the recommendation of polyphenotype genes, our model integrates the data attribute information of gene nodes and the topological relationship information of gene nodes. Consequently, our model can provide an evidence-based approach with specific probability score to rank candidate genes for target traits, which can to narrow down the candidate genes associated with multiple phenotypes. Compared with transcriptome or other traditional methods for gene mining, our model provided more possibilities and effectiveness in mining polyphenotype genes.</p><p>To sum up, our study provides an important model for the mining and recommendation of elite polyphenotype genes for target traits in crops. Of course, researchers need perform further molecular biology experiments and transgenic experiments to verify the mining results of polyphenotype genes. In addition, the underlying principle of our model to mine polyphenotype genes based on the knowledge graph for integrating scientific data related to genes across species. With the deepening of research on plant functional genes, we also need to increase the gene-related scientific data volume and update newly published data, to make our model more broadly applicable.</p></sec><sec sec-type="conclusions" id="s5"><label>5</label><title>Conclusion</title><p>In this study, a model for predicting traits regulating-genes was constructed using a knowledge graph for traits regulating-genes. The accuracy of the model for predicting traits regulating-genes was 0.89, the precision rate was 0.91, the recall rate was 0.96, and the F1 value was 0.94, implying the traits regulating-genes were relatively accurately predicted on the basis of a multi-dimensional scientific data analysis. The comprehensive ranking of polyphenotype genes based on the model mined elite polyphenotype genes for different trait combinations. This study provides important data for future investigations of the molecular mechanisms regulating crop traits, with implications for crop breeding and research. Furthermore, our model represents a new tool for identifying elite polyphenotype genes.</p></sec><sec sec-type="data-availability" id="s6"><title>Data availability statement</title><p>The original contributions presented in the study are included in the article/<xref rid="SM1" ref-type="supplementary-material">
+<bold>Supplementary Material</bold>
+</xref>. Further inquiries can be directed to the corresponding author.</p></sec><sec sec-type="author-contributions" id="s7"><title>Author contributions</title><p>DZ: Data curation, Formal analysis, Investigation, Methodology, Resources, Writing &#x02013; original draft, Writing &#x02013; review &#x00026; editing. RZ: Funding acquisition, Project administration, Supervision, Writing &#x02013; review &#x00026; editing. GX: Supervision, Writing &#x02013; review &#x00026; editing. YK: Project administration, Supervision, Writing&#x000a0;&#x02013; review &#x00026; editing. WM: Data curation, Writing &#x02013; review &#x00026; editing.</p></sec></body><back><sec sec-type="COI-statement" id="s9"><title>Conflict of interest</title><p>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p></sec><sec sec-type="disclaimer" id="s10"><title>Publisher&#x02019;s note</title><p>All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.</p></sec><sec sec-type="supplementary-material" id="s11"><title>Supplementary material</title><p>The Supplementary Material for this article can be found online at: <ext-link xlink:href="https://www.frontiersin.org/articles/10.3389/fpls.2024.1361716/full#supplementary-material" ext-link-type="uri">https://www.frontiersin.org/articles/10.3389/fpls.2024.1361716/full#supplementary-material</ext-link>
+</p><supplementary-material id="SM1" position="float" content-type="local-data"><media xlink:href="DataSheet_1.xlsx"/></supplementary-material><supplementary-material id="SM2" position="float" content-type="local-data"><media xlink:href="DataSheet_2.xlsx"/></supplementary-material></sec><ref-list><title>References</title><ref id="B1"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Alshahrani</surname><given-names>M.</given-names></name>
+<name><surname>Hoehndorf</surname><given-names>R.</given-names></name>
+</person-group> (<year>2018</year>). <article-title>Semantic Disease Gene Embeddings (SmuDGE): Phenotype-based disease gene prioritization without phenotypes</article-title>. <source>Bioinformatics.</source>
+<volume>34</volume>, <fpage>i901</fpage>&#x02013;<lpage>i907</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1093/bioinformatics/bty559</pub-id>
+<pub-id pub-id-type="pmid">30423077</pub-id>
+</mixed-citation></ref><ref id="B2"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Appels</surname><given-names>R.</given-names></name>
+<name><surname>Eversole</surname><given-names>K.</given-names></name>
+<name><surname>Feuillet</surname><given-names>C.</given-names></name>
+<name><surname>Keller</surname><given-names>B.</given-names></name>
+<name><surname>Rogers</surname><given-names>J.</given-names></name>
+<name><surname>Stein</surname><given-names>N.</given-names></name>
+<etal/>
+</person-group>. (<year>2018</year>). <article-title>Shifting the limits in wheat research and breeding using a fully annotated reference genome</article-title>. <source>Science.</source>
+<volume>361</volume>:(<issue>6403</issue>), <elocation-id>eaar7191</elocation-id>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1126/science.aar7191</pub-id>
+<pub-id pub-id-type="pmid">30115783</pub-id>
+</mixed-citation></ref><ref id="B3"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Chen</surname><given-names>X.</given-names></name>
+<name><surname>Lu</surname><given-names>S.</given-names></name>
+<name><surname>Wang</surname><given-names>Y.</given-names></name>
+<name><surname>Zhang</surname><given-names>X.</given-names></name>
+<name><surname>Lv</surname><given-names>B.</given-names></name>
+<name><surname>Luo</surname><given-names>L.</given-names></name>
+<etal/>
+</person-group>. (<year>2015</year>). <article-title>
+<italic>OsNAC2</italic> encoding a NAC transcription factor that affects plant height through mediating the gibberellic acid pathway in rice</article-title>. <source>Plant J.</source>
+<volume>82</volume>, <fpage>302</fpage>&#x02013;<lpage>314</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1111/tpj.12819</pub-id>
+<pub-id pub-id-type="pmid">25754802</pub-id>
+</mixed-citation></ref><ref id="B4"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Chen</surname><given-names>F.</given-names></name>
+<name><surname>Zhang</surname><given-names>H.</given-names></name>
+<name><surname>Li</surname><given-names>H.</given-names></name>
+<name><surname>Lian</surname><given-names>L.</given-names></name>
+<name><surname>Wei</surname><given-names>Y.</given-names></name>
+<name><surname>Lin</surname><given-names>Y.</given-names></name>
+<etal/>
+</person-group>. (<year>2023</year>). <article-title>
+<italic>IPA1</italic> improves drought tolerance by activating <italic>SNAC1</italic> in rice</article-title>. <source>BMC Plant Biol.</source>
+<volume>23</volume>, <fpage>1</fpage>&#x02013;<lpage>12</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1186/s12870-023-04062-9</pub-id>
+<pub-id pub-id-type="pmid">36588156</pub-id>
+</mixed-citation></ref><ref id="B5"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Chen</surname><given-names>L.</given-names></name>
+<name><surname>Zhang</surname><given-names>Y. H.</given-names></name>
+<name><surname>Wang</surname><given-names>S. P.</given-names></name>
+<name><surname>Zhang</surname><given-names>Y. H.</given-names></name>
+<name><surname>Huang</surname><given-names>T.</given-names></name>
+<name><surname>Cai</surname><given-names>Y. D.</given-names></name>
+</person-group> (<year>2017</year>). <article-title>Prediction and analysis of essential genes using the enrichments of gene ontology and KEGG pathways</article-title>. <source>PloS One</source>
+<volume>12</volume>, <fpage>1</fpage>&#x02013;<lpage>22</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1371/journal.pone.0184129</pub-id>
+</mixed-citation></ref><ref id="B6"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Choi</surname><given-names>W.</given-names></name>
+<name><surname>Lee</surname><given-names>H.</given-names></name>
+</person-group> (<year>2021</year>). <article-title>Identifying disease-gene associations using a convolutional neural network-based model by embedding a biological knowledge graph with entity descriptions</article-title>. <source>PloS One</source>
+<volume>16</volume>, <fpage>1</fpage>&#x02013;<lpage>27</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1371/journal.pone.0258626</pub-id>
+</mixed-citation></ref><ref id="B7"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Chromosomes</surname><given-names>T. R.</given-names></name>
+<name><surname>Consortia</surname><given-names>S.</given-names></name>
+</person-group> (<year>2005</year>). <article-title>The sequence of rice chromosomes 11 and 12, rich in disease resistance genes and recent gene duplications</article-title>. <source>BMC Biol.</source>
+<volume>3</volume>, <fpage>1</fpage>&#x02013;<lpage>18</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1186/1741-7007-3-20</pub-id>
+<pub-id pub-id-type="pmid">15638945</pub-id>
+</mixed-citation></ref><ref id="B8"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Consortium</surname><given-names>T. U.</given-names></name>
+</person-group> (<year>2007</year>). <article-title>The universal protein resource (UniProt)</article-title>. <source>Nucleic Acids Res.</source>
+<volume>35</volume>, <fpage>193</fpage>&#x02013;<lpage>197</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1093/nar/gkl929</pub-id>
+<pub-id pub-id-type="pmid">17158163</pub-id>
+</mixed-citation></ref><ref id="B9"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Crawford</surname><given-names>T.</given-names></name>
+<name><surname>Karamat</surname><given-names>F.</given-names></name>
+<name><surname>Lehotai</surname><given-names>N.</given-names></name>
+<name><surname>Rentoft</surname><given-names>M.</given-names></name>
+<name><surname>Blomberg</surname><given-names>J.</given-names></name>
+<name><surname>Strand</surname><given-names>&#x000c5;.</given-names></name>
+<etal/>
+</person-group>. (<year>2020</year>). <article-title>Specific functions for Mediator complex subunits from different modules in the transcriptional response of Arabidopsis thaliana to abiotic stress</article-title>. <source>Sci. Rep.</source>
+<volume>10</volume>, <fpage>50</fpage>&#x02013;<lpage>73</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1038/s41598-020-61758-w</pub-id>
+<pub-id pub-id-type="pmid">31919369</pub-id>
+</mixed-citation></ref><ref id="B10"><mixed-citation publication-type="confproc">
+<person-group person-group-type="author">
+<name><surname>Dharmavaram</surname><given-names>S.</given-names></name>
+<name><surname>Shaik</surname><given-names>A.</given-names></name>
+<name><surname>Jin</surname><given-names>W.</given-names></name>
+</person-group> (<year>2019</year>). &#x0201c;<article-title>Mining biomedical data for hidden relationship discovery</article-title>,&#x0201d; in <conf-name>7th IEEE International Conference on Healthcare Informatics (ICHI)</conf-name>. <publisher-loc>Xi'an, China</publisher-loc>, <page-range>1&#x02013;10</page-range>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1109/ICHI.2019.8904747</pub-id>
+</mixed-citation></ref><ref id="B11"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Fu</surname><given-names>J.</given-names></name>
+<name><surname>Wu</surname><given-names>H.</given-names></name>
+<name><surname>Ma</surname><given-names>S.</given-names></name>
+<name><surname>Xiang</surname><given-names>D.</given-names></name>
+<name><surname>Liu</surname><given-names>R.</given-names></name>
+<name><surname>Xiong</surname><given-names>L.</given-names></name>
+</person-group> (<year>2017</year>). <article-title>OsJAZ1 attenuates drought resistance by regulating JA and ABA signaling in rice</article-title>. <source>Front. Plant Science.</source>
+<volume>8</volume>. doi:&#x000a0;<pub-id pub-id-type="doi">10.3389/fpls.2017.02108</pub-id>
+</mixed-citation></ref><ref id="B12"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Garcia</surname><given-names>M.</given-names></name>
+<name><surname>Eckermann</surname><given-names>P.</given-names></name>
+<name><surname>Haefele</surname><given-names>S.</given-names></name>
+<name><surname>Satija</surname><given-names>S.</given-names></name>
+<name><surname>Sznajder</surname><given-names>B.</given-names></name>
+<name><surname>Timmins</surname><given-names>A.</given-names></name>
+<etal/>
+</person-group>. (<year>2019</year>). <article-title>Genome-wide association mapping of grain yield in a diverse collection of spring wheat (<italic>Triticum aestivum</italic> L.) evaluated in southern Australia</article-title>. <source>PloS One</source>
+<volume>14</volume>, <fpage>1</fpage>&#x02013;<lpage>19</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1371/journal.pone.0211730</pub-id>
+</mixed-citation></ref><ref id="B13"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Goodstein</surname><given-names>D. M.</given-names></name>
+<name><surname>Shu</surname><given-names>S.</given-names></name>
+<name><surname>Howson</surname><given-names>R.</given-names></name>
+<name><surname>Neupane</surname><given-names>R.</given-names></name>
+<name><surname>Hayes</surname><given-names>R. D.</given-names></name>
+<name><surname>Fazo</surname><given-names>J.</given-names></name>
+<etal/>
+</person-group>. (<year>2012</year>). <article-title>Phytozome: a comparative platform for green plant genomics</article-title>. <source>Nucleic Acids Res.</source>
+<volume>40</volume>, <fpage>1178</fpage>&#x02013;<lpage>1186</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1093/nar/gkr944</pub-id>
+</mixed-citation></ref><ref id="B14"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Guo</surname><given-names>B.</given-names></name>
+<name><surname>Jin</surname><given-names>X.</given-names></name>
+<name><surname>Chen</surname><given-names>J.</given-names></name>
+<name><surname>Xu</surname><given-names>H.</given-names></name>
+<name><surname>Zhang</surname><given-names>M.</given-names></name>
+<name><surname>Lu</surname><given-names>X.</given-names></name>
+<etal/>
+</person-group>. (<year>2022</year>). <article-title>ATP-dependent DNA helicase (<italic>TaDHL</italic>), a novel reduced-height (<italic>Rht</italic>) gene in wheat</article-title>. <source>Genes.</source>
+<volume>13</volume>, <fpage>1</fpage>&#x02013;<lpage>10</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.3390/genes13060979</pub-id>
+</mixed-citation></ref><ref id="B15"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Hassani-Pak</surname><given-names>K.</given-names></name>
+<name><surname>Singh</surname><given-names>A.</given-names></name>
+<name><surname>Brandizi</surname><given-names>M.</given-names></name>
+<name><surname>Hearnshaw</surname><given-names>J.</given-names></name>
+<name><surname>Parsons</surname><given-names>J. D.</given-names></name>
+<name><surname>Amberkar</surname><given-names>S.</given-names></name>
+<etal/>
+</person-group>. (<year>2021</year>). <article-title>KnetMiner: a comprehensive approach for supporting evidence-based gene discovery and complex trait analysis across species</article-title>. <source>Plant Biotechnol. J.</source>
+<volume>19</volume>, <fpage>1670</fpage>&#x02013;<lpage>1678</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1111/pbi.13583</pub-id>
+<pub-id pub-id-type="pmid">33750020</pub-id>
+</mixed-citation></ref><ref id="B16"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Himmelstein</surname><given-names>D. S.</given-names></name>
+<name><surname>Lizee</surname><given-names>A.</given-names></name>
+<name><surname>Hessler</surname><given-names>C.</given-names></name>
+<name><surname>Brueggeman</surname><given-names>L.</given-names></name>
+<name><surname>Chen</surname><given-names>S. L.</given-names></name>
+<name><surname>Hadley</surname><given-names>D.</given-names></name>
+<etal/>
+</person-group>. (<year>2017</year>). <article-title>Systematic integration of biomedical knowledge prioritizes drugs for repurposing</article-title>. <source>Elife.</source>
+<volume>6</volume>, <fpage>1</fpage>&#x02013;<lpage>35</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.7554/eLife.26726</pub-id>
+</mixed-citation></ref><ref id="B17"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Jiang</surname><given-names>D.</given-names></name>
+<name><surname>Chen</surname><given-names>W.</given-names></name>
+<name><surname>Dong</surname><given-names>J.</given-names></name>
+<name><surname>Li</surname><given-names>J.</given-names></name>
+<name><surname>Yang</surname><given-names>F.</given-names></name>
+<name><surname>Wu</surname><given-names>Z.</given-names></name>
+<etal/>
+</person-group>. (<year>2018</year>). <article-title>Overexpression of <italic>miR164b</italic>-resistant <italic>OsNAC2</italic> improves plant architecture and grain yield in rice</article-title>. <source>J. Exp. Botany.</source>
+<volume>69</volume>, <fpage>1533</fpage>&#x02013;<lpage>1543</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1093/jxb/ery017</pub-id>
+<pub-id pub-id-type="pmid">29365136</pub-id>
+</mixed-citation></ref><ref id="B18"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Jiang</surname><given-names>T.</given-names></name>
+<name><surname>Zhang</surname><given-names>C.</given-names></name>
+<name><surname>Zhang</surname><given-names>Z.</given-names></name>
+<name><surname>Wen</surname><given-names>M.</given-names></name>
+<name><surname>Qiu</surname><given-names>H.</given-names></name>
+</person-group> (<year>2023</year>). <article-title>QTL mapping of maize (<italic>Zea mays</italic> L.) kernel traits under low-phosphorus stress</article-title>. <source>Physiol. Mol. Biol. Plants.</source>
+<volume>29</volume>, <fpage>435</fpage>&#x02013;<lpage>445</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1007/s12298-023-01300-0</pub-id>
+<pub-id pub-id-type="pmid">37033769</pub-id>
+</mixed-citation></ref><ref id="B19"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Jiao</surname><given-names>Y.</given-names></name>
+<name><surname>Wang</surname><given-names>Y.</given-names></name>
+<name><surname>Xue</surname><given-names>D.</given-names></name>
+<name><surname>Wang</surname><given-names>J.</given-names></name>
+<name><surname>Yan</surname><given-names>M.</given-names></name>
+<name><surname>Liu</surname><given-names>G.</given-names></name>
+<etal/>
+</person-group>. (<year>2010</year>). <article-title>Regulation of <italic>OsSPL14</italic> by <italic>OsmiR156</italic> defines ideal plant architecture in rice</article-title>. <source>Nat. Genet.</source>
+<volume>42</volume>, <fpage>1</fpage>&#x02013;<lpage>5</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1038/ng.591</pub-id>
+<pub-id pub-id-type="pmid">20037606</pub-id>
+</mixed-citation></ref><ref id="B20"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Kim</surname><given-names>H.</given-names></name>
+<name><surname>Lee</surname><given-names>K.</given-names></name>
+<name><surname>Hwang</surname><given-names>H.</given-names></name>
+<name><surname>Bhatnagar</surname><given-names>N.</given-names></name>
+<name><surname>Kim</surname><given-names>D. Y.</given-names></name>
+<name><surname>Yoon</surname><given-names>I. S.</given-names></name>
+<etal/>
+</person-group>. (<year>2014</year>). <article-title>Overexpression of <italic>PYL5</italic> in rice enhances drought tolerance, inhibits growth, and modulates gene expression</article-title>. <source>J. Exp. Botany.</source>
+<volume>65</volume>, <fpage>453</fpage>&#x02013;<lpage>464</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1093/jxb/ert397</pub-id>
+<pub-id pub-id-type="pmid">24474809</pub-id>
+</mixed-citation></ref><ref id="B21"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Kim</surname><given-names>M. J.</given-names></name>
+<name><surname>Park</surname><given-names>M. J.</given-names></name>
+<name><surname>Seo</surname><given-names>P. J.</given-names></name>
+<name><surname>Song</surname><given-names>J. S.</given-names></name>
+<name><surname>Kim</surname><given-names>H. J.</given-names></name>
+<name><surname>Park</surname><given-names>C. M.</given-names></name>
+</person-group> (<year>2012</year>). <article-title>Controlled nuclear import of the transcription factor <italic>NTL6</italic> reveals a cytoplasmic role of <italic>SnRK2.8</italic> in the drought-stress response</article-title>. <source>Biochem. J.</source>
+<volume>448</volume>, <fpage>353</fpage>&#x02013;<lpage>363</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1042/BJ20120244</pub-id>
+<pub-id pub-id-type="pmid">22967043</pub-id>
+</mixed-citation></ref><ref id="B22"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>King</surname><given-names>E.</given-names></name>
+<name><surname>Wallner</surname><given-names>A.</given-names></name>
+<name><surname>Rimbault</surname><given-names>I.</given-names></name>
+<name><surname>BarraChina</surname><given-names>C.</given-names></name>
+<name><surname>Klonowska</surname><given-names>A.</given-names></name>
+<name><surname>Moulin</surname><given-names>L.</given-names></name>
+<etal/>
+</person-group>. (<year>2019</year>). <article-title>Monitoring of rice transcriptional responses to contrasted colonizing patterns of phytobeneficial burkholderia s.l. Reveals a temporal shift in JA systemic response</article-title>. <source>Front. Plant Science.</source>
+<volume>10</volume>. doi:&#x000a0;<pub-id pub-id-type="doi">10.3389/fpls.2019.01141</pub-id>
+</mixed-citation></ref><ref id="B23"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Lan</surname><given-names>Y.</given-names></name>
+<name><surname>He</surname><given-names>S.</given-names></name>
+<name><surname>Liu</surname><given-names>K.</given-names></name>
+<name><surname>Zeng</surname><given-names>X.</given-names></name>
+<name><surname>Liu</surname><given-names>S.</given-names></name>
+<name><surname>Zhao</surname><given-names>J.</given-names></name>
+</person-group> (<year>2021</year>). <article-title>Path-based knowledge reasoning with textual semantic information for medical knowledge graph completion</article-title>. <source>BMC Med. Inf. Decision Making.</source>
+<volume>21</volume>, <fpage>1</fpage>&#x02013;<lpage>10</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1186/s12911-021-01622-7</pub-id>
+</mixed-citation></ref><ref id="B24"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Larmande</surname><given-names>P.</given-names></name>
+<name><surname>Tagny Ngompe</surname><given-names>G.</given-names></name>
+<name><surname>Venkatesan</surname><given-names>A.</given-names></name>
+<name><surname>Ruiz</surname><given-names>M.</given-names></name>
+</person-group> (<year>2022</year>). <article-title>AgroLD: a knowledge graph database for plant functional genomics</article-title>. <source>Methods Mol. Biol.</source>
+<volume>2443</volume>, <fpage>527</fpage>&#x02013;<lpage>540</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1007/978-1-0716-2067-0_28</pub-id>
+<pub-id pub-id-type="pmid">35037225</pub-id>
+</mixed-citation></ref><ref id="B25"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Li</surname><given-names>Y.</given-names></name>
+<name><surname>Tang</surname><given-names>J.</given-names></name>
+<name><surname>Liu</surname><given-names>W.</given-names></name>
+<name><surname>Yan</surname><given-names>W.</given-names></name>
+<name><surname>Sun</surname><given-names>Y.</given-names></name>
+<name><surname>Che</surname><given-names>J.</given-names></name>
+<etal/>
+</person-group>. (<year>2021</year>). <article-title>The genetic architecture of grain yield in spring wheat based on genome-wide association study</article-title>. <source>Front. Genet.</source>
+<volume>12</volume>. doi:&#x000a0;<pub-id pub-id-type="doi">10.3389/fgene.2021.728472</pub-id>
+</mixed-citation></ref><ref id="B26"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Li</surname><given-names>M.</given-names></name>
+<name><surname>Xu</surname><given-names>L.</given-names></name>
+<name><surname>Zhang</surname><given-names>L.</given-names></name>
+<name><surname>Li</surname><given-names>X.</given-names></name>
+<name><surname>Cao</surname><given-names>C.</given-names></name>
+<name><surname>Chen</surname><given-names>L.</given-names></name>
+<etal/>
+</person-group>. (<year>2023</year>). <article-title>Overexpression of Mtr-miR319a contributes to leaf curl and salt stress adaptation in <italic>Arabidopsis thaliana</italic> and <italic>Medicago truncatula</italic>
+</article-title>. <source>Int. J. Mol. Sci.</source>
+<volume>24</volume>, <fpage>1</fpage>&#x02013;<lpage>14</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.3390/ijms24010429</pub-id>
+</mixed-citation></ref><ref id="B27"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Liu</surname><given-names>J.</given-names></name>
+<name><surname>Qiao</surname><given-names>Y.</given-names></name>
+<name><surname>Li</surname><given-names>C.</given-names></name>
+<name><surname>Hou</surname><given-names>B.</given-names></name>
+</person-group> (<year>2023</year>a). <article-title>The NAC transcription factors play core roles in flowering and ripening fundamental to fruit yield and quality</article-title>. <source>Front. Plant Science.</source>
+<volume>14</volume>. doi:&#x000a0;<pub-id pub-id-type="doi">10.3389/fpls.2023.1095967</pub-id>
+</mixed-citation></ref><ref id="B28"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Liu</surname><given-names>Y.</given-names></name>
+<name><surname>Shen</surname><given-names>K.</given-names></name>
+<name><surname>Yin</surname><given-names>C.</given-names></name>
+<name><surname>Xu</surname><given-names>X.</given-names></name>
+<name><surname>Yu</surname><given-names>X.</given-names></name>
+<name><surname>Ye</surname><given-names>B.</given-names></name>
+<etal/>
+</person-group>. (<year>2023</year>b). <article-title>Genetic basis of geographical differentiation and breeding selection for wheat plant architecture traits</article-title>. <source>Genome Biol.</source>
+<volume>24</volume>, <fpage>1</fpage>&#x02013;<lpage>25</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1186/s13059-023-02932-x</pub-id>
+<pub-id pub-id-type="pmid">36609515</pub-id>
+</mixed-citation></ref><ref id="B29"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Liu</surname><given-names>M.</given-names></name>
+<name><surname>Shi</surname><given-names>Z.</given-names></name>
+<name><surname>Zhang</surname><given-names>X.</given-names></name>
+<name><surname>Wang</surname><given-names>M.</given-names></name>
+<name><surname>Zhang</surname><given-names>L.</given-names></name>
+<name><surname>Zheng</surname><given-names>K.</given-names></name>
+<etal/>
+</person-group>. (<year>2019</year>). <article-title>Inducible overexpression of ideal plant architecture1 improves both yield and disease resistance in rice</article-title>. <source>Nat. Plants.</source>
+<volume>5</volume>, <fpage>389</fpage>&#x02013;<lpage>400</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1038/s41477-019-0383-2</pub-id>
+<pub-id pub-id-type="pmid">30886331</pub-id>
+</mixed-citation></ref><ref id="B30"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Meng</surname><given-names>X.</given-names></name>
+<name><surname>Liu</surname><given-names>S.</given-names></name>
+<name><surname>Zhang</surname><given-names>C.</given-names></name>
+<name><surname>He</surname><given-names>J.</given-names></name>
+<name><surname>Ma</surname><given-names>D.</given-names></name>
+<name><surname>Wang</surname><given-names>X.</given-names></name>
+<etal/>
+</person-group>. (<year>2023</year>). <article-title>The unique sweet potato NAC transcription factor <italic>IbNAC3</italic> modulates combined salt and drought stresses</article-title>. <source>Plant Physiol.</source>
+<volume>191</volume>, <fpage>747</fpage>&#x02013;<lpage>771</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1093/plphys/kiac508</pub-id>
+<pub-id pub-id-type="pmid">36315103</pub-id>
+</mixed-citation></ref><ref id="B31"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Mohamed</surname><given-names>S. K.</given-names></name>
+<name><surname>Nov&#x000e1;&#x0010d;ek</surname><given-names>V.</given-names></name>
+<name><surname>Nounu</surname><given-names>A.</given-names></name>
+</person-group> (<year>2020</year>). <article-title>Discovering protein drug targets using knowledge graph embeddings</article-title>. <source>Bioinformatics.</source>
+<volume>36</volume>, <fpage>603</fpage>&#x02013;<lpage>610</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1093/bioinformatics/btz600</pub-id>
+<pub-id pub-id-type="pmid">31368482</pub-id>
+</mixed-citation></ref><ref id="B32"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Peng</surname><given-names>C.</given-names></name>
+<name><surname>Dieck</surname><given-names>S.</given-names></name>
+<name><surname>Schmid</surname><given-names>A.</given-names></name>
+<name><surname>Ahmad</surname><given-names>A.</given-names></name>
+<name><surname>Knaus</surname><given-names>A.</given-names></name>
+<name><surname>Wenzel</surname><given-names>M.</given-names></name>
+<etal/>
+</person-group>. (<year>2021</year>). <article-title>CADA: Phenotype-driven gene prioritization based on a case-enriched knowledge graph</article-title>. <source>NAR Genomics Bioinf.</source>
+<volume>3</volume>, <fpage>1</fpage>&#x02013;<lpage>7</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1093/nargab/lqab078</pub-id>
+</mixed-citation></ref><ref id="B33"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Polderman</surname><given-names>T. J.</given-names></name>
+<name><surname>Benyamin</surname><given-names>B.</given-names></name>
+<name><surname>De Leeuw</surname><given-names>C. A.</given-names></name>
+<name><surname>Sullivan</surname><given-names>P. F.</given-names></name>
+<name><surname>Van Bochoven</surname><given-names>A.</given-names></name>
+<name><surname>Visscher</surname><given-names>P. M.</given-names></name>
+<etal/>
+</person-group>. (<year>2015</year>). <article-title>Meta-analysis of the heritability of human traits based on fifty years of twin studies</article-title>. <source>Nat. Genet.</source>
+<volume>47</volume>, <fpage>702</fpage>&#x02013;<lpage>709</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1038/ng.3285</pub-id>
+<pub-id pub-id-type="pmid">25985137</pub-id>
+</mixed-citation></ref><ref id="B34"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Portwood</surname><given-names>J. L.</given-names></name>
+<name><surname>Woodhouse</surname><given-names>M. R.</given-names></name>
+<name><surname>Cannon</surname><given-names>E. K.</given-names></name>
+<name><surname>Gardiner</surname><given-names>J. M.</given-names></name>
+<name><surname>Harper</surname><given-names>L. C.</given-names></name>
+<name><surname>Schaeffer</surname><given-names>M. L.</given-names></name>
+<etal/>
+</person-group>. (<year>2019</year>). <article-title>Maizegdb 2018: The maize multi-genome genetics and genomics database</article-title>. <source>Nucleic Acids Res.</source>
+<volume>47</volume>, <fpage>1146</fpage>&#x02013;<lpage>1154</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1093/nar/gky1046</pub-id>
+</mixed-citation></ref><ref id="B35"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Powers</surname><given-names>D. M. W.</given-names></name>
+</person-group> (<year>2020</year>). <article-title>Evaluation: from precision, recall and F-measure to ROC, informedness, markedness and correlation</article-title>. <source>International Journal of Machine Learning Technology.</source>
+<volume>2</volume>:(<issue>1</issue>), <fpage>37</fpage>&#x02013;<lpage>63</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.48550/arXiv.2010.16061</pub-id>
+</mixed-citation></ref><ref id="B36"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Pyysalo</surname><given-names>S.</given-names></name>
+<name><surname>Baker</surname><given-names>S.</given-names></name>
+<name><surname>Ali</surname><given-names>I.</given-names></name>
+<name><surname>Haselwimmer</surname><given-names>S.</given-names></name>
+<name><surname>Shah</surname><given-names>T.</given-names></name>
+<name><surname>Young</surname><given-names>A.</given-names></name>
+<etal/>
+</person-group>. (<year>2019</year>). <article-title>LIONLBD: A literature-based discovery system for cancer biology</article-title>. <source>Bioinformatics.</source>
+<volume>35</volume>, <fpage>1553</fpage>&#x02013;<lpage>1561</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1093/bioinformatics/bty845</pub-id>
+<pub-id pub-id-type="pmid">30304355</pub-id>
+</mixed-citation></ref><ref id="B37"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Scholz</surname><given-names>S. S.</given-names></name>
+<name><surname>Schmidt-Heck</surname><given-names>W.</given-names></name>
+<name><surname>Guthke</surname><given-names>R.</given-names></name>
+<name><surname>Furch</surname><given-names>A. C. U.</given-names></name>
+<name><surname>Reichelt</surname><given-names>M.</given-names></name>
+<name><surname>Gershenzon</surname><given-names>J.</given-names></name>
+<etal/>
+</person-group>. (<year>2018</year>). <article-title>Verticillium dahliae-arabidopsis interaction causes changes in gene expression profiles and jasmonate levels on different time scales</article-title>. <source>Front. Microbiol.</source>
+<volume>9</volume>. doi:&#x000a0;<pub-id pub-id-type="doi">10.3389/fmicb.2018.00217</pub-id>
+</mixed-citation></ref><ref id="B38"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Sonah</surname><given-names>H.</given-names></name>
+<name><surname>O&#x02019;Donoughue</surname><given-names>L.</given-names></name>
+<name><surname>Cober</surname><given-names>E.</given-names></name>
+<name><surname>Rajcan</surname><given-names>I.</given-names></name>
+<name><surname>Belzile</surname><given-names>F.</given-names></name>
+</person-group> (<year>2015</year>). <article-title>Identification of loci governing eight agronomic traits using a GBS-GWAS approach and validation by QTL mapping in soya bean</article-title>. <source>Plant Biotechnol. J.</source>
+<volume>13</volume>, <fpage>211</fpage>&#x02013;<lpage>221</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1111/pbi.12249</pub-id>
+<pub-id pub-id-type="pmid">25213593</pub-id>
+</mixed-citation></ref><ref id="B39"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Su</surname><given-names>Y.</given-names></name>
+<name><surname>Dai</surname><given-names>S.</given-names></name>
+<name><surname>Li</surname><given-names>N.</given-names></name>
+<name><surname>Gentile</surname><given-names>A.</given-names></name>
+<name><surname>He</surname><given-names>C.</given-names></name>
+<name><surname>Xu</surname><given-names>J.</given-names></name>
+<etal/>
+</person-group>. (<year>2023</year>). <article-title>Unleashing the potential of EIL transcription factors in enhancing sweet orange resistance to bacterial pathologies: Genome-wide identification and expression profiling</article-title>. <source>Int. J. Mol. Sci.</source>
+<volume>24</volume>, <fpage>1</fpage>&#x02013;<lpage>14</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.3390/ijms241612644</pub-id>
+</mixed-citation></ref><ref id="B40"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Sura</surname><given-names>W.</given-names></name>
+<name><surname>Kabza</surname><given-names>M.</given-names></name>
+<name><surname>Karlowski</surname><given-names>W. M.</given-names></name>
+<name><surname>Bieluszewski</surname><given-names>T.</given-names></name>
+<name><surname>Kus-Slowinska</surname><given-names>M.</given-names></name>
+<name><surname>Pawe&#x00142;oszek</surname><given-names>&#x00141;.</given-names></name>
+<etal/>
+</person-group>. (<year>2017</year>). <article-title>Dual role of the histone variant H2A.Z in transcriptional regulation of stress-response genes</article-title>. <source>Plant Cell.</source>
+<volume>29</volume>, <fpage>791</fpage>&#x02013;<lpage>807</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1105/tpc.16.00573</pub-id>
+<pub-id pub-id-type="pmid">28258158</pub-id>
+</mixed-citation></ref><ref id="B41"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Tian</surname><given-names>X.</given-names></name>
+<name><surname>Wang</surname><given-names>Z.</given-names></name>
+<name><surname>Li</surname><given-names>X.</given-names></name>
+<name><surname>Lv</surname><given-names>T.</given-names></name>
+<name><surname>Liu</surname><given-names>H.</given-names></name>
+<name><surname>Wang</surname><given-names>L.</given-names></name>
+<etal/>
+</person-group>. (<year>2015</year>). <article-title>Characterization and functional analysis of pyrabactin resistance-like abscisic acid receptor family in rice</article-title>. <source>Rice.</source>
+<volume>8</volume>, <fpage>1</fpage>&#x02013;<lpage>13</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1186/s12284-015-0061-6</pub-id>
+<pub-id pub-id-type="pmid">26054238</pub-id>
+</mixed-citation></ref><ref id="B42"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Tsai</surname><given-names>H. Y.</given-names></name>
+<name><surname>Janss</surname><given-names>L.</given-names></name>
+<name><surname>Andersen</surname><given-names>J. R.</given-names></name>
+<name><surname>Orabi</surname><given-names>J.</given-names></name>
+<name><surname>Jensen</surname><given-names>J. D.</given-names></name>
+<name><surname>Jahoor</surname><given-names>A.</given-names></name>
+<etal/>
+</person-group>. (<year>2020</year>). <article-title>Genomic prediction and GWAS of yield, quality and disease-related traits in spring barley and winter wheat</article-title>. <source>Sci. Rep.</source>
+<volume>10</volume>, <fpage>1</fpage>&#x02013;<lpage>15</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1038/s41598-020-60203-2</pub-id>
+<pub-id pub-id-type="pmid">31913322</pub-id>
+</mixed-citation></ref><ref id="B43"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Viswanath</surname><given-names>K. K.</given-names></name>
+<name><surname>Kuo</surname><given-names>S. Y.</given-names></name>
+<name><surname>Tu</surname><given-names>C. W.</given-names></name>
+<name><surname>Hsu</surname><given-names>Y. H.</given-names></name>
+<name><surname>Huang</surname><given-names>Y. W.</given-names></name>
+<name><surname>Hu</surname><given-names>C. C.</given-names></name>
+</person-group> (<year>2023</year>). <article-title>The role of plant transcription factors in the fight against plant viruses</article-title>. <source>Int. J. Mol. Sci.</source>
+<volume>24</volume>, <fpage>1</fpage>&#x02013;<lpage>23</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.3390/ijms24098433</pub-id>
+</mixed-citation></ref><ref id="B44"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Wallace</surname><given-names>J. G.</given-names></name>
+<name><surname>Rodgers-Melnick</surname><given-names>E.</given-names></name>
+<name><surname>Buckler</surname><given-names>E. S.</given-names></name>
+</person-group> (<year>2018</year>). <article-title>On the road to breeding 4.0: Unraveling the good, the bad, and the boring of crop quantitative genomics</article-title>. <source>Annu. Rev. Genet.</source>
+<volume>52</volume>, <fpage>421</fpage>&#x02013;<lpage>444</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1146/annurev-genet-120116-024846</pub-id>
+<pub-id pub-id-type="pmid">30285496</pub-id>
+</mixed-citation></ref><ref id="B45"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>J.</given-names></name>
+<name><surname>Zhou</surname><given-names>L.</given-names></name>
+<name><surname>Shi</surname><given-names>H.</given-names></name>
+<name><surname>Chern</surname><given-names>M.</given-names></name>
+<name><surname>Yu</surname><given-names>H.</given-names></name>
+<name><surname>Yi</surname><given-names>H.</given-names></name>
+<etal/>
+</person-group>. (<year>2018</year>). <article-title>A single transcription factor promotes both yield and immunity in rice</article-title>. <source>Science.</source>
+<volume>361</volume>, <fpage>1026</fpage>&#x02013;<lpage>1028</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1126/science.aat7675</pub-id>
+<pub-id pub-id-type="pmid">30190406</pub-id>
+</mixed-citation></ref><ref id="B46"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Yang</surname><given-names>R.</given-names></name>
+<name><surname>Ye</surname><given-names>Q.</given-names></name>
+<name><surname>Cheng</surname><given-names>C.</given-names></name>
+<name><surname>Zhang</surname><given-names>S.</given-names></name>
+<name><surname>Lan</surname><given-names>Y.</given-names></name>
+<name><surname>Zou</surname><given-names>J.</given-names></name>
+</person-group> (<year>2022</year>). <article-title>Decision-making system for the diagnosis of syndrome based on traditional chinese medicine knowledge graph</article-title>. <source>Evidence-Based Complementary and Alternative Medicine</source>, <volume>2022</volume>:<fpage>1</fpage>&#x02013;<lpage>9</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1155/2022/8693937</pub-id>
+</mixed-citation></ref><ref id="B47"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Yu</surname><given-names>X.</given-names></name>
+<name><surname>Li</surname><given-names>Y.</given-names></name>
+<name><surname>Cui</surname><given-names>X.</given-names></name>
+<name><surname>Wang</surname><given-names>X.</given-names></name>
+<name><surname>Li</surname><given-names>J.</given-names></name>
+<name><surname>Guo</surname><given-names>R.</given-names></name>
+<etal/>
+</person-group>. (<year>2023</year>). <article-title>Simultaneously mapping loci related to two plant architecture traits by phenotypic recombination BSA/BSR in peanut (Arachis hypogaea L.)</article-title>. <source>Theor. Appl. Genet.</source>
+<volume>136</volume>, <fpage>1</fpage>&#x02013;<lpage>11</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1007/s00122-023-04385-z</pub-id>
+<pub-id pub-id-type="pmid">36645449</pub-id>
+</mixed-citation></ref><ref id="B48"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Zhang</surname><given-names>X.</given-names></name>
+<name><surname>Che</surname><given-names>C.</given-names></name>
+</person-group> (<year>2021</year>). <article-title>Drug repurposing for parkinson&#x02019;s disease by integrating knowledge graph completion model and knowledge fusion of medical literature</article-title>. <source>Future Internet.</source>
+<volume>13</volume>, <fpage>1</fpage>&#x02013;<lpage>13</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.3390/fi13010014</pub-id>
+</mixed-citation></ref><ref id="B49"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Zhang</surname><given-names>D. D.</given-names></name>
+<name><surname>Zhao</surname><given-names>R. X.</given-names></name>
+<name><surname>Xian</surname><given-names>G. J.</given-names></name>
+<name><surname>Xiong</surname><given-names>H.</given-names></name>
+</person-group> (<year>2024</year>). <article-title>Trait-regulated-genes ontology model construction and application of integrating cross-species scientific data</article-title>. <source>Biotechnol. Bull</source>. <volume>40</volume>(<issue>2</issue>): <page-range>313&#x02013;324</page-range>. doi:&#x000a0;<pub-id pub-id-type="doi">10.13560/j.cnki.biotech.bull.1985.2023-0748</pub-id>
+</mixed-citation></ref><ref id="B50"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Zhao</surname><given-names>H.</given-names></name>
+<name><surname>Li</surname><given-names>J.</given-names></name>
+<name><surname>Yang</surname><given-names>L.</given-names></name>
+<name><surname>Qin</surname><given-names>G.</given-names></name>
+<name><surname>Xia</surname><given-names>C.</given-names></name>
+<name><surname>Xu</surname><given-names>X.</given-names></name>
+<etal/>
+</person-group>. (<year>2021</year>). <article-title>An inferred functional impact map of genetic variants in rice</article-title>. <source>Mol. Plant</source>
+<volume>14</volume>, <fpage>1584</fpage>&#x02013;<lpage>1599</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1016/j.molp.2021.06.025</pub-id>
+<pub-id pub-id-type="pmid">34214659</pub-id>
+</mixed-citation></ref><ref id="B51"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Zhao</surname><given-names>X.</given-names></name>
+<name><surname>Wu</surname><given-names>T.</given-names></name>
+<name><surname>Guo</surname><given-names>S.</given-names></name>
+<name><surname>Hu</surname><given-names>J.</given-names></name>
+<name><surname>Zhan</surname><given-names>Y.</given-names></name>
+</person-group> (<year>2022</year>). <article-title>Ectopic expression of <italic>AeNAC83</italic>, a NAC transcription factor from <italic>Abelmoschus esculentus</italic>, inhibits growth and confers tolerance to salt stress in</article-title>. <source>Arabidopsis. Int. J. Mol. Sci.</source>
+<volume>23</volume>, <fpage>10182</fpage>&#x02013;<lpage>10182</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.3390/ijms231710182</pub-id>
+<pub-id pub-id-type="pmid">36077574</pub-id>
+</mixed-citation></ref><ref id="B52"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Zheng</surname><given-names>X.</given-names></name>
+<name><surname>Chen</surname><given-names>B.</given-names></name>
+<name><surname>Lu</surname><given-names>G.</given-names></name>
+<name><surname>Han</surname><given-names>B.</given-names></name>
+</person-group> (<year>2009</year>). <article-title>Overexpression of a NAC transcription factor enhances rice drought and salt tolerance</article-title>. <source>Biochem. Biophys. Res. Commun.</source>
+<volume>379</volume>, <fpage>985</fpage>&#x02013;<lpage>989</lpage>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1016/j.bbrc.2008.12.163</pub-id>
+<pub-id pub-id-type="pmid">19135985</pub-id>
+</mixed-citation></ref><ref id="B53"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name><surname>Zhou</surname><given-names>Y.</given-names></name>
+<name><surname>Yang</surname><given-names>P.</given-names></name>
+<name><surname>Cui</surname><given-names>F.</given-names></name>
+<name><surname>Zhang</surname><given-names>F.</given-names></name>
+<name><surname>Luo</surname><given-names>X.</given-names></name>
+<name><surname>Xie</surname><given-names>J.</given-names></name>
+</person-group> (<year>2016</year>). <article-title>Transcriptome analysis of salt stress responsiveness in the seedlings of dongxiang wild rice (Oryza rufipogon griff.)</article-title>. <source>PloS One</source>
+<volume>11</volume>, <elocation-id>e0146242</elocation-id>. doi:&#x000a0;<pub-id pub-id-type="doi">10.1371/journal.pone.0146242</pub-id>
+<pub-id pub-id-type="pmid">26752408</pub-id>
+</mixed-citation></ref></ref-list></back></article>

@@ -1,0 +1,1138 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd"> 
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.3"><?properties open_access?><?DTDIdentifier.IdentifierValue -//Springer-Verlag//DTD A++ V2.4//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName A++V2.4.dtd?><?SourceDTD.Version 2.4?><?ConverterInfo.XSLTName springer2nlmx2.xsl?><?ConverterInfo.Version 1?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Sci Rep</journal-id><journal-id journal-id-type="iso-abbrev">Sci Rep</journal-id><journal-title-group><journal-title>Scientific Reports</journal-title></journal-title-group><issn pub-type="epub">2045-2322</issn><publisher><publisher-name>Nature Publishing Group UK</publisher-name><publisher-loc>London</publisher-loc></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmcid">10973368</article-id><article-id pub-id-type="publisher-id">57408</article-id><article-id pub-id-type="doi">10.1038/s41598-024-57408-0</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>A deep inverse convolutional neural network-based semantic classification method for land cover remote sensing images</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Wang</surname><given-names>Ming</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author"><name><surname>She</surname><given-names>Anqi</given-names></name><xref ref-type="aff" rid="Aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Chang</surname><given-names>Hao</given-names></name><xref ref-type="aff" rid="Aff3">3</xref></contrib><contrib contrib-type="author"><name><surname>Cheng</surname><given-names>Feifei</given-names></name><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author" corresp="yes"><name><surname>Yang</surname><given-names>Heming</given-names></name><address><email>Yanghemmm30225@163.com</email></address><xref ref-type="aff" rid="Aff4">4</xref></contrib><aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="ROR">https://ror.org/00xtsag93</institution-id><institution-id institution-id-type="GRID">grid.440799.7</institution-id><institution-id institution-id-type="ISNI">0000 0001 0675 4549</institution-id><institution>Network Information Center, </institution><institution>Jilin Normal University, </institution></institution-wrap>Siping, 136000 China </aff><aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="ROR">https://ror.org/00xtsag93</institution-id><institution-id institution-id-type="GRID">grid.440799.7</institution-id><institution-id institution-id-type="ISNI">0000 0001 0675 4549</institution-id><institution>Human Resource Department, </institution><institution>Jilin Normal University, </institution></institution-wrap>Siping, 136000 China </aff><aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="ROR">https://ror.org/00xtsag93</institution-id><institution-id institution-id-type="GRID">grid.440799.7</institution-id><institution-id institution-id-type="ISNI">0000 0001 0675 4549</institution-id><institution>Jilin Normal University Affiliated Experimental School, </institution></institution-wrap>Siping, 136000 China </aff><aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="ROR">https://ror.org/00xtsag93</institution-id><institution-id institution-id-type="GRID">grid.440799.7</institution-id><institution-id institution-id-type="ISNI">0000 0001 0675 4549</institution-id><institution>School of Geographic Science and Tourism, </institution><institution>Jilin Normal University, </institution></institution-wrap>Siping, 136000 China </aff></contrib-group><pub-date pub-type="epub"><day>27</day><month>3</month><year>2024</year></pub-date><pub-date pub-type="pmc-release"><day>27</day><month>3</month><year>2024</year></pub-date><pub-date pub-type="collection"><year>2024</year></pub-date><volume>14</volume><elocation-id>7313</elocation-id><history><date date-type="received"><day>17</day><month>12</month><year>2023</year></date><date date-type="accepted"><day>18</day><month>3</month><year>2024</year></date></history><permissions><copyright-statement>&#x000a9; The Author(s) 2024</copyright-statement><license><ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p></license></permissions><abstract id="Abs1"><p id="Par1">The imbalance of land cover categories is a common problem. Some categories appear less frequently in the image, while others may occupy the vast majority of the proportion. This imbalance can lead the classifier to tend to predict categories with higher frequency of occurrence, while the recognition effect on minority categories is poor. In view of the difficulty of land cover remote sensing image multi-target semantic classification, a semantic classification method of land cover remote sensing image based on depth deconvolution neural network is proposed. In this method, the land cover remote sensing image semantic segmentation algorithm based on depth deconvolution neural network is used to segment the land cover remote sensing image with multi-target semantic segmentation; Four semantic features of color, texture, shape and size in land cover remote sensing image are extracted by using the semantic feature extraction method of remote sensing image based on improved sequential clustering algorithm; The classification and recognition method of remote sensing image semantic features based on random forest algorithm is adopted to classify and identify four semantic feature types of land cover remote sensing image, and realize the semantic classification of land cover remote sensing image. The experimental results show that after this method classifies the multi-target semantic types of land cover remote sensing images, the average values of Dice similarity coefficient and Hausdorff distance are 0.9877 and 0.9911 respectively, which can accurately classify the multi-target semantic types of land cover remote sensing images.</p></abstract><kwd-group xml:lang="en"><title>Keywords</title><kwd>Deep inverse convolutional neural network</kwd><kwd>Land cover</kwd><kwd>Remote sensing images</kwd><kwd>Semantic classification</kwd><kwd>Semantic segmentation</kwd><kwd>Feature extraction</kwd></kwd-group><kwd-group kwd-group-type="npg-subject"><title>Subject terms</title><kwd>Ecology</kwd><kwd>Climate sciences</kwd><kwd>Ecology</kwd><kwd>Environmental sciences</kwd><kwd>Environmental social sciences</kwd><kwd>Engineering</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>issue-copyright-statement</meta-name><meta-value>&#x000a9; Springer Nature Limited 2024</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="Sec1"><title>Introduction</title><p id="Par2">Remote sensing technology is a comprehensive detection technology that rose in the 1960s<sup><xref ref-type="bibr" rid="CR1">1</xref>,<xref ref-type="bibr" rid="CR2">2</xref></sup>. Various sensors are used to detect the radiation or reflected electromagnetic wave information of surface objects from a long distance, and the detected electromagnetic wave information is processed and synthesized into image data, so as to realize the recognition and classification of actual surface objects<sup><xref ref-type="bibr" rid="CR3">3</xref>,<xref ref-type="bibr" rid="CR4">4</xref></sup>. With the rapid development of remote sensing technology towards high spatial resolution, hyperspectral resolution and high temporal resolution, people can obtain more and more large-scale remote sensing image data<sup><xref ref-type="bibr" rid="CR5">5</xref>,<xref ref-type="bibr" rid="CR6">6</xref></sup>. In recent decades, with the diversification and diversified development of sensor platforms and the substantial improvement of remote sensing image spatial and spectral resolution, as well as the continuous development of pattern recognition technology, computer automatic control technology, GIS system and cognitive system technology<sup><xref ref-type="bibr" rid="CR7">7</xref></sup>, new theories and methods of remote sensing digital image processing are constantly emerging in remote sensing image computer interpretation In terms of visual interpretation and human&#x02013;computer interaction processing of remote sensing images, the classification technology of remote sensing images has been constantly improved<sup><xref ref-type="bibr" rid="CR8">8</xref></sup>. Many researchers have extended pattern recognition methods to land cover remote sensing image data, and conducted a lot of useful research in feature extraction, improving classification accuracy, and innovation of classification technology<sup><xref ref-type="bibr" rid="CR9">9</xref></sup>. Image semantic classification refers to the process of automatic recognition and classification of semantic information such as objects, scenes or emotions in images<sup><xref ref-type="bibr" rid="CR10">10</xref></sup>. It understands the essential meaning of the image by analyzing the visual features, context information and human language description in the image, and classifies the multi-target information in the image<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>. The purpose of image semantic classification is to enable computers to &#x0201c;understand&#x0201d; image content and distinguish different objects, scenes or emotions<sup><xref ref-type="bibr" rid="CR12">12</xref></sup>.</p><p id="Par3">In the research of remote sensing image classification and recognition, there are a lot of references. Literature<sup><xref ref-type="bibr" rid="CR13">13</xref></sup> Ozyurt has proposed a remote sensing image recognition method based on convolutional neural network. This method uses convolutional neural network to extract remote sensing image features in an efficient depth for image recognition. Although it has achieved good remote sensing image classification results, its classification ability is only limited to image type classification, The ability of semantic classification within images needs further testing. Literature<sup><xref ref-type="bibr" rid="CR8">8</xref></sup> Matsunobu et al. studied the cloud detection method of remote sensing image based on convolutional neural network. This method uses convolution operation to realize local perception of remote sensing image, and extracts local features by sliding filters on remote sensing image, thus completing accurate detection of remote sensing image. However, the cloud detection method of remote sensing image based on convolutional neural network also has some shortcomings, For example, the training process is tedious and the convergence effect is poor. Literature<sup><xref ref-type="bibr" rid="CR14">14</xref></sup> Samaneh et al. proposed a remote sensing image target segmentation method based on the gated residual supervision network. The gated residual supervision network has a strong supervisory learning ability, which can be trained through tag data to learn the feature representation of remote sensing image target objects. This method can make full use of the prior information and tag data in remote sensing images, improve the accuracy of target segmentation, and facilitate remote sensing image classification and recognition. However, this method needs a lot of computing resources and time to infer. For large-scale remote sensing image data sets, its application is limited, and its application performance is limited by image segmentation. Further research is needed in the semantic classification and recognition of multiple objects in the image area. Reference<sup><xref ref-type="bibr" rid="CR15">15</xref></sup> Yoshida et al. used a deep learning based method to classify land cover in aerial photography images of the Xuchuan River, improving classification accuracy by connecting data related to the model output. Use the modified deep learning model to segment aerial photography images and classify different types of land cover. The model trained by this method in specific regions or scenarios may not have good generalization ability, and the classification effect on data from other regions or under different conditions may not be ideal. Reference<sup><xref ref-type="bibr" rid="CR16">16</xref></sup> Kavran et al. proposed an object based spatiotemporal method for satellite image classification using graph neural networks. Construct a directed graph by connecting segmented land regions, then use convolutional neural networks to extract features, and use graph neural networks for node classification. This method may have certain limitations on the effectiveness of land cover classification in different regions or scenarios, and has significant computational and storage requirements.</p><p id="Par4">The gap pointed out in previous research mainly focuses on the semantic classification and recognition of remote sensing images. Although some achievements have been made in the classification of image types, there are still many challenges in accurately segmenting and classifying semantic information within images, such as target objects. For example, traditional algorithms are prone to problems of over segmentation and under segmentation, resulting in low semantic segmentation accuracy. In addition, feature extraction methods usually only consider a single or limited set of features and fail to fully capture the comprehensive features of different targets in the image. Finally, there is still significant room for improvement in utilizing the interrelationships between features in classification and recognition methods to improve classification accuracy. Therefore, this paper proposes a semantic classification method for land cover remote sensing images based on deep deconvolution neural networks. Compared with previous research, the innovation and contribution of this paper are mainly reflected in the following aspects:<list list-type="order"><list-item><p id="Par5">The use of deep deconvolution neural networks for multi-target semantic segmentation of land cover remote sensing images has improved the accuracy and precision of classification.</p></list-item><list-item><p id="Par6">Introducing an improved sequential clustering algorithm for object segmentation solves the problems of over segmentation and under segmentation in traditional algorithms, further improving the semantic segmentation accuracy of land cover remote sensing images.</p></list-item><list-item><p id="Par7">In the feature extraction stage, a semantic feature extraction method that comprehensively considers color, texture, shape, and size is adopted to comprehensively capture the feature information of different targets in land cover remote sensing images.</p></list-item><list-item><p id="Par8">The application of a semantic feature classification and recognition method based on random forest algorithm fully utilizes the interrelationships between features, significantly improving the semantic classification accuracy of land cover remote sensing images.</p></list-item></list></p><p id="Par9">In summary, this paper proposes an innovative and practical semantic classification method for land cover remote sensing images through in-depth research and improvement, which has contributed to the development of remote sensing image classification and recognition. However, although the method proposed in this paper has been improved and broken through in multiple aspects, there are still some limitations. For example, for remote sensing images in complex backgrounds, the method proposed in this paper may not be able to completely eliminate interference factors, resulting in a decrease in classification accuracy. In addition, for large-scale remote sensing image data, the method proposed in this paper may have performance bottlenecks in real-time processing.</p></sec><sec id="Sec2"><title>Semantic classification of land cover remote sensing images</title><sec id="Sec3"><title>Semantic segmentation algorithm for land cover remote sensing images based on deep inverse convolutional neural network</title><p id="Par10">The complexity and diversity of land cover types make it difficult to label the dataset, which in turn leads to ambiguity and error in the segmentation results. Therefore, a deep inverse convolutional neural network is used for semantic segmentation of land cover remote sensing images. Compared with the traditional convolutional neural network, the deep inverse convolutional network can convert low-resolution feature maps into high-resolution prediction maps, improve the accuracy and detail expression ability of semantic segmentation, understand and describe different land cover types in remote sensing images in a more comprehensive way, and provide more accurate inputs for the subsequent classification tasks.</p><sec id="Sec4"><title>Semantic segmentation network architecture for land cover remote sensing images</title><p id="Par11">The general deep convolutional network will reduce the dimension size of the feature layer layer by layer, and the input image size is much smaller than the output image. For the task of semantic segmentation of land cover remote sensing images, every pixel of the image is an object to be segmented, and the previous convolutional network structure will no longer be applicable<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>.</p><p id="Par12">For the task of semantic segmentation of land cover remote sensing images based on deep inverse convolutional neural network, the usual method to solve this problem is to divide the land cover remote sensing images into a number of small blocks in advance, and then according to whether or not the pixel in the center of the image block belongs to the target organization, a semantic label is given to the image block, which is inputted to the network together with the image block to realize the task of single-label classification of the semantics of land cover remote sensing images. This method increases the complexity of image preprocessing, and the whole network needs to preprocess a large number of data blocks, which increases the time consumption of computation.</p><p id="Par13">In the past few years, researchers have designed a full convolutional neural network, which is mainly used to achieve semantic segmentation of natural images. This algorithm replaces the last full connection layer in the convolutional network with the convolutional layer, and applies the up sampling and feature layer clipping operations to solve the problem of the inconsistency between the size of the input image and the size of the output image, and realize the pixel wise prediction of the image. Since then, a series of semantic image segmentation algorithms based on convolutional neural network training have been proposed, and the precision of semantic image segmentation has been repeatedly refreshed. DeconvNet is an extension of FCN application. It learns a multi-level deconvolution network, reconstructs the target details of land cover remote sensing image, and effectively solves the problems of easily misdividing small targets and losing target edge details in FCN.</p><p id="Par14">Inspired by the latest deep learning algorithms such as FCN and DeconvNet, the semantic segmentation of land cover remote sensing image is completed by using full convolution network and deconvolution technology. The deep deconvolution network used in this paper is a supervised learning method, which includes training stage and testing stage. The details of the learning method block diagram are shown in Fig.&#x000a0;<xref rid="Fig1" ref-type="fig">1</xref>.<fig id="Fig1"><label>Figure 1</label><caption><p>Schematic diagram of supervised learning stage.</p></caption><graphic xlink:href="41598_2024_57408_Fig1_HTML" id="MO1"/></fig></p><p id="Par15">In the training phase, the ten fold cross validation method is used to input the remote sensing image of land cover and the segmented image as training samples into the depth deconvolution neural network. Through forward and backward propagation, the network weights are iteratively trained, and validation samples are set to provide supervision and guidance for training. Finally, a Softmax classifier was trained, and the target loss function was optimized to obtain the probability map of semantic segmentation of the whole land cover remote sensing image<sup><xref ref-type="bibr" rid="CR18">18</xref></sup>; In the test phase, the test image is input into the trained network, and the final test image segmentation result is obtained after a forward propagation calculation.</p><p id="Par16">The network structure proposed in this paper is shown in Fig.&#x000a0;<xref rid="Fig2" ref-type="fig">2</xref>. To facilitate network input, the input image is cut to 3&#x02009;&#x000d7;&#x02009;224&#x02009;&#x000d7;&#x02009;224 pixel size. In the convolutional network part, the structure similar to FCN is adopted, and the final full connection layer is replaced by the convolutional layer. The convolution network consists of five stacked convolution layers, five maximum pooling layers and two complete convolution layers. The convolution adopts the stacking form, that is, one or two consecutive identical convolution layers are set after each convolution layer. The size of convolution kernel in the network is 3&#x02009;&#x000d7;&#x02009;3, the step size is 1, and the size of the feature map before and after the convolution operation is consistent by adding a value &#x0201c;0&#x0201d; with a width of 1 at the edge of the input feature map. Stacking convolution layers can not only increase the depth of the network to learn more network parameters, but also effectively avoid over fitting.<fig id="Fig2"><label>Figure 2</label><caption><p>Land cover remote sensing image segmentation algorithm based on deep deconvolution neural network.</p></caption><graphic xlink:href="41598_2024_57408_Fig2_HTML" id="MO2"/></fig></p><p id="Par17">The inverse convolutional network part adopts the mirror structure of convolutional network, which aims at reconstructing the shape of the input target, so the multilevel inverse convolutional structure is also able to capture the shape details of different levels of the land-covered remote sensing images like convolutional network. In the convolutional network, the low-level features can describe the whole target rough information, such as target location, general shape, etc., while the more complex high-level features have classification characteristics and contain more target details<sup><xref ref-type="bibr" rid="CR19">19</xref></sup>.</p><p id="Par18">Among them, the up-sampling structure is shown in Fig.&#x000a0;<xref rid="Fig3" ref-type="fig">3</xref>.<fig id="Fig3"><label>Figure 3</label><caption><p>Upsampling structure.</p></caption><graphic xlink:href="41598_2024_57408_Fig3_HTML" id="MO3"/></fig></p><p id="Par19">Land cover remote sensing images are up-sampled by zero-filling and deconvolution:<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$G_{1} \left( X \right) = \max \left( {V_{1} \times X + A_{1} ,0} \right) + \beta_{i} \min \left( {0,V_{1} \times X + A_{1} } \right)$$\end{document}</tex-math><mml:math id="M2" display="block"><mml:mrow><mml:msub><mml:mi>G</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mfenced close=")" open="("><mml:mi>X</mml:mi></mml:mfenced><mml:mo>=</mml:mo><mml:mo movablelimits="true">max</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>V</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>&#x000d7;</mml:mo><mml:mi>X</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mfenced><mml:mo>+</mml:mo><mml:msub><mml:mi>&#x003b2;</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo movablelimits="true">min</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:msub><mml:mi>V</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>&#x000d7;</mml:mo><mml:mi>X</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="41598_2024_57408_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par20">Among them, <inline-formula id="IEq1"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$X$$\end{document}</tex-math><mml:math id="M4"><mml:mi>X</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq1.gif"/></alternatives></inline-formula> denotes the input land cover remote sensing image, parameter <inline-formula id="IEq2"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$V_{1}$$\end{document}</tex-math><mml:math id="M6"><mml:msub><mml:mi>V</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq2.gif"/></alternatives></inline-formula>, <inline-formula id="IEq3"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$A_{1}$$\end{document}</tex-math><mml:math id="M8"><mml:msub><mml:mi>A</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq3.gif"/></alternatives></inline-formula> are the up-sampled inverse convolution kernel (weight matrix) and bias. <inline-formula id="IEq4"><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$G_{1} \left( X \right)$$\end{document}</tex-math><mml:math id="M10"><mml:mrow><mml:msub><mml:mi>G</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mfenced close=")" open="("><mml:mi>X</mml:mi></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq4.gif"/></alternatives></inline-formula> denotes the upsampledimage, the <inline-formula id="IEq5"><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\beta_{i}$$\end{document}</tex-math><mml:math id="M12"><mml:msub><mml:mi>&#x003b2;</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq5.gif"/></alternatives></inline-formula> denotes the correction factor. Here, the inverse convolution can be regarded as the inverse operation of convolution, and the step size is set to be <inline-formula id="IEq6"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$h$$\end{document}</tex-math><mml:math id="M14"><mml:mi>h</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq6.gif"/></alternatives></inline-formula>.</p><p id="Par21">The task of semantic segmentation of land cover remote sensing images is actually to predict the category of each pixel, which requires both better characterization of the global features of the target and more preservation of the edge features of the target, and thus has a high demand for detailed features. Different sources of data provide redundant but complementary information, and deep networks are beneficial to extract more information from different data, which provides the possibility to improve the performance of segmentation task through fusion and complementarity. The remote sensing image features are extracted from different data by two neural network branches, and then different region category probability prediction maps are obtained, which correspond to the category prediction results obtained from different remote sensing image target data, where the decision-level fusion is performed, and the results of the two network branches are weighted and fused to further improve the segmentation performance. Using <inline-formula id="IEq7"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Y_{1}$$\end{document}</tex-math><mml:math id="M16"><mml:msub><mml:mi>Y</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq7.gif"/></alternatives></inline-formula>, <inline-formula id="IEq8"><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Y_{2}$$\end{document}</tex-math><mml:math id="M18"><mml:msub><mml:mi>Y</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq8.gif"/></alternatives></inline-formula> denote the category probability maps of the outputs of different branch networks, respectively. The output of fusion is the result of semantic segmentation of remote sensing images, which is denoted as:<disp-formula id="Equ2"><label>2</label><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$O_{j} = G_{1} \left( X \right)\left( {\varpi_{1} Y_{1j} + \varpi_{2} Y_{2j} } \right)$$\end{document}</tex-math><mml:math id="M20" display="block"><mml:mrow><mml:msub><mml:mi>O</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>G</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mfenced close=")" open="("><mml:mi>X</mml:mi></mml:mfenced><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>&#x003d6;</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:msub><mml:mi>Y</mml:mi><mml:mrow><mml:mn>1</mml:mn><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>&#x003d6;</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:msub><mml:mi>Y</mml:mi><mml:mrow><mml:mn>2</mml:mn><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="41598_2024_57408_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par22">Among them, <inline-formula id="IEq9"><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$j$$\end{document}</tex-math><mml:math id="M22"><mml:mi>j</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq9.gif"/></alternatives></inline-formula> denotes the category number for semantic segmentation of land cover remote sensing images, the <inline-formula id="IEq10"><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\varpi_{1}$$\end{document}</tex-math><mml:math id="M24"><mml:msub><mml:mi>&#x003d6;</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq10.gif"/></alternatives></inline-formula> and <inline-formula id="IEq11"><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\varpi_{2}$$\end{document}</tex-math><mml:math id="M26"><mml:msub><mml:mi>&#x003d6;</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq11.gif"/></alternatives></inline-formula> represent the weighted coefficients, respectively.</p><p id="Par23">The probability maps obtained from different branch networks are fused at the decision level using weighted fusion, and the fused resultant probability maps are obtained, which represent the final probability of the region to which each pixel belongs, respectively. The new probability maps are used to make a category decision based on the maximum probability, e.g., pixels belonging to the target 1 are labeled as 1, and the target 2 pixels are labeled as 0.</p></sec><sec id="Sec5"><title>Deep inverse convolutional neural network training</title><p id="Par24">In order to ensure the accuracy of remote sensing image segmentation, the multi-loss objective function is established as follows:<disp-formula id="Equ3"><label>3</label><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Z_{s} = \left( {1 - Z_{G} } \right)Z_{c} + Z_{G} + \left( {1 - 50^*Z_{G} } \right)Z_{a} O_{j} + 50^*Z_{G} + \alpha_{e} Z_{e}$$\end{document}</tex-math><mml:math id="M28" display="block"><mml:mrow><mml:msub><mml:mi>Z</mml:mi><mml:mi>s</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msub><mml:mi>Z</mml:mi><mml:mi>G</mml:mi></mml:msub></mml:mrow></mml:mfenced><mml:msub><mml:mi>Z</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>Z</mml:mi><mml:mi>G</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:msup><mml:mn>50</mml:mn><mml:mo>&#x02217;</mml:mo></mml:msup><mml:msub><mml:mi>Z</mml:mi><mml:mi>G</mml:mi></mml:msub></mml:mrow></mml:mfenced><mml:msub><mml:mi>Z</mml:mi><mml:mi>a</mml:mi></mml:msub><mml:msub><mml:mi>O</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msup><mml:mn>50</mml:mn><mml:mo>&#x02217;</mml:mo></mml:msup><mml:msub><mml:mi>Z</mml:mi><mml:mi>G</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>&#x003b1;</mml:mi><mml:mi>e</mml:mi></mml:msub><mml:msub><mml:mi>Z</mml:mi><mml:mi>e</mml:mi></mml:msub></mml:mrow></mml:math><graphic xlink:href="41598_2024_57408_Article_Equ3.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par25">In the formula, the <inline-formula id="IEq12"><alternatives><tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Z_{s}$$\end{document}</tex-math><mml:math id="M30"><mml:msub><mml:mi>Z</mml:mi><mml:mi>s</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq12.gif"/></alternatives></inline-formula>, <inline-formula id="IEq13"><alternatives><tex-math id="M31">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Z_{c}$$\end{document}</tex-math><mml:math id="M32"><mml:msub><mml:mi>Z</mml:mi><mml:mi>c</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq13.gif"/></alternatives></inline-formula> are the total objective loss function, the input remote sensing image and the cross-entropy loss of the source domain labeling; the <inline-formula id="IEq14"><alternatives><tex-math id="M33">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Z_{a}$$\end{document}</tex-math><mml:math id="M34"><mml:msub><mml:mi>Z</mml:mi><mml:mi>a</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq14.gif"/></alternatives></inline-formula>, <inline-formula id="IEq15"><alternatives><tex-math id="M35">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Z_{e}$$\end{document}</tex-math><mml:math id="M36"><mml:msub><mml:mi>Z</mml:mi><mml:mi>e</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq15.gif"/></alternatives></inline-formula> are adversarial loss, cross-entropy loss from different images (source and target images); the <inline-formula id="IEq16"><alternatives><tex-math id="M37">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Z_{G}$$\end{document}</tex-math><mml:math id="M38"><mml:msub><mml:mi>Z</mml:mi><mml:mi>G</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq16.gif"/></alternatives></inline-formula> is the learning rate corresponding to the segmentation network; the <inline-formula id="IEq17"><alternatives><tex-math id="M39">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\alpha_{e}$$\end{document}</tex-math><mml:math id="M40"><mml:msub><mml:mi>&#x003b1;</mml:mi><mml:mi>e</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq17.gif"/></alternatives></inline-formula> is a fixed balance coefficient used to control the difference balance from different remote sensing image samples.</p><p id="Par26">For the input land cover remote sensing image from the labeled source domain dataset as <inline-formula id="IEq18"><alternatives><tex-math id="M41">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$X_{m}$$\end{document}</tex-math><mml:math id="M42"><mml:msub><mml:mi>X</mml:mi><mml:mi>m</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq18.gif"/></alternatives></inline-formula>, mark the corresponding one pot code as <inline-formula id="IEq19"><alternatives><tex-math id="M43">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Y_{m}$$\end{document}</tex-math><mml:math id="M44"><mml:msub><mml:mi>Y</mml:mi><mml:mi>m</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq19.gif"/></alternatives></inline-formula>, for which the network predicts the results as <inline-formula id="IEq20"><alternatives><tex-math id="M45">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$O\left( {X_{m} } \right)$$\end{document}</tex-math><mml:math id="M46"><mml:mrow><mml:mi>O</mml:mi><mml:mfenced close=")" open="("><mml:msub><mml:mi>X</mml:mi><mml:mi>m</mml:mi></mml:msub></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq20.gif"/></alternatives></inline-formula>, the corresponding cross-entropy loss is as follows:<disp-formula id="Equ4"><label>4</label><alternatives><tex-math id="M47">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Z_{ce} = Z_{s} \sum\limits_{k,u} {\sum\limits_{b \in B} {Y_{m}^{{\left( {k,u,b} \right)}} } } \lg \left( {O\left( {X_{m} } \right)^{{\left( {k,u,b} \right)}} } \right)$$\end{document}</tex-math><mml:math id="M48" display="block"><mml:mrow><mml:msub><mml:mi>Z</mml:mi><mml:mrow><mml:mi mathvariant="italic">ce</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>Z</mml:mi><mml:mi>s</mml:mi></mml:msub><mml:munder><mml:mo movablelimits="false">&#x02211;</mml:mo><mml:mrow><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>u</mml:mi></mml:mrow></mml:munder><mml:mrow><mml:munder><mml:mo movablelimits="false">&#x02211;</mml:mo><mml:mrow><mml:mi>b</mml:mi><mml:mo>&#x02208;</mml:mo><mml:mi>B</mml:mi></mml:mrow></mml:munder><mml:msubsup><mml:mi>Y</mml:mi><mml:mrow><mml:mi>m</mml:mi></mml:mrow><mml:mfenced close=")" open="("><mml:mrow><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>u</mml:mi><mml:mo>,</mml:mo><mml:mi>b</mml:mi></mml:mrow></mml:mfenced></mml:msubsup></mml:mrow><mml:mo>lg</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:mi>O</mml:mi><mml:msup><mml:mfenced close=")" open="("><mml:msub><mml:mi>X</mml:mi><mml:mi>m</mml:mi></mml:msub></mml:mfenced><mml:mfenced close=")" open="("><mml:mrow><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>u</mml:mi><mml:mo>,</mml:mo><mml:mi>b</mml:mi></mml:mrow></mml:mfenced></mml:msup></mml:mrow></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="41598_2024_57408_Article_Equ4.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par27">Among them, <inline-formula id="IEq21"><alternatives><tex-math id="M49">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$k$$\end{document}</tex-math><mml:math id="M50"><mml:mi>k</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq21.gif"/></alternatives></inline-formula>, <inline-formula id="IEq22"><alternatives><tex-math id="M51">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$u$$\end{document}</tex-math><mml:math id="M52"><mml:mi>u</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq22.gif"/></alternatives></inline-formula>, <inline-formula id="IEq23"><alternatives><tex-math id="M53">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$b$$\end{document}</tex-math><mml:math id="M54"><mml:mi>b</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq23.gif"/></alternatives></inline-formula> are the three-channel size of theinput land cover remote sensing images <inline-formula id="IEq24"><alternatives><tex-math id="M55">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$X_{m}$$\end{document}</tex-math><mml:math id="M56"><mml:msub><mml:mi>X</mml:mi><mml:mi>m</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq24.gif"/></alternatives></inline-formula>, respectively.</p><p id="Par28">In the training process, a discriminant network is designed, which uses the SegNet network, use <inline-formula id="IEq25"><alternatives><tex-math id="M57">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$F\left( \cdot \right)$$\end{document}</tex-math><mml:math id="M58"><mml:mrow><mml:mi>F</mml:mi><mml:mfenced close=")" open="("><mml:mo>&#x000b7;</mml:mo></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq25.gif"/></alternatives></inline-formula> to denote, and the adversarial loss based on this network is:<disp-formula id="Equ5"><label>5</label><alternatives><tex-math id="M59">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Z_{a} = - \sum\limits_{k,u} {\lg \left( {F\left( {O\left( {X_{m} } \right)^{{\left( {k,u} \right)}} } \right)} \right)}$$\end{document}</tex-math><mml:math id="M60" display="block"><mml:mrow><mml:msub><mml:mi>Z</mml:mi><mml:mi>a</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mo>-</mml:mo><mml:munder><mml:mo movablelimits="false">&#x02211;</mml:mo><mml:mrow><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>u</mml:mi></mml:mrow></mml:munder><mml:mrow><mml:mo>lg</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:mi>F</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mi>O</mml:mi><mml:msup><mml:mfenced close=")" open="("><mml:msub><mml:mi>X</mml:mi><mml:mi>m</mml:mi></mml:msub></mml:mfenced><mml:mfenced close=")" open="("><mml:mrow><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>u</mml:mi></mml:mrow></mml:mfenced></mml:msup></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:math><graphic xlink:href="41598_2024_57408_Article_Equ5.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par29">The purpose of this adversarial loss is to make the predicted results of semantic segmentation of land cover remote sensing images closer and closer to the labeling of the source domain.</p><p id="Par30">Adversarial training using unlabeled samples of land cover remote sensing images in a semi-supervised environment. For unlabeled target data, the adversarial loss that <inline-formula id="IEq26"><alternatives><tex-math id="M61">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Z_{a}$$\end{document}</tex-math><mml:math id="M62"><mml:msub><mml:mi>Z</mml:mi><mml:mi>a</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq26.gif"/></alternatives></inline-formula> is still usable, but it cannot be used because there is no labeling information. In addition, the performance of the network is degraded when applying only the adversarial loss to unlabeled target data, because the discriminant network has regularization to correct the prediction, and correcting it only with the adversarial loss will make the segmentation prediction overfitting the source domain annotation. Therefore, a &#x0201c;self-learning&#x0201d; strategy is adopted, which is able to train the discriminator using unlabeled target data<sup><xref ref-type="bibr" rid="CR20">20</xref></sup>. The main idea is that training the discriminator generates a confidence map, i.e., the <inline-formula id="IEq27"><alternatives><tex-math id="M63">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$F\left( {O\left( {X_{m} } \right)^{{\left( {k,u} \right)}} } \right)$$\end{document}</tex-math><mml:math id="M64"><mml:mrow><mml:mi>F</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mi>O</mml:mi><mml:msup><mml:mfenced close=")" open="("><mml:msub><mml:mi>X</mml:mi><mml:mi>m</mml:mi></mml:msub></mml:mfenced><mml:mfenced close=")" open="("><mml:mrow><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>u</mml:mi></mml:mrow></mml:mfenced></mml:msup></mml:mrow></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq27.gif"/></alternatives></inline-formula>, it can find the region where the distribution between the prediction result and the source domain annotation is close enough, and then binarize the segmented prediction confidence map with the corresponding confidence map of the source domain annotation, and use a threshold to determine their correlation and thus find the confidence region. Namely <inline-formula id="IEq28"><alternatives><tex-math id="M65">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{X}_{m} = \arg \max \left( {O\left( {X_{m} } \right)} \right)$$\end{document}</tex-math><mml:math id="M66"><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>X</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mi>m</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mo>arg</mml:mo><mml:mo movablelimits="true">max</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:mi>O</mml:mi><mml:mfenced close=")" open="("><mml:msub><mml:mi>X</mml:mi><mml:mi>m</mml:mi></mml:msub></mml:mfenced></mml:mrow></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq28.gif"/></alternatives></inline-formula>. The constructed semi-supervised losses are as follows:<disp-formula id="Equ6"><label>6</label><alternatives><tex-math id="M67">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Z_{s} = - \sum\limits_{k,u} {\sum\limits_{b \in B} {I\left( {F\left( {O\left( {X_{m} } \right)^{{\left( {k,u} \right)}} } \right) &#x0003e; H_{s} } \right)\sum {\hat{X}_{m} \lg O\left( {X_{m} } \right)^{{\left( {k,u,b} \right)}} } } }$$\end{document}</tex-math><mml:math id="M68" display="block"><mml:mrow><mml:msub><mml:mi>Z</mml:mi><mml:mi>s</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mo>-</mml:mo><mml:munder><mml:mo movablelimits="false">&#x02211;</mml:mo><mml:mrow><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>u</mml:mi></mml:mrow></mml:munder><mml:mrow><mml:munder><mml:mo movablelimits="false">&#x02211;</mml:mo><mml:mrow><mml:mi>b</mml:mi><mml:mo>&#x02208;</mml:mo><mml:mi>B</mml:mi></mml:mrow></mml:munder><mml:mrow><mml:mi>I</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mi>F</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:mi>O</mml:mi><mml:msup><mml:mfenced close=")" open="("><mml:msub><mml:mi>X</mml:mi><mml:mi>m</mml:mi></mml:msub></mml:mfenced><mml:mfenced close=")" open="("><mml:mrow><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>u</mml:mi></mml:mrow></mml:mfenced></mml:msup></mml:mrow></mml:mfenced><mml:mo>&#x0003e;</mml:mo><mml:msub><mml:mi>H</mml:mi><mml:mi>s</mml:mi></mml:msub></mml:mrow></mml:mfenced><mml:mo>&#x02211;</mml:mo><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>X</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mi>m</mml:mi></mml:msub><mml:mo>lg</mml:mo><mml:mi>O</mml:mi><mml:msup><mml:mfenced close=")" open="("><mml:msub><mml:mi>X</mml:mi><mml:mi>m</mml:mi></mml:msub></mml:mfenced><mml:mfenced close=")" open="("><mml:mrow><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>u</mml:mi><mml:mo>,</mml:mo><mml:mi>b</mml:mi></mml:mrow></mml:mfenced></mml:msup></mml:mrow></mml:mrow></mml:mrow></mml:mrow></mml:math><graphic xlink:href="41598_2024_57408_Article_Equ6.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par31">Among them, <inline-formula id="IEq29"><alternatives><tex-math id="M69">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$I$$\end{document}</tex-math><mml:math id="M70"><mml:mi>I</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq29.gif"/></alternatives></inline-formula> refers to the indexing function; the <inline-formula id="IEq30"><alternatives><tex-math id="M71">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$H_{s}$$\end{document}</tex-math><mml:math id="M72"><mml:msub><mml:mi>H</mml:mi><mml:mi>s</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq30.gif"/></alternatives></inline-formula> denotes the threshold parameter for unlabeled target data. During the training process, the self-learning target, the <inline-formula id="IEq31"><alternatives><tex-math id="M73">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hat{X}_{m}$$\end{document}</tex-math><mml:math id="M74"><mml:msub><mml:mover accent="true"><mml:mi>X</mml:mi><mml:mo stretchy="false">^</mml:mo></mml:mover><mml:mi>m</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq31.gif"/></alternatives></inline-formula> and index function values are assumed to be constants, so Eq.&#x000a0;(<xref rid="Equ6" ref-type="disp-formula">6</xref>) can be considered as the global cross-entropy loss based on the target features. Several experiments have shown that the threshold value <inline-formula id="IEq32"><alternatives><tex-math id="M75">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$H_{s}$$\end{document}</tex-math><mml:math id="M76"><mml:msub><mml:mi>H</mml:mi><mml:mi>s</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq32.gif"/></alternatives></inline-formula> its effect is better in the interval of 0.1&#x02013;0.3. After the network training, the semantic segmentation of remote sensing images is completed using Eq.&#x000a0;(<xref rid="Equ2" ref-type="disp-formula">2</xref>).</p></sec></sec><sec id="Sec6"><title>Semantic feature extraction method for remote sensing images based on improved sequential clustering algorithm</title><p id="Par32">In the articles on image recognition and retrieval, most of the meanings expressed by the term image semantics refer to the terminology of how to utilize the information of an image, especially the high-level information, to provide a way of describing the image for research. Therefore, image semantics is a concept that extracts information from the attributes of an image to form a process of transferring, mapping, and fusion of low-level information to high-level semantics to describe or express the original image<sup><xref ref-type="bibr" rid="CR21">21</xref></sup>.</p><p id="Par33">Many literatures on image semantics only use one of the underlying features such as color, texture or shape, which is still very limited. Here, the semantic segmentation is chosen to cover the four semantic features of color, texture, shape and size of remote sensing images, which greatly improves the robustness of semantic feature extraction of remote sensing images.</p><p id="Par34">Semantic feature extraction of land cover remote sensing image images segmented in &#x0201c;<xref rid="Sec3" ref-type="sec">Semantic segmentation algorithm for land cover remote sensing images based on deep inverse convolutional neural network</xref>&#x0201d; section using an improved sequential clustering algorithm, setting the dimensions of <inline-formula id="IEq33"><alternatives><tex-math id="M77">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$O_{j}$$\end{document}</tex-math><mml:math id="M78"><mml:msub><mml:mi>O</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq33.gif"/></alternatives></inline-formula> is <inline-formula id="IEq34"><alternatives><tex-math id="M79">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\phi {*}\varphi$$\end{document}</tex-math><mml:math id="M80"><mml:mrow><mml:mi>&#x003d5;</mml:mi><mml:mrow><mml:mrow/><mml:mo>&#x02217;</mml:mo></mml:mrow><mml:mi>&#x003c6;</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq34.gif"/></alternatives></inline-formula>, for which interest pixel clustering is performed. An important influencing factor here is the selection of thresholds, which requires manual intervention. Based on the a priori knowledge, the 2 thresholds for each target object hue in the segmented land remote sensing multi-target semantic image are specified as <inline-formula id="IEq35"><alternatives><tex-math id="M81">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$k_{j1}$$\end{document}</tex-math><mml:math id="M82"><mml:msub><mml:mi>k</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq35.gif"/></alternatives></inline-formula>, <inline-formula id="IEq36"><alternatives><tex-math id="M83">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$k_{j2}$$\end{document}</tex-math><mml:math id="M84"><mml:msub><mml:mi>k</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq36.gif"/></alternatives></inline-formula>, the saturation threshold is <inline-formula id="IEq37"><alternatives><tex-math id="M85">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$r_{j}$$\end{document}</tex-math><mml:math id="M86"><mml:msub><mml:mi>r</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq37.gif"/></alternatives></inline-formula>, for the fulfillment of <inline-formula id="IEq38"><alternatives><tex-math id="M87">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$k_{j1} &#x0003c; k_{h} &#x0003c; k_{j2}$$\end{document}</tex-math><mml:math id="M88"><mml:mrow><mml:msub><mml:mi>k</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>&#x0003c;</mml:mo><mml:msub><mml:mi>k</mml:mi><mml:mi>h</mml:mi></mml:msub><mml:mo>&#x0003c;</mml:mo><mml:msub><mml:mi>k</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq38.gif"/></alternatives></inline-formula> and <inline-formula id="IEq39"><alternatives><tex-math id="M89">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$r_{h} &#x0003c; r_{j}$$\end{document}</tex-math><mml:math id="M90"><mml:mrow><mml:msub><mml:mi>r</mml:mi><mml:mi>h</mml:mi></mml:msub><mml:mo>&#x0003c;</mml:mo><mml:msub><mml:mi>r</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq39.gif"/></alternatives></inline-formula> of pixel clustering, here <inline-formula id="IEq40"><alternatives><tex-math id="M91">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$k_{h}$$\end{document}</tex-math><mml:math id="M92"><mml:msub><mml:mi>k</mml:mi><mml:mi>h</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq40.gif"/></alternatives></inline-formula>, <inline-formula id="IEq41"><alternatives><tex-math id="M93">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$r_{h}$$\end{document}</tex-math><mml:math id="M94"><mml:msub><mml:mi>r</mml:mi><mml:mi>h</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq41.gif"/></alternatives></inline-formula> are Hue and saturation components of pixel <inline-formula id="IEq42"><alternatives><tex-math id="M95">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$O_{j}$$\end{document}</tex-math><mml:math id="M96"><mml:msub><mml:mi>O</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq42.gif"/></alternatives></inline-formula>. The process of clustering is a step-by-step refinement process, i.e., the threshold is continuously adjusted according to the subjective judgment of the clustering results, and this method is similar to the process of human cognition. After clustering, the semantic features <inline-formula id="IEq43"><alternatives><tex-math id="M97">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$L_{1} ,L_{2} ,\ldots,L_{M}$$\end{document}</tex-math><mml:math id="M98"><mml:mrow><mml:msub><mml:mi>L</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>L</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x02026;</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mi>L</mml:mi><mml:mi>M</mml:mi></mml:msub></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq43.gif"/></alternatives></inline-formula> of the target object in the image are in total <inline-formula id="IEq44"><alternatives><tex-math id="M99">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$M$$\end{document}</tex-math><mml:math id="M100"><mml:mi>M</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq44.gif"/></alternatives></inline-formula>. In this study, the <inline-formula id="IEq45"><alternatives><tex-math id="M101">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$M{ = }4$$\end{document}</tex-math><mml:math id="M102"><mml:mrow><mml:mi>M</mml:mi><mml:mo>=</mml:mo><mml:mn>4</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq45.gif"/></alternatives></inline-formula>.</p><p id="Par35">Color is the most direct semantic feature that describes the content of an image, and it is recognized that color is more stable. In response to <inline-formula id="IEq46"><alternatives><tex-math id="M103">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$L_{1} ,L_{2} ,\ldots,L_{M}$$\end{document}</tex-math><mml:math id="M104"><mml:mrow><mml:msub><mml:mi>L</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>L</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x02026;</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mi>L</mml:mi><mml:mi>M</mml:mi></mml:msub></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq46.gif"/></alternatives></inline-formula>, set the total number of pixels of each target object to be <inline-formula id="IEq47"><alternatives><tex-math id="M105">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$N_{1} ,N_{3} ,\ldots,N_{M}$$\end{document}</tex-math><mml:math id="M106"><mml:mrow><mml:msub><mml:mi>N</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>N</mml:mi><mml:mn>3</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x02026;</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mi>N</mml:mi><mml:mi>M</mml:mi></mml:msub></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq47.gif"/></alternatives></inline-formula>, respectively. The average hue semantic values for each target object is:<disp-formula id="Equ7"><label>7</label><alternatives><tex-math id="M107">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$K_{avg - j} = \frac{1}{{N_{j} }}\sum\limits_{n = 1}^{{N_{j} }} {K_{j.n} }$$\end{document}</tex-math><mml:math id="M108" display="block"><mml:mrow><mml:msub><mml:mi>K</mml:mi><mml:mrow><mml:mi>a</mml:mi><mml:mi>v</mml:mi><mml:mi>g</mml:mi><mml:mo>-</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:msub><mml:mi>N</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mfrac><mml:munderover><mml:mo movablelimits="false">&#x02211;</mml:mo><mml:mrow><mml:mi>n</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:msub><mml:mi>N</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:munderover><mml:msub><mml:mi>K</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mo>.</mml:mo><mml:mi>n</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math><graphic xlink:href="41598_2024_57408_Article_Equ7.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par36">Among them, <inline-formula id="IEq48"><alternatives><tex-math id="M109">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$K_{j.n}$$\end{document}</tex-math><mml:math id="M110"><mml:msub><mml:mi>K</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mo>.</mml:mo><mml:mi>n</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq48.gif"/></alternatives></inline-formula> is the tone semantic value of the <inline-formula id="IEq49"><alternatives><tex-math id="M111">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$j$$\end{document}</tex-math><mml:math id="M112"><mml:mi>j</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq49.gif"/></alternatives></inline-formula>th pixel coordinates of the <inline-formula id="IEq50"><alternatives><tex-math id="M113">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$j$$\end{document}</tex-math><mml:math id="M114"><mml:mi>j</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq50.gif"/></alternatives></inline-formula>th target object.</p><p id="Par37">Texture is a property specific to all physically existing surfaces. In order to utilize the spatial information about the relative positions of pixels, the description of symbiotic matrices is used. Let <inline-formula id="IEq51"><alternatives><tex-math id="M115">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\overline{o}$$\end{document}</tex-math><mml:math id="M116"><mml:mover><mml:mi>o</mml:mi><mml:mo>&#x000af;</mml:mo></mml:mover></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq51.gif"/></alternatives></inline-formula> be the set of pairs of pixels <inline-formula id="IEq52"><alternatives><tex-math id="M117">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\left( {o_{1} ,o_{2} } \right)$$\end{document}</tex-math><mml:math id="M118"><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>o</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>o</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:mfenced></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq52.gif"/></alternatives></inline-formula> with specific spatial associations in the target region <inline-formula id="IEq53"><alternatives><tex-math id="M119">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$O$$\end{document}</tex-math><mml:math id="M120"><mml:mi>O</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq53.gif"/></alternatives></inline-formula>, define the angular second-order moments <inline-formula id="IEq54"><alternatives><tex-math id="M121">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$asm$$\end{document}</tex-math><mml:math id="M122"><mml:mrow><mml:mi mathvariant="italic">asm</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq54.gif"/></alternatives></inline-formula> based on the covariance matrix is:<disp-formula id="Equ8"><label>8</label><alternatives><tex-math id="M123">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$asm = \sum\limits_{{o_{1} }} {\sum\limits_{{o_{2} }} {K_{avg - j} \left( {Q\left( {o_{1} ,o_{2} } \right)} \right)^{2} } }$$\end{document}</tex-math><mml:math id="M124" display="block"><mml:mrow><mml:mi>a</mml:mi><mml:mi>s</mml:mi><mml:mi>m</mml:mi><mml:mo>=</mml:mo><mml:munder><mml:mo movablelimits="false">&#x02211;</mml:mo><mml:msub><mml:mi>o</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:munder><mml:mrow><mml:munder><mml:mo movablelimits="false">&#x02211;</mml:mo><mml:msub><mml:mi>o</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:munder><mml:mrow><mml:msub><mml:mi>K</mml:mi><mml:mrow><mml:mi>a</mml:mi><mml:mi>v</mml:mi><mml:mi>g</mml:mi><mml:mo>-</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:msup><mml:mfenced close=")" open="("><mml:mrow><mml:mi>Q</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>o</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>o</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mrow></mml:mrow></mml:math><graphic xlink:href="41598_2024_57408_Article_Equ8.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par38">Among them, <inline-formula id="IEq55"><alternatives><tex-math id="M125">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Q$$\end{document}</tex-math><mml:math id="M126"><mml:mi>Q</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq55.gif"/></alternatives></inline-formula> is the gray value.</p><p id="Par39">This feature is a measure of the smoothness of the segmented image, the less smooth the region is, the more the image is smoothed. The more homogeneous for <inline-formula id="IEq56"><alternatives><tex-math id="M127">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Q\left( {o_{1} ,o_{2} } \right)$$\end{document}</tex-math><mml:math id="M128"><mml:mrow><mml:mi>Q</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>o</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>o</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq56.gif"/></alternatives></inline-formula>, the smaller the value of the angular second-order moments <inline-formula id="IEq57"><alternatives><tex-math id="M129">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$asm$$\end{document}</tex-math><mml:math id="M130"><mml:mrow><mml:mi mathvariant="italic">asm</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq57.gif"/></alternatives></inline-formula>.</p><p id="Par40">When the boundaries of a target object are known, it is easiest to use the dimensions of its outer rectangle to characterize its basic shape and size.</p><p id="Par41">There are countless external rectangles of a target object, and the real reflection of the shape and size characteristics of the target object is the minimum area of the external rectangle of the target object. Rotate the target object within 90&#x000b0; at equal intervals, record the parameters of the external rectangle in the direction of each coordinate system, take the rectangle with the smallest area as the length and width in the sense of the main axis, and then the length-to-width ratio of the rectangle, the length-to-width ratio of the rectangle, and the length-to-width ratio of the rectangle <inline-formula id="IEq58"><alternatives><tex-math id="M131">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$C/P$$\end{document}</tex-math><mml:math id="M132"><mml:mrow><mml:mi>C</mml:mi><mml:mo stretchy="false">/</mml:mo><mml:mi>P</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq58.gif"/></alternatives></inline-formula> as a semantic parameter for shape features. The smaller the angle of rotation, the more accurate the result. However, it will bring about a reduction in efficiency. Considering the two factors, we choose the equal interval rotation angle of 6&#x000b0;, and get the following.<disp-formula id="Equ9"><label>9</label><alternatives><tex-math id="M133">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\left( \frac{C}{P} \right)_{j} = \min \left( \frac{C}{P} \right)_{1j} , \ldots ,\left( \frac{C}{P} \right)_{16j}$$\end{document}</tex-math><mml:math id="M134" display="block"><mml:mrow><mml:msub><mml:mfenced close=")" open="("><mml:mfrac><mml:mi>C</mml:mi><mml:mi>P</mml:mi></mml:mfrac></mml:mfenced><mml:mi>j</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mo movablelimits="true">min</mml:mo><mml:msub><mml:mfenced close=")" open="("><mml:mfrac><mml:mi>C</mml:mi><mml:mi>P</mml:mi></mml:mfrac></mml:mfenced><mml:mrow><mml:mn>1</mml:mn><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x02026;</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mfenced close=")" open="("><mml:mfrac><mml:mi>C</mml:mi><mml:mi>P</mml:mi></mml:mfrac></mml:mfenced><mml:mrow><mml:mn>16</mml:mn><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math><graphic xlink:href="41598_2024_57408_Article_Equ9.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par42"><inline-formula id="IEq59"><alternatives><tex-math id="M135">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$O$$\end{document}</tex-math><mml:math id="M136"><mml:mi>O</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq59.gif"/></alternatives></inline-formula> is divided into nine regions, as shown in Fig.&#x000a0;<xref rid="Fig4" ref-type="fig">4</xref>.<fig id="Fig4"><label>Figure 4</label><caption><p>Division of object positions in images.</p></caption><graphic xlink:href="41598_2024_57408_Fig4_HTML" id="MO4"/></fig></p><p id="Par43">The area where each target object is located is determined according to the coordinates of its center of gravity.</p></sec><sec id="Sec7"><title>Random forestalgorithm based semantic feature classification and recognition method for remote sensing images</title><p id="Par44">Taking the semantic features <inline-formula id="IEq60"><alternatives><tex-math id="M137">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$L_{1} ,L_{2} ,\ldots,L_{M}$$\end{document}</tex-math><mml:math id="M138"><mml:mrow><mml:msub><mml:mi>L</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>L</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x02026;</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mi>L</mml:mi><mml:mi>M</mml:mi></mml:msub></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq60.gif"/></alternatives></inline-formula> extracted in &#x0201c;<xref rid="Sec6" ref-type="sec">Semantic feature extraction method for remote sensing images based on improved sequential clustering algorithm</xref>&#x0201d; section as the recognition object of remote sensing image semantic feature classification and recognition method based on random forest algorithm, random forest (RF) is a classification algorithm with high accuracy, which can be used to process large quantities of input data, and has high computing efficiency and speed. At present, it is widely used in various fields.</p><p id="Par45">RF uses the CART decision tree as the basic learner for integrated learning. The decision tree is a tree data structure composed of root nodes, intermediate nodes and leaf nodes. Using Bagging algorithm, from training set <inline-formula id="IEq61"><alternatives><tex-math id="M139">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$L^{\prime}$$\end{document}</tex-math><mml:math id="M140"><mml:msup><mml:mi>L</mml:mi><mml:mo>&#x02032;</mml:mo></mml:msup></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq61.gif"/></alternatives></inline-formula> randomly acquired <inline-formula id="IEq62"><alternatives><tex-math id="M141">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$M$$\end{document}</tex-math><mml:math id="M142"><mml:mi>M</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq62.gif"/></alternatives></inline-formula> training subset <inline-formula id="IEq63"><alternatives><tex-math id="M143">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$L^{\prime} = \left\{ {L^{\prime}_{1} ,L^{\prime}_{2} , \ldots ,L^{\prime}_{M} } \right\}$$\end{document}</tex-math><mml:math id="M144"><mml:mrow><mml:msup><mml:mi>L</mml:mi><mml:mo>&#x02032;</mml:mo></mml:msup><mml:mo>=</mml:mo><mml:mfenced close="}" open="{"><mml:mrow><mml:msubsup><mml:mi>L</mml:mi><mml:mn>1</mml:mn><mml:mo>&#x02032;</mml:mo></mml:msubsup><mml:mo>,</mml:mo><mml:msubsup><mml:mi>L</mml:mi><mml:mn>2</mml:mn><mml:mo>&#x02032;</mml:mo></mml:msubsup><mml:mo>,</mml:mo><mml:mo>&#x02026;</mml:mo><mml:mo>,</mml:mo><mml:msubsup><mml:mi>L</mml:mi><mml:mi>M</mml:mi><mml:mo>&#x02032;</mml:mo></mml:msubsup></mml:mrow></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq63.gif"/></alternatives></inline-formula> of independent and identically distributed, and construct generative correspondences based on different training subsets <inline-formula id="IEq64"><alternatives><tex-math id="M145">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$M$$\end{document}</tex-math><mml:math id="M146"><mml:mi>M</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq64.gif"/></alternatives></inline-formula> different decision trees <inline-formula id="IEq65"><alternatives><tex-math id="M147">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\sigma = \left\{ {\sigma_{1} ,\sigma_{2} , \ldots ,\sigma_{M} } \right\}$$\end{document}</tex-math><mml:math id="M148"><mml:mrow><mml:mi>&#x003c3;</mml:mi><mml:mo>=</mml:mo><mml:mfenced close="}" open="{"><mml:mrow><mml:msub><mml:mi>&#x003c3;</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>&#x003c3;</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x02026;</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mi>&#x003c3;</mml:mi><mml:mi>M</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq65.gif"/></alternatives></inline-formula>. CART decision tree passes <inline-formula id="IEq66"><alternatives><tex-math id="M149">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Gini$$\end{document}</tex-math><mml:math id="M150"><mml:mrow><mml:mi mathvariant="italic">Gini</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq66.gif"/></alternatives></inline-formula> coefficients as criteria for node feature selection, if there is <inline-formula id="IEq67"><alternatives><tex-math id="M151">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$M$$\end{document}</tex-math><mml:math id="M152"><mml:mi>M</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq67.gif"/></alternatives></inline-formula> species-specific instance in the sample set <inline-formula id="IEq68"><alternatives><tex-math id="M153">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$L^{\prime}$$\end{document}</tex-math><mml:math id="M154"><mml:msup><mml:mi>L</mml:mi><mml:mo>&#x02032;</mml:mo></mml:msup></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq68.gif"/></alternatives></inline-formula>, the coefficients <inline-formula id="IEq69"><alternatives><tex-math id="M155">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Gini$$\end{document}</tex-math><mml:math id="M156"><mml:mrow><mml:mi mathvariant="italic">Gini</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq69.gif"/></alternatives></inline-formula> is calculated as follows:<disp-formula id="Equ10"><label>10</label><alternatives><tex-math id="M157">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Gini\left( {L^{\prime}} \right) = 1 - \sum {\left[ {\lambda \left( j \right)*\lambda \left( j \right)} \right]}$$\end{document}</tex-math><mml:math id="M158" display="block"><mml:mrow><mml:mi>G</mml:mi><mml:mi>i</mml:mi><mml:mi>n</mml:mi><mml:mi>i</mml:mi><mml:mfenced close=")" open="("><mml:msup><mml:mi>L</mml:mi><mml:mo>&#x02032;</mml:mo></mml:msup></mml:mfenced><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mo>&#x02211;</mml:mo><mml:mfenced close="]" open="["><mml:mrow><mml:mi>&#x003bb;</mml:mi><mml:mfenced close=")" open="("><mml:mi>j</mml:mi></mml:mfenced><mml:mrow/><mml:mo>&#x02217;</mml:mo><mml:mi>&#x003bb;</mml:mi><mml:mfenced close=")" open="("><mml:mi>j</mml:mi></mml:mfenced></mml:mrow></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="41598_2024_57408_Article_Equ10.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par46">Among them. <inline-formula id="IEq70"><alternatives><tex-math id="M159">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\lambda \left( j \right)$$\end{document}</tex-math><mml:math id="M160"><mml:mrow><mml:mi>&#x003bb;</mml:mi><mml:mfenced close=")" open="("><mml:mi>j</mml:mi></mml:mfenced></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq70.gif"/></alternatives></inline-formula> is the proportion of semantic feature samples of class <inline-formula id="IEq71"><alternatives><tex-math id="M161">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$j$$\end{document}</tex-math><mml:math id="M162"><mml:mi>j</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq71.gif"/></alternatives></inline-formula> in the dataset on the current node, when <inline-formula id="IEq72"><alternatives><tex-math id="M163">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$L^{\prime}$$\end{document}</tex-math><mml:math id="M164"><mml:msup><mml:mi>L</mml:mi><mml:mo>&#x02032;</mml:mo></mml:msup></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq72.gif"/></alternatives></inline-formula> divided into <inline-formula id="IEq73"><alternatives><tex-math id="M165">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$L^{\prime}_{1}$$\end{document}</tex-math><mml:math id="M166"><mml:msubsup><mml:mi>L</mml:mi><mml:mn>1</mml:mn><mml:mo>&#x02032;</mml:mo></mml:msubsup></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq73.gif"/></alternatives></inline-formula>, <inline-formula id="IEq74"><alternatives><tex-math id="M167">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$L^{\prime}_{2}$$\end{document}</tex-math><mml:math id="M168"><mml:msubsup><mml:mi>L</mml:mi><mml:mn>2</mml:mn><mml:mo>&#x02032;</mml:mo></mml:msubsup></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq74.gif"/></alternatives></inline-formula> two subsets of semantic feature samples, thecoefficients <inline-formula id="IEq75"><alternatives><tex-math id="M169">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Gini$$\end{document}</tex-math><mml:math id="M170"><mml:mrow><mml:mi mathvariant="italic">Gini</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq75.gif"/></alternatives></inline-formula> is defined as follow:<disp-formula id="Equ11"><label>11</label><alternatives><tex-math id="M171">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Gini = Gini\left( {L^{\prime}} \right) - Gini\left( {L^{\prime}_{1} } \right) - Gini\left( {L^{\prime}_{2} } \right)$$\end{document}</tex-math><mml:math id="M172" display="block"><mml:mrow><mml:mi>G</mml:mi><mml:mi>i</mml:mi><mml:mi>n</mml:mi><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mi>G</mml:mi><mml:mi>i</mml:mi><mml:mi>n</mml:mi><mml:mi>i</mml:mi><mml:mfenced close=")" open="("><mml:msup><mml:mi>L</mml:mi><mml:mo>&#x02032;</mml:mo></mml:msup></mml:mfenced><mml:mo>-</mml:mo><mml:mi>G</mml:mi><mml:mi>i</mml:mi><mml:mi>n</mml:mi><mml:mi>i</mml:mi><mml:mfenced close=")" open="("><mml:msubsup><mml:mi>L</mml:mi><mml:mn>1</mml:mn><mml:mo>&#x02032;</mml:mo></mml:msubsup></mml:mfenced><mml:mo>-</mml:mo><mml:mi>G</mml:mi><mml:mi>i</mml:mi><mml:mi>n</mml:mi><mml:mi>i</mml:mi><mml:mfenced close=")" open="("><mml:msubsup><mml:mi>L</mml:mi><mml:mn>2</mml:mn><mml:mo>&#x02032;</mml:mo></mml:msubsup></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="41598_2024_57408_Article_Equ11.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par47">Select the attribute that minimized the <inline-formula id="IEq76"><alternatives><tex-math id="M173">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Gini$$\end{document}</tex-math><mml:math id="M174"><mml:mrow><mml:mi mathvariant="italic">Gini</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq76.gif"/></alternatives></inline-formula> coefficient as the split attribute of the node, and the node threshold is set, satisfying the criteria for stopping splitting. For the <inline-formula id="IEq77"><alternatives><tex-math id="M175">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$j$$\end{document}</tex-math><mml:math id="M176"><mml:mi>j</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq77.gif"/></alternatives></inline-formula>th CART decision tree, which trains the subset of semantic feature samples from the root node. If the termination condition is met, the current node is set as the leaf node; If the termination conditions are not met, use <inline-formula id="IEq78"><alternatives><tex-math id="M177">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Gini$$\end{document}</tex-math><mml:math id="M178"><mml:mrow><mml:mi mathvariant="italic">Gini</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq78.gif"/></alternatives></inline-formula> coefficient selection <inline-formula id="IEq79"><alternatives><tex-math id="M179">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$L^{\prime}$$\end{document}</tex-math><mml:math id="M180"><mml:msup><mml:mi>L</mml:mi><mml:mo>&#x02032;</mml:mo></mml:msup></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq79.gif"/></alternatives></inline-formula> for an optimal semantic feature, divide the semantic feature samples on the current node into left and right sub nodes, and continue to train other nodes until all nodes have been trained or marked as leaf nodes. After all CART decision trees are trained, each tree can predict the test sample set according to the node threshold, and vote to determine the final classification result of the entire random forest based on the classification results of each tree. Finally, the semantic classification is completed by inputting the test sample of the semantic characteristics of land cover remote sensing image into formula (<xref rid="Equ12" ref-type="disp-formula">12</xref>).<disp-formula id="Equ12"><label>12</label><alternatives><tex-math id="M181">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Omega = \arg \mathop {\max }\limits_{\eta } \sum\limits_{j = 1}^{M} {GiniJ\left( {L^{\prime}_{M} = \eta } \right)}$$\end{document}</tex-math><mml:math id="M182" display="block"><mml:mrow><mml:mi mathvariant="normal">&#x003a9;</mml:mi><mml:mo>=</mml:mo><mml:mo>arg</mml:mo><mml:munder><mml:mo movablelimits="false">max</mml:mo><mml:mi>&#x003b7;</mml:mi></mml:munder><mml:munderover><mml:mo movablelimits="false">&#x02211;</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>M</mml:mi></mml:munderover><mml:mrow><mml:mi>G</mml:mi><mml:mi>i</mml:mi><mml:mi>n</mml:mi><mml:mi>i</mml:mi><mml:mi>J</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:msubsup><mml:mi>L</mml:mi><mml:mi>M</mml:mi><mml:mo>&#x02032;</mml:mo></mml:msubsup><mml:mo>=</mml:mo><mml:mi>&#x003b7;</mml:mi></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:math><graphic xlink:href="41598_2024_57408_Article_Equ12.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par48">Among them, <inline-formula id="IEq80"><alternatives><tex-math id="M183">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Omega$$\end{document}</tex-math><mml:math id="M184"><mml:mi mathvariant="normal">&#x003a9;</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq80.gif"/></alternatives></inline-formula> denotes the voting result for semantic feature classification; the <inline-formula id="IEq81"><alternatives><tex-math id="M185">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\eta$$\end{document}</tex-math><mml:math id="M186"><mml:mi>&#x003b7;</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq81.gif"/></alternatives></inline-formula> is a semantic feature type for land cover remote sensing images; the <inline-formula id="IEq82"><alternatives><tex-math id="M187">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$J$$\end{document}</tex-math><mml:math id="M188"><mml:mi>J</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq82.gif"/></alternatives></inline-formula> is a schematic function.</p></sec></sec><sec id="Sec8"><title>Experimental analysis</title><sec id="Sec9"><title>Experimental design</title><p id="Par49">This study selected farmland in Siping City, Jilin Province, China as the research area. The land cover types in this area mainly include crops, forests, grasslands, and construction land. In order to obtain high-quality surface information, high-resolution Jilin-1 satellite is used to obtain satellite images. The satellite image was obtained on June 15, 2023 at 10:00 am, with a spatial resolution of 30&#x000a0;cm. The satellite image is open-source data provided by Changguang Satellite Technology Co., Ltd (<ext-link ext-link-type="uri" xlink:href="https://www.jl1mall.com/lab/">https://www.jl1mall.com/lab/</ext-link>).</p><p id="Par50">During the training of deep deconvolution neural networks, careful adjustments were made to the hyperparameters. By trying different combinations of parameters such as learning rate, batch size, and iteration number, the classification performance of the model is optimal when the learning rate is set to 0.001, batch size is 32, and iteration number is 100.</p><p id="Par51">In order to comprehensively evaluate the performance of the proposed method, multiple evaluation metrics were used. Specifically, the intersection to union ratio and F1 score were calculated to evaluate the classification results. By counting the number of true cases (TP), false positive cases (FP), true negative cases (TN), and false negative cases (FN), the specific values of each indicator can be obtained to further evaluate the performance of the model. Meanwhile, to ensure the generalization ability and robustness of the model, representative satellite image datasets were used for training and validation. This dataset contains satellite images from different regions and seasons to ensure the diversity of the dataset. The dataset was randomly divided, with 70% of the data used for training, 20% for validation, and the remaining 10% for testing.</p></sec><sec id="Sec10"><title>Analysis of the training effect of deep inverse convolutional neural networks</title><p id="Par52">Before analyzing the effect of this method on the semantic segmentation of land cover remote sensing images, the training effect of the deep inverse convolutional neural network used in this method is tested. Figures&#x000a0;<xref rid="Fig5" ref-type="fig">5</xref> and <xref rid="Fig6" ref-type="fig">6</xref> show the training loss and accuracy curves of the dataset, with the increase of training rounds, the curves of the loss and accuracy values tend to stabilize within 10 training rounds, which indicates that the method has good training accuracy, and the specific training results are shown in Table <xref rid="Tab1" ref-type="table">1</xref>.<fig id="Fig5"><label>Figure 5</label><caption><p>Training loss value of deep deconvolution neural network.</p></caption><graphic xlink:href="41598_2024_57408_Fig5_HTML" id="MO5"/></fig><fig id="Fig6"><label>Figure 6</label><caption><p>Training accuracy value of deep deconvolution neural network.</p></caption><graphic xlink:href="41598_2024_57408_Fig6_HTML" id="MO6"/></fig><table-wrap id="Tab1"><label>Table 1</label><caption><p>Training effectiveness.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Data set</th><th align="left">Training set</th><th align="left">Test set</th></tr></thead><tbody><tr><td align="left">Magnitude of the loss</td><td char="." align="char">0.0421</td><td char="." align="char">0.0321</td></tr><tr><td align="left">Double-precision value</td><td char="." align="char">0.9898</td><td char="." align="char">0.9973</td></tr></tbody></table></table-wrap></p><p id="Par53">As the data in Table <xref rid="Tab1" ref-type="table">1</xref> show, the training effect of deep inverse convolutional neural network is ideal, and the loss values of both the training set and the test set are low, and the accuracy value is more than 0.98, which can be used in the problem of semantic segmentation of land remote sensing images.</p></sec><sec id="Sec11"><title>Analysis of the effect of semantic segmentation of land cover remote sensing images</title><p id="Par54">Firstly, we test the semantic segmentation effect of this paper&#x02019;s method on the land remote sensing image collected by UAV, Fig.&#x000a0;<xref rid="Fig7" ref-type="fig">7</xref> is the land remote sensing image before segmentation, combined with the actual image target semantic type information, Fig.&#x000a0;<xref rid="Fig8" ref-type="fig">8</xref> is the semantic segmentation effect of the land remote sensing image after this paper&#x02019;s method utilizes the deep inverse convolutional neural network.<fig id="Fig7"><label>Figure 7</label><caption><p>Original land remote sensing images.</p></caption><graphic xlink:href="41598_2024_57408_Fig7_HTML" id="MO7"/></fig><fig id="Fig8"><label>Figure 8</label><caption><p>The semantic segmentation effect of land remote sensing images using the method described in this paper.</p></caption><graphic xlink:href="41598_2024_57408_Fig8_HTML" id="MO8"/></fig></p><p id="Par55">As shown in Fig.&#x000a0;<xref rid="Fig8" ref-type="fig">8</xref>, the semantic segmentation contours of different targets in the semantic segmentation effect map of land remote sensing image are obvious after segmentation by the method of this paper using deep inverse convolutional neural network. There are obvious contour demarcation lines between farmland, grassland, water bodies and artificial land surface.</p><p id="Par56">The experiment uses two parameters to quantitatively evaluate the effect of this method on remote sensing image semantic segmentation, namely Dice similarity coefficient and Hausdorff distance. Dice similarity coefficient calculates the similarity of two target semantic contour regions. Set the point set included in the 2 target semantic contour areas as <inline-formula id="IEq83"><alternatives><tex-math id="M189">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$o_{1}$$\end{document}</tex-math><mml:math id="M190"><mml:msub><mml:mi>o</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq83.gif"/></alternatives></inline-formula>, <inline-formula id="IEq84"><alternatives><tex-math id="M191">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$o_{2}$$\end{document}</tex-math><mml:math id="M192"><mml:msub><mml:mi>o</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq84.gif"/></alternatives></inline-formula>, which is defined as:<disp-formula id="Equ13"><label>13</label><alternatives><tex-math id="M193">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Dice\left( {o_{1} ,o_{2} } \right) = \frac{{2\left| {o_{1} \cap o_{2} } \right|}}{{\left| {o_{1} } \right| + \left| {o_{2} } \right|}}$$\end{document}</tex-math><mml:math id="M194" display="block"><mml:mrow><mml:mi>D</mml:mi><mml:mi>i</mml:mi><mml:mi>c</mml:mi><mml:mi>e</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>o</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>o</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>2</mml:mn><mml:mfenced close="|" open="|"><mml:mrow><mml:msub><mml:mi>o</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>&#x02229;</mml:mo><mml:msub><mml:mi>o</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mfenced close="|" open="|"><mml:msub><mml:mi>o</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mfenced><mml:mo>+</mml:mo><mml:mfenced close="|" open="|"><mml:msub><mml:mi>o</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mfenced></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="41598_2024_57408_Article_Equ13.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par57">The Hausdorff distance reflects the maximum difference between the two target semantic contour point sets, which is defined as:<disp-formula id="Equ14"><label>14</label><alternatives><tex-math id="M195">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Hausdorff\left( {o_{1} ,o_{2} } \right) = \max \left( {\tau \left( {o_{1} ,o_{2} } \right),\tau \left( {o_{2} ,o_{1} } \right)} \right)$$\end{document}</tex-math><mml:math id="M196" display="block"><mml:mrow><mml:mi>H</mml:mi><mml:mi>a</mml:mi><mml:mi>u</mml:mi><mml:mi>s</mml:mi><mml:mi>d</mml:mi><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mi>f</mml:mi><mml:mi>f</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>o</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>o</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:mo movablelimits="true">max</mml:mo><mml:mfenced close=")" open="("><mml:mrow><mml:mi>&#x003c4;</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>o</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>o</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:mfenced><mml:mo>,</mml:mo><mml:mi>&#x003c4;</mml:mi><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>o</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>o</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="41598_2024_57408_Article_Equ14.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par58">Among them, <inline-formula id="IEq85"><alternatives><tex-math id="M197">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\tau$$\end{document}</tex-math><mml:math id="M198"><mml:mi>&#x003c4;</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq85.gif"/></alternatives></inline-formula> represents the one-way Hausdorff distance from the target semantic contour point set. The smaller the Hausdorff distance, the higher the segmentation accuracy.</p><p id="Par59">Figures&#x000a0;<xref rid="Fig9" ref-type="fig">9</xref> and <xref rid="Fig10" ref-type="fig">10</xref> show the test results of Dice similarity coefficient and Hausdorff distance.<fig id="Fig9"><label>Figure 9</label><caption><p>Dice similarity coefficient calculation results.</p></caption><graphic xlink:href="41598_2024_57408_Fig9_HTML" id="MO9"/></fig><fig id="Fig10"><label>Figure 10</label><caption><p>Hausdorff distance calculation result.</p></caption><graphic xlink:href="41598_2024_57408_Fig10_HTML" id="MO10"/></fig></p><p id="Par60">It can be seen from Figs.&#x000a0;<xref rid="Fig9" ref-type="fig">9</xref> and <xref rid="Fig10" ref-type="fig">10</xref> that the segmentation accuracy of the method in this paper is close to the ideal state in Dice similarity coefficient and Hausdorff distance, which meets the semantic segmentation requirements of actual land remote sensing images.</p></sec><sec id="Sec12"><title>Analysis of the effect of semantic classification of land cover remote sensing images</title><p id="Par61">An effective accuracy evaluation system is an important guarantee for evaluating the semantic classification results of land cover remote sensing images by the method in this paper, and it is also the basis for the application of data products. The intersection and concatenation ratio (ICR), which is commonly used in deep learning, is used to evaluate the accuracy of the method (<inline-formula id="IEq86"><alternatives><tex-math id="M199">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\zeta_{2}$$\end{document}</tex-math><mml:math id="M200"><mml:msub><mml:mi>&#x003b6;</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq86.gif"/></alternatives></inline-formula>) and F1 scores (<inline-formula id="IEq87"><alternatives><tex-math id="M201">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\zeta_{3}$$\end{document}</tex-math><mml:math id="M202"><mml:msub><mml:mi>&#x003b6;</mml:mi><mml:mn>3</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq87.gif"/></alternatives></inline-formula>) these 2 metrics to evaluate the single-class classification accuracy of the semantic classification results of remote sensing images, calculated as shown in Eqs. (<xref rid="Equ15" ref-type="disp-formula">15</xref>) and (<xref rid="Equ16" ref-type="disp-formula">16</xref>), respectively.<disp-formula id="Equ15"><label>15</label><alternatives><tex-math id="M203">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\zeta_{2} { = }\frac{TP}{{TP + FP + FN}}$$\end{document}</tex-math><mml:math id="M204" display="block"><mml:mrow><mml:msub><mml:mi>&#x003b6;</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi mathvariant="italic">TP</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi><mml:mi>P</mml:mi><mml:mo>+</mml:mo><mml:mi>F</mml:mi><mml:mi>P</mml:mi><mml:mo>+</mml:mo><mml:mi>F</mml:mi><mml:mi>N</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="41598_2024_57408_Article_Equ15.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ16"><label>16</label><alternatives><tex-math id="M205">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\zeta_{3} { = 2} \times \frac{\chi \times \rho }{{\chi + \rho }}$$\end{document}</tex-math><mml:math id="M206" display="block"><mml:mrow><mml:msub><mml:mi>&#x003b6;</mml:mi><mml:mn>3</mml:mn></mml:msub><mml:mrow><mml:mo>=</mml:mo><mml:mn>2</mml:mn></mml:mrow><mml:mo>&#x000d7;</mml:mo><mml:mfrac><mml:mrow><mml:mi>&#x003c7;</mml:mi><mml:mo>&#x000d7;</mml:mo><mml:mi>&#x003c1;</mml:mi></mml:mrow><mml:mrow><mml:mi>&#x003c7;</mml:mi><mml:mo>+</mml:mo><mml:mi>&#x003c1;</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="41598_2024_57408_Article_Equ16.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par62">Among them, <inline-formula id="IEq88"><alternatives><tex-math id="M207">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\zeta_{1}$$\end{document}</tex-math><mml:math id="M208"><mml:msub><mml:mi>&#x003b6;</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq88.gif"/></alternatives></inline-formula> denotes the overall pixel accuracy; the <inline-formula id="IEq89"><alternatives><tex-math id="M209">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\zeta_{2}$$\end{document}</tex-math><mml:math id="M210"><mml:msub><mml:mi>&#x003b6;</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq89.gif"/></alternatives></inline-formula> denotes the ratio of intersection and merger. <inline-formula id="IEq90"><alternatives><tex-math id="M211">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\zeta_{3}$$\end{document}</tex-math><mml:math id="M212"><mml:msub><mml:mi>&#x003b6;</mml:mi><mml:mn>3</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq90.gif"/></alternatives></inline-formula> represents the semantic classification results of remote sensing images for F1 score; <inline-formula id="IEq91"><alternatives><tex-math id="M213">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$TP$$\end{document}</tex-math><mml:math id="M214"><mml:mrow><mml:mi mathvariant="italic">TP</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq91.gif"/></alternatives></inline-formula>, <inline-formula id="IEq92"><alternatives><tex-math id="M215">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$TN$$\end{document}</tex-math><mml:math id="M216"><mml:mrow><mml:mi mathvariant="italic">TN</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq92.gif"/></alternatives></inline-formula> denote the number of pixels in which positive samples are accurately categorized in the semantic classification results of remote sensing images, and the number of pixels in which negative samples are correctly categorized in the classification results, respectively. <inline-formula id="IEq93"><alternatives><tex-math id="M217">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$FP$$\end{document}</tex-math><mml:math id="M218"><mml:mrow><mml:mi mathvariant="italic">FP</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq93.gif"/></alternatives></inline-formula>, <inline-formula id="IEq94"><alternatives><tex-math id="M219">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$FN$$\end{document}</tex-math><mml:math id="M220"><mml:mrow><mml:mi mathvariant="italic">FN</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq94.gif"/></alternatives></inline-formula> denote the number of pixels in which positive samples are misclassified in the classification result, and the number of pixels in which negative samples are misclassified in the classification result, respectively; and <inline-formula id="IEq95"><alternatives><tex-math id="M221">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi$$\end{document}</tex-math><mml:math id="M222"><mml:mi>&#x003c7;</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq95.gif"/></alternatives></inline-formula>, <inline-formula id="IEq96"><alternatives><tex-math id="M223">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\rho$$\end{document}</tex-math><mml:math id="M224"><mml:mi>&#x003c1;</mml:mi></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq96.gif"/></alternatives></inline-formula> denote checkout rate and recall rate, the former represents the proportion of positive samples categorized as positive cases, while the latter represents the proportion of positive cases categorized to the total number of positive cases, respectively.</p><p id="Par63">In order to verify the classification performance of the proposed deep learning method on different date images, further accuracy estimation was conducted. Specifically, three other remote sensing images with similar features to the original dataset (June 18th, June 22nd, and June 25th) were selected, and the proposed method was applied for semantic classification of land cover. If the semantic classification targets for remote sensing images are forest land, grassland, water body, cultivated land, and artificial surface, the semantic classification results of this method for land remote sensing images are shown in Table <xref rid="Tab2" ref-type="table">2</xref>.<table-wrap id="Tab2"><label>Table 2</label><caption><p>Semantic classification results of land remote sensing images using the method proposed in thispaper.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Date</th><th align="left">Test indicators</th><th align="left">Woodland</th><th align="left">Grass</th><th align="left">Water body</th><th align="left">Cultivated land</th><th align="left">Artificial surface</th><th align="left">Mean value</th></tr></thead><tbody><tr><td align="left" rowspan="2">June 18th</td><td align="left"><inline-formula id="IEq105"><alternatives><tex-math id="M225">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\zeta_{2}$$\end{document}</tex-math><mml:math id="M226"><mml:msub><mml:mi>&#x003b6;</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq105.gif"/></alternatives></inline-formula></td><td char="." align="char">0.9876</td><td char="." align="char">0.9879</td><td char="." align="char">0.9879</td><td char="." align="char">0.9876</td><td char="." align="char">0.9875</td><td char="." align="char">0.9877</td></tr><tr><td align="left"><inline-formula id="IEq106"><alternatives><tex-math id="M227">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\zeta_{3}$$\end{document}</tex-math><mml:math id="M228"><mml:msub><mml:mi>&#x003b6;</mml:mi><mml:mn>3</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq106.gif"/></alternatives></inline-formula></td><td char="." align="char">0.9898</td><td char="." align="char">0.9898</td><td char="." align="char">0.9899</td><td char="." align="char">0.9875</td><td char="." align="char">0.9987</td><td char="." align="char">0.9911</td></tr><tr><td align="left" rowspan="2">June 22th</td><td align="left"><inline-formula id="IEq107"><alternatives><tex-math id="M229">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\zeta_{2}$$\end{document}</tex-math><mml:math id="M230"><mml:msub><mml:mi>&#x003b6;</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq107.gif"/></alternatives></inline-formula></td><td char="." align="char">0.9976</td><td char="." align="char">0.9956</td><td char="." align="char">0.9864</td><td char="." align="char">0.9756</td><td char="." align="char">0.9865</td><td char="." align="char">0.9883</td></tr><tr><td align="left"><inline-formula id="IEq108"><alternatives><tex-math id="M231">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\zeta_{3}$$\end{document}</tex-math><mml:math id="M232"><mml:msub><mml:mi>&#x003b6;</mml:mi><mml:mn>3</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq108.gif"/></alternatives></inline-formula></td><td char="." align="char">0.9976</td><td char="." align="char">0.9966</td><td char="." align="char">0.9943</td><td char="." align="char">0.9797</td><td char="." align="char">0.9975</td><td char="." align="char">0.9831</td></tr><tr><td align="left" rowspan="2">June 25th</td><td align="left"><inline-formula id="IEq109"><alternatives><tex-math id="M233">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\zeta_{2}$$\end{document}</tex-math><mml:math id="M234"><mml:msub><mml:mi>&#x003b6;</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq109.gif"/></alternatives></inline-formula></td><td char="." align="char">0.9943</td><td char="." align="char">0.9865</td><td char="." align="char">0.9876</td><td char="." align="char">0.9866</td><td char="." align="char">0.9854</td><td char="." align="char">0.9841</td></tr><tr><td align="left"><inline-formula id="IEq110"><alternatives><tex-math id="M235">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\zeta_{3}$$\end{document}</tex-math><mml:math id="M236"><mml:msub><mml:mi>&#x003b6;</mml:mi><mml:mn>3</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq110.gif"/></alternatives></inline-formula></td><td char="." align="char">0.9943</td><td char="." align="char">0.9806</td><td char="." align="char">0.9876</td><td char="." align="char">0.9888</td><td char="." align="char">0.9866</td><td char="." align="char">0.9856</td></tr></tbody></table></table-wrap></p><p id="Par64">According to the experimental results in Table <xref rid="Tab2" ref-type="table">2</xref>, the deep learning method demonstrated high accuracy in land cover classification on land remote sensing images of different dates. On the image of June 18th, our method showed high <inline-formula id="IEq97"><alternatives><tex-math id="M237">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\zeta_{2}$$\end{document}</tex-math><mml:math id="M238"><mml:msub><mml:mi>&#x003b6;</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq97.gif"/></alternatives></inline-formula> and <inline-formula id="IEq98"><alternatives><tex-math id="M239">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\zeta_{3}$$\end{document}</tex-math><mml:math id="M240"><mml:msub><mml:mi>&#x003b6;</mml:mi><mml:mn>3</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq98.gif"/></alternatives></inline-formula> in the classification of forest land, grassland, water body, cultivated land, and artificial surface, both exceeding 0.98. This indicates that the method proposed in this paper can accurately identify various types of land cover. On the image of June 22nd, our method continued to demonstrate high classification accuracy, especially achieving 0.9976 <inline-formula id="IEq99"><alternatives><tex-math id="M241">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\zeta_{2}$$\end{document}</tex-math><mml:math id="M242"><mml:msub><mml:mi>&#x003b6;</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq99.gif"/></alternatives></inline-formula> and 0.9976 <inline-formula id="IEq100"><alternatives><tex-math id="M243">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\zeta_{3}$$\end{document}</tex-math><mml:math id="M244"><mml:msub><mml:mi>&#x003b6;</mml:mi><mml:mn>3</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq100.gif"/></alternatives></inline-formula> on forest land, demonstrating very accurate classification results. In other categories, <inline-formula id="IEq101"><alternatives><tex-math id="M245">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\zeta_{2}$$\end{document}</tex-math><mml:math id="M246"><mml:msub><mml:mi>&#x003b6;</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq101.gif"/></alternatives></inline-formula> and <inline-formula id="IEq102"><alternatives><tex-math id="M247">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\zeta_{3}$$\end{document}</tex-math><mml:math id="M248"><mml:msub><mml:mi>&#x003b6;</mml:mi><mml:mn>3</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq102.gif"/></alternatives></inline-formula> are relatively low but still maintain a high level. On the image of June 25th, our method once again demonstrated high classification accuracy, with both <inline-formula id="IEq103"><alternatives><tex-math id="M249">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\zeta_{2}$$\end{document}</tex-math><mml:math id="M250"><mml:msub><mml:mi>&#x003b6;</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq103.gif"/></alternatives></inline-formula> and <inline-formula id="IEq104"><alternatives><tex-math id="M251">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\zeta_{3}$$\end{document}</tex-math><mml:math id="M252"><mml:msub><mml:mi>&#x003b6;</mml:mi><mml:mn>3</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2024_57408_Article_IEq104.gif"/></alternatives></inline-formula> exceeding 0.98, verifying the robustness and stability of the method. Overall, the deep learning method proposed in this paper has achieved significant classification results on land remote sensing images of different dates.</p><p id="Par65">To further validate the effectiveness of the proposed method, the Probability Rand Coefficient (PRI) was selected as the evaluation metric. PRI is an indicator that calculates the consistency between image segmentation results and manual segmentation reference maps through statistical calculations. Its value range is usually between [0,1], with a value close to 1 indicating good segmentation performance. The experiment tested the image segmentation performance of different methods and calculated their respective PRI values. The segmentation performance of the proposed method was compared with the methods in references<sup><xref ref-type="bibr" rid="CR15">15</xref>,<xref ref-type="bibr" rid="CR16">16</xref></sup>. The test results of the image segmentation performance of different methods are shown in Fig.&#x000a0;<xref rid="Fig11" ref-type="fig">11</xref>.<fig id="Fig11"><label>Figure 11</label><caption><p>Test results of image segmentation performance using different methods.</p></caption><graphic xlink:href="41598_2024_57408_Fig11_HTML" id="MO11"/></fig></p><p id="Par66">Analyzing the experimental results in Fig.&#x000a0;<xref rid="Fig11" ref-type="fig">11</xref>, it can be seen that the proposed method obtained a PRI index close to 1 during segmentation performance testing, indicating good segmentation performance. The PRI index of the methods in reference<sup><xref ref-type="bibr" rid="CR15">15</xref></sup> and reference<sup><xref ref-type="bibr" rid="CR16">16</xref></sup> are both below 0.9. Through comparison, it can be seen that the proposed method has significantly better test results than these two methods. It can be concluded that the proposed method performs better in image segmentation.</p></sec><sec id="Sec13"><title>Analysis of semantic classification time for land cover remote sensing images</title><p id="Par67">In order to evaluate the time consumption of semantic classification of land cover remote sensing images, the following experiments were conducted and the time required for different methods to process image data of the same scale was recorded. A set of remote sensing images of land cover with different resolutions and sizes was selected as the input dataset, including different types of landforms such as urban areas, farmland, and forests. In the experiment, the proposed method, methods from references<sup><xref ref-type="bibr" rid="CR15">15</xref>,<xref ref-type="bibr" rid="CR16">16</xref></sup> were used for testing, and the experimental results are shown in Table <xref rid="Tab3" ref-type="table">3</xref>.<table-wrap id="Tab3"><label>Table 3</label><caption><p>Time consumption results of semantic classification of land cover remote sensing images using different methods.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="2">Number of images/frame</th><th align="left" colspan="3">Segmentation time/ms</th></tr><tr><th align="left">Proposed method</th><th align="left">Reference<sup><xref ref-type="bibr" rid="CR15">15</xref></sup> method</th><th align="left">Reference<sup><xref ref-type="bibr" rid="CR16">16</xref></sup> method</th></tr></thead><tbody><tr><td align="left">100</td><td char="." align="char">10</td><td char="." align="char">15</td><td char="." align="char">18</td></tr><tr><td align="left">500</td><td char="." align="char">40</td><td char="." align="char">55</td><td char="." align="char">65</td></tr><tr><td align="left">1000</td><td char="." align="char">80</td><td char="." align="char">110</td><td char="." align="char">130</td></tr></tbody></table></table-wrap></p><p id="Par68">According to experimental analysis, the proposed method exhibits lower average time consumption, and as the number of images increases, the time consumption of all methods also shows an increasing trend. Compared to the methods in references<sup><xref ref-type="bibr" rid="CR15">15</xref>,<xref ref-type="bibr" rid="CR16">16</xref></sup>, the proposed method has higher computational efficiency and performs well in semantic classification tasks of large-scale image data. Therefore, the proposed method can quickly and effectively process land cover remote sensing images, and has broad application prospects.</p></sec></sec><sec id="Sec14"><title>Discussion</title><p id="Par69">To confirm the robustness of the proposed deep learning model, the following measures were taken. Firstly, select remote sensing images of different dates with similar features to cover changes in different seasons and environmental conditions. This can verify the classification performance of the model on images with different dates. Secondly, using the same deep learning methods and classification objectives, classify images on different dates. By comparing the classification results, the performance differences of the model can be evaluated on different dates. Finally, the intersection to union ratio and F1 score are used as evaluation metrics to measure the classification accuracy of the model on each category. By comparing classification metrics under different dates, the robustness and stability of the model can be evaluated.</p><p id="Par70">In summary, the robustness of the proposed deep learning model on different date images can be confirmed through the above measures. This experimental design can help verify the classification accuracy of the model under different seasons and environmental conditions, and determine its accuracy and stability under changing conditions.</p></sec><sec id="Sec15"><title>Conclusion</title><p id="Par71">This paper proposes a semantic segmentation and classification method for land cover remote sensing images based on deep deconvolution neural networks. Through experimental verification, this method has shown superior performance in remote sensing image semantic segmentation and classification tasks. Specifically, the deep deconvolution neural network trained on the dataset by this method achieved ideal values in both training loss and accuracy, indicating that this method has good training performance. In practical applications, this method performs semantic segmentation on land remote sensing images collected by drones, and the results show that the semantic segmentation contours of different targets are obvious, meeting practical needs. In addition, the land cover classification accuracy of this method on different date images is significantly higher than other methods, further proving the effectiveness and stability of its classification performance. Finally, through comparative experiments with other methods, the proposed method performs better in image segmentation and classification, with lower computational time and higher computational efficiency, and shows good performance in semantic classification tasks of large-scale image data. In summary, the method proposed in this paper has broad application prospects in semantic segmentation and classification of land cover remote sensing images.</p></sec></body><back><fn-group><fn><p><bold>Publisher's note</bold></p><p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p></fn></fn-group><notes notes-type="author-contribution"><title>Author contributions</title><p>All authors contributed in writting, conception, software, analysis, modeling.</p></notes><notes notes-type="data-availability"><title>Data availability</title><p>The datasets used and/or analyzed during the current study available from the corresponding author on reasonable request.</p></notes><notes id="FPar1" notes-type="COI-statement"><title>Competing interests</title><p id="Par72">The authors declare no competing interests.</p></notes><ref-list id="Bib1"><title>References</title><ref id="CR1"><label>1.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Qinghui</surname><given-names>L</given-names></name><name><surname>Michael</surname><given-names>K</given-names></name><name><surname>Robert</surname><given-names>J</given-names></name><name><surname>Salberg</surname><given-names>AB</given-names></name></person-group><article-title>Multi-modal land cover mapping of remote sensing images using pyramid attention and gated fusion networks</article-title><source>Int. J. Remote Sens.</source><year>2022</year><volume>43</volume><issue>9/10</issue><fpage>386</fpage><lpage>412</lpage></element-citation></ref><ref id="CR2"><label>2.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Demirkan</surname><given-names>DC</given-names></name><name><surname>Koz</surname><given-names>A</given-names></name><name><surname>Duzguna</surname><given-names>HS</given-names></name></person-group><article-title>Hierarchical classification of Sentinel 2-a images for land use and land cover mapping and its use for the CORINE system</article-title><source>J. Appl. Remote Sens.</source><year>2020</year><volume>14</volume><issue>2</issue><fpage>026524</fpage><pub-id pub-id-type="doi">10.1117/1.JRS.14.026524</pub-id></element-citation></ref><ref id="CR3"><label>3.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Coronado</surname><given-names>A</given-names></name><name><surname>Moctezuma</surname><given-names>D</given-names></name></person-group><article-title>Feature evaluation for land use and land cover classification based on statistical, textural, and shape features over Landsat and Sentinel imagery</article-title><source>J. Appl. Remote Sens.</source><year>2020</year><volume>14</volume><issue>4</issue><fpage>048503</fpage><pub-id pub-id-type="doi">10.1117/1.JRS.14.048503</pub-id></element-citation></ref><ref id="CR4"><label>4.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Mohammad</surname><given-names>R</given-names></name><name><surname>Stuart</surname><given-names>R</given-names></name><name><surname>Phinn</surname><given-names>CM</given-names></name><name><surname>Roelfsema</surname><given-names>A</given-names></name><name><surname>Abdul</surname><given-names>A</given-names></name></person-group><article-title>Modeling forest cover dynamics in Bangladesh using multilayer perceptron neural network with Markov chain</article-title><source>J. Appl. Remote Sens.</source><year>2022</year><volume>16</volume><issue>3</issue><fpage>034502</fpage></element-citation></ref><ref id="CR5"><label>5.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Jorgen</surname><given-names>AA</given-names></name><name><surname>Luigi</surname><given-names>T</given-names></name><name><surname>Luppino</surname><given-names>SNA</given-names></name><name><surname>Jane</surname><given-names>UJ</given-names></name></person-group><article-title>Toward targeted change detection with heterogeneous remote sensing images for forest mortality mapping</article-title><source>Can. J. Remote Sens.</source><year>2022</year><volume>48</volume><issue>6</issue><fpage>826</fpage><lpage>848</lpage><pub-id pub-id-type="doi">10.1080/07038992.2022.2135497</pub-id></element-citation></ref><ref id="CR6"><label>6.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Sourabh</surname><given-names>P</given-names></name><name><surname>Udaysankar</surname><given-names>D</given-names></name><name><surname>Yashwanth</surname><given-names>N</given-names></name><name><surname>Yogeswara</surname><given-names>R</given-names></name></person-group><article-title>An efficient SIFT-based matching algorithm for optical remote sensing images</article-title><source>Remote Sens. Lett.</source><year>2022</year><volume>13</volume><issue>10/12</issue><fpage>1069</fpage><lpage>1079</lpage></element-citation></ref><ref id="CR7"><label>7.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Meddeber</surname><given-names>L</given-names></name><name><surname>Zouagui</surname><given-names>T</given-names></name><name><surname>Berrached</surname><given-names>N</given-names></name></person-group><article-title>Efficient photometric and geometric stitching approach for remote sensing images based on wavelet transform and local invariant</article-title><source>J. Appl. Remote Sens.</source><year>2021</year><volume>15</volume><issue>3</issue><fpage>034502</fpage><pub-id pub-id-type="doi">10.1117/1.JRS.15.034502</pub-id></element-citation></ref><ref id="CR8"><label>8.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Matsunobu</surname><given-names>LM</given-names></name><name><surname>Pedro</surname><given-names>HTC</given-names></name><name><surname>Coimbra</surname><given-names>CFM</given-names></name></person-group><article-title>Cloud detection using convolutional neural networks on remote sensing images</article-title><source>Solar Energy</source><year>2021</year><volume>230</volume><fpage>1020</fpage><lpage>1032</lpage><pub-id pub-id-type="doi">10.1016/j.solener.2021.10.065</pub-id></element-citation></ref><ref id="CR9"><label>9.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Ogohara</surname><given-names>K</given-names></name><name><surname>Gichu</surname><given-names>R</given-names></name></person-group><article-title>Automated segmentation of textured dust storms on mars remote sensing images using an encoder-decoder type convolutional neural network</article-title><source>Comput. Geosci.</source><year>2022</year><volume>160</volume><fpage>105043</fpage><pub-id pub-id-type="doi">10.1016/j.cageo.2022.105043</pub-id></element-citation></ref><ref id="CR10"><label>10.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Jafari</surname><given-names>R</given-names></name><name><surname>Abedi</surname><given-names>M</given-names></name></person-group><article-title>Remote sensing-based biological and nonbiological indices for evaluating desertification in Iran: Image versus field indices</article-title><source>Land Degrad. Dev.</source><year>2021</year><volume>32</volume><issue>9</issue><fpage>2805</fpage><lpage>2822</lpage><pub-id pub-id-type="doi">10.1002/ldr.3958</pub-id></element-citation></ref><ref id="CR11"><label>11.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Sorasak</surname><given-names>K</given-names></name><name><surname>Teerasit</surname><given-names>K</given-names></name><name><surname>Preesan</surname><given-names>R</given-names></name></person-group><article-title>A land cover mapping algorithm for thin to medium cloud-covered remote sensing images using a level set method</article-title><source>Int. J. Remote Sens.</source><year>2022</year><volume>43</volume><issue>9/10</issue><fpage>680</fpage><lpage>719</lpage></element-citation></ref><ref id="CR12"><label>12.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kandakji</surname><given-names>T</given-names></name><name><surname>Gill</surname><given-names>TE</given-names></name><name><surname>Lee</surname><given-names>JA</given-names></name></person-group><article-title>Identifying and characterizing dust point sources in the southwestern United States using remote sensing and GIS</article-title><source>Geomorphology</source><year>2020</year><volume>353</volume><fpage>107019</fpage><pub-id pub-id-type="doi">10.1016/j.geomorph.2019.107019</pub-id></element-citation></ref><ref id="CR13"><label>13.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Ozyurt</surname><given-names>F</given-names></name></person-group><article-title>Efficient deep feature selection for remote sensing image recognition with fused deep learning architectures</article-title><source>J. Supercomput.</source><year>2020</year><volume>76</volume><issue>11</issue><fpage>8413</fpage><lpage>8431</lpage><pub-id pub-id-type="doi">10.1007/s11227-019-03106-y</pub-id></element-citation></ref><ref id="CR14"><label>14.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Samaneh</surname><given-names>MV</given-names></name><name><surname>Abdolhossein</surname><given-names>F</given-names></name><name><surname>Kaveh</surname><given-names>M</given-names></name></person-group><article-title>Grsnet: Gated residual supervision network for pixel-wise building segmentation in remote sensing imagery</article-title><source>Int. J. Remote Sens.</source><year>2022</year><volume>43</volume><issue>13/14</issue><fpage>157</fpage><lpage>172</lpage></element-citation></ref><ref id="CR15"><label>15.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Yoshida</surname><given-names>K</given-names></name><name><surname>Pan</surname><given-names>S</given-names></name><name><surname>Taniguchi</surname><given-names>J</given-names></name><name><surname>Nishiyama</surname><given-names>S</given-names></name><name><surname>Kojima</surname><given-names>T</given-names></name><name><surname>Lslam</surname><given-names>T</given-names></name></person-group><article-title>Airborne LiDAR-assisted deep learning methodology for riparian land cover classification using aerial photographs and its application for flood modelling</article-title><source>J. Hydroinf.</source><year>2022</year><volume>24</volume><issue>1</issue><fpage>179</fpage><lpage>201</lpage><pub-id pub-id-type="doi">10.2166/hydro.2022.134</pub-id></element-citation></ref><ref id="CR16"><label>16.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kavran</surname><given-names>D</given-names></name><name><surname>Mongus</surname><given-names>D</given-names></name><name><surname>&#x0017d;alik</surname><given-names>B</given-names></name><name><surname>Luka&#x0010d;</surname><given-names>N</given-names></name></person-group><article-title>Graph neural network-based method of spatiotemporal land cover mapping using satellite imagery</article-title><source>Sensors</source><year>2023</year><volume>23</volume><issue>14</issue><fpage>6648</fpage><pub-id pub-id-type="doi">10.3390/s23146648</pub-id><?supplied-pmid 37514942?><pub-id pub-id-type="pmid">37514942</pub-id>
+</element-citation></ref><ref id="CR17"><label>17.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Chen</surname><given-names>TH</given-names></name><name><surname>Zheng</surname><given-names>SQ</given-names></name><name><surname>Lin</surname><given-names>YX</given-names></name></person-group><article-title>Semantic segmentation of remote sensing images based on improved deep neural network</article-title><source>Comput. Simul.</source><year>2021</year><volume>38</volume><issue>12</issue><fpage>27</fpage><lpage>32</lpage></element-citation></ref><ref id="CR18"><label>18.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Khaled</surname><given-names>M</given-names></name><name><surname>Heng</surname><given-names>CL</given-names></name><name><surname>Zaid</surname><given-names>AH</given-names></name><name><surname>Essa</surname><given-names>A</given-names></name></person-group><article-title>Semantic segmentation of building extraction in very high resolution imagery via optimal segmentation guided by deep seeds</article-title><source>J. Appl. Remote Sens.</source><year>2022</year><volume>16</volume><issue>2</issue><fpage>024513</fpage></element-citation></ref><ref id="CR19"><label>19.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Deeba</surname><given-names>F</given-names></name><name><surname>Zhou</surname><given-names>Y</given-names></name><name><surname>Dharejo</surname><given-names>FA</given-names></name><name><surname>Khan</surname><given-names>MA</given-names></name><name><surname>Das</surname><given-names>B</given-names></name><name><surname>Wang</surname><given-names>X</given-names></name><name><surname>Du</surname><given-names>Y</given-names></name></person-group><article-title>A plexus-convolutional neural network framework for fast remote sensing image super-resolution in wavelet domain</article-title><source>IET Image Process.</source><year>2021</year><volume>15</volume><issue>8</issue><fpage>1679</fpage><lpage>1687</lpage><pub-id pub-id-type="doi">10.1049/ipr2.12136</pub-id></element-citation></ref><ref id="CR20"><label>20.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Devulapalli</surname><given-names>S</given-names></name><name><surname>Krishnan</surname><given-names>R</given-names></name></person-group><article-title>Remote sensing image retrieval by integrating automated deep feature extraction and handcrafted features using curvelet transform</article-title><source>J. Appl. Remote Sens.</source><year>2021</year><volume>15</volume><issue>1</issue><fpage>016504</fpage><pub-id pub-id-type="doi">10.1117/1.JRS.15.016504</pub-id></element-citation></ref><ref id="CR21"><label>21.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Dey</surname><given-names>AU</given-names></name><name><surname>Ghosh</surname><given-names>SK</given-names></name><name><surname>Valveny</surname><given-names>E</given-names></name><name><surname>Harit</surname><given-names>G</given-names></name></person-group><article-title>Beyond visual semantics: Exploring the role of scene text in image understanding</article-title><source>Pattern Recognit. Lett.</source><year>2021</year><volume>149</volume><fpage>164</fpage><lpage>171</lpage><pub-id pub-id-type="doi">10.1016/j.patrec.2021.06.011</pub-id></element-citation></ref></ref-list></back></article>

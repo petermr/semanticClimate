@@ -1,0 +1,47 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,37538548
+source,MED
+pmid,37538548
+pmcid,PMC10396458
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC10396458')])"
+doi,10.1155/2023/9817102
+title,Retracted: A Multi-RNN Research Topic Prediction Model Based on Spatial Attention and Semantic Consistency-Based Scientific Influence Modeling.
+authorString,Intelligence And Neuroscience C.
+authorList,"OrderedDict([('author', OrderedDict([('fullName', 'Intelligence And Neuroscience C'), ('firstName', 'Computational'), ('lastName', 'Intelligence And Neuroscience'), ('initials', 'C')]))])"
+journalInfo,"OrderedDict([('volume', '2023'), ('journalIssueId', '3488964'), ('dateOfPublication', '2023'), ('monthOfPublication', '0'), ('yearOfPublication', '2023'), ('printPublicationDate', '2023-01-01'), ('journal', OrderedDict([('title', 'Computational intelligence and neuroscience'), ('ISOAbbreviation', 'Comput Intell Neurosci'), ('medlineAbbreviation', 'Comput Intell Neurosci'), ('NLMid', '101279357'), ('ISSN', '1687-5265'), ('ESSN', '1687-5273')]))])"
+pubYear,2023
+pageInfo,9817102
+abstractText,[This retracts the article DOI: 10.1155/2021/1766743.].
+publicationStatus,epublish
+language,eng
+pubModel,Electronic-eCollection
+pubTypeList,"OrderedDict([('pubType', 'Retraction of Publication')])"
+subsetList,"OrderedDict([('subset', OrderedDict([('code', 'IM'), ('name', 'Index Medicus')]))])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Unpaywall'), ('url', 'https://downloads.hindawi.com/journals/cin/2023/9817102.pdf')]), OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.1155/2023/9817102')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10396458')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10396458?pdf=render')])])])"
+commentCorrectionList,"OrderedDict([('commentCorrection', OrderedDict([('id', '34961813'), ('source', 'MED'), ('reference', 'Comput Intell Neurosci. 2021 Dec 18;2021:1766743'), ('type', 'Retraction of'), ('orderIn', '1')]))])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,N
+citedByCount,0
+hasData,N
+hasReferences,Y
+hasTextMinedTerms,N
+hasDbCrossReferences,N
+hasLabsLinks,N
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCreation,2023-08-04
+firstIndexDate,2023-08-05
+fullTextReceivedDate,2023-08-20
+dateOfRevision,2023-08-05
+electronicPublicationDate,2023-07-26
+firstPublicationDate,2023-07-26

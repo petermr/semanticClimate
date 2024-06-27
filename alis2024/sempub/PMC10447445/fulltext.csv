@@ -1,0 +1,48 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,37612329
+source,MED
+pmid,37612329
+pmcid,PMC10447445
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC10447445')])"
+doi,10.1038/s41597-023-02480-w
+title,Author Correction: An fMRI Dataset for Concept Representation with Semantic Feature Annotations.
+authorString,"Wang S, Zhang Y, Zhang X, Sun J, Lin N, Zhang J, Zong C."
+authorList,"OrderedDict([('author', [OrderedDict([('fullName', 'Wang S'), ('firstName', 'Shaonan'), ('lastName', 'Wang'), ('initials', 'S'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-5455-1359')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'National Laboratory of Pattern Recognition, Institute of Automation, CAS, Beijing, China. shaonan.wang@nlpr.ia.ac.cn.')]), OrderedDict([('affiliation', 'School of Artificial Intelligence, University of Chinese Academy of Sciences, Beijing, China. shaonan.wang@nlpr.ia.ac.cn.')])])]))]), OrderedDict([('fullName', 'Zhang Y'), ('firstName', 'Yunhao'), ('lastName', 'Zhang'), ('initials', 'Y'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'National Laboratory of Pattern Recognition, Institute of Automation, CAS, Beijing, China.')]), OrderedDict([('affiliation', 'School of Artificial Intelligence, University of Chinese Academy of Sciences, Beijing, China.')])])]))]), OrderedDict([('fullName', 'Zhang X'), ('firstName', 'Xiaohan'), ('lastName', 'Zhang'), ('initials', 'X'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'National Laboratory of Pattern Recognition, Institute of Automation, CAS, Beijing, China.')]), OrderedDict([('affiliation', 'School of Artificial Intelligence, University of Chinese Academy of Sciences, Beijing, China.')])])]))]), OrderedDict([('fullName', 'Sun J'), ('firstName', 'Jingyuan'), ('lastName', 'Sun'), ('initials', 'J'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'National Laboratory of Pattern Recognition, Institute of Automation, CAS, Beijing, China.')]), OrderedDict([('affiliation', 'School of Artificial Intelligence, University of Chinese Academy of Sciences, Beijing, China.')])])]))]), OrderedDict([('fullName', 'Lin N'), ('firstName', 'Nan'), ('lastName', 'Lin'), ('initials', 'N'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'CAS Key Laboratory of Behavioural Sciences, Institute of Psychology, Beijing, China.')]), OrderedDict([('affiliation', 'Department of Psychology, University of Chinese Academy of Sciences, Beijing, China.')])])]))]), OrderedDict([('fullName', 'Zhang J'), ('firstName', 'Jiajun'), ('lastName', 'Zhang'), ('initials', 'J'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'National Laboratory of Pattern Recognition, Institute of Automation, CAS, Beijing, China.')]), OrderedDict([('affiliation', 'School of Artificial Intelligence, University of Chinese Academy of Sciences, Beijing, China.')])])]))]), OrderedDict([('fullName', 'Zong C'), ('firstName', 'Chengqing'), ('lastName', 'Zong'), ('initials', 'C'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'National Laboratory of Pattern Recognition, Institute of Automation, CAS, Beijing, China.')]), OrderedDict([('affiliation', 'School of Artificial Intelligence, University of Chinese Academy of Sciences, Beijing, China.')])])]))])])])"
+authorIdList,"OrderedDict([('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-5455-1359')]))])"
+journalInfo,"OrderedDict([('issue', '1'), ('volume', '10'), ('journalIssueId', '3609009'), ('dateOfPublication', '2023 Aug'), ('monthOfPublication', '8'), ('yearOfPublication', '2023'), ('printPublicationDate', '2023-08-01'), ('journal', OrderedDict([('title', 'Scientific data'), ('ISOAbbreviation', 'Sci Data'), ('medlineAbbreviation', 'Sci Data'), ('NLMid', '101640192'), ('ISSN', '2052-4463'), ('ESSN', '2052-4463')]))])"
+pubYear,2023
+pageInfo,561
+affiliation,"National Laboratory of Pattern Recognition, Institute of Automation, CAS, Beijing, China. shaonan.wang@nlpr.ia.ac.cn."
+publicationStatus,epublish
+language,eng
+pubModel,Electronic
+pubTypeList,"OrderedDict([('pubType', ['Published Erratum', 'correction'])])"
+subsetList,"OrderedDict([('subset', OrderedDict([('code', 'IM'), ('name', 'Index Medicus')]))])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Unpaywall'), ('url', 'https://www.nature.com/articles/s41597-023-02480-w.pdf')]), OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.1038/s41597-023-02480-w')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10447445')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10447445?pdf=render')])])])"
+commentCorrectionList,"OrderedDict([('commentCorrection', OrderedDict([('id', '36424388'), ('source', 'MED'), ('reference', 'Sci Data. 2022 Nov 24;9(1):721'), ('type', 'Erratum for'), ('orderIn', '1')]))])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,N
+citedByCount,0
+hasData,N
+hasReferences,N
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,N
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCreation,2023-08-23
+firstIndexDate,2023-08-24
+fullTextReceivedDate,2023-08-26
+dateOfRevision,2023-11-18
+electronicPublicationDate,2023-08-23
+firstPublicationDate,2023-08-23

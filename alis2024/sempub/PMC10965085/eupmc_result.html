@@ -1,0 +1,135 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>downloaded</th>
+      <th>htmlmade</th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>authorIdList</th>
+      <th>dataLinksTagsList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>affiliation</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>grantsList</th>
+      <th>meshHeadingList</th>
+      <th>subsetList</th>
+      <th>fullTextUrlList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>license</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>dateOfCompletion</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>electronicPublicationDate</th>
+      <th>firstPublicationDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC10965085</th>
+      <td>True</td>
+      <td>False</td>
+      <td>38530811</td>
+      <td>MED</td>
+      <td>38530811</td>
+      <td>PMC10965085</td>
+      <td>{'fullTextId': 'PMC10965085'}</td>
+      <td>10.1371/journal.pone.0298650</td>
+      <td>Anomalous diffusion analysis of semantic evolution in major Indo-European languages.</td>
+      <td>Asztalos B, Palla G, Czégel D.</td>
+      <td>{'author': [{'fullName': 'Asztalos B', 'firstName': 'Bogdán', 'lastName': 'Asztalos', 'initials': 'B', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-1085-1939')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Deptartment of Biological Physics, Eötvös University, Budapest, Hungary.')]))])}, {'fullName': 'Palla G', 'firstName': 'Gergely', 'lastName': 'Palla', 'initials': 'G', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Deptartment of Biological Physics, Eötvös University, Budapest, Hungary.')]), OrderedDict([('affiliation', 'Health Services Management Training Centre, Semmelweis University, Budapest, Hungary.')])])])}, {'fullName': 'Czégel D', 'firstName': 'Dániel', 'lastName': 'Czégel', 'initials': 'D', 'authorId': OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-5722-1598')]), 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Institute of Evolution, Centre for Ecological Research, Budapest, Hungary.')]), OrderedDict([('affiliation', 'Parmenides Center for the Conceptual Foundations of Science, Pöcking, Germany.')])])])}]}</td>
+      <td>{'authorId': [{'@type': 'ORCID', '#text': '0000-0002-1085-1939'}, {'@type': 'ORCID', '#text': '0000-0002-5722-1598'}]}</td>
+      <td>{'dataLinkstag': 'altmetrics'}</td>
+      <td>{'issue': '3', 'volume': '19', 'journalIssueId': '3732067', 'dateOfPublication': '2024', 'monthOfPublication': '0', 'yearOfPublication': '2024', 'printPublicationDate': '2024-01-01', 'journal': {'title': 'PloS one', 'ISOAbbreviation': 'PLoS One', 'medlineAbbreviation': 'PLoS One', 'NLMid': '101285081', 'ISSN': '1932-6203', 'ESSN': '1932-6203'}}</td>
+      <td>2024</td>
+      <td>e0298650</td>
+      <td>How do words change their meaning? Although semantic evolution is driven by a variety of distinct factors, including linguistic, societal, and technological ones, we find that there is one law that holds universally across five major Indo-European languages: that semantic evolution is subdiffusive. Using an automated pipeline of diachronic distributional semantic embedding that controls for underlying symmetries, we show that words follow stochastic trajectories in meaning space with an anomalous diffusion exponent α = 0.45 ± 0.05 across languages, in contrast with diffusing particles that follow α = 1. Randomization methods indicate that preserving temporal correlations in semantic change directions is necessary to recover strongly subdiffusive behavior; however, correlations in change sizes play an important role too. We furthermore show that strong subdiffusion is a robust phenomenon under a wide variety of choices in data analysis and interpretation, such as the choice of fitting an ensemble average of displacements or averaging best-fit exponents of individual word trajectories.</td>
+      <td>Deptartment of Biological Physics, Eötvös University, Budapest, Hungary.</td>
+      <td>epublish</td>
+      <td>eng</td>
+      <td>Electronic-eCollection</td>
+      <td>{'pubType': ['research-article', 'Journal Article']}</td>
+      <td>{'grant': [{'grantId': 'K128780', 'agency': 'Nemzeti Kutatási és Technológiai Hivatal', 'orderIn': '0'}, {'grantId': '101021607', 'agency': 'Horizon 2020 Framework Programme', 'orderIn': '0'}, {'grantId': 'RRF-2.3.1-21-2022-00004', 'agency': 'Mesterséges Intelligencia Nemzeti Laboratórium', 'orderIn': '0'}]}</td>
+      <td>{'meshHeading': [{'majorTopic_YN': 'Y', 'descriptorName': 'Language'}, {'majorTopic_YN': 'N', 'descriptorName': 'Diffusion'}, {'majorTopic_YN': 'N', 'descriptorName': 'Technology'}, {'majorTopic_YN': 'N', 'descriptorName': 'Linguistics'}, {'majorTopic_YN': 'Y', 'descriptorName': 'Semantics'}]}</td>
+      <td>{'subset': {'code': 'IM', 'name': 'Index Medicus'}}</td>
+      <td>{'fullTextUrl': [{'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Unpaywall', 'url': 'https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0298650&type=printable'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1371/journal.pone.0298650'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC10965085'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC10965085?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>0</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>2024-03-28</td>
+      <td>2024-03-26</td>
+      <td>2024-03-27</td>
+      <td>2024-03-28</td>
+      <td>2024-03-28</td>
+      <td>2024-03-26</td>
+      <td>2024-03-26</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    

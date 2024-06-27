@@ -1,0 +1,53 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,38609405
+source,MED
+pmid,38609405
+pmcid,PMC11014927
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC11014927')])"
+doi,10.1038/s41597-024-03193-4
+title,Cataract-1K Dataset for Deep-Learning-Assisted Analysis of Cataract Surgery Videos.
+authorString,"Ghamsarian N, El-Shabrawi Y, Nasirihaghighi S, Putzgruber-Adamitsch D, Zinkernagel M, Wolf S, Schoeffmann K, Sznitman R."
+authorList,"OrderedDict([('author', [OrderedDict([('fullName', 'Ghamsarian N'), ('firstName', 'Negin'), ('lastName', 'Ghamsarian'), ('initials', 'N'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Center for Artificial Intelligence in Medicine (CAIM), Department of Medicine, University of Bern, Bern, Switzerland.')]))]))]), OrderedDict([('fullName', 'El-Shabrawi Y'), ('firstName', 'Yosuf'), ('lastName', 'El-Shabrawi'), ('initials', 'Y'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Ophthalmology, Klinikum Klagenfurt, Klagenfurt, Austria.')]))]))]), OrderedDict([('fullName', 'Nasirihaghighi S'), ('firstName', 'Sahar'), ('lastName', 'Nasirihaghighi'), ('initials', 'S'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Information Technology, University of Klagenfurt, Klagenfurt, Austria.')]))]))]), OrderedDict([('fullName', 'Putzgruber-Adamitsch D'), ('firstName', 'Doris'), ('lastName', 'Putzgruber-Adamitsch'), ('initials', 'D'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Ophthalmology, Klinikum Klagenfurt, Klagenfurt, Austria.')]))]))]), OrderedDict([('fullName', 'Zinkernagel M'), ('firstName', 'Martin'), ('lastName', 'Zinkernagel'), ('initials', 'M'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-3447-2359')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Ophthalmology, Inselspital, Bern, Switzerland.')]))]))]), OrderedDict([('fullName', 'Wolf S'), ('firstName', 'Sebastian'), ('lastName', 'Wolf'), ('initials', 'S'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-7467-7028')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Ophthalmology, Inselspital, Bern, Switzerland.')]))]))]), OrderedDict([('fullName', 'Schoeffmann K'), ('firstName', 'Klaus'), ('lastName', 'Schoeffmann'), ('initials', 'K'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-9218-1704')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Department of Information Technology, University of Klagenfurt, Klagenfurt, Austria. ks@itec.aau.at.')]))]))]), OrderedDict([('fullName', 'Sznitman R'), ('firstName', 'Raphael'), ('lastName', 'Sznitman'), ('initials', 'R'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Center for Artificial Intelligence in Medicine (CAIM), Department of Medicine, University of Bern, Bern, Switzerland.')]))]))])])])"
+authorIdList,"OrderedDict([('authorId', [OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-7467-7028')]), OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-9218-1704')]), OrderedDict([('@type', 'ORCID'), ('#text', '0000-0003-3447-2359')])])])"
+dataLinksTagsList,"OrderedDict([('dataLinkstag', ['altmetrics', 'supporting_data'])])"
+journalInfo,"OrderedDict([('issue', '1'), ('volume', '11'), ('journalIssueId', '3749411'), ('dateOfPublication', '2024 Apr'), ('monthOfPublication', '4'), ('yearOfPublication', '2024'), ('printPublicationDate', '2024-04-01'), ('journal', OrderedDict([('title', 'Scientific data'), ('ISOAbbreviation', 'Sci Data'), ('medlineAbbreviation', 'Sci Data'), ('NLMid', '101640192'), ('ISSN', '2052-4463'), ('ESSN', '2052-4463')]))])"
+pubYear,2024
+pageInfo,373
+abstractText,"In recent years, the landscape of computer-assisted interventions and post-operative surgical video analysis has been dramatically reshaped by deep-learning techniques, resulting in significant advancements in surgeons' skills, operation room management, and overall surgical outcomes. However, the progression of deep-learning-powered surgical technologies is profoundly reliant on large-scale datasets and annotations. In particular, surgical scene understanding and phase recognition stand as pivotal pillars within the realm of computer-assisted surgery and post-operative assessment of cataract surgery videos. In this context, we present the largest cataract surgery video dataset that addresses diverse requisites for constructing computerized surgical workflow analysis and detecting post-operative irregularities in cataract surgery. We validate the quality of annotations by benchmarking the performance of several state-of-the-art neural network architectures for phase recognition and surgical scene segmentation. Besides, we initiate the research on domain adaptation for instrument segmentation in cataract surgery by evaluating cross-domain instrument segmentation performance in cataract surgery videos. The dataset and annotations are publicly available in Synapse."
+affiliation,"Center for Artificial Intelligence in Medicine (CAIM), Department of Medicine, University of Bern, Bern, Switzerland."
+publicationStatus,epublish
+language,eng
+pubModel,Electronic
+pubTypeList,"OrderedDict([('pubType', ['Dataset', 'data-paper', 'Journal Article'])])"
+grantsList,"OrderedDict([('grant', OrderedDict([('grantId', 'P 32010-N38'), ('agency', 'Austrian Science Fund FWF'), ('orderIn', '0')]))])"
+meshHeadingList,"OrderedDict([('meshHeading', [OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Humans')]), OrderedDict([('majorTopic_YN', 'Y'), ('descriptorName', 'Cataract')]), OrderedDict([('majorTopic_YN', 'Y'), ('descriptorName', 'Cataract Extraction'), ('meshQualifierList', OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'MT'), ('qualifierName', 'methods'), ('majorTopic_YN', 'N')]))]))]), OrderedDict([('majorTopic_YN', 'Y'), ('descriptorName', 'Video Recording')]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Benchmarking')]), OrderedDict([('majorTopic_YN', 'Y'), ('descriptorName', 'Deep Learning')]), OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Neural Networks, Computer')])])])"
+subsetList,"OrderedDict([('subset', OrderedDict([('code', 'IM'), ('name', 'Index Medicus')]))])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Unpaywall'), ('url', 'https://www.nature.com/articles/s41597-024-03193-4.pdf')]), OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.1038/s41597-024-03193-4')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC11014927')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC11014927?pdf=render')])])])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,N
+citedByCount,1
+hasData,Y
+hasReferences,Y
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,Y
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,Y
+tmAccessionTypeList,"OrderedDict([('accessionType', 'doi')])"
+dateOfCompletion,2024-04-15
+dateOfCreation,2024-04-12
+firstIndexDate,2024-04-13
+fullTextReceivedDate,2024-04-18
+dateOfRevision,2024-04-25
+electronicPublicationDate,2024-04-12
+firstPublicationDate,2024-04-12

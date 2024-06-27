@@ -1,0 +1,135 @@
+
+    <!doctype html>
+    <html>
+      <head>
+          <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+          </script>
+          <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+          <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+          <style>
+          # table {
+              height: 250px;
+              overflow-y:scroll;
+          }
+          </style>
+      </head>
+      <body><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>downloaded</th>
+      <th>htmlmade</th>
+      <th>id</th>
+      <th>source</th>
+      <th>pmid</th>
+      <th>pmcid</th>
+      <th>fullTextIdList</th>
+      <th>doi</th>
+      <th>title</th>
+      <th>authorString</th>
+      <th>authorList</th>
+      <th>dataLinksTagsList</th>
+      <th>journalInfo</th>
+      <th>pubYear</th>
+      <th>pageInfo</th>
+      <th>abstractText</th>
+      <th>affiliation</th>
+      <th>publicationStatus</th>
+      <th>language</th>
+      <th>pubModel</th>
+      <th>pubTypeList</th>
+      <th>grantsList</th>
+      <th>meshHeadingList</th>
+      <th>subsetList</th>
+      <th>fullTextUrlList</th>
+      <th>isOpenAccess</th>
+      <th>inEPMC</th>
+      <th>inPMC</th>
+      <th>hasPDF</th>
+      <th>hasBook</th>
+      <th>hasSuppl</th>
+      <th>citedByCount</th>
+      <th>hasData</th>
+      <th>hasReferences</th>
+      <th>hasTextMinedTerms</th>
+      <th>hasDbCrossReferences</th>
+      <th>hasLabsLinks</th>
+      <th>license</th>
+      <th>hasEvaluations</th>
+      <th>authMan</th>
+      <th>epmcAuthMan</th>
+      <th>nihAuthMan</th>
+      <th>hasTMAccessionNumbers</th>
+      <th>tmAccessionTypeList</th>
+      <th>dateOfCompletion</th>
+      <th>dateOfCreation</th>
+      <th>firstIndexDate</th>
+      <th>fullTextReceivedDate</th>
+      <th>dateOfRevision</th>
+      <th>electronicPublicationDate</th>
+      <th>firstPublicationDate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PMC11136954</th>
+      <td>True</td>
+      <td>False</td>
+      <td>38811674</td>
+      <td>MED</td>
+      <td>38811674</td>
+      <td>PMC11136954</td>
+      <td>{'fullTextId': 'PMC11136954'}</td>
+      <td>10.1038/s41598-024-61981-9</td>
+      <td>An accurate semantic segmentation model for bean seedlings and weeds identification based on improved ERFnet.</td>
+      <td>Gao H, Qi M, Du B, Yang S, Li H, Wang T, Zhong W, Tang Y.</td>
+      <td>{'author': [{'fullName': 'Gao H', 'firstName': 'Haozhang', 'lastName': 'Gao', 'initials': 'H', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Electrical and Information Engineering College, Jilin Agricultural Science and Technology University, Jilin, 132101, China.')]), OrderedDict([('affiliation', 'School of Information and Control Engineering, Jilin Institute of Chemical Technology, Jilin, 132022, China.')])])])}, {'fullName': 'Qi M', 'firstName': 'Mingyang', 'lastName': 'Qi', 'initials': 'M', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Electrical and Information Engineering College, Jilin Agricultural Science and Technology University, Jilin, 132101, China.')]))])}, {'fullName': 'Du B', 'firstName': 'Baoxia', 'lastName': 'Du', 'initials': 'B', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Electrical and Information Engineering College, Jilin Agricultural Science and Technology University, Jilin, 132101, China.')]), OrderedDict([('affiliation', 'School of Information and Control Engineering, Jilin Institute of Chemical Technology, Jilin, 132022, China.')])])])}, {'fullName': 'Yang S', 'firstName': 'Shuang', 'lastName': 'Yang', 'initials': 'S', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Electrical and Information Engineering College, Jilin Agricultural Science and Technology University, Jilin, 132101, China.')]), OrderedDict([('affiliation', 'School of Information and Control Engineering, Jilin Institute of Chemical Technology, Jilin, 132022, China.')])])])}, {'fullName': 'Li H', 'firstName': 'Han', 'lastName': 'Li', 'initials': 'H', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Electrical and Information Engineering College, Jilin Agricultural Science and Technology University, Jilin, 132101, China.')]), OrderedDict([('affiliation', 'School of Information and Control Engineering, Jilin Institute of Chemical Technology, Jilin, 132022, China.')])])])}, {'fullName': 'Wang T', 'firstName': 'Tete', 'lastName': 'Wang', 'initials': 'T', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'R &D Department, Jilin Province Electric Innovation Information Technology Limited Company, Changchun, 130117, China.')]))])}, {'fullName': 'Zhong W', 'firstName': 'Wenyu', 'lastName': 'Zhong', 'initials': 'W', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Electrical and Information Engineering College, Jilin Agricultural Science and Technology University, Jilin, 132101, China. zhongwenyu@jlnku.edu.cn.')]))])}, {'fullName': 'Tang Y', 'firstName': 'You', 'lastName': 'Tang', 'initials': 'Y', 'authorAffiliationDetailsList': OrderedDict([('authorAffiliation', [OrderedDict([('affiliation', 'Electrical and Information Engineering College, Jilin Agricultural Science and Technology University, Jilin, 132101, China. tangyou9000@163.com.')]), OrderedDict([('affiliation', 'School of Information and Control Engineering, Jilin Institute of Chemical Technology, Jilin, 132022, China. tangyou9000@163.com.')])])])}]}</td>
+      <td>{'dataLinkstag': 'supporting_data'}</td>
+      <td>{'issue': '1', 'volume': '14', 'journalIssueId': '3763648', 'dateOfPublication': '2024 May', 'monthOfPublication': '5', 'yearOfPublication': '2024', 'printPublicationDate': '2024-05-01', 'journal': {'title': 'Scientific reports', 'ISOAbbreviation': 'Sci Rep', 'medlineAbbreviation': 'Sci Rep', 'NLMid': '101563288', 'ISSN': '2045-2322', 'ESSN': '2045-2322'}}</td>
+      <td>2024</td>
+      <td>12288</td>
+      <td>In agricultural production activities, the growth of crops always accompanies the competition of weeds for nutrients and sunlight. In order to mitigate the adverse effects of weeds on yield, we apply semantic segmentation techniques to differentiate between seedlings and weeds, leading to precision weeding. The proposed EPAnet employs a loss function coupled with Cross-entropy loss and Dice loss to enhance attention to feature information. A multi-Decoder cooperative module based on ERFnet is designed to enhance information transfer during feature mapping. The SimAM is introduced to enhance position recognition. DO-CONV is used to replace the traditional convolution Feature Pyramid Networks (FPN) connection layer to integrate feature information, improving the model's performance on leaf edge processing, and is named FDPN. Moreover, the Overall Accuracy has been improved by 0.65%, the mean Intersection over Union (mIoU) by 1.91%, and the Frequency-Weighted Intersection over Union (FWIoU) by 1.19%. Compared to other advanced methods, EPAnet demonstrates superior image segmentation results in complex natural environments with uneven lighting, leaf interference, and shadows.</td>
+      <td>Electrical and Information Engineering College, Jilin Agricultural Science and Technology University, Jilin, 132101, China.</td>
+      <td>epublish</td>
+      <td>eng</td>
+      <td>Electronic</td>
+      <td>{'pubType': ['research-article', 'Journal Article']}</td>
+      <td>{'grant': [{'grantId': '2018730519', 'agency': 'The Digital Agriculture: An Emerging Interdisciplinary Field in Jilin Province', 'orderIn': '0'}, {'grantId': 'YDZJ202201ZYTS692', 'agency': 'The Jilin Province Science and Technology Development Program Project', 'orderIn': '0'}]}</td>
+      <td>{'meshHeading': [{'majorTopic_YN': 'N', 'descriptorName': 'Fabaceae', 'meshQualifierList': OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'PH'), ('qualifierName', 'physiology'), ('majorTopic_YN', 'N')]))])}, {'majorTopic_YN': 'N', 'descriptorName': 'Plant Leaves'}, {'majorTopic_YN': 'N', 'descriptorName': 'Crops, Agricultural', 'meshQualifierList': OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'GD'), ('qualifierName', 'growth & development'), ('majorTopic_YN', 'N')]))])}, {'majorTopic_YN': 'N', 'descriptorName': 'Algorithms'}, {'majorTopic_YN': 'N', 'descriptorName': 'Semantics'}, {'majorTopic_YN': 'N', 'descriptorName': 'Image Processing, Computer-Assisted', 'meshQualifierList': OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'MT'), ('qualifierName', 'methods'), ('majorTopic_YN', 'N')]))])}, {'majorTopic_YN': 'Y', 'descriptorName': 'Plant Weeds'}, {'majorTopic_YN': 'Y', 'descriptorName': 'Seedlings'}, {'majorTopic_YN': 'N', 'descriptorName': 'Neural Networks, Computer'}]}</td>
+      <td>{'subset': {'code': 'IM', 'name': 'Index Medicus'}}</td>
+      <td>{'fullTextUrl': [{'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Unpaywall', 'url': 'https://www.nature.com/articles/s41598-024-61981-9.pdf'}, {'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1038/s41598-024-61981-9'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC11136954'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC11136954?pdf=render'}]}</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+      <td>0</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+      <td>cc by</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>{'accessionType': 'doi'}</td>
+      <td>2024-05-29</td>
+      <td>2024-05-29</td>
+      <td>2024-05-30</td>
+      <td>2024-06-03</td>
+      <td>2024-06-01</td>
+      <td>2024-05-29</td>
+      <td>2024-05-29</td>
+    </tr>
+  </tbody>
+</table><script type="text/javascript">$(document).ready(function(){$('table').DataTable({
+      "pageLength": 20
+      });});</script>
+      </body>
+    </html>
+    

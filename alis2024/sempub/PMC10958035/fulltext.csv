@@ -1,0 +1,49 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,38514692
+source,MED
+pmid,38514692
+pmcid,PMC10958035
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC10958035')])"
+doi,10.1038/s41598-024-55612-6
+title,BSI-MVS: multi-view stereo network with bidirectional semantic information.
+authorString,"Jia R, Yu J, Hu Z, Yuan F."
+authorList,"OrderedDict([('author', [OrderedDict([('fullName', 'Jia R'), ('firstName', 'Ruiming'), ('lastName', 'Jia'), ('initials', 'R'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'School of Information Science and Technology, North China University of Technology, Beijing, 100144, China.')]))]))]), OrderedDict([('fullName', 'Yu J'), ('firstName', 'Jun'), ('lastName', 'Yu'), ('initials', 'J'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'School of Information Science and Technology, North China University of Technology, Beijing, 100144, China.')]))]))]), OrderedDict([('fullName', 'Hu Z'), ('firstName', 'Zhenghui'), ('lastName', 'Hu'), ('initials', 'Z'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Hangzhou Innovation Institute, Beihang University, Hangzhou, 310051, China.')]))]))]), OrderedDict([('fullName', 'Yuan F'), ('firstName', 'Fei'), ('lastName', 'Yuan'), ('initials', 'F'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Institute of Information Engineering, Chinese Academy of Sciences, Beijing, 10085, China. yuanfei@iie.ac.cn.')]))]))])])])"
+journalInfo,"OrderedDict([('issue', '1'), ('volume', '14'), ('journalIssueId', '3724758'), ('dateOfPublication', '2024 Mar'), ('monthOfPublication', '3'), ('yearOfPublication', '2024'), ('printPublicationDate', '2024-03-01'), ('journal', OrderedDict([('title', 'Scientific reports'), ('ISOAbbreviation', 'Sci Rep'), ('medlineAbbreviation', 'Sci Rep'), ('NLMid', '101563288'), ('ISSN', '2045-2322'), ('ESSN', '2045-2322')]))])"
+pubYear,2024
+pageInfo,6766
+abstractText,"The basic principle of multi-view stereo (MVS) is to perform 3D reconstruction by extracting depth information from multiple views. Most current SOTA MVS networks are based on Vision Transformer, which usually means expensive computational complexity. To reduce computational complexity and improve depth map accuracy, we propose a MVS network with Bidirectional Semantic Information (BSI-MVS). Firstly, we design a Multi-Level Spatial Pyramid module to generate multiple layers of feature map for extracting multi-scale information. Then we propose a 2D Bidirectional-LSTM module to capture bidirectional semantic information at different time steps in the horizontal and vertical directions, which contains abundant depth information. Finally, cost volumes are built based on various levels of feature maps to optimize the final depth map. We experiment on the DTU and BlendedMVS datasets. The result shows that our network, in terms of overall metrics, surpasses TransMVSNet, CasMVSNet, CVP-MVSNet, and AACVP-MVSNet respectively by 17.84%, 36.42%, 14.96%, and 4.86%, which also shows a noticeable performance enhancement in objective metrics and visualizations."
+affiliation,"School of Information Science and Technology, North China University of Technology, Beijing, 100144, China."
+publicationStatus,epublish
+language,eng
+pubModel,Electronic
+pubTypeList,"OrderedDict([('pubType', ['research-article', 'Journal Article'])])"
+grantsList,"OrderedDict([('grant', [OrderedDict([('grantId', '2020YFC0832503'), ('agency', 'Anhua Zheng'), ('orderIn', '0')]), OrderedDict([('grantId', '2020-Y3-A-014'), ('agency', 'Zhenghui Hu'), ('orderIn', '0')])])])"
+keywordList,"OrderedDict([('keyword', ['3D reconstruction', 'Transformer', 'Multi-view Stereo', 'Bidirectional-lstm'])])"
+subsetList,"OrderedDict([('subset', OrderedDict([('code', 'IM'), ('name', 'Index Medicus')]))])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Unpaywall'), ('url', 'https://www.nature.com/articles/s41598-024-55612-6.pdf')]), OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.1038/s41598-024-55612-6')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10958035')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10958035?pdf=render')])])])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,N
+citedByCount,0
+hasData,N
+hasReferences,Y
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,N
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCreation,2024-03-22
+firstIndexDate,2024-03-22
+fullTextReceivedDate,2024-03-25
+dateOfRevision,2024-03-24
+electronicPublicationDate,2024-03-21
+firstPublicationDate,2024-03-21

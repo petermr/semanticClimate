@@ -1,0 +1,51 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,19381256
+source,MED
+pmid,19381256
+pmcid,PMC2663789
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC2663789')])"
+doi,10.1371/journal.pcbi.1000361
+title,Adventures in semantic publishing: exemplar semantic enhancements of a research article.
+authorString,"Shotton D, Portwin K, Klyne G, Miles A."
+authorList,"OrderedDict([('author', [OrderedDict([('fullName', 'Shotton D'), ('firstName', 'David'), ('lastName', 'Shotton'), ('initials', 'D'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-5506-523X')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Image Bioinformatics Research Group, Department of Zoology, University of Oxford, Oxford, United Kingdom. david.shotton@zoo.ox.ac.uk')]))]))]), OrderedDict([('fullName', 'Portwin K'), ('firstName', 'Katie'), ('lastName', 'Portwin'), ('initials', 'K')]), OrderedDict([('fullName', 'Klyne G'), ('firstName', 'Graham'), ('lastName', 'Klyne'), ('initials', 'G')]), OrderedDict([('fullName', 'Miles A'), ('firstName', 'Alistair'), ('lastName', 'Miles'), ('initials', 'A'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-9018-4680')]))])])])"
+authorIdList,"OrderedDict([('authorId', [OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-5506-523X')]), OrderedDict([('@type', 'ORCID'), ('#text', '0000-0001-9018-4680')]), OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-9176-975X')])])])"
+dataLinksTagsList,"OrderedDict([('dataLinkstag', ['altmetrics', 'supporting_data', 'wikipedia'])])"
+journalInfo,"OrderedDict([('issue', '4'), ('volume', '5'), ('journalIssueId', '1613375'), ('dateOfPublication', '2009 Apr'), ('monthOfPublication', '4'), ('yearOfPublication', '2009'), ('printPublicationDate', '2009-04-01'), ('journal', OrderedDict([('title', 'PLoS computational biology'), ('ISOAbbreviation', 'PLoS Comput Biol'), ('medlineAbbreviation', 'PLoS Comput Biol'), ('NLMid', '101238922'), ('ISSN', '1553-734X'), ('ESSN', '1553-7358')]))])"
+pubYear,2009
+pageInfo,e1000361
+abstractText,"Scientific innovation depends on finding, integrating, and re-using the products of previous research. Here we explore how recent developments in Web technology, particularly those related to the publication of data and metadata, might assist that process by providing semantic enhancements to journal articles within the mainstream process of scholarly journal publishing. We exemplify this by describing semantic enhancements we have made to a recent biomedical research article taken from PLoS Neglected Tropical Diseases, providing enrichment to its content and increased access to datasets within it. These semantic enhancements include provision of live DOIs and hyperlinks; semantic markup of textual terms, with links to relevant third-party information resources; interactive figures; a re-orderable reference list; a document summary containing a study summary, a tag cloud, and a citation analysis; and two novel types of semantic enrichment: the first, a Supporting Claims Tooltip to permit ""Citations in Context"", and the second, Tag Trees that bring together semantically related terms. In addition, we have published downloadable spreadsheets containing data from within tables and figures, have enriched these with provenance information, and have demonstrated various types of data fusion (mashups) with results from other research articles and with Google Maps. We have also published machine-readable RDF metadata both about the article and about the references it cites, for which we developed a Citation Typing Ontology, CiTO (http://purl.org/net/cito/). The enhanced article, which is available at http://dx.doi.org/10.1371/journal.pntd.0000228.x001, presents a compelling existence proof of the possibilities of semantic publication. We hope the showcase of examples and ideas it contains, described in this paper, will excite the imaginations of researchers and publishers, stimulating them to explore the possibilities of semantic publishing for their own research articles, and thereby break down present barriers to the discovery and re-use of information within traditional modes of scholarly communication."
+affiliation,"Image Bioinformatics Research Group, Department of Zoology, University of Oxford, Oxford, United Kingdom. david.shotton@zoo.ox.ac.uk"
+publicationStatus,ppublish
+language,eng
+pubModel,Print-Electronic
+pubTypeList,"OrderedDict([('pubType', ['review-article', 'Journal Article'])])"
+meshHeadingList,"OrderedDict([('meshHeading', [OrderedDict([('majorTopic_YN', 'N'), ('descriptorName', 'Information Dissemination'), ('meshQualifierList', OrderedDict([('meshQualifier', OrderedDict([('abbreviation', 'MT'), ('qualifierName', 'methods'), ('majorTopic_YN', 'Y')]))]))]), OrderedDict([('majorTopic_YN', 'Y'), ('descriptorName', 'Research Design')]), OrderedDict([('majorTopic_YN', 'Y'), ('descriptorName', 'Writing')]), OrderedDict([('majorTopic_YN', 'Y'), ('descriptorName', 'Semantics')]), OrderedDict([('majorTopic_YN', 'Y'), ('descriptorName', 'Natural Language Processing')]), OrderedDict([('majorTopic_YN', 'Y'), ('descriptorName', 'Publishing')]), OrderedDict([('majorTopic_YN', 'Y'), ('descriptorName', 'Periodicals as Topic')])])])"
+subsetList,"OrderedDict([('subset', OrderedDict([('code', 'IM'), ('name', 'Index Medicus')]))])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Unpaywall'), ('url', 'https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1000361&type=printable')]), OrderedDict([('availability', 'Free'), ('availabilityCode', 'F'), ('documentStyle', 'pdf'), ('site', 'PubMedCentral'), ('url', 'https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/19381256/pdf/?tool=EBI')]), OrderedDict([('availability', 'Free'), ('availabilityCode', 'F'), ('documentStyle', 'html'), ('site', 'PubMedCentral'), ('url', 'https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/19381256/?tool=EBI')]), OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.1371/journal.pcbi.1000361')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC2663789')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC2663789?pdf=render')])])])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,Y
+hasPDF,Y
+hasBook,N
+hasSuppl,Y
+citedByCount,24
+hasData,Y
+hasReferences,Y
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,Y
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCompletion,2009-06-10
+dateOfCreation,2009-04-22
+firstIndexDate,2009-12-23
+fullTextReceivedDate,2020-07-12
+dateOfRevision,2024-03-23
+electronicPublicationDate,2009-04-17
+firstPublicationDate,2009-04-17

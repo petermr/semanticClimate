@@ -1,0 +1,49 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,38139504
+source,MED
+pmid,38139504
+pmcid,PMC10747896
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC10747896')])"
+doi,10.3390/s23249652
+title,A Privacy-Preserving Trajectory Publishing Method Based on Multi-Dimensional Sub-Trajectory Similarities.
+authorString,"Shen H, Wang Y, Zhang M."
+authorList,"OrderedDict([('author', [OrderedDict([('fullName', 'Shen H'), ('firstName', 'Hua'), ('lastName', 'Shen'), ('initials', 'H'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'School of Computer Science, Hubei University of Technology, Wuhan 430068, China.')]))]))]), OrderedDict([('fullName', 'Wang Y'), ('firstName', 'Yu'), ('lastName', 'Wang'), ('initials', 'Y'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'School of Computer Science, Hubei University of Technology, Wuhan 430068, China.')]))]))]), OrderedDict([('fullName', 'Zhang M'), ('firstName', 'Mingwu'), ('lastName', 'Zhang'), ('initials', 'M'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'School of Computer Science, Hubei University of Technology, Wuhan 430068, China.')]))]))])])])"
+journalInfo,"OrderedDict([('issue', '24'), ('volume', '23'), ('journalIssueId', '3685468'), ('dateOfPublication', '2023 Dec'), ('monthOfPublication', '12'), ('yearOfPublication', '2023'), ('printPublicationDate', '2023-12-01'), ('journal', OrderedDict([('title', 'Sensors (Basel, Switzerland)'), ('ISOAbbreviation', 'Sensors (Basel)'), ('medlineAbbreviation', 'Sensors (Basel)'), ('NLMid', '101204366'), ('ISSN', '1424-8220'), ('ESSN', '1424-8220')]))])"
+pubYear,2023
+pageInfo,9652
+abstractText,"With the popularity of location services and the widespread use of trajectory data, trajectory privacy protection has become a popular research area. <i>k</i>-anonymity technology is a common method for achieving privacy-preserved trajectory publishing. When constructing virtual trajectories, most existing trajectory <i>k</i>-anonymity methods just consider point similarity, which results in a large dummy trajectory space. Suppose there are <i>n</i> similar point sets, each consisting of <i>m</i> points. The size of the space is then mn. Furthermore, to choose suitable <i>k</i>- 1 dummy trajectories for a given real trajectory, these methods need to evaluate the similarity between each trajectory in the space and the real trajectory, leading to a large performance overhead. To address these challenges, this paper proposes a <i>k</i>-anonymity trajectory privacy protection method based on the similarity of sub-trajectories. This method not only considers the multidimensional similarity of points, but also synthetically considers the area between the historic sub-trajectories and the real sub-trajectories to more fully describe the similarity between sub-trajectories. By quantifying the area enclosed by sub-trajectories, we can more accurately capture the spatial relationship between trajectories. Finally, our approach generates k-1 dummy trajectories that are indistinguishable from real trajectories, effectively achieving <i>k</i>-anonymity for a given trajectory. Furthermore, our proposed method utilizes real historic sub-trajectories to generate dummy trajectories, making them more authentic and providing better privacy protection for real trajectories. In comparison to other frequently employed trajectory privacy protection methods, our method has a better privacy protection effect, higher data quality, and better performance."
+affiliation,"School of Computer Science, Hubei University of Technology, Wuhan 430068, China."
+publicationStatus,epublish
+language,eng
+pubModel,Electronic
+pubTypeList,"OrderedDict([('pubType', ['research-article', 'Journal Article'])])"
+grantsList,"OrderedDict([('grant', [OrderedDict([('grantId', '2019JJD170020'), ('agency', 'Natural Science Foundation of Guangxi Province'), ('orderIn', '0')]), OrderedDict([('grantId', 'XJ2021000901'), ('agency', 'Geen Industry Technology Leading Program of Hubei University of Technology'), ('orderIn', '0')]), OrderedDict([('grantId', '61702168, 62072134, U2001205'), ('agency', 'National Natural Science Foundation of China'), ('orderIn', '0')])])])"
+keywordList,"OrderedDict([('keyword', ['K-anonymity', 'Privacy Preservation', 'Trajectory Privacy', 'Trajectory Publishing'])])"
+subsetList,"OrderedDict([('subset', OrderedDict([('code', 'IM'), ('name', 'Index Medicus')]))])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.3390/s23249652')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10747896')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC10747896?pdf=render')])])])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,N
+citedByCount,0
+hasData,N
+hasReferences,Y
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,N
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCreation,2023-12-23
+firstIndexDate,2023-12-24
+fullTextReceivedDate,2024-01-03
+dateOfRevision,2023-12-25
+electronicPublicationDate,2023-12-06
+firstPublicationDate,2023-12-06

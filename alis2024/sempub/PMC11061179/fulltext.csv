@@ -1,0 +1,52 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,38688949
+source,MED
+pmid,38688949
+pmcid,PMC11061179
+fullTextIdList,"OrderedDict([('fullTextId', 'PMC11061179')])"
+doi,10.1038/s41597-024-03169-4
+title,Semantic integration of diverse data in materials science: Assessing Orowan strengthening.
+authorString,"Bayerlein B, Schilling M, von Hartrott P, Waitelonis J."
+authorList,"OrderedDict([('author', [OrderedDict([('fullName', 'Bayerlein B'), ('firstName', 'Bernd'), ('lastName', 'Bayerlein'), ('initials', 'B'), ('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-3717-7104')])), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Bundesanstalt für Materialforschung- und prüfung (BAM), Unter den Eichen 87, Berlin, 12205, Germany. bernd.bayerlein@bam.de.')]))]))]), OrderedDict([('fullName', 'Schilling M'), ('firstName', 'Markus'), ('lastName', 'Schilling'), ('initials', 'M'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Bundesanstalt für Materialforschung- und prüfung (BAM), Unter den Eichen 87, Berlin, 12205, Germany.')]))]))]), OrderedDict([('fullName', 'von Hartrott P'), ('firstName', 'Philipp'), ('lastName', 'von Hartrott'), ('initials', 'P'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Fraunhofer Institute for Mechanics of Materials IWM, Wöhlerstrasse 11, Freiburg, 79108, Germany.')]))]))]), OrderedDict([('fullName', 'Waitelonis J'), ('firstName', 'Jörg'), ('lastName', 'Waitelonis'), ('initials', 'J'), ('authorAffiliationDetailsList', OrderedDict([('authorAffiliation', OrderedDict([('affiliation', 'Leibniz Institute for Information Infrastructure (FIZ Karlsruhe), Hermann-von-Helmholtz-Platz 1, Eggenstein-Leopoldshafen, 76344, Germany.')]))]))])])])"
+authorIdList,"OrderedDict([('authorId', OrderedDict([('@type', 'ORCID'), ('#text', '0000-0002-3717-7104')]))])"
+dataLinksTagsList,"OrderedDict([('dataLinkstag', 'supporting_data')])"
+journalInfo,"OrderedDict([('issue', '1'), ('volume', '11'), ('journalIssueId', '3749411'), ('dateOfPublication', '2024 Apr'), ('monthOfPublication', '4'), ('yearOfPublication', '2024'), ('printPublicationDate', '2024-04-01'), ('journal', OrderedDict([('title', 'Scientific data'), ('ISOAbbreviation', 'Sci Data'), ('medlineAbbreviation', 'Sci Data'), ('NLMid', '101640192'), ('ISSN', '2052-4463'), ('ESSN', '2052-4463')]))])"
+pubYear,2024
+pageInfo,434
+abstractText,"This study applies Semantic Web technologies to advance Materials Science and Engineering (MSE) through the integration of diverse datasets. Focusing on a 2000 series age-hardenable aluminum alloy, we correlate mechanical and microstructural properties derived from tensile tests and dark-field transmission electron microscopy across varied aging times. An expandable knowledge graph, constructed using the Tensile Test and Precipitate Geometry Ontologies aligned with the PMD Core Ontology, facilitates this integration. This approach adheres to FAIR principles and enables sophisticated analysis via SPARQL queries, revealing correlations consistent with the Orowan mechanism. The study highlights the potential of semantic data integration in MSE, offering a new approach for data-centric research and enhanced analytical capabilities."
+affiliation,"Bundesanstalt für Materialforschung- und prüfung (BAM), Unter den Eichen 87, Berlin, 12205, Germany. bernd.bayerlein@bam.de."
+publicationStatus,epublish
+language,eng
+pubModel,Electronic
+pubTypeList,"OrderedDict([('pubType', [""Research Support, Non-U.S. Gov't"", 'research-article', 'Dataset', ""Research Support, U.S. Gov't, Non-P.H.S."", 'Journal Article'])])"
+grantsList,"OrderedDict([('grant', [OrderedDict([('grantId', '13XP5094F'), ('agency', 'Bundesministerium für Bildung und Forschung'), ('orderIn', '0')]), OrderedDict([('grantId', '13XP5094E'), ('agency', 'Bundesministerium für Bildung und Forschung (Federal Ministry of Education and Research)'), ('orderIn', '0')]), OrderedDict([('grantId', '13XP5094B'), ('agency', 'Bundesministerium für Bildung und Forschung'), ('orderIn', '0')]), OrderedDict([('grantId', '13XP5094B'), ('agency', 'Bundesministerium für Bildung und Forschung (Federal Ministry of Education and Research)'), ('orderIn', '0')]), OrderedDict([('grantId', '13XP5094E'), ('agency', 'Bundesministerium für Bildung und Forschung'), ('orderIn', '0')]), OrderedDict([('grantId', '13XP5094F'), ('agency', 'Bundesministerium für Bildung und Forschung (Federal Ministry of Education and Research)'), ('orderIn', '0')])])])"
+subsetList,"OrderedDict([('subset', OrderedDict([('code', 'IM'), ('name', 'Index Medicus')]))])"
+fullTextUrlList,"OrderedDict([('fullTextUrl', [OrderedDict([('availability', 'Subscription required'), ('availabilityCode', 'S'), ('documentStyle', 'doi'), ('site', 'DOI'), ('url', 'https://doi.org/10.1038/s41597-024-03169-4')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'html'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC11061179')]), OrderedDict([('availability', 'Open access'), ('availabilityCode', 'OA'), ('documentStyle', 'pdf'), ('site', 'Europe_PMC'), ('url', 'https://europepmc.org/articles/PMC11061179?pdf=render')])])])"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,N
+hasPDF,Y
+hasBook,N
+hasSuppl,N
+citedByCount,0
+hasData,Y
+hasReferences,Y
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,N
+license,cc by
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,Y
+tmAccessionTypeList,"OrderedDict([('accessionType', 'doi')])"
+dateOfCompletion,2024-04-30
+dateOfCreation,2024-04-30
+firstIndexDate,2024-05-01
+fullTextReceivedDate,2024-05-04
+dateOfRevision,2024-05-03
+electronicPublicationDate,2024-04-30
+firstPublicationDate,2024-04-30
