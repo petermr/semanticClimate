@@ -1,0 +1,43 @@
+digraph D {
+
+  node [shape=record]
+  
+  t0 [label="Phytosterols"]
+  t1 [label="Triterpenoids"]
+  t2 [label="Squalene"]
+  t3 [label="Farnasyl diphosphate"]
+  t4 [label="Sesquiterpenes"]
+  t5 [label="Saponins"]
+#  t6 [label="2X"]
+  t7 [label="Geranyl diphosphate"]
+  t8 [label="Monoterpenes"]
+#  t9 [label="FPP synthase"]
+#  t10 [label="GGPP synthase"]
+  t11 [label="Geranylgeranyl diphosphate"]
+  t12 [label="Diterpenes"]
+#  t13 [label="+PP"]
+  t14 [label="Polyterpenes"]
+  t15 [label="Isopentenyl diphosphate IPP"]
+  t16 [label="Dimethylallyl diphosphate DMAPP"] 
+  t17 [label="Hemiterpenes"]
+  t18 [label="Prenylated metabolites"]
+  
+  
+    t15 -> t7 [label="head tail"]
+    t15 -> t16 [label="Isomerase (?)"]
+    t16 -> t15 [label="Isomerase (?)"]
+	t16 -> t7 [label="GPP synthase"]
+	t16 -> t17
+	t16 -> t18
+	t1 -> t0
+	t2 -> t1
+	t2 -> t5
+	t3 -> t2 [label="2X"]
+	t7 -> t8
+	t7 -> t3 [label="FPP synthase + IPP"]
+	t3 -> t4
+	t3 -> t11 [label="GGPP synthase + IPP"]
+	t11 -> t12
+	t11 -> t14 [label="(+PP)"]
+
+}

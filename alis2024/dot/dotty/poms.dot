@@ -1,0 +1,14 @@
+digraph cmpom {
+"org.contentmine/svg/1.0.7" -> "org.contentmine/euclid/2.0.5"
+"org.contentmine/html/2.0.7" -> "org.contentmine/svg/1.0.7"
+"org.contentmine/imageanalysis/1.0.4" -> "org.contentmine/html/2.0.7"
+"org.contentmine/diagramanalyzer/0.3.6" -> "org.contentmine/imageanalysis/1.0.4"
+"org.contentmine/diagramanalyzer/0.3.6" -> "org.contentmine/cproject/0.3.8"
+"org.contentmine/pdf2svg/2.0.6" -> "org.contentmine/html/2.0.7"
+"org.contentmine/svg2xml/2.0.8" -> "org.contentmine/pdf2svg/2.0.6"
+"org.contentmine/cproject/0.3.8" -> "org.contentmine/svg2xml/2.0.8"
+"org.contentmine/norma/0.3.8" -> "org.contentmine/cproject/0.3.8"
+"org.contentmine/norma/0.3.8" -> "org.contentmine/imageanalysis/1.0.4"
+"org.contentmine/ami2/0.3.6" -> "org.contentmine/norma/0.3.8"
+"org.contentmine/ami2/0.3.6" -> "org.contentmine/diagramanalyzer/0.3.6"
+}

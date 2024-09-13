@@ -1,0 +1,15 @@
+digraph semantic {
+
+"semantic" [shape="ellipse"]
+"filtered" [shape="ellipse"]
+"semantic" [shape="ellipse"]
+
+	subgraph dicts {
+		label="dicts" color="cyan" penwidth="3";
+		"dict1" [shape="ellipse"]
+		"dict2" [shape="ellipse"]
+	}
+	
+	"dict1" -> "semantic"
+	"dict2" -> "semantic"
+}

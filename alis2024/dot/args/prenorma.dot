@@ -1,0 +1,25 @@
+digraph prenorma {
+"pdf" [label="pdf", style="filled", color="yellow"]
+"png" [label="png", style="filled", color="yellow"]
+"svg" [label="svg", style="filled", color="yellow"]
+
+"pdf.svg" [label="pdf2svg-output"];
+"svg2xml.svg" [label="svg2xml SVG"];
+"fulltext.html" [label="structured-HTML", style="filled", color="pink"];
+"diagrams.svg" [label="structured SVG diagrams", style="filled", color="pink"];
+
+"png.pixels" [label="pixels"];
+
+"pdf" -> "pdf.svg" [label="pdf2svg"];
+"pdf.svg" -> "svg2xml.svg" [label="svg2xml"];
+"pdf.svg" -> "fulltext.html" [label="svg2xml"];
+
+"png" -> "png.pixels" [label="imageanal"];
+"png.pixels" -> "png.pixels.text.svg"  [label="javaocr"]
+"png" -> "png.pixels.text.svg"  [label="tesseract"]
+"png.pixels.text.svg" -> "diagrams.svg" [label="diagramanal"]
+"png.pixels" -> "diagrams.svg"  [label="diagramanal"]
+// "png.diagrams.svg" -> "diagrams.svg" [label="svgbuilder"]
+"svg2xml.svg" -> "diagrams.svg" [label="svgbuilder"]
+"svg" -> "diagrams.svg"  [label="svgbuilder"]
+}

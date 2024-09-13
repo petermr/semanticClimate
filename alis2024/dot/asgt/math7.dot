@@ -1,0 +1,21 @@
+digraph metabolism {
+"C_TOT" -> "C_I"
+"C_I" -> "C_C" [id="escape"]
+"C_C" -> "CB_C"
+"C_C" -> "V_C"
+"C_C" -> "P_C"
+"CB_C" -> "CB_NPC"
+"CB_NPC" -> "CB_N"
+"CB_N" -> "C_N"
+"C_N" -> "V_N"
+"C_N" -> "P_N"
+"P_N" -> "Protein"
+"V_C" -> "V?"
+"P_C" -> "PB_C"
+"P_C" -> "X_P"
+"X_P" -> "X?"
+"PB_C" -> "PB_NPC"
+"PB_NPC" -> "PB_N"
+"PB_N" -> "P_N"
+"VB_N" -> "V_N"
+}

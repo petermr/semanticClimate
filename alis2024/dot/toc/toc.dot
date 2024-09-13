@@ -1,0 +1,12 @@
+digraph norma {
+graph [nodesep=0.4 ranksep=0.7] 
+
+"ranganathan"
+"climate"
+"interns"
+"work_in_progress"
+"indexing_identifiers"
+"legacy2semantic"
+"ontologies"
+
+}

@@ -1,0 +1,64 @@
+digraph amiplugins {
+
+"s.html" [label="semantic.html", style="filled", color="yellow"];
+"txt" [label="text", style="filled", color="yellow"];
+"png" [label="image", style="filled", color="yellow"];
+"svg" [label="svg", style="filled", color="yellow"];
+
+"summary" [label="summary", style="filled", color="lightgreen"]
+"entityRefs" [label="entityRefs", style="filled", color="lightgreen"]
+"data" [label="dataObjects", style="filled", color="lightgreen"]
+"object" [label="domainObject", style="filled", color="lightgreen"]
+
+"png" -> "svg" [label="diagramAnalyzer"];
+
+"bow" [label="bagOfWords", style="filled", color="cyan"]
+"txt" -> "bow" [style="bold"];
+"s.html" -> "bow" [style="bold"];
+"bow" -> "summary"
+
+"ids" [label="identifiers", style="filled", color="cyan"]
+"txt" -> "ids" [style="bold"];
+"s.html" -> "ids" [style="bold"];
+"svg" -> "ids";
+"ids" -> "entityRefs"
+
+"gene" [label="gene", style="filled", color="cyan"]
+"s.html" -> "gene" [style="bold"];
+"gene" -> "entityRefs"
+
+"regex" [label="regex", style="filled", color="cyan"]
+"txt" -> "regex";
+"s.html" -> "regex" [style="bold"];
+"regex" -> "entityRefs"
+"regex" -> "data"
+
+"chemstruct" [label="chem structure", style="filled", color="cyan"]
+"svg" -> "chemstruct";
+"chemstruct" -> "object";
+
+"species" [label="species", style="filled", color="cyan"]
+"s.html" -> "species" [style="bold"];
+"txt" -> "species" ;
+"species" -> entityRefs
+
+"sequence" [label="sequence", style="filled", color="cyan"]
+"s.html" -> "sequence" [style="bold"];
+"sequence" -> "object"
+
+"compounds" [label="compounds", style="filled", color="cyan"]
+"s.html" -> "compounds";
+"txt" -> "compounds";
+"compounds" -> {"entityRefs" "object"}
+
+"reactions" [label="reactions", style="filled", color="cyan"]
+"s.html" -> "reactions";
+"svg" -> "reactions" ;
+"reactions" -> {"object"}
+
+"phylo" [label="phylogenetic trees", style="filled", color="cyan"]
+"svg" -> "phylo" [style="bold"];
+"phylo" -> {"object"}
+
+}
+
