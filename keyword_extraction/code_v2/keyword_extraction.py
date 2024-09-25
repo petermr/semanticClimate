@@ -27,10 +27,12 @@ class KeyphraseExtractionPipeline(TokenClassificationPipeline):
         )
         return np.unique([result.get("word").strip() for result in results])
 
-# 
+
+#
 class KeywordExtraction():
     def __init__(self, textfile, html_path, saving_path):
         self.text = []
+        self.keyphrases = []
         self.textfile = textfile
         self.html_path = html_path
         self.saving_path = saving_path
@@ -40,37 +42,33 @@ class KeywordExtraction():
         """
 
     def read_from_text_file(self):
-       with open(self.textfile) as file:
+        with open(self.textfile, encoding="utf-8") as file:
             text = file.readlines()
             # print(text[0])
             self.text = text
 
-
-
-
     def extract_keywords(self):
         self.read_from_text_file()
-        self.keyphrases = []
+
         model_name = "ml6team/keyphrase-extraction-kbir-inspec"
         for line in tqdm(self.text):
-            #print(line) 
+            # print(line)
 
             extractor = KeyphraseExtractionPipeline(model=model_name)
             keyphrases = extractor(line)
             for i in keyphrases:
                 self.keyphrases.append(i)
-            #print(self.keyphrases)
+            # print(self.keyphrases)
         self.keyphrases = [*set(self.keyphrases)]
         print(self.keyphrases)
         # df = pd.DataFrame(self.keyphrases)
         # df.to_csv(self.saving_path + 'keyphrases.csv' ,index=False)
         return self.keyphrases
-    
-    def main():
-        self.read_from_text_file()
+
+    def main(self):
+        self.extract_keywords()
 
 
-        
 if __name__ == "__main__":
     parser = ArgumentParser()
     parser.add_argument('-i', '--html_path',
@@ -92,5 +90,4 @@ if __name__ == "__main__":
     text_file = args.text_file
 
     keyword_extractions = KeywordExtraction(text_file, html_path, saving_path)
-    keyword_extractions.extract_keywords()
- 
+    keyword_extractions.main()
