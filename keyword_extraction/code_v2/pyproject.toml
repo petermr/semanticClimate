@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "keyword-extraction"
+version = "0.1.0"
+description = "A tool to extract keywords from a wall of text"
+authors = ["karthik30122001 <karthikeyan.vpani@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.8.10"
+tqdm = "^4.66.5"
+argparse = "^1.4.0"
+transformers = "^4.45.1"
+torch = "^2.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
