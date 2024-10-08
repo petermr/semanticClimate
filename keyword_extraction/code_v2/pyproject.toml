@@ -9,7 +9,7 @@ readme = "README.md"
 python = "3.8.10"
 tqdm = "^4.66.5"
 argparse = "^1.4.0"
-transformers = "^4.45.1"
+transformers = "4.25.1"
 torch = "^2.4.1"
 
 

@@ -1,4 +1,4 @@
-# import pandas as pd
+import pandas as pd
 import os
 from tqdm import tqdm
 from argparse import ArgumentParser
@@ -31,16 +31,36 @@ class KeyphraseExtractionPipeline(TokenClassificationPipeline):
 
 #
 class KeywordExtraction():
-    def __init__(self, textfile, html_path, saving_path):
+    def __init__(self, textfile="", html_path="", saving_path=""):
         self.text = []
         self.keyphrases = []
-        self.textfile = textfile
+
+        #Check for text file
+        if textfile.endswith(".txt"):
+            self.textfile = textfile
+        else:
+            raise ValueError('Not a text file')
+        
+        # Check for HTML file
+        # if html_path.endswith(".html"):
         self.html_path = html_path
-        self.saving_path = saving_path
+        # else:
+            # raise ValueError('Not a HTML file')
+        
+        # Check for Saving path
+        if os.path.isdir(saving_path):
+            self.saving_path = saving_path
+        else:
+            raise ValueError('Not a Valid save path')
 
         """
         :@params text: List of string variables
+        :@params keyphrases: List of keyphrases
+        :@params textfile: Path to text file
+        :@params
         """
+
+    
 
     def read_from_text_file(self):
         with open(self.textfile, encoding="utf-8") as file:
@@ -52,18 +72,19 @@ class KeywordExtraction():
         self.read_from_text_file()
 
         model_name = "ml6team/keyphrase-extraction-kbir-inspec"
+        extractor = KeyphraseExtractionPipeline(model=model_name)
+
         for line in tqdm(self.text):
             # print(line)
 
-            extractor = KeyphraseExtractionPipeline(model=model_name)
             keyphrases = extractor(line)
             for i in keyphrases:
                 self.keyphrases.append(i)
             # print(self.keyphrases)
         self.keyphrases = [*set(self.keyphrases)]
         print(self.keyphrases)
-        # df = pd.DataFrame(self.keyphrases)
-        # df.to_csv(self.saving_path + 'keyphrases.csv' ,index=False)
+        df = pd.DataFrame(self.keyphrases)
+        df.to_csv(self.saving_path + 'keyphrases.csv' ,index=False)
         return self.keyphrases
 
     def main(self):
