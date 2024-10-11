@@ -1,3 +1,4 @@
+from typing import Counter
 import pandas as pd
 import os
 from tqdm import tqdm
@@ -60,7 +61,10 @@ class KeywordExtraction():
         :@params
         """
 
-    
+    def extract_from_html(self):
+        with open("./resources/html_with_ids.html") as file:
+            pass
+        
 
     def read_from_text_file(self):
         with open(self.textfile, encoding="utf-8") as file:
@@ -81,8 +85,10 @@ class KeywordExtraction():
             for i in keyphrases:
                 self.keyphrases.append(i)
             # print(self.keyphrases)
+        self.keyphrase_counts = Counter(self.keyphrases)
         self.keyphrases = [*set(self.keyphrases)]
-        print(self.keyphrases)
+
+        print(self.keyphrase_counts)
         df = pd.DataFrame(self.keyphrases)
         df.to_csv(self.saving_path + 'keyphrases.csv' ,index=False)
         return self.keyphrases

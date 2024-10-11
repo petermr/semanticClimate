@@ -3,3 +3,4 @@
 .pytest_cache
 ,vscode
 test/__pycache__
+__pycache__/*
